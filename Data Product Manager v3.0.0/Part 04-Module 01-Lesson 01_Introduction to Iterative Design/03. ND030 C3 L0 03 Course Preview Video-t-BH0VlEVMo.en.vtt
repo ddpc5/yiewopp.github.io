@@ -1,0 +1,133 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:04.035
+Let me outline what you'll learn in each lesson in this course.
+
+00:00:04.035 --> 00:00:05.895
+In the first lesson,
+
+00:00:05.895 --> 00:00:09.435
+you'll learn about iterative design, its history,
+
+00:00:09.435 --> 00:00:12.464
+and why it is so important to data product managers,
+
+00:00:12.464 --> 00:00:15.300
+will also explore the business stakeholders
+
+00:00:15.300 --> 00:00:17.850
+you'll be working with as a data product manager.
+
+00:00:17.850 --> 00:00:22.170
+Finally, I'll discuss the final project you'll tackle in this course.
+
+00:00:22.170 --> 00:00:27.045
+In lesson 2, you'll learn about key performance indicators or KPIs,
+
+00:00:27.045 --> 00:00:31.455
+including choosing and calculating KPIs for products that are live in field.
+
+00:00:31.455 --> 00:00:34.805
+We'll first learn about KPIs for different business models.
+
+00:00:34.805 --> 00:00:36.890
+Then we'll discuss how to calculate
+
+00:00:36.890 --> 00:00:40.430
+common key performance indicators that measure user acquisition,
+
+00:00:40.430 --> 00:00:43.205
+activation, retention, and revenue.
+
+00:00:43.205 --> 00:00:48.835
+Finally, we'll cover how to ensure you have the data you need to measure your KPIs.
+
+00:00:48.835 --> 00:00:52.955
+In lesson 3, we're going to talk about user conversion bundles,
+
+00:00:52.955 --> 00:00:56.105
+including how to measure user drop-off between steps,
+
+00:00:56.105 --> 00:00:59.080
+and how to visualize funnel drop-off in tableau.
+
+00:00:59.080 --> 00:01:01.220
+By analyzing user funnels,
+
+00:01:01.220 --> 00:01:05.765
+you'll learn one way to reveal potential opportunities for product improvement.
+
+00:01:05.765 --> 00:01:09.020
+Using data to identify areas for improvement is
+
+00:01:09.020 --> 00:01:12.655
+an important step in the cycle of data-driven iterative design.
+
+00:01:12.655 --> 00:01:15.965
+In lesson 4, we'll cover segment analysis,
+
+00:01:15.965 --> 00:01:17.990
+including how to divide users into
+
+00:01:17.990 --> 00:01:21.160
+cohorts or segments that share similar characteristics.
+
+00:01:21.160 --> 00:01:25.660
+How to identify attributes in your data for use in user segment analysis,
+
+00:01:25.660 --> 00:01:30.170
+and how to apply cohorts and segments to funnel and feature usage analysis.
+
+00:01:30.170 --> 00:01:33.455
+By looking at product data broken into user segments,
+
+00:01:33.455 --> 00:01:36.365
+you'll be able to identify opportunities to engage
+
+00:01:36.365 --> 00:01:39.880
+and improve user experience for different types of users.
+
+00:01:39.880 --> 00:01:44.225
+In lesson 5, we'll dive into qualitative and quantitative data,
+
+00:01:44.225 --> 00:01:47.060
+including methods for collecting qualitative data and
+
+00:01:47.060 --> 00:01:50.110
+integrating data into the iterative design process.
+
+00:01:50.110 --> 00:01:52.640
+We'll also discuss using the jobs to be done
+
+00:01:52.640 --> 00:01:55.835
+theory to better understand customer desires.
+
+00:01:55.835 --> 00:02:01.390
+Finally, we'll learn about using the RICE framework to prioritize product improvements.
+
+00:02:01.390 --> 00:02:06.890
+The sixth and final lesson in this course focuses on A/B and multivariate tests,
+
+00:02:06.890 --> 00:02:10.475
+including how to choose an appropriate test for a given situation,
+
+00:02:10.475 --> 00:02:12.770
+how to track data during a test,
+
+00:02:12.770 --> 00:02:16.570
+and how to evaluate a test results for statistical significance.
+
+00:02:16.570 --> 00:02:20.900
+Experiments like A/B and multivariate tests allow product managers
+
+00:02:20.900 --> 00:02:25.204
+to know with confidence whether a new feature results in desired outcomes.
+
+00:02:25.204 --> 00:02:26.990
+Designing and launching tests is
+
+00:02:26.990 --> 00:02:31.140
+an important step in the cycle of data-driven iterative design.
+

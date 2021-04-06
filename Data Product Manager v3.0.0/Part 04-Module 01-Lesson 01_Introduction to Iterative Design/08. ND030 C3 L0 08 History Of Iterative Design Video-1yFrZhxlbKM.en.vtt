@@ -1,0 +1,193 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.885
+According to Victor Basili from the University of Maryland,
+
+00:00:03.885 --> 00:00:07.770
+iterative design can trace its roots to the 1930s when
+
+00:00:07.770 --> 00:00:13.545
+Bell Labs implemented plan-do-study-act cycles of quality improvement.
+
+00:00:13.545 --> 00:00:15.870
+Throughout the past 100 years,
+
+00:00:15.870 --> 00:00:18.780
+different businesses have discovered and taken up methods of
+
+00:00:18.780 --> 00:00:23.310
+iterative design without necessarily naming their practices as such.
+
+00:00:23.310 --> 00:00:28.230
+A major step forward in the expansion of iterative design practices came with
+
+00:00:28.230 --> 00:00:33.135
+the introduction of the spiral development model in the 1980s by Barry Boehm.
+
+00:00:33.135 --> 00:00:36.695
+The spiral development model is a model of developing software.
+
+00:00:36.695 --> 00:00:39.680
+It emphasizes the importance of designing and launching
+
+00:00:39.680 --> 00:00:44.830
+small prototypes before developing and testing a final version of the software.
+
+00:00:44.830 --> 00:00:47.255
+To begin, a software developer,
+
+00:00:47.255 --> 00:00:49.760
+designer or a product manager would need to
+
+00:00:49.760 --> 00:00:52.870
+determine the objectives for any upcoming project.
+
+00:00:52.870 --> 00:00:55.340
+Boehm's model uses a spiral instead of
+
+00:00:55.340 --> 00:00:58.100
+a cycle to emphasize that the level of commitment to
+
+00:00:58.100 --> 00:01:03.655
+any new design should begin small and grow over time as ideas are validated with data.
+
+00:01:03.655 --> 00:01:05.000
+Note in this example,
+
+00:01:05.000 --> 00:01:09.320
+that the different rings in the circle are for Prototype 1, Prototype 2,
+
+00:01:09.320 --> 00:01:15.020
+and operational prototype with actual development including coding and testing,
+
+00:01:15.020 --> 00:01:19.600
+not taking place until the third time around the spiral development model.
+
+00:01:19.600 --> 00:01:23.449
+Every pass through the spiral ends with planning for the next iteration,
+
+00:01:23.449 --> 00:01:26.480
+which then returns the team to the beginning of the cycle where
+
+00:01:26.480 --> 00:01:30.385
+objective identification and further building continues.
+
+00:01:30.385 --> 00:01:33.470
+The modern era of iterative design, however,
+
+00:01:33.470 --> 00:01:36.890
+didn't kick off until the late 1990s when a movement
+
+00:01:36.890 --> 00:01:41.230
+began in the software industry to embrace more agile methods of design.
+
+00:01:41.230 --> 00:01:46.325
+Before agile development, most software was developed in a waterfall style.
+
+00:01:46.325 --> 00:01:48.065
+In the waterfall style,
+
+00:01:48.065 --> 00:01:50.645
+product managers would completely plan out
+
+00:01:50.645 --> 00:01:54.985
+all the details of a feature and document the specific feature needs.
+
+00:01:54.985 --> 00:01:58.040
+Only after all parts of the feature were planned would
+
+00:01:58.040 --> 00:02:01.310
+the design team create all designs and user flows.
+
+00:02:01.310 --> 00:02:04.970
+Finally, the development team will be asked to implement the feature with
+
+00:02:04.970 --> 00:02:08.800
+the exact specifications provided by the product and design team.
+
+00:02:08.800 --> 00:02:11.270
+As each team needed to completely
+
+00:02:11.270 --> 00:02:14.000
+finish their work before the next team could start working,
+
+00:02:14.000 --> 00:02:16.930
+waterfall process took a long time.
+
+00:02:16.930 --> 00:02:19.895
+Because no data was sought during creation,
+
+00:02:19.895 --> 00:02:23.915
+finished products and features often failed to appeal to customers.
+
+00:02:23.915 --> 00:02:29.005
+In the 1990s, software developers started to identify better ways of working.
+
+00:02:29.005 --> 00:02:31.890
+They called this new method, agile development.
+
+00:02:31.890 --> 00:02:36.065
+In 1993, Jeff Sutherland began running Scrum teams,
+
+00:02:36.065 --> 00:02:38.335
+a specific method of agile development.
+
+00:02:38.335 --> 00:02:40.065
+In contrast to waterfall,
+
+00:02:40.065 --> 00:02:44.315
+Scrum emphasizes short periods of development followed by user feedback.
+
+00:02:44.315 --> 00:02:46.685
+With Scrum, features and products are
+
+00:02:46.685 --> 00:02:49.460
+iteratively designed in close connection with customers and
+
+00:02:49.460 --> 00:02:51.950
+potential users so that a finished product
+
+00:02:51.950 --> 00:02:55.000
+evolves naturally out of continuous collaboration.
+
+00:02:55.000 --> 00:03:00.755
+In 2001, thought leaders on this new way of working published the "Agile Manifesto."
+
+00:03:00.755 --> 00:03:03.950
+The manifesto declared that better products result from,
+
+00:03:03.950 --> 00:03:06.050
+among other things, a focus on
+
+00:03:06.050 --> 00:03:09.820
+customer collaboration and the culture that embraces change.
+
+00:03:09.820 --> 00:03:14.285
+As part of the same movement to focus on customer voice in iterative processes,
+
+00:03:14.285 --> 00:03:17.780
+Stanford School of Design began teaching design thinking in
+
+00:03:17.780 --> 00:03:21.580
+2005 as the way to approach technical innovation.
+
+00:03:21.580 --> 00:03:25.355
+Agile development processes, including Scrum and design thinking,
+
+00:03:25.355 --> 00:03:28.495
+are now widely used across the software industry.
+
+00:03:28.495 --> 00:03:32.030
+Indeed, in 2016, the Harvard Business Review
+
+00:03:32.030 --> 00:03:35.480
+reported that the benefits of an iterative design process are so
+
+00:03:35.480 --> 00:03:39.095
+appealing that the use of agile methods has begun to expand
+
+00:03:39.095 --> 00:03:43.800
+outside of software and into other business domains as well.
+

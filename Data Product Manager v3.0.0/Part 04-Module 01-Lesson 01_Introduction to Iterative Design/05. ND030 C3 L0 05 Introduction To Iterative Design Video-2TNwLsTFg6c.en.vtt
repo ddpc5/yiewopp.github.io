@@ -1,0 +1,232 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:01.920
+As data product managers,
+
+00:00:01.920 --> 00:00:03.525
+our work is never done.
+
+00:00:03.525 --> 00:00:05.085
+Once a product is released,
+
+00:00:05.085 --> 00:00:08.070
+we analyze data to understand how a product is
+
+00:00:08.070 --> 00:00:12.900
+performing and to look for opportunities to improve the product and features offered.
+
+00:00:12.900 --> 00:00:15.270
+These findings lead to product updates,
+
+00:00:15.270 --> 00:00:18.805
+which leads to a new wave of analysis and feature design.
+
+00:00:18.805 --> 00:00:24.165
+To iterate is to perform an action repeatedly by repeatedly evaluating,
+
+00:00:24.165 --> 00:00:27.090
+designing, and implementing changes to our product.
+
+00:00:27.090 --> 00:00:30.960
+Good product managers embrace the process of iterative design.
+
+00:00:30.960 --> 00:00:34.325
+By leveraging data during the iterative design process,
+
+00:00:34.325 --> 00:00:38.930
+we can quickly identify the most important areas to focus our attention on during
+
+00:00:38.930 --> 00:00:41.450
+these cycles of iterative design to ensure
+
+00:00:41.450 --> 00:00:44.750
+our product has a largest possible appeal to customers.
+
+00:00:44.750 --> 00:00:48.425
+The classic cycle of iterative design is quite simple.
+
+00:00:48.425 --> 00:00:49.805
+To kick off a cycle,
+
+00:00:49.805 --> 00:00:51.925
+you must design something.
+
+00:00:51.925 --> 00:00:54.290
+In the case of a data product manager,
+
+00:00:54.290 --> 00:00:57.230
+this may be a product or a feature for a product that
+
+00:00:57.230 --> 00:01:01.090
+leverages large amounts of user data to improve the user experience.
+
+00:01:01.090 --> 00:01:05.960
+For example, a data product manager for music playing app might work
+
+00:01:05.960 --> 00:01:11.150
+on creating a feature that recommend similar music to other songs a user has played.
+
+00:01:11.150 --> 00:01:13.250
+After the feature is designed,
+
+00:01:13.250 --> 00:01:16.175
+it can be put in place or implemented.
+
+00:01:16.175 --> 00:01:17.915
+For a data product manager,
+
+00:01:17.915 --> 00:01:22.220
+this can mean creating a prototype to put in front of users for feedback or
+
+00:01:22.220 --> 00:01:27.595
+launching an AB or multivariate test that exposes the new design to a portion of users.
+
+00:01:27.595 --> 00:01:30.350
+Once the new design has been put in front of others,
+
+00:01:30.350 --> 00:01:33.425
+it is time to evaluate the performance of the design.
+
+00:01:33.425 --> 00:01:35.300
+As a data product manager,
+
+00:01:35.300 --> 00:01:37.730
+this may mean analyzing conversion funnels and
+
+00:01:37.730 --> 00:01:41.210
+usage data to look for areas a design can be improved.
+
+00:01:41.210 --> 00:01:45.065
+As data analysis suggest ways that our design can be made stronger,
+
+00:01:45.065 --> 00:01:48.800
+we return to the design stage and begin implementing changes based on
+
+00:01:48.800 --> 00:01:52.790
+our findings and the cycle of iterative design continues.
+
+00:01:52.790 --> 00:01:54.530
+As data product managers,
+
+00:01:54.530 --> 00:01:57.680
+it can be helpful to dig deeper into the design implement
+
+00:01:57.680 --> 00:02:01.465
+evaluate stages by leveraging the steps of design thinking.
+
+00:02:01.465 --> 00:02:03.275
+For a data product manager,
+
+00:02:03.275 --> 00:02:06.050
+the design thinking cycle expands on the cycle
+
+00:02:06.050 --> 00:02:08.930
+of iterative design by laying out three stages and
+
+00:02:08.930 --> 00:02:10.340
+six steps that highlight
+
+00:02:10.340 --> 00:02:14.825
+data-driven best practices for changing or creating features and products.
+
+00:02:14.825 --> 00:02:17.075
+Design thinking has a long history,
+
+00:02:17.075 --> 00:02:19.670
+but the cycle of design thinking became formalized in
+
+00:02:19.670 --> 00:02:22.475
+the 2000s as a Stanford Business School of Design,
+
+00:02:22.475 --> 00:02:27.205
+or D.School, made teaching design thinking a central focus of their programs.
+
+00:02:27.205 --> 00:02:31.580
+The first stage in the cycle of design thinking is understanding users.
+
+00:02:31.580 --> 00:02:36.200
+This includes empathizing with users by researching their wants and needs.
+
+00:02:36.200 --> 00:02:38.660
+This involves analyzing quantitative data
+
+00:02:38.660 --> 00:02:42.040
+as well as talking with customers to gather qualitative data.
+
+00:02:42.040 --> 00:02:43.940
+After the empathize step,
+
+00:02:43.940 --> 00:02:49.775
+the next step is define or combining all research to define a user's problems.
+
+00:02:49.775 --> 00:02:53.045
+After the understand stage comes the explorer stage,
+
+00:02:53.045 --> 00:02:56.809
+which is where different ideas for meeting a user's needs are explored.
+
+00:02:56.809 --> 00:02:59.705
+The first step in explore is ideation,
+
+00:02:59.705 --> 00:03:03.785
+which is when product managers and designers can think broadly and generate
+
+00:03:03.785 --> 00:03:08.155
+a large list of potential ideas they might build to meet the user needs.
+
+00:03:08.155 --> 00:03:10.445
+Once many ideas have been generated,
+
+00:03:10.445 --> 00:03:13.730
+a few that seem like a best fit could be prototyped.
+
+00:03:13.730 --> 00:03:16.100
+Data product managers often prototype
+
+00:03:16.100 --> 00:03:20.560
+very large changes to seek feedback before committing development resources.
+
+00:03:20.560 --> 00:03:24.935
+Then the design thinking cycle enters the materialize phase.
+
+00:03:24.935 --> 00:03:29.365
+The first step in the materialize phase is to test the change.
+
+00:03:29.365 --> 00:03:34.130
+The testing phase may include getting feedback on the prototype from actual users.
+
+00:03:34.130 --> 00:03:36.230
+The testing step can also include running
+
+00:03:36.230 --> 00:03:40.030
+experiments by exposing some live users to the new feature.
+
+00:03:40.030 --> 00:03:44.885
+Finally, after testing the designer feature is implemented for all users,
+
+00:03:44.885 --> 00:03:46.250
+if it was successful.
+
+00:03:46.250 --> 00:03:47.525
+With the feature launched,
+
+00:03:47.525 --> 00:03:50.690
+a product manager will continue to analyze usage data and
+
+00:03:50.690 --> 00:03:54.385
+reach out to customers to find users and areas that can be improved.
+
+00:03:54.385 --> 00:03:56.760
+With this, the cycle begins again.
+
+00:03:56.760 --> 00:03:58.550
+By following this cycle,
+
+00:03:58.550 --> 00:04:00.830
+product managers leverage data to drive
+
+00:04:00.830 --> 00:04:04.710
+the creation of the most appealing product for users.
+
