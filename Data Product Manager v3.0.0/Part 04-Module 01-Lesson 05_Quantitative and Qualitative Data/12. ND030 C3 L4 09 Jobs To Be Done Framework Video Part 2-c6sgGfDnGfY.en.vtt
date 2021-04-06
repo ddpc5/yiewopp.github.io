@@ -1,0 +1,268 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:04.815
+A job map breaks down the steps a customer's taking while trying to get a job done.
+
+00:00:04.815 --> 00:00:07.645
+A good job map is solution-agnostic.
+
+00:00:07.645 --> 00:00:09.525
+That is as much as possible,
+
+00:00:09.525 --> 00:00:12.660
+it should describe what the customer is trying to fulfill,
+
+00:00:12.660 --> 00:00:16.440
+independent of what they are using or doing to get the job done.
+
+00:00:16.440 --> 00:00:21.290
+For example, a job map would not contain a step where users click on a button,
+
+00:00:21.290 --> 00:00:24.450
+because clicking on a button is a specific solution
+
+00:00:24.450 --> 00:00:27.855
+and doesn't describe the ultimate goal the customer is trying to accomplish,
+
+00:00:27.855 --> 00:00:29.430
+when clicking on that button.
+
+00:00:29.430 --> 00:00:32.130
+Instead, a step in the job map might be
+
+00:00:32.130 --> 00:00:35.280
+checking whether the price of a product fits their budget.
+
+00:00:35.280 --> 00:00:38.220
+Job maps offer a way to outline
+
+00:00:38.220 --> 00:00:42.285
+the ideal process flow for the needs each customer is trying to fulfill.
+
+00:00:42.285 --> 00:00:44.095
+By creating a job map,
+
+00:00:44.095 --> 00:00:46.880
+product managers often find ideas and
+
+00:00:46.880 --> 00:00:50.135
+areas for optimization and improvement of a product,
+
+00:00:50.135 --> 00:00:53.510
+as well as opportunities for new products or features that may
+
+00:00:53.510 --> 00:00:57.430
+address the customer's job to be done in a more efficient manner.
+
+00:00:57.430 --> 00:01:00.120
+A job map contains eight steps,
+
+00:01:00.120 --> 00:01:03.170
+each step in the process may reveal opportunities to
+
+00:01:03.170 --> 00:01:07.130
+innovate and improve the solution currently offered by a product.
+
+00:01:07.130 --> 00:01:09.535
+The first step is definition.
+
+00:01:09.535 --> 00:01:12.790
+The define step is where the job executor
+
+00:01:12.790 --> 00:01:17.270
+defines their goals and the resources needed for achieving these goals.
+
+00:01:17.270 --> 00:01:23.110
+For example, a carpenter building a shelf might realize he needs a shorter piece of wood,
+
+00:01:23.110 --> 00:01:26.900
+and that one way to accomplish the goal of having a functional shelf,
+
+00:01:26.900 --> 00:01:29.470
+would be to cut a longer piece of wood.
+
+00:01:29.470 --> 00:01:32.120
+When reviewing this step in a job map,
+
+00:01:32.120 --> 00:01:37.360
+product managers can improve their product by making planning simpler for the user.
+
+00:01:37.360 --> 00:01:40.895
+The second step in the job map is location.
+
+00:01:40.895 --> 00:01:42.395
+In the locate step,
+
+00:01:42.395 --> 00:01:46.295
+a job executor gathers everything they need to accomplish a job,
+
+00:01:46.295 --> 00:01:49.135
+whether physical tools or information.
+
+00:01:49.135 --> 00:01:52.895
+For example, the carpenter in our shelf building example,
+
+00:01:52.895 --> 00:01:54.860
+would need to gather the wood to be cut,
+
+00:01:54.860 --> 00:01:58.375
+a saw, a measuring tape, and safety equipment.
+
+00:01:58.375 --> 00:02:01.715
+A product manager can innovate in this step by making it
+
+00:02:01.715 --> 00:02:05.585
+easier for a user to gather everything they need in one place.
+
+00:02:05.585 --> 00:02:09.035
+The third step in the job map is preparation.
+
+00:02:09.035 --> 00:02:10.580
+During the prepare step,
+
+00:02:10.580 --> 00:02:14.545
+a job executor sets up their environment to be ready to do a job.
+
+00:02:14.545 --> 00:02:17.180
+Think of a data entry worker ensuring
+
+00:02:17.180 --> 00:02:20.030
+their monitor and keyboard are in the right position,
+
+00:02:20.030 --> 00:02:23.540
+so that they can type all day without hurting their neck or back.
+
+00:02:23.540 --> 00:02:27.380
+For example, the carpenter would need to put on safety goggles
+
+00:02:27.380 --> 00:02:31.850
+and ear protection and measure and mark the wood at the proper length for cutting.
+
+00:02:31.850 --> 00:02:34.550
+To make improvements in the prepare step,
+
+00:02:34.550 --> 00:02:37.850
+product managers can reduce the required setup or
+
+00:02:37.850 --> 00:02:41.570
+provide guidance that allows users to prepare more quickly.
+
+00:02:41.570 --> 00:02:45.175
+The fourth step in the job map is the confirm step,
+
+00:02:45.175 --> 00:02:47.900
+confirmation is when a job executor does
+
+00:02:47.900 --> 00:02:50.915
+a final check to make sure they are ready to do a job.
+
+00:02:50.915 --> 00:02:54.200
+For example, the carpenter might double-check the link they
+
+00:02:54.200 --> 00:02:57.790
+measured on the wood fits the length needed for the shelf.
+
+00:02:57.790 --> 00:03:01.610
+Companies can innovate during the confirmation step by giving
+
+00:03:01.610 --> 00:03:05.605
+users easy ways to confirm their readiness for a job to be done.
+
+00:03:05.605 --> 00:03:08.990
+The fifth step in a job map is execution.
+
+00:03:08.990 --> 00:03:14.075
+Execution is the step where a job executor actually begins to carry out a job.
+
+00:03:14.075 --> 00:03:16.715
+For example, the carpenter in our example
+
+00:03:16.715 --> 00:03:19.670
+would begin to cut his piece of wood in this step,
+
+00:03:19.670 --> 00:03:23.360
+a product manager improves the execution step by removing
+
+00:03:23.360 --> 00:03:27.340
+blockers and ensuring their product is intuitive to use.
+
+00:03:27.340 --> 00:03:30.815
+The sixth step in the job map is monitoring.
+
+00:03:30.815 --> 00:03:32.420
+In the monitoring step,
+
+00:03:32.420 --> 00:03:34.880
+the job executor checks to see whether
+
+00:03:34.880 --> 00:03:38.170
+the job they are doing is being successfully carried out.
+
+00:03:38.170 --> 00:03:41.660
+For example, a carpenter will check as he is cutting
+
+00:03:41.660 --> 00:03:45.035
+the wood that it is still lined up to the proper measurement,
+
+00:03:45.035 --> 00:03:48.460
+and that the cut is going straight across the piece of wood.
+
+00:03:48.460 --> 00:03:51.980
+For this step, product managers can innovate by giving
+
+00:03:51.980 --> 00:03:55.370
+users more information about progress towards their goal.
+
+00:03:55.370 --> 00:03:57.515
+The penultimate step in the job map,
+
+00:03:57.515 --> 00:04:00.080
+step 7 is the modification step.
+
+00:04:00.080 --> 00:04:01.565
+In the modify step,
+
+00:04:01.565 --> 00:04:07.040
+a job executor might make changes or adjustments to improve the outcomes of the job.
+
+00:04:07.040 --> 00:04:11.180
+For example, a carpenter might readjust his saw or wood,
+
+00:04:11.180 --> 00:04:13.280
+if he noticed in the monitoring step,
+
+00:04:13.280 --> 00:04:15.580
+that the cut was veering away from straight.
+
+00:04:15.580 --> 00:04:17.630
+To improve a product in this step,
+
+00:04:17.630 --> 00:04:20.210
+a product manager should look to reduce the number of
+
+00:04:20.210 --> 00:04:23.860
+modifications a user has to make when executing a job.
+
+00:04:23.860 --> 00:04:27.960
+Finally, the eighth step in the job map is conclusion.
+
+00:04:27.960 --> 00:04:29.345
+In the conclude step,
+
+00:04:29.345 --> 00:04:32.435
+the job executor finishes executing the job.
+
+00:04:32.435 --> 00:04:37.130
+For example, the carpenter completes his wood cutting and has a smaller piece of wood,
+
+00:04:37.130 --> 00:04:40.420
+which is the correct thing to be used for the shelf he desired.
+
+00:04:40.420 --> 00:04:42.935
+To improve a product in the conclusion step,
+
+00:04:42.935 --> 00:04:47.370
+product managers can decrease the work needed to conclude a job.
+

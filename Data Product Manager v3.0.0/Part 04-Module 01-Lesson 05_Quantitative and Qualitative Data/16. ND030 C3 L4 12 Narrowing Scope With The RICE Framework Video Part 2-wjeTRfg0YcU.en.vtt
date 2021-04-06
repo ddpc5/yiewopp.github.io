@@ -1,0 +1,286 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.910
+The first metric and the RICE framework is
+
+00:00:02.910 --> 00:00:06.660
+calculating the R or reach of a potential feature.
+
+00:00:06.660 --> 00:00:10.110
+Reach refers to the number of people or customers
+
+00:00:10.110 --> 00:00:14.160
+a feature can be expected to be used by in a set time period.
+
+00:00:14.160 --> 00:00:17.655
+Because many companies follow a quarterly planning process,
+
+00:00:17.655 --> 00:00:21.570
+a quarter three months is often used to calculate reach.
+
+00:00:21.570 --> 00:00:23.790
+Yearly reach is also common.
+
+00:00:23.790 --> 00:00:27.585
+As long as the same time period is used in all calculations,
+
+00:00:27.585 --> 00:00:29.685
+the results will be comparable.
+
+00:00:29.685 --> 00:00:32.670
+For example, if a new feature changes
+
+00:00:32.670 --> 00:00:37.140
+a sign-up funnel and about 500 customers enter the sign-up funnel each month,
+
+00:00:37.140 --> 00:00:42.190
+the reach of that feature will be 500 users times three months, or 1500.
+
+00:00:42.190 --> 00:00:45.020
+In another example, if 2,000 users use
+
+00:00:45.020 --> 00:00:48.380
+a certain feature per quarter and that feature would be changed,
+
+00:00:48.380 --> 00:00:53.500
+the reach of the proposed update would be 2,000 for 2,000 customers per quarter.
+
+00:00:53.500 --> 00:00:57.095
+The I in the RICE framework stands for impact.
+
+00:00:57.095 --> 00:01:00.800
+Impact measures the effect a new feature is expected to
+
+00:01:00.800 --> 00:01:05.390
+have on KPI's such as conversion rate or customer satisfaction.
+
+00:01:05.390 --> 00:01:09.410
+Since the exact impact of a feature won't be known to launch,
+
+00:01:09.410 --> 00:01:13.685
+impact scores can simply rank whether the feature is likely to have a huge,
+
+00:01:13.685 --> 00:01:17.365
+medium or low impact on the users who interact with it.
+
+00:01:17.365 --> 00:01:19.425
+For example, in this scale,
+
+00:01:19.425 --> 00:01:20.760
+huge might be three,
+
+00:01:20.760 --> 00:01:22.905
+medium two, and low one.
+
+00:01:22.905 --> 00:01:25.645
+Though different companies may use different scales.
+
+00:01:25.645 --> 00:01:29.150
+An example of the impact metric would be a feature that
+
+00:01:29.150 --> 00:01:32.705
+customers would love and will likely greatly raise conversion.
+
+00:01:32.705 --> 00:01:34.850
+This is potentially a huge impact,
+
+00:01:34.850 --> 00:01:37.160
+so the impact score will be three.
+
+00:01:37.160 --> 00:01:40.790
+In contrast, if you think customers will like the feature,
+
+00:01:40.790 --> 00:01:44.225
+but that it won't have a big impact on bottom-line KPIs,
+
+00:01:44.225 --> 00:01:47.020
+the impact score of the feature would be one.
+
+00:01:47.020 --> 00:01:50.315
+The C in RICE stands for confidence.
+
+00:01:50.315 --> 00:01:54.350
+Confidence describes how sure you are that your estimates are correct.
+
+00:01:54.350 --> 00:01:57.725
+The more data you have about reach impact and effort,
+
+00:01:57.725 --> 00:02:01.285
+the more confident you would be that those RICE metrics are correct.
+
+00:02:01.285 --> 00:02:05.120
+Confidence can be considered on a scale from 100 percent very
+
+00:02:05.120 --> 00:02:09.395
+high confidence to 50 percent low confidence or even lower.
+
+00:02:09.395 --> 00:02:12.410
+An example of estimating confidence level would
+
+00:02:12.410 --> 00:02:15.395
+be a feature you've done extensive research on,
+
+00:02:15.395 --> 00:02:18.995
+including gathering customer feedback and customer usage data
+
+00:02:18.995 --> 00:02:23.380
+and generating a detailed breakdown of required effort from the engineering team.
+
+00:02:23.380 --> 00:02:25.910
+Because you know so much about this feature,
+
+00:02:25.910 --> 00:02:28.250
+you can be confident in your reach, impact,
+
+00:02:28.250 --> 00:02:33.905
+and effort scores therefore give this feature a high, 100 percent confidence.
+
+00:02:33.905 --> 00:02:38.270
+A different example of estimating a confidence level would be if you've done
+
+00:02:38.270 --> 00:02:39.890
+user research and gotten
+
+00:02:39.890 --> 00:02:43.580
+engineering estimates about how difficult that will be to build the feature.
+
+00:02:43.580 --> 00:02:45.770
+But the feature is very new to the product,
+
+00:02:45.770 --> 00:02:47.875
+so quantitative data is limited.
+
+00:02:47.875 --> 00:02:51.185
+You might only have medium confidence in your estimates.
+
+00:02:51.185 --> 00:02:55.405
+Therefore, the feature will get a confidence score of 80 percent or 0.8.
+
+00:02:55.405 --> 00:02:58.530
+The final E in RICE stands for effort.
+
+00:02:58.530 --> 00:03:01.220
+Effort is the amount of time it will take to make
+
+00:03:01.220 --> 00:03:03.890
+a feature go live from design to engineering,
+
+00:03:03.890 --> 00:03:05.635
+to QA and launch.
+
+00:03:05.635 --> 00:03:08.045
+The effort can be measured in person months,
+
+00:03:08.045 --> 00:03:10.850
+or the work one person can do in a month.
+
+00:03:10.850 --> 00:03:14.420
+One person-month means the work one person can do in a month,
+
+00:03:14.420 --> 00:03:19.555
+and two person-months means the work one person can do in two months and so on.
+
+00:03:19.555 --> 00:03:23.870
+An example of an effort measurement would be if a feature would
+
+00:03:23.870 --> 00:03:28.130
+take about two weeks of design work if only one person worked on designing the project,
+
+00:03:28.130 --> 00:03:31.285
+and then an additional six weeks for one person to build.
+
+00:03:31.285 --> 00:03:35.645
+Since this feature would take about eight weeks if only one person worked on it,
+
+00:03:35.645 --> 00:03:39.980
+we can put the effort of this feature at two for two person-months.
+
+00:03:39.980 --> 00:03:42.680
+Another example would be if a feature had
+
+00:03:42.680 --> 00:03:46.220
+no design elements and only required engineering time.
+
+00:03:46.220 --> 00:03:50.975
+If the engineering team estimated one developer could build the feature in one month,
+
+00:03:50.975 --> 00:03:55.040
+the effort score for this feature would be one for one person-month.
+
+00:03:55.040 --> 00:03:57.710
+Once you've gathered the reach, impact,
+
+00:03:57.710 --> 00:03:59.600
+confidence and effort scores,
+
+00:03:59.600 --> 00:04:02.575
+you can calculate the RICE score for a feature.
+
+00:04:02.575 --> 00:04:05.165
+A RICE score is the Reach number,
+
+00:04:05.165 --> 00:04:09.200
+multiply it by the Impact number multiplied by the Confidence number.
+
+00:04:09.200 --> 00:04:12.820
+That product is then divided by the Effort number.
+
+00:04:12.820 --> 00:04:17.809
+For example, if a feature would reach 450 users,
+
+00:04:17.809 --> 00:04:19.370
+have a massive impact,
+
+00:04:19.370 --> 00:04:22.985
+a score of three, and we have high confidence in these estimates,
+
+00:04:22.985 --> 00:04:27.590
+100 percent, and the effort to build a feature will take about two person months.
+
+00:04:27.590 --> 00:04:28.970
+To get the rice score,
+
+00:04:28.970 --> 00:04:32.615
+we'd first multiply the reach by impact by confidence numbers,
+
+00:04:32.615 --> 00:04:37.760
+or 450 times 3 times 1 for a total of 1350.
+
+00:04:37.760 --> 00:04:42.460
+Finally, we divide the product by the effort or two to get the RICE score.
+
+00:04:42.460 --> 00:04:47.535
+In this example, the RICE scored the feature would be 675.
+
+00:04:47.535 --> 00:04:49.565
+By comparing RICE scores,
+
+00:04:49.565 --> 00:04:52.250
+features can be prioritized against one another.
+
+00:04:52.250 --> 00:04:56.915
+The feature with the highest RICE score should be built first according to the framework.
+
+00:04:56.915 --> 00:04:59.630
+Of course, there are many reasons why you
+
+00:04:59.630 --> 00:05:02.320
+might work on a project with a lower score first.
+
+00:05:02.320 --> 00:05:05.540
+One feature may be a dependency for another project,
+
+00:05:05.540 --> 00:05:08.510
+or a feature with a lower RICE score may be required to
+
+00:05:08.510 --> 00:05:12.020
+be built in the next month in order to land a huge customer.
+
+00:05:12.020 --> 00:05:15.830
+The important thing is that with the scoring framework in place,
+
+00:05:15.830 --> 00:05:21.720
+everyone at your company can clearly identify when tradeoffs like this are made.
+

@@ -1,0 +1,76 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:04.845
+In this exercise, you were provided with the reach, impact, confidence,
+
+00:00:04.845 --> 00:00:10.185
+and effort scores for five potential features in a customer relationship management tool.
+
+00:00:10.185 --> 00:00:14.595
+Note that I've converted the stated impact from massive, large,
+
+00:00:14.595 --> 00:00:16.770
+medium, and low to 3,
+
+00:00:16.770 --> 00:00:19.380
+2, 1, or 0.5.
+
+00:00:19.380 --> 00:00:24.745
+The confidence percentages provided have also been converted to decimals.
+
+00:00:24.745 --> 00:00:27.810
+To calculate the RICE score for each feature,
+
+00:00:27.810 --> 00:00:30.185
+multiply the reach, impact,
+
+00:00:30.185 --> 00:00:32.705
+and confidence together for the feature.
+
+00:00:32.705 --> 00:00:35.825
+Here is the product of those three factors.
+
+00:00:35.825 --> 00:00:42.545
+Next, we divide this by the effort in weeks to get the final RICE score.
+
+00:00:42.545 --> 00:00:45.080
+Here we see the result of that division.
+
+00:00:45.080 --> 00:00:47.890
+The second question of the exercise asked,
+
+00:00:47.890 --> 00:00:52.645
+"What order the five features should be prioritized in according to the RICE method?"
+
+00:00:52.645 --> 00:00:54.180
+Using the RICE method,
+
+00:00:54.180 --> 00:00:58.300
+the highest scored feature should be prioritized first.
+
+00:00:58.790 --> 00:01:03.750
+Let's order by highest to lowest.
+
+00:01:03.750 --> 00:01:07.340
+That means the feature should be built in this order,
+
+00:01:07.340 --> 00:01:11.195
+creating a line bar and pie charts based on collected data,
+
+00:01:11.195 --> 00:01:14.990
+then uploading external files to attach as notes,
+
+00:01:14.990 --> 00:01:19.025
+followed by ability to share individual pages via Quicklink.
+
+00:01:19.025 --> 00:01:20.465
+Then if there's time,
+
+00:01:20.465 --> 00:01:23.299
+social sign-on with social media sites Google,
+
+00:01:23.299 --> 00:01:27.660
+followed by social sign-on with social media sites Facebook.
+

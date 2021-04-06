@@ -1,0 +1,214 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.820
+First, let's discuss quantitative data,
+
+00:00:02.820 --> 00:00:06.930
+including the benefits and drawbacks of using this type of data.
+
+00:00:06.930 --> 00:00:10.965
+Quantitative data is any data that expresses account,
+
+00:00:10.965 --> 00:00:14.400
+amount, or range in a numeric fashion.
+
+00:00:14.400 --> 00:00:18.870
+Quantitative data can be used to answer questions like how many,
+
+00:00:18.870 --> 00:00:22.230
+how often, and how much.
+
+00:00:22.230 --> 00:00:25.920
+Examples of quantitative data would be the count of visitors
+
+00:00:25.920 --> 00:00:30.000
+to a website or the percent of customers who use a feature.
+
+00:00:30.000 --> 00:00:35.685
+Collecting quantitative data provides a great number of benefits to product managers,
+
+00:00:35.685 --> 00:00:39.505
+but quantitative data also has limitations.
+
+00:00:39.505 --> 00:00:42.860
+A major benefit of quantitative data is that
+
+00:00:42.860 --> 00:00:47.285
+quantitative data provides descriptive measurements of how a product is used,
+
+00:00:47.285 --> 00:00:52.165
+such as the number of users and the number of times those users perform an action.
+
+00:00:52.165 --> 00:00:55.190
+As discussed when looking at segment analysis,
+
+00:00:55.190 --> 00:00:58.160
+quantitative data also allows product managers to
+
+00:00:58.160 --> 00:01:01.735
+analyze data for trends and differences between groups.
+
+00:01:01.735 --> 00:01:05.210
+Quantitative data also has major drawbacks.
+
+00:01:05.210 --> 00:01:10.345
+The biggest drawback is that quantitative data can't tell us why a user took an action,
+
+00:01:10.345 --> 00:01:12.050
+only that they did.
+
+00:01:12.050 --> 00:01:15.440
+This means that when quantitative data is examined,
+
+00:01:15.440 --> 00:01:19.775
+there can be many interpretations for the cause of the recorded trends.
+
+00:01:19.775 --> 00:01:26.635
+For example, imagine an app who's usage begins to go down among 18-25 year olds.
+
+00:01:26.635 --> 00:01:30.155
+Analyzing quantitative data reveals this trend.
+
+00:01:30.155 --> 00:01:33.770
+But quantitative data can't explain why the trend is occurring,
+
+00:01:33.770 --> 00:01:36.440
+or what a product can do to change this trend.
+
+00:01:36.440 --> 00:01:40.960
+For that, a product manager often turns to qualitative data.
+
+00:01:40.960 --> 00:01:43.700
+Qualitative data is any data that
+
+00:01:43.700 --> 00:01:47.215
+expresses the qualities or characteristics of something.
+
+00:01:47.215 --> 00:01:51.440
+In product research, qualitative data often focuses on
+
+00:01:51.440 --> 00:01:57.080
+human behavior and needs that can't simply be quantified by measuring user actions.
+
+00:01:57.080 --> 00:02:03.230
+Qualitative data is often collected by talking to actual users or potential users,
+
+00:02:03.230 --> 00:02:06.230
+often in interviews and focus groups.
+
+00:02:06.230 --> 00:02:08.060
+Examples of the type of
+
+00:02:08.060 --> 00:02:12.875
+qualitative information product managers collect includes customer use cases,
+
+00:02:12.875 --> 00:02:15.095
+pain points experienced by users,
+
+00:02:15.095 --> 00:02:20.215
+and the opinions and preferences of a user towards a potential feature or product.
+
+00:02:20.215 --> 00:02:25.145
+Collecting qualitative data provides a great number of benefits to product managers.
+
+00:02:25.145 --> 00:02:28.505
+But qualitative data also has its limitations.
+
+00:02:28.505 --> 00:02:32.960
+A major benefit of qualitative data is that it provides insight
+
+00:02:32.960 --> 00:02:37.900
+into why a user has done something or might be interested in a certain feature.
+
+00:02:37.900 --> 00:02:43.745
+Qualitative data gives product managers access to a richer understanding of user wants,
+
+00:02:43.745 --> 00:02:48.305
+desires, and concerns, that can guide them as they improve their product.
+
+00:02:48.305 --> 00:02:51.565
+Qualitative data also has major drawbacks.
+
+00:02:51.565 --> 00:02:55.940
+Because collecting qualitative data often requires talking to users,
+
+00:02:55.940 --> 00:03:00.325
+the process of collecting qualitative data is much more time-consuming.
+
+00:03:00.325 --> 00:03:02.630
+While quantitative data might be collected
+
+00:03:02.630 --> 00:03:05.645
+automatically by your product as customers use it,
+
+00:03:05.645 --> 00:03:07.820
+most qualitative data will require
+
+00:03:07.820 --> 00:03:11.320
+conversations which take time to analyze and interpret.
+
+00:03:11.320 --> 00:03:14.415
+Those some qualitative data can be quantified.
+
+00:03:14.415 --> 00:03:18.740
+For example, you can count the number of users who are satisfied with your product.
+
+00:03:18.740 --> 00:03:24.440
+Larger themes around customer needs and desires are often difficult to quantify.
+
+00:03:24.440 --> 00:03:27.800
+Since qualitative data is time consuming to collect,
+
+00:03:27.800 --> 00:03:30.620
+product managers often have to form hypotheses
+
+00:03:30.620 --> 00:03:33.800
+from only a handful of qualitative data points.
+
+00:03:33.800 --> 00:03:35.750
+To add onto this issue,
+
+00:03:35.750 --> 00:03:38.980
+qualitative data has an inherent risk of inaccuracy.
+
+00:03:38.980 --> 00:03:43.370
+Sometimes customers will tell you what they think you want to hear.
+
+00:03:43.370 --> 00:03:47.885
+Even if customers tell you exactly what they think their motivations are,
+
+00:03:47.885 --> 00:03:51.095
+many people don't know why they make the choices they do.
+
+00:03:51.095 --> 00:03:56.045
+So qualitative data, especially when focusing on what a person might do,
+
+00:03:56.045 --> 00:03:58.805
+must be considered with a grain of salt.
+
+00:03:58.805 --> 00:04:01.620
+Let's revisit our earlier example of an app
+
+00:04:01.620 --> 00:04:05.575
+whose usage began to go down among 18-25 year olds.
+
+00:04:05.575 --> 00:04:08.920
+By interviewing users and former users in that age group,
+
+00:04:08.920 --> 00:04:11.240
+product managers might get feedback that
+
+00:04:11.240 --> 00:04:15.260
+the apps newest chat release doesn't allow video conversations anymore,
+
+00:04:15.260 --> 00:04:17.420
+which is important to this demographic.
+
+00:04:17.420 --> 00:04:20.870
+Understanding the why could help lead product managers to
+
+00:04:20.870 --> 00:04:26.220
+new feature ideas to increase their apps appeal to 18-25 year olds.
+
