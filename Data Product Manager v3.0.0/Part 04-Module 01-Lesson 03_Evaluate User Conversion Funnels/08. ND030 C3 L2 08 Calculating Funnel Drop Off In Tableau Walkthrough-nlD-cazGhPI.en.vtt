@@ -1,0 +1,136 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:04.485
+Let's walk through calculating a funnel drop-off rate using Tableau.
+
+00:00:04.485 --> 00:00:07.905
+Step 1, we need to review the available data.
+
+00:00:07.905 --> 00:00:11.510
+Here I have data for a website that sells items.
+
+00:00:11.510 --> 00:00:14.760
+I only have user ID and the names of pages here.
+
+00:00:14.760 --> 00:00:19.515
+The names of the pages correspond to visitors taking a specific action.
+
+00:00:19.515 --> 00:00:23.085
+Let me go from the raw data source to the workbook area.
+
+00:00:23.085 --> 00:00:26.895
+By putting the dimensions I'm interested in onto the workspace,
+
+00:00:26.895 --> 00:00:31.425
+I can quickly see the names of the pages and if they are relevant to the data.
+
+00:00:31.425 --> 00:00:33.630
+Here I see a homepage,
+
+00:00:33.630 --> 00:00:35.520
+a payment confirmation page,
+
+00:00:35.520 --> 00:00:38.280
+a payment page, and a search page.
+
+00:00:38.280 --> 00:00:42.450
+Great, those are the steps a user would take in the purchase funnel.
+
+00:00:42.450 --> 00:00:44.600
+So on to step 2.
+
+00:00:44.600 --> 00:00:46.520
+I want to put the steps in order from
+
+00:00:46.520 --> 00:00:49.775
+the first step a user would take to the final goal step.
+
+00:00:49.775 --> 00:00:53.960
+In this case, the final goal is represented by payment confirmation.
+
+00:00:53.960 --> 00:00:56.560
+So I would make that the final step,
+
+00:00:56.560 --> 00:00:59.265
+and search is the second step.
+
+00:00:59.265 --> 00:01:01.370
+Now that the events are ordered,
+
+00:01:01.370 --> 00:01:05.810
+I want to move on to step 3 and count the unique sessions for each step.
+
+00:01:05.810 --> 00:01:07.535
+Just by looking at the data.
+
+00:01:07.535 --> 00:01:10.910
+I'm not sure if a user could go through the funnel more than once,
+
+00:01:10.910 --> 00:01:13.645
+or if this is only for first-time purchasers.
+
+00:01:13.645 --> 00:01:20.090
+To confirm, I can compare the number of records for each event with a number of user IDs.
+
+00:01:20.090 --> 00:01:21.845
+If they are the same,
+
+00:01:21.845 --> 00:01:25.385
+I'll know each user only went through the funnel once.
+
+00:01:25.385 --> 00:01:28.625
+Here you can see I calculated and counted the records.
+
+00:01:28.625 --> 00:01:31.985
+The number of user IDs is equal to the number of records.
+
+00:01:31.985 --> 00:01:33.800
+Since the number is the same,
+
+00:01:33.800 --> 00:01:37.190
+this shows each user is only going through the funnel once.
+
+00:01:37.190 --> 00:01:40.315
+We can use the count of records for step 4.
+
+00:01:40.315 --> 00:01:46.580
+For step 4, we need to determine the percent change or drop-off rate between each step.
+
+00:01:46.580 --> 00:01:51.265
+To do this, we apply a table calculation for percent change.
+
+00:01:51.265 --> 00:01:56.200
+Here I go to Quick Table Calculation and do "Percent Difference".
+
+00:01:56.200 --> 00:02:01.240
+Now our table shows us the rate at which users drop out of the funnel.
+
+00:02:01.240 --> 00:02:04.580
+Note that the first step has no drop-off listed,
+
+00:02:04.580 --> 00:02:09.365
+since a 100 percent of the visitors we analyze always begin at the starting step.
+
+00:02:09.365 --> 00:02:12.560
+By looking at where users drop off and higher rates,
+
+00:02:12.560 --> 00:02:15.050
+we can find areas in need of improvement.
+
+00:02:15.050 --> 00:02:18.320
+Here we can see every step has a large drop-off rate,
+
+00:02:18.320 --> 00:02:21.290
+including a 54 percent drop-off rate from
+
+00:02:21.290 --> 00:02:24.950
+users who land on the homepage and don't begin to search.
+
+00:02:24.950 --> 00:02:29.690
+But in this example, the highest level of drop-off occurs in the final step between
+
+00:02:29.690 --> 00:02:35.820
+payment and payment confirmation at a 92.64 percent drop-off rate.
+

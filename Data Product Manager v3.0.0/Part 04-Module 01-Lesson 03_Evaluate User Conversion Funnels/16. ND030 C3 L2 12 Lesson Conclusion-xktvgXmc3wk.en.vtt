@@ -1,0 +1,76 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:04.680
+Congratulations, you have just finished the third lesson of this course.
+
+00:00:04.680 --> 00:00:07.875
+Now let's summarize what we have learned.
+
+00:00:07.875 --> 00:00:11.310
+We first learned about how to create a user funnel.
+
+00:00:11.310 --> 00:00:16.015
+We learned how to break down a user's actions as steps towards a goal.
+
+00:00:16.015 --> 00:00:18.330
+We also examined the stages of
+
+00:00:18.330 --> 00:00:22.365
+the traditional sales funnel from awareness, to evaluation,
+
+00:00:22.365 --> 00:00:25.410
+to purchase, and then learned how these funnel
+
+00:00:25.410 --> 00:00:29.460
+analysis techniques could be applied to feature usage too.
+
+00:00:29.460 --> 00:00:31.830
+In the second part of the lesson,
+
+00:00:31.830 --> 00:00:35.250
+we learned how to calculate funnel drop-off in Tableau.
+
+00:00:35.250 --> 00:00:38.325
+We discussed evaluating the available data
+
+00:00:38.325 --> 00:00:41.950
+and ordering events as a user would experience them.
+
+00:00:41.950 --> 00:00:46.760
+We also learned how to count the number of visitors who made it through each step.
+
+00:00:46.760 --> 00:00:49.295
+By using the percent change calculation,
+
+00:00:49.295 --> 00:00:52.595
+we learned how to determine the drop off rate between steps.
+
+00:00:52.595 --> 00:00:55.160
+Finally, in the third part of this lesson,
+
+00:00:55.160 --> 00:00:57.650
+we leveraged our learnings in part 2 and went a
+
+00:00:57.650 --> 00:01:00.655
+step further by visualizing the user funnel.
+
+00:01:00.655 --> 00:01:03.410
+Converting raw data into appealing visuals
+
+00:01:03.410 --> 00:01:05.960
+will strengthen our case if stakeholder buy-in is
+
+00:01:05.960 --> 00:01:11.435
+needed to spend further resources investigating and iterating on a funnels design.
+
+00:01:11.435 --> 00:01:14.135
+Congratulations on completing this lesson.
+
+00:01:14.135 --> 00:01:18.770
+In the next lesson, we'll discuss how to analyze data by user segment.
+
+00:01:18.770 --> 00:01:21.360
+See you in the next lesson.
+

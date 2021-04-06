@@ -1,0 +1,100 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.685
+To visualize funnel drop off in Tableau,
+
+00:00:02.685 --> 00:00:07.260
+we start with a skills covered in the last section: discerning what data is available,
+
+00:00:07.260 --> 00:00:08.600
+putting steps in order,
+
+00:00:08.600 --> 00:00:11.760
+and counting the number of users who make it through each step.
+
+00:00:11.760 --> 00:00:14.370
+Here is the starting place for visualizing the funnel.
+
+00:00:14.370 --> 00:00:19.035
+Note that I've already ordered the events and calculated visitor counts for each step.
+
+00:00:19.035 --> 00:00:22.635
+The simplest visualization to create is the bar chart.
+
+00:00:22.635 --> 00:00:27.840
+A bar chart is a clean and simple way to show drop off between steps in a funnel.
+
+00:00:27.840 --> 00:00:31.910
+While there are more literal funnel-shaped visualizations possible,
+
+00:00:31.910 --> 00:00:34.700
+a bar chart shows the decrease in users between
+
+00:00:34.700 --> 00:00:38.440
+each step in a way that makes clear the drop off occurring.
+
+00:00:38.440 --> 00:00:40.115
+To select a bar chart,
+
+00:00:40.115 --> 00:00:43.390
+we can select that visual type from the Show Me section.
+
+00:00:43.390 --> 00:00:46.055
+If pages and events are in rows,
+
+00:00:46.055 --> 00:00:48.440
+you'll see a long bar chart like this.
+
+00:00:48.440 --> 00:00:51.200
+I find vertical charts are more easy to read,
+
+00:00:51.200 --> 00:00:54.865
+so I like to keep my events as columns.
+
+00:00:54.865 --> 00:00:57.875
+Before this visual can be put in front of others,
+
+00:00:57.875 --> 00:01:01.235
+we need to make sure that the labels are readable and correct.
+
+00:01:01.235 --> 00:01:04.105
+We do this by expanding the visual,
+
+00:01:04.105 --> 00:01:07.920
+re-tiling the chart to represent the data.
+
+00:01:10.040 --> 00:01:16.120
+Also, while the bars show the relative drop off in number of users at each step,
+
+00:01:16.120 --> 00:01:19.975
+it's always nice to provide the exact numbers for easy reference.
+
+00:01:19.975 --> 00:01:24.785
+To do this, I'll go the Label section and select Show mark labels.
+
+00:01:24.785 --> 00:01:27.115
+Finally, before sharing a visual,
+
+00:01:27.115 --> 00:01:30.335
+it is helpful to distinguish the steps with different colors.
+
+00:01:30.335 --> 00:01:34.010
+This makes them stand out at separate moments in the user journey.
+
+00:01:34.010 --> 00:01:35.315
+To color the bars,
+
+00:01:35.315 --> 00:01:37.820
+I just need to drag the dimension of interest,
+
+00:01:37.820 --> 00:01:39.230
+in this case, pages,
+
+00:01:39.230 --> 00:01:41.855
+over the color section in marks.
+
+00:01:41.855 --> 00:01:48.000
+Now we visualize the funnel drop off in a way that is easy to understand and share.
+

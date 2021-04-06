@@ -1,0 +1,79 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:04.425
+Let's walk through how to visualize the buystuff.com purchase funnel.
+
+00:00:04.425 --> 00:00:07.140
+To visualize funnel drop-off in Tableau,
+
+00:00:07.140 --> 00:00:09.690
+we start with the skills covered in the last section;
+
+00:00:09.690 --> 00:00:11.685
+discerning what data is available,
+
+00:00:11.685 --> 00:00:13.200
+putting the steps in order,
+
+00:00:13.200 --> 00:00:16.350
+and counting the number of users who make it through each step.
+
+00:00:16.350 --> 00:00:20.955
+These are still the first three steps to creating a funnel drop off visual.
+
+00:00:20.955 --> 00:00:23.880
+Here is a starting place for visualizing the funnel.
+
+00:00:23.880 --> 00:00:27.940
+I've already ordered the events and calculated visitor counts for each step,
+
+00:00:27.940 --> 00:00:31.005
+as this was done for our exercise in lesson 3.
+
+00:00:31.005 --> 00:00:32.415
+To create a bar chart,
+
+00:00:32.415 --> 00:00:34.245
+we can select that visual type.
+
+00:00:34.245 --> 00:00:37.055
+I prefer my bar charts to be vertical,
+
+00:00:37.055 --> 00:00:39.720
+so let me switch. There we go.
+
+00:00:39.720 --> 00:00:43.085
+Before this visual can be ready to be put in front of others,
+
+00:00:43.085 --> 00:00:46.640
+I need to make sure all the labels are readable and correct.
+
+00:00:46.640 --> 00:00:51.920
+First, I can expand the visual to make sure all the event steps are readable.
+
+00:00:51.920 --> 00:00:54.710
+Next, I'm going to retitle the chart to
+
+00:00:54.710 --> 00:00:57.785
+ensure it clearly represents what is being visualized.
+
+00:00:57.785 --> 00:01:02.650
+I'll edit the sheet name to user drop off conversion per step.
+
+00:01:02.650 --> 00:01:05.115
+I'll also add labels,
+
+00:01:05.115 --> 00:01:10.915
+so it is easy to see the user count per step by going to labels and show mark labels.
+
+00:01:10.915 --> 00:01:16.225
+Finally, I'll color the bars to provide more visual distinction between user steps.
+
+00:01:16.225 --> 00:01:18.590
+Now we visualize the funnel drop off for
+
+00:01:18.590 --> 00:01:23.400
+buystuff.com in a way that is easy to understand and share.
+

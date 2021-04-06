@@ -1,0 +1,229 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.850
+In this section, we'll cover how to use Tableau
+
+00:00:02.850 --> 00:00:05.865
+to calculate the drop off rate in each step of the funnel.
+
+00:00:05.865 --> 00:00:09.840
+Calculating the drop off rate between each step in the funnel gives us
+
+00:00:09.840 --> 00:00:12.360
+valuable information about where users fall
+
+00:00:12.360 --> 00:00:15.390
+off during their journey to the desired action.
+
+00:00:15.390 --> 00:00:18.750
+To calculate a funnel drop off rate using Tableau,
+
+00:00:18.750 --> 00:00:20.565
+we can follow four steps.
+
+00:00:20.565 --> 00:00:23.490
+First, review the available data to look for
+
+00:00:23.490 --> 00:00:27.505
+the pieces of data that correspond to a user's steps in the funnel.
+
+00:00:27.505 --> 00:00:31.760
+No matter if you're using Tableau or another calculation program,
+
+00:00:31.760 --> 00:00:34.535
+you need to know what data you have available.
+
+00:00:34.535 --> 00:00:39.080
+Of course, if you've been instrumenting each new feature and step a user can take,
+
+00:00:39.080 --> 00:00:43.855
+then you know you'll have the data you need to create and analyze a funnel.
+
+00:00:43.855 --> 00:00:45.620
+By looking at the data,
+
+00:00:45.620 --> 00:00:48.500
+you can identify which events or pieces of
+
+00:00:48.500 --> 00:00:52.510
+data represents steps in the funnel that you wish to analyze.
+
+00:00:52.510 --> 00:00:57.680
+For example, event level data shows a user visited a page at 1:00 PM.
+
+00:00:57.680 --> 00:01:02.635
+It might be a step in the awareness stage where the users saw and entered the website.
+
+00:01:02.635 --> 00:01:06.690
+It also shows a user clicked on a button at 1:01.
+
+00:01:06.690 --> 00:01:09.350
+It might be a step in the evaluation stage
+
+00:01:09.350 --> 00:01:12.140
+where the user was interacting with the product.
+
+00:01:12.140 --> 00:01:14.210
+By confirming the steps in the data,
+
+00:01:14.210 --> 00:01:18.515
+you can prepare to analyze funnel interactions for all users.
+
+00:01:18.515 --> 00:01:22.310
+In Tableau, reviewing the available data means finding
+
+00:01:22.310 --> 00:01:26.045
+the dimensions that hold the event data relevant to the funnel.
+
+00:01:26.045 --> 00:01:29.360
+Second, determine how the user's steps should be
+
+00:01:29.360 --> 00:01:33.010
+ordered from first action to final goal step.
+
+00:01:33.010 --> 00:01:37.190
+That means looking at all available steps and determining what steps
+
+00:01:37.190 --> 00:01:41.330
+are relevant and can be taken by a user leading up to a goal.
+
+00:01:41.330 --> 00:01:46.540
+Note that not all steps a user takes will always need to be included in a funnel.
+
+00:01:46.540 --> 00:01:49.579
+For example, when creating a profile,
+
+00:01:49.579 --> 00:01:53.210
+a user might be asked to upload a photo to personalize their account.
+
+00:01:53.210 --> 00:01:55.445
+If uploading a photo is optional,
+
+00:01:55.445 --> 00:01:59.420
+that step doesn't necessarily need to be included in the user funnel.
+
+00:01:59.420 --> 00:02:02.660
+Funnel analysis generally concentrates only on the steps
+
+00:02:02.660 --> 00:02:06.050
+that are required to occur in pursuit of a specific goal.
+
+00:02:06.050 --> 00:02:10.670
+To that end, another part of determining step order is to confirm
+
+00:02:10.670 --> 00:02:15.455
+which event represents the successful completion of the goal that is being measured.
+
+00:02:15.455 --> 00:02:17.795
+Once the events in steps are known,
+
+00:02:17.795 --> 00:02:21.665
+they should be placed in order as the user would experience them.
+
+00:02:21.665 --> 00:02:24.995
+In Tableau, this means putting the events of interests from
+
+00:02:24.995 --> 00:02:28.460
+top to bottom in a row or left to right in columns,
+
+00:02:28.460 --> 00:02:31.535
+so they are ready for analysis as a funnel.
+
+00:02:31.535 --> 00:02:36.190
+Third, count the unique sessions where a user takes each step.
+
+00:02:36.190 --> 00:02:41.375
+A session is a period of time in which a user interacts with a site or product.
+
+00:02:41.375 --> 00:02:46.355
+If a user interacts with the site or product at different times or on different days,
+
+00:02:46.355 --> 00:02:49.100
+each of these would be a unique session.
+
+00:02:49.100 --> 00:02:53.705
+If looking at a funnel where each visitor can only go through the funnel once,
+
+00:02:53.705 --> 00:02:56.600
+then counting unique sessions will be the same as
+
+00:02:56.600 --> 00:03:00.115
+counting the number of unique users who made it to each step.
+
+00:03:00.115 --> 00:03:02.840
+For example, sometimes websites offer
+
+00:03:02.840 --> 00:03:07.195
+a onetime discounted visitors that must be used in that shopping session.
+
+00:03:07.195 --> 00:03:12.215
+Alternatively, if looking at a flow that a user can go through multiple times,
+
+00:03:12.215 --> 00:03:16.340
+such as a feature that allows customers to review their previous purchases,
+
+00:03:16.340 --> 00:03:18.050
+we might want to count the number of
+
+00:03:18.050 --> 00:03:21.485
+unique user sessions that made it through each step in the funnel.
+
+00:03:21.485 --> 00:03:24.620
+This will show how the funnel performs in general across
+
+00:03:24.620 --> 00:03:28.205
+users with multiple trips through part or all of the funnel.
+
+00:03:28.205 --> 00:03:33.770
+Finally, in Tableau, use a table calculation to determine the percent change,
+
+00:03:33.770 --> 00:03:36.335
+i.e., drop off between steps.
+
+00:03:36.335 --> 00:03:40.670
+This means using the count of unique sessions obtained previously to
+
+00:03:40.670 --> 00:03:44.980
+evaluate the relative size of unique sessions from one step to another.
+
+00:03:44.980 --> 00:03:48.080
+In the funnel as users drop out and the number of
+
+00:03:48.080 --> 00:03:51.455
+users that make it to each subsequent step gets smaller,
+
+00:03:51.455 --> 00:03:55.925
+the calculation will show the percent decrease between each step.
+
+00:03:55.925 --> 00:03:59.495
+By looking at those steps with a higher percent change,
+
+00:03:59.495 --> 00:04:01.760
+you can identify areas of greater
+
+00:04:01.760 --> 00:04:05.800
+drop-off that may need investigation and further improvement.
+
+00:04:05.800 --> 00:04:09.275
+In Tableau, to quickly calculate the percent difference,
+
+00:04:09.275 --> 00:04:11.660
+you can apply a quick table calculation of
+
+00:04:11.660 --> 00:04:15.150
+percent difference to the numbers generated in step 3.
+
+00:04:15.150 --> 00:04:17.075
+Once the calculations are in place,
+
+00:04:17.075 --> 00:04:22.400
+product managers use this information to look for steps with high and low drop off rates.
+
+00:04:22.400 --> 00:04:24.440
+Areas with high drop off may need
+
+00:04:24.440 --> 00:04:28.800
+further evaluation to determine ways to improve conversion.
+

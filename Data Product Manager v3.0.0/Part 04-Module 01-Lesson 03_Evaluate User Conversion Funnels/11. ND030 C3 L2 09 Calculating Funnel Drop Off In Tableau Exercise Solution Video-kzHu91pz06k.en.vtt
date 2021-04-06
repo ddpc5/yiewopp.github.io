@@ -1,0 +1,121 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.620
+For this exercise, we need to find the drop off rates and steps
+
+00:00:03.620 --> 00:00:07.445
+where users drop off the least and most on buystuff.com.
+
+00:00:07.445 --> 00:00:10.170
+To do this, we need to dig into our data.
+
+00:00:10.170 --> 00:00:13.080
+Here is the data uploaded into Tableau.
+
+00:00:13.080 --> 00:00:15.300
+When we look at the page dimension,
+
+00:00:15.300 --> 00:00:17.205
+we can see four different pages;
+
+00:00:17.205 --> 00:00:19.830
+the homepage, a search page,
+
+00:00:19.830 --> 00:00:23.070
+a payment page, and a payment confirmation page.
+
+00:00:23.070 --> 00:00:26.620
+These four pages aligned with an e-commerce sales funnel.
+
+00:00:26.620 --> 00:00:29.955
+A website's visitors must land on a landing page,
+
+00:00:29.955 --> 00:00:33.150
+the homepage, and then look for an item to purchase,
+
+00:00:33.150 --> 00:00:36.330
+the search page before going to purchase the item,
+
+00:00:36.330 --> 00:00:38.690
+payment page, and finally submitting
+
+00:00:38.690 --> 00:00:41.790
+their payment information, payment confirmation page.
+
+00:00:41.790 --> 00:00:43.985
+Once we know the events of interest,
+
+00:00:43.985 --> 00:00:48.095
+we order the pages in Tableau in the order of the user events,
+
+00:00:48.095 --> 00:00:53.265
+so home, search, payment, and payment confirmation.
+
+00:00:53.265 --> 00:00:57.860
+After this, we can count the number of distinct events on each page.
+
+00:00:57.860 --> 00:01:00.349
+Because this website has a simple flow,
+
+00:01:00.349 --> 00:01:03.650
+every page is required of the user to complete a purchase.
+
+00:01:03.650 --> 00:01:06.260
+Therefore, every page will be shown in the funnel,
+
+00:01:06.260 --> 00:01:09.725
+and every page represents a user taking a new action.
+
+00:01:09.725 --> 00:01:12.485
+Let's measure the count of distinct events.
+
+00:01:12.485 --> 00:01:15.365
+Finally, to calculate the actual drop off,
+
+00:01:15.365 --> 00:01:21.600
+we use a quick table calculation of percent change between counts or percent difference.
+
+00:01:21.600 --> 00:01:23.155
+Looking at our chart,
+
+00:01:23.155 --> 00:01:27.100
+we can now easily find the answers to the exercise questions.
+
+00:01:27.100 --> 00:01:31.480
+Question 1 was the percent change between each page in activity,
+
+00:01:31.480 --> 00:01:33.725
+which we can now see listed here.
+
+00:01:33.725 --> 00:01:38.365
+Question 2 asked between which pages the users drop off the least?
+
+00:01:38.365 --> 00:01:42.295
+The lowest number is 50 percent next to the search page.
+
+00:01:42.295 --> 00:01:47.855
+That means about 50 percent of all users continued from the homepage to the search page.
+
+00:01:47.855 --> 00:01:53.875
+Finally, question 3, between which pages or actions do users drop off the most?
+
+00:01:53.875 --> 00:01:57.190
+The highest number is 92.5 percent.
+
+00:01:57.190 --> 00:01:59.800
+Ninety two point five percent of users still in
+
+00:01:59.800 --> 00:02:04.290
+the funnel drop off between the payment and the payment confirmation page.
+
+00:02:04.290 --> 00:02:07.805
+This data doesn't tell us why the drop off rate is so high,
+
+00:02:07.805 --> 00:02:11.045
+but it gives us a clue that we should investigate and iterate
+
+00:02:11.045 --> 00:02:15.330
+on our product design if we want to improve funnel conversion.
+
