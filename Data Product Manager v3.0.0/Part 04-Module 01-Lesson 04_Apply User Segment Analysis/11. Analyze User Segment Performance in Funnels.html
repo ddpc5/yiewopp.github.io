@@ -1,0 +1,297 @@
+<!-- udacity2.0 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Analyze User Segment Performance in Funnels</title>
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/plyr.css">
+  <link rel="stylesheet" href="../assets/css/katex.min.css">
+  <link rel="stylesheet" href="../assets/css/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="shortcut icon" type="image/png" href="../assets/img/udacimak.png" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav id="sidebar">
+  <div class="sidebar-header">
+    <h3>Apply User Segment Analysis</h3>
+  </div>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled components">
+    <li class="">
+      <a href="01. Apply User Segment Analysis.html">01. Apply User Segment Analysis</a>
+    </li>
+    <li class="">
+      <a href="02. Big Picture  Intuition.html">02. Big Picture / Intuition</a>
+    </li>
+    <li class="">
+      <a href="03. Lesson Outline.html">03. Lesson Outline</a>
+    </li>
+    <li class="">
+      <a href="04. Segment User Data.html">04. Segment User Data</a>
+    </li>
+    <li class="">
+      <a href="05. Segment User Data Quizzes.html">05. Segment User Data Quizzes</a>
+    </li>
+    <li class="">
+      <a href="06. Attribute in Segment Analysis Quizzes.html">06. Attribute in Segment Analysis Quizzes</a>
+    </li>
+    <li class="">
+      <a href="07. Exercise 1 Segment User Data .html">07. Exercise 1: Segment User Data </a>
+    </li>
+    <li class="">
+      <a href="08. Solution Segment User Data Exercise 1 .html">08. Solution: Segment User Data Exercise 1 </a>
+    </li>
+    <li class="">
+      <a href="09. Exercise 2 Segment User Data .html">09. Exercise 2: Segment User Data </a>
+    </li>
+    <li class="">
+      <a href="10. Solution Segment User Data Exercise 2 .html">10. Solution: Segment User Data Exercise 2 </a>
+    </li>
+    <li class="">
+      <a href="11. Analyze User Segment Performance in Funnels.html">11. Analyze User Segment Performance in Funnels</a>
+    </li>
+    <li class="">
+      <a href="12. Analyze User Segment Performance in Funnels Quizzes.html">12. Analyze User Segment Performance in Funnels Quizzes</a>
+    </li>
+    <li class="">
+      <a href="13. Exercise 3 Analyze User Segment Performance in Funnels .html">13. Exercise 3: Analyze User Segment Performance in Funnels </a>
+    </li>
+    <li class="">
+      <a href="14. Solution Analyze User Segment Performance in Funnels .html">14. Solution: Analyze User Segment Performance in Funnels </a>
+    </li>
+    <li class="">
+      <a href="15. Analyze User Segment Performance in Feature Usage.html">15. Analyze User Segment Performance in Feature Usage</a>
+    </li>
+    <li class="">
+      <a href="16. Analyze User Segment Performance in Feature Usage Quizzes.html">16. Analyze User Segment Performance in Feature Usage Quizzes</a>
+    </li>
+    <li class="">
+      <a href="17. Exercise 4 Analyze User Segment Performance in Feature.html">17. Exercise 4: Analyze User Segment Performance in Feature</a>
+    </li>
+    <li class="">
+      <a href="18. Solution Analyze User Segment Performance in Feature .html">18. Solution: Analyze User Segment Performance in Feature </a>
+    </li>
+    <li class="">
+      <a href="19. Lesson Conclusion.html">19. Lesson Conclusion</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+</nav>
+
+    <div id="content">
+      <header class="container-fluild header">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="align-items-middle">
+                <button type="button" id="sidebarCollapse" class="btn btn-toggle-sidebar">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </button>
+
+                <h1 style="display: inline-block">11. Analyze User Segment Performance in Funnels</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h1 id="analyze-user-segment-performance-in-funnels">Analyze User Segment Performance in Funnels</h1>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>ND030 C3 L3 09 Applying Cohort Analysis To Funnel Analyses In Tableau Video</p></h3>
+  <video controls>
+  <source src="11. ND030 C3 L3 09 Applying Cohort Analysis To Funnel Analyses In Tableau Video-db0_FCe4U_w.mp4" type="video/mp4">
+
+  <track default="true" kind="subtitles" srclang="en" src="11. ND030 C3 L3 09 Applying Cohort Analysis To Funnel Analyses In Tableau Video-db0_FCe4U_w.en.vtt" label="en">
+</video>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h2 id="summary">Summary</h2>
+<p>Segment analysis of funnels can reveal users who drop off or convert. Product managers who perform such analysis can learn why a difference in performance occurs for different user types and will likely learn valuable information about how to optimize a product.</p>
+<p>Segment analysis of funnels follows four basic steps:</p>
+<ol>
+<li><p>Create the overall funnel and count the number of users who complete each step. </p></li>
+<li><p>Determine which user segments are available in the data. These user segments are the ones you will apply to the funnel analysis.</p></li>
+<li><p>Calculate the funnel dropoff for each group within a segment. </p></li>
+<li><p>Look for groups within a segment with a drop off rate that is noticeably higher or lower than average.</p></li>
+</ol>
+<p>If a particular group of users isn’t getting the experience they need, this will likely be reflected in a drop out at a rate that is higher than average. Once such a pattern is identified, product managers can talk to those users and run experiments to find ways to optimize their user experience.</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h2 id="tableau-walkthrough">Tableau walkthrough</h2>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>ND030 C3 L3 10 Applying Cohort Analysis To Funnel Analyses In Tableau Walkthrough</p></h3>
+  <video controls>
+  <source src="11. ND030 C3 L3 10 Applying Cohort Analysis To Funnel Analyses In Tableau Walkthrough-2g2G_AXSu5E.mp4" type="video/mp4">
+
+  <track default="true" kind="subtitles" srclang="en" src="11. ND030 C3 L3 10 Applying Cohort Analysis To Funnel Analyses In Tableau Walkthrough-2g2G_AXSu5E.en.vtt" label="en">
+</video>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>Click <a href="https://video.udacity-data.com/topher/2020/July/5f04a556_l3-walkthrough1/l3-walkthrough1.xlsx" rel="noopener noreferrer" target="_blank">here</a> to download the data.</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h2 id="summary">Summary</h2>
+<p><strong>Step 1: create the overall funnel and count the number of users per session who completed each step</strong><br />
+<br>For this funnel, a user begins by landing on the home page and completes the funnel when a purchase is made. Right now the funnel shows the number of users who completed each step.</p>
+<p>Note: in this example, the data set only showed the first time any given user went through the funnel. Each user will only ever have taken a step one time. Therefore, we can use the count of users OR the distinct count of users OR the number of unique sessions and get the same result.</p>
+<p><strong>Step 2: determine which user segments are available in the data</strong><br />
+<br>For this example, let’s look at the segment of devices. By adding the devices to the funnel analysis, we can see the device segment is divided into groups of users on mobile devices and desktop.</p>
+<p><strong>Step 3: calculate drop off for each group in a segment.</strong> <br />
+Use a table calculation of <strong>percent difference</strong> to calculate the dropoff and select <strong>table down</strong>.</p>
+<p><strong>Step 4: look for groups within a segment with a drop off rate that is noticeably higher or lower than average.</strong><br />
+<br>Looking at the data, we can see mobile users have a 10% lower drop off rate between the search and payment pages than that of the desktop users. They also have a 5% lower drop off rate between the payment and payment confirmation pages than the desktop users. </p>
+<p>The findings may indicate areas for desktop experience optimization. The product manager should talk to users and/or review the desktop design to determine what may be causing the higher drop off rates.</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h2 id="further-research">Further research</h2>
+<ul>
+<li><em>How to Create and Compare Segments in Tableau</em><br />
+<a href="https://playfairdata.com/create-compare-segments-tableau/" rel="noopener noreferrer" target="_blank">https://playfairdata.com/create-compare-segments-tableau/</a></li>
+</ul>
+</div>
+
+</div>
+<div class="divider"></div>
+          </div>
+
+          <div class="col-12">
+            <p class="text-right">
+              <a href="12. Analyze User Segment Performance in Funnels Quizzes.html" class="btn btn-outline-primary mt-4" role="button">Next Concept</a>
+            </p>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p class="text-center">
+                <a href="https://us-udacity.github.io/" target="_blank">【udacity2.0 】If you need more courses, please add wechat：udacity6</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+  <script src="../assets/js/jquery-3.3.1.min.js"></script>
+  <script src="../assets/js/plyr.polyfilled.min.js"></script>
+  <script src="../assets/js/bootstrap.min.js"></script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="../assets/js/katex.min.js"></script>
+  <script>
+    // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('11. Analyze User Segment Performance in Funnels')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+</body>
+
+</html>

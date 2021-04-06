@@ -1,0 +1,67 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.150
+In Tableau, I have synced data on the use of
+
+00:00:03.150 --> 00:00:06.240
+an attendance tracker in a software used by teachers.
+
+00:00:06.240 --> 00:00:08.130
+First, I will examine the number of
+
+00:00:08.130 --> 00:00:11.325
+feature users compared to the number of product users.
+
+00:00:11.325 --> 00:00:16.530
+By pulling at the attendance tracking feature usage and product usage numbers into rows,
+
+00:00:16.530 --> 00:00:21.760
+I can see 40 out of the 70 product customers have used the attendance feature.
+
+00:00:21.760 --> 00:00:24.030
+That is a large percent of customers,
+
+00:00:24.030 --> 00:00:28.920
+but let's see if the different user segments use the feature at the same frequency.
+
+00:00:28.920 --> 00:00:31.350
+In our dataset, we have job dimension,
+
+00:00:31.350 --> 00:00:35.170
+which indicates whether a user teaches elementary school or middle school.
+
+00:00:35.170 --> 00:00:38.120
+By dragging this job dimension onto the sheet,
+
+00:00:38.120 --> 00:00:42.920
+I can compare the usage of the feature in these two different demographics.
+
+00:00:42.920 --> 00:00:47.990
+Now we can see that 20 out of 30 or two-thirds of elementary school teachers,
+
+00:00:47.990 --> 00:00:50.840
+but only 20 out of 40 or one-half
+
+00:00:50.840 --> 00:00:53.875
+of middle school teachers are using our attendance feature.
+
+00:00:53.875 --> 00:00:57.770
+Perhaps the way attendance is typically taken varies by school type,
+
+00:00:57.770 --> 00:01:02.005
+and the current attendance feature aligns better to elementary school teacher usage.
+
+00:01:02.005 --> 00:01:04.655
+Now that we've identified the difference in the data,
+
+00:01:04.655 --> 00:01:06.560
+we can talk with customers and run
+
+00:01:06.560 --> 00:01:09.815
+experiments to determine why feature usage is different,
+
+00:01:09.815 --> 00:01:12.030
+and ways to improve it.
+

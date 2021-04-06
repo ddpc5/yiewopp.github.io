@@ -1,0 +1,298 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.580
+The second type of user segmentation we're going to
+
+00:00:02.580 --> 00:00:06.135
+cover is segmenting users by shared demographics.
+
+00:00:06.135 --> 00:00:10.020
+Segmenting users based on demographics means analyzing
+
+00:00:10.020 --> 00:00:14.205
+data for groups of users that share the same personal characteristics.
+
+00:00:14.205 --> 00:00:17.205
+Some example demographics would be age,
+
+00:00:17.205 --> 00:00:19.950
+income, location, and gender.
+
+00:00:19.950 --> 00:00:24.090
+Product managers use demographic segmentation to understand if
+
+00:00:24.090 --> 00:00:28.845
+the personal characteristics of their users result in different product experiences.
+
+00:00:28.845 --> 00:00:31.110
+Customers with demographics might have
+
+00:00:31.110 --> 00:00:34.175
+different needs that impact the way they use a product.
+
+00:00:34.175 --> 00:00:37.020
+For example, men using an app that tracks
+
+00:00:37.020 --> 00:00:41.000
+user weight might be more interested in a feature that tracks weight gain,
+
+00:00:41.000 --> 00:00:42.350
+such as muscle gain,
+
+00:00:42.350 --> 00:00:46.570
+then female users who tend to only want to track weight loss.
+
+00:00:46.570 --> 00:00:49.970
+Another example would be if lower-income buyers of a product needed
+
+00:00:49.970 --> 00:00:52.715
+more reassurance of a guaranteed return policy
+
+00:00:52.715 --> 00:00:55.705
+than higher income users before purchasing.
+
+00:00:55.705 --> 00:00:59.000
+Of course, these are only hypotheses about
+
+00:00:59.000 --> 00:01:02.900
+how different demographic segments might interact with the product or feature.
+
+00:01:02.900 --> 00:01:06.350
+Only by reviewing segmented data can product managers
+
+00:01:06.350 --> 00:01:10.220
+understand whether there is a difference between demographic segments?
+
+00:01:10.220 --> 00:01:12.800
+When significant differences emerge,
+
+00:01:12.800 --> 00:01:15.440
+product managers can form a hypothesis for
+
+00:01:15.440 --> 00:01:18.460
+the cause of these results and then investigate further.
+
+00:01:18.460 --> 00:01:21.305
+Such investigations often lead to discoveries
+
+00:01:21.305 --> 00:01:24.130
+about unmet needs of the underperforming segment.
+
+00:01:24.130 --> 00:01:30.064
+These unmet needs become opportunities to boost KPIs with targeted product changes.
+
+00:01:30.064 --> 00:01:34.385
+Once a product manager identifies a user characteristic of interest,
+
+00:01:34.385 --> 00:01:37.825
+they still need to break down those segments into different groups.
+
+00:01:37.825 --> 00:01:41.420
+Some segments had dividing lines that are commonly used,
+
+00:01:41.420 --> 00:01:42.950
+such as female, male,
+
+00:01:42.950 --> 00:01:44.525
+and other for gender.
+
+00:01:44.525 --> 00:01:49.910
+Other divisions may depend on the actual data and the type of customer being served.
+
+00:01:49.910 --> 00:01:52.540
+Take for example, segments of age.
+
+00:01:52.540 --> 00:01:56.870
+Imagine a reading app that wants to compare segments of customers by age.
+
+00:01:56.870 --> 00:02:02.270
+A typical app serving an average adult population might divide its users by decades,
+
+00:02:02.270 --> 00:02:06.715
+a commonly used division when considering age bands as a user segment.
+
+00:02:06.715 --> 00:02:08.825
+In another instance, however,
+
+00:02:08.825 --> 00:02:12.620
+a product manager might divide age into smaller segments.
+
+00:02:12.620 --> 00:02:15.245
+In a children's learning app, for example,
+
+00:02:15.245 --> 00:02:18.700
+users might be divided into segments of only a few years,
+
+00:02:18.700 --> 00:02:21.395
+since young children's learning needs change rapidly,
+
+00:02:21.395 --> 00:02:24.320
+smaller age segments would make more sense than
+
+00:02:24.320 --> 00:02:27.905
+the traditional decade divisions used in the book reading app.
+
+00:02:27.905 --> 00:02:30.650
+These examples serve to show that the way you
+
+00:02:30.650 --> 00:02:33.425
+divide segments as a product manager might vary.
+
+00:02:33.425 --> 00:02:34.625
+As a product manager,
+
+00:02:34.625 --> 00:02:37.700
+you will look at the data of actual users by trying
+
+00:02:37.700 --> 00:02:40.925
+different divisions and considering the customers you serve,
+
+00:02:40.925 --> 00:02:44.730
+you will know which segment divisions make sense for your product.
+
+00:02:44.730 --> 00:02:48.730
+The third and final type of user segmentation that we'll cover in
+
+00:02:48.730 --> 00:02:52.960
+this section is segmenting users who share similar behaviors.
+
+00:02:52.960 --> 00:02:57.250
+Segmenting users based on behaviors means analyzing data for groups
+
+00:02:57.250 --> 00:03:01.525
+of users that use your product behave in similar ways.
+
+00:03:01.525 --> 00:03:06.685
+Some examples would be whether a customer makes use of a specific feature,
+
+00:03:06.685 --> 00:03:08.890
+how active the customer is,
+
+00:03:08.890 --> 00:03:12.325
+such as how many times a day a user logs in on average,
+
+00:03:12.325 --> 00:03:16.180
+and the device with which customers are accessing the product.
+
+00:03:16.180 --> 00:03:20.050
+A user who uses a software only from their mobile device will have
+
+00:03:20.050 --> 00:03:24.505
+a very different experience than a user who exclusively logs in on their desktop.
+
+00:03:24.505 --> 00:03:27.190
+A user who accesses a program every day,
+
+00:03:27.190 --> 00:03:30.500
+will have a very different experience and likely a different reaction to
+
+00:03:30.500 --> 00:03:34.795
+new features than a user who only logs in every couple weeks.
+
+00:03:34.795 --> 00:03:39.545
+Different behaviors indicate that customers might have different motivations and needs.
+
+00:03:39.545 --> 00:03:43.460
+Segmenting users based on their behaviors allows us to find patterns
+
+00:03:43.460 --> 00:03:47.210
+in the data about how our product is succeeding or failing,
+
+00:03:47.210 --> 00:03:49.195
+specific types of users.
+
+00:03:49.195 --> 00:03:53.390
+Cohort analysis and behavioral information about users will come
+
+00:03:53.390 --> 00:03:57.895
+naturally from the instrumentation you'll have put in place to track user actions.
+
+00:03:57.895 --> 00:04:02.045
+In order to analyze products using demographic information however,
+
+00:04:02.045 --> 00:04:05.555
+you're going to need data about your users in your database.
+
+00:04:05.555 --> 00:04:10.735
+This may mean asking users to fill out profiles or answer questions about themselves.
+
+00:04:10.735 --> 00:04:14.390
+A note of caution when seeking information on users.
+
+00:04:14.390 --> 00:04:19.940
+First, make it clear to users why providing the information will be valuable to them.
+
+00:04:19.940 --> 00:04:22.955
+For example, users who share their location
+
+00:04:22.955 --> 00:04:26.200
+will get location-based alerts when they're near a store.
+
+00:04:26.200 --> 00:04:30.200
+Customers don't want to just handover information about themselves.
+
+00:04:30.200 --> 00:04:33.920
+You have a duty to provide value to the user if you think them
+
+00:04:33.920 --> 00:04:38.035
+sharing that information will be helpful in your work to make a better product.
+
+00:04:38.035 --> 00:04:40.310
+A classic example of information that
+
+00:04:40.310 --> 00:04:44.330
+most product managers can't ask their users for is user income.
+
+00:04:44.330 --> 00:04:47.195
+Though this data could be very helpful in segmenting,
+
+00:04:47.195 --> 00:04:50.840
+most people consider that question personal and private.
+
+00:04:50.840 --> 00:04:53.930
+If you managed a product like a retirement planning app,
+
+00:04:53.930 --> 00:04:58.375
+however, such a question would seem relevant to a user and might be answered.
+
+00:04:58.375 --> 00:05:03.080
+Otherwise, asking for sensitive data like this is more likely to lose you a user,
+
+00:05:03.080 --> 00:05:05.770
+than gain you information to segment with.
+
+00:05:05.770 --> 00:05:09.440
+Finally, when collecting user demographic information,
+
+00:05:09.440 --> 00:05:11.630
+keep in mind that consumer privacy laws,
+
+00:05:11.630 --> 00:05:14.090
+such as the General Data Protection Regulation,
+
+00:05:14.090 --> 00:05:17.180
+GDPR in Europe, and the California Consumer
+
+00:05:17.180 --> 00:05:20.750
+Privacy Act CCPA for any users from California,
+
+00:05:20.750 --> 00:05:24.725
+give users many rights with regards to their personal information.
+
+00:05:24.725 --> 00:05:26.465
+As a product manager,
+
+00:05:26.465 --> 00:05:29.300
+you'll need to ensure the data you collect is stored and
+
+00:05:29.300 --> 00:05:33.350
+shared in such a way that your customers can easily forbid its sale,
+
+00:05:33.350 --> 00:05:35.420
+review all the personal information you've
+
+00:05:35.420 --> 00:05:39.840
+collected and request all personal information be deleted.
+

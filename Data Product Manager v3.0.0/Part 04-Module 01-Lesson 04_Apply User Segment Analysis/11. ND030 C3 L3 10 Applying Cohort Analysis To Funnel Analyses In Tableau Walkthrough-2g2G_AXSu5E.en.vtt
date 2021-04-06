@@ -1,0 +1,100 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:05.735
+Let's walk through how to use Tableau to analyze user segment performance in a funnel.
+
+00:00:05.735 --> 00:00:08.940
+In Tableau you can see I've already completed step 1 of
+
+00:00:08.940 --> 00:00:13.485
+segment analysis of a funnel by creating the overall user funnel.
+
+00:00:13.485 --> 00:00:16.170
+For this funnel, a user begins by landing at
+
+00:00:16.170 --> 00:00:19.770
+the homepage and completes the funnel when the purchase is made.
+
+00:00:19.770 --> 00:00:25.200
+Right now, the funnel shows the total number of users who completed each step.
+
+00:00:25.200 --> 00:00:29.700
+Now for step 2, I need to know which segments I want to analyze.
+
+00:00:29.700 --> 00:00:33.450
+For this example, let's look at the segment of devices.
+
+00:00:33.450 --> 00:00:37.240
+By adding the dimension of devices to the funnel analysis,
+
+00:00:37.240 --> 00:00:40.310
+we can see the device segment is divided into
+
+00:00:40.310 --> 00:00:43.989
+groups of users on mobile and desktop computers.
+
+00:00:43.989 --> 00:00:49.400
+Step 3 and segment analysis of a funnel is to calculate drop-off between step,
+
+00:00:49.400 --> 00:00:53.240
+we can use a table calculation of percent change or
+
+00:00:53.240 --> 00:00:55.070
+percent difference to calculate
+
+00:00:55.070 --> 00:00:58.510
+the drop-off rate between each step for each segment group.
+
+00:00:58.510 --> 00:01:04.130
+If I go Quick Table Calculation and do Percent Difference and then adjust it,
+
+00:01:04.130 --> 00:01:06.445
+so that it's going down my table.
+
+00:01:06.445 --> 00:01:09.830
+Great, now that we've generated these figures,
+
+00:01:09.830 --> 00:01:11.720
+it is time for step 4.
+
+00:01:11.720 --> 00:01:14.150
+Look for under or over performance,
+
+00:01:14.150 --> 00:01:16.510
+Converting between steps on the funnel.
+
+00:01:16.510 --> 00:01:18.185
+Looking at the data,
+
+00:01:18.185 --> 00:01:21.110
+we can see that mobile users have
+
+00:01:21.110 --> 00:01:26.840
+almost a 10 percent lower drop-off rate between the search and payment pages.
+
+00:01:26.840 --> 00:01:31.720
+They also have about a five percent lower drop-off rate,
+
+00:01:31.720 --> 00:01:34.990
+between the payment and payment confirmation pages.
+
+00:01:34.990 --> 00:01:38.795
+These may indicate areas for desktop optimization.
+
+00:01:38.795 --> 00:01:40.430
+Based on these findings,
+
+00:01:40.430 --> 00:01:42.830
+we should talk to users and I'll review
+
+00:01:42.830 --> 00:01:47.860
+the desktop design to determine what may be causing the higher drop-off rates.
+
+00:01:47.860 --> 00:01:51.410
+This will help us to find ways to improve the user experience,
+
+00:01:51.410 --> 00:01:55.530
+and possibly increase desktop segment purchases.
+

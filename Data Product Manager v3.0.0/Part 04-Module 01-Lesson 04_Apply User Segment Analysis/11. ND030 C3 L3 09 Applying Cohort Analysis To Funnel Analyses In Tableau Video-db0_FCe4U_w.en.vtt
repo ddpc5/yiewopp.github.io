@@ -1,0 +1,118 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:01.920
+In the previous lesson,
+
+00:00:01.920 --> 00:00:05.250
+we learned that funnel analysis is a great technique to
+
+00:00:05.250 --> 00:00:09.810
+identify areas where users drop off in pursuit of a goal.
+
+00:00:09.810 --> 00:00:12.930
+Breaking funnel analysis done by user segments
+
+00:00:12.930 --> 00:00:16.650
+allows product managers to dig even deeper into that data.
+
+00:00:16.650 --> 00:00:20.760
+A product manager who performs such analysis will likely learn
+
+00:00:20.760 --> 00:00:22.980
+valuable information about how to
+
+00:00:22.980 --> 00:00:26.460
+optimize a product's features for different types of users.
+
+00:00:26.460 --> 00:00:30.600
+Segment analysis of funnels follows four basic steps.
+
+00:00:30.600 --> 00:00:33.750
+First, you must create the overall funnel.
+
+00:00:33.750 --> 00:00:36.065
+Just like we discussed in the last lesson,
+
+00:00:36.065 --> 00:00:40.430
+you will need to determine the steps users take towards achieving the goal,
+
+00:00:40.430 --> 00:00:43.450
+and count the number of users who complete each step.
+
+00:00:43.450 --> 00:00:46.715
+Next, as discussed in the previous section,
+
+00:00:46.715 --> 00:00:49.910
+you'll need to determine which user segments are available in
+
+00:00:49.910 --> 00:00:53.345
+the data that you think might perform differently in the funnel.
+
+00:00:53.345 --> 00:00:57.910
+These user segments are the ones you will apply to the funnel analysis.
+
+00:00:57.910 --> 00:01:00.845
+The third step of segment analysis of a funnel
+
+00:01:00.845 --> 00:01:03.925
+is to recreate the funnel for each group within a segment.
+
+00:01:03.925 --> 00:01:07.355
+For example, how many users on a mobile device completed
+
+00:01:07.355 --> 00:01:11.135
+each step versus how many users on a tablet completed each step,
+
+00:01:11.135 --> 00:01:14.360
+versus how many users on a desktop completed each step.
+
+00:01:14.360 --> 00:01:16.355
+By generating this information,
+
+00:01:16.355 --> 00:01:20.105
+you will have the data necessary to compare user experiences.
+
+00:01:20.105 --> 00:01:22.655
+The final step is to analyze the data
+
+00:01:22.655 --> 00:01:25.010
+to look for groups within a segment that dropped out of
+
+00:01:25.010 --> 00:01:28.010
+the funnel or on a particular step in the funnel at
+
+00:01:28.010 --> 00:01:31.465
+a rate that is noticeably higher or lower than average.
+
+00:01:31.465 --> 00:01:35.530
+If the segment you're analyzing doesn't impact how users complete the funnel,
+
+00:01:35.530 --> 00:01:39.230
+there might not be any difference in the drop off rates among segment groups.
+
+00:01:39.230 --> 00:01:41.870
+For example, men and women may use a feature in
+
+00:01:41.870 --> 00:01:45.385
+the same way with no difference in outcome between gender.
+
+00:01:45.385 --> 00:01:50.420
+Not every difference between users will result in a different style of using a product.
+
+00:01:50.420 --> 00:01:54.830
+But if a particular group of users isn't getting the experience they need,
+
+00:01:54.830 --> 00:01:58.865
+this will likely be reflected in a dropout rate that is higher than average.
+
+00:01:58.865 --> 00:02:01.069
+Once such a pattern is identified,
+
+00:02:01.069 --> 00:02:04.880
+you can talk to those users and run experiments to find ways to optimize
+
+00:02:04.880 --> 00:02:09.990
+the user experience and boost funnel conversion for all user segments.
+

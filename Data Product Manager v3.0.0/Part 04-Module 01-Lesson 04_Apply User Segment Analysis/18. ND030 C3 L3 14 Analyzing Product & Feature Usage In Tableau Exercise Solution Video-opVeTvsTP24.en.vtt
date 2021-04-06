@@ -1,0 +1,118 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.690
+For this exercise, you are asked to segment the usage of
+
+00:00:03.690 --> 00:00:08.445
+a new feature of play a random song launched by a music app.
+
+00:00:08.445 --> 00:00:14.205
+Question 1, assess to determine the number of first-time users that use each feature.
+
+00:00:14.205 --> 00:00:15.720
+Looking at the data file,
+
+00:00:15.720 --> 00:00:17.715
+we can see three event types.
+
+00:00:17.715 --> 00:00:20.040
+Banding page, play random song,
+
+00:00:20.040 --> 00:00:21.675
+and play requested song.
+
+00:00:21.675 --> 00:00:24.440
+We know that the new feature of the music app was
+
+00:00:24.440 --> 00:00:27.440
+the ability for new users to play a random song.
+
+00:00:27.440 --> 00:00:30.305
+So all play random song event types
+
+00:00:30.305 --> 00:00:33.650
+likely represent a user making use of this new feature.
+
+00:00:33.650 --> 00:00:36.380
+In contrast, the play requested song,
+
+00:00:36.380 --> 00:00:39.950
+represents the new user using the original feature set.
+
+00:00:39.950 --> 00:00:43.025
+To see the number of users using each feature,
+
+00:00:43.025 --> 00:00:47.015
+one has to count the number of records associated with each event type.
+
+00:00:47.015 --> 00:00:49.190
+Since these are first-time users,
+
+00:00:49.190 --> 00:00:53.620
+there will only be one session ID for every user ID, and vice versa.
+
+00:00:53.620 --> 00:00:58.945
+By counting the unique number of user IDs associated with it two event types in tablo,
+
+00:00:58.945 --> 00:01:02.760
+we can see that 1,709 users played
+
+00:01:02.760 --> 00:01:09.095
+a random song and only 1,045 users played a specific song during their first visit.
+
+00:01:09.095 --> 00:01:13.580
+The second question of the exercise was to use available user demographics or
+
+00:01:13.580 --> 00:01:19.225
+behavior segments to see if the use of the feature varied among different types of users.
+
+00:01:19.225 --> 00:01:23.660
+The data provides three potential elements of behavioral distinction.
+
+00:01:23.660 --> 00:01:27.920
+Gender, device, and date.
+
+00:01:27.920 --> 00:01:29.690
+By looking at the count of
+
+00:01:29.690 --> 00:01:34.835
+requested and random events broken down into these cohorts or segments,
+
+00:01:34.835 --> 00:01:38.695
+we can calculate the percent of use of each feature for each group.
+
+00:01:38.695 --> 00:01:41.140
+First, let's look at gender.
+
+00:01:41.140 --> 00:01:42.935
+As seen in this table,
+
+00:01:42.935 --> 00:01:48.350
+both genders play a random song and about the same ratio to playing of a requested song.
+
+00:01:48.350 --> 00:01:53.380
+67-69 percent of females and males played random song,
+
+00:01:53.380 --> 00:01:56.040
+and 32-30 percent requested.
+
+00:01:56.040 --> 00:02:00.755
+The new random song feature doesn't seem to be appealing more to either gender.
+
+00:02:00.755 --> 00:02:03.385
+Now let's talk about devices.
+
+00:02:03.385 --> 00:02:07.775
+Again, similar ratios are seen among all devices.
+
+00:02:07.775 --> 00:02:12.580
+It looks like both features are equally effective across all devices.
+
+00:02:12.580 --> 00:02:17.000
+Finally, let's check the daily use of features to see if any changes or
+
+00:02:17.000 --> 00:02:22.110
+marketing resulted in a spike of the usage of one feature on a particular day.
+

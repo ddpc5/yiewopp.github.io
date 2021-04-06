@@ -1,0 +1,172 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.970
+For this exercise, you are asked to segment the drop
+
+00:00:02.970 --> 00:00:06.195
+off rate between pages on buy stuff.com.
+
+00:00:06.195 --> 00:00:09.600
+Question number 1 asked you to determine the drop off rate
+
+00:00:09.600 --> 00:00:13.275
+at each step in the buy things.com e-commerce bundle.
+
+00:00:13.275 --> 00:00:15.990
+To see the drop off between pages, first,
+
+00:00:15.990 --> 00:00:18.600
+we need to look at the pages and order
+
+00:00:18.600 --> 00:00:21.795
+them as a user would experience them in the funnel.
+
+00:00:21.795 --> 00:00:25.035
+In buy stuff.com, the funnel is between the pages;
+
+00:00:25.035 --> 00:00:28.880
+homepage, search page, the payment page,
+
+00:00:28.880 --> 00:00:31.070
+the payment confirmation page.
+
+00:00:31.070 --> 00:00:32.915
+After we've ordered the pages,
+
+00:00:32.915 --> 00:00:36.030
+we need to count the number of distinct events on each page.
+
+00:00:36.030 --> 00:00:38.300
+Because this website has a simple flow,
+
+00:00:38.300 --> 00:00:41.570
+every page is required of the user to complete a purchase.
+
+00:00:41.570 --> 00:00:44.450
+Therefore, every page will be shown in the funnel,
+
+00:00:44.450 --> 00:00:48.695
+and every page represents a user taking a new action.
+
+00:00:48.695 --> 00:00:53.390
+Here is a count of every user who made it to each page in the funnel.
+
+00:00:53.390 --> 00:00:55.340
+To calculate the actual drop off,
+
+00:00:55.340 --> 00:00:59.980
+we can use a Quick Table Calculation of percent difference.
+
+00:00:59.980 --> 00:01:03.425
+This shows us the percent change between counts.
+
+00:01:03.425 --> 00:01:06.760
+Now, we can see the drop off rate between all steps.
+
+00:01:06.760 --> 00:01:08.490
+We can move to question 2,
+
+00:01:08.490 --> 00:01:14.035
+determine funnel conversion by user segment for devices, sexes, and months.
+
+00:01:14.035 --> 00:01:15.440
+To segment the data,
+
+00:01:15.440 --> 00:01:18.050
+we need to add a segment group to the rows to
+
+00:01:18.050 --> 00:01:21.650
+determine a drop off rate for a given behavior and characteristic.
+
+00:01:21.650 --> 00:01:24.100
+Let's start with sex.
+
+00:01:24.100 --> 00:01:27.080
+Question 2 also asked which segments have
+
+00:01:27.080 --> 00:01:30.395
+a higher average drop off rate between steps and other users,
+
+00:01:30.395 --> 00:01:33.185
+and what such a drop off rate could indicate.
+
+00:01:33.185 --> 00:01:34.999
+For males and females,
+
+00:01:34.999 --> 00:01:38.650
+there is no real difference in drop off rate between steps,
+
+00:01:38.650 --> 00:01:41.040
+49 percent versus 50 percent.
+
+00:01:41.040 --> 00:01:45.330
+In the first step, 86 percent and 92 percent.
+
+00:01:45.330 --> 00:01:47.930
+This indicates gender may not play a role
+
+00:01:47.930 --> 00:01:50.825
+in whether a new user completes the shopping flow.
+
+00:01:50.825 --> 00:01:53.020
+Now, let's look at device.
+
+00:01:53.020 --> 00:01:55.535
+When we look at the device drop off rates,
+
+00:01:55.535 --> 00:01:57.650
+we can see that desktop users have
+
+00:01:57.650 --> 00:02:01.705
+a 10 percent higher drop off rate between the search and payment pages,
+
+00:02:01.705 --> 00:02:05.375
+90 percent drop off on desktop versus 80 percent on mobile.
+
+00:02:05.375 --> 00:02:08.210
+They also have a five percent higher drop off
+
+00:02:08.210 --> 00:02:11.345
+rate between the payment and payment confirmation pages.
+
+00:02:11.345 --> 00:02:15.350
+This may indicate areas for Desktop Experience Optimization.
+
+00:02:15.350 --> 00:02:17.825
+Finally, let's look at months.
+
+00:02:17.825 --> 00:02:20.180
+When looking at these drop off rates,
+
+00:02:20.180 --> 00:02:24.125
+there is a large increase in drop off between landing and search pages,
+
+00:02:24.125 --> 00:02:28.525
+which can be seen when comparing January and February to March and April,
+
+00:02:28.525 --> 00:02:34.805
+drop off increases from about 40 percent to about 60 percent between the two pages.
+
+00:02:34.805 --> 00:02:39.230
+Similarly, the drop off rate between search and payment pages
+
+00:02:39.230 --> 00:02:44.965
+increases 10 percent from around 82 percent to around 92 percent.
+
+00:02:44.965 --> 00:02:47.750
+This indicates a change occurred between February and
+
+00:02:47.750 --> 00:02:51.185
+March that is impacting the new user funnel conversion.
+
+00:02:51.185 --> 00:02:55.655
+The CEO should examine what changes occurred between February and March.
+
+00:02:55.655 --> 00:02:58.250
+Perhaps a new feature introduced a bug or
+
+00:02:58.250 --> 00:03:03.180
+a new marketing method is recruiting more users who are less likely to purchase.
+

@@ -1,0 +1,115 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:05.190
+Segment analysis can be applied to general feature usage metrics.
+
+00:00:05.190 --> 00:00:10.440
+In this section, we'll discuss how applying segment level analysis to feature
+
+00:00:10.440 --> 00:00:15.885
+level metrics can reveal differences in feature usage among users segment groups.
+
+00:00:15.885 --> 00:00:17.835
+As with final analysis,
+
+00:00:17.835 --> 00:00:21.390
+segmentation can be applied to feature usage metrics.
+
+00:00:21.390 --> 00:00:25.770
+Segmentation, a feature usage data shows whether a feature is being
+
+00:00:25.770 --> 00:00:31.575
+adopted at the same rate and used in the same manner by different types of users.
+
+00:00:31.575 --> 00:00:35.090
+Different patterns of feature adoption might reflect a feature
+
+00:00:35.090 --> 00:00:38.980
+that only appeals to a particular type of customer use case.
+
+00:00:38.980 --> 00:00:41.810
+Differences in feature used among segment groups
+
+00:00:41.810 --> 00:00:44.719
+can lead to a realization that a features benefits,
+
+00:00:44.719 --> 00:00:48.605
+need to be made more appealing to the under using segment group.
+
+00:00:48.605 --> 00:00:51.725
+An example of how segmentation can be important
+
+00:00:51.725 --> 00:00:55.310
+is if we were to segment the usage of a feature by device type.
+
+00:00:55.310 --> 00:00:59.930
+The overall metrics might tell us that 60 percent of customers use the feature,
+
+00:00:59.930 --> 00:01:02.480
+but segmenting that data could show 80 percent of
+
+00:01:02.480 --> 00:01:06.625
+mobile users and only 20 percent of desktop users use the feature.
+
+00:01:06.625 --> 00:01:09.830
+Since the usage is not the same across device types,
+
+00:01:09.830 --> 00:01:11.930
+there could be something about how the feature works
+
+00:01:11.930 --> 00:01:14.410
+that isn't appealing to desktop users.
+
+00:01:14.410 --> 00:01:18.170
+A difference between the segment groups means product managers might want to
+
+00:01:18.170 --> 00:01:22.610
+research and run tests to understand why such a division is occurring.
+
+00:01:22.610 --> 00:01:27.505
+It is also worth noting that feature usage itself can be a behavioral segment.
+
+00:01:27.505 --> 00:01:31.940
+KPIs from customers that use a feature can be compared to those that don't,
+
+00:01:31.940 --> 00:01:33.800
+or customers that use a feature with
+
+00:01:33.800 --> 00:01:38.465
+a certain frequency can be compared to those that use the feature less frequently.
+
+00:01:38.465 --> 00:01:42.230
+For example, imagine comparing the average retention of
+
+00:01:42.230 --> 00:01:46.040
+users who favorite items to those who don't favorite items.
+
+00:01:46.040 --> 00:01:50.870
+If a user who favorites items uses the app for an average of four weeks,
+
+00:01:50.870 --> 00:01:55.460
+but users who don't favorite items use the app for only an average of two weeks,
+
+00:01:55.460 --> 00:01:59.275
+this might be a sign that the favoriting feature helps user retention.
+
+00:01:59.275 --> 00:02:02.400
+Of course, correlation is not causation.
+
+00:02:02.400 --> 00:02:06.560
+It is just as likely that highly engaged users who would already have been
+
+00:02:06.560 --> 00:02:10.940
+retained for longer are also the users that make use of the favoriting feature.
+
+00:02:10.940 --> 00:02:13.700
+Knowing this difference between segments simply provides
+
+00:02:13.700 --> 00:02:17.150
+the launching point for further user research and analysis,
+
+00:02:17.150 --> 00:02:20.910
+as part of the cycle of iterative product design.
+
