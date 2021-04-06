@@ -1,0 +1,1526 @@
+{
+  "data": {
+    "lesson": {
+      "id": 1017463,
+      "key": "21665d70-9d0e-4887-b345-4f813470ad7a",
+      "title": "Setting Product Objectives & Strategy",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": "Learn how to set product objectives and strategy to drive your desired results.",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": false,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "https://zips.udacity-data.com/21665d70-9d0e-4887-b345-4f813470ad7a/1017463/1611199148155/Setting+Product+Objectives+%26+Strategy+Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "https://zips.udacity-data.com/21665d70-9d0e-4887-b345-4f813470ad7a/1017463/1611199143977/Setting+Product+Objectives+%26+Strategy+Subtitles.zip"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 1017445,
+          "key": "b6d1c72e-8805-4002-bca3-dfa7387fa5db",
+          "title": "Setting Product Objectives & Strategy",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "b6d1c72e-8805-4002-bca3-dfa7387fa5db",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1017397,
+              "key": "0956534a-892a-46a0-bbea-41ec606db87f",
+              "title": "Setting Product Objectives & Strategy Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Setting Product Objectives & Strategy: Overview",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1017401,
+              "key": "08105850-0780-4345-bd51-e54288422dff",
+              "title": "ND030 C1 L3 A01 Setting Product Objectives & Strategy",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "oNDMYZ5a3P4",
+                "china_cdn_id": "oNDMYZ5a3P4.mp4"
+              }
+            },
+            {
+              "id": 1017400,
+              "key": "b9b2c695-d232-4398-96df-1a437f7355d2",
+              "title": "Setting Product Objectives & Strategy Summary",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "In this lesson, we’ll be going over the following: \n- Creating OKRs\n- Setting measurable and relevant KPIs \n- Laying out experimentation details - control vs experimental variants, bucket allocation, sample size, statistical significance, and estimated experiment length\n- Building out an instrumentation strategy in order to be able to measure KPIs\n- Gathering qualitative data to provide more context on why your KPIs are moving they way they’re moving",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1017446,
+          "key": "d44e7ff5-909e-4c80-b4aa-7ee51f68aea6",
+          "title": "Product Objectives & MVPs",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "d44e7ff5-909e-4c80-b4aa-7ee51f68aea6",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1017399,
+              "key": "28c6bf52-6955-451c-8689-e79d61e72f01",
+              "title": "Creating Product Objectives Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Creating Product Objectives",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1017403,
+              "key": "f8292b89-a5fc-44a1-b955-960c97a4f208",
+              "title": "ND030 C1 L3 A02 Creating Product Objectives",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "hEYIqs7i_KI",
+                "china_cdn_id": "hEYIqs7i_KI.mp4"
+              }
+            },
+            {
+              "id": 1017402,
+              "key": "a72b43d7-0a8e-4906-9f00-15d7bdf038e5",
+              "title": "Creating Product Objectives Notes",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "- **Product vision** - (or North Star) the ultimate goal of where you want your users to do or accomplish with your product. \n- **Objectives and Key Results (OKR) Framework** - goal setting methodology to define & track the progress towards objectives\n- **Objectives** - clearly defined goal at a high-level. Could be both quantitative or qualitative.\n- **Key Result** - metric targets that directly influence the success of meeting our objective. Could be both quantitative or qualitative, but usually the former. Multiple key results could roll up to one objective.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1017406,
+              "key": "5a0800c9-be00-46bb-8dcc-ae40398f8417",
+              "title": "Creating Product Objectives Image",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/April/5ea9ad2c_vision-okrs/vision-okrs.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/5a0800c9-be00-46bb-8dcc-ae40398f8417",
+              "caption": "We get more specific and action driven from the Vision at the top, to Objectives, to Key Results.",
+              "alt": "Vision heads the diagram, with three Objectives out from it; three Key Results hang down from one Objective.",
+              "width": 860,
+              "height": 450,
+              "instructor_notes": null
+            },
+            {
+              "id": 1099398,
+              "key": "efb2b633-2343-4f0e-8bdd-fcf8c87ca555",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Minimum Viable Product",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1099399,
+              "key": "c9050c84-9041-43da-953e-9a2bdc6fd228",
+              "title": "ND030 C1 L3 A04.3 Experiment Design",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "2vnpo6ar-NA",
+                "china_cdn_id": "2vnpo6ar-NA.mp4"
+              }
+            },
+            {
+              "id": 1099400,
+              "key": "eae17b29-40cf-41a4-9d57-649be055de20",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "A Minimum Viable Product (MVP) is a collection of features to form a usable, functional product, that isn’t yet fully fleshed out. The goal with an MVP is to validate a potential product’s viability for solving user problems without the potentially disastrous results of spending large quantities of time and resources on a product the market doesn’t care about.",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1017404,
+          "key": "95c67bb6-1c52-4f1a-831b-65afddc0581b",
+          "title": "Quiz: Product Objectives & MVPs",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "95c67bb6-1c52-4f1a-831b-65afddc0581b",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1017607,
+              "key": "544cf7e9-3a82-4c22-b9d6-000392a6f931",
+              "title": "Creating Product Objectives Quiz 1",
+              "semantic_type": "MatchingQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "544cf7e9-3a82-4c22-b9d6-000392a6f931",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "complex_prompt": {
+                  "text": "Match the below definitions with their respective terms."
+                },
+                "concepts_label": "Definition",
+                "answers_label": "Terms",
+                "concepts": [
+                  {
+                    "text": "The north star, or ultimate goal of where you want your users to go or accomplish with your product.",
+                    "correct_answer": {
+                      "id": "a1588195530374",
+                      "text": "Product Vision"
+                    }
+                  },
+                  {
+                    "text": "Clearly defined goal, could be quantitative, or qualitative.",
+                    "correct_answer": {
+                      "id": "a1588195531776",
+                      "text": "Objectives"
+                    }
+                  },
+                  {
+                    "text": "Measurable metric targets that directly influences the success of the objective",
+                    "correct_answer": {
+                      "id": "a1588195532424",
+                      "text": "Key Results"
+                    }
+                  },
+                  {
+                    "text": "A collection of features that form a usable but not fully fleshed-out product",
+                    "correct_answer": {
+                      "id": "a1605228022839",
+                      "text": "Minimum Viable Product"
+                    }
+                  }
+                ],
+                "answers": [
+                  {
+                    "id": "a1588195532424",
+                    "text": "Key Results"
+                  },
+                  {
+                    "id": "a1588195531776",
+                    "text": "Objectives"
+                  },
+                  {
+                    "id": "a1588195530374",
+                    "text": "Product Vision"
+                  },
+                  {
+                    "id": "a1605228022839",
+                    "text": "Minimum Viable Product"
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1099402,
+              "key": "863dfe7a-2849-4788-bed7-b7ca1e5791e9",
+              "title": "MVP quiz",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "863dfe7a-2849-4788-bed7-b7ca1e5791e9",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Imagine you want to start up an online shoe retail business. Your resources are limited, so you want to test your idea with an MVP. Which of the following could be a good MVP for your online shoe retailer?",
+                "answers": [
+                  {
+                    "id": "a1605227901153",
+                    "text": "Buying several pairs of shoes to re-sell out of your garage",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1605227917097",
+                    "text": "Posting pictures of shoes on social media to see which shoes get the most likes",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1605227924820",
+                    "text": "A webpage for customers to order shoes, which you then purchase in a store and send to the customer",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1605227932026",
+                    "text": "Partnering with an existing shoe manufacturer to design and launch a new shoe with your name on it",
+                    "is_correct": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 1017450,
+          "key": "b89687c7-c480-465f-906b-19da054f5e9b",
+          "title": "Exercise: Creating Product Objectives",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "b89687c7-c480-465f-906b-19da054f5e9b",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1035448,
+              "key": "17884c5b-b39f-44dd-889c-20c6f5cd97ec",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "You are the product manager for an edtech company. In the company's current offering, curriculum managers, designers, and video producers work with instructors to produce content. The company is looking to expand towards a platform for freelance instructors to build course content, edit their videos, and market their work from a self-service standpoint (no internal employees required to guide them along in the content creation journey). What would your product vision be, and your OKRs for their initial Minimum Viable Product (MVP)?\n\nAs is the case with many situations a PM might face, this scenario doesn't have a single correct answer. Different PMs might have totally different approaches, and that's fine! Take this exercise and the following exercises in this lesson as a chance to practice explaining your thought process and justifying your reasoning - important skills for a product manager to develop.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1017405,
+              "key": "9d5bab4f-de84-4566-b494-d0a2033b0573",
+              "title": "Creating Product Objectives Exercise",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "9d5bab4f-de84-4566-b494-d0a2033b0573",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": "Product Vision and OKRs",
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "Record your product vision and OKRs for the initial MVP here."
+              },
+              "answer": {
+                "text": "Thanks for your response! You can see my approach on the next page.",
+                "video": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 1017448,
+          "key": "3cfab93b-e004-4c77-889b-aaaad05783ac",
+          "title": "Solution: Creating Product Objectives",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "3cfab93b-e004-4c77-889b-aaaad05783ac",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1017410,
+              "key": "d494ccfb-a102-4c0b-80a1-5fb2450daa45",
+              "title": "ND030 C1 L3 A03 Creating Product Objectives - Exercise Solution",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "boF44pXR_58",
+                "china_cdn_id": "boF44pXR_58.mp4"
+              }
+            },
+            {
+              "id": 1035449,
+              "key": "f44f4274-c179-41c6-85ef-3580dcd7711d",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Your answer may be different than mine, but let me go over an example answer I have for the exercise.\n\nOur product vision is for users to have the tools to self-serve their course creation process from content management, design, infrastructure, analytics, and marketing so that they could focus on being the subject matter expertise and be the best teacher they could be.\n\n* Objective 1: Provide an intuitive CMS (or course management system) interface & backend for instructors to self-create course materials (slides, quizzes, exercises, lectures, curriculum, learning objectives).\n  * (KR1) The average completion of development of a full course to be under 3 months\n  * (KR2) The average course NPS (or Net Promoter Score) to be above 75\n* Objective 2: Provide an interface, algorithm, and dashboard for instructors to configure strategy of their course marketing spend and student candidate targeting.\n  * (KR1) 60% of instructors return net positive ROI on marketing spend after the first year\n* Objective 3: Provide video production templates and automated post-production processes, to ensure that course videos are high quality and standardized\n  * (KR1) The majority of course instructors do not have to use third-party video software to edit their videos before publishing\n  * (KR2) The amount of video production templates is increased, so that we get minimal feedback from users complaining how the format is too repetitive and formulaic",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1017453,
+          "key": "da1b4d9f-9f96-4058-a0f2-4f8532764f73",
+          "title": "Setting KPIs",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "da1b4d9f-9f96-4058-a0f2-4f8532764f73",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1017409,
+              "key": "1b2ef300-281b-4474-904b-2fcf5f914edd",
+              "title": "Setting KPIs Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Setting KPIs",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1017413,
+              "key": "19edf7db-e8b4-4ddc-beac-9733efe868d0",
+              "title": "ND030 C1 L3 A04 Setting KPIs",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "ziTOpFedJEg",
+                "china_cdn_id": "ziTOpFedJEg.mp4"
+              }
+            },
+            {
+              "id": 1017411,
+              "key": "e2d30829-2a5e-4e1d-b3c2-890bec88870b",
+              "title": "Setting KPIs Notes",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "**Common KPIs Product Managers Leverage**\n(These KPIs are widely-used, but generic, you should tailor your KPIs to correlate with the success of your specific product depending on its use cases.)\n\n**Business Operations KPIs**\n* Monthly recurring revenue (MRR) - total amount of estimated revenue that a company will receive on a monthly basis. Could be referred to as annual recurring revenue (ARR).\n* Customer Lifetime Value (CLTV or LTV) - total amount of money a customer is estimated to spend on your products or services during their lifetime\n* Customer Acquisition Cost (CAC) - total cost of marketing spent to have potential customer to buy a product or service\n\n**Subscriptions KPIs**\n* Retention rate - the percentage of subscribers who are still subscribed after a specified time period\n* Churn rate - the percentage of subscribers who are no longer subscribed after a specified time period (inverse of retention rate)\n* Number of active subscriptions - the current number of active paying subscribers, that are not expired\n* Trial to paid conversation - the percentage of total subscription trialers that end up converting to a paid subscription after their trial ends\n\n**Engagement KPIs**\n* Number of sessions per user - one session refers to any user doing activities on a product or a website, capped by exiting the website or by a period of user inactivity\n* Number of user actions per session - how much activity happens in each session\n* Session duration - the average time spent on each session\n* Daily Active Users (DAU) - number of unique users per day\n* Monthly Active Users (MAU) - number of unique users per month\n* DAU / MAU - a ratio effective at measuring the rate of stickiness, for products that are meant to be used daily\n* Lness - This number of days a user has used a specific feature in a given time frame. For example, L10+/14, represents the percentage of users who have used the specific feature in the past 2 weeks (or 14 days).\n\n**Marketing KPIs**\n* Click-through rate (CTR) - percentage of people who click on an ad, or link in an email campaign, out of the total people who have seen it\n* Customer Acquisition Cost (CAC) - total cost of marketing spent to have potential customer to buy a product or service\n\n**Referral KPIs**\n* Net Promoter Score (NPS) - a metric that estimates the loyalty of a customer and how much they would be willing to refer your product to other people (administered through customer surveys, with a score range from -100 to +100)\n* Customer Satisfaction Score (CSAT) - a metric to gauge customer satisfaction (usually administered after a customer support engagement, with a range from 0 - 100%)",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1017447,
+          "key": "81baff25-95c8-42dc-985b-e4c0fd51abcd",
+          "title": "Quiz: Setting KPIs",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "81baff25-95c8-42dc-985b-e4c0fd51abcd",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1017608,
+              "key": "422519b4-2a5f-4e1c-9a87-8a13da840713",
+              "title": "Setting KPIs Quiz 1",
+              "semantic_type": "MatchingQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "422519b4-2a5f-4e1c-9a87-8a13da840713",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "complex_prompt": {
+                  "text": "Match the following KPIs to the specific products."
+                },
+                "concepts_label": "KPI",
+                "answers_label": "Product",
+                "concepts": [
+                  {
+                    "text": "Return on ad spend",
+                    "correct_answer": {
+                      "id": "a1588195724666",
+                      "text": "Social Network"
+                    }
+                  },
+                  {
+                    "text": "First page CTR (click through rate) to ensure relevancy of search results",
+                    "correct_answer": {
+                      "id": "a1588195733222",
+                      "text": "Search Engine"
+                    }
+                  },
+                  {
+                    "text": "NPS (Net Promoter Rate) based on how much users would recommend this hardware product to their friends & family",
+                    "correct_answer": {
+                      "id": "a1588195733939",
+                      "text": "Consumer Electronics Product"
+                    }
+                  }
+                ],
+                "answers": [
+                  {
+                    "id": "a1588195724666",
+                    "text": "Social Network"
+                  },
+                  {
+                    "id": "a1588195733939",
+                    "text": "Consumer Electronics Product"
+                  },
+                  {
+                    "id": "a1588195733222",
+                    "text": "Search Engine"
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1017416,
+              "key": "9cec8cbb-a5f8-4edd-8867-a6db9d4a26ba",
+              "title": "Setting KPIs Hard Quiz",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "9cec8cbb-a5f8-4edd-8867-a6db9d4a26ba",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "What are qualities of great KPIs?",
+                "answers": [
+                  {
+                    "id": "rbk1",
+                    "text": "Able to be measured with data we collect",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk2",
+                    "text": "Is indirectly or loosely correlated with the success of your OKRs.",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk3",
+                    "text": "Could be influenced to move based on features & experiments launched",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk4",
+                    "text": "Wildly erratic based on external factors in the market",
+                    "is_correct": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 1017454,
+          "key": "8390feec-eca0-4d15-a4e2-b4eb2d89c4e2",
+          "title": "Exercise: Setting KPIs",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8390feec-eca0-4d15-a4e2-b4eb2d89c4e2",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1090666,
+              "key": "f1b998d6-466f-4fa3-b781-aa9fb3c6427f",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "You are still the product manager of the edtech platform company. In the company's current offering, curriculum managers, designers, and video producers work with instructors to produce content. The company is looking to expand towards a platform for freelance instructors to build course content, edit their videos, and market their work from a self-service standpoint (no internal employees required to guide them along in the content creation journey). What would your KPIs be for the product objectives you've set in the previous exercise?",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1017415,
+              "key": "1ee61352-511f-4b20-b0d0-1f845d626de1",
+              "title": "Setting KPIs Exercise",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "1ee61352-511f-4b20-b0d0-1f845d626de1",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": "KPIs",
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "Record your KPIs here."
+              },
+              "answer": {
+                "text": "Thanks for your response. You can see my approach on the next page.",
+                "video": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 1017452,
+          "key": "eb82442a-d671-4f3c-8eff-9c6363487ca0",
+          "title": "Solution: Setting KPIs",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "eb82442a-d671-4f3c-8eff-9c6363487ca0",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1017412,
+              "key": "9cdb3e51-9092-4f8d-8b07-d08e2dc1d72d",
+              "title": "Setting KPIs Exercise Solution Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Exercise Solution",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1017417,
+              "key": "68c6b6b7-f495-42d4-ae25-cd9d2743d2d0",
+              "title": "ND030 C1 L3 A05 Setting KPIs - Exercise Solution",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "kpWVpE3SvVc",
+                "china_cdn_id": "kpWVpE3SvVc.mp4"
+              }
+            },
+            {
+              "id": 1017392,
+              "key": "b28c7d93-59fc-415d-a7b3-eb2909a2a9e2",
+              "title": "Setting KPIs Exercise Solution Summary",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Objective 1\n\n#### Key Results\n- The average completion of development of a full course to be under 3 months\n- The average course NPS (or Net Promoter Score) to be above 75\n\n#### KPIs\n- Average course development completion time\n- Average NPS of all courses\n\n### Objective 2\n\n#### Key Results\n- 60% of instructors return net positive ROI on marketing spend after the first year\n\n#### KPIs\n- Instructor revenue divided by instructor marketing spend",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1017449,
+          "key": "22b38d79-a1ce-46bd-a40f-60f0bac97430",
+          "title": "Experiment Design",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "22b38d79-a1ce-46bd-a40f-60f0bac97430",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1017418,
+              "key": "c2ab6e2a-83ba-4957-87b9-acb5d12656d6",
+              "title": "Experiment Design Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Experiment Design",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1017393,
+              "key": "cc474925-49b0-4a26-8b81-bd8756e05fd8",
+              "title": "ND030 C1 L3 A04.1 Experiment Design",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "nYGK2-ntzoU",
+                "china_cdn_id": "nYGK2-ntzoU.mp4"
+              }
+            },
+            {
+              "id": 1124087,
+              "key": "c00a4a8e-730c-4f2b-966d-e4b111e6c17b",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "An experiment is a test whose primary function is to validate a hypothesis, whereas a hypothesis is a proposed statement that requires validation. Experiments are a good way to validate how a feature might affect KPIs without launching the feature 100% and having to roll it back if it turns out to be unsuccessful.\n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1124082,
+              "key": "45975336-8d4a-4aa8-ad67-75c1127e8483",
+              "title": "ND030 C1 L3 A06.2A Experiment Design",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "lsV4PZzpMuQ",
+                "china_cdn_id": "lsV4PZzpMuQ.mp4"
+              }
+            },
+            {
+              "id": 1099382,
+              "key": "13e73306-2ded-4d66-957b-6149b5809d57",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/November/5fadc453_dpmnd-experiment.001/dpmnd-experiment.001.jpeg",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/13e73306-2ded-4d66-957b-6149b5809d57",
+              "caption": "",
+              "alt": "",
+              "width": 1024,
+              "height": 768,
+              "instructor_notes": null
+            },
+            {
+              "id": 1124083,
+              "key": "3035f248-031e-4a4d-a491-7b4c1c815f93",
+              "title": "ND030 C1 L3 A06.2B Experiment Design",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "GyCzNzizyQM",
+                "china_cdn_id": "GyCzNzizyQM.mp4"
+              }
+            },
+            {
+              "id": 1124085,
+              "key": "e038dbe8-b354-4bad-878a-a08ea8712212",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2021/January/5ff726bf_screen-shot-2021-01-07-at-10.20.07-am/screen-shot-2021-01-07-at-10.20.07-am.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/e038dbe8-b354-4bad-878a-a08ea8712212",
+              "caption": "",
+              "alt": "",
+              "width": 843,
+              "height": 206,
+              "instructor_notes": null
+            },
+            {
+              "id": 1124084,
+              "key": "a3ed9d9a-7887-4a85-8b5b-1c2a3a0d3386",
+              "title": "ND030 C1 L3 A06.2C Experiment Design",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "bF7HV8Vjwro",
+                "china_cdn_id": "bF7HV8Vjwro.mp4"
+              }
+            },
+            {
+              "id": 1124086,
+              "key": "07b6e42d-1256-4aa7-b829-4845eb57c643",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "The results of an experiment are considered to be statistically significant when the likelihood that the results are due to random chance is below a certain threshold (called a p-value). In order to achieve statistically significant results, it is important to have a large enough group of participants in your experiment. The number of participants needed for the experiment to produce statistically significant results is called the sample size.\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1050583,
+              "key": "adf41593-eaf1-4691-8060-031c5ea03c1a",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Further Research\n\n**Open Source A/B Test Frameworks**\n- [Proctor](https://github.com/indeedeng/proctor) (from Indeed)\n- [PlanOut](https://facebook.github.io/planout/) (from Facebook)\n\n**Optimizely’s A/B Test Sample Size Calculator**\n- [A/B Sample Size Calculator](https://www.optimizely.com/sample-size-calculator)",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1017458,
+          "key": "29ad6b20-defb-40e1-b7ae-fec98ed38e92",
+          "title": "Quiz: Experiment Design",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "29ad6b20-defb-40e1-b7ae-fec98ed38e92",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1017609,
+              "key": "4bf55f02-1b9b-4847-be43-f3fcb1cb5b29",
+              "title": "Experiment Design Quiz 1",
+              "semantic_type": "MatchingQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "4bf55f02-1b9b-4847-be43-f3fcb1cb5b29",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "complex_prompt": {
+                  "text": "Match the below terms with their definitions."
+                },
+                "concepts_label": "Definition",
+                "answers_label": "Term",
+                "concepts": [
+                  {
+                    "text": "A multivariate experiment involving two or more variables.",
+                    "correct_answer": {
+                      "id": "a1588195972925",
+                      "text": "A/B/n experiment"
+                    }
+                  },
+                  {
+                    "text": "The group that receives that current experience",
+                    "correct_answer": {
+                      "id": "a1588195996862",
+                      "text": "Control variant"
+                    }
+                  },
+                  {
+                    "text": "An experiment that involves two variables - the control & experimental variants",
+                    "correct_answer": {
+                      "id": "a1588195997487",
+                      "text": "A/B experiment"
+                    }
+                  },
+                  {
+                    "text": "The group that receive the experience that the hypothesis proposed",
+                    "correct_answer": {
+                      "id": "a1588195998121",
+                      "text": "Experimental variant"
+                    }
+                  },
+                  {
+                    "text": "A condition of a experiment result not being due to normal fluctuation, but do to actually the changes imposed by the experimental variant",
+                    "correct_answer": {
+                      "id": "a1588196000017",
+                      "text": "Statistically significant"
+                    }
+                  }
+                ],
+                "answers": [
+                  {
+                    "id": "a1588195998121",
+                    "text": "Experimental variant"
+                  },
+                  {
+                    "id": "a1588195996862",
+                    "text": "Control variant"
+                  },
+                  {
+                    "id": "a1588196000017",
+                    "text": "Statistically significant"
+                  },
+                  {
+                    "id": "a1588195997487",
+                    "text": "A/B experiment"
+                  },
+                  {
+                    "id": "a1588195972925",
+                    "text": "A/B/n experiment"
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1094692,
+              "key": "d05f4961-7aad-497d-8fa4-14a31225c79f",
+              "title": "Experiment Design Thought Exercise",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "d05f4961-7aad-497d-8fa4-14a31225c79f",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": null,
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "You are the product manager for a social media platform. This quarter you are focusing on driving activation/acquisition of smartwatch users by experimenting with how smartwatch videos are displayed on users' feeds. \n\nGuide us through how you would design an experiment that changes how smartwatch videos are displayed on the feed. What would your hypothesis be? What would the experimental variant be? Would this be a client- or server-side experiment? How big should the sample size be, so that the experiment could garner statistically significant results?"
+              },
+              "answer": {
+                "text": "Nice work! \nThere are a lot of ways to approach this scenario. For example, you might hypothesize that smartwatch users will be more engaged with your social media platform if smartwatch videos are highlighted in their feeds. To test this hypothesis, you could run a client-side experiment to compare your current feed with a new feature that puts a colorful border around smartwatch video posts in users' feeds. Again, there are lots of ways you could approach this scenario - this example is by no means the only way!",
+                "video": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 1017451,
+          "key": "af8e77be-7d7a-4ee4-be14-c88e3826a836",
+          "title": "Developing Instrumentation Strategy",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "af8e77be-7d7a-4ee4-be14-c88e3826a836",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1017433,
+              "key": "30a93fd9-72f8-4dd7-aa9c-ac6317b4dc7f",
+              "title": "Developing Instrumentation Strategy Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Developing Instrumentation Strategy",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1017394,
+              "key": "3ebc63af-f588-481a-b401-3c32c7f6cd97",
+              "title": "ND030 C1 L3 A07 Developing Instrumentation Strategy",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "Mz9aSsx3jxA",
+                "china_cdn_id": "Mz9aSsx3jxA.mp4"
+              }
+            },
+            {
+              "id": 1017426,
+              "key": "9d1a3906-1200-4385-a764-dd9510511536",
+              "title": "Developing Instrumentation Strategy Notes",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "***Events*** are data points that are produced whenever an action happens. \n\n***Instrumentation*** is the act of ensuring that events are produced, saved, cleaned, and stored in a database for access.\n\nEvents are necessary to calculate KPIs. They are also leveraged for analytics use-cases all across the board, from training machine learning algorithms, to data science deep-dives, and even running triage on product outages.\n\nYou should capture every step of the user journey, logging each step that they take to meet a goal (like finish onboarding), so that you could analyze where if there are any leaky points in the funnel that are heavily preventing the user from meeting their goal. \n\nIt's best practice to name your events in camelCase nomenclature (first word uncapitalized, proceeding words capitalized), like `userOnboardingCompleted` or `userSignedIn`.\n\nFor standardization, name the event starting with the subject, then the predicate. For example: in `userSignedIn`, the subject is the user. What did they do? They signed in to the app. \n\nEvent properties are best named with all lower cases, and an underscore in between. For example: `artist_id` and `ingest_timestamp`. \n\nYou should document (or establish a process for the company to document) any events that you create into a centralized, accessible place for data end-users to quickly search and understand the definitions behind events to leverage for their analyses. Some sample knowledge base tools you could use to store event definitions are:\n- [Atlassian Confluence](https://www.atlassian.com/software/confluence)\n- [Google Docs](https://www.google.com/docs)\n\nSome popular third-party programs that facilitate the engineering process in collecting and visualizing events include:\n- [Mixpanel](https://mixpanel.com/)\n- [Amplitude](https://amplitude.com/)\n- [Pendo](https://www.pendo.io/)\n- [Heap](https://heap.io/)\n- [Segment](https://segment.com/) (Event collection only)",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1017444,
+          "key": "15bd0ccd-bb08-4a59-a64e-09ce3918c968",
+          "title": "Quiz: Developing Instrumentation Strategy",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "15bd0ccd-bb08-4a59-a64e-09ce3918c968",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1017610,
+              "key": "ef77d690-4d6b-4f9d-a41d-0016b8d79703",
+              "title": "Instrumentation Strategy Quiz 1",
+              "semantic_type": "MatchingQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "ef77d690-4d6b-4f9d-a41d-0016b8d79703",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "complex_prompt": {
+                  "text": "Let’s say you’re a PM at an online video hosting company. Match the below user actions to the event names they are most likely associated with. "
+                },
+                "concepts_label": "User Action",
+                "answers_label": "Event Name",
+                "concepts": [
+                  {
+                    "text": "User plays a video.",
+                    "correct_answer": {
+                      "id": "a1588196136552",
+                      "text": "videoPlayed"
+                    }
+                  },
+                  {
+                    "text": "User enters the homepage.",
+                    "correct_answer": {
+                      "id": "a1588196161808",
+                      "text": "homePageEntered"
+                    }
+                  },
+                  {
+                    "text": "User pauses a video.",
+                    "correct_answer": {
+                      "id": "a1588196163713",
+                      "text": "videoPaused"
+                    }
+                  },
+                  {
+                    "text": "A video that a user was watching has ended, either through browser exit, clicking on another video, or the video finishes playing.",
+                    "correct_answer": {
+                      "id": "a1588196164546",
+                      "text": "videoEnded"
+                    }
+                  },
+                  {
+                    "text": "User subscribes to a creator.",
+                    "correct_answer": {
+                      "id": "a1588196212025",
+                      "text": "creatorSubscribed"
+                    }
+                  },
+                  {
+                    "text": "User views an ad.",
+                    "correct_answer": {
+                      "id": "a1588196212939",
+                      "text": "adPlayed"
+                    }
+                  },
+                  {
+                    "text": "User posts a public comment on a video.",
+                    "correct_answer": {
+                      "id": "a1588196213499",
+                      "text": "publicCommentPosted"
+                    }
+                  }
+                ],
+                "answers": [
+                  {
+                    "id": "a1588196163713",
+                    "text": "videoPaused"
+                  },
+                  {
+                    "id": "a1588196212025",
+                    "text": "creatorSubscribed"
+                  },
+                  {
+                    "id": "a1588196136552",
+                    "text": "videoPlayed"
+                  },
+                  {
+                    "id": "a1588196161808",
+                    "text": "homePageEntered"
+                  },
+                  {
+                    "id": "a1588196212939",
+                    "text": "adPlayed"
+                  },
+                  {
+                    "id": "a1588196164546",
+                    "text": "videoEnded"
+                  },
+                  {
+                    "id": "a1588196213499",
+                    "text": "publicCommentPosted"
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1035451,
+              "key": "bd94ab5d-0752-478f-986e-e961c55657b2",
+              "title": "",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "bd94ab5d-0752-478f-986e-e961c55657b2",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Pick all the event properties that make sense to be associated with the event of `videoEnded`, that fires when a video that was being watched is ended, for whatever reason.  ",
+                "answers": [
+                  {
+                    "id": "a1591843016597",
+                    "text": " upload_rejected_reason",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1591843043470",
+                    "text": " method_of_exit (potential values: browser_close, video_completed, different_video_played)",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1591843054213",
+                    "text": " pause_reason",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1591843064151",
+                    "text": " total_time_watched",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1591843079006",
+                    "text": " video_id",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1591843094844",
+                    "text": "user_id",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1591843100179",
+                    "text": " comment_count",
+                    "is_correct": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 1017455,
+          "key": "555869da-3de9-46d2-8924-228104207aba",
+          "title": "Exercise: Developing Instrumentation Strategy",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "555869da-3de9-46d2-8924-228104207aba",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1035452,
+              "key": "a2e25d1a-b164-48d6-91c8-aebccb88edec",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "You are a PM at an online video hosting company. You are launching a new feature that enables video creators to do lightweight editing of a video before it is published. Lay out your instrumentation plan so that you and your team are able to measure the success of this feature accordingly. Identify at least one objective, key result, and KPI for this feature, and think about what events you may want to look at and what properties those events might have.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1017396,
+              "key": "0bc27bc8-d159-459f-8fef-6dff76a3a8fc",
+              "title": "Developing Instrumentation Strategy Exercise",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "0bc27bc8-d159-459f-8fef-6dff76a3a8fc",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": "Instrumentation Plan",
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "Record your instrumentation plan for the new feature here."
+              },
+              "answer": {
+                "text": "Thank you for your response. You can see my approach on the next page.",
+                "video": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 1017462,
+          "key": "fe73f34c-b920-42c4-9d76-f0c7576996a5",
+          "title": "Solution: Developing Instrumentation Strategy",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "fe73f34c-b920-42c4-9d76-f0c7576996a5",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1035453,
+              "key": "227904da-099f-4a9b-a323-694267689cba",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Potential Solution: Instrumentation Strategy to Measure the Success of Video Editing",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1017440,
+              "key": "0636e79d-716b-42bf-bf88-bc36194af459",
+              "title": "ND030 C1 L3 A08 Developing Instrumentation Strategy - Exercise Solution",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "ONyoyfQbr7A",
+                "china_cdn_id": "ONyoyfQbr7A.mp4"
+              }
+            },
+            {
+              "id": 1050584,
+              "key": "142e8867-a733-478e-9509-f90b61c46ce2",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "*Note: at 1:15 in the video, the slide shows \"Object 2\" - this should be \"Objective 2,\" and \"east-of-use\" should be \"ease-of-use\"*",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1017423,
+              "key": "aec73497-de8f-4053-8535-cbb0dbf5f3a0",
+              "title": "Developing Instrumentation Strategy Exercise Solution Summary",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "It’s important to remember product management is not black and white. Our answers may be completely different, but as long as you’re able to justify your reasoning, and it enables you and your team to measure your KPIs, you are on the right track. ",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1017459,
+          "key": "0c32e1ed-3889-4b46-9e77-f3bdf58ec057",
+          "title": "Designing Features that Gather Explicit Feedback",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "0c32e1ed-3889-4b46-9e77-f3bdf58ec057",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1017425,
+              "key": "a2daae9a-a050-4adb-9110-10e5ace2892c",
+              "title": "Designing Features that Gather Explicit Feedback Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Designing Features that Gather Explicit Feedback",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1017424,
+              "key": "b0a89efe-dfd1-4f0e-86bb-da2eefe24ff2",
+              "title": "ND030 C1 L3 A09 Designing Features That Gather Explicit Feedback",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "hRyBJZpUGCo",
+                "china_cdn_id": "hRyBJZpUGCo.mp4"
+              }
+            },
+            {
+              "id": 1017438,
+              "key": "d87edc88-942f-4363-a4d0-aef90ddbe1e6",
+              "title": "Designing Features that Gather Explicit Feedback Notes",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Here are some real-life examples for user to provide product feedback without being too obstructive: \n- In Zendesk, end-users have the ability to provide a rating for a thumbs up/down in chat.\n- In Uber, general driver & ride quality could be assessed through rider stars, tips, and multiple choice questionnaire\n- Through Google Bigquery, a SQL engine & UI to analyze data, there is an open ended feedback form for their beta products. ",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1017443,
+          "key": "c03fd9cc-1f60-4dca-843f-a86495ae612a",
+          "title": "Quiz: Designing Features that Gather Explicit Feedback",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "c03fd9cc-1f60-4dca-843f-a86495ae612a",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1098635,
+              "key": "80aa668f-c38e-417e-ac39-e6df52f85964",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "You work for a company that has created an app that lets users create and post short video stories. As the PM for the creator experience, you want to gather feedback from video creators using the app that can help you determine if your app is successful for video creators or not.\n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1098639,
+              "key": "f32cb4c7-1cf1-4f41-bf92-35f2f8c7a42c",
+              "title": "Type of feedback",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "f32cb4c7-1cf1-4f41-bf92-35f2f8c7a42c",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "What type of feedback might be useful to gather from video creators using the app?",
+                "answers": [
+                  {
+                    "id": "a1605047494069",
+                    "text": "Ease of liking/disliking a video",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1605047532393",
+                    "text": "How the experience is of uploading a video",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1605047538455",
+                    "text": "Search capability",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1605047545789",
+                    "text": "Ease of titling/tagging a video",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1605047555648",
+                    "text": "Usefulness of editing functionality",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1094693,
+              "key": "5f791087-bf68-42fe-a4ad-f2e80f592e82",
+              "title": "Thought Exercise",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "5f791087-bf68-42fe-a4ad-f2e80f592e82",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": null,
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "Now that you've thought a little about what type of feedback you might be interested in gathering from video creators using the app, what are some specific features that you could implement in the app to collect that feedback to help you determine if your product is successful for video creators or not?"
+              },
+              "answer": {
+                "text": "Nice work! An example of a feature you could implement to gather feedback from video creators could be a \"flag\" that the user could toggle if they experienced difficulty in uploading a video. This is just one example - you might have thought of something totally different, and that's okay! The important thing is being able to explain your thought process and justify your reasoning.",
+                "video": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 1017456,
+          "key": "a834c8ad-5e26-4edd-9482-f0488997d51c",
+          "title": "Exercise: Designing Features that Gather Explicit Feedback",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "a834c8ad-5e26-4edd-9482-f0488997d51c",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1090667,
+              "key": "96842352-53ea-4b05-b128-0ddb0044de14",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "You are still the product manager of the edtech platform company. In the company's current offering, curriculum managers, designers, and video producers work with instructors to produce content. The company is looking to expand towards a platform for freelance instructors to build course content, edit their videos, and market their work from a self-service standpoint (no internal employees required to guide them along in the content creation journey). What are some features you would build to enable instructors to provide feedback on the course creation process? Think about ways to gather feedback both during course creation, and aftwerwards.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1017432,
+              "key": "f81e588a-6e66-42c1-a83b-2e77c40b420b",
+              "title": "Designing Features that Gather Explicit Feedback Exercise",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "f81e588a-6e66-42c1-a83b-2e77c40b420b",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": "Instructor Feedback",
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "Record your response for how to enable instructors to provide feedback here."
+              },
+              "answer": {
+                "text": "Thanks for your response. You can see my approach on the next page.",
+                "video": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 1017460,
+          "key": "d224c604-53a9-40fe-a00e-97057cbe0638",
+          "title": "Solution: Designing Features that Gather Explicit Feedback",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "d224c604-53a9-40fe-a00e-97057cbe0638",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1017434,
+              "key": "d95f41d8-b5b7-4257-8803-82eafaa8d13f",
+              "title": "Designing Features that Gather Explicit Feedback Exercise Solution Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Solution: Feedback Features",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1017429,
+              "key": "46af2b4d-bb73-48f3-9e52-4528f5ae7088",
+              "title": "ND030 C1 L3 A10 Designing Features That Gather Explicit Feedback - Exercise Solutions",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "itxVgcqtd-Y",
+                "china_cdn_id": "itxVgcqtd-Y.mp4"
+              }
+            },
+            {
+              "id": 1017441,
+              "key": "f7305e34-e6e7-41f0-b519-249f5fd6c7eb",
+              "title": "Designing Features that Gather Explicit Feedback Exercise Solution Summary",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Here is my approach to the exercise:\n\n- Engagement notifications\n  - Completed course development\n  - Churned out of course development\n- Questionnaire/survey for instructors\n  - Completed course development\n  - Churned out of course development\n- Intercom (live chat) widget for instructors\n- Community forum",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1017457,
+          "key": "b3ed8293-83f6-4110-be69-37c012d94075",
+          "title": "Lesson Conclusion",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "b3ed8293-83f6-4110-be69-37c012d94075",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1017430,
+              "key": "c714adcc-b786-4e09-a9a8-6072db0548b4",
+              "title": "Lesson Conclusion Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Lesson Conclusion",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1017435,
+              "key": "239886b6-85e1-48d7-957b-503ac6e931a7",
+              "title": "ND030 C1 L3 A11 Lesson Conclusion",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "YyJtHvmYj8Q",
+                "china_cdn_id": "YyJtHvmYj8Q.mp4"
+              }
+            },
+            {
+              "id": 1017439,
+              "key": "c860bfa5-b2e9-4f4d-a2d6-174e2f26af72",
+              "title": "Lesson Conclusion Text",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "In this lesson, we went over how to: \n- Create OKRs\n- Set measurable and relevant KPIs \n- Lay out experimentation details - control vs experimental variants, bucket allocation, sample size, statistical significance, and estimated experiment length\n- Build out an instrumentation strategy in order to be able to measure KPIs\n- Gather qualitative data to provide more context on why your KPIs are moving they way they’re moving",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1017461,
+          "key": "975b89ac-4b49-4fe5-9795-c45753443c58",
+          "title": "Glossary",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "975b89ac-4b49-4fe5-9795-c45753443c58",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1017442,
+              "key": "37669504-7c9a-4e8a-87fa-41f143dc95a8",
+              "title": "Glossary",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "|Key Term| Definition|\n|--------------|---------------------|\n|Product vision| (or North Star) the ultimate goal of where you want your users to do or accomplish with your product.|\n|Objectives and Key Results (OKR) Framework| goal setting methodology to define & track the progress towards objectives|\n|Objectives| clearly defined goal at a high-level. Could be both quantitative or qualitative.|\n|Key Result| metric targets that directly influence the success of meeting our objective. Could be both quantitative or qualitative, but usually the former. Multiple key results could roll up to one objective.|\n|Monthly recurring revenue (MRR)| total amount of estimated revenue that a company will receive on a monthly basis. Could be referred to as annual recurring revenue (ARR).|\n|Customer Lifetime Value (CLTV or LTV)| total amount of money a customer is estimated to spend on your products or services during their lifetime|\n|Customer Acquisition Cost (CAC)| total cost of marketing spent to have potential customer to buy a product or service|\n|Retention rate| the percentage of subscribers who are still subscribed after a specified time period|\n|Churn rate| the percentage of subscribers who are no longer subscribed after a specified time period (inverse of retention rate)|\n|Number of active subscriptions| the current number of active paying subscribers, that are not expired|\n|Trial to paid conversation| the percentage of total subscription trailers that end up converting to a paid subscription after their trial ends|\n|Number of sessions per user | one session refers to any user doing activities on a product or a website, capped by exiting the website or by a period of user inactivity|\n|Number of user actions per session| how much activity happens in each session|\n|Session duration| the average time spent on each session|\n|Daily Active Users (DAU)| number of unique users per day|\n|Monthly Active Users (MAU)| number of unique users per month|\n|DAU / MAU| a ratio effective at measuring the rate of stickiness, for products that are meant to be used daily|\n|Lness| This number of days a user has used a specific feature in a given time frame. For example, L10+/14, represents the percentage of users who have used the specific feature in the past 2 weeks (or 14 days).|\n|A/B/n experiment| A multivariate experiment involving two or more variables.|\n|Control variant| The group that receives that current experience|\n|A/B experiment| An experiment that involves two variables - the control & experimental variants|\n|Experimental variant| The group that receive the experience that the hypothesis proposed|\n|Statistically significant|  A condition of a experiment result not being due to normal fluctuation, but do to actually the changes imposed by the experimental variant|",
+              "instructor_notes": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    }
+  ]
+}

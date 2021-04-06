@@ -1,0 +1,226 @@
+{
+  "data": {
+    "lesson": {
+      "id": 1053398,
+      "key": "0f8ddf93-b029-441f-9a00-474cc4804b73",
+      "title": "Data Product Manager Nanodegree Program Introduction",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": "Welcome to Udacity! We're excited to share more about your Nanodegree and start this journey with you.",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": false,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "https://zips.udacity-data.com/0f8ddf93-b029-441f-9a00-474cc4804b73/1053398/1598495435746/Data+Product+Manager+Nanodegree+Program+Introduction+Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "https://zips.udacity-data.com/0f8ddf93-b029-441f-9a00-474cc4804b73/1053398/1598495432476/Data+Product+Manager+Nanodegree+Program+Introduction+Subtitles.zip"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 1017735,
+          "key": "82d21b83-a3a9-42ce-9f06-d5ac8b35d642",
+          "title": "Welcome to Udacity",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "82d21b83-a3a9-42ce-9f06-d5ac8b35d642",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1017736,
+              "key": "5e3ba4c2-cc35-4362-ba8c-85f0ff1a3451",
+              "title": "Welcome To Udacity V2",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "9QadFJRKrEA",
+                "china_cdn_id": "9QadFJRKrEA.mp4"
+              }
+            },
+            {
+              "id": 1027169,
+              "key": "d78264f7-0f5c-459f-8c8d-0aa3c1ca5517",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Welcome to Udacity!\n\nI am Sebastian, the founder of Udacity.\n\nOur mission is to power careers through tech education. We’re honored that you’ve chosen us to help in your career journey. Whether embarking on a new path. Curious about a new field. Or advancing in your own field. I want you to know, you’re in the right place. We are here to help you accomplish your goals.\n\nI can’t wait to see where this journey takes you!",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1017737,
+          "key": "429d8f29-a42a-4dc4-a482-bfd57c95c2b1",
+          "title": "The Udacity Experience",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "429d8f29-a42a-4dc4-a482-bfd57c95c2b1",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1017738,
+              "key": "959a5dcb-9302-44b3-af80-84611cefcd29",
+              "title": "Welcome To Your Nanodegree Experience V2",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "gd0Z0S58Y68",
+                "china_cdn_id": "gd0Z0S58Y68.mp4"
+              }
+            },
+            {
+              "id": 1035414,
+              "key": "b82681cd-3c5d-48b0-a4e6-ef9047dde3bf",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "If this is your first Nanodegree program, welcome.\nIf you have taken a Nanodegree program with us before, you already know a little bit of what to expect. Udacity is always improving our learning experience for students. So you can watch this to see what is changed or skip ahead. You can also read this in the FAQ located in the resources tab.\n\nLet’s get started. \n\nWe truly believe you couldn’t have chosen a better place to learn. A lot of people have worked tirelessly to create the course material and platform features, as we all want you to get the most of your learning journey. Our pledge is to provide you with resources and services that will further enable you to succeed in your Nanodegree program. As you go through the lessons, you may find some to be difficult and may feel discouraged. If this happens, we encourage you to take advantage of your community channels and mentor services to help clarify the concepts, or just to share your doubts. Our mentors are there to help you! You will get advice and guidance to ensure you are on track to complete the projects. We WANT you to succeed and graduate with a Udacity Nanodegree certificate.\n\nWe value the trust you have put in us by making this investment in your future career. We take it seriously and we are here to help you achieve whatever you came here to accomplish.\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1053400,
+          "key": "0c36fabd-9e3d-45cb-bcd8-3b6beefb46f5",
+          "title": "Welcome to the Data Product Manager Nanodegree program",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "0c36fabd-9e3d-45cb-bcd8-3b6beefb46f5",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1054791,
+              "key": "356016f6-5838-432e-beee-0d74aae6fdc9",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# What you will learn\nIn this course, you will acquire the necessary skills to advance your career as a product manager in today’s data-driven workplace through hands-on practice extracting, enriching, and evaluating data charts and visualizations, defining data infrastructure needs and processes, and performing various experiments to iteratively improve the product experience .\n\n# What the program offers \n\nThroughout the program, you will work with:\n- interactive lesson content\n- exercises\n- hands-on project where you will apply and practice your new skills\n- a professional review of your project by our project reviewers who will provide personalized feedback on how you can improve your work.\n\nThese projects will serve as a portfolio you can use to demonstrate your skills. After you complete the program, you will be ready to bring these crucial data product management skills to your current role.\nAlmost every product that a product manager is responsible for not only relies on data, particularly at technology-centric companies, but also requires data science, data engineering, and multivariate testing techniques to make the most of such data, and we are excited to support you in this step in your career.\nWe are excited and honored that you are taking this step in your journey with us.\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1053401,
+          "key": "bca4b9bf-934d-4f1d-ad4c-eec535e0eb84",
+          "title": "Pre-requisites",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "bca4b9bf-934d-4f1d-ad4c-eec535e0eb84",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1054788,
+              "key": "3e34e2d2-5a8f-4d46-80cc-aab7878935be",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "No prior experience with data modeling & data engineering is required; however, a basic understanding of data terminology (i.e. big data, database, algorithms, etc.), some experience with data analysis (basic SQL & Tableau), and a general understanding of product management is helpful. \n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1053402,
+          "key": "27b8814d-d354-4ea2-9735-0d9245db18db",
+          "title": "Meet Your Instructors",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "27b8814d-d354-4ea2-9735-0d9245db18db",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1055033,
+              "key": "d7c73865-ebd1-465e-8ca8-d091e273fbe8",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Meet Your Instructors\nWe have great instructors for each of the courses in this Nanodegree program. All of them bring expertise from working in the industry and experience teaching others. Below you can hear about their involvement in the field, and you'll learn more about them during the courses they teach.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1055032,
+              "key": "119542d9-bea7-4487-8306-d624b575ace7",
+              "title": "DPMND Career V1",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "eU9GIhwkGWY",
+                "china_cdn_id": "eU9GIhwkGWY.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 1053403,
+          "key": "49b65083-b26c-4676-bf3d-7e910aae7fe7",
+          "title": "How to Succeed",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "49b65083-b26c-4676-bf3d-7e910aae7fe7",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1053404,
+              "key": "5c2ec74f-33d0-469a-9a2a-cbe6866b9c68",
+              "title": "How To Succeed V3",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "1Vx31C1bw_o",
+                "china_cdn_id": "1Vx31C1bw_o.mp4"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

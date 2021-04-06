@@ -1,0 +1,1903 @@
+{
+  "data": {
+    "lesson": {
+      "id": 1017390,
+      "key": "6a0a4c05-bec2-407d-9922-f7d346b880c3",
+      "title": "Trends, Enrichment, & Visualization",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": "Establishing trends, enriching data, and visualizing that data are the next important areas in your data product manager journey.",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": false,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "https://zips.udacity-data.com/6a0a4c05-bec2-407d-9922-f7d346b880c3/1017390/1590511422804/Trends%2C+Enrichment%2C+%26+Visualization+Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "https://zips.udacity-data.com/6a0a4c05-bec2-407d-9922-f7d346b880c3/1017390/1590511419239/Trends%2C+Enrichment%2C+%26+Visualization+Subtitles.zip"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 1017374,
+          "key": "3e69d808-610e-44d6-a600-1e217bb6540a",
+          "title": "Analyzing Trends, Enrichment, and Visualizing Data",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "3e69d808-610e-44d6-a600-1e217bb6540a",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1017323,
+              "key": "53b05aed-8b59-4a95-b8a7-813acf6fe8fd",
+              "title": "Analyzing Trends, Enrichment, and Visualizing Data Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Analyzing Trends, Enrichment, and Visualizing Data",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1017327,
+              "key": "b2147974-9e00-41ac-950b-4e4253e822c7",
+              "title": "ND030 C1 L2 A01 Analyzing Trends, Enrichment, And Visualizing Data",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "qKX_awv2Jmg",
+                "china_cdn_id": "qKX_awv2Jmg.mp4"
+              }
+            },
+            {
+              "id": 1017326,
+              "key": "65561f69-d4ab-4f49-a2f0-7f3630875433",
+              "title": "Analyzing Trends, Enrichment, and Visualizing Data Summary",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "In this lesson, we’ll be going over how to analyze your data via: \n- Line graphs & donut charts\n- Geospatial maps\n- Box plots and histograms\n- Enriching your data from external sources",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1017373,
+          "key": "7d3ea08d-d390-4d35-ae83-431220f552f7",
+          "title": "Big Picture",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "7d3ea08d-d390-4d35-ae83-431220f552f7",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1017328,
+              "key": "c083d1a1-b522-4b14-90f3-30e15d9be9f4",
+              "title": "Big Picture Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Big Picture",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1017333,
+              "key": "efbcc3d0-04e4-4775-af89-7059587d2d61",
+              "title": "ND030 C1 L2 A02 Big Picture",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "G3Zn7kP9d4w",
+                "china_cdn_id": "G3Zn7kP9d4w.mp4"
+              }
+            },
+            {
+              "id": 1017330,
+              "key": "7b02c87e-85f2-4c6e-8d4d-725782e45134",
+              "title": "Big Picture Summary",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "This time around, imagine you are trying to add streaming content to an in-flight entertainment system. One early piece of information you have is that the user base you are targeting may skew toward Android over iOS. \n\nWhile this may seem unimportant up front, a dive into the data has revealed a difference in streaming tastes between Android and iOS users, allowing you to better target your team’s approach to in-flight entertainment.",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1017377,
+          "key": "31b65a2e-375a-4856-b598-847d8d0d7596",
+          "title": "Visualizations: Line Graphs & Pie Charts",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "31b65a2e-375a-4856-b598-847d8d0d7596",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1096113,
+              "key": "8269db5d-cf27-462f-bb9d-56fbc732d42c",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Line Graphs and Pie Charts",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1017335,
+              "key": "a74dcca4-fd16-41ef-b742-d4784593bc37",
+              "title": "ND030 C1 L2 A03 Visualizations - Line Graphics & Donut Charts",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "zNtJI-QHDAw",
+                "china_cdn_id": "zNtJI-QHDAw.mp4"
+              }
+            },
+            {
+              "id": 1017332,
+              "key": "4e529a1f-6b29-49f5-a8d0-c2c1d9aee036",
+              "title": "Visualizations: Line Graphs & Donut Charts Notes",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Line graphs are common when displaying time series trends or data over time, with the x-axis usually representing time. Pie charts, on the other hand, are great for comparing a small number of values against each other, such as shares of total orders from a small group of customers. Donut charts function similarly to pie charts, but have a “donut hole” cut out of the middle.\n\nIn the video, we also saw how Tableau makes it easy to switch between different visualizations on the fly.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1017331,
+              "key": "dd20ff07-c2e8-46bd-8d4d-5b6659fc80e3",
+              "title": "Visualizations: Line Graphs & Donut Charts Image",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/April/5ea9aba5_line-and-pie-graphs/line-and-pie-graphs.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/dd20ff07-c2e8-46bd-8d4d-5b6659fc80e3",
+              "caption": "Line graphs and pie charts are important tools in your visualization arsenal.",
+              "alt": "The line graph and pie chart from the video.",
+              "width": 1576,
+              "height": 506,
+              "instructor_notes": null
+            }
+          ]
+        },
+        {
+          "id": 1017378,
+          "key": "fa7906e1-2fa3-4aef-9ea2-b834de56ecb9",
+          "title": "Quiz: Line Graphs & Pie Charts",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "fa7906e1-2fa3-4aef-9ea2-b834de56ecb9",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1017604,
+              "key": "54df31c9-44b6-4e42-a31e-5ee963ddf8a9",
+              "title": "Line Graphs and Donut Charts Quiz 1",
+              "semantic_type": "MatchingQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "54df31c9-44b6-4e42-a31e-5ee963ddf8a9",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "complex_prompt": {
+                  "text": "Match the below definitions with the related term. "
+                },
+                "concepts_label": "Definitions",
+                "answers_label": "Terms",
+                "concepts": [
+                  {
+                    "text": "Visualization most effective for displaying time-series trends",
+                    "correct_answer": {
+                      "id": "a1588195113904",
+                      "text": "Line graph"
+                    }
+                  },
+                  {
+                    "text": "Visualization most effective for comparing dimensions of low-cardinality values",
+                    "correct_answer": {
+                      "id": "a1588195130237",
+                      "text": "Donut chart"
+                    }
+                  }
+                ],
+                "answers": [
+                  {
+                    "id": "a1588195130237",
+                    "text": "Donut chart"
+                  },
+                  {
+                    "id": "a1588195113904",
+                    "text": "Line graph"
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1017334,
+              "key": "64f92753-c804-4c35-90e7-c4718aa3c892",
+              "title": "Visualizations: Line Graphs & Donut Charts Hard Quiz",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "64f92753-c804-4c35-90e7-c4718aa3c892",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which scenarios would it be optimal to leverage a line chart?",
+                "answers": [
+                  {
+                    "id": "rbk1",
+                    "text": "Need to plot NPS ([net promoter score](https://www.netpromoter.com/know/)) over past 12 months to determine how much the product grew by in terms of referral stickiness",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk2",
+                    "text": "Measure the split of usage on your product dashboard via browser type.",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk3",
+                    "text": "Measure subscription churn rates on week by week basis to track to see if the features you push out drive higher retention & engagement",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk4",
+                    "text": "Measure the trial-to-paid subscription conversation rates across the various user research personas your team has established",
+                    "is_correct": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 1017381,
+          "key": "c3475858-8158-4686-bd83-5c8601f3f0f4",
+          "title": "Exercise: Line Graphs & Pie Charts",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "c3475858-8158-4686-bd83-5c8601f3f0f4",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": {
+            "files": [
+              {
+                "name": "Competitor-Data",
+                "uri": "https://video.udacity-data.com/topher/2020/November/5fa5fda3_competitor-data/competitor-data.csv"
+              }
+            ],
+            "google_plus_link": null,
+            "career_resource_center_link": null,
+            "coaching_appointments_link": null,
+            "office_hours_link": null,
+            "aws_provisioning_link": null
+          },
+          "atoms": [
+            {
+              "id": 1050581,
+              "key": "0d9432f8-8436-4eec-9caa-edf92e7f22f5",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Rewind the clock, and let’s say you’re back in 2003. You’re the product manager at a company that is starting up an online marketplace to match visitors with hosts for temporary homestays. Your executive team is interested in hearing your thoughts about **when** and **where** to launch the marketplace.\n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1096100,
+              "key": "06eb916c-7481-4821-ad9e-c4f5157f4fbc",
+              "title": "Competitor research",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "06eb916c-7481-4821-ad9e-c4f5157f4fbc",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "You plan to start by doing some research on potential competitors. Who are your competitors most likely to be?",
+                "answers": [
+                  {
+                    "id": "a1604713390591",
+                    "text": "Taxi services",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1604713406325",
+                    "text": "Hotels",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1604713411529",
+                    "text": "Restaurants",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1604713417852",
+                    "text": "Tour guides",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1096102,
+              "key": "526b4788-a17f-4306-a0b3-5504a6d140a2",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Once you have identified who you are likely to be competing with, you can start to look at data from those competitors. This will help you make informed decisions for your company as you get closer to the launch of your product.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1096103,
+              "key": "4057e115-5e2b-43f6-b265-f301170357a5",
+              "title": "Competitor data",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "4057e115-5e2b-43f6-b265-f301170357a5",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "What competitor data will be of interest to your executive team?",
+                "answers": [
+                  {
+                    "id": "a1604713602729",
+                    "text": "Competitor sub-type (e.g. resort vs city)",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1604713689262",
+                    "text": "Chain owners",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1604713715882",
+                    "text": "Seasonal bookings trends",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1604713740702",
+                    "text": "Rate of cancellations",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1604713750213",
+                    "text": "Bags per guest",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1604713757078",
+                    "text": "Type of breakfast offered",
+                    "is_correct": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 1096104,
+          "key": "3b7fd168-5907-44d4-bce0-445afacb8d86",
+          "title": "Exercise (cont): Line Graphs & Pie Charts",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "3b7fd168-5907-44d4-bce0-445afacb8d86",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": {
+            "files": [
+              {
+                "name": "Competitor-Data",
+                "uri": "https://video.udacity-data.com/topher/2020/November/5fa5feb0_competitor-data/competitor-data.csv"
+              }
+            ],
+            "google_plus_link": null,
+            "career_resource_center_link": null,
+            "coaching_appointments_link": null,
+            "office_hours_link": null,
+            "aws_provisioning_link": null
+          },
+          "atoms": [
+            {
+              "id": 1096106,
+              "key": "8aaa5612-d536-49a8-8fcf-1527984c96e5",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "You’ve decided to look at data on seasonal bookings trends and bookings split by hotel type.  Now it's time to start visualizing the data.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1096105,
+              "key": "7c3c86f6-2c4f-43c3-8dc6-508cff3af880",
+              "title": "Visualizing bookings trends",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "7c3c86f6-2c4f-43c3-8dc6-508cff3af880",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "What visualization would be best to look at seasonal bookings trends?",
+                "answers": [
+                  {
+                    "id": "a1604713997100",
+                    "text": "A pie chart showing percentages of bookings by month",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1604714031665",
+                    "text": "A scatter plot of individual bookings over a year",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1604714038848",
+                    "text": "A line graph showing rooms booked by month",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1604714051248",
+                    "text": "A spreadsheet showing all bookings over a year",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1096107,
+              "key": "687731aa-b5ea-4f9c-af1b-e9e2e2dcc857",
+              "title": "Visualizing hotel type split",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "687731aa-b5ea-4f9c-af1b-e9e2e2dcc857",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "What visualization would be best to look at the split of hotel type?",
+                "answers": [
+                  {
+                    "id": "a1604714169778",
+                    "text": "A pie chart showing percentages of bookings by hotel type",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1604714197746",
+                    "text": "A Venn diagram showing overlap in bookings",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1604714204496",
+                    "text": "A line graph showing rooms booked by hotel type",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1604714212081",
+                    "text": "A list of all bookings color-coded by hotel type",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1096108,
+              "key": "f99f2236-1bb5-4c70-955f-6c2784d52e3a",
+              "title": "Identifying seasonal trends",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "f99f2236-1bb5-4c70-955f-6c2784d52e3a",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Construct your visualizations in Tableau and take a look at the resulting data. Which month has the highest volume of hotel bookings?",
+                "answers": [
+                  {
+                    "id": "a1604714287527",
+                    "text": "January",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1604714304272",
+                    "text": "February",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1604714310084",
+                    "text": "March",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1604714312864",
+                    "text": "April",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1604714315145",
+                    "text": "May",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1604714317214",
+                    "text": "June",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1604714319234",
+                    "text": "July",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1604714321505",
+                    "text": "August",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1604714324308",
+                    "text": "September",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1604714327622",
+                    "text": "October",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1604714330580",
+                    "text": "November",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1604714333388",
+                    "text": "December",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1096109,
+              "key": "aa6c4027-5175-4d39-8763-1966dd265aac",
+              "title": "Hotel type",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "aa6c4027-5175-4d39-8763-1966dd265aac",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which type of hotel is more common for bookings?",
+                "answers": [
+                  {
+                    "id": "a1604714395940",
+                    "text": "Resort hotels",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1604714410273",
+                    "text": "City hotels",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1096110,
+              "key": "d8c41803-59da-4171-9469-d03d5e059018",
+              "title": "Make a recommendation",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "d8c41803-59da-4171-9469-d03d5e059018",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": null,
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "Based on the competitor data you have observed, make a recommendation to your executive team about what time of year and type of region your company should target for the launch of its online marketplace, and explain the reasoning behind your recommendation."
+              },
+              "answer": {
+                "text": "Great work! Some factors to think about here are when your competitors are most and least busy (which indicates when guests are most likely to be traveling and in need of a place to stay), and what type of hotel is more commonly booked (which indicates where people are more likely to be traveling to).",
+                "video": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 1017383,
+          "key": "a3f17705-b475-4944-9e97-c701b3f2df9b",
+          "title": "Solution: Line Graphs & Pie Charts",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "a3f17705-b475-4944-9e97-c701b3f2df9b",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1017337,
+              "key": "9abf55c4-21af-4b10-b50f-616e9f34e4ff",
+              "title": "ND030 C1 L2 A04 Visualizations - Line Graphs & Donut Charts - Exercise Solution Video",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "rqXB0ZSmj4M",
+                "china_cdn_id": "rqXB0ZSmj4M.mp4"
+              }
+            },
+            {
+              "id": 1017338,
+              "key": "5fd81a0b-0cf9-4564-bb2f-601170b5c8ba",
+              "title": "Visualizations: Line Graphs & Donut Charts Solution Summary",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "To begin, I put the `Rooms Booked` measure as a row in Tableau. Then, I put the `Arrival Date Month` dimension as a column. We can tell here that bookings are significantly higher in the middle of the year.\n\nFor the pie chart, I changed the column to instead be `Hotel`, and then switched the visualization to be a pie chart. This revealed that City Hotels are the most common bookings.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1050591,
+              "key": "8d6f3202-bc02-45ff-80c6-a5ab3e5e3d8f",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "In the video above, you can see that Tableau automatically formats this data as a bar graph. To change it to a line graph, open the drop-down menu under \"Marks\" on the left side of the screen, and select \"Line\" from the list of options. This should change the bar graph into a line graph.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1050592,
+              "key": "4b2fe43c-76b9-41fd-9ffa-4f6e01f501d9",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/August/5f2a01cb_screen-shot-2020-08-04-at-5.45.58-pm/screen-shot-2020-08-04-at-5.45.58-pm.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/4b2fe43c-76b9-41fd-9ffa-4f6e01f501d9",
+              "caption": "",
+              "alt": "",
+              "width": 1552,
+              "height": 875,
+              "instructor_notes": null
+            }
+          ]
+        },
+        {
+          "id": 1017379,
+          "key": "5857ec2b-71eb-420a-9c9c-07c1312b43e5",
+          "title": "Visualizations: Geospatial Data",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "5857ec2b-71eb-420a-9c9c-07c1312b43e5",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1017339,
+              "key": "ad1cb577-c1dd-44d1-96f5-0df9b05de386",
+              "title": "Visualizations: Geospatial Data Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Geospatial Data",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1017340,
+              "key": "63f0c16d-ee57-4369-9323-665cfd4b0f7f",
+              "title": "ND030 C1 L2 A05 Visualizations - Geospatial Data",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "yJnd5PI5pd4",
+                "china_cdn_id": "yJnd5PI5pd4.mp4"
+              }
+            },
+            {
+              "id": 1017342,
+              "key": "6eae0505-65f8-466f-ac66-162cd8138d49",
+              "title": "Visualizations: Geospatial Data Notes",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Geospatial data continues to gain favor in different visualization tools. With coordinates in hand to pair with other data, there are a couple of great visualizations I covered: density maps and choropleth maps.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1017344,
+              "key": "6aff5eb6-d641-4823-ba5e-2f29d86ec66f",
+              "title": "Visualizations: Geospatial Data Heading Image",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/April/5ea9ac11_geospatial-data/geospatial-data.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/6aff5eb6-d641-4823-ba5e-2f29d86ec66f",
+              "caption": "Geospatial data can be incredibly powerful in showing trends and hotspots in different areas.",
+              "alt": "An image of the globe in a data-like look from the video.",
+              "width": 640,
+              "height": 350,
+              "instructor_notes": null
+            },
+            {
+              "id": 1017325,
+              "key": "65d460e5-5970-4b77-ad3b-39e36e13e438",
+              "title": "Visualizations: Geospatial Data Heading New Terms",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Density maps display the frequency of geospatial point data on a continuous scale. Choropleth maps display the frequency of geospatial point data on a discrete scale, based on what boundary you specify.\n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1017341,
+              "key": "3d2ab9c8-9345-4de9-a325-8e791ec11347",
+              "title": "Visualizations: Geospatial Data Further Research",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Further Research\n\nCheck out the Tableau tutorial on creating Choropleth maps [here](https://help.tableau.com/current/pro/desktop/en-us/maps_howto_choropleth.htm).",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1017386,
+          "key": "24759539-995c-4351-9a7a-662fff2d3f6e",
+          "title": "Quiz: Geospatial Data",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "24759539-995c-4351-9a7a-662fff2d3f6e",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1017605,
+              "key": "568d1ef0-195e-41a7-bf48-37dfbe3e4cae",
+              "title": "Geospatial Data Quiz 1",
+              "semantic_type": "MatchingQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "568d1ef0-195e-41a7-bf48-37dfbe3e4cae",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "complex_prompt": {
+                  "text": "Match the below definitions to the related term. "
+                },
+                "concepts_label": "Definition",
+                "answers_label": "Term",
+                "concepts": [
+                  {
+                    "text": "Display the frequency of geospatial point data on a discrete scale, based on what boundary you specify",
+                    "correct_answer": {
+                      "id": "a1588195222978",
+                      "text": "Choropleth map"
+                    }
+                  },
+                  {
+                    "text": "Display the frequency of geospatial point data on a continuous scale",
+                    "correct_answer": {
+                      "id": "a1588195239195",
+                      "text": "Density map"
+                    }
+                  }
+                ],
+                "answers": [
+                  {
+                    "id": "a1588195222978",
+                    "text": "Choropleth map"
+                  },
+                  {
+                    "id": "a1588195239195",
+                    "text": "Density map"
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1035446,
+              "key": "40e0dc5f-65d9-4fef-ba04-8e426dacf26a",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "40e0dc5f-65d9-4fef-ba04-8e426dacf26a",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "You're a PM for a bike sharing company where users rent bikes from stations throughout various cities. This quarter, you're looking to launch a monthly membership in the U.S. (the service is already in all 50 states.) You start your analysis by determining which states have the highest ride-per-capita ratios. Which geospatial visualization would you use to conduct your analyses?",
+                "answers": [
+                  {
+                    "id": "a1591842005615",
+                    "text": "Cloropleth map",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1591842038391",
+                    "text": "Density map",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1017356,
+              "key": "77219ed5-429e-419a-8420-f0436ce65c68",
+              "title": "Visualizations: Geospatial Data Hard Quiz 2",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "77219ed5-429e-419a-8420-f0436ce65c68",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "You noticed that Ohio was one of the states with the highest ride-per-capita ratios, and your team decided to focus there. How would you determine which zip codes have the highest volume of rides?",
+                "answers": [
+                  {
+                    "id": "rbk1",
+                    "text": "Choropleth map",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk2",
+                    "text": "Density map",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1017345,
+              "key": "cf1bddd4-3fce-498c-ba2e-f7ce0f1ea55e",
+              "title": "Visualizations: Geospatial Data Easy Quiz 3",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "cf1bddd4-3fce-498c-ba2e-f7ce0f1ea55e",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "You noticed that Columbus, OH had the highest density, so you focus there. You'll want to survey users, how do you determine which areas of the city have the highest pick-up / drop-off activity?",
+                "answers": [
+                  {
+                    "id": "rbk1",
+                    "text": "Choropleth map",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk2",
+                    "text": "Density map",
+                    "is_correct": true
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 1017380,
+          "key": "280427f1-8f3a-49ff-acbc-31c3e606da57",
+          "title": "Exercise: Geospatial Data",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "280427f1-8f3a-49ff-acbc-31c3e606da57",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": {
+            "files": [
+              {
+                "name": "vehicle-collisions.zip",
+                "uri": "https://video.udacity-data.com/topher/2020/May/5ebc8d15_vehicle-collisions/vehicle-collisions.zip"
+              }
+            ],
+            "google_plus_link": null,
+            "career_resource_center_link": null,
+            "coaching_appointments_link": null,
+            "office_hours_link": null,
+            "aws_provisioning_link": null
+          },
+          "atoms": [
+            {
+              "id": 1053337,
+              "key": "47c3a396-46b3-440c-a26d-d30eebdda9a9",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Product managers could also manage physical products, in addition to digital software products.\n\nLet’s say you’re the product manager for a mid-sized hardware startup designing and building scalable crosswalk signaling technology, that emits an continuous (but pleasant) alert to pedestrians when it’s not safe to cross. You’re piloting an integration with the New York City Department of Transportation, or NYC DOT for short. \n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1096092,
+              "key": "8e3f4ae3-e27d-4354-81d9-93b40d5372de",
+              "title": "Deciding where to pilot",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "8e3f4ae3-e27d-4354-81d9-93b40d5372de",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Volume is a concern due to limits of production, so you want to pilot your product in a small group of neighborhoods to begin with. You want to choose pilot areas where your product will be most beneficial. What data will be most useful for you to look at to determine where your product is most needed?",
+                "answers": [
+                  {
+                    "id": "a1604712113546",
+                    "text": "Population density",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1604712142827",
+                    "text": "Average age of residents",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1604712147493",
+                    "text": "Number of dogs",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1604712156513",
+                    "text": "Percentage of owned vs rental cars",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1604712173171",
+                    "text": "Number of accident collisions",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1096093,
+              "key": "1e32d2fd-e52d-4227-b5c9-4345413a58bb",
+              "title": "Visualizing the data",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "1e32d2fd-e52d-4227-b5c9-4345413a58bb",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Once you’ve decided what data you’re interested in looking at, NYC DOT provides you with [a dataset](https://video.udacity-data.com/topher/2020/May/5ebc8d15_vehicle-collisions/vehicle-collisions.zip) showing the information you need. What type of visualization should you use to interpret this data?",
+                "answers": [
+                  {
+                    "id": "a1604712285080",
+                    "text": "Density map",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1604712372996",
+                    "text": "Chloropleth map",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1096094,
+              "key": "0cbc1a93-b7ba-4c47-b7d9-7ba44055a0b5",
+              "title": "Choose your pilot ",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "0cbc1a93-b7ba-4c47-b7d9-7ba44055a0b5",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": null,
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "Based on your map data, make a recommendation of 3-5 neighborhoods to use in your pilot and explain why you chose those neighborhoods.\n\n**Tip:** Neighborhoods will only render as a selectable map layer in Tableau within a close zoom range."
+              },
+              "answer": {
+                "text": "By looking at the map data, we can see that Chinatown, the Lower East Side, Koreatown, the Garment District, and some parts of Little Italy have the highest rates of collisions. Any of these neighborhoods could be a good pilot location.",
+                "video": null
+              }
+            },
+            {
+              "id": 1017642,
+              "key": "977983e8-00ec-40d9-b2a1-bc44c02fde9b",
+              "title": "Geospatial Data Exercise Scratchpad",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "977983e8-00ec-40d9-b2a1-bc44c02fde9b",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": "Geospatial Data Scratchpad",
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "You can use this area for any notes you want to store on this exercise."
+              },
+              "answer": {
+                "text": "Thanks for your response! See my approach on the next page",
+                "video": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 1017375,
+          "key": "3a1d1dc7-de5f-44cc-97c6-ab7fb01a02a7",
+          "title": "Solution: Geospatial Data",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "3a1d1dc7-de5f-44cc-97c6-ab7fb01a02a7",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1017350,
+              "key": "324a43c6-cbfb-4616-b090-e808d0afb67c",
+              "title": "Visualizations: Geospatial Data Exercise Solution Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Opendoor Analysis",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1017348,
+              "key": "d230a475-ab3a-4f0d-af05-11015b5e7384",
+              "title": "ND030 C1 L2 A06 Visualizations - Geospatial Data - Exercise Solution Video",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "YBSZnNRBNEw",
+                "china_cdn_id": "YBSZnNRBNEw.mp4"
+              }
+            },
+            {
+              "id": 1017324,
+              "key": "3d866b9c-5e3d-4812-8fff-fa62a2975e24",
+              "title": "Visualizations: Geospatial Data Exercise Solution Summary",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Place latitude as a row, and longitude as a column, while making sure each is marked as dimensions. In this case, you will also want to turn on “Neighborhoods” as a map layer (Map->Map Layers). You can also play around with color values to make information more visible or apparent.\n\nOur crosswalk signaling systems make the most sense to place nearby locations with higher densities of collisions.",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1017372,
+          "key": "c1af90c5-e4c3-41fd-aae4-2c5629de35db",
+          "title": "Visualizations: Box Plots & Histograms",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "c1af90c5-e4c3-41fd-aae4-2c5629de35db",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1017357,
+              "key": "5d1f80d0-aab4-4988-8c57-7d041271547b",
+              "title": "Visualizations: Box Plots & Histograms Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Box plots, Bar charts, & Histograms",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1017353,
+              "key": "cd93099d-cca2-4446-b8b5-e578c6110d62",
+              "title": "ND030 C1 L2 A07 Visualizations - Box Plots & Histograms",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "c9z7WIU96_A",
+                "china_cdn_id": "c9z7WIU96_A.mp4"
+              }
+            },
+            {
+              "id": 1017349,
+              "key": "2ec93479-d8a1-48bb-ab0f-2523a402e2b3",
+              "title": "Visualizations: Box Plots & Histograms Notes",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Box plots are good for quickly visualizing the spread of data, its median, its clusters, its outliers, and its total range.\n\nHistograms are good for visualizing distributions of continuous variables.\n\nBar charts are similar to histograms, but instead are good for visualizing comparisons of discrete variables.",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1017376,
+          "key": "318743e4-faeb-479d-bd6d-5e5fa03184a8",
+          "title": "Quiz: Box Plots & Histograms",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "318743e4-faeb-479d-bd6d-5e5fa03184a8",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1017606,
+              "key": "6589c246-4940-4097-87cb-8d511b39eb62",
+              "title": "Box Plots and Histograms Quiz 1",
+              "semantic_type": "MatchingQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "6589c246-4940-4097-87cb-8d511b39eb62",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "complex_prompt": {
+                  "text": "Match the below definitions to their related terms."
+                },
+                "concepts_label": "Definition",
+                "answers_label": "Term",
+                "concepts": [
+                  {
+                    "text": "Visualization effective at displaying the spread of data, its clusters, its outliers, and its range.",
+                    "correct_answer": {
+                      "id": "a1588195310481",
+                      "text": "Box plot"
+                    }
+                  },
+                  {
+                    "text": "Visualization effective at comparing bins (or ranges) of continuous variables.",
+                    "correct_answer": {
+                      "id": "a1588195327598",
+                      "text": "Histogram"
+                    }
+                  },
+                  {
+                    "text": "Visualization effective at comparing discrete variables. ",
+                    "correct_answer": {
+                      "id": "a1588195328294",
+                      "text": "Bar chart"
+                    }
+                  }
+                ],
+                "answers": [
+                  {
+                    "id": "a1588195328294",
+                    "text": "Bar chart"
+                  },
+                  {
+                    "id": "a1588195310481",
+                    "text": "Box plot"
+                  },
+                  {
+                    "id": "a1588195327598",
+                    "text": "Histogram"
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1035447,
+              "key": "b8c61368-75a3-46a2-822e-d79a827c3939",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "b8c61368-75a3-46a2-822e-d79a827c3939",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "You're a growth PM at analyzing the aspects of an engaged, repeating user. You want to segment users by transaction amount, and look at existing retention rates of each segment individually. You’re seeking to visualize how many users on Venmo transact $0 - $10 per month, how many transact $10 - $20 per month, and so forth.\n\nWhat would be the best visualization to display this information?",
+                "answers": [
+                  {
+                    "id": "a1591842148496",
+                    "text": "Box plot",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1591842201905",
+                    "text": "Histogram",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1591842213944",
+                    "text": "Bar chart",
+                    "is_correct": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 1017371,
+          "key": "679ae5b5-315d-43da-9e0c-260161796137",
+          "title": "Exercise: Box Plots & Histograms",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "679ae5b5-315d-43da-9e0c-260161796137",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": {
+            "files": [
+              {
+                "name": "reviews_f.csv",
+                "uri": "https://video.udacity-data.com/topher/2020/May/5ebc8d89_reviews-f/reviews-f.csv"
+              },
+              {
+                "name": "reviews_f.sql",
+                "uri": "https://video.udacity-data.com/topher/2020/May/5ebc8da1_reviews-f/reviews-f.sql"
+              }
+            ],
+            "google_plus_link": null,
+            "career_resource_center_link": null,
+            "coaching_appointments_link": null,
+            "office_hours_link": null,
+            "aws_provisioning_link": null
+          },
+          "atoms": [
+            {
+              "id": 1096120,
+              "key": "ca4a4ed4-2bd5-48a6-a300-cba61d7618ab",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "In this exercise, let’s say you’re once again the product manager for a company developing smartwatches, and you’re working on improving the customer experience. \n\nYou’re looking to conduct some user research to bolster up the internationalization of your product. You want to speak with users from countries with high average ratings of your smartwatches, to understand what is going well, and also with users from countries with low average ratings of your product, to learn about what could be improved.\n\nYou can find the reviews dataset [here.](https://video.udacity-data.com/topher/2020/August/5f29eb62_hotel-bookings/hotel-bookings.csv) Remember, smartwatches have a product id of 3. For this exercise, you can either upload the data to Tableau immediately or use the below SQL workspace to get started analyzing the data.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1017654,
+              "key": "ce8447b8-c800-4823-bf19-46435860877e",
+              "title": null,
+              "semantic_type": "WorkspaceAtom",
+              "is_public": true,
+              "workspace_id": "r930527c1017371xSQLEVALU6bofwlvm",
+              "pool_id": "sqlwidget",
+              "view_id": "sql-evaluator-uw7mg",
+              "gpu_capable": false,
+              "configuration": {
+                "id": "reserved",
+                "blueprint": {
+                  "conf": {
+                    "disk": null,
+                    "allowSubmit": false
+                  },
+                  "kind": "sql-evaluator"
+                },
+                "workspaceId": "reserved"
+              },
+              "starter_files": null
+            },
+            {
+              "id": 1096121,
+              "key": "47c0b465-45ce-4b3e-b37d-218e1b5d2a0a",
+              "title": "Visualization type",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "47c0b465-45ce-4b3e-b37d-218e1b5d2a0a",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "You want to determine which countries have the highest and lowest average ratings of your smartwatches. What type of visualization should you use?",
+                "answers": [
+                  {
+                    "id": "a1604716000281",
+                    "text": "A box plot showing a country’s ratings over time",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1604716019853",
+                    "text": "A pie chart showing percentages of 5-star ratings by country",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1604716027016",
+                    "text": "A bar chart showing average rating by country ",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1096122,
+              "key": "7d951d36-dc67-4b58-9aa1-0e43b5da3b43",
+              "title": "Highest ratings",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "7d951d36-dc67-4b58-9aa1-0e43b5da3b43",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "You decide to start with the positives, and identify the five countries with the highest average ratings. Which five countries do you select?",
+                "answers": [
+                  {
+                    "id": "a1604716134237",
+                    "text": "China, the US, Mexico, Canada, Spain",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1604716150303",
+                    "text": "Brazil, Sweden, China, Russia, the US",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1604716157761",
+                    "text": "China, Mexico, Russia, Brazil, Estonia",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1604716164709",
+                    "text": "The US, Canada, Spain, Russia, Australia",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1604716171344",
+                    "text": "Mexico, Egypt, Chile, Romania, the UK",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1096123,
+              "key": "3167fc3c-52c0-467e-849b-35be676a9969",
+              "title": "Histogram",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "3167fc3c-52c0-467e-849b-35be676a9969",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Ratings are on a 5-point scale, but you decide you want to simplify this into 3 categories: ratings of 1-2 as Low, ratings of 3-4 as Mid, and ratings of 5 as High. How would you do this?",
+                "answers": [
+                  {
+                    "id": "a1604716230729",
+                    "text": "A histogram with buckets of size 2",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1604716250418",
+                    "text": "A bar chart",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1604716259207",
+                    "text": "A histogram with buckets of size 1.9",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1604716273177",
+                    "text": "A box plot",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1604716279165",
+                    "text": "A histogram with buckets of size 2.1",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1604716288795",
+                    "text": "A line graph",
+                    "is_correct": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 1017387,
+          "key": "b2760295-99d7-4345-901a-c46158334c00",
+          "title": "Solution: Box Plots & Histograms",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "b2760295-99d7-4345-901a-c46158334c00",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1017368,
+              "key": "089ad07b-581d-4183-9be0-156def0e3fad",
+              "title": "Visualizations: Box Plots & Histograms Exercise Solution Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Exercise Solution",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1017351,
+              "key": "a9ec73bc-d67c-42bd-b377-11111e21527c",
+              "title": "ND030 C1 L2 A08 Visualizations - Box Plots & Histograms - Exercise Solution",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "u0zmUUVgTd8",
+                "china_cdn_id": "u0zmUUVgTd8.mp4"
+              }
+            },
+            {
+              "id": 1017355,
+              "key": "df626d83-117d-470f-845a-56299463042f",
+              "title": "Visualizations: Box Plots & Histograms Exercise Solution Summary",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Make your `Review` measure into a row, and cast it as an average. Then, again filter your dataset on a `Product ID` of `3` for smartwatches. Then, make the `Country` dimension a column, to see the highest average reviews by country.\n\nTo simplify the review scale, remove `Country` as a column, then cast the `Review` measure in “Rows” as a count of values. Then, select histogram as the chart type. Make the bin size 2.1, so that there are 3 bins in the histogram (values 1-5 split up every 2.1 values will make 3 bins).",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1084493,
+              "key": "45748dd2-8d31-4ed2-92cc-c5ddb766671f",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Why bins of size 2.1 instead of 2?\n\nRecall that we want three bins: a bin for reviews of 1-2, and bin for reviews of 3-4, and a bin for reviews of 5. Your instinct might be to set the bin sizes to 2, but if you try this in Tableau you can see that the first bin will be created up to *but not including* 2, the second bin will *start at* 2 and go up to *but not including* 4, and the final bin will *start at* 4. This results in reviews of 1 having their own bin, and reviews of 3-4 and 4-5 being grouped together. By setting the bin size to 2.1, we can ensure that reviews of 2 will be sorted into the first bin, reviews of 3-4 into the second bin, and the third bin will contain only reviews of 5.",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1017389,
+          "key": "d8aa0028-3464-4c6f-babe-f77a6e61cdcb",
+          "title": "Data Enrichment",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "d8aa0028-3464-4c6f-babe-f77a6e61cdcb",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1017362,
+              "key": "ea56fec8-0071-47ec-acf2-1e3ab1939888",
+              "title": "Data Enrichment Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Data Enrichment",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1017367,
+              "key": "3b139ea4-1301-48d6-ba0f-e2a4771b8515",
+              "title": "ND030 C1 L2 A05 Data Enrichment",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "KVi2MwwVs3A",
+                "china_cdn_id": "KVi2MwwVs3A.mp4"
+              }
+            },
+            {
+              "id": 1050582,
+              "key": "f1e12b74-ded9-4298-912f-a95be3901f43",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Dataset Links\n\nMany sources are online for free, available, and large third-party datasets.\n- [Data.gov](https://data.gov) - Data collected from the U.S. government, including agriculture, climate, consumer, energy, finance, & health\n- [Kaggle](https://www.kaggle.com/) - A site primarily known for data science competitions, but also has an incredibly rich repository of datasets ranging across almost every topic, from virus epidemics, the opioid crisis, to taxi ride data\n- [FiveThirtyEight](https://data.fivethirtyeight.com/) - Data science community & reporting site. Almost every single article publishes raw data, so that anyone could explore further and find insights of their own.\n\nYou may need to run some data enrichment through a constant static calculation on your existing data in Tableau, such as converting milliseconds to hours or days. For this, you will need to create a [Calculated Field](https://help.tableau.com/current/pro/desktop/en-us/calculations_calculatedfields_create.htm) directly in Tableau. \n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1017385,
+          "key": "ae782c72-4777-4306-8992-697c12d74259",
+          "title": "Exercise: Data Enrichment",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "ae782c72-4777-4306-8992-697c12d74259",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": {
+            "files": [
+              {
+                "name": "NFL Fandom Data",
+                "uri": "https://video.udacity-data.com/topher/2020/August/5f359b88_nfl-fandom-data/nfl-fandom-data.csv"
+              }
+            ],
+            "google_plus_link": null,
+            "career_resource_center_link": null,
+            "coaching_appointments_link": null,
+            "office_hours_link": null,
+            "aws_provisioning_link": null
+          },
+          "atoms": [
+            {
+              "id": 1052840,
+              "key": "61db0274-1503-4423-b85f-3b26bd954d71",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Product managers are nowadays even present in the tech entities of governing parties. Let’s say you're the product manager for the digital arm of a politician registered as an independent. After some research, you and your team have decided that one of the campaigns you will run will target folks who buy tickets online to American football events.\n\nGiven that this politician's budget is fairly limited, you’ve decided to stick to campaigns in the Northeast region of the United States, where this candidate's awareness is relatively lower than other regions.  You will need to make a decision on which football teams’ audiences to target, based on [this user research survey data](https://video.udacity-data.com/topher/2020/August/5f359b88_nfl-fandom-data/nfl-fandom-data.csv). The dataset is also available [on GitHub](https://github.com/fivethirtyeight/data/blob/master/nfl-fandom/NFL_fandom_data-surveymonkey.csv).\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1096096,
+              "key": "0a7a7770-4c82-496d-bcfc-8f9aae759010",
+              "title": "Finding additional data",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "0a7a7770-4c82-496d-bcfc-8f9aae759010",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Looking at the provided dataset, you determine that you don’t quite have all the information you need. You decide to find a dataset online that you can use to enrich your user research data. What type of dataset would be most helpful for you to look for?",
+                "answers": [
+                  {
+                    "id": "a1604712827557",
+                    "text": "A list of football team mascots",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1604712856891",
+                    "text": "A ranking of football attendance by state",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1604712863901",
+                    "text": "A linking of US states to regions",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1604712871939",
+                    "text": "A cheat sheet of football rules",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1604712885027",
+                    "text": "A guide to stadium snacks",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1047752,
+              "key": "b4e7bf6f-230d-4689-91ff-1fda9960e4da",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "__Data Cleaning__<br>\nRemember, once you have located a dataset containing the information you need, you may need to clean the dataset. _This is a common first step that data product managers often need to complete as part of finding trends. Use this exercise as practice for that skill._",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1096097,
+              "key": "f4b0005d-5d52-4b4b-a2a9-96deed4f0a25",
+              "title": "Visualizing the data",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "f4b0005d-5d52-4b4b-a2a9-96deed4f0a25",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "After cleaning and joining your datasets, you want to start identifying your target audience. What type of visualization will be most helpful to you?",
+                "answers": [
+                  {
+                    "id": "a1604713029587",
+                    "text": "A line graph of football ticket sales by state",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1604713049794",
+                    "text": "A pie chart of ticket sales by political affiliation",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1604713061137",
+                    "text": "A bar chart of ticket sales by team",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1604713068000",
+                    "text": "A bar chart of independent political affiliation by team",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1604713075130",
+                    "text": "A pie chart of independent political affiliation by state",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1096098,
+              "key": "0f412dfd-addf-44b8-a71f-293cc8b4b24c",
+              "title": "Make a recommendation",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "0f412dfd-addf-44b8-a71f-293cc8b4b24c",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": null,
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "Now that you’ve decided on a visualization type, you can go ahead and construct your chart in Tableau. You decide to choose two teams whose fans and audience you will target for the politician’s campaign. Which two teams do you recommend for the campaign and why?"
+              },
+              "answer": {
+                "text": "By looking at which football teams in the Northeast have the most fans who identify politically as independents, we can see that our campaign will likely be the most effective by targeting fans of the New England Patriots and the Pittsburgh Steelers.",
+                "video": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 1017384,
+          "key": "73c816f1-7af2-40cb-9de7-9e00b9e0aaee",
+          "title": "Solution: Data Enrichment",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "73c816f1-7af2-40cb-9de7-9e00b9e0aaee",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1017360,
+              "key": "a691496c-41df-41ec-9e55-0eb75718fb51",
+              "title": "Data Enrichment Exercise Solution Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Data Enrichment Exercise Solution",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1017359,
+              "key": "776bbb83-cf88-4da1-832e-78c0a1c2d16c",
+              "title": "ND030 C1 L2 A10 Data Enrichment Exercise - Exercise Solution Video",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "fKJjLdIjHfI",
+                "china_cdn_id": "fKJjLdIjHfI.mp4"
+              }
+            },
+            {
+              "id": 1017364,
+              "key": "1ccde841-2380-4ed9-9b17-dd66a8d1ad3e",
+              "title": "Data Enrichment Exercise Solution Summary",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "I used the [US States to region mapping](https://www.kaggle.com/omer2040/usa-states-to-region) dataset from Kaggle.\n\nSure, you could just go about manually mapping state to region by hand, but oftentimes in companies that have gigabytes to petabytes of data, this approach is usually not scalable.\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1017382,
+          "key": "17fad610-d1f5-41f7-9992-be7695dc54b7",
+          "title": "Lesson Conclusion",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "17fad610-d1f5-41f7-9992-be7695dc54b7",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1017361,
+              "key": "983f9314-99df-4f7c-a062-8c943dba2e20",
+              "title": "Lesson Conclusion Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Lesson Conclusion",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1017366,
+              "key": "befe85dd-8b4b-477c-b492-1670075fd00f",
+              "title": "ND030 C1 L2 A11 Lesson Conclusion",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "PmCbrLmjPhc",
+                "china_cdn_id": "PmCbrLmjPhc.mp4"
+              }
+            },
+            {
+              "id": 1017365,
+              "key": "0599233a-5c22-4d2d-b6f3-63d21bb58eb7",
+              "title": "Lesson Conclusion Text",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "In this lesson, we learned how to analyze our data via: \n- Line graphs & donut charts\n- Geospatial maps\n- Box plots and histograms\n- Enriching your data from external sources",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1017388,
+          "key": "dde1d8cd-a0ff-4f9d-801c-8a7be0951c69",
+          "title": "Glossary",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "dde1d8cd-a0ff-4f9d-801c-8a7be0951c69",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1017370,
+              "key": "29db207e-5da3-4ee1-b0ee-b27f8e93e8fb",
+              "title": "Glossary",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "|Key Term| Definition|\n|--------------|---------------------|\n|Line graph| Visualization most effective for displaying time-series trends|\n|Donut chart| Visualization most effective for comparing dimensions of low-cardinality values|\n|Choropleth map| Display the frequency of geospatial point data on a discrete scale, based on what boundary you specify|\n|Density map| Display the frequency of geospatial point data on a continuous scale|\n|Box plot| Visualization effective at displaying the spread of data, it’s clusters, it’s outliers, and it’s range.|\n|Histogram|  Visualization effective at comparing bins (or ranges) of continuous variables.|\n|Bar chart| Visualization effective at comparing discrete variables.|",
+              "instructor_notes": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "starter_files",
+      "reason": "prefer master_archive_id"
+    }
+  ]
+}

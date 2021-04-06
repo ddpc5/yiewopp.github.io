@@ -1,0 +1,844 @@
+{
+  "data": {
+    "lesson": {
+      "id": 1017271,
+      "key": "d45f495b-27f0-493e-836c-8ce56af5f744",
+      "title": "Introduction to Data Product Management",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": "Find out about the rise of the data product manager with the explosion of information in recent years.",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": false,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "https://zips.udacity-data.com/d45f495b-27f0-493e-836c-8ce56af5f744/1017271/1590511412489/Introduction+to+Data+Product+Management+Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "https://zips.udacity-data.com/d45f495b-27f0-493e-836c-8ce56af5f744/1017271/1590511408914/Introduction+to+Data+Product+Management+Subtitles.zip"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 1017260,
+          "key": "a77d61c9-4f32-41fc-8960-2ae93f46f435",
+          "title": "Meet Your Instructor",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "a77d61c9-4f32-41fc-8960-2ae93f46f435",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1017237,
+              "key": "19b9de35-79ba-4ab0-b787-74ae43642e86",
+              "title": "Meet Your Instructor Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Meet Your Instructor",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1017229,
+              "key": "c4a27dd5-7870-49db-ae07-93127ab9285b",
+              "title": "ND030 C1 L0 A01 Meet Your Instructor",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "cPmbyt37mp8",
+                "china_cdn_id": "cPmbyt37mp8.mp4"
+              }
+            },
+            {
+              "id": 1017230,
+              "key": "caebe627-55d8-4f74-919d-487d80ddbcab",
+              "title": "Meet Your Instructor Text",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "I’m JJ, here to introduce you to the world of data product management. With seven years of data product management experience at Apple, VSCO, and Collective Health, I love leveraging data to make product decisions, using data to help external users make decisions, and building out data platforms so internal users can extract great insights quickly.",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1017262,
+          "key": "6629078c-047d-4138-957c-ddb50641c019",
+          "title": "Prerequisites",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "6629078c-047d-4138-957c-ddb50641c019",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1017240,
+              "key": "fd137aee-9411-46d7-a6f3-78c66e2c74f2",
+              "title": "Prerequisites Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Course Prerequisites",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1017228,
+              "key": "ae90de3d-c7db-446b-a751-0eed849eac02",
+              "title": "ND030 C1 L0 A02 Prerequisites",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "83vAZ9GEEyI",
+                "china_cdn_id": "83vAZ9GEEyI.mp4"
+              }
+            },
+            {
+              "id": 1017227,
+              "key": "236a288d-785b-4e5e-a45a-4ff6339c4a64",
+              "title": "Prerequisites Summary",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "This course is best suited for:\n- a data scientist, data analyst, or data engineer yearning to apply their skills towards product management\n- a product manager that wants to become more data-driven in their decision making\n- or just anyone who’s eager to learn the fundamentals of data product management through hands-on projects\n\nThe recommended prerequisites for the course are:\n- basic knowledge of SQL\n- basic knowledge of Tableau or any drag-&-drop business intelligence tool, like or not limited to Mode Analytics, Periscope Data, Looker, Qlik Sense, or Spotfire",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1017263,
+          "key": "3c496035-076f-4b4a-aa97-adc0189d795f",
+          "title": "Introduction & History of Data Product Management",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "3c496035-076f-4b4a-aa97-adc0189d795f",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1017232,
+              "key": "dda87131-7dfb-4813-9f41-6e6a83846ee2",
+              "title": "Introduction & History of Data Product Management Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## What is Data Product Management",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1017250,
+              "key": "0de65cdd-800a-44c1-b6fd-7363ed5641cc",
+              "title": "ND030 C1 L0 A03 Introduction & History Of Data Product Management",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "GE3wa2nzLCs",
+                "china_cdn_id": "GE3wa2nzLCs.mp4"
+              }
+            },
+            {
+              "id": 1017235,
+              "key": "5273c251-fcc7-4979-bca9-11758c4fa2e6",
+              "title": "Introduction & History of Data Product Management Summary",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Data in the real-world can oftentimes be extremely large (to the point where Excel spreadsheets, visualization tools, or relational databases cannot process), erroneous, partial (missing key slices), biased, undocumented, and/or inaccessible.\n\nWhat is data product management? Generally, one of the three below areas (and sometimes a combination): \n- Building data products\n  - [Netflix's content recommendation engine](https://help.netflix.com/en/node/100639)\n  - [Spotify's Year in Review](https://newsroom.spotify.com/2019-12-05/spotify-wrapped-2019-reveals-your-streaming-trends-from-2010-to-now/)\n  - [Mint’s Budgeting Dashboard](https://www.mint.com/how-mint-works/budgets)\n- Building data platforms to enable data scientists & analysts to access, store, analyze, enrich, transform, aggregate, encrypt, visualize, and/or deliver data\n- Leveraging data science to make stronger decisions as a product manager from defining the minimum viable product to iterative design & experimentation",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1017597,
+              "key": "729da313-2de1-495f-b270-db92a984c26b",
+              "title": "Types of Data PMs",
+              "semantic_type": "MatchingQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "729da313-2de1-495f-b270-db92a984c26b",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "complex_prompt": {
+                  "text": "Match the type of data product manager to an example product or initiative they would lead."
+                },
+                "concepts_label": "Product or Initiative",
+                "answers_label": "Type of Data PM",
+                "concepts": [
+                  {
+                    "text": "Leading the conceptualization, design, and build of an exercise bike's workout summary dashboard for end-users.",
+                    "correct_answer": {
+                      "id": "a1588193416078",
+                      "text": "Builder of data products"
+                    }
+                  },
+                  {
+                    "text": "Leading the build-out of Kafka infrastructure to stream data from your product’s mobile app into Google Bigquery for future analyses.",
+                    "correct_answer": {
+                      "id": "a1588193453588",
+                      "text": "Builder of data platforms"
+                    }
+                  },
+                  {
+                    "text": "Extracting a sampling of power users of a productivity company's calendar feature to reach out to for qualitative research sessions.",
+                    "correct_answer": {
+                      "id": "a1588193454222",
+                      "text": "Leveraging data science to make decisions"
+                    }
+                  }
+                ],
+                "answers": [
+                  {
+                    "id": "a1588193454222",
+                    "text": "Leveraging data science to make decisions"
+                  },
+                  {
+                    "id": "a1588193453588",
+                    "text": "Builder of data platforms"
+                  },
+                  {
+                    "id": "a1588193416078",
+                    "text": "Builder of data products"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 1017266,
+          "key": "a50d71a1-39c5-479c-9689-2743ab40130a",
+          "title": "Applying Data Science to Product Management Is Important",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "a50d71a1-39c5-479c-9689-2743ab40130a",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1017248,
+              "key": "8228643a-9296-4db8-b3f3-9cec6c77e8aa",
+              "title": "Applying Data Science to Product Management Is Important Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Why It’s Crucial to Leverage Data to Drive Decisions",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1017236,
+              "key": "0fc6f962-1e28-4a7d-9860-92b6bcdd3a0d",
+              "title": "ND030 C1 L0 A04 Applying Data Science To Product Management Is Important",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "JmGaPMhvoyU",
+                "china_cdn_id": "JmGaPMhvoyU.mp4"
+              }
+            },
+            {
+              "id": 1017253,
+              "key": "1e739d67-c8fd-41cd-a70b-77f59300533b",
+              "title": "Applying Data Science to Product Management Is Important Summary",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Product managers need to make the determination of what success looks like for a feature, from a quantitative standpoint. They leverage data science to uncover long-standing problems in the product that are not immediately obvious from user research. They need to have a good understanding of data collection & analysis principles in order to build a strong working relationship with their data scientists.",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1017261,
+          "key": "386b86f4-0057-4501-a043-61c4704d9355",
+          "title": "Business Stakeholders",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "386b86f4-0057-4501-a043-61c4704d9355",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1017233,
+              "key": "8dd9733e-70c2-4435-aa55-07d36ac36024",
+              "title": "Business Stakeholders Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Internal Stakeholders You’ll Work With as a Data Product Manager",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1017231,
+              "key": "02adc6e1-9e8c-4316-b7c7-98884092253e",
+              "title": "ND030 C1 L0 A05 Business Stakeholders",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "c9k4MMhY0HY",
+                "china_cdn_id": "c9k4MMhY0HY.mp4"
+              }
+            },
+            {
+              "id": 1017239,
+              "key": "0fd1762a-1dae-4c01-870d-f46777f7b652",
+              "title": "Business Stakeholders Summary",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "How data product managers work with different internal stakeholders throughout the company:\n\n**Data science** - To help you understand the nuances in the data, to help determine success metrics of your product, to run any deep statistical analyses, to build ML algorithms and models (if they are ML-focused).\n\n**Design** - To create near-seamless physical and digital interactions and pixel perfect placement to empower customers to use and love the product\n\n**Product marketing** - To help determine pricing, strategize on market positioning, assess market viability, establish product/brand voice, estimate the total addressable market, create a rollout strategy, and produce communications collateral.\n\n**User research** - recruit and interview users from different customer segments to provide context on the viability of what we’re building actually solved user problems, before & after launch.\n\n**Data engineering** - to collect, transform and store batch and/or streaming data into the desired output & location for analyses.\n\n**Client engineering** (Web, Android, iOS) - to build intuitive interfaces that display data for end user consumption, also collects event data (or user actions).\n\n**Server engineering** - Also known as backend or platform engineering in some contexts. To build resilient and accessible databases, data stores, and caching layers for frontend applications to be able to successfully create, read, update, and delete data on a real-time (or dependent on your product requirements). Receives and stores event data from frontend clients, to later send off to the data warehouse. \n \n**Legal, privacy, and compliance teams** - to determine data processing regulation requirements, and/or ensure that the data products you are building are compliant with consumer protection laws.\n\n**Finance & business operations** - to help you measure unit economics, business growth, and financial health metrics (like revenue, churn, retention, gross margins, new user acquisition rates, profit, loss), or quantify opportunities for regional & global expansion\n\n**Sales & customer success** - As the product manager, you’ll need to evangelize the limitations & capabilities of the current product, in addition to providing them insights on the future roadmap. They’ll also provide you feedback on the reasons or lack of features on why potential customers may not end up signing deals or going to other competitors.\n\n**Localization/Internationalization** - to have your product localized, or have text dynamically translated into the various languages you support for international adoption and accessibility.\n\n**Quality assurance engineering** - their goal is to break your product, or expose bugs in your product before your external users do. They may end up finding a lot more issues than your team can physically work on and you’ll need to leverage analytics to make a determination on which issues to tackle first based on existing feature usage.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1017598,
+              "key": "5297553d-39c8-4f4b-b641-f526df0a86a9",
+              "title": "Business Stakeholders Quiz",
+              "semantic_type": "MatchingQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "5297553d-39c8-4f4b-b641-f526df0a86a9",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "complex_prompt": {
+                  "text": "(Part 1) Let’s say you’re the PM for [Prototyping](https://www.sketch.com/docs/prototyping/) at Sketch, that company that makes UX design software for digital creators. Match the business stakeholder group, to the data PM’s interaction with the group."
+                },
+                "concepts_label": "Interaction",
+                "answers_label": "Stakeholder",
+                "concepts": [
+                  {
+                    "text": "You work with this team to determine realistic success metrics for Prototyping’s engagement rates, based on historical data we’ve seen in the past.",
+                    "correct_answer": {
+                      "id": "a1588193559590",
+                      "text": "Data science"
+                    }
+                  },
+                  {
+                    "text": "Before you launched Prototyping, you worked with this team to determine which pricing tier Prototyping would best fit under.",
+                    "correct_answer": {
+                      "id": "a1588193590522",
+                      "text": "Product marketing"
+                    }
+                  },
+                  {
+                    "text": "Interviewing users that use Sketch alongside Invision (a competitor to Prototyping’s functionality).",
+                    "correct_answer": {
+                      "id": "a1588193591306",
+                      "text": "User research"
+                    }
+                  },
+                  {
+                    "text": "You provide your products’ success metrics and data needed to be collected/analyzed by this team so that they know how to best  move, process, and store raw data for future analyses.",
+                    "correct_answer": {
+                      "id": "a1588193592001",
+                      "text": "Data engineering"
+                    }
+                  },
+                  {
+                    "text": "You provided product requirements to this team to give them guidance on how the frontend interface of Prototyping should look and behave.",
+                    "correct_answer": {
+                      "id": "a1588193592714",
+                      "text": "Client engineering"
+                    }
+                  },
+                  {
+                    "text": "You provided product requirements to this team so they could determine how production data should be stored, cached, and processed, so that the frontend could call actions to receive data.",
+                    "correct_answer": {
+                      "id": "a1588193600244",
+                      "text": "Server engineering"
+                    }
+                  }
+                ],
+                "answers": [
+                  {
+                    "id": "a1588193592001",
+                    "text": "Data engineering"
+                  },
+                  {
+                    "id": "a1588193592714",
+                    "text": "Client engineering"
+                  },
+                  {
+                    "id": "a1588193590522",
+                    "text": "Product marketing"
+                  },
+                  {
+                    "id": "a1588193559590",
+                    "text": "Data science"
+                  },
+                  {
+                    "id": "a1588193600244",
+                    "text": "Server engineering"
+                  },
+                  {
+                    "id": "a1588193591306",
+                    "text": "User research"
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1017599,
+              "key": "776086a9-c7e7-4c79-8db6-8a48bf236170",
+              "title": "Business Stakeholders Quiz 2",
+              "semantic_type": "MatchingQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "776086a9-c7e7-4c79-8db6-8a48bf236170",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "complex_prompt": {
+                  "text": "(Part 2) Let’s say you’re the PM for a company that makes UX design software for digital creators. Match the business stakeholder group, to the data PM’s interaction with the group."
+                },
+                "concepts_label": "Interaction",
+                "answers_label": "Stakeholder",
+                "concepts": [
+                  {
+                    "text": "You work with this team to determine what data we’re allowed to collect from user behavior in the product, without violating their privacy.",
+                    "correct_answer": {
+                      "id": "a1588193758766",
+                      "text": "Legal, privacy, and compliance"
+                    }
+                  },
+                  {
+                    "text": "You work with this team to estimate the new revenue that was brought in attributed to the launch. ",
+                    "correct_answer": {
+                      "id": "a1588193784946",
+                      "text": "Business operations"
+                    }
+                  },
+                  {
+                    "text": "You get aggregated feedback from this team about customers demanding the ability for end-users to leave comments on different areas of the prototype instead of only on the comment sidebar.",
+                    "correct_answer": {
+                      "id": "a1588193785574",
+                      "text": "Customer success"
+                    }
+                  },
+                  {
+                    "text": "You get a notice from this team that text that is RTL (right-to-left) is floating off of some of the sidebar buttons. ",
+                    "correct_answer": {
+                      "id": "a1588193786120",
+                      "text": "Localization"
+                    }
+                  },
+                  {
+                    "text": "You get notice from an internal team that artboards (existing feature) are no longer loading in particular browser.",
+                    "correct_answer": {
+                      "id": "a1588193786714",
+                      "text": "QA engineering"
+                    }
+                  }
+                ],
+                "answers": [
+                  {
+                    "id": "a1588193786714",
+                    "text": "QA engineering"
+                  },
+                  {
+                    "id": "a1588193758766",
+                    "text": "Legal, privacy, and compliance"
+                  },
+                  {
+                    "id": "a1588193785574",
+                    "text": "Customer success"
+                  },
+                  {
+                    "id": "a1588193786120",
+                    "text": "Localization"
+                  },
+                  {
+                    "id": "a1588193784946",
+                    "text": "Business operations"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 1017264,
+          "key": "b18594e8-1c61-49d9-92ad-62a9018e29c1",
+          "title": "Product Management Fundamentals",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "b18594e8-1c61-49d9-92ad-62a9018e29c1",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1017252,
+              "key": "e380e2f2-03ec-483f-a8dc-e7f33d2ac66c",
+              "title": "Product Management Fundamentals Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Product Management Fundamentals",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1017254,
+              "key": "51573571-f92c-4621-9de5-6bc0a388b6f8",
+              "title": "ND030 C1 L0 A06 Product Management Fundamentals",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "GnJufKnXEJ8",
+                "china_cdn_id": "GnJufKnXEJ8.mp4"
+              }
+            },
+            {
+              "id": 1017241,
+              "key": "1d024eb0-e946-4918-bcbd-808d90e1a2df",
+              "title": "Product Management Fundamentals Summary",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "As a product manager, you’re constantly:\n- talking to users to empathize with their pain\n- leveraging data to understand macro-trends (market) and micro-trends (experiments)\n- creating solutions with engineers and designers\n- prioritizing the features and bugs in your backlog\n- building a roadmap to have a central point-of-truth on what we’re building next\n- writing specs or PRDs (product requirements documents) to translate your vision into reality\n- creating product marketing materials or sales enablement, so that your product gets to the right users via the most efficient channels\n\nProduct managers generally are *not* primarily focused on: \n- Project management, or driving the development of a feature or project on a tactical and operational level, to ensure that it’s developed on budget, and on-time. This differs based on company size and culture. Generally, for startups and small enterprise companies, there are no dedicated project managers, and product managers have to carry this load. However, for larger companies, there may be project managers on staff, so that product managers could focus more on product strategy and what is called out above.\n- Engineering management, or directly managing engineering reports, reviewing their code, and providing technical mentorship\n- Being the primary decision maker on technical architecture. That’s the primary role of software architects. Great product managers have a good grasp and understanding of the software architecture for the products they own, and have influence over the decision, but have trust that their engineering teams will deliver. \n- Writing code. Half of the product managers I’ve worked with came from engineering backgrounds and still poke at code time-to-time, half came from a non-technical background. Both are equally as successful, assuming that the latter has a good understanding of the capabilities & limitations of their team’s tech stack & microservices.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1017234,
+              "key": "9e708f78-ad89-4d91-90dc-e6ff09c598cc",
+              "title": "Product Management Fundamentals Quiz",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "9e708f78-ad89-4d91-90dc-e6ff09c598cc",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Out of the following example tasks, what would product managers not be generally responsible for?",
+                "answers": [
+                  {
+                    "id": "rbk1",
+                    "text": "Code reviews and providing technical mentorship to engineers",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk2",
+                    "text": "Determining which initiatives and features one of the development teams will work on for the next couple quarters",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk3",
+                    "text": "Project management, of the feature to ensure it is delivered on-time and on-budget",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk4",
+                    "text": "Conducting user research interviews with churned users on why they didn’t renew",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk5",
+                    "text": "Work with the Manager of Customer Support to understand the highest reported issues in terms of volume & severity last week.",
+                    "is_correct": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 1017268,
+          "key": "abdd9e19-46b3-483e-97c0-5a300d682558",
+          "title": "Course Outline",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "abdd9e19-46b3-483e-97c0-5a300d682558",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1017242,
+              "key": "98f7f315-d7f5-402f-9242-15d65ae9ee9f",
+              "title": "Course Outline Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Course Outline",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1017257,
+              "key": "de48a546-6560-435d-9c79-2fcbbc858385",
+              "title": "ND030 C1 L0 A07 Course Outline",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "WgnQiHaPUDQ",
+                "china_cdn_id": "WgnQiHaPUDQ.mp4"
+              }
+            },
+            {
+              "id": 1017244,
+              "key": "058b3761-c458-4252-a2e7-cc1234d42148",
+              "title": "Course Outline Summary",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "To summarize, we’ll break things down in the following order in this course:\n- Understanding the granularity, distribution, and modelling of data\n- Analyzing, extracting trends, enrichment, and visualizing data\n- Formulating, measuring, & implementing product objectives and KPIs\n- Proposal synthesis & design",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1017267,
+          "key": "6e50e78d-815c-4e59-88f3-45106bd24220",
+          "title": "Tools, Environment & Dependencies",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "6e50e78d-815c-4e59-88f3-45106bd24220",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1017243,
+              "key": "0d55dbc7-4e6b-4b96-8280-d9e629e82f41",
+              "title": "Tools, Environment & Dependencies Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Tools & Prerequisites You'll Need to Succeed",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1017256,
+              "key": "9cd769f0-e65e-42b2-9e62-9e59321bd0b2",
+              "title": "ND030 C1 L0 A08 Tools, Environment, & Dependencies",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "CBx2Rr6T1EY",
+                "china_cdn_id": "CBx2Rr6T1EY.mp4"
+              }
+            },
+            {
+              "id": 1017251,
+              "key": "bf29fba1-6129-49b0-a7d6-1c38f58bf30a",
+              "title": "Tools, Environment & Dependencies Summary",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Useful Links\n\n- PostgreSQL - This is the specific flavor of SQL that is used in the Udacity SQL Workspace. \n  - [Documentation](https://www.postgresql.org/files/documentation/pdf/12/postgresql-12-A4.pdf)\n- SQL for Data Analysis\n  - [Udacity Free Course](https://www.udacity.com/course/sql-for-data-analysis--ud198)\n- Tableau Public - A 14 day free trial for Tableau desktop is available, with an email sign-up.\n  - [Download Here](https://public.tableau.com/s/)\n- Data Visualization in Tableau\n  - [Udacity Free Course](https://www.udacity.com/course/data-visualization-in-tableau--ud1006)",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1017265,
+          "key": "91909ab3-d632-46de-bc11-52d0fd35f0de",
+          "title": "Project: Flyber",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "91909ab3-d632-46de-bc11-52d0fd35f0de",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1017245,
+              "key": "7af9329c-c7fa-4033-9d8d-36f818dd8248",
+              "title": "Project: Flyber Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Develop a Product Proposal for the World's First Flying Taxi Service",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1017249,
+              "key": "38ad6d6b-aff7-4992-99a7-c9c9ea586b80",
+              "title": "ND030 C1 L0 A09 Project Flyber",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "BTClL7BgT04",
+                "china_cdn_id": "BTClL7BgT04.mp4"
+              }
+            },
+            {
+              "id": 1017238,
+              "key": "37b986f2-4f7c-47fc-a1d8-a1f161f7a6ef",
+              "title": "Project: Flyber Summary",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "In the project, you’ll help Flyber launch the first flying car taxi service. To do so, you’ll:\n\n- Analyze & leverage market & user research data to help you and your team make the following decisions:\n   - Where in New York City should we place flying taxi pick-up locations?\n   - Should we keep the service running 24 hours a day, 7 days a week?\n   - What's the best way to structure the initial product to measure the viability & stickiness of the service, without going all in right away?\n   - And more...\n- Create a proposal to pitch your case to stakeholders all across the board to get buy-in for the execution of Flyber's Minimum Viable Product (MVP)",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1017270,
+          "key": "648f7397-b3fa-4390-9131-e42b7dda7103",
+          "title": "Recap",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "648f7397-b3fa-4390-9131-e42b7dda7103",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1017246,
+              "key": "aec45ca3-9a49-41e2-99fe-ad2345631b9a",
+              "title": "Recap Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Recap",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1017255,
+              "key": "c5531f5d-1818-4c5d-8fd9-1d27f4e4ffc8",
+              "title": "ND030 C1 L0 A10 Recap",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "tNqPr_cVVSM",
+                "china_cdn_id": "tNqPr_cVVSM.mp4"
+              }
+            },
+            {
+              "id": 1017258,
+              "key": "e480c0ca-c3af-482a-b69f-538f8eb09892",
+              "title": "Recap Text",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "In this lesson, we went through:\n- Introduction and history of data product management\n- Business stakeholders\n- Product management fundamentals\n- What you'll be building in the final project",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1017269,
+          "key": "146ad051-2b12-4484-9cf8-2487690f0ed5",
+          "title": "Good Luck!",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "146ad051-2b12-4484-9cf8-2487690f0ed5",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1017247,
+              "key": "ef901013-b38e-4b45-a6a2-d43a1b30f605",
+              "title": "Good Luck! Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## In bocca al lupo!",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1017259,
+              "key": "4d82c2e3-335c-4bd7-aff2-4bb0a357c2b2",
+              "title": "ND030 C1 L0 A11 Good Luck!",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "khlLeljhi_I",
+                "china_cdn_id": "khlLeljhi_I.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 1017529,
+          "key": "1c49b7d6-27eb-4992-aed5-368b4e41b492",
+          "title": "Instructor Interview",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1c49b7d6-27eb-4992-aed5-368b4e41b492",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1017532,
+              "key": "432e0417-8754-4785-83eb-b20001bc5eb7",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Instructor Interview\n\nBelow is a video that contains some additional information on working in the field as a Data Product Manager. You can view it now, or come back to it later if you're ready to get started learning.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1017534,
+              "key": "476a6ca2-1913-4395-9238-04579f7c429e",
+              "title": "ND030 Instructor Interview",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "6xVrLKqCP2I",
+                "china_cdn_id": "6xVrLKqCP2I.mp4"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,1118 @@
+{
+  "data": {
+    "lesson": {
+      "id": 1017322,
+      "key": "d3d4a320-19df-4740-8169-68e21019e7e0",
+      "title": "Granularity, Distribution, and Modeling Data",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": "Learn about the granularity, distribution and modeling of data, key areas to utilize in your data PM skill set.",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": false,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "https://zips.udacity-data.com/d3d4a320-19df-4740-8169-68e21019e7e0/1017322/1590511418487/Granularity%2C+Distribution%2C+and+Modeling+Data+Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "https://zips.udacity-data.com/d3d4a320-19df-4740-8169-68e21019e7e0/1017322/1590511415134/Granularity%2C+Distribution%2C+and+Modeling+Data+Subtitles.zip"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 1017309,
+          "key": "95a5215c-445f-43f7-9451-777d5ed257f9",
+          "title": "Granularity, Distribution, and Modelling of Data",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "95a5215c-445f-43f7-9451-777d5ed257f9",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1017277,
+              "key": "ff1aeb9d-f5bf-40a2-af80-14edd3b655bc",
+              "title": "Granularity, Distribution, and Modelling of Data Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Understanding the Granularity, Distribution, and Modelling of Data",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1017273,
+              "key": "a9900bf1-c83a-46b7-b8bf-610a992687a3",
+              "title": "ND030 C1 L1 A01 Granularity, Distribution, And Modelling Of Data",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "sW7Dkm-JLfc",
+                "china_cdn_id": "sW7Dkm-JLfc.mp4"
+              }
+            },
+            {
+              "id": 1017275,
+              "key": "3ead1249-2c13-4044-839f-138c3cc6a548",
+              "title": "Granularity, Distribution, and Modelling of Data Summary",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "- **Granularity** - what exactly is being measured in the dataset, what does each row represent?\n- **Distribution** - how spread apart is the data, and where the center of the data lies in terms of both the weight numerical values, and the raw number of data points? \n- **Modeling** - how is the data spread across multiple tables, and how is the data aggregated (or pre-counted) for query efficiency?",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1017310,
+          "key": "45111d81-c2f9-4be1-87fc-cecdcafcc460",
+          "title": "Big Picture",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "45111d81-c2f9-4be1-87fc-cecdcafcc460",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1017274,
+              "key": "afaf1c2b-6fb0-434f-8f20-04f662c2446f",
+              "title": "ND030 C1 L1 A02 Big Picture",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "kbP0mzEJM8A",
+                "china_cdn_id": "kbP0mzEJM8A.mp4"
+              }
+            },
+            {
+              "id": 1017288,
+              "key": "ec8c7b70-0f6e-48ec-99df-ad727a6fb957",
+              "title": "Big Picture Heading Image",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/April/5ea9a83d_music-disc/music-disc.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/ec8c7b70-0f6e-48ec-99df-ad727a6fb957",
+              "caption": "Case Study: Streaming Music",
+              "alt": "Case Study: Streaming Music",
+              "width": 250,
+              "height": 250,
+              "instructor_notes": null
+            },
+            {
+              "id": 1017280,
+              "key": "a384d92c-7970-4f9c-a078-a4838b5ff54a",
+              "title": "Big Picture Summary",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "It’s important to not just take data at face value. In the video, we covered an example (with made-up data, in this case) where you may have found the average song completion rate to be extremely high, at 92%, for songs where the average skip time was around 46 seconds. In this case, the data came from a table already pre-filtered to song plays lasting at least 30 seconds, driving both song completion rate and average skip time much higher than if you were looking at the full relevant dataset.",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1017316,
+          "key": "a98346df-0044-42fe-9870-5db41b29f157",
+          "title": "What is Being Measured?",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "a98346df-0044-42fe-9870-5db41b29f157",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1017276,
+              "key": "592eff33-c821-43ff-8258-8013607ad548",
+              "title": "What is Being Measured? Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Granularity: What is Being Measured in a Dataset?",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1017278,
+              "key": "793cbdef-4e77-4136-82ee-e761ddd4c4e4",
+              "title": "ND030 C1 L1 A03 What Is Being Measured",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "2UuiTWDX0aE",
+                "china_cdn_id": "2UuiTWDX0aE.mp4"
+              }
+            },
+            {
+              "id": 1017289,
+              "key": "0e9ec308-f548-45a4-8581-ca7b8837fcb8",
+              "title": "What is Being Measured? Notes",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "We discussed here how granularity concerns what is being measured by a given dataset, and how different data tables can represent vastly different data. I also briefly mentioned the primary key for a given table, which uniquely identifies each row in the table.",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1017307,
+          "key": "ecea8b60-1aa7-439d-9c77-5537c7d74b3f",
+          "title": "Quiz: What is Being Measured?",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "ecea8b60-1aa7-439d-9c77-5537c7d74b3f",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1017600,
+              "key": "b8f92a5d-ab32-41b4-ba29-7f47a1d86018",
+              "title": "What is Being Measured Matching",
+              "semantic_type": "MatchingQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "b8f92a5d-ab32-41b4-ba29-7f47a1d86018",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "complex_prompt": {
+                  "text": "Match the below definitions to the related term."
+                },
+                "concepts_label": "Definition",
+                "answers_label": "Term",
+                "concepts": [
+                  {
+                    "text": "What each row of a dataset represents",
+                    "correct_answer": {
+                      "id": "a1588193999906",
+                      "text": "Granularity"
+                    }
+                  },
+                  {
+                    "text": "Unique value of each row in a dataset",
+                    "correct_answer": {
+                      "id": "a1588194018958",
+                      "text": "Primary Key"
+                    }
+                  }
+                ],
+                "answers": [
+                  {
+                    "id": "a1588194018958",
+                    "text": "Primary Key"
+                  },
+                  {
+                    "id": "a1588193999906",
+                    "text": "Granularity"
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1017281,
+              "key": "1d592241-ef25-468a-a436-c68dd5b3e3cc",
+              "title": "What is Being Measured? Hard Quiz Image",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/April/5ea9a8ee_being-measured-query/being-measured-query.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/1d592241-ef25-468a-a436-c68dd5b3e3cc",
+              "caption": "Use the above screenshot with the below quiz.",
+              "alt": "The query in the screenshot is `SELECT subscription_type_id, subscription_start_month, total_subscriptions` FROM mysterious_subscriptions_table LIMIT 10`.\n\nThe data is as follows:\n2219 | 2019-03-01 | 56\n5867 | 2019-03-01 | 690\n6899 | 2019-03-01 | 721\n2359 | 2019-03-01 | 102\n2219 | 2019-04-01 | 79\n5867 | 2019-04-01 | 850\n6899 | 2019-04-01 | 760\n22359 | 2019-04-01 | 40\n2219 | 2019-05-01 | 56\n5867 | 2019-05-01 | 811",
+              "width": 1796,
+              "height": 314,
+              "instructor_notes": null
+            },
+            {
+              "id": 1017285,
+              "key": "1ab4d202-30bd-46f4-961d-f9364f9cbae9",
+              "title": "What is Being Measured? Hard Quiz",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "1ab4d202-30bd-46f4-961d-f9364f9cbae9",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Above is a screenshot of the first 10 rows of a table, in addition to its column names. What is the primary key of this table?",
+                "answers": [
+                  {
+                    "id": "rbk1",
+                    "text": "`subscription_type_id`",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk2",
+                    "text": "`subscription_start_month`",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk3",
+                    "text": "`subscription_id` + `subscription_start_month`",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk4",
+                    "text": "`count`",
+                    "is_correct": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 1017314,
+          "key": "cc982df6-6b23-468e-bf82-83bc082d8697",
+          "title": "Exercise: What is Being Measured?",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "cc982df6-6b23-468e-bf82-83bc082d8697",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": {
+            "files": [
+              {
+                "name": "subscriptions_f.sql",
+                "uri": "https://video.udacity-data.com/topher/2020/May/5ebc8272_subscriptions-f/subscriptions-f.sql"
+              }
+            ],
+            "google_plus_link": null,
+            "career_resource_center_link": null,
+            "coaching_appointments_link": null,
+            "office_hours_link": null,
+            "aws_provisioning_link": null
+          },
+          "atoms": [
+            {
+              "id": 1035445,
+              "key": "2e53ed54-75ad-4874-906a-56aba733fe24",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "You are a PM at a subscription exercise bicycle company. Find the dataset in the below workspace that contains active subscriptions. What is the primary key here?",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1017646,
+              "key": "b8d90b96-815e-4c29-8853-f2f7ab002a30",
+              "title": null,
+              "semantic_type": "WorkspaceAtom",
+              "is_public": true,
+              "workspace_id": "r930527c1011603xSQLEVALUz7imteqb",
+              "pool_id": "sqlwidget",
+              "view_id": "sql-evaluator-rglsc",
+              "gpu_capable": false,
+              "configuration": {
+                "id": "reserved",
+                "blueprint": {
+                  "conf": {
+                    "disk": null,
+                    "allowSubmit": false
+                  },
+                  "kind": "sql-evaluator"
+                },
+                "workspaceId": "reserved"
+              },
+              "starter_files": null
+            },
+            {
+              "id": 1020333,
+              "key": "e7e7e1ef-7572-479b-b398-4deb2a635ced",
+              "title": "Primary Key",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "e7e7e1ef-7572-479b-b398-4deb2a635ced",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Select the element(s) to be used as the primary key. If it is a composite key, select all its components.",
+                "answers": [
+                  {
+                    "id": "a1589237176136",
+                    "text": "`subscriber_id`",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1589237197332",
+                    "text": "`subscription_id`",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1589237198081",
+                    "text": "`subscription_start_date`",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1589237198707",
+                    "text": "`subscription_expiry_date`",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1589237202263",
+                    "text": "None of the above",
+                    "is_correct": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 1017308,
+          "key": "f29f71d2-16aa-460b-a328-6150b13df738",
+          "title": "Solution: What is Being Measured?",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "f29f71d2-16aa-460b-a328-6150b13df738",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1017279,
+              "key": "fedfd8da-601d-4780-9a83-952e9b9b3b62",
+              "title": "ND030 C1 L1 A04 What Is Being Measured - Exercise Solution Video",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "QwXW60WuHTk",
+                "china_cdn_id": "QwXW60WuHTk.mp4"
+              }
+            },
+            {
+              "id": 1084353,
+              "key": "0d27c459-f863-4dde-9360-1642e8abd2f7",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "**Note:** The video says there are 506 descriptions, but you may find only 505 on the previous page. This does not impact the determination of the primary key.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1017282,
+              "key": "cbc34bbe-3133-4503-9705-bbd9a98d1e1a",
+              "title": "What is Being Measured? Exercise Solution Summary",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "In the `subscriptions_f` table, I noted that there were 506 individual entries, but that `subscriber_id` and `subscription_id` alone did not uniquely have as many `DISTINCT` values. As such, I realized that this was actually a composite primary key, made up of both of those values for a given row.\n\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1017313,
+          "key": "f95cc220-bd0c-4be3-baa4-c08c83e3e7c1",
+          "title": "Data Distribution",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "f95cc220-bd0c-4be3-baa4-c08c83e3e7c1",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1017286,
+              "key": "c9f2cba2-b393-4c56-9a94-f805c132b43d",
+              "title": "Data Distribution Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Data Distribution",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1017284,
+              "key": "7901d15a-f18e-44e4-9062-239a4ce4745f",
+              "title": "ND030 C1 L1 A05 Data Distribution",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "UHDRpHHVtZk",
+                "china_cdn_id": "UHDRpHHVtZk.mp4"
+              }
+            },
+            {
+              "id": 1017290,
+              "key": "142a1fea-fecf-46b1-ab87-b3f594105628",
+              "title": "Data Distribution Notes",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "- **Standard deviation** - the measure of how dispersed (wide) a dataset is \n- **One standard deviation from the mean** - 68% of all values fall by this range both below and above the mean\n- **Two standard deviation from the mean** - 95% of all values fall by this range both below and above the mean\n- **Median** - Midpoint of a frequency distribution\n- **Average** - Also known as mean, the value of the central point in a dataset based on the weight other values\n- **Long tail distribution** - When a distribution has large number of occurrences that are relatively far from the median of the distribution ",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1017298,
+          "key": "d820832d-5f7f-4174-8bb7-eddb3dfc5f2c",
+          "title": "Quiz: Data Distribution",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "d820832d-5f7f-4174-8bb7-eddb3dfc5f2c",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": {
+            "files": [
+              {
+                "name": "New-York-City-Airbnb-Open-Data",
+                "uri": "https://video.udacity-data.com/topher/2020/May/5ebc82e2_new-york-city-airbnb-open-data/new-york-city-airbnb-open-data.zip"
+              }
+            ],
+            "google_plus_link": null,
+            "career_resource_center_link": null,
+            "coaching_appointments_link": null,
+            "office_hours_link": null,
+            "aws_provisioning_link": null
+          },
+          "atoms": [
+            {
+              "id": 1017601,
+              "key": "95858c07-4310-414b-a19a-e17cc78bfa1d",
+              "title": "Data Distribution Quiz 1",
+              "semantic_type": "MatchingQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "95858c07-4310-414b-a19a-e17cc78bfa1d",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "complex_prompt": {
+                  "text": "Match the below terms with their definitions."
+                },
+                "concepts_label": "Definition",
+                "answers_label": "Term",
+                "concepts": [
+                  {
+                    "text": "95% of all values fall by this range both below and above the mean",
+                    "correct_answer": {
+                      "id": "a1588194128317",
+                      "text": "Two standard deviations from the mean"
+                    }
+                  },
+                  {
+                    "text": "68% of all values fall by this range both below and above the mean",
+                    "correct_answer": {
+                      "id": "a1588194146466",
+                      "text": "One standard deviation from the mean"
+                    }
+                  },
+                  {
+                    "text": "The central value of a distribution based on the weight of other values",
+                    "correct_answer": {
+                      "id": "a1588194147131",
+                      "text": "Average"
+                    }
+                  },
+                  {
+                    "text": "The central value of a distribution based on the number of other values in the dataset",
+                    "correct_answer": {
+                      "id": "a1588194147789",
+                      "text": "Median"
+                    }
+                  }
+                ],
+                "answers": [
+                  {
+                    "id": "a1588194147131",
+                    "text": "Average"
+                  },
+                  {
+                    "id": "a1588194147789",
+                    "text": "Median"
+                  },
+                  {
+                    "id": "a1588194128317",
+                    "text": "Two standard deviations from the mean"
+                  },
+                  {
+                    "id": "a1588194146466",
+                    "text": "One standard deviation from the mean"
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1017602,
+              "key": "969319aa-ba35-448e-8127-3891deea6e0a",
+              "title": "Data Distribution Quiz 2",
+              "semantic_type": "MatchingQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "969319aa-ba35-448e-8127-3891deea6e0a",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "complex_prompt": {
+                  "text": "Upload [this dataset](https://video.udacity-data.com/topher/2020/May/5ebc82e2_new-york-city-airbnb-open-data/new-york-city-airbnb-open-data.zip) into Tableau Public. \n\nMatch the values below with their distribution metrics on Airbnb listing price in New York City."
+                },
+                "concepts_label": "Metric",
+                "answers_label": "Value",
+                "concepts": [
+                  {
+                    "text": "Median",
+                    "correct_answer": {
+                      "id": "a1588194248399",
+                      "text": "106"
+                    }
+                  },
+                  {
+                    "text": "Mean",
+                    "correct_answer": {
+                      "id": "a1588194292408",
+                      "text": "152.7"
+                    }
+                  },
+                  {
+                    "text": "One standard deviation from the mean",
+                    "correct_answer": {
+                      "id": "a1588194293017",
+                      "text": "240.2"
+                    }
+                  }
+                ],
+                "answers": [
+                  {
+                    "id": "a1588194248399",
+                    "text": "106"
+                  },
+                  {
+                    "id": "a1588194292408",
+                    "text": "152.7"
+                  },
+                  {
+                    "id": "a1588194293017",
+                    "text": "240.2"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 1017318,
+          "key": "93c11ba7-8745-4a27-aaba-9eedd5fddca2",
+          "title": "Exercise: Data Distribution",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "93c11ba7-8745-4a27-aaba-9eedd5fddca2",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": {
+            "files": [
+              {
+                "name": "reviews_f.csv",
+                "uri": "https://video.udacity-data.com/topher/2020/May/5ebc836b_reviews-f/reviews-f.csv"
+              },
+              {
+                "name": "reviews_f.sql",
+                "uri": "https://video.udacity-data.com/topher/2020/May/5ebc83a5_reviews-f/reviews-f.sql"
+              }
+            ],
+            "google_plus_link": null,
+            "career_resource_center_link": null,
+            "coaching_appointments_link": null,
+            "office_hours_link": null,
+            "aws_provisioning_link": null
+          },
+          "atoms": [
+            {
+              "id": 1050585,
+              "key": "5af7ae16-1d88-4f63-98c9-65e61dd46e7a",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "In this exercise, you're the product manager for a company developing smartwatches, and you're striving to boost customer experience.\n\nUpload [this dataset](https://video.udacity-data.com/topher/2020/May/5ebc836b_reviews-f/reviews-f.csv) into Tableau and determine which regions have relatively higher disbursement of distribution (larger standard deviation). This will provide insight into the regions that need a deeper dive to determine why reviews are so sporadic - whether the product-market fit needs to be tuned, or if there's quality control issues in that region. In this dataset, smartwatches have a `Product ID` of `3`.\n\nWe’ve also provided you a SQL workspace with the same data below, if you’d prefer to try to extract any insights that way.\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1017650,
+              "key": "bb0a379c-2005-416c-b897-02092641bcf9",
+              "title": null,
+              "semantic_type": "WorkspaceAtom",
+              "is_public": true,
+              "workspace_id": "r930527c1012041xSQLEVALUxvrn77qz",
+              "pool_id": "sqlwidget",
+              "view_id": "sql-evaluator-q47v2",
+              "gpu_capable": false,
+              "configuration": {
+                "id": "reserved",
+                "blueprint": {
+                  "conf": {
+                    "disk": null,
+                    "allowSubmit": false
+                  },
+                  "kind": "sql-evaluator"
+                },
+                "workspaceId": "reserved"
+              },
+              "starter_files": null
+            }
+          ]
+        },
+        {
+          "id": 1017312,
+          "key": "a508c8a7-b29a-4e81-bbf5-60cd77873647",
+          "title": "Solution: Data Distribution",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "a508c8a7-b29a-4e81-bbf5-60cd77873647",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1017283,
+              "key": "10702350-8e50-433d-85a0-4d07c9afb0ca",
+              "title": "Data Distribution Exercise Solution Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Data Distribution",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1017295,
+              "key": "24bfaff7-9609-42f0-b75e-94ca0ddccd61",
+              "title": "ND030 C1 L1 A06 Data Distribution - Exercise Solution",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "7FuqML4StvY",
+                "china_cdn_id": "7FuqML4StvY.mp4"
+              }
+            },
+            {
+              "id": 1017299,
+              "key": "647e315d-f348-44fa-bcc8-2814b9e39e4f",
+              "title": "Data Distribution Exercise Solution Summary",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "In my approach, I used the `Review` measure as a row, and made sure to display the output as a text table. I then casted the `Review` measure as a standard deviation. From there, because I wanted to focus on just smart watches, I added a filter on `Product ID` of `3`. Lastly, I used the `Country` dimension as a column.\n\nNote that while I say “Canada, Japan and Brazil” have the highest standard deviation in the video, it actually should be the United States instead of Brazil.",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1017321,
+          "key": "686447f0-33fe-4ac4-9ca3-9641586afac1",
+          "title": "How is the Data Modeled?",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "686447f0-33fe-4ac4-9ca3-9641586afac1",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1017306,
+              "key": "edee2ec6-a8c6-4a7c-9a45-304b758fe5a2",
+              "title": "How is the Data Modelled?  Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## How is the Data Modeled?",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1017293,
+              "key": "40e989a0-55c5-4ac7-bca7-715c3336a813",
+              "title": "ND030 C1 L1 A07 How Is The Data Modelled",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "DW0UWGDUM28",
+                "china_cdn_id": "DW0UWGDUM28.mp4"
+              }
+            },
+            {
+              "id": 1017294,
+              "key": "f1cbd312-15be-4c1e-b424-679be3eaa5c6",
+              "title": "How is the Data Modelled?  Notes",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Large companies may have massive amounts of data, leading to some queries being untenable for you to run yourself on a regular basis. Instead, using data aggregations allows for some of this data to already be calculated for you (or your dashboard users).\n\nData stored directly in data warehouses is likely stored in a fact-dimensional model, apart from the tables you’ll likely be running SQL queries on. Dimensional tables instead contain metadata about different slices of data in the fact tables, but are joined to it on common keys.",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1017311,
+          "key": "26710d63-c3ae-45b0-bd53-0f636d57ff88",
+          "title": "Quiz: How is the Data Modeled?",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "26710d63-c3ae-45b0-bd53-0f636d57ff88",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1017603,
+              "key": "a17ce114-0fbd-49e8-85bd-89f932923555",
+              "title": "How is the Data Modeled Quiz 1",
+              "semantic_type": "MatchingQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "a17ce114-0fbd-49e8-85bd-89f932923555",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "complex_prompt": {
+                  "text": "Match the below definitions to the related term."
+                },
+                "concepts_label": "Definition",
+                "answers_label": "Term",
+                "concepts": [
+                  {
+                    "text": "Data pre-counted together in a table, so for query performance & end-user efficiency",
+                    "correct_answer": {
+                      "id": "a1588194391466",
+                      "text": "Aggregate"
+                    }
+                  },
+                  {
+                    "text": "Contains what is being measured",
+                    "correct_answer": {
+                      "id": "a1588194414358",
+                      "text": "Fact table"
+                    }
+                  },
+                  {
+                    "text": "Contains information or metadata about a particular slice of data",
+                    "correct_answer": {
+                      "id": "a1588194415036",
+                      "text": "Dimensional table"
+                    }
+                  }
+                ],
+                "answers": [
+                  {
+                    "id": "a1588194414358",
+                    "text": "Fact table"
+                  },
+                  {
+                    "id": "a1588194391466",
+                    "text": "Aggregate"
+                  },
+                  {
+                    "id": "a1588194415036",
+                    "text": "Dimensional table"
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1017291,
+              "key": "8e2a3f46-2046-47c7-8a70-b563efe514ba",
+              "title": "How is the Data Modelled?  Hard Quiz",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "8e2a3f46-2046-47c7-8a70-b563efe514ba",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which table would be the most efficient for querying the total number of song plays by artist by each month?",
+                "answers": [
+                  {
+                    "id": "rbk1",
+                    "text": "An aggregate that counts the total songs plays by artist, per each year.",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk2",
+                    "text": "An aggregate that counts the total songs plays by artist, per each day.",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk3",
+                    "text": "A table where each row represents a song played, and it’s associated metadata (including artist, and date/time of play).",
+                    "is_correct": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 1017317,
+          "key": "d87f4990-3888-4f58-a392-429e01f1e2e0",
+          "title": "Exercise: How is the Data Modeled?",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "d87f4990-3888-4f58-a392-429e01f1e2e0",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": {
+            "files": [
+              {
+                "name": "product_d.sql",
+                "uri": "https://video.udacity-data.com/topher/2020/May/5ebc8558_product-d/product-d.sql"
+              },
+              {
+                "name": "country_d.sql",
+                "uri": "https://video.udacity-data.com/topher/2020/May/5ebc8589_country-d/country-d.sql"
+              },
+              {
+                "name": "sales-f.sql",
+                "uri": "https://video.udacity-data.com/topher/2020/May/5ec4428d_sales-f/sales-f.sql"
+              }
+            ],
+            "google_plus_link": null,
+            "career_resource_center_link": null,
+            "coaching_appointments_link": null,
+            "office_hours_link": null,
+            "aws_provisioning_link": null
+          },
+          "atoms": [
+            {
+              "id": 1050586,
+              "key": "a1f48f5a-5675-42f2-86f5-6effcdbc5aff",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "In this scenario, you're still the product manager for a company developing smartwatches, but now you're focused on global expansion initiatives.\n\nThe company has launched in the U.S. but is looking to expand globally out in Asia. Note that the current physical limitation of these smartwatches is that you need an associated smartphone from the same company in order for the smartwatch to be functional. In order to start your analysis, you’ll need to know the potential market size, which at the maximum, is based on how many smartphones have been distributed and used globally. The first question you’ll need to answer is: **How many smartphones were sold in 2019 in Asia?**\n\nHints: \n- You don't need to reference an external mapping online that links country to region. It's already in one of the tables.\n- For these datasets: Any table appended with `_f` in the table name is a fact table. Any table appended with `_d` in the table name is a dimensional table. \n- For these datasets: Any field appended with `_ts` denotes that field as a timestamp.\n- Note that the answer you get is just applicable for your company’s smartphone sales here, which are going to be extremely small compared to *all* smartphones sold in real life in Asia in 2019.\n\nThere will be 3 tables available in the Udacity SQL Workspace for this exercise. \n  - `sales_f`\n  - `product_d`\n  - `country_d`\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1017652,
+              "key": "d8f393db-2847-4d22-b6df-dfea1e3c0ac3",
+              "title": null,
+              "semantic_type": "WorkspaceAtom",
+              "is_public": true,
+              "workspace_id": "r930527c1011605xSQLEVALUespdjein",
+              "pool_id": "sqlwidget",
+              "view_id": "sql-evaluator-whep9",
+              "gpu_capable": false,
+              "configuration": {
+                "id": "reserved",
+                "blueprint": {
+                  "conf": {
+                    "disk": null,
+                    "allowSubmit": false
+                  },
+                  "kind": "sql-evaluator"
+                },
+                "workspaceId": "reserved"
+              },
+              "starter_files": null
+            }
+          ]
+        },
+        {
+          "id": 1017319,
+          "key": "3575e608-bcd7-4c8e-9ec1-6c74e74a2012",
+          "title": "Solution: How is the Data Modeled?",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "3575e608-bcd7-4c8e-9ec1-6c74e74a2012",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1017296,
+              "key": "acb7798a-deb1-4847-be0d-871a3f989cd3",
+              "title": "How is the Data Modelled?  Exercise Solution Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Market Size of Smartphones in APAC",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1017292,
+              "key": "61cf1afe-18ba-47ed-8298-bd06f8fcc267",
+              "title": "ND030 C1 L1 A08 How Is The Data Modelled - Exercise Solution Video",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "ObU1HxnkfJE",
+                "china_cdn_id": "ObU1HxnkfJE.mp4"
+              }
+            },
+            {
+              "id": 1050587,
+              "key": "2b7f3eb6-e791-4cad-80e2-0abe2de2052c",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Here’s an example query that would work to get the necessary data:\n\n```sql\nSELECT\n    COUNT(*)\nFROM\n    sales_f sales\nJOIN\n    product_d product\nON\n    sales.product_id = product.id\nJOIN\n    country_d country\nON\n    sales.country_of_order = country.alpha_3\nWHERE\n    country.region = 'Asia'\nAND\n    product.product_name IN ('Smartphone 1', 'Smartphone 2')\nAND\n    date_part('year', sale_ts) = 2019\n```\n\nI counted 41 smartphones sold in Asia in 2019 by the company - that's a very small number for a very big region, so this indicates that the company has lots of room to grow in this market!\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1017320,
+          "key": "a83c1c2b-5c9d-4aea-a63e-5cebb640a904",
+          "title": "Lesson Conclusion",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "a83c1c2b-5c9d-4aea-a63e-5cebb640a904",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1017301,
+              "key": "09b04520-32d9-4261-9dfe-94879a5e1274",
+              "title": "Lesson Conclusion Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Lesson Conclusion",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1017304,
+              "key": "5558d243-09cf-4eb0-94af-87ed5f4c8a05",
+              "title": "ND030 C1 L1 A09 Lesson Conclusion",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "VgnKrYxyZsE",
+                "china_cdn_id": "VgnKrYxyZsE.mp4"
+              }
+            },
+            {
+              "id": 1017300,
+              "key": "a2ece955-d6f3-4ebc-ade4-d365051a1b05",
+              "title": "Lesson Conclusion Text",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "In this lesson, you learned:\n- How to determine the granularity of data and what data is being measured in a dataset\n- Techniques how to find out the average, median, and standard distribution of your data in a dataset\n- Common practices around how data is stored and accessed through a fact-dimensional model",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1017315,
+          "key": "8c052402-a368-481b-ba9d-0c27b0b09327",
+          "title": "Glossary",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8c052402-a368-481b-ba9d-0c27b0b09327",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1017297,
+              "key": "a24f4f66-28d2-4e97-bd0b-1714712a4182",
+              "title": "Glossary",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "|**Key Term**| **Definition**|\n|--------------|---------------------|\n|Granularity| What exactly is being measured in the dataset; what each row represents|\n|Distribution| How spread apart the data is, and where the center of the data lies in terms of both the weight numerical values, and the raw number of data points|\n|Modeling| How the data is spread across multiple tables, and how is the data aggregated (or pre-counted) for query efficiency?|\n|Primary key| Unique value of each row in a dataset|\n|Standard deviation| The measure of how dispersed (wide) a dataset is|\n|One standard deviation from the mean| 68% of all values fall by this range both below and above the mean|\n|Two standard deviation from the mean| 95% of all values fall by this range both below and above the mean|\n|Median| Midpoint of a frequency distribution|\n|Average| Also known as mean, the value of the central point in a dataset based on the weight other values|\n|Long tail distribution| When a distribution has a large number of occurrences that are relatively far from the median of the distribution|\n|Aggregate| Data pre-counted together in a table, for query performance & end-user efficiency|\n|Fact table| Contains what is being measured|\n|Dimensional table| Contains information or metadata about a particular slice of data|",
+              "instructor_notes": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "starter_files",
+      "reason": "prefer master_archive_id"
+    },
+    {
+      "name": "starter_files",
+      "reason": "prefer master_archive_id"
+    },
+    {
+      "name": "starter_files",
+      "reason": "prefer master_archive_id"
+    }
+  ]
+}

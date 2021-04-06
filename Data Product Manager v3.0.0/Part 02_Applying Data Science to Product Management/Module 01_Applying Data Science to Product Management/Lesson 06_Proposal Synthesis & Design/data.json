@@ -1,0 +1,836 @@
+{
+  "data": {
+    "lesson": {
+      "id": 1017510,
+      "key": "92314272-c792-4010-8550-b41a458f7f14",
+      "title": "Proposal Synthesis & Design",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": "Your product proposal is a crucial piece of getting a product to market - learn here how to synthesize and design your presentation.",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": false,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "https://zips.udacity-data.com/92314272-c792-4010-8550-b41a458f7f14/1017510/1590511434778/Proposal+Synthesis+%26+Design+Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "https://zips.udacity-data.com/92314272-c792-4010-8550-b41a458f7f14/1017510/1590511431783/Proposal+Synthesis+%26+Design+Subtitles.zip"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 1017497,
+          "key": "7645bb6f-7b23-4f08-8b11-73b2adc6af2a",
+          "title": "Proposal Synthesis & Design",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "7645bb6f-7b23-4f08-8b11-73b2adc6af2a",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1017464,
+              "key": "cf7098e1-b882-4cd5-8520-a97e5aa16cb8",
+              "title": "Proposal Synthesis & Design Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Proposal Synthesis & Design",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1017469,
+              "key": "06c042a0-f73c-4e39-9b2f-dc95ebd534eb",
+              "title": "ND030 C1 L4 A01 Proposal Synthesis & Design",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "wNEOKno6jD4",
+                "china_cdn_id": "wNEOKno6jD4.mp4"
+              }
+            },
+            {
+              "id": 1017467,
+              "key": "9fff2ce5-a13e-4fc7-a743-60fc9771f064",
+              "title": "Proposal Synthesis & Design Summary",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "In this lesson, we'll be going over:\n- the key points to hit in a product proposal presentation\n- weaving data visualizations & analysis seamlessly in the presentation",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1017507,
+          "key": "57c54a2a-6b2e-4988-ada1-0a393ab9a6fc",
+          "title": "Key Product Proposal Points",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "57c54a2a-6b2e-4988-ada1-0a393ab9a6fc",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1017470,
+              "key": "0d571e10-408c-4290-b2e3-034178ffa240",
+              "title": "Key Points to Hit in a Product Proposal Presentation Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Product Proposal Text Outline",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1017472,
+              "key": "21c528e6-d4d0-425b-bfc5-4ecebd2dea76",
+              "title": "ND030 C1 L4 A02.1 Key Points To Hit In A Product Proposal Presentation",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "Z8-zUz3vUhM",
+                "china_cdn_id": "Z8-zUz3vUhM.mp4"
+              }
+            },
+            {
+              "id": 1017475,
+              "key": "0af94de3-39e6-4a26-85d4-d028d287baad",
+              "title": "Key Points to Hit Part 1 Summary",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "- **Pain points** - What are the existing issues and/or pain points that they are facing?\n- **Target users** - Who are the users that you are targeting to service / build products for?\n- **User impact** - What is the potential impact of these proposed solutions to solve the users’ pain?\n- **Market impact** - How does the proposed solutions fit in with the existing solutions in the market? How do you expect the proposed solutions to shift or alter the market? For publically accessible context general market trends, Bond Capital’s Mary Meeker’s annual [Internet Trends Report](https://www.bondcap.com/report) is an excellent resource.\n- **Business impact** - What is the potential impact of these proposed solutions to the bottom line in terms of revenue, user acquisition, & user retention?\n- **Solutions** - What are some of the proposed solutions to alleviate or solve the pain points we called out. This includes the high-level features you’ll be building. Also, do be sure to call out what features we will not be building. \n- **Risks & assumptions**  - What are the known risks & assumptions we are taking with the proposed solution? And what should we do to mitigate the risks, or test the assumptions?\n- **Rollout & launch strategy** - This key point may have limited information based on what stage of product development during your time of presentation. What is the rollout strategy in regards to launching this service or product? Will we have an Alpha, Beta, or EAP (Early Access Program), and what features are we planning to have in them",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1017466,
+              "key": "c831c4f6-d82d-4af9-bcea-79664d600812",
+              "title": "ND030 C1 L4 A02.2 Key Points To Hit In A Product Proposal Presentation",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "R2u2BeXIEZk",
+                "china_cdn_id": "R2u2BeXIEZk.mp4"
+              }
+            },
+            {
+              "id": 1017468,
+              "key": "22986c40-31b5-4f02-aa39-0d58e254851d",
+              "title": "Key Points to Hit in a Product Proposal Presentation Notes",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "In the above video, I showed you an example Product Proposal Presentation to help show each of the major areas in action.",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1017465,
+          "key": "02127b4d-a403-45d2-9888-7f5c82ceb0be",
+          "title": "Quiz: Key Product Proposal Points",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "02127b4d-a403-45d2-9888-7f5c82ceb0be",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1017611,
+              "key": "fec8d98a-511e-49f3-b8fd-c95da4eebe1e",
+              "title": "Key Points Product Proposal Quiz 1",
+              "semantic_type": "MatchingQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "fec8d98a-511e-49f3-b8fd-c95da4eebe1e",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "complex_prompt": {
+                  "text": "Match each term to its definition."
+                },
+                "concepts_label": "Definition",
+                "answers_label": "Term",
+                "concepts": [
+                  {
+                    "text": "The users that you are targeting to service / build products for",
+                    "correct_answer": {
+                      "id": "a1588196346503",
+                      "text": "Target users"
+                    }
+                  },
+                  {
+                    "text": "Existing issues that your users are facing",
+                    "correct_answer": {
+                      "id": "a1588196372077",
+                      "text": "Pain points"
+                    }
+                  },
+                  {
+                    "text": "The potential effects of proposed solutions to solve users’ pain",
+                    "correct_answer": {
+                      "id": "a1588196372780",
+                      "text": "User impact"
+                    }
+                  },
+                  {
+                    "text": "How the proposed solutions are projected to shift or alter the existing market",
+                    "correct_answer": {
+                      "id": "a1588196373348",
+                      "text": "Market impact"
+                    }
+                  },
+                  {
+                    "text": "The potential impact of these proposed solutions to the bottom line of a company in terms of revenue, user acquisition, and/or user retention.",
+                    "correct_answer": {
+                      "id": "a1588196373948",
+                      "text": "Business impact"
+                    }
+                  },
+                  {
+                    "text": "The uncertainties & potential shortcomings we are taking with the proposed solution",
+                    "correct_answer": {
+                      "id": "a1588196374955",
+                      "text": "Risks & assumptions"
+                    }
+                  },
+                  {
+                    "text": "How we plan to bring this to the market, in terms of features and timing",
+                    "correct_answer": {
+                      "id": "a1588196375588",
+                      "text": "Rollout & launch strategy"
+                    }
+                  }
+                ],
+                "answers": [
+                  {
+                    "id": "a1588196372077",
+                    "text": "Pain points"
+                  },
+                  {
+                    "id": "a1588196373348",
+                    "text": "Market impact"
+                  },
+                  {
+                    "id": "a1588196372780",
+                    "text": "User impact"
+                  },
+                  {
+                    "id": "a1588196375588",
+                    "text": "Rollout & launch strategy"
+                  },
+                  {
+                    "id": "a1588196374955",
+                    "text": "Risks & assumptions"
+                  },
+                  {
+                    "id": "a1588196373948",
+                    "text": "Business impact"
+                  },
+                  {
+                    "id": "a1588196346503",
+                    "text": "Target users"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 1017496,
+          "key": "ec91a02d-4699-4b22-b939-8e5b1cfcb895",
+          "title": "Exercise: Key Product Proposal Points",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "ec91a02d-4699-4b22-b939-8e5b1cfcb895",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1035455,
+              "key": "7de6c378-58e2-41af-a18b-0c7af734e9ca",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "You are still the product manager of the edtech platform company from the previous lesson. In the company's current offering, curriculum managers, designers, and video producers work with instructors to produce content. The company is looking to expand towards a platform for freelance instructors to build course content, edit their videos, and market their work from a self-service standpoint (no internal employees required to guide them along in the content creation journey). Think through and write down what you would highlight as key points to include in a proposal of the company's MVP to your internal stakeholders.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1017476,
+              "key": "a476ce4c-87b1-4add-88ce-b357a46a8f7b",
+              "title": "Key Points to Hit in a Product Proposal Presentation Video Exercise",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "a476ce4c-87b1-4add-88ce-b357a46a8f7b",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": "Key points in a product proposal",
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "Record your response here."
+              },
+              "answer": {
+                "text": "Thanks for your response! Check out my own approach on the next page.",
+                "video": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 1017498,
+          "key": "be3972f2-220c-4546-9977-8d6e23417a11",
+          "title": "Solution: Key Product Proposal Points",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "be3972f2-220c-4546-9977-8d6e23417a11",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1017477,
+              "key": "0f1258c9-f0bb-47d2-909e-5c9fc58eab3c",
+              "title": "Key Points to Hit in a Product Proposal Presentation Video Exercise Solution Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Exercise Solution",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1017478,
+              "key": "82d6ff2f-b377-42a7-848c-0e66752e971d",
+              "title": "ND030 C1 L4 A03 Key Points To Hit In A Product Proposal Presentation- Exercise Solution",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "TLC2lvKIsYw",
+                "china_cdn_id": "TLC2lvKIsYw.mp4"
+              }
+            },
+            {
+              "id": 1017474,
+              "key": "538315a7-7cfd-4109-b6c3-d5aaa274b443",
+              "title": "Key Points to Hit in a Product Proposal Presentation Video Exercise Solution Summary",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Here’s my solution:\r\n### Pain points\n\nSubject matter expertise professionals want to spread their knowledge to online learners, but don’t know the proper way to set up a curriculum or facilitate course production (video editing).\n\n### Target Users\n\nProfessionals that are experts and passionate about their field, who want to share knowledge with others, but don’t have a background in academia and/or digital content creation.\n\n### User Impact\n\nProviding professionals with a monetary side hustle, and a means of self-actualization on sharing their talents with anyone who wants to learn.\n\nProviding students with the opportunity to learn about their desired skill sets from experts in the field, while maintaining near the same education quality as traditional academia, without being bound financially or geographically.\n\n### Market Impact\n\n- Supplement/complement to traditional academia.\n- Less strain/burden on the physical limitations of traditional academia.\n- Less personal strain on students not having to take on large student loan debts.\n\n### Business Impact\n\n- Scaling out course revenue, through an increased supply of courses.\n- Aligns with our 2020 goals.\n  - Objective: Increase quality course production throughput at operational scale.\n\n### Solutions\n\nAn intuitive, self-serving LMS - Learning Management System - for instructors to input, publish, and manage their written and video content. \n\n### Risks & Assumptions\n\n- Recording hardware limitations\n  - Shipping service with instructions.\n- Coding environments\n  - Instructors to set criterion of success for students.\n\n### Launch Strategy\n\n- Experiments on each iteration with a batch of early adopter instructors, with higher commission.\n- Template-heavy initially.",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1017504,
+          "key": "5d7fa714-3420-4e48-85dd-f14ac38f02cd",
+          "title": "Data Visualizations in Product Proposals",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "5d7fa714-3420-4e48-85dd-f14ac38f02cd",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1017473,
+              "key": "34ce7ef9-5dcf-4e04-b4a6-59912a865f6d",
+              "title": "Data Visualizations in Product Proposals Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Data Visualizations in Product Proposals",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1017480,
+              "key": "04750cbe-28c3-46d6-8b41-3fd40bbd8ef5",
+              "title": "ND030 C1 L4 A05 Data Visualizations In Product Proposals",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "D2ue27YH2o8",
+                "china_cdn_id": "D2ue27YH2o8.mp4"
+              }
+            },
+            {
+              "id": 1017479,
+              "key": "d85cdc5b-4cf7-43fd-9163-46d75e1e9326",
+              "title": "Data Visualizations in Product Proposals Notes",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Key Points\n\n- Keep it simple. A number can suffice, if that’s all you need to prove your point.\n- Have visualization styling match the design language of the company, if possible.\n- It should be visible from 100% zoom; assume you won’t be able to zoom in.\n- Minimize text, and let the numbers speak from themselves.\n- 2 insights at the maximum per visualization - you don't need to show everything.\n- Provide links to visualizations or the underlying SQL queries in the appendix for deeper exploration.\n- Include any data caveats and/or assumptions made in the appendix\n- Include percent change over time, if you’re sticking with raw numbers.\n\n### Recommended Reads\n\n- Edward Tufte’s [The Visual Display of Quantitative Information](https://www.goodreads.com/book/show/17744.The_Visual_Display_of_Quantitative_Information)",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1017509,
+          "key": "4e645867-fbd3-4d62-9538-2f708e3776ae",
+          "title": "Quiz: Data Visualizations in Product Proposals",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "4e645867-fbd3-4d62-9538-2f708e3776ae",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1017499,
+              "key": "2d081915-8506-43cd-b85d-f1c3c4c0d0da",
+              "title": "Data Visualizations in Product Proposals Easy Quiz",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "2d081915-8506-43cd-b85d-f1c3c4c0d0da",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "What are some things NOT to do when including visualizations in product proposal presentations?",
+                "answers": [
+                  {
+                    "id": "rbk1",
+                    "text": "Display multiple paragraphs of contextual explanation alongside the visualization.",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk2",
+                    "text": "Have your visualizations match the design styling of the company.",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk3",
+                    "text": "Include snippets of SQL queries right next to your visualizations for reference",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk4",
+                    "text": "Include metrics that indicate percent change over time, if you’re looking to highlight change in trajectory over time.",
+                    "is_correct": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 1017500,
+          "key": "8fc7e44e-e101-4719-918b-af1884684951",
+          "title": "Exercise: Data Visualizations in Product Proposals",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8fc7e44e-e101-4719-918b-af1884684951",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": {
+            "files": [
+              {
+                "name": "edtopia-user-research.csv",
+                "uri": "https://video.udacity-data.com/topher/2020/May/5ebc923c_edtopia-user-research/edtopia-user-research.csv"
+              }
+            ],
+            "google_plus_link": null,
+            "career_resource_center_link": null,
+            "coaching_appointments_link": null,
+            "office_hours_link": null,
+            "aws_provisioning_link": null
+          },
+          "atoms": [
+            {
+              "id": 1017484,
+              "key": "ea65be70-cc41-4088-a0a4-52c4bfce1423",
+              "title": "Data Visualizations in Product Proposals Exercise Instructions",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "You and the user research team administered a survey to professionals from different industries inquiring if they are interested in creating an online course, and if so, why they haven’t done so. Here is how the survey was structured (each column corresponds an answer to the following questions):\n\n- Question 1: (Free response) What industry do you currently work in?\n- Question 2: (Free response) What is the title of your position?\n- Question 3: (Boolean) Have you ever created an online course in the past? (If yes, then - route to a different survey path)\n- Question 4: (Boolean) Have you ever wanted to create an online course? (If no, then route to a different survey path. If yes, then go to question 5 and onward)\n\nWhich of the following factors have prevented you from doing so?\n- Question 5: (Boolean) No software to efficiently create videos\n- Question 6: (Boolean) No hardware to efficiently create videos\n- Question 7: (Boolean) Lack of knowledge to properly teach the subject\n- Question 8: (Boolean) No content management system to create quizzes and exercises\n- Question 9: (Boolean) Lack of time to create a course\n- Question 10: (Boolean) Lack of knowledge on academic course design (grading rubric, curriculum, learning objectives)\n\nDownload [this dataset](https://video.udacity-data.com/topher/2020/May/5ebc923c_edtopia-user-research/edtopia-user-research.csv) & create visualizations to include in the product proposal deck to back up your statements.",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1017501,
+          "key": "48bcf351-8c25-433b-b5c1-146519d65488",
+          "title": "Solution: Data Visualizations in Product Proposals",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "48bcf351-8c25-433b-b5c1-146519d65488",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": {
+            "files": [
+              {
+                "name": "L4-Data-Viz-Solution",
+                "uri": "https://video.udacity-data.com/topher/2020/June/5ee10eb6_l4-data-viz-solution/l4-data-viz-solution.pptx"
+              }
+            ],
+            "google_plus_link": null,
+            "career_resource_center_link": null,
+            "coaching_appointments_link": null,
+            "office_hours_link": null,
+            "aws_provisioning_link": null
+          },
+          "atoms": [
+            {
+              "id": 1017485,
+              "key": "d7578850-1a37-4974-97e6-7fb6c8928e25",
+              "title": "Data Visualizations in Product Proposals Exercise Solution Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Exercise Solution",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1017483,
+              "key": "9894e499-2d8a-4800-88ec-7ac1f7f0c1b1",
+              "title": "ND030 C1 L4 A06 Data Visualizations In Product Proposals - Exercise Solution",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "M-Tk1AIzdAc",
+                "china_cdn_id": "M-Tk1AIzdAc.mp4"
+              }
+            },
+            {
+              "id": 1017481,
+              "key": "3563c320-1831-4f0b-9f15-17f68146b9fe",
+              "title": "Data Visualizations in Product Proposals Exercise Solution Summary",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "See my [example solution](https://docs.google.com/presentation/d/12Pt_e8BV0g7RH2dmmgXv1KbCc7GrJdobdSozfI3wqD0/edit?usp=sharing) on Google Slides. ",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1017503,
+          "key": "0f7ae996-9f4f-46e4-a9e2-035ca0d2db09",
+          "title": "Exercise: Exploratory Analyses",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "0f7ae996-9f4f-46e4-a9e2-035ca0d2db09",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": {
+            "files": [
+              {
+                "name": "experiment_results.zip",
+                "uri": "https://video.udacity-data.com/topher/2020/May/5ebc929c_experiment-results/experiment-results.zip"
+              },
+              {
+                "name": "order_line_items.sql",
+                "uri": "https://video.udacity-data.com/topher/2020/May/5ebc92cc_order-line-items/order-line-items.sql"
+              },
+              {
+                "name": "orders.sql",
+                "uri": "https://video.udacity-data.com/topher/2020/May/5ebc92e6_orders/orders.sql"
+              },
+              {
+                "name": "products.sql",
+                "uri": "https://video.udacity-data.com/topher/2020/May/5ebc92fb_products/products.sql"
+              }
+            ],
+            "google_plus_link": null,
+            "career_resource_center_link": null,
+            "coaching_appointments_link": null,
+            "office_hours_link": null,
+            "aws_provisioning_link": null
+          },
+          "atoms": [
+            {
+              "id": 1017482,
+              "key": "eb7ab33d-a10e-4127-9abc-cdd8b1b91b87",
+              "title": "Exploratory Analyses Exercise Instructions",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Exploratory data analysis is where you start with one general question you have around a dataset, where the answer leads to another question, where the answer leads to even another question, and so forth. You end up with an insight (or multiple) that you and your team can now take action on.\n\nLet’s say you’re the product manager for an e-commerce eco-sustainable shoe store. You designed and ran an A/B test where 50% of customers saw the site as normal and did not receive free shipping (the control group), while the other 50% saw a free shipping promotional banner and automatically received free shipping if their order’s subtotal was greater than or equal to $80. \n\n- The experiment resulted in 75,000 unique visitors to the control bucket and 75,000 unique visitors to the variant bucket.\n- Visitors were allocated to one of the buckets at random. You can assume that all visitors were new visitors. \n- Using exploratory analysis, determine and present whether or not we should offer free shipping to all customers, leveraging the experiment results, downloadable [here](https://video.udacity-data.com/topher/2020/May/5ebc929c_experiment-results/experiment-results.zip).\n- Upload into Tableau or use the below Postgres instance to run the analysis.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1017653,
+              "key": "a6a3dbfa-44c7-422a-a08b-238c1f9fa8b8",
+              "title": null,
+              "semantic_type": "WorkspaceAtom",
+              "is_public": true,
+              "workspace_id": "r930527c1017503xSQLEVALUljpfz6bh",
+              "pool_id": "sqlwidget",
+              "view_id": "sql-evaluator-eo8jc",
+              "gpu_capable": false,
+              "configuration": {
+                "id": "reserved",
+                "blueprint": {
+                  "conf": {
+                    "disk": null,
+                    "allowSubmit": false
+                  },
+                  "kind": "sql-evaluator"
+                },
+                "workspaceId": "reserved"
+              },
+              "starter_files": null
+            },
+            {
+              "id": 1017620,
+              "key": "7bf71109-e9fb-4352-a783-37b59cec779e",
+              "title": "Exploratory Analyses Scratchpad",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "7bf71109-e9fb-4352-a783-37b59cec779e",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": "Exploratory Analysis Scratchpad",
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "Feel free to record any notes you want to store for the exercise here."
+              },
+              "answer": {
+                "text": "Thanks for your response! You can find my approach on the next page.",
+                "video": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 1017502,
+          "key": "21f8e2a3-c27e-4440-aa38-8832f6b85b28",
+          "title": "Solution: Exploratory Analyses",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "21f8e2a3-c27e-4440-aa38-8832f6b85b28",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": {
+            "files": [
+              {
+                "name": "Exploratory-Analysis-Exercise-Solution-Powerpoint",
+                "uri": "https://video.udacity-data.com/topher/2020/June/5ee10f00_exploratory-analysis-exercise-solution/exploratory-analysis-exercise-solution.pptx"
+              }
+            ],
+            "google_plus_link": null,
+            "career_resource_center_link": null,
+            "coaching_appointments_link": null,
+            "office_hours_link": null,
+            "aws_provisioning_link": null
+          },
+          "atoms": [
+            {
+              "id": 1017486,
+              "key": "94a5bd68-4072-434a-907d-74aaff4fe6c9",
+              "title": "Exploratory Analyses Exercise Solution Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Exercise Solution",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1017487,
+              "key": "9e65ea67-1c66-4dc7-9969-9442db225672",
+              "title": "ND030 C1 L4 A04 Exploratory Analysis Solution",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "fJBLOjHR7sI",
+                "china_cdn_id": "fJBLOjHR7sI.mp4"
+              }
+            },
+            {
+              "id": 1017489,
+              "key": "433e0929-14fb-4fde-b672-7b5c52c0eb41",
+              "title": "Exploratory Analyses Exercise Solution Summary",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "See my [example solution](https://docs.google.com/presentation/d/1R1BVRonvrFJpL-223QnTWS7bYhs0K4ExWlQKUW5xypY/edit?usp=sharing) on Google Slides. ",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1017506,
+          "key": "809f8310-a116-437a-b850-13c6765b5f44",
+          "title": "Lesson Conclusion",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "809f8310-a116-437a-b850-13c6765b5f44",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1017494,
+              "key": "d25d71a9-e301-4a49-be78-1d05f815dad1",
+              "title": "Lesson Conclusion Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Lesson Conclusion",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1017488,
+              "key": "bc87afa2-c46b-4434-b9db-d6441744840a",
+              "title": "ND030 C1 L4 A07 Lesson Conclusion",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "Cawi0LF5eBA",
+                "china_cdn_id": "Cawi0LF5eBA.mp4"
+              }
+            },
+            {
+              "id": 1017492,
+              "key": "148c56cd-8202-4787-8f4d-c733af8a417c",
+              "title": "Lesson Conclusion Text",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "In this lesson, we went over:\n- the key points to hit in a product proposal presentation\n- weaving data visualizations & analysis seamlessly in the presentation",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1017505,
+          "key": "c984b98c-c410-4b0c-ba86-54bee46586ae",
+          "title": "Glossary",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "c984b98c-c410-4b0c-ba86-54bee46586ae",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1017491,
+              "key": "60144ea1-7a47-4e21-9b0d-0378babce05f",
+              "title": "Glossary",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "|Key Term| Definition|\n|--------------|---------------------|\n|Pain points| What are the existing issues and/or pain points that they are facing?|\n|Target users| Who are the users that you are targeting to service / build products for?|\n|User impact| What is the potential impact of these proposed solutions to solve the users’ pain?|\n|Market impact|How does the proposed solution fit in with the existing solutions in the market? How do you expect the proposed solutions to shift or alter the market? For publically accessible context general market trends, Bond Capital’s Mary Meeker’s annual [Internet Trends Report](https://www.bondcap.com/report) is an excellent resource.|\n|Business impact| What is the potential impact of these proposed solutions to the bottom line in terms of revenue, user acquisition, & user retention?|\n|Solutions| What are some of the proposed solutions to alleviate or solve the pain points we called out. This includes the high-level features you’ll be building. Also, do be sure to call out what features we will not be building.|\n|Risks & assumptions| What are the known risks & assumptions we are taking with the proposed solution? And what should we do to mitigate the risks, or test the assumptions?|\n|Rollout & launch strategy| This key point may have limited information based on what stage of product development during your time of presentation. What is the rollout strategy in regards to launching this service or product? Will we have an Alpha, Beta, or EAP (Early Access Program), and what features are we planning to have in them|\n|Exploratory data analysis| where you start with one general question you have around a dataset, where the answer leads to another question, where the answer leads to even another question, and so forth.|",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1017508,
+          "key": "9aa3509b-f06e-466d-95e6-d665aed5c890",
+          "title": "Course Conclusion",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "9aa3509b-f06e-466d-95e6-d665aed5c890",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1017493,
+              "key": "65e616f2-bf56-42a8-aa3b-5bf83741db89",
+              "title": "Course Conclusion Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Course Conclusion",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1017495,
+              "key": "21e3812f-dbe7-4790-905d-c43cc8d56d7f",
+              "title": "ND030 C1 L4 A08 Course Conclusion",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "GF4KrJJqn_M",
+                "china_cdn_id": "GF4KrJJqn_M.mp4"
+              }
+            },
+            {
+              "id": 1017490,
+              "key": "31dac4ab-6564-4b4a-90ad-92c9a1ed8f91",
+              "title": "Course Conclusion Summary",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "You’ve made it this far, excellent work! In 5 lessons we learned:\n\n- The role and history of product management\n- Understanding the granularity, distribution, and modelling of the datasets you work with\n- Extracting product trends and insights through data visualization & enrichment\n- Leverage data to shape your product strategy through OKRs and guide tactical execution through experiment design\n- Combining your findings into a product proposal that mobilizes teams to work towards launching your product\n\nNow take a breath, and let’s jump into our course project.",
+              "instructor_notes": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "starter_files",
+      "reason": "prefer master_archive_id"
+    }
+  ]
+}

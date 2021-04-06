@@ -1,0 +1,252 @@
+{
+  "data": {
+    "lesson": {
+      "id": 951722,
+      "key": "68205fbf-d2dd-43eb-99f4-89c6734d99e5",
+      "title": "Flying Taxi Business Case Part 1 (Midterm)",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": "You are responsible for bringing the first flying car taxi service to market by analyzing data and building a product proposal.",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": false,
+      "resources": null,
+      "project": {
+        "key": "f62b7140-de53-4916-982b-c417089d938f",
+        "version": "1.0.0",
+        "locale": "en-us",
+        "duration": 20160,
+        "semantic_type": "Project",
+        "title": "Flying Taxi Business Case Part 1",
+        "description": "## Project Submission\n\nPlease use the provided template to answer the midterm questions. You can use whatever presentation software you would like.\n\n**Please keep in mind that you will be using this same slide deck for the Final in this course and will be building upon what you have done so far.**\n\nWhen finished, \n1. Make sure your project meets all of the specifications on the [Project Rubric](https://review.udacity.com/#!/rubrics/2703/view).\n2. Rename your slide deck to include **Midterm** in the title.\n3. Export the slide deck to a PDF.\n4. Submit your project using the submit button on this page. \n\nYou can find the slide deck template [here for Google Docs](https://docs.google.com/presentation/d/1SbTrN97TLLe6zn2aL3IAmvQhARTu-LBghF1-9350k2M/copy) or [here for Powerpoint](https://video.udacity-data.com/topher/2020/June/5ee10f33_flyber-mvp-launch-strategy-proposal/flyber-mvp-launch-strategy-proposal.pptx).",
+        "is_public": true,
+        "summary": null,
+        "forum_path": "",
+        "rubric_id": "2703",
+        "terminal_project_id": null,
+        "resources": null,
+        "image": {
+          "url": "https://video.udacity-data.com/topher/2019/April/5cc82dd0_capture/capture.png",
+          "width": 874,
+          "height": 593
+        }
+      },
+      "lab": null,
+      "concepts": [
+        {
+          "id": 957556,
+          "key": "9b7b24cd-c98f-4193-8d11-34a4ac87ac5b",
+          "title": "Flying Taxi Project Introduction",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "9b7b24cd-c98f-4193-8d11-34a4ac87ac5b",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": {
+            "files": [
+              {
+                "name": "Flyber - MVP Launch Strategy Proposal - Powerpoint",
+                "uri": "https://video.udacity-data.com/topher/2020/June/5ee10f33_flyber-mvp-launch-strategy-proposal/flyber-mvp-launch-strategy-proposal.pptx"
+              }
+            ],
+            "google_plus_link": null,
+            "career_resource_center_link": null,
+            "coaching_appointments_link": null,
+            "office_hours_link": null,
+            "aws_provisioning_link": null
+          },
+          "atoms": [
+            {
+              "id": 957557,
+              "key": "435394cb-5b32-4cfa-8ce4-566b2fc9990f",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Bringing the First Flying Car Taxi Service to Market \n\nIn this project, you will apply the skills acquired in this course to strategize how to unveil the first flying car taxi service, Flyber, in one of the most congested cities in America-- New York City. You are responsible for bringing the first flying car taxi service to market by analyzing data in Part 1 (Midterm) and building a product proposal in Part 2 (Final).   \n\nYour data scientist has passed you a plethora of visualizations, model outputs and aggregated statistics from a dataset containing real taxi drop-offs and pick-ups in New York City. Because Flyber is the *first* flying car, your team has acquired taxi data for a comparable initial analysis.   \n\nYou will be using the [provided slide deck template](https://docs.google.com/presentation/d/1SbTrN97TLLe6zn2aL3IAmvQhARTu-LBghF1-9350k2M/copy) (or [Powerpoint version](https://video.udacity-data.com/topher/2020/June/5ee10f33_flyber-mvp-launch-strategy-proposal/flyber-mvp-launch-strategy-proposal.pptx)) to complete your Business Proposal and answer the provided question, and will also be provided a SQL workspace to be able to work with the data. You may use any presentation tool (Google Slides, Microsoft Powerpoint, etc.) and upload the file through the workspace.\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 957561,
+          "key": "2af1ccc5-0088-4945-b804-6c5ffb3c3677",
+          "title": "Project Part 1 Instructions",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2af1ccc5-0088-4945-b804-6c5ffb3c3677",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": {
+            "files": [
+              {
+                "name": "taxi-rides.zip",
+                "uri": "https://video.udacity-data.com/topher/2020/May/5ec44092_taxi-rides/taxi-rides.zip"
+              },
+              {
+                "name": "User-Research",
+                "uri": "https://video.udacity-data.com/topher/2020/August/5f29f116_user-research/user-research.csv"
+              }
+            ],
+            "google_plus_link": null,
+            "career_resource_center_link": null,
+            "coaching_appointments_link": null,
+            "office_hours_link": null,
+            "aws_provisioning_link": null
+          },
+          "atoms": [
+            {
+              "id": 971112,
+              "key": "5b43e23d-202d-447e-bb76-38754b4d4a81",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Instructions Part 1 (Midterm)\n\nIn this project, you will apply the skills acquired in this course to create the MVP launch strategy for the first flying car taxi service, Flyber, in one of the most congested cities in America-- New York City. You are responsible for bringing the first flying car taxi service to market by analyzing data and building a product proposal. \n\nBecause Flyber is the *first* flying car, your team acquired taxi data for a comparable initial analysis. The dataset contains real taxi drop-offs and pick-ups in New York City.\n\nFlyber’s budget is limited, and thus it’s important to unveil our service when profits will be maximized. You will be using the workspace provided in the classroom as well as [Tableau](https://public.tableau.com/). You will be filling out and submitting a slide deck ([Google Doc Template Provided](https://docs.google.com/presentation/d/1SbTrN97TLLe6zn2aL3IAmvQhARTu-LBghF1-9350k2M/copy) or [Powerpoint Template](https://video.udacity-data.com/topher/2020/June/5ee10f33_flyber-mvp-launch-strategy-proposal/flyber-mvp-launch-strategy-proposal.pptx)) with your answers in the appropriate places for review.\n\nYou will complete the tasks below, as per the [project rubric](https://review.udacity.com/#!/rubrics/2703/view):\n\n1. Product Management 101 - Identify your customer and their pain points\n  - What are taxis used for?\n  - What are the characteristics of the people that use them?\n  - What are existing pain points with taxis?\n  - What are the existing pain points with digital ride-sharing services?\n2. What user & market improvements do you hypothesize a flying taxi service would have over the existing state of taxis today?\n3. Upload [the data](https://video.udacity-data.com/topher/2020/May/5ec44092_taxi-rides/taxi-rides.zip) to [Tableau Public](https://public.tableau.com/). Ensure the fields are parsed correctly. Let’s start exploration!\n  - You may notice that values in the `Distance` column appear as `null` in Tableau. If this is the case, you will need to convert that column to decimals. To do so, click on the `#` above the `Distance` column and select `Number (decimal)` from the drop-down menu. This should populate the column with the correct distance values.\n  - Get a high-level understanding of the granularity and scope of the dataset. \n    1. How many records are in the dataset\n    2. What does each record represent?\n    3. What is the primary key?\n    4. What date range is your dataset bound to?\n    5. What are the geographical bounds of this dataset?\n  - Enrich the dataset with relevant fields\n    1. You notice that ride price is not included, but figure it could be derived. Based on information about New York taxi prices gleaned from the internet, create a calculated field called price using fixed variables, duration, distance, and passenger count.\n    2. You hypothesize your target users will be those who take a relatively longer time getting to a destination that is relatively close by, due to heavy traffic conditions and/or limitations to physical road infrastructure. To be able to analyze where this is happening, you will need to create a calculated field called `distance-to-duration ratio`.\n  - Analyze the distribution of the dataset\n    1. Calculate the average, median, and the first & second standard deviation of the mean for the following measures:\n      - duration\n      - distance\n      - passenger counts\n      - duration-to-distance ratio\n      - price\n    2. Flying cars may have to have a lower weight for efficiency / take-off. Create a histogram of passenger counts to analyze the potential market volume of low passenger pickups.\n  - Extract spatial trends from the dataset\n    1. Which neighborhoods/zip codes tends to experience a relatively higher density of pickups? \n    2. Which neighborhoods/zip codes tends to experience a relatively higher density of dropoffs?\n    3. Which neighborhoods/zip codes tends to have the highest duration-to-distance ratios, based on pickup?\n    4. Which neighborhoods/zip codes tends to have the highest duration-to-distance ratios, based on dropoff?\n  - Extract temporal trends from the dataset\n    1. For the MVP (or even for production launch) it may not make operational sense to have the service running 24/7.\n      - What times throughout the day experience relatively higher volumes of ride pickups?\n      - What days throughout the week experience relatively higher volumes of ride pickups?\n4. Analyze the [user research survey data](https://video.udacity-data.com/topher/2020/August/5f29f116_user-research/user-research.csv) to determine sentiment and user segments that would likely use a flying car service\n  - User research survey questions (these questions are also in the slide deck template):\n    1. What is your email?\n    2. What gender do you identify as?\n    3. What is your age?\n    4. What is your annual income? (income bands)\n    5. What neighborhood do you reside in?\n    6. Do you currently use taxis? (Y/N)\n    7. Do you currently use ridesharing services? (Y/N)\n    8. Would you use a flying taxi service, if such a concept existed? (Y/N)\n    9. If yes to Q8, how much would you be willing to pay per mile for such a service? (USD)\n    10. If no to Q8, what is the reason?\n\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 971228,
+          "key": "0871eb8d-1a9c-42cc-a6b1-18bb3c029d76",
+          "title": "Taxi Ride SQL Playground",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "0871eb8d-1a9c-42cc-a6b1-18bb3c029d76",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": {
+            "files": [
+              {
+                "name": "partial-taxi-rides.sql",
+                "uri": "https://video.udacity-data.com/topher/2020/May/5ebc90da_taxi-rides/taxi-rides.sql"
+              }
+            ],
+            "google_plus_link": null,
+            "career_resource_center_link": null,
+            "coaching_appointments_link": null,
+            "office_hours_link": null,
+            "aws_provisioning_link": null
+          },
+          "atoms": [
+            {
+              "id": 971229,
+              "key": "6b036bfd-d5f6-463e-bfaa-1cf08e8ef578",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## SQL Playground - Taxi Ride Data\n\nYou can utilize the below SQL playground for looking at the Taxi Ride data separately from Tableau. Note that there is an \"Expand\" button in the bottom left of the playground window if you want the window to be larger.\n\n\n### Partial Dataset\n\nOnly 1/10 of the full dataset provided for the project is included here due to classroom constraints, so use this only for taking a look at the data, as opposed to doing full calculations on any of it. Even so, this is still a fairly large dataset, so using `WHERE`, `LIMIT` or aggregations may be helpful for performance.\n\nYou should still be able to upload the full dataset (available on the previous page) for use in [Tableau Public](https://public.tableau.com/) as part of the project.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 971254,
+              "key": "3457f159-155e-4e0e-a4ae-e51703936a38",
+              "title": null,
+              "semantic_type": "WorkspaceAtom",
+              "is_public": true,
+              "workspace_id": "r930527c971228xSQLEVALUlkmpfu4b",
+              "pool_id": "sqlwidget",
+              "view_id": "sql-evaluator-6s1s5",
+              "gpu_capable": false,
+              "configuration": {
+                "id": "reserved",
+                "blueprint": {
+                  "conf": {
+                    "disk": null,
+                    "allowSubmit": false
+                  },
+                  "kind": "sql-evaluator"
+                },
+                "workspaceId": "reserved"
+              },
+              "starter_files": null
+            }
+          ]
+        },
+        {
+          "id": 971220,
+          "key": "c620502e-de21-4ef5-9e13-a7d7e1f0961a",
+          "title": "User Research SQL Playground",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "c620502e-de21-4ef5-9e13-a7d7e1f0961a",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": {
+            "files": [
+              {
+                "name": "user_research.csv",
+                "uri": "https://video.udacity-data.com/topher/2020/May/5ebc9060_user-research/user-research.csv"
+              },
+              {
+                "name": "user_research.sql",
+                "uri": "https://video.udacity-data.com/topher/2020/May/5ebc918f_user-research/user-research.sql"
+              }
+            ],
+            "google_plus_link": null,
+            "career_resource_center_link": null,
+            "coaching_appointments_link": null,
+            "office_hours_link": null,
+            "aws_provisioning_link": null
+          },
+          "atoms": [
+            {
+              "id": 971227,
+              "key": "6c4f8c81-8eec-4a33-bbf8-26c0f4d884b2",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## SQL Playground - User Research Data\n\nYou can utilize the below SQL playground for looking at the [User Research data](https://video.udacity-data.com/topher/2020/May/5ebc9060_user-research/user-research.csv) separately from Tableau. Note that there is an \"Expand\" button in the bottom left of the playground window if you want the window to be larger.\n\n### Research Questions\n\nThe questions are also included in the slide deck template, but are posted here again for ease of use:\n\n1. What is your email?\n2. What gender do you identify as?\n3. What is your age?\n4. What is your annual income? (income bands)\n5. What neighborhood do you reside in?\n6. Do you currently use taxis? (Y/N)\n7. Do you currently use ridesharing services? (Y/N)\n8. Would you use a flying taxi service, if such a concept existed? (Y/N)\n9. If yes to Q8, how much would you be willing to pay per mile for such a service? (USD)\n10. If no to Q8, what is the reason?",
+              "instructor_notes": ""
+            },
+            {
+              "id": 971221,
+              "key": "7c1dd121-42db-4bb6-ba70-b56c2c954565",
+              "title": null,
+              "semantic_type": "WorkspaceAtom",
+              "is_public": true,
+              "workspace_id": "r930527c971220xSQLEVALUpazzuizr",
+              "pool_id": "sqlwidget",
+              "view_id": "sql-evaluator-7qkaj",
+              "gpu_capable": false,
+              "configuration": {
+                "id": "reserved",
+                "blueprint": {
+                  "conf": {
+                    "disk": null,
+                    "allowSubmit": false
+                  },
+                  "kind": "sql-evaluator"
+                },
+                "workspaceId": "reserved"
+              },
+              "starter_files": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "starter_files",
+      "reason": "prefer master_archive_id"
+    },
+    {
+      "name": "starter_files",
+      "reason": "prefer master_archive_id"
+    }
+  ]
+}

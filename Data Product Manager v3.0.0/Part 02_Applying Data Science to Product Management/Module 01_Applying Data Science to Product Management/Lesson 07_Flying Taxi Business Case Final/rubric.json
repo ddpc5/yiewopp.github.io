@@ -1,0 +1,168 @@
+{
+  "id": 2880,
+  "project_id": 747,
+  "upload_types": [
+    "zip"
+  ],
+  "file_filter_regex": "\\A(?!(((.*/)?(__MACOSX|\\.git|node_modules|bower_components|jspm_packages|\\.idea|build|.ipynb_checkpoints|\\.Trash-0|logs)(\\Z|/))))((.*\\.(js|css|py|html|htm|txt|md|markdown|sql|swift|java|ts|gradle|xml|rst|yml|yaml|rmd|pdf|docx|h|H|hh|hxx|h\\+\\+|c|C|cc|cpp|cxx|c\\+\\+)\\Z)|((.*/)?(README|Readme|readme|Makefile)\\Z))",
+  "nomination_eligible": false,
+  "stand_out": "",
+  "hide_criteria": false,
+  "created_at": "2020-07-27T15:47:53.502Z",
+  "updated_at": "2020-10-05T12:05:38.141Z",
+  "hashtag": "",
+  "max_upload_size_mb": 500,
+  "estimated_sla": null,
+  "project_assistant_enabled": false,
+  "available_for_cert_project": false,
+  "language": "en-us",
+  "ndkeys": [
+    "nd030-beta",
+    "nd030",
+    "nd030-1",
+    "nd030-ent"
+  ],
+  "coursekeys": [],
+  "is_career": false,
+  "sections": [
+    {
+      "id": 6199,
+      "name": "Product Objective & KPIs",
+      "created_at": "2020-07-27T15:51:30.060Z",
+      "updated_at": "2020-07-27T15:51:41.520Z",
+      "deleted_at": null,
+      "position": 0,
+      "rubric_id": 2880,
+      "rubric_items": [
+        {
+          "id": 17751,
+          "section_id": 6199,
+          "passed_description": "The project identifies the Flyber product objective, KPIs to support it, & target goals for those KPIs.\n\nThe project objective must be centered around one of the following focus areas, and includes an explanation of why we chose it:\n- User Acquisition\n- User Engagement \n- User Retention \n- Profitability\n\nThe target KPI goals should be backed by quantitative evidence from existing data, and should not be in a realistic range, given the addressable market of the MVP. (Not 20,000% increase from baseline)",
+          "exceeded_description": null,
+          "created_at": "2020-07-27T15:52:10.326Z",
+          "updated_at": "2020-07-27T15:52:29.655Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 0,
+          "criteria": "The project leverages insights gleaned from external data to form the basis for the product strategy, metrics, and measures of success.",
+          "exceedable": false
+        }
+      ]
+    },
+    {
+      "id": 6200,
+      "name": "Determining the MVP",
+      "created_at": "2020-07-27T15:51:41.817Z",
+      "updated_at": "2020-07-27T15:51:44.777Z",
+      "deleted_at": null,
+      "position": 1,
+      "rubric_id": 2880,
+      "rubric_items": [
+        {
+          "id": 17752,
+          "section_id": 6200,
+          "passed_description": "The project identifies the feature set for the MVP of the flying taxi car service: \n- What times/days of operation should the service run for?\n- How many pick-up / drop-off nodes?\n- Where should the nodes be located?\n- Should we initially use copters or homegrown hardware?\n- Should the pricing be fixed or dynamic? At what rates?\n\nThe feature set must include written justification from the insights the student previously extracted.",
+          "exceeded_description": null,
+          "created_at": "2020-07-27T15:52:35.034Z",
+          "updated_at": "2020-07-27T15:53:20.205Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 0,
+          "criteria": "The project leverages insights to determine the initial features that their product/service will have in the MVP to determine viability with limited operational expenditure.",
+          "exceedable": false
+        },
+        {
+          "id": 17753,
+          "section_id": 6200,
+          "passed_description": "The sample size should be validated by the [Optimizely Sample Size calculator](https://www.optimizely.com/sample-size-calculator/). \n\nThe estimated experiment time must be backed by a calculation that uses the sample size and estimated daily ride volume.",
+          "exceeded_description": null,
+          "created_at": "2020-07-27T15:52:36.282Z",
+          "updated_at": "2020-07-27T15:53:20.209Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 1,
+          "criteria": "The project leverages data science to determine the required sample size to come to a conclusion on statistical significance & estimated time that the experiment will persist for.",
+          "exceedable": false
+        }
+      ]
+    },
+    {
+      "id": 6201,
+      "name": "Assessing KPIs and Feedback",
+      "created_at": "2020-07-27T15:51:45.030Z",
+      "updated_at": "2020-07-27T15:51:55.915Z",
+      "deleted_at": null,
+      "position": 2,
+      "rubric_id": 2880,
+      "rubric_items": [
+        {
+          "id": 17754,
+          "section_id": 6201,
+          "passed_description": "Desired events should have definitions on when they will be triggered, in addition to any event properties that are required. \n\nFormulas that leverage event data must be shown in order to calculate KPIs.",
+          "exceeded_description": null,
+          "created_at": "2020-07-27T15:53:25.288Z",
+          "updated_at": "2020-07-27T15:54:07.371Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 0,
+          "criteria": "The project includes a strategic and tactical plan of event instrumentation so that we have the building blocks to properly calculate our KPIs.",
+          "exceedable": false
+        },
+        {
+          "id": 17755,
+          "section_id": 6201,
+          "passed_description": "Must have clear, concise questions and/or mechanics (numerical scale ratings, thumbs up/down, tips, etc.) that provide insights into:\n- whether or not the rider would be willing to ride again in the future\n- issues with the ride, if any\n- feedback around potential feature areas for new feature development, product optimization, or what should Flyber rollout next",
+          "exceeded_description": null,
+          "created_at": "2020-07-27T15:53:26.395Z",
+          "updated_at": "2020-07-27T15:54:07.377Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 1,
+          "criteria": "The project includes the mechanics and/or questions behind the post-ride user research survey, so that we could collect and analyze qualitative product feedback.",
+          "exceedable": false
+        }
+      ]
+    },
+    {
+      "id": 6202,
+      "name": "Proposal Synthesis",
+      "created_at": "2020-07-27T15:51:56.249Z",
+      "updated_at": "2020-07-27T15:52:10.132Z",
+      "deleted_at": null,
+      "position": 3,
+      "rubric_id": 2880,
+      "rubric_items": [
+        {
+          "id": 17756,
+          "section_id": 6202,
+          "passed_description": "The project demonstrates the ability to create a slide deck that summarizes the claims & evidence around the viability of a flying taxi car service, and the initial plan on how to get there.",
+          "exceeded_description": null,
+          "created_at": "2020-07-27T15:54:18.368Z",
+          "updated_at": "2020-07-27T15:54:34.209Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 0,
+          "criteria": "The project synthesizes insights & strategy into a narrative that proves product/market viability, in order to mobilize stakeholders to invest resources in and execute on the development of the product.",
+          "exceedable": false
+        }
+      ]
+    }
+  ],
+  "project": {
+    "id": 747,
+    "name": "Flying Taxi Business Case- Final",
+    "nanodegree_key": "nd030",
+    "is_cert_project": false,
+    "audit_project_id": null,
+    "hashtag": null,
+    "audit_rubric_id": null,
+    "entitlement_required": false,
+    "is_career": false,
+    "recruitment_family_id": 5,
+    "created_at": "2020-07-27T15:38:42.930Z",
+    "updated_at": "2021-04-05T23:26:20.094Z",
+    "price": "7.5",
+    "ungradeable_price": "3.0",
+    "audit_price": "0.0"
+  }
+}

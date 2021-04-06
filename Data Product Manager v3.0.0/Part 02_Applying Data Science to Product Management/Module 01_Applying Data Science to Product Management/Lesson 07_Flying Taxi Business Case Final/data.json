@@ -1,0 +1,90 @@
+{
+  "data": {
+    "lesson": {
+      "id": 1047826,
+      "key": "d46f5c09-cacc-447f-818d-fa80f2c63a7d",
+      "title": "Flying Taxi Business Case Final",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": "Building on your previous research for a Flying Car Business Case, determine KPIs and an MVP en route to a fully fledged product proposal.",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": false,
+      "resources": null,
+      "project": {
+        "key": "6f2cac8a-1d00-4a72-bccd-ecaca4947d2c",
+        "version": "1.0.0",
+        "locale": "en-us",
+        "duration": 20160,
+        "semantic_type": "Project",
+        "title": "Flying Taxi Business Case Final",
+        "description": "## Flying Taxi Business Case Part 2 (Final)\n\n### Project Submission\n\nAs stated previously, please use the provided template to complete your business case. This is the same slide deck you used during the midterm.  You can use whatever presentation software you would like.\n\n**Please keep in mind that you will be using this same slide deck for the Final as you did in the Midterm and building upon what you have done so far.**\n\nWhen finished, \n1. Make sure your project meets all of the specifications on the [Project Rubric](https://review.udacity.com/#!/rubrics/2704/view).\n2. Rename your slide deck to include **Final** in the title.\n3. Export the slide deck to a PDF.\n4. Submit your project using the submit button on this page.",
+        "is_public": true,
+        "summary": null,
+        "forum_path": "",
+        "rubric_id": "2880",
+        "terminal_project_id": null,
+        "resources": null,
+        "image": {
+          "url": "https://video.udacity-data.com/topher/2018/March/5abeacfd_case-studies-1-2/case-studies-1-2.png",
+          "width": 500,
+          "height": 333
+        }
+      },
+      "lab": null,
+      "concepts": [
+        {
+          "id": 1047827,
+          "key": "d9aeca14-3641-4312-9344-4d2c696c0518",
+          "title": "Flying Taxi Final Introduction & Instructions",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "d9aeca14-3641-4312-9344-4d2c696c0518",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1047828,
+              "key": "9d8c530f-bfbc-4ef0-9f19-9ce5eb1503bd",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Flying Taxi Business Case [Final]:\n\nYou’ve performed a lot of analysis on existing data and looked into the user research survey data for a flying car service, so now it’s time to come up with a product objective and KPIs, determine an MVP, and decide on how to assess the KPIs and gather feedback. Now, you’ll leverage your research from Part 1 and your other work here to create your product proposal. \n\n*All of your work should be done inside of the slide deck you created in the Midterm.*\n\nYou will complete the tasks below, as per the [project rubric](https://review.udacity.com/#!/rubrics/2704/view):\n\n**Identifying KPIs and deciding on an MVP**\n1. Identify a product objective for Flyber's launch. Your product objective will guide your KPIs, so identify what Flyber should optimize for. Your objective should be centered around one the following focus areas: \n  - User Acquisition\n  - User Engagement \n  - User Retention \n  - Profitability\n  - **Explain your reasoning. Include both why you feel your focus area is more relevant than the others for Flyber at this time of the product development cycle.**\n2. Formulate your KPIs\n3. Determine your hypotheses (where your KPIs need to go in order to determine product success)\n4. Determine the sample sizes & time period needed to come to a conclusion on your hypotheses\n5. Create an instrumentation plan for the events you need collected and logged\n6. Create a qualitative feedback survey mechanism for users after their ride\n\n**Creating the full Product Proposal**\n7. Identify the target population. Why did you select that target population? What are their pain points?\n8. Create a product proposal containing claim, evidence, and impact. \n9. Claims should be backed by evidence, and impact statements assess market needs/benefits and risks. \n10. In your risk analysis, note any other departments that should be involved. \n11. State any known unknowns around ensuring a successful product launch",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1047829,
+          "key": "b5bfc7f7-edfa-402d-b53c-0e6945062859",
+          "title": "Before You Start",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "b5bfc7f7-edfa-402d-b53c-0e6945062859",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1047830,
+              "key": "0cd5f192-f59d-401a-94e1-eb1a0e1cf67d",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Congratulations on finishing all the course material in the Applying Data Science to Product Management Course. Before you start your project, Flying Taxi Business Case, we want to let you know that you’re very close to unlocking 30% off the full Data Product Manager Nanodegree program! \n\nThe Data Product Manager Nanodegree program will teach you how to:\n- Build an MVP launch strategy for a new service product that utilizes market insights extracted from extensive data analyses and visualizations\n- Develop a data model with corresponding data pipelines and transformations to evaluate user activity of a product\n- Identify key behavioral and descriptive attributes of users to construct hypotheses for new product features and experiments to validate these hypotheses\n- Hone specialized data science skills applicable to Product Management\n- Lead data-driven product development in your organization to build products that adapt to user needs and market opportunities.",
+              "instructor_notes": ""
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
