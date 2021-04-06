@@ -1,0 +1,3826 @@
+{
+  "data": {
+    "nanodegree": {
+      "id": 930524,
+      "key": "nd030",
+      "title": "Data Product Manager",
+      "semantic_type": "Degree",
+      "is_public": true,
+      "cohorts": [],
+      "version": "1.0.0",
+      "locale": "en-us",
+      "color_scheme": "color_scheme1",
+      "enrollment": {
+        "product_variant": "STANDARD",
+        "variant": "STANDARD",
+        "static_access": {
+          "static_access": true,
+          "access_expiry_at": "2021-10-28T04:44:36.230Z"
+        }
+      },
+      "nd_units": [
+        {
+          "id": 10379
+        }
+      ],
+      "hero_image": null,
+      "forum_path": "",
+      "summary": "Existing PMs wanting to get deeper tech expertise in the Data domain to be more self-sufficient during product development and maintenance process.",
+      "is_graduated": false,
+      "is_term_based": true,
+      "is_default": true,
+      "project_deadlines": [
+        {
+          "due_at": "2020-10-27T03:47:41.427Z",
+          "node_key": "f62b7140-de53-4916-982b-c417089d938f"
+        },
+        {
+          "due_at": "2020-11-10T03:47:41.427Z",
+          "node_key": "6f2cac8a-1d00-4a72-bccd-ecaca4947d2c"
+        },
+        {
+          "due_at": "2020-12-08T03:47:41.427Z",
+          "node_key": "475da374-f49a-4d93-a497-8306fa7d3405"
+        },
+        {
+          "due_at": "2021-01-05T03:47:41.427Z",
+          "node_key": "e1b757aa-4e88-406a-a563-14970453926e"
+        },
+        {
+          "due_at": "2021-01-06T03:47:41.427Z",
+          "node_key": "0051a3da-930f-47a1-bd41-d7fe3bd324f4"
+        }
+      ],
+      "user_state": {
+        "node_key": "nd030",
+        "completed_at": "2020-10-13T03:48:01.842Z",
+        "last_viewed_at": "2020-10-13T03:47:35.847Z",
+        "unstructured": null
+      },
+      "aggregated_state": {
+        "node_key": "nd030",
+        "completion_amount": 0.2,
+        "completed_count": 12,
+        "concept_count": 302,
+        "last_viewed_child_key": "20906dbd-1dbb-4735-a1f3-177e43c82ddb",
+        "part_aggregated_states": [
+          {
+            "node_key": "ac78ee41-e3f5-4f2b-a1f5-ad6211da7c1c",
+            "completed_at": null,
+            "completion_amount": 0,
+            "completed_count": 0,
+            "concept_count": 15,
+            "last_viewed_child_key": "a7bcb2de-a659-4688-9263-95f60ae87f0e",
+            "module_aggregated_states": [
+              {
+                "node_key": "a7bcb2de-a659-4688-9263-95f60ae87f0e",
+                "completed_at": null,
+                "completion_amount": 0,
+                "completed_count": 0,
+                "concept_count": 15,
+                "last_viewed_child_key": "0f8ddf93-b029-441f-9a00-474cc4804b73",
+                "lesson_aggregated_states": [
+                  {
+                    "node_key": "0f8ddf93-b029-441f-9a00-474cc4804b73",
+                    "completed_at": null,
+                    "completed_count": 0,
+                    "concept_count": 6,
+                    "completion_amount": 0,
+                    "last_viewed_child_key": "82d21b83-a3a9-42ce-9f06-d5ac8b35d642"
+                  },
+                  {
+                    "node_key": "d03deb6d-3aee-4331-b4ed-67b8cd2ec8bb",
+                    "completed_at": null,
+                    "completed_count": 0,
+                    "concept_count": 9,
+                    "completion_amount": 0,
+                    "last_viewed_child_key": "7b46b9c9-0d5b-4975-bab8-c6d265f06d9c"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "node_key": "0069c56b-b360-4e26-8170-3715e2f9d9c5",
+            "completed_at": null,
+            "completion_amount": 0,
+            "completed_count": 0,
+            "concept_count": 89,
+            "last_viewed_child_key": "47cf3459-0761-4280-9a96-3493e1d062b7",
+            "module_aggregated_states": [
+              {
+                "node_key": "47cf3459-0761-4280-9a96-3493e1d062b7",
+                "completed_at": null,
+                "completion_amount": 0,
+                "completed_count": 0,
+                "concept_count": 89,
+                "last_viewed_child_key": "d45f495b-27f0-493e-836c-8ce56af5f744",
+                "lesson_aggregated_states": [
+                  {
+                    "node_key": "d45f495b-27f0-493e-836c-8ce56af5f744",
+                    "completed_at": null,
+                    "completed_count": 0,
+                    "concept_count": 12,
+                    "completion_amount": 0,
+                    "last_viewed_child_key": "a77d61c9-4f32-41fc-8960-2ae93f46f435"
+                  },
+                  {
+                    "node_key": "d3d4a320-19df-4740-8169-68e21019e7e0",
+                    "completed_at": null,
+                    "completed_count": 0,
+                    "concept_count": 16,
+                    "completion_amount": 0,
+                    "last_viewed_child_key": "95a5215c-445f-43f7-9451-777d5ed257f9"
+                  },
+                  {
+                    "node_key": "6a0a4c05-bec2-407d-9922-f7d346b880c3",
+                    "completed_at": null,
+                    "completed_count": 0,
+                    "concept_count": 20,
+                    "completion_amount": 0,
+                    "last_viewed_child_key": "3e69d808-610e-44d6-a600-1e217bb6540a"
+                  },
+                  {
+                    "node_key": "68205fbf-d2dd-43eb-99f4-89c6734d99e5",
+                    "completed_at": null,
+                    "completed_count": 0,
+                    "concept_count": 4,
+                    "completion_amount": 0,
+                    "last_viewed_child_key": "9b7b24cd-c98f-4193-8d11-34a4ac87ac5b"
+                  },
+                  {
+                    "node_key": "21665d70-9d0e-4887-b345-4f813470ad7a",
+                    "completed_at": null,
+                    "completed_count": 0,
+                    "concept_count": 21,
+                    "completion_amount": 0,
+                    "last_viewed_child_key": "b6d1c72e-8805-4002-bca3-dfa7387fa5db"
+                  },
+                  {
+                    "node_key": "92314272-c792-4010-8550-b41a458f7f14",
+                    "completed_at": null,
+                    "completed_count": 0,
+                    "concept_count": 14,
+                    "completion_amount": 0,
+                    "last_viewed_child_key": "7645bb6f-7b23-4f08-8b11-73b2adc6af2a"
+                  },
+                  {
+                    "node_key": "d46f5c09-cacc-447f-818d-fa80f2c63a7d",
+                    "completed_at": null,
+                    "completed_count": 0,
+                    "concept_count": 2,
+                    "completion_amount": 0,
+                    "last_viewed_child_key": "d9aeca14-3641-4312-9344-4d2c696c0518"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "node_key": "abacbde9-e339-4491-88fc-9b8a448ab0f3",
+            "completed_at": null,
+            "completion_amount": 0,
+            "completed_count": 0,
+            "concept_count": 79,
+            "last_viewed_child_key": "bbd105f0-f49a-4bbd-bfc9-43e5aa8e71b6",
+            "module_aggregated_states": [
+              {
+                "node_key": "bbd105f0-f49a-4bbd-bfc9-43e5aa8e71b6",
+                "completed_at": null,
+                "completion_amount": 0,
+                "completed_count": 0,
+                "concept_count": 79,
+                "last_viewed_child_key": "7ffaed70-1e6c-4804-ae2e-a2ef875b74e2",
+                "lesson_aggregated_states": [
+                  {
+                    "node_key": "7ffaed70-1e6c-4804-ae2e-a2ef875b74e2",
+                    "completed_at": null,
+                    "completed_count": 0,
+                    "concept_count": 9,
+                    "completion_amount": 0,
+                    "last_viewed_child_key": "651688f5-0600-46b2-9b34-1540787fae90"
+                  },
+                  {
+                    "node_key": "e1804b4e-14bb-402c-8fb2-099b0d19f091",
+                    "completed_at": null,
+                    "completed_count": 0,
+                    "concept_count": 11,
+                    "completion_amount": 0,
+                    "last_viewed_child_key": "1b0b5c2f-0f3b-4df4-b76a-cb475daf55b4"
+                  },
+                  {
+                    "node_key": "049b5534-cb60-43e5-8b27-f5aa8b1d82b8",
+                    "completed_at": null,
+                    "completed_count": 0,
+                    "concept_count": 16,
+                    "completion_amount": 0,
+                    "last_viewed_child_key": "5afaf7cf-c407-4823-8960-13d28454f863"
+                  },
+                  {
+                    "node_key": "b23090e2-fb7e-46f7-95bf-2517225bca81",
+                    "completed_at": null,
+                    "completed_count": 0,
+                    "concept_count": 15,
+                    "completion_amount": 0,
+                    "last_viewed_child_key": "5e209208-8c21-4b79-8315-2b0176905e0c"
+                  },
+                  {
+                    "node_key": "2277fcf6-67e5-4ad7-bfaf-36e149d1a944",
+                    "completed_at": null,
+                    "completed_count": 0,
+                    "concept_count": 26,
+                    "completion_amount": 0,
+                    "last_viewed_child_key": "fead8b27-2cb3-4e28-b9ac-c44e83f156f8"
+                  },
+                  {
+                    "node_key": "52a51f3f-b269-4765-bd75-5dd9f0c7463e",
+                    "completed_at": null,
+                    "completed_count": 0,
+                    "concept_count": 2,
+                    "completion_amount": 0,
+                    "last_viewed_child_key": "054847dc-36d7-4e06-a9ac-afb5843d0964"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "node_key": "3ce9d9f9-2a04-441d-9dfb-f8901c8c196d",
+            "completed_at": null,
+            "completion_amount": 0,
+            "completed_count": 0,
+            "concept_count": 107,
+            "last_viewed_child_key": "f68ae30c-a099-4045-8267-582e738d30d4",
+            "module_aggregated_states": [
+              {
+                "node_key": "f68ae30c-a099-4045-8267-582e738d30d4",
+                "completed_at": null,
+                "completion_amount": 0,
+                "completed_count": 0,
+                "concept_count": 107,
+                "last_viewed_child_key": "512e6332-8266-4662-a71f-7395c89f52c1",
+                "lesson_aggregated_states": [
+                  {
+                    "node_key": "512e6332-8266-4662-a71f-7395c89f52c1",
+                    "completed_at": null,
+                    "completed_count": 0,
+                    "concept_count": 12,
+                    "completion_amount": 0,
+                    "last_viewed_child_key": "2b2676e6-93e8-42a9-adab-4c0246e7ef0c"
+                  },
+                  {
+                    "node_key": "9a61d1b4-f27e-4241-9e13-f4c9ff45c718",
+                    "completed_at": null,
+                    "completed_count": 0,
+                    "concept_count": 17,
+                    "completion_amount": 0,
+                    "last_viewed_child_key": "789a61e0-31fa-4fd4-82c2-8959f5309e19"
+                  },
+                  {
+                    "node_key": "7faadc5a-5e90-4473-9e4b-cac09869287c",
+                    "completed_at": null,
+                    "completed_count": 0,
+                    "concept_count": 16,
+                    "completion_amount": 0,
+                    "last_viewed_child_key": "dc3f9648-f889-4427-b9d5-430fdaf77846"
+                  },
+                  {
+                    "node_key": "6cc0ed22-1147-45fd-83c4-f0ce35ace482",
+                    "completed_at": null,
+                    "completed_count": 0,
+                    "concept_count": 19,
+                    "completion_amount": 0,
+                    "last_viewed_child_key": "7a5c659b-58b6-4592-aaaa-dd392f038d0e"
+                  },
+                  {
+                    "node_key": "4daad0c6-96fd-48da-a47c-fd0061a7495c",
+                    "completed_at": null,
+                    "completed_count": 0,
+                    "concept_count": 20,
+                    "completion_amount": 0,
+                    "last_viewed_child_key": "b95d0169-7e68-4b45-80e9-907dee62e262"
+                  },
+                  {
+                    "node_key": "e1a78508-14c7-4d41-b9cb-e0ffef023b1c",
+                    "completed_at": null,
+                    "completed_count": 0,
+                    "concept_count": 20,
+                    "completion_amount": 0,
+                    "last_viewed_child_key": "255e40dc-87e6-4ef9-aec4-5cee3d9dc020"
+                  },
+                  {
+                    "node_key": "0eb5f441-26ed-49a4-bd59-8a5afafc9c3e",
+                    "completed_at": null,
+                    "completed_count": 0,
+                    "concept_count": 3,
+                    "completion_amount": 0,
+                    "last_viewed_child_key": "9171cd4f-7b2c-46a5-9164-007a17b8d67c"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "node_key": "20906dbd-1dbb-4735-a1f3-177e43c82ddb",
+            "completed_at": "2020-05-13T14:15:10.413Z",
+            "completion_amount": 1,
+            "completed_count": 12,
+            "concept_count": 12,
+            "last_viewed_child_key": "0e9cc5ce-6b80-4278-ac22-e0288d3f04d6",
+            "module_aggregated_states": [
+              {
+                "node_key": "0e9cc5ce-6b80-4278-ac22-e0288d3f04d6",
+                "completed_at": "2020-05-13T14:15:10.413Z",
+                "completion_amount": 1,
+                "completed_count": 12,
+                "concept_count": 12,
+                "last_viewed_child_key": "20707806-8f14-420f-b613-4196199a88c1",
+                "lesson_aggregated_states": [
+                  {
+                    "node_key": "20707806-8f14-420f-b613-4196199a88c1",
+                    "completed_at": "2020-05-13T14:15:10.413Z",
+                    "completed_count": 12,
+                    "concept_count": 12,
+                    "completion_amount": 1,
+                    "last_viewed_child_key": "2da1cc73-72cb-4678-b84d-1ab91798e8b3"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "resources": null,
+      "specializations": [],
+      "parts": [
+        {
+          "id": 1050433,
+          "key": "ac78ee41-e3f5-4f2b-a1f5-ad6211da7c1c",
+          "title": "Welcome to the Data Product Manager Nanodegree Program",
+          "semantic_type": "Part",
+          "is_public": true,
+          "version": "1.0.0",
+          "locale": "en-us",
+          "summary": "",
+          "part_type": "Core",
+          "locked_reason": "not_locked",
+          "locked_until": null,
+          "content_ready_date_ms": 1597770000000,
+          "resources": null,
+          "image": null,
+          "specialization": null,
+          "modules": [
+            {
+              "id": 1072040,
+              "key": "a7bcb2de-a659-4688-9263-95f60ae87f0e",
+              "title": "Welcome to the Data Product Manager Nanodegree Program",
+              "semantic_type": "Module",
+              "is_public": true,
+              "version": "1.0.0",
+              "locale": "en-us",
+              "is_project_module": null,
+              "forum_path": "",
+              "lessons": [
+                {
+                  "id": 1053398,
+                  "key": "0f8ddf93-b029-441f-9a00-474cc4804b73",
+                  "version": "1.0.0",
+                  "locale": "en-us",
+                  "semantic_type": "Lesson",
+                  "summary": "Welcome to Udacity! We're excited to share more about your Nanodegree and start this journey with you.",
+                  "title": "Data Product Manager Nanodegree Program Introduction",
+                  "duration": 30,
+                  "is_public": true,
+                  "is_project_lesson": false,
+                  "display_workspace_project_only": false,
+                  "lesson_type": "Classroom",
+                  "image": {
+                    "url": "https://video.udacity-data.com/topher/2019/March/5c7f3eca_01-welcome/01-welcome.png",
+                    "width": 500,
+                    "height": 500
+                  },
+                  "video": null,
+                  "lab": null,
+                  "project": null,
+                  "concepts": [
+                    {
+                      "id": 1017735,
+                      "key": "82d21b83-a3a9-42ce-9f06-d5ac8b35d642",
+                      "title": "Welcome to Udacity",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1017737,
+                      "key": "429d8f29-a42a-4dc4-a482-bfd57c95c2b1",
+                      "title": "The Udacity Experience",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1053400,
+                      "key": "0c36fabd-9e3d-45cb-bcd8-3b6beefb46f5",
+                      "title": "Welcome to the Data Product Manager Nanodegree program",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1053401,
+                      "key": "bca4b9bf-934d-4f1d-ad4c-eec535e0eb84",
+                      "title": "Pre-requisites",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1053402,
+                      "key": "27b8814d-d354-4ea2-9735-0d9245db18db",
+                      "title": "Meet Your Instructors",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1053403,
+                      "key": "49b65083-b26c-4676-bf3d-7e910aae7fe7",
+                      "title": "How to Succeed",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    }
+                  ]
+                },
+                {
+                  "id": 718657,
+                  "key": "d03deb6d-3aee-4331-b4ed-67b8cd2ec8bb",
+                  "version": "1.0.0",
+                  "locale": "en-us",
+                  "semantic_type": "Lesson",
+                  "summary": "You are starting a challenging but rewarding journey! Take 5 minutes to read how to get help with projects and content.",
+                  "title": "Mentor Help, Peer Chat, and Careers",
+                  "duration": 30,
+                  "is_public": true,
+                  "is_project_lesson": false,
+                  "display_workspace_project_only": false,
+                  "lesson_type": "Classroom",
+                  "image": {
+                    "url": "https://s3.amazonaws.com/video.udacity-data.com/topher/2018/July/5b39acdb_1-3-learning-online-getting-help2x/1-3-learning-online-getting-help2x.jpg",
+                    "width": 592,
+                    "height": 640
+                  },
+                  "video": null,
+                  "lab": null,
+                  "project": null,
+                  "concepts": [
+                    {
+                      "id": 718664,
+                      "key": "7b46b9c9-0d5b-4975-bab8-c6d265f06d9c",
+                      "title": "What It Takes",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1021285,
+                      "key": "ce0fb21a-73a5-4f9b-8ffa-0335059917a7",
+                      "title": "Getting Help",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 782140,
+                      "key": "6324e0bb-4deb-41b3-b605-99e07af894cc",
+                      "title": "Mentor Help",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1163855,
+                      "key": "5f942e16-64ef-4b24-9de4-f4a8d2369c2c",
+                      "title": "Submitting Classroom Feedback",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1163845,
+                      "key": "445f9136-5662-43b8-bb60-a9e810310a09",
+                      "title": "Help Center",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 908233,
+                      "key": "6f52a708-af17-4b67-bff0-b487b048bc93",
+                      "title": "Udacity Support Community",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 831981,
+                      "key": "99232e4b-299c-40f5-a985-3162da96288e",
+                      "title": "Career Services",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1028834,
+                      "key": "d895e8dd-e35a-419b-b1ea-a2953e03d951",
+                      "title": "Plagiarism",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1163864,
+                      "key": "52823ce0-8170-425d-b817-f8395f8ea77f",
+                      "title": "Quiz: Plagiarism at Udacity",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 951720,
+          "key": "0069c56b-b360-4e26-8170-3715e2f9d9c5",
+          "title": "Applying Data Science to Product Management",
+          "semantic_type": "Part",
+          "is_public": true,
+          "version": "1.0.0",
+          "locale": "en-us",
+          "summary": "In this course, you will apply the skills you learn to analyze data and create a business case in the form of a product proposal for a new flying taxi service in New York. ",
+          "part_type": "Core",
+          "locked_reason": "not_locked",
+          "locked_until": null,
+          "content_ready_date_ms": 1597770000000,
+          "resources": null,
+          "image": null,
+          "specialization": null,
+          "modules": [
+            {
+              "id": 1069654,
+              "key": "47cf3459-0761-4280-9a96-3493e1d062b7",
+              "title": "Applying Data Science to Product Management",
+              "semantic_type": "Module",
+              "is_public": true,
+              "version": "1.0.0",
+              "locale": "en-us",
+              "is_project_module": null,
+              "forum_path": "",
+              "lessons": [
+                {
+                  "id": 1017271,
+                  "key": "d45f495b-27f0-493e-836c-8ce56af5f744",
+                  "version": "1.0.0",
+                  "locale": "en-us",
+                  "semantic_type": "Lesson",
+                  "summary": "Find out about the rise of the data product manager with the explosion of information in recent years.",
+                  "title": "Introduction to Data Product Management",
+                  "duration": 30,
+                  "is_public": true,
+                  "is_project_lesson": false,
+                  "display_workspace_project_only": false,
+                  "lesson_type": "Classroom",
+                  "image": {
+                    "url": "https://video.udacity-data.com/topher/2018/July/5b461caa_4-8-sampling-distributions-and-the-central-limit-theorem2x/4-8-sampling-distributions-and-the-central-limit-theorem2x.jpg",
+                    "width": 500,
+                    "height": 500
+                  },
+                  "video": null,
+                  "lab": null,
+                  "project": null,
+                  "concepts": [
+                    {
+                      "id": 1017260,
+                      "key": "a77d61c9-4f32-41fc-8960-2ae93f46f435",
+                      "title": "Meet Your Instructor",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1017262,
+                      "key": "6629078c-047d-4138-957c-ddb50641c019",
+                      "title": "Prerequisites",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1017263,
+                      "key": "3c496035-076f-4b4a-aa97-adc0189d795f",
+                      "title": "Introduction & History of Data Product Management",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1017266,
+                      "key": "a50d71a1-39c5-479c-9689-2743ab40130a",
+                      "title": "Applying Data Science to Product Management Is Important",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1017261,
+                      "key": "386b86f4-0057-4501-a043-61c4704d9355",
+                      "title": "Business Stakeholders",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1017264,
+                      "key": "b18594e8-1c61-49d9-92ad-62a9018e29c1",
+                      "title": "Product Management Fundamentals",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1017268,
+                      "key": "abdd9e19-46b3-483e-97c0-5a300d682558",
+                      "title": "Course Outline",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1017267,
+                      "key": "6e50e78d-815c-4e59-88f3-45106bd24220",
+                      "title": "Tools, Environment & Dependencies",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1017265,
+                      "key": "91909ab3-d632-46de-bc11-52d0fd35f0de",
+                      "title": "Project: Flyber",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1017270,
+                      "key": "648f7397-b3fa-4390-9131-e42b7dda7103",
+                      "title": "Recap",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1017269,
+                      "key": "146ad051-2b12-4484-9cf8-2487690f0ed5",
+                      "title": "Good Luck!",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1017529,
+                      "key": "1c49b7d6-27eb-4992-aed5-368b4e41b492",
+                      "title": "Instructor Interview",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    }
+                  ]
+                },
+                {
+                  "id": 1017322,
+                  "key": "d3d4a320-19df-4740-8169-68e21019e7e0",
+                  "version": "1.0.0",
+                  "locale": "en-us",
+                  "semantic_type": "Lesson",
+                  "summary": "Learn about the granularity, distribution and modeling of data, key areas to utilize in your data PM skill set.",
+                  "title": "Granularity, Distribution, and Modeling Data",
+                  "duration": 150,
+                  "is_public": true,
+                  "is_project_lesson": false,
+                  "display_workspace_project_only": false,
+                  "lesson_type": "Classroom",
+                  "image": {
+                    "url": "https://video.udacity-data.com/topher/2018/July/5b418e6e_4-3-binomial-distribution2x/4-3-binomial-distribution2x.jpg",
+                    "width": 500,
+                    "height": 500
+                  },
+                  "video": null,
+                  "lab": null,
+                  "project": null,
+                  "concepts": [
+                    {
+                      "id": 1017309,
+                      "key": "95a5215c-445f-43f7-9451-777d5ed257f9",
+                      "title": "Granularity, Distribution, and Modelling of Data",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1017310,
+                      "key": "45111d81-c2f9-4be1-87fc-cecdcafcc460",
+                      "title": "Big Picture",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1017316,
+                      "key": "a98346df-0044-42fe-9870-5db41b29f157",
+                      "title": "What is Being Measured?",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1017307,
+                      "key": "ecea8b60-1aa7-439d-9c77-5537c7d74b3f",
+                      "title": "Quiz: What is Being Measured?",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1017314,
+                      "key": "cc982df6-6b23-468e-bf82-83bc082d8697",
+                      "title": "Exercise: What is Being Measured?",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": {
+                        "files": [
+                          {
+                            "name": "subscriptions_f.sql",
+                            "uri": "https://video.udacity-data.com/topher/2020/May/5ebc8272_subscriptions-f/subscriptions-f.sql"
+                          }
+                        ],
+                        "google_plus_link": null,
+                        "career_resource_center_link": null,
+                        "coaching_appointments_link": null,
+                        "office_hours_link": null,
+                        "aws_provisioning_link": null
+                      }
+                    },
+                    {
+                      "id": 1017308,
+                      "key": "f29f71d2-16aa-460b-a328-6150b13df738",
+                      "title": "Solution: What is Being Measured?",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1017313,
+                      "key": "f95cc220-bd0c-4be3-baa4-c08c83e3e7c1",
+                      "title": "Data Distribution",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1017298,
+                      "key": "d820832d-5f7f-4174-8bb7-eddb3dfc5f2c",
+                      "title": "Quiz: Data Distribution",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": {
+                        "files": [
+                          {
+                            "name": "New-York-City-Airbnb-Open-Data",
+                            "uri": "https://video.udacity-data.com/topher/2020/May/5ebc82e2_new-york-city-airbnb-open-data/new-york-city-airbnb-open-data.zip"
+                          }
+                        ],
+                        "google_plus_link": null,
+                        "career_resource_center_link": null,
+                        "coaching_appointments_link": null,
+                        "office_hours_link": null,
+                        "aws_provisioning_link": null
+                      }
+                    },
+                    {
+                      "id": 1017318,
+                      "key": "93c11ba7-8745-4a27-aaba-9eedd5fddca2",
+                      "title": "Exercise: Data Distribution",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": {
+                        "files": [
+                          {
+                            "name": "reviews_f.csv",
+                            "uri": "https://video.udacity-data.com/topher/2020/May/5ebc836b_reviews-f/reviews-f.csv"
+                          },
+                          {
+                            "name": "reviews_f.sql",
+                            "uri": "https://video.udacity-data.com/topher/2020/May/5ebc83a5_reviews-f/reviews-f.sql"
+                          }
+                        ],
+                        "google_plus_link": null,
+                        "career_resource_center_link": null,
+                        "coaching_appointments_link": null,
+                        "office_hours_link": null,
+                        "aws_provisioning_link": null
+                      }
+                    },
+                    {
+                      "id": 1017312,
+                      "key": "a508c8a7-b29a-4e81-bbf5-60cd77873647",
+                      "title": "Solution: Data Distribution",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1017321,
+                      "key": "686447f0-33fe-4ac4-9ca3-9641586afac1",
+                      "title": "How is the Data Modeled?",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1017311,
+                      "key": "26710d63-c3ae-45b0-bd53-0f636d57ff88",
+                      "title": "Quiz: How is the Data Modeled?",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1017317,
+                      "key": "d87f4990-3888-4f58-a392-429e01f1e2e0",
+                      "title": "Exercise: How is the Data Modeled?",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": {
+                        "files": [
+                          {
+                            "name": "product_d.sql",
+                            "uri": "https://video.udacity-data.com/topher/2020/May/5ebc8558_product-d/product-d.sql"
+                          },
+                          {
+                            "name": "country_d.sql",
+                            "uri": "https://video.udacity-data.com/topher/2020/May/5ebc8589_country-d/country-d.sql"
+                          },
+                          {
+                            "name": "sales-f.sql",
+                            "uri": "https://video.udacity-data.com/topher/2020/May/5ec4428d_sales-f/sales-f.sql"
+                          }
+                        ],
+                        "google_plus_link": null,
+                        "career_resource_center_link": null,
+                        "coaching_appointments_link": null,
+                        "office_hours_link": null,
+                        "aws_provisioning_link": null
+                      }
+                    },
+                    {
+                      "id": 1017319,
+                      "key": "3575e608-bcd7-4c8e-9ec1-6c74e74a2012",
+                      "title": "Solution: How is the Data Modeled?",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1017320,
+                      "key": "a83c1c2b-5c9d-4aea-a63e-5cebb640a904",
+                      "title": "Lesson Conclusion",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1017315,
+                      "key": "8c052402-a368-481b-ba9d-0c27b0b09327",
+                      "title": "Glossary",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    }
+                  ]
+                },
+                {
+                  "id": 1017390,
+                  "key": "6a0a4c05-bec2-407d-9922-f7d346b880c3",
+                  "version": "1.0.0",
+                  "locale": "en-us",
+                  "semantic_type": "Lesson",
+                  "summary": "Establishing trends, enriching data, and visualizing that data are the next important areas in your data product manager journey.",
+                  "title": "Trends, Enrichment, & Visualization",
+                  "duration": 180,
+                  "is_public": true,
+                  "is_project_lesson": false,
+                  "display_workspace_project_only": false,
+                  "lesson_type": "Classroom",
+                  "image": {
+                    "url": "https://video.udacity-data.com/topher/2018/September/5ba94238_4-3-creating-visualizations-in-tableau/4-3-creating-visualizations-in-tableau.jpg",
+                    "width": 500,
+                    "height": 500
+                  },
+                  "video": null,
+                  "lab": null,
+                  "project": null,
+                  "concepts": [
+                    {
+                      "id": 1017374,
+                      "key": "3e69d808-610e-44d6-a600-1e217bb6540a",
+                      "title": "Analyzing Trends, Enrichment, and Visualizing Data",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1017373,
+                      "key": "7d3ea08d-d390-4d35-ae83-431220f552f7",
+                      "title": "Big Picture",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1017377,
+                      "key": "31b65a2e-375a-4856-b598-847d8d0d7596",
+                      "title": "Visualizations: Line Graphs & Pie Charts",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1017378,
+                      "key": "fa7906e1-2fa3-4aef-9ea2-b834de56ecb9",
+                      "title": "Quiz: Line Graphs & Pie Charts",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1017381,
+                      "key": "c3475858-8158-4686-bd83-5c8601f3f0f4",
+                      "title": "Exercise: Line Graphs & Pie Charts",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": {
+                        "files": [
+                          {
+                            "name": "Competitor-Data",
+                            "uri": "https://video.udacity-data.com/topher/2020/November/5fa5fda3_competitor-data/competitor-data.csv"
+                          }
+                        ],
+                        "google_plus_link": null,
+                        "career_resource_center_link": null,
+                        "coaching_appointments_link": null,
+                        "office_hours_link": null,
+                        "aws_provisioning_link": null
+                      }
+                    },
+                    {
+                      "id": 1096104,
+                      "key": "3b7fd168-5907-44d4-bce0-445afacb8d86",
+                      "title": "Exercise (cont): Line Graphs & Pie Charts",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": {
+                        "files": [
+                          {
+                            "name": "Competitor-Data",
+                            "uri": "https://video.udacity-data.com/topher/2020/November/5fa5feb0_competitor-data/competitor-data.csv"
+                          }
+                        ],
+                        "google_plus_link": null,
+                        "career_resource_center_link": null,
+                        "coaching_appointments_link": null,
+                        "office_hours_link": null,
+                        "aws_provisioning_link": null
+                      }
+                    },
+                    {
+                      "id": 1017383,
+                      "key": "a3f17705-b475-4944-9e97-c701b3f2df9b",
+                      "title": "Solution: Line Graphs & Pie Charts",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1017379,
+                      "key": "5857ec2b-71eb-420a-9c9c-07c1312b43e5",
+                      "title": "Visualizations: Geospatial Data",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1017386,
+                      "key": "24759539-995c-4351-9a7a-662fff2d3f6e",
+                      "title": "Quiz: Geospatial Data",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1017380,
+                      "key": "280427f1-8f3a-49ff-acbc-31c3e606da57",
+                      "title": "Exercise: Geospatial Data",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": {
+                        "files": [
+                          {
+                            "name": "vehicle-collisions.zip",
+                            "uri": "https://video.udacity-data.com/topher/2020/May/5ebc8d15_vehicle-collisions/vehicle-collisions.zip"
+                          }
+                        ],
+                        "google_plus_link": null,
+                        "career_resource_center_link": null,
+                        "coaching_appointments_link": null,
+                        "office_hours_link": null,
+                        "aws_provisioning_link": null
+                      }
+                    },
+                    {
+                      "id": 1017375,
+                      "key": "3a1d1dc7-de5f-44cc-97c6-ab7fb01a02a7",
+                      "title": "Solution: Geospatial Data",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1017372,
+                      "key": "c1af90c5-e4c3-41fd-aae4-2c5629de35db",
+                      "title": "Visualizations: Box Plots & Histograms",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1017376,
+                      "key": "318743e4-faeb-479d-bd6d-5e5fa03184a8",
+                      "title": "Quiz: Box Plots & Histograms",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1017371,
+                      "key": "679ae5b5-315d-43da-9e0c-260161796137",
+                      "title": "Exercise: Box Plots & Histograms",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": {
+                        "files": [
+                          {
+                            "name": "reviews_f.csv",
+                            "uri": "https://video.udacity-data.com/topher/2020/May/5ebc8d89_reviews-f/reviews-f.csv"
+                          },
+                          {
+                            "name": "reviews_f.sql",
+                            "uri": "https://video.udacity-data.com/topher/2020/May/5ebc8da1_reviews-f/reviews-f.sql"
+                          }
+                        ],
+                        "google_plus_link": null,
+                        "career_resource_center_link": null,
+                        "coaching_appointments_link": null,
+                        "office_hours_link": null,
+                        "aws_provisioning_link": null
+                      }
+                    },
+                    {
+                      "id": 1017387,
+                      "key": "b2760295-99d7-4345-901a-c46158334c00",
+                      "title": "Solution: Box Plots & Histograms",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1017389,
+                      "key": "d8aa0028-3464-4c6f-babe-f77a6e61cdcb",
+                      "title": "Data Enrichment",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1017385,
+                      "key": "ae782c72-4777-4306-8992-697c12d74259",
+                      "title": "Exercise: Data Enrichment",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": {
+                        "files": [
+                          {
+                            "name": "NFL Fandom Data",
+                            "uri": "https://video.udacity-data.com/topher/2020/August/5f359b88_nfl-fandom-data/nfl-fandom-data.csv"
+                          }
+                        ],
+                        "google_plus_link": null,
+                        "career_resource_center_link": null,
+                        "coaching_appointments_link": null,
+                        "office_hours_link": null,
+                        "aws_provisioning_link": null
+                      }
+                    },
+                    {
+                      "id": 1017384,
+                      "key": "73c816f1-7af2-40cb-9de7-9e00b9e0aaee",
+                      "title": "Solution: Data Enrichment",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1017382,
+                      "key": "17fad610-d1f5-41f7-9992-be7695dc54b7",
+                      "title": "Lesson Conclusion",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1017388,
+                      "key": "dde1d8cd-a0ff-4f9d-801c-8a7be0951c69",
+                      "title": "Glossary",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    }
+                  ]
+                },
+                {
+                  "id": 951722,
+                  "key": "68205fbf-d2dd-43eb-99f4-89c6734d99e5",
+                  "version": "1.0.0",
+                  "locale": "en-us",
+                  "semantic_type": "Lesson",
+                  "summary": "You are responsible for bringing the first flying car taxi service to market by analyzing data and building a product proposal.",
+                  "title": "Flying Taxi Business Case Part 1 (Midterm)",
+                  "duration": 120,
+                  "is_public": true,
+                  "is_project_lesson": true,
+                  "display_workspace_project_only": false,
+                  "lesson_type": "Classroom",
+                  "image": {
+                    "url": "https://video.udacity-data.com/topher/2018/July/5b4372ab_09-solve-taxi/09-solve-taxi.png",
+                    "width": 500,
+                    "height": 500
+                  },
+                  "video": null,
+                  "lab": null,
+                  "project": {
+                    "key": "f62b7140-de53-4916-982b-c417089d938f",
+                    "version": "1.0.0",
+                    "locale": "en-us",
+                    "duration": 20160,
+                    "semantic_type": "Project",
+                    "title": "Flying Taxi Business Case Part 1",
+                    "description": "## Project Submission\n\nPlease use the provided template to answer the midterm questions. You can use whatever presentation software you would like.\n\n**Please keep in mind that you will be using this same slide deck for the Final in this course and will be building upon what you have done so far.**\n\nWhen finished, \n1. Make sure your project meets all of the specifications on the [Project Rubric](https://review.udacity.com/#!/rubrics/2703/view).\n2. Rename your slide deck to include **Midterm** in the title.\n3. Export the slide deck to a PDF.\n4. Submit your project using the submit button on this page. \n\nYou can find the slide deck template [here for Google Docs](https://docs.google.com/presentation/d/1SbTrN97TLLe6zn2aL3IAmvQhARTu-LBghF1-9350k2M/copy) or [here for Powerpoint](https://video.udacity-data.com/topher/2020/June/5ee10f33_flyber-mvp-launch-strategy-proposal/flyber-mvp-launch-strategy-proposal.pptx).",
+                    "is_public": true,
+                    "summary": null,
+                    "forum_path": "",
+                    "rubric_id": "2703",
+                    "terminal_project_id": null,
+                    "resources": null,
+                    "image": {
+                      "url": "https://video.udacity-data.com/topher/2019/April/5cc82dd0_capture/capture.png",
+                      "width": 874,
+                      "height": 593
+                    }
+                  },
+                  "concepts": [
+                    {
+                      "id": 957556,
+                      "key": "9b7b24cd-c98f-4193-8d11-34a4ac87ac5b",
+                      "title": "Flying Taxi Project Introduction",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": {
+                        "files": [
+                          {
+                            "name": "Flyber - MVP Launch Strategy Proposal - Powerpoint",
+                            "uri": "https://video.udacity-data.com/topher/2020/June/5ee10f33_flyber-mvp-launch-strategy-proposal/flyber-mvp-launch-strategy-proposal.pptx"
+                          }
+                        ],
+                        "google_plus_link": null,
+                        "career_resource_center_link": null,
+                        "coaching_appointments_link": null,
+                        "office_hours_link": null,
+                        "aws_provisioning_link": null
+                      }
+                    },
+                    {
+                      "id": 957561,
+                      "key": "2af1ccc5-0088-4945-b804-6c5ffb3c3677",
+                      "title": "Project Part 1 Instructions",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": {
+                        "files": [
+                          {
+                            "name": "taxi-rides.zip",
+                            "uri": "https://video.udacity-data.com/topher/2020/May/5ec44092_taxi-rides/taxi-rides.zip"
+                          },
+                          {
+                            "name": "User-Research",
+                            "uri": "https://video.udacity-data.com/topher/2020/August/5f29f116_user-research/user-research.csv"
+                          }
+                        ],
+                        "google_plus_link": null,
+                        "career_resource_center_link": null,
+                        "coaching_appointments_link": null,
+                        "office_hours_link": null,
+                        "aws_provisioning_link": null
+                      }
+                    },
+                    {
+                      "id": 971228,
+                      "key": "0871eb8d-1a9c-42cc-a6b1-18bb3c029d76",
+                      "title": "Taxi Ride SQL Playground",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": {
+                        "files": [
+                          {
+                            "name": "partial-taxi-rides.sql",
+                            "uri": "https://video.udacity-data.com/topher/2020/May/5ebc90da_taxi-rides/taxi-rides.sql"
+                          }
+                        ],
+                        "google_plus_link": null,
+                        "career_resource_center_link": null,
+                        "coaching_appointments_link": null,
+                        "office_hours_link": null,
+                        "aws_provisioning_link": null
+                      }
+                    },
+                    {
+                      "id": 971220,
+                      "key": "c620502e-de21-4ef5-9e13-a7d7e1f0961a",
+                      "title": "User Research SQL Playground",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": {
+                        "files": [
+                          {
+                            "name": "user_research.csv",
+                            "uri": "https://video.udacity-data.com/topher/2020/May/5ebc9060_user-research/user-research.csv"
+                          },
+                          {
+                            "name": "user_research.sql",
+                            "uri": "https://video.udacity-data.com/topher/2020/May/5ebc918f_user-research/user-research.sql"
+                          }
+                        ],
+                        "google_plus_link": null,
+                        "career_resource_center_link": null,
+                        "coaching_appointments_link": null,
+                        "office_hours_link": null,
+                        "aws_provisioning_link": null
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": 1017463,
+                  "key": "21665d70-9d0e-4887-b345-4f813470ad7a",
+                  "version": "1.0.0",
+                  "locale": "en-us",
+                  "semantic_type": "Lesson",
+                  "summary": "Learn how to set product objectives and strategy to drive your desired results.",
+                  "title": "Setting Product Objectives & Strategy",
+                  "duration": 180,
+                  "is_public": true,
+                  "is_project_lesson": false,
+                  "display_workspace_project_only": false,
+                  "lesson_type": "Classroom",
+                  "image": {
+                    "url": "https://video.udacity-data.com/topher/2018/November/5be441a7_why-marketing-objectives-and-kpis-1/why-marketing-objectives-and-kpis-1.png",
+                    "width": 1379,
+                    "height": 1209
+                  },
+                  "video": null,
+                  "lab": null,
+                  "project": null,
+                  "concepts": [
+                    {
+                      "id": 1017445,
+                      "key": "b6d1c72e-8805-4002-bca3-dfa7387fa5db",
+                      "title": "Setting Product Objectives & Strategy",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1017446,
+                      "key": "d44e7ff5-909e-4c80-b4aa-7ee51f68aea6",
+                      "title": "Product Objectives & MVPs",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1017404,
+                      "key": "95c67bb6-1c52-4f1a-831b-65afddc0581b",
+                      "title": "Quiz: Product Objectives & MVPs",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1017450,
+                      "key": "b89687c7-c480-465f-906b-19da054f5e9b",
+                      "title": "Exercise: Creating Product Objectives",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1017448,
+                      "key": "3cfab93b-e004-4c77-889b-aaaad05783ac",
+                      "title": "Solution: Creating Product Objectives",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1017453,
+                      "key": "da1b4d9f-9f96-4058-a0f2-4f8532764f73",
+                      "title": "Setting KPIs",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1017447,
+                      "key": "81baff25-95c8-42dc-985b-e4c0fd51abcd",
+                      "title": "Quiz: Setting KPIs",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1017454,
+                      "key": "8390feec-eca0-4d15-a4e2-b4eb2d89c4e2",
+                      "title": "Exercise: Setting KPIs",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1017452,
+                      "key": "eb82442a-d671-4f3c-8eff-9c6363487ca0",
+                      "title": "Solution: Setting KPIs",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1017449,
+                      "key": "22b38d79-a1ce-46bd-a40f-60f0bac97430",
+                      "title": "Experiment Design",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1017458,
+                      "key": "29ad6b20-defb-40e1-b7ae-fec98ed38e92",
+                      "title": "Quiz: Experiment Design",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1017451,
+                      "key": "af8e77be-7d7a-4ee4-be14-c88e3826a836",
+                      "title": "Developing Instrumentation Strategy",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1017444,
+                      "key": "15bd0ccd-bb08-4a59-a64e-09ce3918c968",
+                      "title": "Quiz: Developing Instrumentation Strategy",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1017455,
+                      "key": "555869da-3de9-46d2-8924-228104207aba",
+                      "title": "Exercise: Developing Instrumentation Strategy",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1017462,
+                      "key": "fe73f34c-b920-42c4-9d76-f0c7576996a5",
+                      "title": "Solution: Developing Instrumentation Strategy",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1017459,
+                      "key": "0c32e1ed-3889-4b46-9e77-f3bdf58ec057",
+                      "title": "Designing Features that Gather Explicit Feedback",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1017443,
+                      "key": "c03fd9cc-1f60-4dca-843f-a86495ae612a",
+                      "title": "Quiz: Designing Features that Gather Explicit Feedback",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1017456,
+                      "key": "a834c8ad-5e26-4edd-9482-f0488997d51c",
+                      "title": "Exercise: Designing Features that Gather Explicit Feedback",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1017460,
+                      "key": "d224c604-53a9-40fe-a00e-97057cbe0638",
+                      "title": "Solution: Designing Features that Gather Explicit Feedback",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1017457,
+                      "key": "b3ed8293-83f6-4110-be69-37c012d94075",
+                      "title": "Lesson Conclusion",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1017461,
+                      "key": "975b89ac-4b49-4fe5-9795-c45753443c58",
+                      "title": "Glossary",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    }
+                  ]
+                },
+                {
+                  "id": 1017510,
+                  "key": "92314272-c792-4010-8550-b41a458f7f14",
+                  "version": "1.0.0",
+                  "locale": "en-us",
+                  "semantic_type": "Lesson",
+                  "summary": "Your product proposal is a crucial piece of getting a product to market - learn here how to synthesize and design your presentation.",
+                  "title": "Proposal Synthesis & Design",
+                  "duration": 150,
+                  "is_public": true,
+                  "is_project_lesson": false,
+                  "display_workspace_project_only": false,
+                  "lesson_type": "Classroom",
+                  "image": {
+                    "url": "https://video.udacity-data.com/topher/2018/December/5c07f993_4-4-telling-stories-with-tableau/4-4-telling-stories-with-tableau.jpg",
+                    "width": 1250,
+                    "height": 1250
+                  },
+                  "video": null,
+                  "lab": null,
+                  "project": null,
+                  "concepts": [
+                    {
+                      "id": 1017497,
+                      "key": "7645bb6f-7b23-4f08-8b11-73b2adc6af2a",
+                      "title": "Proposal Synthesis & Design",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1017507,
+                      "key": "57c54a2a-6b2e-4988-ada1-0a393ab9a6fc",
+                      "title": "Key Product Proposal Points",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1017465,
+                      "key": "02127b4d-a403-45d2-9888-7f5c82ceb0be",
+                      "title": "Quiz: Key Product Proposal Points",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1017496,
+                      "key": "ec91a02d-4699-4b22-b939-8e5b1cfcb895",
+                      "title": "Exercise: Key Product Proposal Points",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1017498,
+                      "key": "be3972f2-220c-4546-9977-8d6e23417a11",
+                      "title": "Solution: Key Product Proposal Points",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1017504,
+                      "key": "5d7fa714-3420-4e48-85dd-f14ac38f02cd",
+                      "title": "Data Visualizations in Product Proposals",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1017509,
+                      "key": "4e645867-fbd3-4d62-9538-2f708e3776ae",
+                      "title": "Quiz: Data Visualizations in Product Proposals",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1017500,
+                      "key": "8fc7e44e-e101-4719-918b-af1884684951",
+                      "title": "Exercise: Data Visualizations in Product Proposals",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": {
+                        "files": [
+                          {
+                            "name": "edtopia-user-research.csv",
+                            "uri": "https://video.udacity-data.com/topher/2020/May/5ebc923c_edtopia-user-research/edtopia-user-research.csv"
+                          }
+                        ],
+                        "google_plus_link": null,
+                        "career_resource_center_link": null,
+                        "coaching_appointments_link": null,
+                        "office_hours_link": null,
+                        "aws_provisioning_link": null
+                      }
+                    },
+                    {
+                      "id": 1017501,
+                      "key": "48bcf351-8c25-433b-b5c1-146519d65488",
+                      "title": "Solution: Data Visualizations in Product Proposals",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": {
+                        "files": [
+                          {
+                            "name": "L4-Data-Viz-Solution",
+                            "uri": "https://video.udacity-data.com/topher/2020/June/5ee10eb6_l4-data-viz-solution/l4-data-viz-solution.pptx"
+                          }
+                        ],
+                        "google_plus_link": null,
+                        "career_resource_center_link": null,
+                        "coaching_appointments_link": null,
+                        "office_hours_link": null,
+                        "aws_provisioning_link": null
+                      }
+                    },
+                    {
+                      "id": 1017503,
+                      "key": "0f7ae996-9f4f-46e4-a9e2-035ca0d2db09",
+                      "title": "Exercise: Exploratory Analyses",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": {
+                        "files": [
+                          {
+                            "name": "experiment_results.zip",
+                            "uri": "https://video.udacity-data.com/topher/2020/May/5ebc929c_experiment-results/experiment-results.zip"
+                          },
+                          {
+                            "name": "order_line_items.sql",
+                            "uri": "https://video.udacity-data.com/topher/2020/May/5ebc92cc_order-line-items/order-line-items.sql"
+                          },
+                          {
+                            "name": "orders.sql",
+                            "uri": "https://video.udacity-data.com/topher/2020/May/5ebc92e6_orders/orders.sql"
+                          },
+                          {
+                            "name": "products.sql",
+                            "uri": "https://video.udacity-data.com/topher/2020/May/5ebc92fb_products/products.sql"
+                          }
+                        ],
+                        "google_plus_link": null,
+                        "career_resource_center_link": null,
+                        "coaching_appointments_link": null,
+                        "office_hours_link": null,
+                        "aws_provisioning_link": null
+                      }
+                    },
+                    {
+                      "id": 1017502,
+                      "key": "21f8e2a3-c27e-4440-aa38-8832f6b85b28",
+                      "title": "Solution: Exploratory Analyses",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": {
+                        "files": [
+                          {
+                            "name": "Exploratory-Analysis-Exercise-Solution-Powerpoint",
+                            "uri": "https://video.udacity-data.com/topher/2020/June/5ee10f00_exploratory-analysis-exercise-solution/exploratory-analysis-exercise-solution.pptx"
+                          }
+                        ],
+                        "google_plus_link": null,
+                        "career_resource_center_link": null,
+                        "coaching_appointments_link": null,
+                        "office_hours_link": null,
+                        "aws_provisioning_link": null
+                      }
+                    },
+                    {
+                      "id": 1017506,
+                      "key": "809f8310-a116-437a-b850-13c6765b5f44",
+                      "title": "Lesson Conclusion",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1017505,
+                      "key": "c984b98c-c410-4b0c-ba86-54bee46586ae",
+                      "title": "Glossary",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1017508,
+                      "key": "9aa3509b-f06e-466d-95e6-d665aed5c890",
+                      "title": "Course Conclusion",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    }
+                  ]
+                },
+                {
+                  "id": 1047826,
+                  "key": "d46f5c09-cacc-447f-818d-fa80f2c63a7d",
+                  "version": "1.0.0",
+                  "locale": "en-us",
+                  "semantic_type": "Lesson",
+                  "summary": "Building on your previous research for a Flying Car Business Case, determine KPIs and an MVP en route to a fully fledged product proposal.",
+                  "title": "Flying Taxi Business Case Final",
+                  "duration": 180,
+                  "is_public": true,
+                  "is_project_lesson": true,
+                  "display_workspace_project_only": false,
+                  "lesson_type": "Classroom",
+                  "image": {
+                    "url": "https://video.udacity-data.com/topher/2018/November/5be0988e_vrdn-lesson-image-4-7-presenting-the-work/vrdn-lesson-image-4-7-presenting-the-work.jpg",
+                    "width": 500,
+                    "height": 500
+                  },
+                  "video": null,
+                  "lab": null,
+                  "project": {
+                    "key": "6f2cac8a-1d00-4a72-bccd-ecaca4947d2c",
+                    "version": "1.0.0",
+                    "locale": "en-us",
+                    "duration": 20160,
+                    "semantic_type": "Project",
+                    "title": "Flying Taxi Business Case Final",
+                    "description": "## Flying Taxi Business Case Part 2 (Final)\n\n### Project Submission\n\nAs stated previously, please use the provided template to complete your business case. This is the same slide deck you used during the midterm.  You can use whatever presentation software you would like.\n\n**Please keep in mind that you will be using this same slide deck for the Final as you did in the Midterm and building upon what you have done so far.**\n\nWhen finished, \n1. Make sure your project meets all of the specifications on the [Project Rubric](https://review.udacity.com/#!/rubrics/2704/view).\n2. Rename your slide deck to include **Final** in the title.\n3. Export the slide deck to a PDF.\n4. Submit your project using the submit button on this page.",
+                    "is_public": true,
+                    "summary": null,
+                    "forum_path": "",
+                    "rubric_id": "2880",
+                    "terminal_project_id": null,
+                    "resources": null,
+                    "image": {
+                      "url": "https://video.udacity-data.com/topher/2018/March/5abeacfd_case-studies-1-2/case-studies-1-2.png",
+                      "width": 500,
+                      "height": 333
+                    }
+                  },
+                  "concepts": [
+                    {
+                      "id": 1047827,
+                      "key": "d9aeca14-3641-4312-9344-4d2c696c0518",
+                      "title": "Flying Taxi Final Introduction & Instructions",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1047829,
+                      "key": "b5bfc7f7-edfa-402d-b53c-0e6945062859",
+                      "title": "Before You Start",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 1012222,
+          "key": "abacbde9-e339-4491-88fc-9b8a448ab0f3",
+          "title": "Establishing Data Infrastructure",
+          "semantic_type": "Part",
+          "is_public": true,
+          "version": "1.0.0",
+          "locale": "en-us",
+          "summary": "Building the right data infrastructure for your business is critical in today’s world in order to scale and deliver the quality and features your customers need. In this course you’ll learn how to identify your product’s data producers, anticipate the needs of your product’s data producers and work with your stakeholders to put together the right data pipeline to support your data needs. In the project you’ll put these skills together to create a data infrastructure plan for a new and exciting startup that will support its rapidly changing environment data requirements.",
+          "part_type": "Core",
+          "locked_reason": "not_locked",
+          "locked_until": null,
+          "content_ready_date_ms": 1597770000000,
+          "resources": null,
+          "image": null,
+          "specialization": null,
+          "modules": [
+            {
+              "id": 1064583,
+              "key": "bbd105f0-f49a-4bbd-bfc9-43e5aa8e71b6",
+              "title": "Establishing Data Infrastructure",
+              "semantic_type": "Module",
+              "is_public": true,
+              "version": "1.0.0",
+              "locale": "en-us",
+              "is_project_module": null,
+              "forum_path": "",
+              "lessons": [
+                {
+                  "id": 983004,
+                  "key": "7ffaed70-1e6c-4804-ae2e-a2ef875b74e2",
+                  "version": "1.0.0",
+                  "locale": "en-us",
+                  "semantic_type": "Lesson",
+                  "summary": "This is the Introduction to the Data Infrastructure Course.",
+                  "title": "Introduction to Data Infrastructure",
+                  "duration": 15,
+                  "is_public": true,
+                  "is_project_lesson": false,
+                  "display_workspace_project_only": false,
+                  "lesson_type": "Classroom",
+                  "image": {
+                    "url": "https://video.udacity-data.com/topher/2018/September/5ba928f9_1-2-etl-pipelines2x/1-2-etl-pipelines2x.jpg",
+                    "width": 500,
+                    "height": 500
+                  },
+                  "video": null,
+                  "lab": null,
+                  "project": null,
+                  "concepts": [
+                    {
+                      "id": 1009785,
+                      "key": "651688f5-0600-46b2-9b34-1540787fae90",
+                      "title": "Instructor Introduction",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 982998,
+                      "key": "db7c4bde-6217-4d8b-8d96-495570e1cad5",
+                      "title": "What is DI?",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 983003,
+                      "key": "fac5c265-3089-4ff0-b6c4-90e05e7f676d",
+                      "title": "Why is DI important?",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 982996,
+                      "key": "2942aeae-3ef5-432f-9623-76bacabc5871",
+                      "title": "Who is DI relevant to?",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 982999,
+                      "key": "e83894ae-64ff-4d95-a748-0e823462f002",
+                      "title": "What is the historical context of DI?",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 982997,
+                      "key": "04b5ffd3-8366-4395-955b-8b0bf861a0a4",
+                      "title": "Course Topics",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 983001,
+                      "key": "674a44ad-fe1d-4095-836b-037ae30a573b",
+                      "title": "Relevant tools that students might use?",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 983000,
+                      "key": "78ae6d3c-7cc4-4e58-87e3-b20bf1f34918",
+                      "title": "Project Introduction",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 983002,
+                      "key": "c0a82510-5db1-4ddf-8fe4-c9916e9d44ec",
+                      "title": "Lesson Recap",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    }
+                  ]
+                },
+                {
+                  "id": 980959,
+                  "key": "e1804b4e-14bb-402c-8fb2-099b0d19f091",
+                  "version": "1.0.0",
+                  "locale": "en-us",
+                  "semantic_type": "Lesson",
+                  "summary": "Introduction to the concept of Data Pipelines, need for a data pipeline, and components of a data pipeline.",
+                  "title": "Introduction to Data Pipeline",
+                  "duration": 20,
+                  "is_public": true,
+                  "is_project_lesson": false,
+                  "display_workspace_project_only": false,
+                  "lesson_type": "Classroom",
+                  "image": null,
+                  "video": null,
+                  "lab": null,
+                  "project": null,
+                  "concepts": [
+                    {
+                      "id": 980953,
+                      "key": "1b0b5c2f-0f3b-4df4-b76a-cb475daf55b4",
+                      "title": "Data Pipeline",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 980950,
+                      "key": "2635f48f-0e5b-4913-8919-6c8b04f9d4b0",
+                      "title": "What a Data Pipeline Is",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 980949,
+                      "key": "c20c3008-1299-4e27-83c5-e647118e1182",
+                      "title": "Pipeline Quiz Solution",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 980955,
+                      "key": "152388f8-0b53-4fe3-bc68-8152003c5f8f",
+                      "title": "Need for Data Pipelines",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 980948,
+                      "key": "e244a7c3-0f69-411a-886b-f4ce32e98db5",
+                      "title": "Knapsack DP Solution",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 980952,
+                      "key": "b4fc5990-69c1-41dc-ad19-42af9d5166dc",
+                      "title": "Data Pipeline Components",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 980956,
+                      "key": "4622d31d-a60b-4cf7-83c8-22be35cb2448",
+                      "title": "Knapsack DP Components",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 980951,
+                      "key": "5c180fc5-e224-4086-a474-61c3ee987f5e",
+                      "title": "Bringing it all together",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 980954,
+                      "key": "a1b86bb7-8b8c-4ba5-bb42-b874381634f6",
+                      "title": "Alex Solution",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 980957,
+                      "key": "12bcd599-360c-4124-b7b7-df2fa1c8723e",
+                      "title": "Wrap Up",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 980958,
+                      "key": "4c8cd66e-93f2-431b-9de0-8cdd87eb8728",
+                      "title": "Lesson Terms & Resources",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    }
+                  ]
+                },
+                {
+                  "id": 981039,
+                  "key": "049b5534-cb60-43e5-8b27-f5aa8b1d82b8",
+                  "version": "1.0.0",
+                  "locale": "en-us",
+                  "semantic_type": "Lesson",
+                  "summary": "About systems, services or users who consume data",
+                  "title": "Data Consumers",
+                  "duration": 180,
+                  "is_public": true,
+                  "is_project_lesson": false,
+                  "display_workspace_project_only": false,
+                  "lesson_type": "Classroom",
+                  "image": {
+                    "url": "https://video.udacity-data.com/topher/2020/July/5f109dc2_noun-pipeline-1567467/noun-pipeline-1567467.png",
+                    "width": 1200,
+                    "height": 1200
+                  },
+                  "video": null,
+                  "lab": null,
+                  "project": null,
+                  "concepts": [
+                    {
+                      "id": 981025,
+                      "key": "5afaf7cf-c407-4823-8960-13d28454f863",
+                      "title": "Lesson Intro",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1058515,
+                      "key": "22c684b4-0fa4-42f3-9064-7559d399456d",
+                      "title": "Getting Setup for the Exercises in this Course",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 981033,
+                      "key": "ba786850-0a59-4272-a1ef-d22893f33427",
+                      "title": "Data Consumer",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 981034,
+                      "key": "1b820b0c-d117-4e02-8bf3-9dfec4581972",
+                      "title": "Consumers Solution",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 981026,
+                      "key": "a7be0daa-5eaf-46c7-9f3c-4b7a20a0c153",
+                      "title": "Data Use-cases",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 981027,
+                      "key": "e3f0f217-16f7-4f36-a4d4-f770b456e646",
+                      "title": "ID Use-case Solution",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 981028,
+                      "key": "ce218c74-6e65-4564-9352-26bc980e34c8",
+                      "title": "Entity Data Part 1",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1007174,
+                      "key": "86b91da0-d2da-41fc-ba3d-33a38ed29dbf",
+                      "title": "Entity Data Quiz Solution",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 981031,
+                      "key": "d3a008a5-f058-4ba6-ab09-55ad683ddb3b",
+                      "title": "Entity Data Part 2",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 981038,
+                      "key": "56fd5b3a-2212-4b41-847d-c3ee105416a6",
+                      "title": "Event Data",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 981032,
+                      "key": "b25ca79c-4f33-4136-a7d7-dce4f455fd39",
+                      "title": "Data Needs Activity",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 981035,
+                      "key": "86448f11-ed4b-44a5-9e71-c19dbd643bf3",
+                      "title": "Solution",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 981029,
+                      "key": "d78d558d-4bc7-414c-a0af-e12ad6b0040b",
+                      "title": "Bringing it All Together",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 981036,
+                      "key": "88e8215e-f7d0-40d9-9fec-573912fd228a",
+                      "title": "Peer-to-Peer Car Sharing Solution",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 981037,
+                      "key": "1a757b52-ca0c-4fbd-b690-ead4ada2feb9",
+                      "title": "Data Consumers Recap",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 981030,
+                      "key": "e8123e1f-e818-4ccb-a638-0b6c7f53373f",
+                      "title": "Glossary & Resources",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    }
+                  ]
+                },
+                {
+                  "id": 982931,
+                  "key": "b23090e2-fb7e-46f7-95bf-2517225bca81",
+                  "version": "1.0.0",
+                  "locale": "en-us",
+                  "semantic_type": "Lesson",
+                  "summary": "This lesson is about systems or services that produce data.",
+                  "title": "Data Producers",
+                  "duration": 180,
+                  "is_public": true,
+                  "is_project_lesson": false,
+                  "display_workspace_project_only": false,
+                  "lesson_type": "Classroom",
+                  "image": {
+                    "url": "https://video.udacity-data.com/topher/2020/April/5ea0a081_data-in-multitier-architecture/data-in-multitier-architecture.jpg",
+                    "width": 500,
+                    "height": 500
+                  },
+                  "video": null,
+                  "lab": null,
+                  "project": null,
+                  "concepts": [
+                    {
+                      "id": 982916,
+                      "key": "5e209208-8c21-4b79-8315-2b0176905e0c",
+                      "title": "Data Producers",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 982918,
+                      "key": "02fc4f8c-21a0-4dee-879b-2400146b5bc5",
+                      "title": "Data Producer",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 982919,
+                      "key": "9ccb93aa-72ed-46da-a916-827de4591c37",
+                      "title": "Event Data",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 982920,
+                      "key": "e02eb441-2219-4ceb-acb1-a72f6e12443a",
+                      "title": "Event Data Modeling",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 982929,
+                      "key": "e4c8db54-ccd5-427c-bc1d-e2b0310adf1d",
+                      "title": "Knapsack Solution",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 982928,
+                      "key": "67ffc5fa-591a-4c78-a7e7-7066e7fcbdd9",
+                      "title": "Other Type of Producers",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 982927,
+                      "key": "8551f118-c1c4-41fb-b723-9d0ef2317948",
+                      "title": "ERP and CRMs",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 982926,
+                      "key": "3b3ed37d-eafa-4839-a89a-37457733f7f8",
+                      "title": "OLTP Contd...",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 982925,
+                      "key": "67d62dcd-2121-4603-99af-93feb7f9904d",
+                      "title": "Solution Data Producers",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 982923,
+                      "key": "bcc56aa9-9522-4cc4-81c4-263920505f6a",
+                      "title": "Data Structures",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 982921,
+                      "key": "0c6d39da-48de-4cdf-828d-690aa2c94871",
+                      "title": "Knapsack Data Solution",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 982930,
+                      "key": "79dcfd08-d80d-4734-be7e-c241e8ddc85a",
+                      "title": "Bringing it All Together",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 982917,
+                      "key": "61799090-1264-400a-9747-af8ee3d8156c",
+                      "title": "Solution to Elliptical Quiz",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 982924,
+                      "key": "322742ec-c76e-4430-9dc4-c45b71ce5131",
+                      "title": "Data Producers Recap",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 982922,
+                      "key": "6a37f03d-236f-40e8-b61a-c0a6585b13d1",
+                      "title": "Glossary & Resources",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    }
+                  ]
+                },
+                {
+                  "id": 1008156,
+                  "key": "2277fcf6-67e5-4ad7-bfaf-36e149d1a944",
+                  "version": "1.0.0",
+                  "locale": "en-us",
+                  "semantic_type": "Lesson",
+                  "summary": "Putting everything together to create the right data strategy for your situation. ",
+                  "title": "Data Strategy",
+                  "duration": 300,
+                  "is_public": true,
+                  "is_project_lesson": false,
+                  "display_workspace_project_only": false,
+                  "lesson_type": "Classroom",
+                  "image": {
+                    "url": "https://video.udacity-data.com/topher/2020/July/5f19e6cb_hr-database/hr-database.png",
+                    "width": 500,
+                    "height": 500
+                  },
+                  "video": null,
+                  "lab": null,
+                  "project": null,
+                  "concepts": [
+                    {
+                      "id": 1008138,
+                      "key": "fead8b27-2cb3-4e28-b9ac-c44e83f156f8",
+                      "title": "Lesson Intro",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1008130,
+                      "key": "84531b01-d602-4e9e-bea1-0a176a59d901",
+                      "title": "ETL",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1008134,
+                      "key": "cc80e38a-3a94-469e-9b63-01381d4163ec",
+                      "title": "Challenges with ETL",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1008135,
+                      "key": "31e40316-7e5b-4fbf-a909-4ef71e2bc93f",
+                      "title": "When to use ETL",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1008137,
+                      "key": "9832881d-3362-48e0-95a3-040bcde3d05d",
+                      "title": "ELT",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1008131,
+                      "key": "38480b8a-95f3-41fe-9606-b5399fa8ec4d",
+                      "title": "Challenges with ELT",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1008145,
+                      "key": "cce7542d-20ed-4892-8c65-d81a4738760e",
+                      "title": "When to use ELT",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1008133,
+                      "key": "1584f140-edf7-4e01-acf8-713e898ca2f3",
+                      "title": "Data Processing Strategy",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1008132,
+                      "key": "5059fc3a-2349-46f1-9aa0-b8f2b0b061e3",
+                      "title": "Data Processing Strategy Solution",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1008141,
+                      "key": "b657e16f-6dd6-417e-933b-b834706dc11a",
+                      "title": "Data Storage",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1008153,
+                      "key": "1b2d827a-988a-4b37-af84-6bd48d117bfb",
+                      "title": "Database Selection Criterion",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1008146,
+                      "key": "dd4dfc23-892b-42f5-aec5-be2bf97630d8",
+                      "title": "Data Warehouse",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1008143,
+                      "key": "e22d26eb-f8a1-4b63-9a75-fb9a3a6e6cc8",
+                      "title": "When to use Data Warehouse",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1008140,
+                      "key": "a1ae106e-c33c-4c0b-a67d-fe5b8a688577",
+                      "title": "Data Lake",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1008147,
+                      "key": "2267819b-8d29-46a8-8b56-eee4df05e7c0",
+                      "title": "When to use Data Lake",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1008148,
+                      "key": "ac367e60-6b5a-450d-b91d-6bca927cbcc8",
+                      "title": "Data Warehouse vs Data Lake",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1008136,
+                      "key": "de9b6060-1f2e-4ce8-833c-900b25574dfe",
+                      "title": "Data Storage Elements Solution",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1008139,
+                      "key": "f5809d1c-10cd-4b3f-aada-1ae5554a4f89",
+                      "title": "Build vs Buy",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1008149,
+                      "key": "46fd730e-7b4e-452c-be68-38323104e450",
+                      "title": "Open Source vs Commercial",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1008144,
+                      "key": "62fe9961-94c8-4c69-bd26-a0245b799033",
+                      "title": "Cloud vs On-Prem",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1008150,
+                      "key": "e8aa6319-f019-4f30-b6ed-b1dac38a0066",
+                      "title": "In-house vs Outsource",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1008154,
+                      "key": "e0faaee9-1080-4079-a64f-a3c45315197f",
+                      "title": "Security and Compliance",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1008151,
+                      "key": "e68a0a24-93fb-499a-8a1d-85cb6facdf4b",
+                      "title": "Knapsack Data Strategy Proposal",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1008142,
+                      "key": "b8065155-6e0d-41a7-8a91-5af09bfd4a68",
+                      "title": "Solution Data Strategy Proposal",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1008152,
+                      "key": "d20c2994-b465-49ce-9aef-bc4b2e60dd10",
+                      "title": "Data Infrastructure Strategy Recap",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1008155,
+                      "key": "7dec5ece-a1a6-4d5b-8c90-8ad9ef05251e",
+                      "title": "Course Overview",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    }
+                  ]
+                },
+                {
+                  "id": 958680,
+                  "key": "52a51f3f-b269-4765-bd75-5dd9f0c7463e",
+                  "version": "1.0.0",
+                  "locale": "en-us",
+                  "semantic_type": "Lesson",
+                  "summary": "Flyber has been growing and now it needs a scalable data strategy. It is your job to create that data strategy.",
+                  "title": "Build a Scalable Data Strategy",
+                  "duration": 300,
+                  "is_public": true,
+                  "is_project_lesson": true,
+                  "display_workspace_project_only": false,
+                  "lesson_type": "Classroom",
+                  "image": {
+                    "url": "https://video.udacity-data.com/topher/2019/April/5cc82dd0_capture/capture.png",
+                    "width": 874,
+                    "height": 593
+                  },
+                  "video": null,
+                  "lab": null,
+                  "project": {
+                    "key": "475da374-f49a-4d93-a497-8306fa7d3405",
+                    "version": "1.0.0",
+                    "locale": "en-us",
+                    "duration": 40320,
+                    "semantic_type": "Project",
+                    "title": "Build a Scalable Data Strategy",
+                    "description": "## Instructions\nFlyber, the first flying taxi service in New York City has been massively successful. The original data pipelines to receive and process the customer events are unable to keep up. You have been tasked to come up with a data strategy to not only handle this massive amount of data but also process it to get the business insights they need to run and grow their business. Using the skills you have learned in this course, you will:\n1. Identify primary data stakeholders and their data needs.\n2. Understand how data can be modeled or organized to support data business needs. \n3. Perform ETL. \n4. Choose relevant data sets to answer business questions.\n5. **Optional** Create visualizations to understand the scale of data growth.\n6. Analyze data to address Flyber's Data Growth Rate.\n7. Choose Data Infrastructure strategy for Flyber. \nSection 1 and 2 focus on what data is needed. Section 3, 4, 5 and 6 focus on understanding the scalability needs. Section 7 is selecting a Data WareHouse strategy based on analysis of all the previous sections. \n\n## Submission Details\n### Deliverables: \nData Strategy Proposal: All answers to questions and visualizations should be added to the MVP document template linked in workspace in the indicated areas.\n1. ETL is performed on the provided Event Logs template linked in workspace and results will be transferred to the proposal template. The project's ETL should be created inside of the provided Event Logs template in the tab titled, ETL.\n2. **Optional Data Visualizations** can be completed in [Public Tableau](https://public.tableau.com/s/)  or any other software you are familiar with and transferred into the document template. The Flyber Data is provided in the Section 5 Data template and there are visualizations provided in the appendix if you elect not to do this step.\n\nWhen you are finished with your project:\nMake sure to check over the [Project Rubric](https://review.udacity.com/#!/rubrics/2758/view)  to ensure you have met all of the project specifications\nSubmit your Data Strategy Proposal Document and your copies of the Event Logs and Section 4 Data Templates for review in a zip file through this workspace.\n",
+                    "is_public": true,
+                    "summary": null,
+                    "forum_path": "",
+                    "rubric_id": "2758",
+                    "terminal_project_id": null,
+                    "resources": {
+                      "files": [
+                        {
+                          "name": "section_5_data",
+                          "uri": "https://video.udacity-data.com/topher/2020/March/5e6bc725_section-5-data/section-5-data.xlsx"
+                        },
+                        {
+                          "name": "section-3-event-logs-template",
+                          "uri": "https://video.udacity-data.com/topher/2020/March/5e6bc769_section-3-event-logs-template/section-3-event-logs-template.xlsx"
+                        },
+                        {
+                          "name": "Template of Flyber Data Strategy MVP",
+                          "uri": "https://video.udacity-data.com/topher/2020/April/5e90a63f_template-of-flyber-data-strategy-mvp/template-of-flyber-data-strategy-mvp.docx"
+                        }
+                      ],
+                      "google_plus_link": null,
+                      "career_resource_center_link": null,
+                      "coaching_appointments_link": null,
+                      "office_hours_link": null,
+                      "aws_provisioning_link": null
+                    },
+                    "image": null
+                  },
+                  "concepts": [
+                    {
+                      "id": 958691,
+                      "key": "054847dc-36d7-4e06-a9ac-afb5843d0964",
+                      "title": "Project Introduction",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 958694,
+                      "key": "97ee2dbf-a3af-4f39-8825-fd65398e5854",
+                      "title": "Project Submission",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 1012223,
+          "key": "3ce9d9f9-2a04-441d-9dfb-f8901c8c196d",
+          "title": "Leveraging Data in Iterative Product Design",
+          "semantic_type": "Part",
+          "is_public": true,
+          "version": "1.0.0",
+          "locale": "en-us",
+          "summary": "In this course, you will learn how to apply conversion funnels, perform segment analysis, and use both quantitative and qualitative data in the iterative design cycle to improve your product. In the project, you will have the opportunity to apply the skills you learn to identify areas for product improvements and design a future plan.",
+          "part_type": "Core",
+          "locked_reason": "not_locked",
+          "locked_until": null,
+          "content_ready_date_ms": 1597770000000,
+          "resources": null,
+          "image": null,
+          "specialization": null,
+          "modules": [
+            {
+              "id": 1071712,
+              "key": "f68ae30c-a099-4045-8267-582e738d30d4",
+              "title": "Leveraging Data in Iterative Product Design",
+              "semantic_type": "Module",
+              "is_public": true,
+              "version": "1.0.0",
+              "locale": "en-us",
+              "is_project_module": null,
+              "forum_path": "",
+              "lessons": [
+                {
+                  "id": 1028123,
+                  "key": "512e6332-8266-4662-a71f-7395c89f52c1",
+                  "version": "1.0.0",
+                  "locale": "en-us",
+                  "semantic_type": "Lesson",
+                  "summary": "In this lesson, you will be given an overview of the course.",
+                  "title": "Introduction to Iterative Design",
+                  "duration": 60,
+                  "is_public": true,
+                  "is_project_lesson": false,
+                  "display_workspace_project_only": false,
+                  "lesson_type": "Classroom",
+                  "image": {
+                    "url": "https://video.udacity-data.com/topher/2020/July/5f0cd256_copy-of-hero-image-template-6/copy-of-hero-image-template-6.jpg",
+                    "width": 500,
+                    "height": 500
+                  },
+                  "video": null,
+                  "lab": null,
+                  "project": null,
+                  "concepts": [
+                    {
+                      "id": 1028124,
+                      "key": "2b2676e6-93e8-42a9-adab-4c0246e7ef0c",
+                      "title": "Meet Your Instructor",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1028128,
+                      "key": "f7f037d1-156f-400b-bf87-fb44c05408a4",
+                      "title": "Introduction",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1028333,
+                      "key": "c9428479-d318-4f22-addf-f4703ca0ec46",
+                      "title": "Course Preview",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1028338,
+                      "key": "cacd1aa5-460c-43e6-9be3-ecc41fb45745",
+                      "title": "Lesson Outline",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1028347,
+                      "key": "0bf5bf67-b530-4091-ae9c-851de0097fe6",
+                      "title": "Introduction to Iterative Design",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1028355,
+                      "key": "7ade0364-c697-48a3-bc50-1467dbde1cd3",
+                      "title": "Iterative Design for Data Product Managers",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1028360,
+                      "key": "a9021c06-8069-443a-bf92-8d814869d1b0",
+                      "title": "Business Stakeholders",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1028364,
+                      "key": "8a7e6bae-0b8e-4c8b-831a-736597075fbe",
+                      "title": "History of Iterative Design",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1039008,
+                      "key": "e6a740c2-c56a-46a1-a0f0-21a90475115c",
+                      "title": "History of Iterative Design Quizzes",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1043821,
+                      "key": "6d6801c8-2928-4903-a038-67b7cc00c348",
+                      "title": "Project Introduction",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1028375,
+                      "key": "9ee052ee-8590-4ae3-8922-cb948380bc8b",
+                      "title": "Recap",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1028380,
+                      "key": "ab41daea-e349-4653-a2af-71193fdc551b",
+                      "title": "Good Luck!",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    }
+                  ]
+                },
+                {
+                  "id": 1028131,
+                  "key": "9a61d1b4-f27e-4241-9e13-f4c9ff45c718",
+                  "version": "1.0.0",
+                  "locale": "en-us",
+                  "semantic_type": "Lesson",
+                  "summary": "In this lesson, you will learn how to choose and measure KPIs for different business models.",
+                  "title": "Choose & Measure KPIs for Live Products",
+                  "duration": 240,
+                  "is_public": true,
+                  "is_project_lesson": false,
+                  "display_workspace_project_only": false,
+                  "lesson_type": "Classroom",
+                  "image": {
+                    "url": "https://video.udacity-data.com/topher/2020/July/5f0cd077_copy-of-hero-image-template-1/copy-of-hero-image-template-1.jpg",
+                    "width": 500,
+                    "height": 500
+                  },
+                  "video": null,
+                  "lab": null,
+                  "project": null,
+                  "concepts": [
+                    {
+                      "id": 1028132,
+                      "key": "789a61e0-31fa-4fd4-82c2-8959f5309e19",
+                      "title": "Choosing & Measuring KPIs for Live Products",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1028136,
+                      "key": "93d85c01-0573-4111-99e5-19df2a417f92",
+                      "title": "Big Picture",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1028141,
+                      "key": "309fd99d-1719-4df8-bc18-b95724ccff34",
+                      "title": "Developing Your Intuition About Metrics",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1028147,
+                      "key": "96c17b8d-97e1-48e9-aeeb-66ddee377824",
+                      "title": "Lesson Outline",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1028151,
+                      "key": "a03eac87-fa9b-4c17-bc06-943ed22abe36",
+                      "title": "KPIs for Different Business Models",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1028155,
+                      "key": "8b34d9b6-6b7f-4a09-b6ea-94f582894b13",
+                      "title": "KPIs for Different Business Models Quizzes",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1028157,
+                      "key": "6e39490f-4caf-4cb2-902a-4bb210343987",
+                      "title": "Exercise 1: KPIs for Different Business Models ",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1028159,
+                      "key": "b3d0ce98-bb56-4f95-a1fd-3cc93b2f8f7e",
+                      "title": "Solution: KPIs for Different Business Models Exercise ",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1028164,
+                      "key": "2a1ec816-be41-49b5-8379-8ca0f53c2497",
+                      "title": "Identify and Calculate KPIs in Customers' Journey",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1028167,
+                      "key": "ee4f722e-f24a-4c91-ad60-e6076d3914f8",
+                      "title": "Identify and Calculate KPIs in Customers' Journey Quizzes",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1028169,
+                      "key": "9d5bb63d-41c8-4912-877c-9c3687eab054",
+                      "title": "Exercise 2: Identify and Calculate KPI in Customers' Journey",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1028171,
+                      "key": "6cbc4cc2-190e-4727-95e5-e39fcd6751ff",
+                      "title": "Solution: Identify and Calculate KPIs in Customers' Journey",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1028173,
+                      "key": "0ae38b11-4e13-4dec-83db-18df50de1a97",
+                      "title": "Instrument and Collect Data at Feature-Level",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1028176,
+                      "key": "7348f48c-8837-46b0-a223-38bfeda3c424",
+                      "title": "Instrument and Collect Data at Feature-Level Quizzes",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1028178,
+                      "key": "3f255cf4-0e16-4179-ab1d-278340e679ce",
+                      "title": "Exercise 3: Instrument and Collect Data at Feature-Level",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1028180,
+                      "key": "54087e32-35ef-43b8-900a-6bdb8677a54e",
+                      "title": "Solution: Instrument and Collect Data at Feature-Level",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1028186,
+                      "key": "5e6e2de0-af49-42ec-a2c8-d2930ff1ff58",
+                      "title": "Lesson Conclusion",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    }
+                  ]
+                },
+                {
+                  "id": 1028379,
+                  "key": "7faadc5a-5e90-4473-9e4b-cac09869287c",
+                  "version": "1.0.0",
+                  "locale": "en-us",
+                  "semantic_type": "Lesson",
+                  "summary": "In this lesson, you will learn how to create user conversion funnels and apply it to product management.",
+                  "title": "Evaluate User Conversion Funnels",
+                  "duration": 240,
+                  "is_public": true,
+                  "is_project_lesson": false,
+                  "display_workspace_project_only": false,
+                  "lesson_type": "Classroom",
+                  "image": {
+                    "url": "https://video.udacity-data.com/topher/2020/July/5f0cd0d7_copy-of-hero-image-template-2/copy-of-hero-image-template-2.jpg",
+                    "width": 500,
+                    "height": 500
+                  },
+                  "video": null,
+                  "lab": null,
+                  "project": null,
+                  "concepts": [
+                    {
+                      "id": 1028383,
+                      "key": "dc3f9648-f889-4427-b9d5-430fdaf77846",
+                      "title": "Evaluate User Conversion Funnels",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1028387,
+                      "key": "2bd3c40a-094e-4ef0-8776-255ed2707f5e",
+                      "title": "Big Picture / Intuition",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1028392,
+                      "key": "7c6df103-f723-4d33-9d2d-3ffd59ccb5b5",
+                      "title": "Lesson Outline",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1028396,
+                      "key": "24b71c4d-ab32-4722-9d5a-f451afb2cc10",
+                      "title": "User Conversion Funnels",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1028400,
+                      "key": "8d6261af-431b-4942-a966-303b83de6551",
+                      "title": "User Conversion Funnels Quizzes",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1028402,
+                      "key": "bb703e68-c069-42dd-a41f-1634b18e5ce2",
+                      "title": "Exercise 1: User Conversion Funnels",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1028404,
+                      "key": "039b7855-cb78-4f34-a852-ddb563b05aed",
+                      "title": "Solution: User Conversion Funnels Exercise Solution",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1028420,
+                      "key": "37a46ca2-6c13-495e-b1c0-e72b050f7bd2",
+                      "title": "Calculate Funnel Drop Off in Tableau",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1028428,
+                      "key": "5ff8818b-3aa5-4015-afaa-17fc88666e12",
+                      "title": "Calculate Funnel Drop Off in Tableau Quizzes",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1028424,
+                      "key": "859d4e6a-9a5c-410b-900b-011b1096359a",
+                      "title": "Exercise 2: Calculate Funnel Drop Off in Tableau",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1028426,
+                      "key": "4ab8672a-f66d-4484-9ed4-b366cb6a1eea",
+                      "title": "Solution: Calculate Funnel Drop Off in Tableau Exercise",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1028432,
+                      "key": "94362205-e8e0-45e2-843c-1a4f3dba1986",
+                      "title": "Visualize Funnel Drop Off in Tableau",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1028439,
+                      "key": "c30cd4b7-4de2-4412-ac9a-83ae6b898478",
+                      "title": "Visualize Funnel Drop Off in Tableau Quizzes",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1028441,
+                      "key": "e3745f00-4e25-421f-bdd4-37dfa9c9e63c",
+                      "title": "Exercise 3: Visualize Funnel Drop Off in Tableau",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1028443,
+                      "key": "3c3eacf1-62a1-4721-b2be-e423287ef5d2",
+                      "title": "Solution: Visualize Funnel Drop Off in Tableau Exercise",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1028447,
+                      "key": "f75364ab-13e2-4510-bee7-863afbdfde2e",
+                      "title": "Lesson Conclusion",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    }
+                  ]
+                },
+                {
+                  "id": 1028452,
+                  "key": "6cc0ed22-1147-45fd-83c4-f0ce35ace482",
+                  "version": "1.0.0",
+                  "locale": "en-us",
+                  "semantic_type": "Lesson",
+                  "summary": "In this lesson, you will learn how to generate user segments and apply user segment analysis.",
+                  "title": "Apply User Segment Analysis",
+                  "duration": 240,
+                  "is_public": true,
+                  "is_project_lesson": false,
+                  "display_workspace_project_only": false,
+                  "lesson_type": "Classroom",
+                  "image": {
+                    "url": "https://video.udacity-data.com/topher/2020/July/5f0cd156_copy-of-hero-image-template-3/copy-of-hero-image-template-3.jpg",
+                    "width": 500,
+                    "height": 500
+                  },
+                  "video": null,
+                  "lab": null,
+                  "project": null,
+                  "concepts": [
+                    {
+                      "id": 1028453,
+                      "key": "7a5c659b-58b6-4592-aaaa-dd392f038d0e",
+                      "title": "Apply User Segment Analysis",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1028457,
+                      "key": "7a8297cf-d001-4b74-ad28-79c53f5a1af8",
+                      "title": "Big Picture / Intuition",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1028462,
+                      "key": "a6967ddb-1c1a-4244-a699-2bca148aaa99",
+                      "title": "Lesson Outline",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1028466,
+                      "key": "1dacf605-4951-4040-ba27-31675e8e4256",
+                      "title": "Segment User Data",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1028470,
+                      "key": "4b05e928-778f-46c1-9e0f-64d4dab7d624",
+                      "title": "Segment User Data Quizzes",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1028481,
+                      "key": "bb94cfa5-fc4f-45c8-a61f-39612f17814c",
+                      "title": "Attribute in Segment Analysis Quizzes",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1028472,
+                      "key": "4ea0be3f-cc9d-4d34-a444-a7d9cbd9da6a",
+                      "title": "Exercise 1: Segment User Data ",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1028474,
+                      "key": "c0ffd423-cf11-4b32-ba30-e942312cc7d2",
+                      "title": "Solution: Segment User Data Exercise 1 ",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1028483,
+                      "key": "aae5a519-b2a2-41ba-bfa5-f9b2fc5b069a",
+                      "title": "Exercise 2: Segment User Data ",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1028485,
+                      "key": "77b04cfb-60ee-43e3-9d1b-0e714099bc3e",
+                      "title": "Solution: Segment User Data Exercise 2 ",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1028489,
+                      "key": "fcad57e7-40e3-4d05-82b8-3a465be458d4",
+                      "title": "Analyze User Segment Performance in Funnels",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1028492,
+                      "key": "c677d3a9-3144-4774-a65d-8e2e817ec122",
+                      "title": "Analyze User Segment Performance in Funnels Quizzes",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1028494,
+                      "key": "3058a58f-7a20-4c12-bc94-c8467f7d125c",
+                      "title": "Exercise 3: Analyze User Segment Performance in Funnels ",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1028496,
+                      "key": "a8c6c8ee-0ba4-4ad8-a639-be272afaadfa",
+                      "title": "Solution: Analyze User Segment Performance in Funnels ",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1028500,
+                      "key": "f9a6075d-fac2-4f84-9d48-b9421c2ff2d8",
+                      "title": "Analyze User Segment Performance in Feature Usage",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1028503,
+                      "key": "c6dc535c-9478-4dd1-ac9b-3e4127630412",
+                      "title": "Analyze User Segment Performance in Feature Usage Quizzes",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1028505,
+                      "key": "5aacfcc6-76b4-4151-8485-e7be0a8ec729",
+                      "title": "Exercise 4: Analyze User Segment Performance in Feature",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1028507,
+                      "key": "0d990c69-fe71-490b-a865-0f214b1f416c",
+                      "title": "Solution: Analyze User Segment Performance in Feature ",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1028517,
+                      "key": "903bac22-8e06-45ea-927d-5d84fa9d9554",
+                      "title": "Lesson Conclusion",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    }
+                  ]
+                },
+                {
+                  "id": 1028521,
+                  "key": "4daad0c6-96fd-48da-a47c-fd0061a7495c",
+                  "version": "1.0.0",
+                  "locale": "en-us",
+                  "semantic_type": "Lesson",
+                  "summary": "In this lesson, you will learn the benefits and drawbacks of quantitative and qualitative data and how to integrate data into the iterative design lifecycle.",
+                  "title": "Quantitative and Qualitative Data",
+                  "duration": 240,
+                  "is_public": true,
+                  "is_project_lesson": false,
+                  "display_workspace_project_only": false,
+                  "lesson_type": "Classroom",
+                  "image": {
+                    "url": "https://video.udacity-data.com/topher/2020/July/5f0cd19f_copy-of-hero-image-template-4/copy-of-hero-image-template-4.jpg",
+                    "width": 500,
+                    "height": 500
+                  },
+                  "video": null,
+                  "lab": null,
+                  "project": null,
+                  "concepts": [
+                    {
+                      "id": 1028522,
+                      "key": "b95d0169-7e68-4b45-80e9-907dee62e262",
+                      "title": "Quantitative and Qualitative Data",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1028527,
+                      "key": "8b71f6ac-3248-4cba-b8df-144514881051",
+                      "title": "Big Picture / Intuition",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1028529,
+                      "key": "9c1248db-cf7f-402b-b404-9af59bb833a7",
+                      "title": "Lesson Outline",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1028533,
+                      "key": "51557971-e6ca-4dd3-a162-378e35995733",
+                      "title": "Benefits and Drawbacks of Different Data",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1028536,
+                      "key": "fcbf64a3-0b08-4c7c-bb86-d8de03d85846",
+                      "title": "Benefits and Drawbacks of Different Data Quizzes",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1028548,
+                      "key": "da76f997-bc1d-4b61-87a9-733966849b5b",
+                      "title": "Integrate Data into Iterative Design",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1028554,
+                      "key": "ec15586f-b092-4669-a81b-be78d13bb994",
+                      "title": "Integrate Data into Iterative Design Quizzes",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1028556,
+                      "key": "f129442d-8af7-4baf-856f-318a71a53986",
+                      "title": "Exercise 1: Integrate Qualitative Data into Iterative Design",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1028558,
+                      "key": "ae4a06a6-5d2c-41dd-a253-aa1772c0a16e",
+                      "title": "Solution: Integrate Qualitative Data into Iterative Design",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1028564,
+                      "key": "0b526dd6-aff5-4756-9902-21e9f21a8e9b",
+                      "title": "Qualitative Research Methods",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1028573,
+                      "key": "81e6cd3a-bff0-4758-93b5-410c6e2a317b",
+                      "title": "Qualitative Research Methods Quizzes",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1028587,
+                      "key": "d1e6d548-5f74-46f9-86ba-544258faa750",
+                      "title": "Jobs to Be Done Framework",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1028593,
+                      "key": "c073be3f-74c2-4d5d-b47a-de4e07cc7566",
+                      "title": "Jobs to Be Done Framework Quizzes",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1028595,
+                      "key": "4a3fc614-f5da-4b4c-9568-fecb398b4bae",
+                      "title": "Exercise 2: Jobs to Be Done Framework",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1028598,
+                      "key": "7f010dd5-a77f-40f5-b174-fe60722635b4",
+                      "title": "Solution: Jobs to Be Done Framework Exercise",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1028602,
+                      "key": "1518ad29-f374-489d-88d6-9bc104400d4a",
+                      "title": "Narrow Scope with the RICE Framework",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1028605,
+                      "key": "b3ecc65d-3149-4957-b660-dc991ce28760",
+                      "title": "Narrow Scope with the RICE Framework Quizzes",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1028607,
+                      "key": "fa15b176-4dda-464f-a5d5-5cf7ffbfb926",
+                      "title": "Exercise 3: Narrow Scope with the RICE Framework",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1028609,
+                      "key": "0789fdb3-64a2-4117-b6a3-8765650a146c",
+                      "title": "Solution: Narrow Scope with the RICE Framework Exercise",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1028614,
+                      "key": "86db4e4f-ea0f-4b18-b0e9-5f6eace33cb4",
+                      "title": "Lesson Conclusion",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    }
+                  ]
+                },
+                {
+                  "id": 1028627,
+                  "key": "e1a78508-14c7-4d41-b9cb-e0ffef023b1c",
+                  "version": "1.0.0",
+                  "locale": "en-us",
+                  "semantic_type": "Lesson",
+                  "summary": "In this lesson, you will learn the A/B test, multivariate test, how to evaluate the test and respond to the test results.",
+                  "title": "A/B Test and Multivariate Test",
+                  "duration": 240,
+                  "is_public": true,
+                  "is_project_lesson": false,
+                  "display_workspace_project_only": false,
+                  "lesson_type": "Classroom",
+                  "image": {
+                    "url": "https://video.udacity-data.com/topher/2020/July/5f0cd1e6_copy-of-hero-image-template-5/copy-of-hero-image-template-5.jpg",
+                    "width": 500,
+                    "height": 500
+                  },
+                  "video": null,
+                  "lab": null,
+                  "project": null,
+                  "concepts": [
+                    {
+                      "id": 1028628,
+                      "key": "255e40dc-87e6-4ef9-aec4-5cee3d9dc020",
+                      "title": "A/B Test and Multivariate Test",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1028632,
+                      "key": "7a543276-6fce-4c2d-b91b-cd9bfc02c0dc",
+                      "title": "Big Picture / Intuition",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1028638,
+                      "key": "10a58a68-66fd-4e15-99cf-e57f33ac8ab7",
+                      "title": "Lesson Outline",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1028643,
+                      "key": "fce2e88b-1759-46b6-97ef-bc9ecddd5cfd",
+                      "title": "Benefits and Drawbacks of Different Tests",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1028645,
+                      "key": "15cb8623-d4ae-4686-8136-bcebeac93409",
+                      "title": "Benefits and Drawbacks of Different Test Quizzes",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1028675,
+                      "key": "cfebddf6-eb3f-4311-82f5-1ec390963e02",
+                      "title": " Exercise 1: Select Between A/B and Multivariate Tests",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1028677,
+                      "key": "b645f2b0-7e01-4234-8f41-7ac42cec6f3d",
+                      "title": "Solution: Select Between A/B and Multivariate Tests Exercise",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1028682,
+                      "key": "4ed74f78-4ab9-4ca1-aa1a-ad86c1f4b03f",
+                      "title": "Track User Actions During Testing",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1028686,
+                      "key": "3adba78c-bdb0-40e7-8627-458754d5e7d2",
+                      "title": "Track User Actions During Testing Quizzes",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1028688,
+                      "key": "2f4ecc46-8fac-4e06-8eb4-05ef7adfd9e9",
+                      "title": "Exercise 2: Track User Actions During Testing",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1028690,
+                      "key": "3b37cf61-3cde-4b75-8100-093e5e0e4caa",
+                      "title": "Solution: Track User Actions During Testing Exercise",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1028695,
+                      "key": "d1f419cb-feb2-45fb-b332-9a31afb2906c",
+                      "title": "Ensure Unbiased Control & Test Groups",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1028698,
+                      "key": "8bc1a795-e770-47a8-bcc0-ba7541ff0498",
+                      "title": "Ensure Unbiased Control & Test Groups Quizzes",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1028701,
+                      "key": "5d5545d8-6b03-491e-aac6-54209ba5f9ab",
+                      "title": "Exercise 3: Ensure Unbiased Control & Test Groups",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1028703,
+                      "key": "e4c7b6da-07e4-4a62-9f0c-cbf603babbad",
+                      "title": "Solution: Ensure Unbiased Control & Test Groups Exercise",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1028706,
+                      "key": "d8f2c3bc-57ad-44a2-a70c-d583602121fd",
+                      "title": "Calculate & Respond to Test Results ",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1028710,
+                      "key": "47b946da-9c3b-497a-ae47-4727e0a63898",
+                      "title": "Calculate & Respond to Test Results Quizzes",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1028712,
+                      "key": "ff576b75-6804-4709-a948-b2906117941d",
+                      "title": "Exercise 4: Calculate & Respond to Test Results",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1028714,
+                      "key": "2374e92f-8a92-4195-8a76-2304990c1e58",
+                      "title": "Solution: Calculate & Respond to Test Results Exercise",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1028717,
+                      "key": "c15f2df0-6d26-4f0c-8908-dbf742dfd0b1",
+                      "title": "Lesson Conclusion",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    }
+                  ]
+                },
+                {
+                  "id": 1027444,
+                  "key": "0eb5f441-26ed-49a4-bd59-8a5afafc9c3e",
+                  "version": "1.0.0",
+                  "locale": "en-us",
+                  "semantic_type": "Lesson",
+                  "summary": "In this project, you will analyze the data from a previously run multivariate experiment to determine what is the next best step for Flyber.",
+                  "title": "Project: Create an Iterative Design Path",
+                  "duration": 600,
+                  "is_public": true,
+                  "is_project_lesson": true,
+                  "display_workspace_project_only": false,
+                  "lesson_type": "Classroom",
+                  "image": {
+                    "url": "https://video.udacity-data.com/topher/2020/April/5e963457_cand-c2project-hero/cand-c2project-hero.jpg",
+                    "width": 500,
+                    "height": 500
+                  },
+                  "video": null,
+                  "lab": null,
+                  "project": {
+                    "key": "e1b757aa-4e88-406a-a563-14970453926e",
+                    "version": "1.0.0",
+                    "locale": "en-us",
+                    "duration": 40320,
+                    "semantic_type": "Project",
+                    "title": "Create an Iterative Design Path",
+                    "description": "## Project Summary\nIn this project, you have selected KPIs and evaluated previous multivariate experiment results; done funnel and cohort analyses; come up with a hypothesis and next Steps\n\n## Submission Checklist\nBefore you submit, check if the following have been completed:  \n\n|    | |\n|-------------------------|--------------------------------------------------------------------------------------------------------------|\n| <input type=\"checkbox\"> | Everything in the [Rubric](https://review.udacity.com/#!/rubrics/2841/view) is in the presentation. |\n| <input type=\"checkbox\"> | Final review of presentation for typos, clarity, grammar, name, date, etc. |\n| <input type=\"checkbox\"> | The presentation is in the form of a PDF and is still correctly formatted.  |\n| <input type=\"checkbox\"> | The PDF file's name should include your name to make it unique.|\n| | | |\n\n## Ready to Submit?\nOnce you have all the items above completed, you can click the submit button. Follow the directions to submit your project in one of the following ways:\n1. A zip file\n2. A single PDF file",
+                    "is_public": true,
+                    "summary": null,
+                    "forum_path": "",
+                    "rubric_id": "2841",
+                    "terminal_project_id": null,
+                    "resources": null,
+                    "image": null
+                  },
+                  "concepts": [
+                    {
+                      "id": 1027445,
+                      "key": "9171cd4f-7b2c-46a5-9164-007a17b8d67c",
+                      "title": "Project Overview",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1027447,
+                      "key": "f94bc15c-6cb1-44cd-a0f7-789ddeda3aa8",
+                      "title": "Project Materials & Instructions",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 1027450,
+                      "key": "1389c3b0-5437-4b36-b2d1-10656716c501",
+                      "title": "Project Submission",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 1052372,
+          "key": "20906dbd-1dbb-4735-a1f3-177e43c82ddb",
+          "title": "Career Services",
+          "semantic_type": "Part",
+          "is_public": true,
+          "version": "1.0.0",
+          "locale": "en-us",
+          "summary": "The Careers team at Udacity is here to help you move forward in your career - whether it's finding a new job, exploring a new career path, or applying new skills to your current job.",
+          "part_type": "Core",
+          "locked_reason": "not_locked",
+          "locked_until": null,
+          "content_ready_date_ms": 1597770000000,
+          "resources": null,
+          "image": null,
+          "specialization": null,
+          "modules": [
+            {
+              "id": 1071652,
+              "key": "0e9cc5ce-6b80-4278-ac22-e0288d3f04d6",
+              "title": "Career Services",
+              "semantic_type": "Module",
+              "is_public": true,
+              "version": "1.0.0",
+              "locale": "en-us",
+              "is_project_module": null,
+              "forum_path": "",
+              "lessons": [
+                {
+                  "id": 631083,
+                  "key": "20707806-8f14-420f-b613-4196199a88c1",
+                  "version": "1.0.0",
+                  "locale": "en-us",
+                  "semantic_type": "Lesson",
+                  "summary": "Find your next job or connect with industry peers on LinkedIn. Ensure your profile attracts relevant leads that will grow your professional network.",
+                  "title": "Take 30 Min to Improve your LinkedIn",
+                  "duration": 30,
+                  "is_public": true,
+                  "is_project_lesson": true,
+                  "display_workspace_project_only": false,
+                  "lesson_type": "Classroom",
+                  "image": {
+                    "url": "https://s3.amazonaws.com/video.udacity-data.com/topher/2018/February/5a8222c0_1-3-career-services-available-to-you2x/1-3-career-services-available-to-you2x.jpg",
+                    "width": 500,
+                    "height": 500
+                  },
+                  "video": null,
+                  "lab": null,
+                  "project": {
+                    "key": "0051a3da-930f-47a1-bd41-d7fe3bd324f4",
+                    "version": "1.0.0",
+                    "locale": "en-us",
+                    "duration": 1440,
+                    "semantic_type": "Project",
+                    "title": "Improve Your LinkedIn Profile",
+                    "description": "Have job opportunities come to you by optimizing your LinkedIn profile! Complete this simple process to get personalized tips from a career mentor. \n\nHere’s how to submit your LinkedIn profile for feedback now:\n* Check out this [checklist](https://docs.google.com/document/d/1BZMxuKnBNovOyMelEx7d8ktbsWGj0EJ9KaD81dVC1TE/pub?embedded=true) for tips on optimizing your LinkedIn profile (optional).\n* **Make sure your profile is in English.** If you do not have an English profile yet, check out LinkedIn's [advice](https://www.linkedin.com/help/linkedin/answer/1717/creating-or-deleting-a-profile-in-another-language?lang=en) on how to create a secondary language profile.\n* Make your profile publicly visible. Scroll down and set the profile section toggles to `Show` under the “Edit Visibility” section of  [your public profile edit page](https://www.linkedin.com/public-profile/settings?trk=nprofile-public-profile-settings-redirect).\n * ![Edit Visibility](http://lh3.googleusercontent.com/R0A5rnKYyzLPZJ8B_pkyxdKkvab5qQi2LnEpFq2L-F33TSgzmjduHuUyDi-Z_ka2L7oU50UYqQTeU1n8VcM=s0#w=400&h=333 \"Edit Visibility\")\n* Create a custom profile URL in the “Edit URL” section of [your public profile edit page](https://www.linkedin.com/public-profile/settings?trk=nprofile-public-profile-settings-redirect).\n * ![Edit URL](http://lh3.googleusercontent.com/SGdIHFzKav0QZmOSrrP69xch_F0Ufhu9pLy-nDXYDArHUyzAen7ewoLakVOKn3KvX_CVgJjBWkl_FmPTPqM=s0#w=250&h=120 \"Edit URL\")\n* Submit your public profile URL (such as `www.linkedin.com/in/udacitystudent`) for guidance from a career mentor by clicking “Submit Project” below.",
+                    "is_public": true,
+                    "summary": null,
+                    "forum_path": "",
+                    "rubric_id": "1910",
+                    "terminal_project_id": null,
+                    "resources": null,
+                    "image": null
+                  },
+                  "concepts": [
+                    {
+                      "id": 704348,
+                      "key": "c8c3fbd0-b7ba-471e-85b7-eb2b1c3820c0",
+                      "title": "Get Opportunities with LinkedIn",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 703862,
+                      "key": "20efad1e-c7b3-432d-86ad-0e798c795d49",
+                      "title": "Use Your Story to Stand Out",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 703860,
+                      "key": "a891296f-46ea-457c-89d9-f4ec96a40cae",
+                      "title": "Why Use an Elevator Pitch",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 703864,
+                      "key": "0c1acad0-cb41-4260-bd5c-6df07f1b2778",
+                      "title": "Create Your Elevator Pitch",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 708825,
+                      "key": "36e84f5b-204e-48c4-8071-293f49886a85",
+                      "title": "Use Your Elevator Pitch on LinkedIn",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 729380,
+                      "key": "a7deba78-27c8-4735-ad9c-7ab2b2b1ad91",
+                      "title": "Create Your Profile With SEO In Mind",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 728573,
+                      "key": "6ed9b5b0-43cf-4b65-b01d-345e44dfd765",
+                      "title": "Profile Essentials",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 728593,
+                      "key": "d3f369bb-78d7-478a-a909-c6e13683cc18",
+                      "title": "Work Experiences & Accomplishments",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 708828,
+                      "key": "eb90e45b-5d77-458b-af34-0f8eaecd45a8",
+                      "title": "Build and Strengthen Your Network",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 617430,
+                      "key": "64ed9954-b423-4a75-ad70-b2a1fbaa3a6d",
+                      "title": "Reaching Out on LinkedIn",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 728591,
+                      "key": "1d61fe7d-02e6-4376-a0c5-e01e26969d63",
+                      "title": "Boost Your Visibility",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    },
+                    {
+                      "id": 708834,
+                      "key": "2da1cc73-72cb-4678-b84d-1ab91798e8b3",
+                      "title": "Up Next",
+                      "semantic_type": "Concept",
+                      "is_public": true,
+                      "resources": null
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
