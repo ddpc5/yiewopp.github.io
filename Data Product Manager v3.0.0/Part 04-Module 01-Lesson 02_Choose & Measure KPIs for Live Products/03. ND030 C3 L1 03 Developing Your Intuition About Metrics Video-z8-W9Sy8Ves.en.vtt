@@ -1,0 +1,112 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.330
+Google researchers created a framework called the HEART,
+
+00:00:03.330 --> 00:00:09.194
+H-E-R-T model to help you think about the different types of metrics available.
+
+00:00:09.194 --> 00:00:13.050
+The HEART model simplifies the vast amounts of data you might have
+
+00:00:13.050 --> 00:00:18.580
+available by reminding you to find categories into which individual pieces of data fit.
+
+00:00:18.580 --> 00:00:22.715
+This is a great way to develop your intuition about metrics.
+
+00:00:22.715 --> 00:00:24.170
+In the HEART model,
+
+00:00:24.170 --> 00:00:27.560
+product data is considered in five categories.
+
+00:00:27.560 --> 00:00:30.055
+The H stands for happiness.
+
+00:00:30.055 --> 00:00:34.970
+That is, how happy or satisfied is the customer with your product or feature?
+
+00:00:34.970 --> 00:00:37.490
+Some examples of data you might analyze in
+
+00:00:37.490 --> 00:00:40.640
+this category would be your customer's app store rating,
+
+00:00:40.640 --> 00:00:44.390
+or how easy customers say they find your product to use.
+
+00:00:44.390 --> 00:00:48.530
+The E in the HEART model stands for engagement of the level and
+
+00:00:48.530 --> 00:00:52.730
+frequency with which users interact with your product and features.
+
+00:00:52.730 --> 00:00:56.260
+What makes engagement good will vary by product.
+
+00:00:56.260 --> 00:01:00.500
+For example, into its highly successful TurboTax software
+
+00:01:00.500 --> 00:01:03.785
+is used by most customers only during tax season.
+
+00:01:03.785 --> 00:01:08.960
+But this level of engagement makes sense for a product whose main use case is annual.
+
+00:01:08.960 --> 00:01:11.570
+A different example might be a mobile game
+
+00:01:11.570 --> 00:01:14.240
+where daily check-ins and usage could be the norm.
+
+00:01:14.240 --> 00:01:17.900
+The important takeaway is that when you think about metrics,
+
+00:01:17.900 --> 00:01:23.605
+how often a customer uses a product or feature is an important category of data.
+
+00:01:23.605 --> 00:01:26.890
+In the HEART model, the A stands for adoption,
+
+00:01:26.890 --> 00:01:30.530
+or the number of new users who begin to use a product.
+
+00:01:30.530 --> 00:01:33.470
+Examples of adoption might be the number of
+
+00:01:33.470 --> 00:01:37.945
+sales or the number of users who utilize a new feature.
+
+00:01:37.945 --> 00:01:41.419
+The R in the HEART model stands for retention.
+
+00:01:41.419 --> 00:01:47.125
+Much important data measures how often customers and users come back to your product.
+
+00:01:47.125 --> 00:01:50.390
+Churn rate and number of repeat visitors are
+
+00:01:50.390 --> 00:01:54.250
+examples of metrics you might consider in the retention category.
+
+00:01:54.250 --> 00:01:58.620
+The final T in the HEART model stands for task success.
+
+00:01:58.620 --> 00:02:03.950
+Does the design of your product allow users to quickly and efficiently navigate?
+
+00:02:03.950 --> 00:02:08.305
+Many UX metrics will fall into this data category.
+
+00:02:08.305 --> 00:02:10.295
+As you work on a product,
+
+00:02:10.295 --> 00:02:13.865
+you will develop your own categories and definitions.
+
+00:02:13.865 --> 00:02:18.120
+But using the HEART model is a great place to start.
+

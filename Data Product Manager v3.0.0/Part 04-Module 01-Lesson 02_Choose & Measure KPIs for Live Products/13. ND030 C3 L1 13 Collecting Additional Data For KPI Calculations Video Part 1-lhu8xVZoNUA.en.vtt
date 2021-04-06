@@ -1,0 +1,151 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.190
+KPIs at the product level,
+
+00:00:02.190 --> 00:00:06.995
+such as revenue, act as North Stars that guide our product decisions.
+
+00:00:06.995 --> 00:00:10.365
+Product managers, however, also help determine,
+
+00:00:10.365 --> 00:00:13.635
+create, and launch new features within a product.
+
+00:00:13.635 --> 00:00:19.365
+Metrics and KPIs are just as important at the feature level as the overall product level.
+
+00:00:19.365 --> 00:00:21.255
+So when launching a new feature,
+
+00:00:21.255 --> 00:00:25.950
+it is important to keep in mind the data at a feature level you might want to collect.
+
+00:00:25.950 --> 00:00:28.355
+While the pirate metrics framework can provide
+
+00:00:28.355 --> 00:00:30.845
+a holistic view of a product's performance,
+
+00:00:30.845 --> 00:00:34.990
+it can also be leveraged to examine the success of a new feature.
+
+00:00:34.990 --> 00:00:37.640
+Good product managers should be able to tell
+
+00:00:37.640 --> 00:00:41.195
+you the number of users exposed to a new feature,
+
+00:00:41.195 --> 00:00:44.045
+the number who interacted with the new feature,
+
+00:00:44.045 --> 00:00:47.870
+and how often users returned and reuse the feature,
+
+00:00:47.870 --> 00:00:51.200
+plus how much you can make from the new feature.
+
+00:00:51.200 --> 00:00:54.440
+The same KPIs at the product level applied at
+
+00:00:54.440 --> 00:00:58.810
+the feature level help us determine if a new feature is successful.
+
+00:00:58.810 --> 00:01:00.920
+When instrumenting new features,
+
+00:01:00.920 --> 00:01:05.945
+it is also important to ensure you can distinguish which customers use the feature.
+
+00:01:05.945 --> 00:01:07.580
+It is important to track which
+
+00:01:07.580 --> 00:01:11.005
+product customers use a particular feature and which don't.
+
+00:01:11.005 --> 00:01:16.060
+Often, a feature might have success with one type of user, but not others.
+
+00:01:16.060 --> 00:01:20.150
+For example, a meditation app introduces a new set of
+
+00:01:20.150 --> 00:01:24.725
+story-based meditations for teaching children the basics of meditation.
+
+00:01:24.725 --> 00:01:27.320
+This feature is much more likely to be used by
+
+00:01:27.320 --> 00:01:30.295
+parents with young children than by non parents.
+
+00:01:30.295 --> 00:01:32.510
+Though some users who aren't parents,
+
+00:01:32.510 --> 00:01:34.805
+perhaps babysitters or teachers,
+
+00:01:34.805 --> 00:01:37.225
+might find the feature useful too.
+
+00:01:37.225 --> 00:01:41.300
+By tracking which customers use the new feature and which didn't,
+
+00:01:41.300 --> 00:01:45.300
+we can identify if the feature is used differently among different groups
+
+00:01:45.300 --> 00:01:50.335
+and we also know who we can talk to in order to get feedback after launch.
+
+00:01:50.335 --> 00:01:53.870
+Finally, whenever possible, ensure data is
+
+00:01:53.870 --> 00:01:57.710
+collected to see when and how a user used a new feature.
+
+00:01:57.710 --> 00:02:00.965
+By collecting when and how a feature is used,
+
+00:02:00.965 --> 00:02:06.080
+we gather data that helps us understand why a customer is drawn to use a feature.
+
+00:02:06.080 --> 00:02:09.290
+For example, perhaps a banking app launches
+
+00:02:09.290 --> 00:02:12.675
+a new feature that lets users check their credit score.
+
+00:02:12.675 --> 00:02:16.760
+If a majority of users apply for a mortgage after using that feature,
+
+00:02:16.760 --> 00:02:20.180
+this is a good indication that the feature is being used by
+
+00:02:20.180 --> 00:02:24.235
+customers to see whether they are likely to qualify for a mortgage.
+
+00:02:24.235 --> 00:02:26.960
+Such information can then be leveraged by
+
+00:02:26.960 --> 00:02:30.620
+a product manager to consider new solutions that might serve
+
+00:02:30.620 --> 00:02:33.200
+the customers need such as a feature on
+
+00:02:33.200 --> 00:02:37.475
+the mortgage page that shows whether a user is likely to be approved.
+
+00:02:37.475 --> 00:02:39.305
+This is just one example,
+
+00:02:39.305 --> 00:02:43.640
+but it serves to illustrate that understanding where a customer uses a feature in
+
+00:02:43.640 --> 00:02:46.355
+their product journey provides valuable insights
+
+00:02:46.355 --> 00:02:50.610
+about what the customer wants to accomplish by using the feature.
+

@@ -1,0 +1,148 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.135
+In this exercise, you're asked to instrument
+
+00:00:03.135 --> 00:00:07.190
+a new referral feature for the food fast meal delivery service.
+
+00:00:07.190 --> 00:00:10.245
+Question 1 asks which data you need to track
+
+00:00:10.245 --> 00:00:13.425
+in order to know whether the new feature is successful.
+
+00:00:13.425 --> 00:00:15.105
+By using pirate metrics,
+
+00:00:15.105 --> 00:00:20.445
+we can identify the questions we will want to answer about the steps in the user journey.
+
+00:00:20.445 --> 00:00:22.125
+When the feature launches,
+
+00:00:22.125 --> 00:00:24.855
+if we're tracking the metrics that answer these questions,
+
+00:00:24.855 --> 00:00:27.510
+we can quickly determine the relative success of
+
+00:00:27.510 --> 00:00:30.540
+the feature and places we might want to improve.
+
+00:00:30.540 --> 00:00:33.390
+First for acquisition, we'll want to see
+
+00:00:33.390 --> 00:00:36.585
+how many in which users see the referral feature.
+
+00:00:36.585 --> 00:00:38.850
+Tracking these metrics might tell us if
+
+00:00:38.850 --> 00:00:42.015
+the referral feature is visible enough to current users.
+
+00:00:42.015 --> 00:00:45.425
+Next, we should consider activation metrics,
+
+00:00:45.425 --> 00:00:47.720
+such as how many and which users send
+
+00:00:47.720 --> 00:00:51.700
+invites and how many and which users arrive via referral.
+
+00:00:51.700 --> 00:00:54.560
+This will show us if the referral feature is appealing
+
+00:00:54.560 --> 00:00:57.680
+enough to current users and the referred users.
+
+00:00:57.680 --> 00:01:01.235
+After activation, we will want to consider retention.
+
+00:01:01.235 --> 00:01:03.920
+How many users are sending multiple invites?
+
+00:01:03.920 --> 00:01:06.940
+How many invites is an average user sending?
+
+00:01:06.940 --> 00:01:08.690
+For the referred users,
+
+00:01:08.690 --> 00:01:13.460
+how many are retained pass their first discounted delivery and become paying customers?
+
+00:01:13.460 --> 00:01:16.460
+This will tell us the strength of the referral program and
+
+00:01:16.460 --> 00:01:19.670
+its likelihood to result in continued referrals.
+
+00:01:19.670 --> 00:01:23.495
+Finally, under revenue, we will want to know how many and which
+
+00:01:23.495 --> 00:01:27.605
+invites ended up turning a referred user into a new customer.
+
+00:01:27.605 --> 00:01:30.890
+Question 2, assess whether to recommend launching with
+
+00:01:30.890 --> 00:01:34.115
+a single code or with codes unique to each user.
+
+00:01:34.115 --> 00:01:38.090
+Even though it might be much simpler and take less development time to
+
+00:01:38.090 --> 00:01:42.140
+launch a single code that could be used universally by all refers,
+
+00:01:42.140 --> 00:01:45.705
+the service would lose a lot of valuable data following this route.
+
+00:01:45.705 --> 00:01:49.100
+In discussing questions, we need to track metrics on to answer.
+
+00:01:49.100 --> 00:01:53.555
+We've repeatedly noted the need to track which users take certain actions.
+
+00:01:53.555 --> 00:01:57.595
+Such tracking can only be done with codes unique to each user.
+
+00:01:57.595 --> 00:02:00.755
+It isn't enough to simply track the average user.
+
+00:02:00.755 --> 00:02:06.350
+Later on, we will likely want to dig into the type of customers who refer and the type of
+
+00:02:06.350 --> 00:02:09.140
+referred user that becomes a customer to see if
+
+00:02:09.140 --> 00:02:12.400
+the feature can be better tailored for these high-impact cases.
+
+00:02:12.400 --> 00:02:15.530
+We'll also likely want to follow up with users
+
+00:02:15.530 --> 00:02:19.070
+and non-users of the referral feature to gather feedback.
+
+00:02:19.070 --> 00:02:20.855
+When designing new features,
+
+00:02:20.855 --> 00:02:25.030
+it is important to instrument with a near term evolution of the feature in mind.
+
+00:02:25.030 --> 00:02:28.700
+If you know incentives might be offered to the refer in the future,
+
+00:02:28.700 --> 00:02:31.630
+you probably should use unique codes right now.
+
+00:02:31.630 --> 00:02:36.650
+Thus, launching with a single code should not be suggested when instrumenting features.
+
+00:02:36.650 --> 00:02:42.329
+Knowing exactly who has done what is crucial to being able to measure success.
+

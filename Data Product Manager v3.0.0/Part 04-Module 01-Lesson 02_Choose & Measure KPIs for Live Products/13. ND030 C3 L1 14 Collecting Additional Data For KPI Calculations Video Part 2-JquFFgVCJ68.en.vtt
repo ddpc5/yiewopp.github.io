@@ -1,0 +1,280 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:04.290
+We mentioned that it is important to know both how many users saw,
+
+00:00:04.290 --> 00:00:09.030
+and how many users actually used a feature to understand its success.
+
+00:00:09.030 --> 00:00:11.490
+It is important to track both metrics because
+
+00:00:11.490 --> 00:00:14.100
+together the numbers tell us the percentage of
+
+00:00:14.100 --> 00:00:19.125
+customers who use the feature out of the total number of active users in the time period.
+
+00:00:19.125 --> 00:00:25.050
+This tells us how widespread the feature usage is among all of the products active users.
+
+00:00:25.050 --> 00:00:29.655
+But why look at the percent of feature users out of total product users?
+
+00:00:29.655 --> 00:00:35.730
+Because, just looking at the raw numbers of users can be misleading. Here's an example.
+
+00:00:35.730 --> 00:00:39.074
+Imagine you launch a new feature in January,
+
+00:00:39.074 --> 00:00:41.370
+you get 1,000 customers to use it,
+
+00:00:41.370 --> 00:00:45.270
+and in February you see 2,000 customers use the feature,
+
+00:00:45.270 --> 00:00:47.055
+that's 100 percent growth.
+
+00:00:47.055 --> 00:00:48.600
+So the feature is a success.
+
+00:00:48.600 --> 00:00:50.700
+Right? Not so fast.
+
+00:00:50.700 --> 00:00:52.880
+Remember, we need to look at the number of
+
+00:00:52.880 --> 00:00:56.155
+feature users out of the total number of product users.
+
+00:00:56.155 --> 00:01:01.355
+For example, if the product had over 8 million users in January and February,
+
+00:01:01.355 --> 00:01:04.460
+the percent of users of the new feature is tiny.
+
+00:01:04.460 --> 00:01:05.930
+As a product manager,
+
+00:01:05.930 --> 00:01:09.535
+we need to look at whether users even know this feature exist.
+
+00:01:09.535 --> 00:01:12.275
+How about if the product had a fewer users?
+
+00:01:12.275 --> 00:01:15.380
+Well, if in January the product had 3,000
+
+00:01:15.380 --> 00:01:18.760
+users and in February the product had 10,000 users,
+
+00:01:18.760 --> 00:01:21.769
+then even though the raw number of users increased,
+
+00:01:21.769 --> 00:01:24.995
+the feature usage actually dropped among users from
+
+00:01:24.995 --> 00:01:28.310
+33 percent to 20 percent of product customers.
+
+00:01:28.310 --> 00:01:29.810
+As a product manager,
+
+00:01:29.810 --> 00:01:33.305
+we need to do further research to understand why new customers
+
+00:01:33.305 --> 00:01:37.510
+aren't finding the feature as appealing as customers in the previous month.
+
+00:01:37.510 --> 00:01:40.700
+Another important metric to consider when evaluating
+
+00:01:40.700 --> 00:01:44.885
+a feature is the average feature use frequency and duration.
+
+00:01:44.885 --> 00:01:47.510
+While the percentage of feature users out of
+
+00:01:47.510 --> 00:01:52.865
+total product users provides an idea of how widespread adoption of the feature is,
+
+00:01:52.865 --> 00:01:56.090
+measuring frequency usage and duration provides
+
+00:01:56.090 --> 00:02:00.515
+product managers with data about how the feature is being used.
+
+00:02:00.515 --> 00:02:02.570
+Metrics around feature usage to
+
+00:02:02.570 --> 00:02:06.620
+consider are the frequency a user engages with the feature,
+
+00:02:06.620 --> 00:02:07.895
+such as on average,
+
+00:02:07.895 --> 00:02:11.285
+how many times per day or week customers use the feature,
+
+00:02:11.285 --> 00:02:17.210
+and on average, the amount of time customers spend using the feature during each session.
+
+00:02:17.210 --> 00:02:22.250
+Note that whether the frequency and duration of feature usage are good or bad,
+
+00:02:22.250 --> 00:02:26.015
+depends entirely on the context of the product and feature.
+
+00:02:26.015 --> 00:02:28.090
+Let's look at some examples.
+
+00:02:28.090 --> 00:02:31.370
+Imagine a social media app launches a new feature.
+
+00:02:31.370 --> 00:02:36.110
+Since a social media app is often used multiple times per day for short bursts of time,
+
+00:02:36.110 --> 00:02:40.705
+a new popular feature could be used four times a day for two minutes on average.
+
+00:02:40.705 --> 00:02:44.720
+Compare this to a budgeting software that is typically used by
+
+00:02:44.720 --> 00:02:49.655
+customers to set a budget and review budget progress at the beginning or end of a month.
+
+00:02:49.655 --> 00:02:52.190
+For a good new feature in budget software,
+
+00:02:52.190 --> 00:02:54.830
+a feature might be used only one time a month,
+
+00:02:54.830 --> 00:02:57.490
+but for 30 minutes in an average session.
+
+00:02:57.490 --> 00:03:01.010
+Neither of these scenarios shows a feature failing to perform,
+
+00:03:01.010 --> 00:03:05.030
+but it does offer product managers an idea of how the feature is being
+
+00:03:05.030 --> 00:03:09.400
+used and in what scenarios it is considered helpful by the customers.
+
+00:03:09.400 --> 00:03:13.340
+When the frequency and duration don't match product expectations,
+
+00:03:13.340 --> 00:03:17.720
+or the frequency and duration of similar features already launched in the product,
+
+00:03:17.720 --> 00:03:22.000
+then this is a sign that further investigation and research is needed.
+
+00:03:22.000 --> 00:03:24.770
+Now that we've discussed the data we want to collect at
+
+00:03:24.770 --> 00:03:28.655
+the feature level and the types of questions we should instrument to answer,
+
+00:03:28.655 --> 00:03:34.030
+let's talk about a few best practices to ensure what and how we instrument goes well.
+
+00:03:34.030 --> 00:03:37.490
+First, when making decisions on how to build a feature,
+
+00:03:37.490 --> 00:03:39.920
+keep your data collection needs in mind.
+
+00:03:39.920 --> 00:03:43.400
+The questions you'll ask to measure a feature success should be
+
+00:03:43.400 --> 00:03:47.500
+considered as you work with your design and development team to create a feature,
+
+00:03:47.500 --> 00:03:50.270
+not right when a feature is going into production.
+
+00:03:50.270 --> 00:03:53.030
+For example, when you launch a product,
+
+00:03:53.030 --> 00:03:54.755
+as we discussed in the previous slide,
+
+00:03:54.755 --> 00:03:58.180
+you'll want to know who and how a customer uses a feature.
+
+00:03:58.180 --> 00:04:02.120
+So any event tracking should always include not just user ID,
+
+00:04:02.120 --> 00:04:06.140
+but session-based information about the way that users access the feature,
+
+00:04:06.140 --> 00:04:09.010
+including variables such as device and browser.
+
+00:04:09.010 --> 00:04:11.930
+Another thing to keep in mind is to ensure
+
+00:04:11.930 --> 00:04:15.055
+you track separate events for separate user actions.
+
+00:04:15.055 --> 00:04:17.960
+If a user can do multiple things on a page,
+
+00:04:17.960 --> 00:04:20.845
+you want to know exactly what they did on that page,
+
+00:04:20.845 --> 00:04:23.660
+that means tracking each action your users take,
+
+00:04:23.660 --> 00:04:25.960
+not just where in the product they are.
+
+00:04:25.960 --> 00:04:29.740
+One way to ensure your instrumentation strategy is sound,
+
+00:04:29.740 --> 00:04:31.640
+is to test it before launch.
+
+00:04:31.640 --> 00:04:36.170
+You can do this by simulating the data you might collect and checking if you can
+
+00:04:36.170 --> 00:04:41.395
+answer every question you'll ask to see if a feature is successful after launch.
+
+00:04:41.395 --> 00:04:45.080
+Your simulation can even be useful as an example for
+
+00:04:45.080 --> 00:04:49.150
+the engineers who are instrumenting the feature to check their work against.
+
+00:04:49.150 --> 00:04:54.835
+Finally, make sure to define and document any new events you create when instrumenting.
+
+00:04:54.835 --> 00:04:58.010
+Describe exactly how a piece of data is triggered,
+
+00:04:58.010 --> 00:05:00.800
+products undergo rapid change and something
+
+00:05:00.800 --> 00:05:03.890
+that seems clear to you today will quickly be forgotten.
+
+00:05:03.890 --> 00:05:08.000
+Data isn't helpful if you don't know the meaning of the data you have.
+
+00:05:08.000 --> 00:05:12.800
+The bottom line when instrumenting a feature is to keep your future self in mind.
+
+00:05:12.800 --> 00:05:14.930
+Think about the questions you'll be asking about
+
+00:05:14.930 --> 00:05:17.690
+the feature in three months to determine success,
+
+00:05:17.690 --> 00:05:20.730
+and ensure you're prepared to answer them.
+

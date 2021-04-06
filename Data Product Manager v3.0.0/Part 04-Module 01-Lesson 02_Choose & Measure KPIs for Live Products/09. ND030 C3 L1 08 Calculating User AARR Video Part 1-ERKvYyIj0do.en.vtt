@@ -1,0 +1,241 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:04.560
+Up until now, we've discussed that data closely related to revenue and
+
+00:00:04.560 --> 00:00:10.035
+customer satisfaction will be a KPI for any profit driven product or company.
+
+00:00:10.035 --> 00:00:12.165
+As a product manager however,
+
+00:00:12.165 --> 00:00:17.430
+we need to look for ways our product can drive further revenue and customer satisfaction.
+
+00:00:17.430 --> 00:00:22.440
+By looking at KPIs related to our customers journey from acquisition,
+
+00:00:22.440 --> 00:00:25.020
+activation, to retention, we can learn
+
+00:00:25.020 --> 00:00:28.515
+a lot about where to focus development time and effort.
+
+00:00:28.515 --> 00:00:33.140
+The idea to break down data into acquisition, activation,
+
+00:00:33.140 --> 00:00:39.395
+retention, revenue, and referral categories came from Dave Mcclure in 2007.
+
+00:00:39.395 --> 00:00:42.320
+These metrics are called the Pirate Metrics because
+
+00:00:42.320 --> 00:00:46.654
+their initials spelled out A-A-R-R-R or R,
+
+00:00:46.654 --> 00:00:48.155
+as a pirate would say.
+
+00:00:48.155 --> 00:00:49.820
+Over the past decade,
+
+00:00:49.820 --> 00:00:52.970
+the use of pirate metrics has become widespread by
+
+00:00:52.970 --> 00:00:57.440
+startups and growth hackers as they neatly follow a customer journey.
+
+00:00:57.440 --> 00:01:03.360
+By calculating pirate metric KPIs around user acquisition, activation,
+
+00:01:03.360 --> 00:01:06.195
+retention, revenue, and referral,
+
+00:01:06.195 --> 00:01:11.045
+product managers can see where in the customer's journey something isn't working.
+
+00:01:11.045 --> 00:01:13.790
+Focusing on these KPIs will help you
+
+00:01:13.790 --> 00:01:17.005
+know how you can improve the product you're offering.
+
+00:01:17.005 --> 00:01:22.595
+In this section, I'll cover examples and how to calculate KPIs for acquisition,
+
+00:01:22.595 --> 00:01:28.165
+activation, retention, and introduce a few new important revenue metrics.
+
+00:01:28.165 --> 00:01:32.660
+Referral typically involves measuring specific referral features.
+
+00:01:32.660 --> 00:01:37.855
+We'll be covering ensuring data is collected for new features in a section after this.
+
+00:01:37.855 --> 00:01:40.850
+The first step in a product is to get users.
+
+00:01:40.850 --> 00:01:44.890
+Users need to know about our product in order to use or purchase it,
+
+00:01:44.890 --> 00:01:50.270
+so the first step in pirate metrics is to calculate KPIs around user acquisition
+
+00:01:50.270 --> 00:01:56.230
+because user acquisition KPIs show how many and how often users are finding your product.
+
+00:01:56.230 --> 00:01:59.480
+KPIs around user acquisition focus on
+
+00:01:59.480 --> 00:02:03.080
+measuring the number of users who learn about a product or feature.
+
+00:02:03.080 --> 00:02:05.060
+Some examples would be,
+
+00:02:05.060 --> 00:02:09.860
+the number of new visitors to a website or app in a day and the number of
+
+00:02:09.860 --> 00:02:12.365
+new visitors that are coming from different sources
+
+00:02:12.365 --> 00:02:15.665
+such as Facebook ads versus a referral program.
+
+00:02:15.665 --> 00:02:19.370
+Watching and monitoring user acquisition KPIs
+
+00:02:19.370 --> 00:02:23.365
+helps you know if your time should be focused on finding new users.
+
+00:02:23.365 --> 00:02:26.915
+If your KPIs in this category aren't performing well,
+
+00:02:26.915 --> 00:02:28.550
+as a product manager,
+
+00:02:28.550 --> 00:02:32.440
+you'll know you need to do more work to help customers find you.
+
+00:02:32.440 --> 00:02:37.940
+Boosting KPIs will often mean cross team collaboration with marketing to
+
+00:02:37.940 --> 00:02:40.385
+ensure your service and product are being
+
+00:02:40.385 --> 00:02:43.990
+advertised to the right type of customer, in the right way.
+
+00:02:43.990 --> 00:02:47.690
+Acquisition is the first step in the pirate metrics framework
+
+00:02:47.690 --> 00:02:51.785
+because it is the first step in the user journey to becoming a customer.
+
+00:02:51.785 --> 00:02:54.350
+It doesn't matter how many customers would love
+
+00:02:54.350 --> 00:02:58.285
+your features if you aren't bringing in the customers in the first place.
+
+00:02:58.285 --> 00:03:02.645
+The second A in the pirate metrics stands for activation.
+
+00:03:02.645 --> 00:03:05.720
+Activation is how quickly new visitors find
+
+00:03:05.720 --> 00:03:09.205
+your product valuable and decide to become a customer.
+
+00:03:09.205 --> 00:03:14.900
+Activation focuses on whether a potential customer goes from being aware of your product,
+
+00:03:14.900 --> 00:03:17.750
+to taking the first step to becoming a customer.
+
+00:03:17.750 --> 00:03:19.850
+Looking at activation data,
+
+00:03:19.850 --> 00:03:23.815
+will show you whether visitors are actually deciding to try your product.
+
+00:03:23.815 --> 00:03:26.554
+This is called activation conversion.
+
+00:03:26.554 --> 00:03:31.760
+Some example activation KPIs might be the length of time users spend browsing
+
+00:03:31.760 --> 00:03:34.490
+your site or product on first visit as this
+
+00:03:34.490 --> 00:03:37.750
+indicates the user was interested enough to look around.
+
+00:03:37.750 --> 00:03:40.150
+Even if the visitor isn't paying at,
+
+00:03:40.150 --> 00:03:44.410
+a happy first visit shows they've gone from acquired to activated.
+
+00:03:44.410 --> 00:03:49.250
+Another activation KPI might be the number of users who sign up for an account,
+
+00:03:49.250 --> 00:03:51.830
+which shows the visitor is activated enough to
+
+00:03:51.830 --> 00:03:55.205
+spend the time to create a profile to use the product.
+
+00:03:55.205 --> 00:04:00.410
+Watching and monitoring user activation KPIs will help you know if
+
+00:04:00.410 --> 00:04:02.975
+your time should be focused on the initial moments
+
+00:04:02.975 --> 00:04:06.385
+where new visitors are deciding to become customers.
+
+00:04:06.385 --> 00:04:09.950
+If your KPIs in this category aren't performing well,
+
+00:04:09.950 --> 00:04:11.585
+as a product manager,
+
+00:04:11.585 --> 00:04:14.240
+you'll know you need to do more work to help
+
+00:04:14.240 --> 00:04:17.425
+customers find your product appealing enough to sign up,
+
+00:04:17.425 --> 00:04:20.195
+or perhaps improve the on-boarding process
+
+00:04:20.195 --> 00:04:23.540
+that transitions visitors into potential customers.
+
+00:04:23.540 --> 00:04:27.510
+Boosting KPIs will often mean ensuring your landing page and
+
+00:04:27.510 --> 00:04:32.905
+information make clear the value that a customer will get from using your product.
+
+00:04:32.905 --> 00:04:36.920
+Activation is the second step in the pirate metrics framework
+
+00:04:36.920 --> 00:04:41.125
+because it is the second step in the user journey to becoming a customer.
+
+00:04:41.125 --> 00:04:43.835
+Your acquisition KPIs may look great
+
+00:04:43.835 --> 00:04:47.075
+and many potential customers maybe finding your product,
+
+00:04:47.075 --> 00:04:49.865
+but your products still won't be a success if you
+
+00:04:49.865 --> 00:04:53.579
+aren't able to activate visitors into users.
+

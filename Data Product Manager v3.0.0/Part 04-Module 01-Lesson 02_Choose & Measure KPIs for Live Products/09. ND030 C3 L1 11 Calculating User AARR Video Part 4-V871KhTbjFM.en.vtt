@@ -1,0 +1,142 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.255
+Let's look at how to calculate CAC and LTV
+
+00:00:03.255 --> 00:00:07.080
+using a simple example company, The Good Company.
+
+00:00:07.080 --> 00:00:12.720
+The Good Company have 5000 users in June and 2000 of those customers were new.
+
+00:00:12.720 --> 00:00:17.340
+The marketing costs for June were $2000 and the cost to upgrade
+
+00:00:17.340 --> 00:00:22.545
+and maintain the landing page and free trial of The Good Company product was $3000.
+
+00:00:22.545 --> 00:00:25.395
+To calculate the customer acquisition costs,
+
+00:00:25.395 --> 00:00:29.100
+we would need to add up all expenses associated with acquiring
+
+00:00:29.100 --> 00:00:33.855
+new customers and divide that total by the number of new customers achieved.
+
+00:00:33.855 --> 00:00:38.100
+In June, The Good Company spent $2000 on marketing and
+
+00:00:38.100 --> 00:00:43.185
+$3000 on maintaining their free trial site, so $5000 total.
+
+00:00:43.185 --> 00:00:46.800
+They recruited 2000 new customers in that time.
+
+00:00:46.800 --> 00:00:54.310
+So the customer acquisition cost would be 5000 divided by 2000 or $2.50 a customer.
+
+00:00:54.310 --> 00:00:57.695
+To calculate the lifetime value that can be expected,
+
+00:00:57.695 --> 00:00:59.840
+let's look at the transactions and revenue
+
+00:00:59.840 --> 00:01:02.750
+the company reported in the first half of the year.
+
+00:01:02.750 --> 00:01:04.505
+From January to May,
+
+00:01:04.505 --> 00:01:07.495
+The Good Company had 3000 customers.
+
+00:01:07.495 --> 00:01:10.910
+The average spending by a customer was $50 per
+
+00:01:10.910 --> 00:01:15.665
+transaction and the average number of purchases was one per month.
+
+00:01:15.665 --> 00:01:19.070
+Finally, The Good Company knows that a customer uses
+
+00:01:19.070 --> 00:01:22.670
+and pays for the product for about six months on average.
+
+00:01:22.670 --> 00:01:26.390
+To calculate LTV, we multiply average spending
+
+00:01:26.390 --> 00:01:30.070
+per user in a month by the retention time period in months.
+
+00:01:30.070 --> 00:01:33.380
+We know that the average spending by users in one month can be
+
+00:01:33.380 --> 00:01:38.000
+calculated by multiplying the average spending per transaction, $50,
+
+00:01:38.000 --> 00:01:41.030
+by the average number of transactions in a time period,
+
+00:01:41.030 --> 00:01:42.695
+1 for one month,
+
+00:01:42.695 --> 00:01:45.725
+then multiply by the average retention period,
+
+00:01:45.725 --> 00:01:47.510
+6 for six months.
+
+00:01:47.510 --> 00:01:53.705
+This calculation gives us a lifetime value for the average good company customer of $300.
+
+00:01:53.705 --> 00:01:58.220
+Any given customer might prove to have a higher or lower lifetime value,
+
+00:01:58.220 --> 00:02:01.640
+but the average customer will produce $300 in
+
+00:02:01.640 --> 00:02:05.810
+revenue for The Good Company during their product use lifetime.
+
+00:02:05.810 --> 00:02:09.475
+Revenue is the fourth step in the pirate metrics framework.
+
+00:02:09.475 --> 00:02:13.925
+Technically, this step might come before retention in some business models,
+
+00:02:13.925 --> 00:02:17.944
+but a business's revenue and profit can only be fully understood
+
+00:02:17.944 --> 00:02:22.520
+if the entire picture of the average customer journey is taken into account.
+
+00:02:22.520 --> 00:02:26.485
+So revenue comes near the end of the pirate metrics framework.
+
+00:02:26.485 --> 00:02:29.030
+As I mentioned earlier, referral,
+
+00:02:29.030 --> 00:02:34.280
+the final step in the pirate metrics is important because referrals from customers can
+
+00:02:34.280 --> 00:02:37.070
+create a powerful acquisition stream that helps
+
+00:02:37.070 --> 00:02:40.130
+a product grow without need for additional marketing.
+
+00:02:40.130 --> 00:02:42.860
+Referral success is typically measured by
+
+00:02:42.860 --> 00:02:48.245
+referral specific features such as invites sent from users to potential new users.
+
+00:02:48.245 --> 00:02:51.680
+When we cover instrumenting and collecting feature level data,
+
+00:02:51.680 --> 00:02:56.730
+you will have a chance to explore referral features as part of an exercise.
+

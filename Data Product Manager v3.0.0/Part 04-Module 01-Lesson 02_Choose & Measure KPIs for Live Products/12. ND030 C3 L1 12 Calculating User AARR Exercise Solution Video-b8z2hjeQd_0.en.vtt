@@ -1,0 +1,217 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:05.020
+For this exercise, we needed to examine data provided by the Best App Ever.
+
+00:00:05.020 --> 00:00:08.610
+First, we need to upload the data and see what we have to work with.
+
+00:00:08.610 --> 00:00:11.850
+It is always good practice to examine our data file rows and
+
+00:00:11.850 --> 00:00:15.735
+column names to make sure we know what data we have to work with.
+
+00:00:15.735 --> 00:00:18.810
+In this data file, we can see four columns.
+
+00:00:18.810 --> 00:00:22.605
+Marketing expenses, including salaries of marketing department,
+
+00:00:22.605 --> 00:00:26.490
+business overhead expenses, running the free app,
+
+00:00:26.490 --> 00:00:30.990
+total expenses, and new paying customers.
+
+00:00:30.990 --> 00:00:34.275
+The rows show the months in a year.
+
+00:00:34.275 --> 00:00:38.985
+This means someone has already done the work of gathering expenses paid out per month.
+
+00:00:38.985 --> 00:00:44.140
+First, we need to calculate the customer acquisition costs were total expenses.
+
+00:00:44.140 --> 00:00:47.360
+Recall that CAC equals the total expense of
+
+00:00:47.360 --> 00:00:51.305
+customer acquisition divided by the number of new customers acquired.
+
+00:00:51.305 --> 00:00:55.375
+This means we need to add up all the expenses related to recruiting customers.
+
+00:00:55.375 --> 00:00:58.220
+In this case, that would be marketing and the overhead of
+
+00:00:58.220 --> 00:01:01.520
+running the free app that users can access before paying.
+
+00:01:01.520 --> 00:01:05.975
+Then we divide that sum by the number of paying customers.
+
+00:01:05.975 --> 00:01:07.490
+By using this formula,
+
+00:01:07.490 --> 00:01:09.710
+we can find the CAC for each month.
+
+00:01:09.710 --> 00:01:12.380
+The second question asks if there is a month with
+
+00:01:12.380 --> 00:01:15.140
+marketing methods that seem particularly effective,
+
+00:01:15.140 --> 00:01:17.210
+or a month that is ineffective.
+
+00:01:17.210 --> 00:01:18.440
+For an effective month,
+
+00:01:18.440 --> 00:01:22.370
+we want to look for a month with the lowest customer acquisition cost.
+
+00:01:22.370 --> 00:01:23.780
+In that month, we got
+
+00:01:23.780 --> 00:01:27.965
+the most paying customers for the least marketing and overhead effort.
+
+00:01:27.965 --> 00:01:29.855
+Looks like this is November.
+
+00:01:29.855 --> 00:01:33.080
+Those marketing methods and channels used in November might
+
+00:01:33.080 --> 00:01:36.355
+be most efficient because they have the lowest CAC cost.
+
+00:01:36.355 --> 00:01:40.990
+In contrast, we can see the higher acquisition costs in March.
+
+00:01:40.990 --> 00:01:44.465
+If the app creator use different marketing channels in that month,
+
+00:01:44.465 --> 00:01:47.450
+they might want to steer away from those methods in the future,
+
+00:01:47.450 --> 00:01:52.225
+as it costs more to recruit a paying customer than in any other month of the year.
+
+00:01:52.225 --> 00:01:53.900
+For the third question,
+
+00:01:53.900 --> 00:01:56.975
+you were asked to calculate the lifetime value of a customer.
+
+00:01:56.975 --> 00:01:59.120
+To be able to calculate LTV,
+
+00:01:59.120 --> 00:02:01.460
+you were provided with the transactions of
+
+00:02:01.460 --> 00:02:05.755
+five customers who together represent an average customer.
+
+00:02:05.755 --> 00:02:09.450
+First, get the weekly spending for each user.
+
+00:02:09.450 --> 00:02:13.370
+This is the sum of all money spent by the user in a week.
+
+00:02:13.370 --> 00:02:17.840
+Then add up all the weekly spending by each user and divide
+
+00:02:17.840 --> 00:02:22.460
+it by the total number of users to get the weekly spending of an average user.
+
+00:02:22.460 --> 00:02:26.840
+This will result in a value of $23.30.
+
+00:02:26.840 --> 00:02:32.080
+Once you have established the average spending per week per customer at $23.30,
+
+00:02:32.080 --> 00:02:36.350
+you can go on to calculate basic lifetime value by multiplying
+
+00:02:36.350 --> 00:02:39.305
+the average customer spending in a given time period
+
+00:02:39.305 --> 00:02:42.950
+by the average customer lifespan in the same time units.
+
+00:02:42.950 --> 00:02:47.280
+Make sure the revenue and lifespan numbers use the same time units,
+
+00:02:47.280 --> 00:02:48.900
+such as week or months.
+
+00:02:48.900 --> 00:02:50.950
+In the case of the Best App Ever,
+
+00:02:50.950 --> 00:02:55.485
+the average customer lifespan is in weeks, 12 weeks.
+
+00:02:55.485 --> 00:03:00.875
+Lifetime value can be calculated by an average customer spending in a week times 12.
+
+00:03:00.875 --> 00:03:02.615
+For the Best App Ever,
+
+00:03:02.615 --> 00:03:08.105
+the average lifetime value of a customer is $279.60.
+
+00:03:08.105 --> 00:03:10.820
+Question Number 4 asks if the creator of
+
+00:03:10.820 --> 00:03:13.760
+the app is spending too much on CAC to be profitable?
+
+00:03:13.760 --> 00:03:16.430
+One sure sign of this would be if it costs more to
+
+00:03:16.430 --> 00:03:19.445
+recruit a user than the user returns in revenue.
+
+00:03:19.445 --> 00:03:22.240
+Essentially, if CAC is greater than LTV.
+
+00:03:22.240 --> 00:03:24.560
+We want to compare an LTV of
+
+00:03:24.560 --> 00:03:30.120
+about $280 with the customer acquisition costs we calculated in step 1.
+
+00:03:30.120 --> 00:03:32.150
+Since even in March,
+
+00:03:32.150 --> 00:03:38.225
+our highest CAC month LTV is still greater than the customer acquisition costs of $280.
+
+00:03:38.225 --> 00:03:41.150
+The data tells us the app creator isn't spending more
+
+00:03:41.150 --> 00:03:44.680
+getting new customers than it is earning from the average customer.
+
+00:03:44.680 --> 00:03:49.715
+Of course, we need to know more and have further data about the cost of app maintenance,
+
+00:03:49.715 --> 00:03:52.370
+the size of the addressable market, et cetera,
+
+00:03:52.370 --> 00:03:55.915
+to know if the Best App Ever has a solid business plan.
+
+00:03:55.915 --> 00:03:58.475
+However, we can confidently say
+
+00:03:58.475 --> 00:04:00.860
+their customer acquisition costs don't cost
+
+00:04:00.860 --> 00:04:04.980
+more than an average user will return in revenue.
+

@@ -1,0 +1,232 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:05.580
+For this exercise, you are asked to think like a landlord of a small apartment complex.
+
+00:00:05.580 --> 00:00:08.775
+What business model does a landlord most resemble?
+
+00:00:08.775 --> 00:00:11.625
+What KPIs could a landlord track?
+
+00:00:11.625 --> 00:00:13.980
+What are the North Star KPIs,
+
+00:00:13.980 --> 00:00:17.925
+that should lead a landlords evaluation of his business performance?
+
+00:00:17.925 --> 00:00:20.805
+Let's dive in. Question one.
+
+00:00:20.805 --> 00:00:26.190
+Which business model discussed in this section seems most similar to renting apartments?
+
+00:00:26.190 --> 00:00:32.865
+Why? Remember that a business model relates to how and why a business makes revenue.
+
+00:00:32.865 --> 00:00:38.610
+Let's compare the situation of a landlord to the three business models we discussed.
+
+00:00:38.610 --> 00:00:41.250
+First, the E-commerce model.
+
+00:00:41.250 --> 00:00:46.405
+Is the landlord getting paid once for a product that the customer then keeps forever?
+
+00:00:46.405 --> 00:00:50.494
+Maybe if the landlord was a real estate agent selling apartments,
+
+00:00:50.494 --> 00:00:56.015
+but no, his customers are renters who repeatedly pay for access to an apartment.
+
+00:00:56.015 --> 00:00:59.290
+So e-commerce is not the closest business model.
+
+00:00:59.290 --> 00:01:01.635
+Next, the Freemium model.
+
+00:01:01.635 --> 00:01:03.980
+Do landlords allows some renters to
+
+00:01:03.980 --> 00:01:07.250
+access the apartment for free and only pay for upgrades?
+
+00:01:07.250 --> 00:01:08.705
+No, not really.
+
+00:01:08.705 --> 00:01:11.255
+So that is not the most similar.
+
+00:01:11.255 --> 00:01:15.850
+Finally, the SAAS, or software as a service and subscription models.
+
+00:01:15.850 --> 00:01:18.935
+Users purchase temporary access to a software.
+
+00:01:18.935 --> 00:01:22.925
+In the case of an apartment complex, users is renters.
+
+00:01:22.925 --> 00:01:27.100
+They pay to get access to an apartment for a limited amount of time.
+
+00:01:27.100 --> 00:01:30.965
+The renters are subscribing to the service of an apartment.
+
+00:01:30.965 --> 00:01:33.065
+The renters do not own the apartment,
+
+00:01:33.065 --> 00:01:35.200
+but pay on a regular basis.
+
+00:01:35.200 --> 00:01:38.525
+At the end of their rental period or subscription term,
+
+00:01:38.525 --> 00:01:42.890
+they can choose to move to another apartment or to renew their subscription.
+
+00:01:42.890 --> 00:01:45.685
+So the SAAS model is the closest fit,
+
+00:01:45.685 --> 00:01:48.305
+even though in this case it is living space,
+
+00:01:48.305 --> 00:01:50.405
+not software as a service.
+
+00:01:50.405 --> 00:01:52.805
+Now let's consider a question two.
+
+00:01:52.805 --> 00:01:56.230
+What KPIs could you measure as a landlord?
+
+00:01:56.230 --> 00:02:00.080
+As a landlord, different categories of KPIs can be measured.
+
+00:02:00.080 --> 00:02:03.330
+Even landlords need to decide what to focus on.
+
+00:02:03.330 --> 00:02:05.720
+For this question, you were asked to think of
+
+00:02:05.720 --> 00:02:09.610
+a few example KPIs for different categories of concern.
+
+00:02:09.610 --> 00:02:12.620
+The first category was finding new tenants,
+
+00:02:12.620 --> 00:02:15.980
+which is similar to acquiring new customers.
+
+00:02:15.980 --> 00:02:20.995
+An example KPI in this category is time between rentals.
+
+00:02:20.995 --> 00:02:23.330
+When an apartment isn't being rented,
+
+00:02:23.330 --> 00:02:25.460
+a landlord isn't making money.
+
+00:02:25.460 --> 00:02:30.505
+So how fast they can acquire new customers might be an important KPI.
+
+00:02:30.505 --> 00:02:34.310
+Remember, your solution might have had different KPIs,
+
+00:02:34.310 --> 00:02:37.840
+but as long as they were measurable and related to the category,
+
+00:02:37.840 --> 00:02:40.975
+you identified potential KPIs for a landlord.
+
+00:02:40.975 --> 00:02:44.000
+The second category was renter happiness,
+
+00:02:44.000 --> 00:02:46.625
+which is similar to customer satisfaction.
+
+00:02:46.625 --> 00:02:51.890
+An example of this is renter happiness with their apartment complex and maintenance,
+
+00:02:51.890 --> 00:02:54.625
+which the landlord could measure via a survey.
+
+00:02:54.625 --> 00:02:57.575
+The third category was repairs and maintenance,
+
+00:02:57.575 --> 00:02:59.375
+similar to customer support.
+
+00:02:59.375 --> 00:03:02.795
+An example of this is a number of work orders
+
+00:03:02.795 --> 00:03:06.715
+which might be similar to the number of customer support tickets received.
+
+00:03:06.715 --> 00:03:10.175
+The final category was around Revenues and Costs.
+
+00:03:10.175 --> 00:03:12.320
+Some examples of this would be,
+
+00:03:12.320 --> 00:03:18.995
+revenue per month from rental fees and net profit revenue after all costs and expenses.
+
+00:03:18.995 --> 00:03:23.765
+From question two, we know that landlords like data product managers,
+
+00:03:23.765 --> 00:03:26.660
+face a lot of data and potential KPIs,
+
+00:03:26.660 --> 00:03:28.800
+but which to focus on?
+
+00:03:28.800 --> 00:03:31.880
+Question three asks, if you could only choose three,
+
+00:03:31.880 --> 00:03:36.200
+which KPIs would you choose to focus on as a landlord and why?
+
+00:03:36.200 --> 00:03:41.920
+Well, the first focus of a landlord or a business is the revenue coming in the door.
+
+00:03:41.920 --> 00:03:44.165
+So when looking at the data available,
+
+00:03:44.165 --> 00:03:47.690
+the most valuable is going to be KPIs that either are
+
+00:03:47.690 --> 00:03:51.470
+revenue or directly impact revenue and potential revenue.
+
+00:03:51.470 --> 00:03:55.850
+For this reason, you should first focus on revenue or net profit.
+
+00:03:55.850 --> 00:03:59.000
+Then you should choose KPIs that show whether
+
+00:03:59.000 --> 00:04:02.930
+that revenue will continue and customers will continue to buy.
+
+00:04:02.930 --> 00:04:05.600
+As we saw when looking at business models,
+
+00:04:05.600 --> 00:04:09.740
+customer satisfaction is a leading indicator to show if the product we're
+
+00:04:09.740 --> 00:04:14.450
+offering is a good fit and people are likely to continue to pay for our product.
+
+00:04:14.450 --> 00:04:18.335
+So the second KPI would be renters satisfaction,
+
+00:04:18.335 --> 00:04:23.090
+which is a leading indicator of whether our renter customers will renew,
+
+00:04:23.090 --> 00:04:26.690
+and a third KPI to focus on would be renewal rates,
+
+00:04:26.690 --> 00:04:31.620
+the actual rate at which our renter customers choose to repurchase.
+
