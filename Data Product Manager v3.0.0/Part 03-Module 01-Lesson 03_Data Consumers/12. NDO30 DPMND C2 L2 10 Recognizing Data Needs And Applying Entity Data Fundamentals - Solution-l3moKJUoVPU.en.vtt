@@ -1,0 +1,337 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.940
+In this section, we will discuss the types of data
+
+00:00:02.940 --> 00:00:06.170
+needed for a Knapsack, possibility to elements,
+
+00:00:06.170 --> 00:00:11.220
+and we'll explore if we can do some entity data modeling for marketing,
+
+00:00:11.220 --> 00:00:14.175
+finance, and customer care use cases.
+
+00:00:14.175 --> 00:00:16.410
+We know our business goals,
+
+00:00:16.410 --> 00:00:23.250
+we have [inaudible] that'll be spearheading those and we know what their use cases are.
+
+00:00:23.250 --> 00:00:26.505
+Our first stakeholder group is engineering.
+
+00:00:26.505 --> 00:00:30.300
+Their business goal is having a working product.
+
+00:00:30.300 --> 00:00:35.020
+The use case is monitoring site and app performance.
+
+00:00:35.020 --> 00:00:39.515
+For that, type of data needed would be event data.
+
+00:00:39.515 --> 00:00:42.125
+Data elements needed would be,
+
+00:00:42.125 --> 00:00:46.255
+event ID, timestamp and event type.
+
+00:00:46.255 --> 00:00:49.010
+Next will be product management team.
+
+00:00:49.010 --> 00:00:52.610
+Their business goal is improving product and
+
+00:00:52.610 --> 00:00:56.615
+the use case will be identifying customer pain-points.
+
+00:00:56.615 --> 00:00:59.650
+For that, they will need event data,
+
+00:00:59.650 --> 00:01:03.135
+and the event data elements they could use would be,
+
+00:01:03.135 --> 00:01:08.185
+event ID, timestamp, even type and event page.
+
+00:01:08.185 --> 00:01:11.315
+Marketing wants to retain old customers.
+
+00:01:11.315 --> 00:01:14.945
+Their use case is targeted advertising.
+
+00:01:14.945 --> 00:01:16.475
+They will be needing,
+
+00:01:16.475 --> 00:01:18.565
+entity data for that.
+
+00:01:18.565 --> 00:01:23.200
+Some of the entity data elements that could be useful for them are,
+
+00:01:23.200 --> 00:01:26.770
+customer name, e-mail, phone,
+
+00:01:26.770 --> 00:01:30.125
+address, and customer order history.
+
+00:01:30.125 --> 00:01:32.060
+Next comes finance.
+
+00:01:32.060 --> 00:01:38.135
+They want to predict P&amp;L growth and their use case is monitoring current P&amp;L.
+
+00:01:38.135 --> 00:01:42.845
+The data that will be helpful to them would be entity data.
+
+00:01:42.845 --> 00:01:46.820
+They would need data elements around cost and price.
+
+00:01:46.820 --> 00:01:52.500
+They might use aggregated transactional data, number of transactions,
+
+00:01:52.500 --> 00:01:55.480
+cost of transaction, retail price,
+
+00:01:55.480 --> 00:01:59.035
+taxes, and the other type of charges.
+
+00:01:59.035 --> 00:02:03.245
+Focus area of logistics team is product delivery.
+
+00:02:03.245 --> 00:02:06.395
+They want to identify delivery bottlenecks.
+
+00:02:06.395 --> 00:02:10.605
+They would need both event data and entity data.
+
+00:02:10.605 --> 00:02:15.755
+The event data that could be useful to them might be event ID,
+
+00:02:15.755 --> 00:02:21.290
+timestamp, event type, parcel number, hop number.
+
+00:02:21.290 --> 00:02:24.110
+Entity data they might need could be,
+
+00:02:24.110 --> 00:02:26.940
+parcel number, hop number,
+
+00:02:26.940 --> 00:02:28.560
+and time at hop.
+
+00:02:28.560 --> 00:02:31.080
+Next, inventory management team.
+
+00:02:31.080 --> 00:02:34.970
+They want to have sufficient inventory to achieve that goal.
+
+00:02:34.970 --> 00:02:38.405
+They want to monitor inventory lead time.
+
+00:02:38.405 --> 00:02:41.285
+For that they might use both event,
+
+00:02:41.285 --> 00:02:43.265
+an entity type of data.
+
+00:02:43.265 --> 00:02:46.375
+Data elements that could help them are,
+
+00:02:46.375 --> 00:02:49.040
+in event data category,
+
+00:02:49.040 --> 00:02:54.375
+event ID, timestamp, event type, batch number.
+
+00:02:54.375 --> 00:02:56.400
+For an entity data,
+
+00:02:56.400 --> 00:03:01.530
+there will be interested in timestamp when the order was placed,
+
+00:03:01.530 --> 00:03:06.285
+timestamp when order was dispatched from the manufacturing facility,
+
+00:03:06.285 --> 00:03:10.900
+timestamp when the order was delivered to the warehouse and batch number.
+
+00:03:10.900 --> 00:03:13.285
+Finally, customer care team.
+
+00:03:13.285 --> 00:03:16.090
+They want to address customer grievances
+
+00:03:16.090 --> 00:03:19.760
+and provide personalized response to the customer.
+
+00:03:19.760 --> 00:03:22.870
+They will require entity data for that.
+
+00:03:22.870 --> 00:03:26.110
+Useful data elements for them could be,
+
+00:03:26.110 --> 00:03:28.405
+order number, product details,
+
+00:03:28.405 --> 00:03:31.610
+cost, price, and delivery date.
+
+00:03:31.610 --> 00:03:33.795
+Entity data modeling.
+
+00:03:33.795 --> 00:03:35.679
+For marketing, finance,
+
+00:03:35.679 --> 00:03:37.345
+and customer use cases,
+
+00:03:37.345 --> 00:03:40.450
+we'll start with four tables.
+
+00:03:40.450 --> 00:03:45.735
+Table 1, it stores customer contact information.
+
+00:03:45.735 --> 00:03:49.260
+Table 2 has customer demographics.
+
+00:03:49.260 --> 00:03:52.485
+Table 3 contains order details.
+
+00:03:52.485 --> 00:03:55.500
+Table 4 is about product.
+
+00:03:55.500 --> 00:04:00.255
+In customer table, we have customer ID,
+
+00:04:00.255 --> 00:04:05.280
+first name, last name, address, and e-mail.
+
+00:04:05.280 --> 00:04:10.235
+Customer demographics has, customer ID,
+
+00:04:10.235 --> 00:04:16.695
+age, gender, marital status, parental status.
+
+00:04:16.695 --> 00:04:22.085
+Order details has, order ID, date,
+
+00:04:22.085 --> 00:04:25.240
+product ID, customer ID,
+
+00:04:25.240 --> 00:04:29.745
+quantity, retail price, tax rate.
+
+00:04:29.745 --> 00:04:33.245
+Product table has, product ID,
+
+00:04:33.245 --> 00:04:39.680
+type, color, size, material, and cost price.
+
+00:04:39.680 --> 00:04:42.535
+Now we'll identify keys.
+
+00:04:42.535 --> 00:04:46.300
+Customer ID is primary key for customer table,
+
+00:04:46.300 --> 00:04:48.605
+and customer demographics table.
+
+00:04:48.605 --> 00:04:52.735
+Product ID is the primary key for product table.
+
+00:04:52.735 --> 00:04:57.350
+Order ID is the primary key for order details table.
+
+00:04:57.350 --> 00:05:00.765
+Foreign keys for order detail table are,
+
+00:05:00.765 --> 00:05:03.450
+customer ID and product ID.
+
+00:05:03.450 --> 00:05:06.865
+All other tables do not have any foreign keys.
+
+00:05:06.865 --> 00:05:10.410
+For targeted advertising, we have to be careful.
+
+00:05:10.410 --> 00:05:13.350
+It should be delightful and not creepy.
+
+00:05:13.350 --> 00:05:15.450
+The marketing team will join,
+
+00:05:15.450 --> 00:05:21.665
+order table with product table and customer demographic table,
+
+00:05:21.665 --> 00:05:26.375
+to get customer insights and purchase patents by demographic.
+
+00:05:26.375 --> 00:05:31.550
+For example, we might realize that youngsters like cool and funky bags,
+
+00:05:31.550 --> 00:05:34.880
+while adults prefer functional and professional bags.
+
+00:05:34.880 --> 00:05:42.230
+We can use this information along with customer information to do targeted advertising.
+
+00:05:42.230 --> 00:05:47.090
+If John Doe recently created a profile and told us he is 45,
+
+00:05:47.090 --> 00:05:49.160
+married and have children.
+
+00:05:49.160 --> 00:05:53.045
+We can send him promotional e-mails suitable for his persona.
+
+00:05:53.045 --> 00:05:56.165
+Next, for monitoring profit and loss,
+
+00:05:56.165 --> 00:05:59.120
+we will calculate margin per order,
+
+00:05:59.120 --> 00:06:05.065
+picking retail price and tax from order data and cost from product tables.
+
+00:06:05.065 --> 00:06:11.885
+This data will be aggregated periodically to create P&amp;L trend over time.
+
+00:06:11.885 --> 00:06:14.015
+Please note, for simplicity sake,
+
+00:06:14.015 --> 00:06:16.670
+I have considered only few elements of cost.
+
+00:06:16.670 --> 00:06:18.895
+That basic idea remains same.
+
+00:06:18.895 --> 00:06:24.090
+We calculate cost and subtract it from revenue to get profit.
+
+00:06:24.090 --> 00:06:27.765
+Next, customer care team needs.
+
+00:06:27.765 --> 00:06:30.455
+All the history of customer,
+
+00:06:30.455 --> 00:06:32.930
+what they bought, when they bought it,
+
+00:06:32.930 --> 00:06:36.790
+that data will be derived by joining order table,
+
+00:06:36.790 --> 00:06:39.900
+product table and customer table.
+
+00:06:39.900 --> 00:06:45.570
+This will help customer care team provide personalized responses to the caller,
+
+00:06:45.570 --> 00:06:49.055
+and this brings us to the end of this section.
+
+00:06:49.055 --> 00:06:52.890
+Let's bring it all together with one last quiz.
+

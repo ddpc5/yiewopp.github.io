@@ -1,0 +1,85 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.220
+Data through APIs.
+
+00:00:02.220 --> 00:00:06.330
+Many online platforms and web services such as Google
+
+00:00:06.330 --> 00:00:10.740
+and Facebook expose their data through a web API.
+
+00:00:10.740 --> 00:00:17.415
+Sometimes we need to build API connections and database connection to pull in this data.
+
+00:00:17.415 --> 00:00:23.175
+API examples, Facebook ads Insights API
+
+00:00:23.175 --> 00:00:29.310
+could be feeding your CRM to get statistics of ads you're running on Facebook.
+
+00:00:29.310 --> 00:00:31.830
+Similarly, you might be using
+
+00:00:31.830 --> 00:00:38.160
+Google Custom Search APIs to provide a customized search on your blog or site.
+
+00:00:38.160 --> 00:00:41.670
+Other type of data could be through flat files.
+
+00:00:41.670 --> 00:00:45.020
+No matter how much automation is put in place,
+
+00:00:45.020 --> 00:00:51.235
+there is always a need to ingest data from a flat files such as CSV.
+
+00:00:51.235 --> 00:00:55.040
+You need appropriate systems in place to import
+
+00:00:55.040 --> 00:00:59.435
+such data and make it available for query and visualization.
+
+00:00:59.435 --> 00:01:05.315
+Data quality and data integrity is always a concern in such cases,
+
+00:01:05.315 --> 00:01:09.020
+but you have to still figure out best ways to handle
+
+00:01:09.020 --> 00:01:14.020
+such scenarios without degrading your quality commitments.
+
+00:01:14.020 --> 00:01:19.785
+Example of flat file data would be, transaction reconciliations.
+
+00:01:19.785 --> 00:01:22.510
+E-commerce platform such as Amazon,
+
+00:01:22.510 --> 00:01:26.595
+eBay, work with multiple vendors, small and big.
+
+00:01:26.595 --> 00:01:29.010
+They could be monthly or weekly
+
+00:01:29.010 --> 00:01:34.015
+reconciliation processes running to reconcile inventory and transactions.
+
+00:01:34.015 --> 00:01:38.870
+Many small businesses reconcile using CSV files.
+
+00:01:38.870 --> 00:01:43.340
+They send CSV files with all the transactions that invent to information.
+
+00:01:43.340 --> 00:01:49.820
+Organizations need to have capabilities to ingest and process such files.
+
+00:01:49.820 --> 00:01:52.835
+This brings us to the end of this section.
+
+00:01:52.835 --> 00:01:55.100
+I'll see you soon in the next section,
+
+00:01:55.100 --> 00:01:57.870
+with solution to all the quizzes.
+

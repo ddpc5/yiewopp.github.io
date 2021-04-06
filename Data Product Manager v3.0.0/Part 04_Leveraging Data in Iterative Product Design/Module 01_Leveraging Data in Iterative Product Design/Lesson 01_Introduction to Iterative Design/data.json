@@ -1,0 +1,1061 @@
+{
+  "data": {
+    "lesson": {
+      "id": 1028123,
+      "key": "512e6332-8266-4662-a71f-7395c89f52c1",
+      "title": "Introduction to Iterative Design",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": "In this lesson, you will be given an overview of the course.",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": false,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "https://zips.udacity-data.com/512e6332-8266-4662-a71f-7395c89f52c1/1028123/1605812294810/Introduction+to+Iterative+Design+Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "https://zips.udacity-data.com/512e6332-8266-4662-a71f-7395c89f52c1/1028123/1605812291432/Introduction+to+Iterative+Design+Subtitles.zip"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 1028124,
+          "key": "2b2676e6-93e8-42a9-adab-4c0246e7ef0c",
+          "title": "Meet Your Instructor",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2b2676e6-93e8-42a9-adab-4c0246e7ef0c",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1028125,
+              "key": "94cd99bb-30c4-4e49-a1ce-edf2586fb90c",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Meet Your Instructor",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1028126,
+              "key": "5f666a74-7462-42d4-9457-2720a295c805",
+              "title": "ND030 C3 L0 01 Meet Your Instructor Video",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "xMBJ6NWm5Wo",
+                "china_cdn_id": "xMBJ6NWm5Wo.mp4"
+              }
+            },
+            {
+              "id": 1028127,
+              "key": "620b1bd8-e466-47c8-a4f2-352606d7d5d9",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Hello and welcome! \n\nMy name is Anne Rynearson.\n\nI have almost a decade of experience as a software product manager, including managing and launching consumer and enterprise-facing products in the education and market research industries. My focus is on developing Agile teams that use data-driven decision making as part of a cycle of iterative product development. \n\nI’m excited to share my knowledge with you and hope you will enjoy the journey of exploring data-driven iterative product design with me.\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1045424,
+              "key": "5081214c-94d3-404f-9e72-2d9667c78fbf",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Fun Facts\n\nProfessional accomplishments aside...here are some fun facts about me!\n\n- I was a nationally competitive synchronized swimmer in high school\n- I have two cats named Zahara and Nico (who luckily didn't interrupt my video shoots for this course too often!)\n- I'm originally from New Hampshire, but currently live and work in Los Angeles\n- I drink cups and cups of tea every day\n\nGood luck in the course ahead!",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1028128,
+          "key": "f7f037d1-156f-400b-bf87-fb44c05408a4",
+          "title": "Introduction",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "f7f037d1-156f-400b-bf87-fb44c05408a4",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1028129,
+              "key": "7b91bd71-4a9d-4b39-9771-73057a1ec057",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Introduction",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1028130,
+              "key": "f95713fa-5205-4f86-99b2-5bbe4b1a35ef",
+              "title": "ND030 C3 L0 02 Introduction To Iterative Design Video",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "GBC6BZasxSk",
+                "china_cdn_id": "GBC6BZasxSk.mp4"
+              }
+            },
+            {
+              "id": 1028331,
+              "key": "100e32de-79ce-4591-b58f-c5152686b191",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Summary\n\nWorking with data can be overwhelming: which data is the most important? Which sources should you focus on? How can the data be leveraged to improve your product? By the end of this course, you’ll have the skills to answer these questions and to leverage data in a more effective way. \n\nIn data-driven iterative design, data product managers evaluate user data to identify areas for improvement, then look for potential solutions, create prototypes, get feedback from customers, launch tests, and then return to data evaluation to look for more areas to improve and grow user satisfaction. By the end of this course, you will learn about the iterative design process and how to use both quantitative and qualitative data to help improve your products and better serve your customers.\n\n\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1028333,
+          "key": "c9428479-d318-4f22-addf-f4703ca0ec46",
+          "title": "Course Preview",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "c9428479-d318-4f22-addf-f4703ca0ec46",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1028334,
+              "key": "d411e824-a2ee-448e-9e01-80b20f59a975",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Course Preview",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1028336,
+              "key": "9f136cd6-037a-4dc3-ac54-90a20a668dc5",
+              "title": "ND030 C3 L0 03 Course Preview Video",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "t-BH0VlEVMo",
+                "china_cdn_id": "t-BH0VlEVMo.mp4"
+              }
+            },
+            {
+              "id": 1043826,
+              "key": "6dacac90-0382-48eb-81a3-2d1651f490a5",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/July/5f04d51b_l0-co/l0-co.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/6dacac90-0382-48eb-81a3-2d1651f490a5",
+              "caption": "Course outline",
+              "alt": "Course outline",
+              "width": 600,
+              "height": 464,
+              "instructor_notes": null
+            },
+            {
+              "id": 1028335,
+              "key": "0b2ebb43-5c5e-4077-abdb-8dcdda7c88b2",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Summary\nThis course has 6 lessons.\n- **Welcome lesson**: you’ll learn about iterative design, its history, and why it is so important to data product managers.\n- **Choose & Measure KPIs for Live Products**: you’ll learn about key performance indicators for different business models, how to calculate common KPIs and how to instrument and collect data needed to calculate KPIs\n- **Evaluate User Conversion Funnels**: you'll learn about user conversion funnels, including how to measure and visualize user drop off between steps. By analyzing user funnels, you’ll learn how to reveal potential opportunities for product improvement.\n- **Apply User Segment Analysis**: you will learn about segment analysis, including how to divide users into cohorts or segments that share similar characteristics and how to apply cohorts and segments to funnel and feature usage analysis. By looking at product data broken into user segments, you’ll be able to identify opportunities to engage and improve the user experience.\n- **Quantitative & Qualitative Data**: you will dive into qualitative and quantitative data, including the benefits and drawbacks, methods for collecting qualitative data, and ways to integrate data into the iterative design process.\n- **A/B & Multivariate Tests**: you will learn how to choose an appropriate test for different situations, how to track data during a test, and how to evaluate a test’s results for statistical significance.\n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1044935,
+              "key": "fc7f6521-d617-45da-8b53-5c238c287374",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Course objective\nAt the end of the course, you will be able to:\n- Determine key metrics of success for a product based on the product’s business model and place in the development lifecycle. \n- Analyze funnel metrics, feature usage, and other product data to determine product areas in need of optimization. \n- Perform data analysis of KPIs against different user segments/behavioral dimensions to determine user groups to target when designing features \n- Conduct and analyze qualitative user research data to gain insight into the drivers behind user behavior in order to surface new product opportunities.\n- Validate features when engineering resources are not available using qualitative research methods such as prototyping.\n- Design and launch an A/B and multivariate experiment.\n- Evaluate A/B and multivariate experiment results using statistical methods to suggest future areas of research.\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1028338,
+          "key": "cacd1aa5-460c-43e6-9be3-ecc41fb45745",
+          "title": "Lesson Outline",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "cacd1aa5-460c-43e6-9be3-ecc41fb45745",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1028339,
+              "key": "bd18b439-569e-409e-b3e6-4914569fb037",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Lesson Outline",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1028340,
+              "key": "5a9acc27-3733-4c52-9cb4-1761928bda01",
+              "title": "ND030 C3 L0 04 Lesson Outline Video",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "Uk7lRy4HIcQ",
+                "china_cdn_id": "Uk7lRy4HIcQ.mp4"
+              }
+            },
+            {
+              "id": 1043834,
+              "key": "6cb4f639-15a6-4072-b6b3-8951feba0a02",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/July/5f04ddb9_l0-lo/l0-lo.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/6cb4f639-15a6-4072-b6b3-8951feba0a02",
+              "caption": "Lesson outline",
+              "alt": "",
+              "width": 600,
+              "height": 288,
+              "instructor_notes": null
+            },
+            {
+              "id": 1028342,
+              "key": "03b94d35-b1ac-4fae-a760-64aa9817c90e",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Summary\nIn the first part of this lesson, we’ll discuss the iterative design cycle and the three stages and six steps of the design thinking cycle.\n\nIn the second part of the lesson, we’ll delve into the business stakeholders you’ll work with as a data product manager.\n\nIn the third part of this lesson, we’ll discuss the history of iterative design, including the spiral development model from the 1980s and the growth of Agile development methods in the 1990s and 2000s.\n\nIn the last part of this lesson, we’ll discuss the final project you’ll complete at the end of this course.\n\n\n\n\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1028347,
+          "key": "0bf5bf67-b530-4091-ae9c-851de0097fe6",
+          "title": "Introduction to Iterative Design",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "0bf5bf67-b530-4091-ae9c-851de0097fe6",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1028348,
+              "key": "c1dddf51-9bef-4cad-8895-0e857356e654",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Introduction to Iterative Design",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1028349,
+              "key": "0048b94d-3808-4ed7-9e0f-d8edd0a5b6dc",
+              "title": "ND030 C3 L0 05 Introduction To Iterative Design Video",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "2TNwLsTFg6c",
+                "china_cdn_id": "2TNwLsTFg6c.mp4"
+              }
+            },
+            {
+              "id": 1028353,
+              "key": "3d8d7e45-8b77-432a-92d6-c9a8bbe0cfe0",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Summary\n### Cycle of iterative design\nThe cycle of iterative design starts with **designing** something. It may be a product or a feature for a product. After the feature is designed, it can be put in place, or **implemented**. Once the new design has been put in front of others, it is time to **evaluate** the performance of the design. As evaluation suggests ways that a design can be made stronger, we return to the design stage and the cycle of iterative design continues.\n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1043835,
+              "key": "dc2e0378-1079-4764-9a14-8dc7b7362e05",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/July/5f04dddc_l0-iter/l0-iter.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/dc2e0378-1079-4764-9a14-8dc7b7362e05",
+              "caption": "Iterative design cycle: Design-Implement-Evaluate ",
+              "alt": "",
+              "width": 500,
+              "height": 358,
+              "instructor_notes": null
+            },
+            {
+              "id": 1043750,
+              "key": "189c347b-e627-4d7c-9c15-5d49bf177e39",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Designing thinking cycle\nThe design thinking cycle expands on the cycle of iterative design by laying out three stages and six steps that highlight data-driven best practices for changing or creating features and products.\n\nThe first stage in the cycle is **Understand**. This includes\n**empathizing** users' needs by conducting research and **defining** users' problems by combining all research results.\n\nAfter the Understand stage comes the **Explore** stage, where different ideas are explored to meet users' needs. The first step in this stage is **ideation** when product managers and designers think broadly and generate a large list of potential ideas. Once many ideas have been generated, a few that seem like the best fit could be **prototyped**.\n\nThen the design thinking cycle enters the **Materialize** stage. The first step in this stage is **testing** the change. It includes getting feedback and running experiments on prototypes. After testing, the new design is **implemented** for all users. \n\nWith the new design launched, a product manager will continue to analyze data and reach out to customers to identify areas that could be improved. With this, the cycle begins again. By following this cycle, product managers leverage data to drive the creation of the most appealing product for users.\n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1043836,
+              "key": "8ed17af3-d967-4f3c-a949-3eec003305de",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/July/5f04de13_l0-thinking/l0-thinking.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/8ed17af3-d967-4f3c-a949-3eec003305de",
+              "caption": "Designing thinking cycle",
+              "alt": "",
+              "width": 422,
+              "height": 404,
+              "instructor_notes": null
+            },
+            {
+              "id": 1043751,
+              "key": "709d5cb9-83e1-4eaf-beb3-e35482b0c863",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "709d5cb9-83e1-4eaf-beb3-e35482b0c863",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "To help their users healthily playing games, a data product manager has launched a new feature that shows users how much time they spend on the game per day. The data product manager is reviewing the usage of the new feature by different types of users and trying to determine where to improve. Given the information, in which stage of the classic cycle of iterative design is the product manager?",
+                "answers": [
+                  {
+                    "id": "a1594080758429",
+                    "text": "Design",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1594080765279",
+                    "text": "Implement",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1594080769697",
+                    "text": "Evaluate",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1043915,
+              "key": "49bd12fd-418b-4afe-a9c1-18bb482d9e04",
+              "title": "",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "49bd12fd-418b-4afe-a9c1-18bb482d9e04",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Select all true statements about the cycle of design thinking.",
+                "answers": [
+                  {
+                    "id": "a1594224521405",
+                    "text": "The cycle always starts with the empathize stage",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1594224555470",
+                    "text": "The empathize stage is when product managers and designers try to better understand their users' motivations",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1594224606838",
+                    "text": "In the explore stage, product managers find and try competitive products",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1594224630046",
+                    "text": "The explore stage allows product managers to think broadly and prototype new ideas without committing many resources",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1594224658396",
+                    "text": "During the materialize stage, a product manager may show a change to only a set of users as part of an experiment, or to all users.",
+                    "is_correct": true
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 1028355,
+          "key": "7ade0364-c697-48a3-bc50-1467dbde1cd3",
+          "title": "Iterative Design for Data Product Managers",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "7ade0364-c697-48a3-bc50-1467dbde1cd3",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1028356,
+              "key": "108f1b3a-22fb-44b2-929d-fc1175676645",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Iterative Design for Data Product Managers",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1028357,
+              "key": "f319b140-c4da-4abd-9f52-0ee26e8dacba",
+              "title": "ND030 C3 L0 06 Iterative Design Is ImportantVideo",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "FBGHECHq10M",
+                "china_cdn_id": "FBGHECHq10M.mp4"
+              }
+            },
+            {
+              "id": 1028358,
+              "key": "da5b0991-72db-4d24-905f-76dd5880e88b",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Summary\nIf you ever wonder why iterative design is important to data product managers, just remember that business school students with decades of education couldn’t build a tower taller than the towers preschoolers built when they leveraged the power of that cycle.\n\nData can help product managers identify areas for product improvement and make a better product. The data-driven iterative design cycle ensures that product managers test potential changes before committing a large amount of work to a potentially bad idea, thus ensuring that product managers waste fewer resources.\n\n\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1028360,
+          "key": "a9021c06-8069-443a-bf92-8d814869d1b0",
+          "title": "Business Stakeholders",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "a9021c06-8069-443a-bf92-8d814869d1b0",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1028361,
+              "key": "3c13178c-78ec-4ff0-9a15-09f9e6104c87",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Business Stakeholders",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1028362,
+              "key": "72169f59-69b6-479f-a664-ce4aae3e1edd",
+              "title": "ND030 C3 L0 07 Business Stakeholders Video",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "Zyo_7yazV4o",
+                "china_cdn_id": "Zyo_7yazV4o.mp4"
+              }
+            },
+            {
+              "id": 1045312,
+              "key": "17418b15-11e5-4ce8-8871-a2106bd0435e",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/July/5f0f90b1_screen-shot-2020-07-15-at-4.26.19-pm/screen-shot-2020-07-15-at-4.26.19-pm.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/17418b15-11e5-4ce8-8871-a2106bd0435e",
+              "caption": "",
+              "alt": "",
+              "width": 700,
+              "height": 788,
+              "instructor_notes": null
+            },
+            {
+              "id": 1028363,
+              "key": "fe4e07a2-6803-4845-9a60-2e4fdbfb7e0d",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Summary\nThere are many teams that you will be closely working with as a product manager. These teams are:\n- **Finance**: Finance leads will help you measure KPIs that tie into the financial health of your product.\n- **Marketing**: Marketing sells your product to potential customers. They have a great interest in the things you plan to change, upgrade, or add to a product. In exchange, the marketing or sales team will provide feedback from real customers and great insight into the competitive landscape.\n- **Design**: Designers often help with creating simple prototypes for testing as well as leading usability testing on more finalized designs. \n- **Data science**: Data scientists run deep analyses to help data product managers understand how to better meet user needs.\n- **Engineering**: Engineers build and make changes to a product based on the direction of product management. They also help instrument products and features so that data can be collected.\n\nAs a product manager, you should understand the function of each team and how they will affect the product or the product design process.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1043914,
+              "key": "482e8c96-4c2b-4efa-9c44-8ac37bacccd3",
+              "title": "Match the Stakeholder Type and Description",
+              "semantic_type": "MatchingQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "482e8c96-4c2b-4efa-9c44-8ac37bacccd3",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "complex_prompt": {
+                  "text": "Match the stakeholder type to the description of an individual"
+                },
+                "concepts_label": "Stakeholder Type",
+                "answers_label": "Example Stakeholder Description",
+                "concepts": [
+                  {
+                    "text": "Finance",
+                    "correct_answer": {
+                      "id": "a1594223547157",
+                      "text": "Lisa runs all the books and helps you determine costs and revenue generated by the product."
+                    }
+                  },
+                  {
+                    "text": "Marketing",
+                    "correct_answer": {
+                      "id": "a1594223631162",
+                      "text": "Jamal creates advertising campaigns whenever a new product launches."
+                    }
+                  },
+                  {
+                    "text": "Design",
+                    "correct_answer": {
+                      "id": "a1594223657290",
+                      "text": "Yoni builds prototypes and clickthroughs of potential product features or changes."
+                    }
+                  },
+                  {
+                    "text": "Data Science",
+                    "correct_answer": {
+                      "id": "a1594223709864",
+                      "text": "Jide works with large amounts of data to build machine learning models to predict user behavior."
+                    }
+                  },
+                  {
+                    "text": "Engineering",
+                    "correct_answer": {
+                      "id": "a1594223752714",
+                      "text": "Linnette writes the code that makes new features work for customers."
+                    }
+                  }
+                ],
+                "answers": [
+                  {
+                    "id": "a1594223752714",
+                    "text": "Linnette writes the code that makes new features work for customers."
+                  },
+                  {
+                    "id": "a1594223631162",
+                    "text": "Jamal creates advertising campaigns whenever a new product launches."
+                  },
+                  {
+                    "id": "a1594223709864",
+                    "text": "Jide works with large amounts of data to build machine learning models to predict user behavior."
+                  },
+                  {
+                    "id": "a1594223547157",
+                    "text": "Lisa runs all the books and helps you determine costs and revenue generated by the product."
+                  },
+                  {
+                    "id": "a1594223657290",
+                    "text": "Yoni builds prototypes and clickthroughs of potential product features or changes."
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1043843,
+              "key": "09bb7da8-ac38-4241-8798-fb91e68717a5",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Further research\n\n- *The Ultimate Guide to Stakeholder Management for Product Managers*:\nhttps://phrase.com/blog/posts/ultimate-guide-to-stakeholder-management-for-product-managers/",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1028364,
+          "key": "8a7e6bae-0b8e-4c8b-831a-736597075fbe",
+          "title": "History of Iterative Design",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8a7e6bae-0b8e-4c8b-831a-736597075fbe",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1028365,
+              "key": "798fef16-82c4-43fb-8cc6-3e12e5bad3f8",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# History of Iterative Design",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1028366,
+              "key": "87a98c0b-31f0-43c9-a66d-0f7a37c44d61",
+              "title": "ND030 C3 L0 08 History Of Iterative Design Video",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "1yFrZhxlbKM",
+                "china_cdn_id": "1yFrZhxlbKM.mp4"
+              }
+            },
+            {
+              "id": 1043837,
+              "key": "2e21a9f1-f7b5-46e3-ae8c-47877ae45e0d",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/July/5f04de3e_l0-history/l0-history.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/2e21a9f1-f7b5-46e3-ae8c-47877ae45e0d",
+              "caption": "Timeline of iterative design development",
+              "alt": "",
+              "width": 700,
+              "height": 318,
+              "instructor_notes": null
+            },
+            {
+              "id": 1028367,
+              "key": "9e27c3ae-c11a-47bb-b3da-44b8010d77a0",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Summary\n### History of iterative design\n- The 1930s: Bell Labs implemented plan-do-study-act cycles of quality improvement.  \n- The 1980s: Barry Boehm introduced the Spiral Development Model.\n- In the early 1990s: most software was developed in a “waterfall” style. Product managers would completely plan out all details of a feature and document the specific feature needs.\n- In the late 1990s: Agile methods of design in the software industry began to develop.\n- 1993: Jeff Sutherland ran “Scrum” teams. Scrum emphasizes short periods of development followed by user feedback.\n- 2001: the Agile Manifesto published. The manifesto declared that better products resulted from, among other things, a focus on customer collaboration and a culture of product design that embraces change. \n- 2005: Stanford’s school of design began teaching “design thinking”\n- 2016: Harvard Business Review reported that the iterative design and the use of Agile processes have begun to expand into other business domains\n\n### Spiral development model\nThe spiral development model is a model of *developing software*. It emphasizes the importance of designing and launching small prototypes before developing and testing a final version of the software. The model uses a spiral instead of a cycle to emphasize that the level of commitment to any new design should begin small and grow over time as ideas are validated with data. \n\nTo begin, a software developer needs to **determine the objectives** for the upcoming project. Then the developer **identifies and resolves risks** in each small change. Different rings in this example represent different prototypes. Notice that the actual **development** including coding and testing doesn’t take place until the third time around the spiral development model. Every pass through the spiral ends with **planning for the next iteration**, which then returns to the beginning of the cycle where objective identification and further building continues.\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1043838,
+              "key": "c643e98d-cb61-4a5b-b812-448716585364",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/July/5f04de77_l0-spiral/l0-spiral.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/c643e98d-cb61-4a5b-b812-448716585364",
+              "caption": "Spiral development model",
+              "alt": "",
+              "width": 548,
+              "height": 506,
+              "instructor_notes": null
+            },
+            {
+              "id": 1044752,
+              "key": "5f60a3fb-c630-4004-92e4-5b1a6b038a24",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Waterfall Development\n\nIn the waterfall style of development, one team would completely plan out all details of a feature and document the specific feature needs before the next team can act. As a result, the waterfall process takes a long time to build a product, and because no data was sought during creation, finished products and features often failed to appeal to customers.\n\n### Agile Development Processes\nIn the 1990s, software developers developed a new method of Agile development. In contrast to the waterfall, this new method emphasizes short periods of development followed by user feedback. Features and products are iteratively designed in close connection with customers and potential users so that a finished product evolves naturally out of continuous collaboration. \n\nIn 2001, thought leaders on this new way of working published the Agile Manifesto. Agile development processes, including Scrum and design thinking, are now widely used across the software industry.\n\n\n\n\n\n\n\n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1043844,
+              "key": "27cd9e74-8330-485a-ab9b-a67ace54cf09",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Further research\n\n- *Iterative  and Incremental Development: A Brief History*:\nhttps://www.craiglarman.com/wiki/downloads/misc/history-of-iterative-larman-and-basili-ieee-computer.pdf\n- *A History of the Creation of the Agile Manifesto*:\nhttps://www.theatlantic.com/technology/archive/2017/12/agile-manifesto-a-history/547715/\n- *Embracing Agile (from the Harvard Business Review)*:\nhttps://hbr.org/2016/05/embracing-agile",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1039008,
+          "key": "e6a740c2-c56a-46a1-a0f0-21a90475115c",
+          "title": "History of Iterative Design Quizzes",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "e6a740c2-c56a-46a1-a0f0-21a90475115c",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1043520,
+              "key": "8a524b98-b2db-4b7d-b94b-9e3c45cf4394",
+              "title": "Important Moments in the History of Iterative Design",
+              "semantic_type": "MatchingQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "8a524b98-b2db-4b7d-b94b-9e3c45cf4394",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "complex_prompt": {
+                  "text": "Match the time period to the historical event in the history of iterative product design and software development."
+                },
+                "concepts_label": "Time Period",
+                "answers_label": "Historical Event",
+                "concepts": [
+                  {
+                    "text": "1930s",
+                    "correct_answer": {
+                      "id": "a1593964704261",
+                      "text": "Plan-do-study-act cycles"
+                    }
+                  },
+                  {
+                    "text": "1980s",
+                    "correct_answer": {
+                      "id": "a1593964768105",
+                      "text": "Spiral Development Model"
+                    }
+                  },
+                  {
+                    "text": "1970s-1990s",
+                    "correct_answer": {
+                      "id": "a1593964989270",
+                      "text": "Waterfall Development Model"
+                    }
+                  },
+                  {
+                    "text": "1990s-Today",
+                    "correct_answer": {
+                      "id": "a1593965030372",
+                      "text": "Agile Development Methods"
+                    }
+                  }
+                ],
+                "answers": [
+                  {
+                    "id": "a1593965030372",
+                    "text": "Agile Development Methods"
+                  },
+                  {
+                    "id": "a1593964704261",
+                    "text": "Plan-do-study-act cycles"
+                  },
+                  {
+                    "id": "a1593964768105",
+                    "text": "Spiral Development Model"
+                  },
+                  {
+                    "id": "a1593964989270",
+                    "text": "Waterfall Development Model"
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1045459,
+              "key": "33d00d32-57d5-4331-b1f2-efc0f6cd7cda",
+              "title": "Agile Development",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "33d00d32-57d5-4331-b1f2-efc0f6cd7cda",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which of the following statements represent the true principles of Agile development? (select all that apply)",
+                "answers": [
+                  {
+                    "id": "a1594935385357",
+                    "text": "As much as possible, everything about a feature/product should be fully designed and specced out before being implemented",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1594935431730",
+                    "text": "Change is inevitable and should be embraced as part of the development process",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1594935454606",
+                    "text": "As product managers are the experts, talking with customers is not important during development",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1594935477230",
+                    "text": "Getting customer feedback after short periods of development is better than delivering all features at once",
+                    "is_correct": true
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 1043821,
+          "key": "6d6801c8-2928-4903-a038-67b7cc00c348",
+          "title": "Project Introduction",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "6d6801c8-2928-4903-a038-67b7cc00c348",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1043822,
+              "key": "9a97a0a3-0063-4d94-98cb-bdc059b6fd54",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Project Introduction",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1043825,
+              "key": "f6f3fb90-ecc7-427a-9498-2c321cd2d864",
+              "title": "ND030 C3 L0 09 Project",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "CLGYVwCArUg",
+                "china_cdn_id": "CLGYVwCArUg.mp4"
+              }
+            },
+            {
+              "id": 1045314,
+              "key": "c7e4c177-e09a-4082-b252-e81c91e7e83a",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/July/5f0f928d_project/project.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/c7e4c177-e09a-4082-b252-e81c91e7e83a",
+              "caption": "",
+              "alt": "",
+              "width": 614,
+              "height": 586,
+              "instructor_notes": null
+            },
+            {
+              "id": 1043823,
+              "key": "6270a4c3-ecf0-4a6f-9c0a-b9d336f337b9",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Summary\nAt the end of this course, you’ll tackle a project that brings you back to the flying car app, Flyber, you launched in Course One. Now, Flyber has been live for 6 months, which means you have lots of data to look at. You will use all the skills and information covered in the course to find areas for improvement.\n\nYou will first layout the KPIs that should define Flyber’s success before diving into qualitative and quantitative data on the Flyber flight-booking experience. You’ll also evaluate the results of a multivariate experiment and then, based on the available data, propose an experiment to test your own hypothesis for how to improve the app.\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1045313,
+              "key": "2493a28c-d597-4cdf-a809-76d2662c1b4f",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/July/5f0f9234_pro2/pro2.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/2493a28c-d597-4cdf-a809-76d2662c1b4f",
+              "caption": "Flyber multivariate tests",
+              "alt": "",
+              "width": 672,
+              "height": 392,
+              "instructor_notes": null
+            }
+          ]
+        },
+        {
+          "id": 1028375,
+          "key": "9ee052ee-8590-4ae3-8922-cb948380bc8b",
+          "title": "Recap",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "9ee052ee-8590-4ae3-8922-cb948380bc8b",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1028376,
+              "key": "5845d91b-c6f5-42a1-b7bd-aeff9f00e731",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Recap",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1028377,
+              "key": "d1cdfe0d-9e0d-4fa5-83da-f36dcb81898e",
+              "title": "ND030 C3 L0 10 Recap Video",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "d7NMM8ZuZAY",
+                "china_cdn_id": "d7NMM8ZuZAY.mp4"
+              }
+            },
+            {
+              "id": 1043839,
+              "key": "6eb8004a-b24d-45ac-9060-bdd34d6dc5bd",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/July/5f04de94_l0-lo/l0-lo.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/6eb8004a-b24d-45ac-9060-bdd34d6dc5bd",
+              "caption": "Lesson outline",
+              "alt": "",
+              "width": 700,
+              "height": 288,
+              "instructor_notes": null
+            },
+            {
+              "id": 1028378,
+              "key": "247dfa02-f63e-4be2-b80b-81d0ae657a84",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Recap\nCongratulations! You have just finished the first lesson of this course \n\nIn this lesson, we first learned about the *design-implement-evaluate* cycle of iterative design and the design thinking cycle of *empathize-define-ideate-prototype-test-implement*.\n\nThen, we covered many business stakeholders a data product manager needs to work with to find success in their role. \n\nIn the third part of the lesson, we learned about the history of iterative design, especially its roots in software development and the spiral development model. \n\nIn the last part of this lesson, we talked about the final project for the course. In the project, you will act as a data product manager to evaluate the performance of a live app and analyze its data to determine the best next step in a cycle of iterative design.\n\n## Further reading\n\n- *A History of the Creation of the Agile Manifesto*:\nhttps://www.theatlantic.com/technology/archive/2017/12/agile-manifesto-a-history/547715/\n- *Iterative Design in Interaction Design*:\nhttps://www.nngroup.com/articles/iterative-design/\n- *Getting Started With Design Thinking (from the Stanford d.School)*:\nhttps://dschool.stanford.edu/resources/getting-started-with-design-thinking",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1028380,
+          "key": "ab41daea-e349-4653-a2af-71193fdc551b",
+          "title": "Good Luck!",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "ab41daea-e349-4653-a2af-71193fdc551b",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1028381,
+              "key": "4483f037-9846-413d-a4be-aa965875a1bd",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Good Luck!",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1028382,
+              "key": "056449dc-3eb5-4a36-9f5b-2fbfa751cedb",
+              "title": "ND030 C3 L0 11 Good Luck! Video",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "Pv5ewU4MaW8",
+                "china_cdn_id": "Pv5ewU4MaW8.mp4"
+              }
+            },
+            {
+              "id": 1043840,
+              "key": "c56d1dfa-a097-4048-aef2-340e3905255d",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Good luck and see you in the next lesson!",
+              "instructor_notes": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    }
+  ]
+}

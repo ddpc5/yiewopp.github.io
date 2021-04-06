@@ -1,0 +1,139 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:05.325
+So let's look at Knapsack even data for the home screen of app.
+
+00:00:05.325 --> 00:00:08.745
+We have a hamburger menu on top-left,
+
+00:00:08.745 --> 00:00:13.545
+a search bar, a 5-pic carousal of new products,
+
+00:00:13.545 --> 00:00:15.615
+and a product of the day.
+
+00:00:15.615 --> 00:00:19.560
+Think about what all customers can do on the screen.
+
+00:00:19.560 --> 00:00:22.785
+Customer can click on the hamburger menu,
+
+00:00:22.785 --> 00:00:25.335
+customer can search in search bar,
+
+00:00:25.335 --> 00:00:28.755
+customer can click on new product pictures,
+
+00:00:28.755 --> 00:00:32.535
+or customer can click on product or the day picture.
+
+00:00:32.535 --> 00:00:39.280
+Besides that, they will be able to open the app to come to the screen and close the app.
+
+00:00:39.280 --> 00:00:44.730
+Events that we can track on the screen could be: open_ app,
+
+00:00:44.730 --> 00:00:50.370
+hamburger_ click, search, new_product_click,
+
+00:00:50.370 --> 00:00:54.450
+product_of_the _day_click, and close_app.
+
+00:00:54.450 --> 00:00:57.980
+Once we know what event to be tracked,
+
+00:00:57.980 --> 00:01:01.940
+we will analyze the data collected around those events.
+
+00:01:01.940 --> 00:01:06.205
+We had 179 events in last one hour.
+
+00:01:06.205 --> 00:01:11.670
+Fifty-seven open_app events, 19 close_app events,
+
+00:01:11.670 --> 00:01:16.395
+47 search events, 22 hamburger_clicks,
+
+00:01:16.395 --> 00:01:22.620
+30 new_product_clicks, and 4 product_of_ the_day_click.
+
+00:01:22.620 --> 00:01:24.935
+In last one hour,
+
+00:01:24.935 --> 00:01:30.835
+125 unique user UUID were tracked for activity.
+
+00:01:30.835 --> 00:01:36.015
+What this means, 125 users accessed app,
+
+00:01:36.015 --> 00:01:40.980
+hence there were 125 active users in last one hour.
+
+00:01:40.980 --> 00:01:45.035
+Most popular and least popular is pretty simple.
+
+00:01:45.035 --> 00:01:47.855
+Forty-seven users use search,
+
+00:01:47.855 --> 00:01:50.750
+so search is the most popular feature,
+
+00:01:50.750 --> 00:01:54.045
+whereas only 4 clicked on product of the day,
+
+00:01:54.045 --> 00:01:59.455
+so product of the today is the least enticing feature for the customers.
+
+00:01:59.455 --> 00:02:02.360
+To calculate daily active users,
+
+00:02:02.360 --> 00:02:04.999
+we need data for 24 hours,
+
+00:02:04.999 --> 00:02:10.385
+or we need to note this is a two-sample of what data patterns might look like.
+
+00:02:10.385 --> 00:02:13.940
+In that case, we can extrapolate this data.
+
+00:02:13.940 --> 00:02:17.105
+One-twenty-five users in one hour,
+
+00:02:17.105 --> 00:02:19.985
+24 hours in a day,
+
+00:02:19.985 --> 00:02:25.355
+daily active users will be 125 multiplied by 24.
+
+00:02:25.355 --> 00:02:28.430
+So that will be around 3,000.
+
+00:02:28.430 --> 00:02:32.195
+We have 3,000 daily active users.
+
+00:02:32.195 --> 00:02:33.680
+As a project manager,
+
+00:02:33.680 --> 00:02:39.205
+you will often run into scenarios where you might have to extrapolate data.
+
+00:02:39.205 --> 00:02:41.975
+But to calculate session length,
+
+00:02:41.975 --> 00:02:44.015
+you do need timestamps.
+
+00:02:44.015 --> 00:02:49.310
+Session length will be time spent by a user in one session on app.
+
+00:02:49.310 --> 00:02:52.910
+This data cannot be extrapolated.
+
+00:02:52.910 --> 00:02:55.445
+Data is simply incomplete.
+
+00:02:55.445 --> 00:02:58.260
+Timestamps are required.
+

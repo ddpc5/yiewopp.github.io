@@ -1,0 +1,187 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.614
+You are now an expert on the subject of data consumers.
+
+00:00:03.614 --> 00:00:06.435
+In this section, we'll bring it all together.
+
+00:00:06.435 --> 00:00:08.730
+As mentioned in the problem statement,
+
+00:00:08.730 --> 00:00:11.520
+the Peer-to-Peer Car-Sharing Company,
+
+00:00:11.520 --> 00:00:13.605
+what will be their business goals?
+
+00:00:13.605 --> 00:00:18.869
+Focusing on safety and security of car owners and car renters,
+
+00:00:18.869 --> 00:00:22.590
+they would want to make sure that they are financially
+
+00:00:22.590 --> 00:00:28.470
+compliant and have smooth payment mechanism for car owners and renters.
+
+00:00:28.470 --> 00:00:33.150
+Safety and security will be the focus of risk and security team.
+
+00:00:33.150 --> 00:00:36.945
+Financial compliance will be of accounting team,
+
+00:00:36.945 --> 00:00:39.825
+and smooth payments of payments team.
+
+00:00:39.825 --> 00:00:42.325
+To ensure safety and security,
+
+00:00:42.325 --> 00:00:48.050
+risk and security team will be interested in customer and car owners screening.
+
+00:00:48.050 --> 00:00:50.134
+To ensure financial compliance,
+
+00:00:50.134 --> 00:00:55.695
+accounting team will be maintaining books and create accurate balance sheets.
+
+00:00:55.695 --> 00:01:01.005
+One other aspect of payments will be seamless payments to car owners,
+
+00:01:01.005 --> 00:01:03.735
+payments team will focus on that.
+
+00:01:03.735 --> 00:01:10.250
+For screening, risk and security team will have to have customer data such as name,
+
+00:01:10.250 --> 00:01:13.360
+contact information, license details.
+
+00:01:13.360 --> 00:01:16.015
+For car owner, they would like to have name,
+
+00:01:16.015 --> 00:01:19.290
+contact information, and car registration details.
+
+00:01:19.290 --> 00:01:25.790
+Accounting will be interested in knowing all the cost and revenue earned from customers.
+
+00:01:25.790 --> 00:01:30.640
+Payment teams would like to know account details of car owners,
+
+00:01:30.640 --> 00:01:33.600
+terms of payments and amount to be paid.
+
+00:01:33.600 --> 00:01:38.180
+Data needed by all these groups happen to be entity data,
+
+00:01:38.180 --> 00:01:41.815
+and this data will be stored in relational tables.
+
+00:01:41.815 --> 00:01:44.520
+Entity modeling is a bit complex.
+
+00:01:44.520 --> 00:01:47.160
+We have customer table,
+
+00:01:47.160 --> 00:01:49.875
+car owner who is our partner here,
+
+00:01:49.875 --> 00:01:53.185
+we have for them a partner table.
+
+00:01:53.185 --> 00:01:57.500
+We have a table having partner payment information,
+
+00:01:57.500 --> 00:02:00.179
+a table for car details,
+
+00:02:00.179 --> 00:02:03.045
+and a table for booking details.
+
+00:02:03.045 --> 00:02:05.385
+Let's look at primary keys.
+
+00:02:05.385 --> 00:02:08.350
+For customer table, it is customer ID,
+
+00:02:08.350 --> 00:02:11.060
+for partner table, it is partner ID,
+
+00:02:11.060 --> 00:02:14.330
+for partner payment, it is partner payment ID,
+
+00:02:14.330 --> 00:02:16.715
+for car table, it is car ID,
+
+00:02:16.715 --> 00:02:19.615
+for booking table, it will be booking ID.
+
+00:02:19.615 --> 00:02:21.510
+For car owner screening,
+
+00:02:21.510 --> 00:02:24.405
+risk and security team will combine partner table
+
+00:02:24.405 --> 00:02:27.240
+with partner payment table and car table.
+
+00:02:27.240 --> 00:02:30.230
+The information provided in these tables can
+
+00:02:30.230 --> 00:02:33.920
+be combined and used for partner verification.
+
+00:02:33.920 --> 00:02:37.520
+Fraud algorithms can be built to detect anomalies.
+
+00:02:37.520 --> 00:02:41.495
+Similarly, customer screening can be done using the information in
+
+00:02:41.495 --> 00:02:46.015
+customer table along with Facebook and Google login details.
+
+00:02:46.015 --> 00:02:49.580
+Again, some [inaudible] modeling will be needed that will be
+
+00:02:49.580 --> 00:02:53.525
+used for these parameters to detect inconsistencies.
+
+00:02:53.525 --> 00:02:58.585
+Accounting can calculate cost and margins using booking table.
+
+00:02:58.585 --> 00:03:02.430
+From booking total, daily rental cost,
+
+00:03:02.430 --> 00:03:06.455
+taxes and fees will be subtracted to get margin.
+
+00:03:06.455 --> 00:03:10.325
+All this will be aggregated on monthly and weekly basis
+
+00:03:10.325 --> 00:03:14.475
+to make financial entries in books, and finally,
+
+00:03:14.475 --> 00:03:18.000
+payments team will combine data from: booking table,
+
+00:03:18.000 --> 00:03:20.775
+car table, partner table,
+
+00:03:20.775 --> 00:03:23.045
+and partner payment table.
+
+00:03:23.045 --> 00:03:29.110
+They want to get details of against what payment needs to be made and to whom?
+
+00:03:29.110 --> 00:03:35.105
+They will use booking table to get what actually needs to be paid, which is margin,
+
+00:03:35.105 --> 00:03:40.025
+taxes and fees subtracted from booking total,
+
+00:03:40.025 --> 00:03:43.590
+and this brings us to the end of quiz.
+

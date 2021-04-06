@@ -1,0 +1,70 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.960
+These days, sciences this are infiltrating our lives,
+
+00:00:03.960 --> 00:00:08.295
+and businesses are trying to track every action of a user.
+
+00:00:08.295 --> 00:00:10.965
+All this is done through event data.
+
+00:00:10.965 --> 00:00:13.650
+In this lesson, we'll introduce the concept of
+
+00:00:13.650 --> 00:00:17.730
+event data and take a deeper look at it in the next lesson.
+
+00:00:17.730 --> 00:00:22.680
+Event data mainly describes the actions performed by entities.
+
+00:00:22.680 --> 00:00:26.070
+A few key pieces of information that are captured in
+
+00:00:26.070 --> 00:00:29.835
+event data are action, timestamp, and state.
+
+00:00:29.835 --> 00:00:32.325
+Action is what happened.
+
+00:00:32.325 --> 00:00:35.820
+Example, customer opened a promotional e-mail.
+
+00:00:35.820 --> 00:00:38.805
+Timestamp is when it happened,
+
+00:00:38.805 --> 00:00:41.835
+on evening of October 6th.
+
+00:00:41.835 --> 00:00:47.630
+Statement refer to all other relevant data such as what device was used,
+
+00:00:47.630 --> 00:00:49.924
+mobile, tablet, or computer,
+
+00:00:49.924 --> 00:00:52.960
+then what browser was used, etc.
+
+00:00:52.960 --> 00:00:56.745
+Few things to note about event data are,
+
+00:00:56.745 --> 00:00:58.995
+data is not normalized.
+
+00:00:58.995 --> 00:01:02.914
+For every new action more data is generated.
+
+00:01:02.914 --> 00:01:09.205
+It gives us good insight about how users are interacting with our services over time.
+
+00:01:09.205 --> 00:01:14.510
+Therefore, this type of data is also sometimes referred to as behavioral data.
+
+00:01:14.510 --> 00:01:18.665
+I hope you'll enjoy learning about entity and event data.
+
+00:01:18.665 --> 00:01:22.050
+Now it's time to test what you have learned.
+

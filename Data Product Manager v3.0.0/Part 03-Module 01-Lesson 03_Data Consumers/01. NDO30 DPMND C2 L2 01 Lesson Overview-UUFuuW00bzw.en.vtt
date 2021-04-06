@@ -1,0 +1,61 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.700
+Welcome back. Our next destination in
+
+00:00:02.700 --> 00:00:06.675
+this exciting journey is the topic of data consumers.
+
+00:00:06.675 --> 00:00:08.895
+For creating a data strategy,
+
+00:00:08.895 --> 00:00:12.030
+it is important to understand what data is needed for,
+
+00:00:12.030 --> 00:00:15.375
+before defining solutions and implementing it.
+
+00:00:15.375 --> 00:00:19.830
+In this lesson, we will learn who a data consumer is?
+
+00:00:19.830 --> 00:00:22.860
+We will discuss different types of data stakeholders
+
+00:00:22.860 --> 00:00:25.725
+within an organization and after that,
+
+00:00:25.725 --> 00:00:28.545
+we will explore their data use cases.
+
+00:00:28.545 --> 00:00:33.870
+In the end, we will also learn to identify what data is needed for our use cases,
+
+00:00:33.870 --> 00:00:38.095
+and whether it is entity based or event based.
+
+00:00:38.095 --> 00:00:43.495
+Along with that, we will also learn to do entity data modeling.
+
+00:00:43.495 --> 00:00:46.805
+Along we have talked about data destinations.
+
+00:00:46.805 --> 00:00:49.160
+Data destination are mostly systems,
+
+00:00:49.160 --> 00:00:52.325
+or storage devices used by data consumers.
+
+00:00:52.325 --> 00:00:55.830
+Needs of data consumers define data destinations.
+
+00:00:55.830 --> 00:01:00.020
+We will briefly touch on the topic of systems or types
+
+00:01:00.020 --> 00:01:04.310
+of applications while the topic of data storage will be covered later.
+
+00:01:04.310 --> 00:01:10.380
+So let's make an another exciting adventure to learn about how data is used.
+

@@ -1,0 +1,157 @@
+{
+  "id": 2841,
+  "project_id": 733,
+  "upload_types": [
+    "file",
+    "zip"
+  ],
+  "file_filter_regex": "\\A(?!(((.*/)?(__MACOSX|\\.git|node_modules|bower_components|jspm_packages|\\.idea|build|.ipynb_checkpoints|\\.Trash-0|logs)(\\Z|/))))((.*\\.(js|css|py|html|htm|txt|md|markdown|sql|swift|java|ts|gradle|xml|rst|yml|yaml|rmd|pdf|docx|h|H|hh|hxx|h\\+\\+|c|C|cc|cpp|cxx|c\\+\\+)\\Z)|((.*/)?(README|Readme|readme|Makefile)\\Z))",
+  "nomination_eligible": false,
+  "stand_out": "1. Do a funnel and cohort analysis on data for a site you already own/work on.\n2. Submit wireframes/prototypes that align with hypotheses you’d like to test.\n3. List other metrics or data points Flyber should collect on its users for use in cohort analyses.",
+  "hide_criteria": false,
+  "created_at": "2020-05-21T01:16:48.018Z",
+  "updated_at": "2020-10-29T17:11:27.588Z",
+  "hashtag": "",
+  "max_upload_size_mb": 500,
+  "estimated_sla": null,
+  "project_assistant_enabled": false,
+  "available_for_cert_project": false,
+  "language": "en-us",
+  "ndkeys": [
+    "nd030-beta",
+    "nd030",
+    "nd030-ent"
+  ],
+  "coursekeys": [],
+  "is_career": false,
+  "sections": [
+    {
+      "id": 6095,
+      "name": "Evaluate Previous Multivariate Experiment",
+      "created_at": "2020-05-21T01:20:10.542Z",
+      "updated_at": "2020-05-21T01:21:25.700Z",
+      "deleted_at": null,
+      "position": 0,
+      "rubric_id": 2841,
+      "rubric_items": [
+        {
+          "id": 17472,
+          "section_id": 6095,
+          "passed_description": "- The proposal suggests one or more KPIs that would be relevant to Flyber’s business model and provide a simple explanation. \n- KPIs can be calculated using the available data set.\n- List at least one other KPI that should be important to Flyber but are not calculable based on available data",
+          "exceeded_description": null,
+          "created_at": "2020-05-21T01:20:35.045Z",
+          "updated_at": "2020-05-21T01:22:17.283Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 0,
+          "criteria": "Determine key metrics of success for a product based on the product’s business model and place in the development lifecycle.",
+          "exceedable": false
+        },
+        {
+          "id": 17473,
+          "section_id": 6095,
+          "passed_description": "- The project provides a visual representation of the outcome of the multivariate test.\n- The project identifies the appropriate statistical test to use to evaluate the multivariate test and explains why it is appropriate. \n- The project lists the test result\n- The project concludes whether the experiments were significantly different from the control. \n- The project appropriately suggests if any of the experiments should be expanded.",
+          "exceeded_description": null,
+          "created_at": "2020-05-21T01:22:20.101Z",
+          "updated_at": "2020-05-21T01:24:24.549Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 1,
+          "criteria": "Evaluate multivariate results using statistical methods to suggest future areas of research.",
+          "exceedable": false
+        }
+      ]
+    },
+    {
+      "id": 6096,
+      "name": "Analyze User Data to Identify Opportunities for Improvement",
+      "created_at": "2020-05-21T01:24:35.995Z",
+      "updated_at": "2020-05-21T01:24:54.091Z",
+      "deleted_at": null,
+      "position": 1,
+      "rubric_id": 2841,
+      "rubric_items": [
+        {
+          "id": 17474,
+          "section_id": 6096,
+          "passed_description": "- The project identifies 3 or more steps in the Flyber funnel, ending with a ride being booked.\n- The project includes a visualization of the overall drop off rate between steps in the Flyber funnel",
+          "exceeded_description": null,
+          "created_at": "2020-05-21T01:24:54.264Z",
+          "updated_at": "2020-05-21T01:26:12.230Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 0,
+          "criteria": "Analyze funnel metrics, feature usage, and other product data to determine product areas in need of optimization",
+          "exceedable": false
+        },
+        {
+          "id": 17475,
+          "section_id": 6096,
+          "passed_description": "- The project identifies 2 or more user attributes from the available data that can be used for cohort analysis\n- The project provides visualization or numeric breakdown of user distribution for attribute being identified\n- The project identifies the largest cohort for each identified user attribute\n- The project performs a cohort analysis of the ride booking funnel for at least all identified users attribute\n- The project identifies at least one underperformance at a cohort level.\n- The funnel step(s) where a particular cohort show a higher-than-average dropoff rate are identified in a visualization\n",
+          "exceeded_description": null,
+          "created_at": "2020-05-21T01:26:12.393Z",
+          "updated_at": "2020-05-21T01:27:47.123Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 1,
+          "criteria": "Perform cohort data analyses of KPIs against different user segments/behavioral dimensions to determine user groups to target when designing features for different user types",
+          "exceedable": false
+        }
+      ]
+    },
+    {
+      "id": 6097,
+      "name": "Hypothesis & Next Steps",
+      "created_at": "2020-05-21T01:28:46.833Z",
+      "updated_at": "2020-05-21T01:29:00.885Z",
+      "deleted_at": null,
+      "position": 2,
+      "rubric_id": 2841,
+      "rubric_items": [
+        {
+          "id": 17476,
+          "section_id": 6097,
+          "passed_description": "- The project includes a hypothesis for why underperformance in a cohort was seen (i.e. what user need is currently unmet)\n- The project identifies multiple user quotes that support this explanation.\n",
+          "exceeded_description": null,
+          "created_at": "2020-05-21T01:29:01.079Z",
+          "updated_at": "2020-05-21T01:30:18.335Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 0,
+          "criteria": "Conduct and analyze qualitative user research data to gain insight into the drivers behind user behavior in order to surface new product opportunities.",
+          "exceedable": false
+        },
+        {
+          "id": 17477,
+          "section_id": 6097,
+          "passed_description": "- The project provides a hypothesis for a cohort’s underperformance, a suggested change to reverse this underperformance\n- The hypothesis includes a predicted impact of the suggested change based on quantitative analysis of underperformance\n- The project suggests multiple features that could meet the needs of users\n- The project provides a multivariate testing framework for the suggested features\n- The project identifies which users should be exposed to the tests\n- The project suggests any additional metrics that should be tracked with the launch of new features\n",
+          "exceeded_description": null,
+          "created_at": "2020-05-21T01:30:18.528Z",
+          "updated_at": "2020-05-21T01:32:47.931Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 1,
+          "criteria": "Design and launch a multivariate experiment.",
+          "exceedable": false
+        }
+      ]
+    }
+  ],
+  "project": {
+    "id": 733,
+    "name": "Create an Iterative Design Path",
+    "nanodegree_key": "nd030",
+    "is_cert_project": false,
+    "audit_project_id": null,
+    "hashtag": null,
+    "audit_rubric_id": 2899,
+    "entitlement_required": false,
+    "is_career": false,
+    "recruitment_family_id": 5,
+    "created_at": "2020-05-21T23:04:54.162Z",
+    "updated_at": "2021-04-05T17:23:15.839Z",
+    "price": "10.0",
+    "ungradeable_price": "3.0",
+    "audit_price": "0.0"
+  }
+}

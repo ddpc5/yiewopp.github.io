@@ -1,0 +1,1697 @@
+{
+  "data": {
+    "lesson": {
+      "id": 1028131,
+      "key": "9a61d1b4-f27e-4241-9e13-f4c9ff45c718",
+      "title": "Choose & Measure KPIs for Live Products",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": "In this lesson, you will learn how to choose and measure KPIs for different business models.",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": false,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "https://zips.udacity-data.com/9a61d1b4-f27e-4241-9e13-f4c9ff45c718/1028131/1605812301237/Choose+%26+Measure+KPIs+for+Live+Products+Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "https://zips.udacity-data.com/9a61d1b4-f27e-4241-9e13-f4c9ff45c718/1028131/1605812296869/Choose+%26+Measure+KPIs+for+Live+Products+Subtitles.zip"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 1028132,
+          "key": "789a61e0-31fa-4fd4-82c2-8959f5309e19",
+          "title": "Choosing & Measuring KPIs for Live Products",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "789a61e0-31fa-4fd4-82c2-8959f5309e19",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1028133,
+              "key": "d30e46e2-a15d-48e7-b663-af76bc6e9457",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Choosing & Measuring KPIs for Live Products",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1028134,
+              "key": "876b664c-aeaf-4103-bed6-0b0c14f47be4",
+              "title": "ND030 C3 L1 01 Choosing & Measuring Metrics For Live Products- Video",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "Vv8QG9l7jTI",
+                "china_cdn_id": "Vv8QG9l7jTI.mp4"
+              }
+            },
+            {
+              "id": 1043977,
+              "key": "0148cc91-dae9-4c76-b197-94c69e91946e",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/July/5f061646_l1-cl/l1-cl.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/0148cc91-dae9-4c76-b197-94c69e91946e",
+              "caption": "Course outline",
+              "alt": "",
+              "width": 700,
+              "height": 398,
+              "instructor_notes": null
+            },
+            {
+              "id": 1028135,
+              "key": "353babe1-5313-4a85-a4f9-02f644a73e02",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Summary\n\nIn this lesson, we will talk about choosing and calculating key performance indicators (KPI) for products that are live in the field. Key Performance Indicators, are the metrics that you’ve selected as the most important metrics to track for your products. At the end of the day, we want to build successful products and by using measurable KPIs, product managers can quantify the level of success of their products. \n\n\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1028136,
+          "key": "93d85c01-0573-4111-99e5-19df2a417f92",
+          "title": "Big Picture",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "93d85c01-0573-4111-99e5-19df2a417f92",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1028137,
+              "key": "dbdaac96-3e67-450e-a130-08f6b85aa816",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Big Picture\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1028138,
+              "key": "56d57c23-2fde-4a8f-9729-9abcf66dc745",
+              "title": "ND030 C3 L1 02 Big Picture Video",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "UhvPcATXm0Y",
+                "china_cdn_id": "UhvPcATXm0Y.mp4"
+              }
+            },
+            {
+              "id": 1028139,
+              "key": "5002d8b3-b8c2-449d-9754-7f70a50eb331",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Summary\nThere are much data available for product managers. Choosing and managing the correct data and Key Performance Indicators (KPIs) for live products is one of the most important responsibilities of a product manager. \n\nBefore a product launch, a product manager can examine\n- market data\n- companies in a similar market\n- potential feedbacks on prototypes. \n\nAfter a product launch, the data floodgates open. Product managers can\n- speak with customers and get direct feedback\n- see how new marketing or features launch affect KPIs\n\nWith so much data available, product managers must choose the right KPIs for their products to focus on. \n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1043913,
+              "key": "1d51b51d-2ac1-4157-ae6e-e375e307813e",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## New terms\n- **KPI:** Key Performance Indicator, a metric chosen and watched closely because it provides a good indication of product health/success.",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1028141,
+          "key": "309fd99d-1719-4df8-bc18-b95724ccff34",
+          "title": "Developing Your Intuition About Metrics",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "309fd99d-1719-4df8-bc18-b95724ccff34",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1028142,
+              "key": "3f1dc970-5dae-4e95-84b6-e14a56c5f322",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Developing Your Intuition About Metrics",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1028143,
+              "key": "c70f9211-8873-4eff-aaad-8589392b1089",
+              "title": "ND030 C3 L1 03 Developing Your Intuition About Metrics Video",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "z8-W9Sy8Ves",
+                "china_cdn_id": "z8-W9Sy8Ves.mp4"
+              }
+            },
+            {
+              "id": 1028144,
+              "key": "36268fa7-4059-4319-bd3d-a1e013dea055",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Summary\nGoogle researchers created a framework called the HEART (H-E-A-R-T) model to help you examine different types of metrics. The heart model simplifies the vast amounts of data you have by categorizing them into five categories: *Happiness, Engagement, Adoption, Retention, Task*.\n- **Happiness**: how *satisfied* a customer is with a product or feature\n- **Engagement**: the *frequency* with which users interact with a product or feature. A \"good\" engagement varies by product. Some products are used daily but others are used annually. \n- ** Adoption**: the number of *new users* who begin to use a product.\n- ** Retention**: how many customers *come back* to a product. \n- ** Task**: how *easy* a product is for customers to use.\n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1043521,
+              "key": "19974626-d24e-422a-805b-475b6b973d7b",
+              "title": "HEART Model",
+              "semantic_type": "MatchingQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "19974626-d24e-422a-805b-475b6b973d7b",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "complex_prompt": {
+                  "text": "Below are listed 5 example pieces of data that a product manager might collect. Match the data collected to the category of the HEART model it best represents."
+                },
+                "concepts_label": "HEART Model Category",
+                "answers_label": "Data",
+                "concepts": [
+                  {
+                    "text": "Happiness",
+                    "correct_answer": {
+                      "id": "a1593965510233",
+                      "text": "90% of users say they would recommend this product to a friend"
+                    }
+                  },
+                  {
+                    "text": "Engagement",
+                    "correct_answer": {
+                      "id": "a1593965594762",
+                      "text": "Customers use the product 2X a week for 10 minutes a session, on average"
+                    }
+                  },
+                  {
+                    "text": "Adoption",
+                    "correct_answer": {
+                      "id": "a1593965630736",
+                      "text": "The product has 15,000 active users"
+                    }
+                  },
+                  {
+                    "text": "Retention",
+                    "correct_answer": {
+                      "id": "a1593965636440",
+                      "text": "30% of users renew their subscriptions"
+                    }
+                  },
+                  {
+                    "text": "Task",
+                    "correct_answer": {
+                      "id": "a1593965716674",
+                      "text": "70% of users say they find the product \"very easy to use\""
+                    }
+                  }
+                ],
+                "answers": [
+                  {
+                    "id": "a1593965510233",
+                    "text": "90% of users say they would recommend this product to a friend"
+                  },
+                  {
+                    "id": "a1593965630736",
+                    "text": "The product has 15,000 active users"
+                  },
+                  {
+                    "id": "a1593965636440",
+                    "text": "30% of users renew their subscriptions"
+                  },
+                  {
+                    "id": "a1593965594762",
+                    "text": "Customers use the product 2X a week for 10 minutes a session, on average"
+                  },
+                  {
+                    "id": "a1593965716674",
+                    "text": "70% of users say they find the product \"very easy to use\""
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1043978,
+              "key": "44aaa878-1734-4218-b5ee-1bfd557b3600",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## New terms\n- **HEART Model**: Google framework for organizing product and customer data into five different categories: Happiness, Engagement, Adoption, Retention, and Task data.",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1028147,
+          "key": "96c17b8d-97e1-48e9-aeeb-66ddee377824",
+          "title": "Lesson Outline",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "96c17b8d-97e1-48e9-aeeb-66ddee377824",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1028148,
+              "key": "f48d50f8-4dd2-4699-a392-dfd577530c31",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Lesson Outline",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1028149,
+              "key": "f94a7d63-d095-4b19-923f-a2cf2e51a691",
+              "title": "ND030 C3 L1 04 Lesson Outline Video",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "nOagbKuLoXs",
+                "china_cdn_id": "nOagbKuLoXs.mp4"
+              }
+            },
+            {
+              "id": 1043979,
+              "key": "054cbea1-0c51-4e11-ba3d-79f626edd0ba",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/July/5f061693_l1-lo/l1-lo.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/054cbea1-0c51-4e11-ba3d-79f626edd0ba",
+              "caption": "Lesson outline",
+              "alt": "",
+              "width": 700,
+              "height": 246,
+              "instructor_notes": null
+            },
+            {
+              "id": 1028150,
+              "key": "77916c36-f1d6-46cd-a89a-933a5638195a",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Summary\nIn this lesson, you will learn about:\n- KPIs for different business models\n- Calculate common KPIs that measure user acquisition, activation, retention, and revenue\n- Instrument the data you need to measure your KPIs \n\n## Lesson objective\nBy the end of this lesson, you will be able to\n- Describe how data collection and usages changes depending on the state of the software (from pre-launch to product with existing customer base)\n- Choose common KPIs for different business models (freemium, SAAS, eCommerce)\n- Calculate the most popular KPIs for user acquisition, activation, retention, and revenue\n- Suggest additional data that should be collected to allow for KPI tracking\n\n\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1028151,
+          "key": "a03eac87-fa9b-4c17-bc06-943ed22abe36",
+          "title": "KPIs for Different Business Models",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "a03eac87-fa9b-4c17-bc06-943ed22abe36",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1028152,
+              "key": "3c0b6df3-5a63-43be-8a42-3ed0edb60d2e",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# KPIs for Different Business Models",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1028153,
+              "key": "288fe073-b5f5-4b78-876d-78139cf5343f",
+              "title": "ND030 C3 L1 05 KPIs For Different Business Models Video",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "d73FQj29_1U",
+                "china_cdn_id": "d73FQj29_1U.mp4"
+              }
+            },
+            {
+              "id": 1028154,
+              "key": "eb6d73b0-9f4a-404c-b051-dec3b37ef69d",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "In this section, we discussed three common business models:  *eCommerce, freemium,  and software-as-a-service (SAAS).*\n\n### eCommerce\n*eCommerce business model* is the traditional model of the sale of an item in exchange for payment where the storefront is online. Some examples are Amazon’s online retail store and Target.com.\n\nCommon **KPIs** for the eCommerce business model include:\n- The profit margin made on sales (payment - cost)\n- The number purchases\n-  The number of repeat customers\n\n### Software as a service (SAAS)\n\nThe *software as a service (SAAS)* business model offers customers access to software for a period of time in exchange for payment. Users have access to the software for as long as they are paying for the service. Some examples are Microsoft word and Adobe photoshop.\n\nCommon **KPIs** for software as a service (SAAS) business model are:\n- The number of paying users\n- The subscribe renewal rate \n- The percent of users upgrade if the service includes a free trial and allow upgrades\n\nThe above KPIs track revenue and potential revenue *directly*. There are KPIs that do not measure revenue but they are *leading indicators* of product success. These are:\n- User satisfaction\n- The number of customer support tickets/complaints",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1044307,
+              "key": "cabc4433-b8cf-4f5d-ad4d-ef7866204797",
+              "title": "ND030 C3 L1 06 KPIs For Different Business Models Video Part 2",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "OqpsT-t70Ik",
+                "china_cdn_id": "OqpsT-t70Ik.mp4"
+              }
+            },
+            {
+              "id": 1044308,
+              "key": "ce9d6880-43dd-440d-9417-87fa5c32aa6e",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Freemium \n\nThe *freemium* business model allows users to use the basic features of service for free, but charges for upgrades. Some examples are Slack, a business communication tool, and Spotify, a music playing service.\n\nCommon **KPIs** for a freemium business model concentrate on those users who *pay* for the service:\n\n- The number of paying subscribers\n- The percent of free subscribers who choose to upgrade (conversion rate)\n- Renewal rate\n\nJust like a SAAS product, *leading indicators* are also important to track. These are:\n- Paid customer satisfaction\n- The number of paid customer support tickets/complaints\n\n## Summary\nThe eCommerce, SAAS, and freemium are the most common business models that modern product managers see. When choosing KPIs, it is important to consider how the product generates revenue based on its business model. \n\nThe KPIs can take two forms: \n- directly impacts revenue\n- leading indicators that help to predict revenue-related metrics\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1043720,
+              "key": "f191f307-948f-4e57-81a3-cc168a600c91",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## New terms\n- **eCommerce:** The traditional business model of the sale of an item in exchange for payment. For eCommerce, the storefront is online.\n- **Freemium:** Business model that allows users to use the basic features of service for free, but charges for upgrades or the removal of advertisements.\n- **Leading Indicators:** Any metric that changes before the rest of a product's metrics begin to go in a particular direction. Leading indicators help product managers predict whether a product's revenue is on the path to success.\n- **Software as a Service (SAAS):** Business model that offers customers access to software in exchange for payment. Typically users have access to the software for as long as they are paying for the service.\n\n## Further research\n- *How to Choose the Right KPIs for Your Business*: https://blog.hubspot.com/marketing/choosing-kpis\n\n- *34 Types of Startup Metrics to Measure*: https://startupdevkit.com/types-of-startup-kpis-metrics-to-measure-with-examples/\n- *18 Types of Key Performance Indicators (KPI) Examples Defined*: https://www.clearpointstrategy.com/18-key-performance-indicators/",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1028155,
+          "key": "8b34d9b6-6b7f-4a09-b6ea-94f582894b13",
+          "title": "KPIs for Different Business Models Quizzes",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8b34d9b6-6b7f-4a09-b6ea-94f582894b13",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1028156,
+              "key": "97eff5c7-b12d-471c-b120-d21cbda2b8b0",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# KPIs for Different Business Models Quizzes",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1043522,
+              "key": "44f8e423-4c50-465f-af54-688878687c8f",
+              "title": "eCommerce Business Model KPIs",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "44f8e423-4c50-465f-af54-688878687c8f",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Select all the KPIs that would be a good fit for an eCommerce business model.",
+                "answers": [
+                  {
+                    "id": "a1593966162973",
+                    "text": "Number of purchases",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1593966218997",
+                    "text": "Percent of users who go from free trial to paid subscription",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1593966239303",
+                    "text": "User satisfaction ratings",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1593966246174",
+                    "text": "Average profit per sale",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1043523,
+              "key": "010aa194-9524-4dd8-a4f3-df87c5dd7893",
+              "title": "Software as a Service Business Model KPIs",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "010aa194-9524-4dd8-a4f3-df87c5dd7893",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Select all the KPIs that would be a good fit for a Software as a Service (SAAS) business model.",
+                "answers": [
+                  {
+                    "id": "a1593966738046",
+                    "text": "Average profit per sale",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1593966773051",
+                    "text": "User Satisfaction ratings",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1593966774010",
+                    "text": "Percent of users who go from free trial to paid subscription",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1593966774724",
+                    "text": "Number of purchasers or subscribers",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1043524,
+              "key": "8dff51da-521d-44a4-a28f-b91fabee7db0",
+              "title": "Freemium Business Model KPIs",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "8dff51da-521d-44a4-a28f-b91fabee7db0",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Select all the KPIs that would be a good fit for a freemium business model.",
+                "answers": [
+                  {
+                    "id": "a1593967249413",
+                    "text": "Percent of users who go from free user to paid subscriber",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1593967312183",
+                    "text": "Percent of users who pay for upgrades to the base (free) product",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1593967327179",
+                    "text": "Average profit per sale",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1593967335378",
+                    "text": "User Satisfaction ratings",
+                    "is_correct": true
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 1028157,
+          "key": "6e39490f-4caf-4cb2-902a-4bb210343987",
+          "title": "Exercise 1: KPIs for Different Business Models ",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "6e39490f-4caf-4cb2-902a-4bb210343987",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1028158,
+              "key": "67d98f0e-aec5-48a3-9057-706070ecad42",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# KPIs for Different Business Models Exercise: Choosing KPIs for a Landlord",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1028738,
+              "key": "9ebfa3eb-500c-4f0e-9f35-700751c66e55",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Instruction",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1031075,
+              "key": "8ccd41be-010a-4df2-99da-003799a2baa8",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Key performance indicators can be generated for any business. For this exercise, you will imagine a landlord with a large (25 apartment) building. It is an established apartment with 23 apartments currently rented on a yearly lease. The landlord pays an advertisement company a certain amount per apartment when the apartment is empty to recruit new customers/renters. The landlord does not use any third-party management tool and collects rent payments directly from tenants. He also is responsible for all building maintenance and repairs, though he typically will hire third-party contractors to do difficult repairs such as electrical and plumbing work.\n\nPlease use what you have learned to answer the following questions.\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1031117,
+              "key": "3830e6b5-31eb-4ef2-9e2e-badd02c209ba",
+              "title": "Question 1",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "3830e6b5-31eb-4ef2-9e2e-badd02c209ba",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": null,
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "Which business model discussed in this section seems most similar to renting apartments? Why?"
+              },
+              "answer": {
+                "text": "See the solution page for more details.",
+                "video": null
+              }
+            },
+            {
+              "id": 1031118,
+              "key": "8c8b0f49-9e63-4a18-a9a4-be528490e0d1",
+              "title": "Question 2",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "8c8b0f49-9e63-4a18-a9a4-be528490e0d1",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": null,
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "For each of the categories below, list at least one KPIs you *could* measure as a landlord\n\n1. Finding New Tenants (*Hint: this is similar to Acquiring New Customers*)\n\n2. Renter Happiness (*Hint: this is similar to Customer Satisfaction*)\n\n3. Repairs and Maintenance (*Hint: this is similar to Customer Support*)\n\n4. Revenue and costs"
+              },
+              "answer": {
+                "text": "See the solution page for more details.",
+                "video": null
+              }
+            },
+            {
+              "id": 1031119,
+              "key": "f17e8493-5020-4de9-89e0-f21c217faf37",
+              "title": "Question 3",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "f17e8493-5020-4de9-89e0-f21c217faf37",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": null,
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "If you could only choose 3, which KPIs would you choose to focus on as a landlord? Why?\n"
+              },
+              "answer": {
+                "text": "See the solution page for more details.",
+                "video": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 1028159,
+          "key": "b3d0ce98-bb56-4f95-a1fd-3cc93b2f8f7e",
+          "title": "Solution: KPIs for Different Business Models Exercise ",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "b3d0ce98-bb56-4f95-a1fd-3cc93b2f8f7e",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1028160,
+              "key": "c2e5e03d-6244-4611-b549-4069afca303c",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# KPIs for Different Business Models Exercise Solution: Choosing KPIs for a Landlord",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1028161,
+              "key": "84686ced-86df-47fd-a754-16864caa9918",
+              "title": "ND030 C3 L1 07 KPIs For Different Business Models Exercise Solution Video",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "hQvgOwaky3w",
+                "china_cdn_id": "hQvgOwaky3w.mp4"
+              }
+            },
+            {
+              "id": 1031077,
+              "key": "6b6c52b9-92ed-4fab-8760-4cb734700606",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Question 1:  Which business model discussed in this section seems most similar to renting apartments? Why?\n\nWhen finding similar business models, we must consider the way (and cadence) with which our customers produce revenue. In the case of an apartment complex, **users = renters**. They pay to get access to an apartment for a limited amount of time. The landlord still retains the valuable asset of the apartment building. In practice, this means the users in the business model of an apartment complex do not own what they purchase. Therefore, an e-commerce model does not fit apartment rentals. \n\nBecause users do not get the access to the apartment for free and pay for updates. The landlord business does not reflect the freemium business model.\n\nThe best-fit business model is likely SAAS/subscription-based. The renters are \"subscribing\" to the service of an apartment. The renters do not own the apartment but pay on a regular basis. At the end of their rental period/subscription term, they can choose to move to another apartment or to renew their subscription. ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1031083,
+              "key": "8e2835a4-3f52-4437-8720-4775bfd338c9",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Question 2: What KPIs could you measure as a landlord?\n\nAs a landlord, different categories of KPIs can be measured, including the following:\n\n*Finding New Tenants (similar to Acquiring New Customers)*\n- The time between an apartment is on the market and a lease is signed\n- Cost to find a new tenant (user acquisition cost)\n\n*Renter Happiness (similar to Customer Satisfaction)*\n- Survey renters about their happiness with their apartment complex and maintenance\n- Renewal rate (the rate at which renters renew their lease)\n- Average number of months renters spend at the complex\n\n*Repairs and Maintenance (similar to Customer Support)*\n- Number of work orders (similar to the number of customer support tickets)\n- Average time to address work orders (similar to time to address customer support ticket)\n\n*Revenues and Costs*\n- Net profit: revenue after all costs\n- Revenue per month from rental fees\n- Cost of repairs per month/year\n- Cost of maintenance (new paint, etc.)\n\nNote that this is not an exhaustive list of KPIs for a landlord, but illustrative of the type of KPIs a landlord could measure.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1031086,
+              "key": "fb3957ab-dc42-4034-8fde-6de54e0184ac",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Question 3: If you could only choose 3, which KPIs *would* you choose to focus on as a landlord? Why?\n\n*Revenue is king*, whether an online media mogul or an apartment landlord. The top KPIs for a landlord would therefore most likely be **profit and revenue related**. A landlord must pay the mortgage and taxes on his building, so he must bring in enough revenue from rentals or lose money. Net profit (revenue minus all expenses) is calculable and directly measures the health of the business. Net profit should, therefore, be one of the KPIs you choose to focus on as a landlord.\n\nAfter profit, the top KPI choices for a landlord focus on those metrics that most reflect the apartment building's capacity to *continue* to make revenue. Revenue means acquiring or retaining renters, as every empty apartment is an opportunity loss. Given that it is less expensive to keep a renter than to have to acquire a new customer, **retention rate** (or conversely, churn rate) is likely a KPI that should be in the top 3 of your focus as a landlord.\n\nAdditional KPIs you might choose to focus on will likely measure the **customer fit/appeal** of your apartment building. For example, the time it takes to fill an apartment and/or the satisfaction rating of current tenants. Both of these metrics would be strong indicators of your *ability to continue to fill apartments*. If you see long gaps before an apartment can be filled, this might indicate the apartment complex/amenities/cost is not a good fit for the market. If satisfaction ratings of current tenants decrease, this may be a leading indicator that leases will not be renewed. ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1031082,
+              "key": "c7c99cfa-1ac1-457c-8eea-3a24fe41eb32",
+              "title": "Reflect",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "c7c99cfa-1ac1-457c-8eea-3a24fe41eb32",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": null,
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "How well did your answers align with the solution provided? Write a few sentences about what you've learned through this exercise."
+              },
+              "answer": {
+                "text": "There are no right or wrong answers in a reflection. ",
+                "video": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 1028164,
+          "key": "2a1ec816-be41-49b5-8379-8ca0f53c2497",
+          "title": "Identify and Calculate KPIs in Customers' Journey",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2a1ec816-be41-49b5-8379-8ca0f53c2497",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1028165,
+              "key": "81f4685a-6c3f-43d8-b590-2f180128a317",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Identify and Calculate KPIs in Customers' Journey\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1044325,
+              "key": "ff284a9f-1191-4f52-955b-0ddaf60565ea",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Customers' Journey: Acquisition and Activation",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1044749,
+              "key": "669277d1-cc0b-4ccd-89e3-b4d1f1659f44",
+              "title": "ND030 C3 L1 08 Calculating User AARR Video Part 1",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "ERKvYyIj0do",
+                "china_cdn_id": "ERKvYyIj0do.mp4"
+              }
+            },
+            {
+              "id": 1044311,
+              "key": "c09d50f7-4fba-4e61-a86c-4f9837bde4a6",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Summary\nProduct managers need to look for ways to improve products and to drive further revenue and customer satisfaction. By looking at KPIs related to *customer’s journey*, product managers can learn where to improve and develop. \n\nThe customer's journey can be broken down into *Acquisition, Activation, Retention, Revenue, and Referral* categories. This set of metrics is called the **Pirate Metrics**.\n\n### Acquisition\nAcquisition is about acquiring *new visitors*. It is the first step in the Pirate Metrics because being aware of the existence of the product is the first step in a user's journey. \n\nKPIs around user acquisition focus on *how many and how often users can find your product.* Some examples are\n- The number of new visitors in a day\n- The number of new visitors coming from different sources\n\nIf KPIs in this category don't perform well, a product manager needs to do more work to help customers find the product.\n\n### Activation \nActivation is how quickly new visitors find the product valuable and decide to *become a customer*. It is the second step in the pirate metrics framework because new visitors become customers/users before they continue their journey.\n\nActivation KPIs focus on whether someone goes from being aware of your product to becoming a customer. This is also called **activation conversion**. Some example activation KPIs are:\n\n- The time users spend browsing the product on the first visit\n- The number of visitors who sign up for an account\n\nIf the activation KPIs aren’t performing well, a product manager needs to make the product more appealing or simplify the onboarding/signup process.\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1044326,
+              "key": "ba4cba8e-18dc-4263-bae7-854c0cbd847b",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Customers' Journey: Retention and Revenue",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1044309,
+              "key": "2a656969-41e8-44be-b7dd-6a479ef5f36a",
+              "title": "ND030 C3 L1 09 Calculating User AARR Video Part 2",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "Q-AXl8Lz6gA",
+                "china_cdn_id": "Q-AXl8Lz6gA.mp4"
+              }
+            },
+            {
+              "id": 1028190,
+              "key": "9955678e-9724-4955-b1a0-6a45a76bd9d7",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Retention \nRetention measures how often or how many users *come back*. It is the third step in the Pirate Metrics framework. A product still won’t be a successful one if it doesn't retain or keep active users. It is often expensive to find new customers, so successful products retain users for as long as possible.\n\nRetention KPIs focus on the number of users who return and continue using your product. Some example retention KPIs are:\n- The number of customers who renew their subscriptions\n- The average time length a user remains a customer.\n\nIf retention KPIs don't perform well, a product manager needs to do more work to keep users, probably by providing features that meet customer needs. ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1044312,
+              "key": "d7ceba98-d7e1-4bdb-ba7d-9b673c713cb8",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Revenue \nRevenue measures the amount of money a product makes. It\nis the fourth step in the Pirate Metrics framework.\n\nBesides revenue and profit, there are two more revenue KPIs that are important:\n\n- Customer Acquisition Cost (CAC). It is how much you spend on acquiring paying customers. The lower this cost is, the higher the profit could be.\n- Customer lifetime value (LTV). This is the amount of revenue an **average** customer generates. Higher LTV indicates greater revenue that is generated from each customer on average. Note: a specific customer may have a higher or lower lifetime value.\n\nBy comparing CAC to LTV, you can see if the product is profitable. If LTV is less than CAC, the product cannot be profitable.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1043981,
+              "key": "bc74884b-74fc-4c5d-9ece-2441cc525c78",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/July/5f06171d_l1-pirate/l1-pirate.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/bc74884b-74fc-4c5d-9ece-2441cc525c78",
+              "caption": "",
+              "alt": "",
+              "width": 600,
+              "height": 352,
+              "instructor_notes": null
+            },
+            {
+              "id": 1044315,
+              "key": "505e6848-b74c-4cad-a13b-27c898c422ac",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Calculate CAC and LTV",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1044310,
+              "key": "6509e74c-8448-4ecf-bad0-975ba7acb77a",
+              "title": "ND030 C3 L1 10 Calculating User AARR Video Part 3",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "UbU_7dfyNWA",
+                "china_cdn_id": "UbU_7dfyNWA.mp4"
+              }
+            },
+            {
+              "id": 1044313,
+              "key": "b027bee7-8fd0-494f-96e9-6e03dcee4ccc",
+              "title": "ND030 C3 L1 11 Calculating User AARR Video Part 4",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "V871KhTbjFM",
+                "china_cdn_id": "V871KhTbjFM.mp4"
+              }
+            },
+            {
+              "id": 1044314,
+              "key": "c5e1edf4-590e-4167-83ff-f11cbaf21c70",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Customer Acquisition Cost (CAC). \nIt is how much you spend on acquiring paying customers.\n\n``` text\nCAC = TE / NC\n\nCAC: Customer Acquisition Cost\nTE: Total expense on customer acquisition\nNC: Number of new customers acquired\n```\n### Customer lifetime value (LTV)\nThis is the amount of revenue an average customer generates.\n```text\nLTV = amount_per_user * RT\n    = value_per_sale * number_transaction * RT\n\nLTV: Lifetime value\nRT: Retention time period\namount_per_user: Average amount spent per user within a time period \nvalue_per_sale: Average value of a sale\nnumber_transaction: Average number of transactions within a time period\n```\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1043733,
+              "key": "34b4f50d-bfcf-468d-b7b7-d520a97c23f6",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## New terms\n- **Acquisition:** User acquisition metrics measure the number of users who learn about a product or feature.\n- **Activation:** User activation metrics measure how quickly new visitors decide to become active users and/or paying customers.\n- **Activation Conversion:** When a person goes from being aware of your product to actively using and/or paying for the product.\n- **Customer Acquisition Cost (CAC):** How much is spent on acquiring paying customers, per customer acquired.\n- **Customer lifetime value (LTV):** The amount of revenue an average customer generates.\n- **Pirate Metrics **: A set of metrics to help predict whether a product is on the path to success. Created by Doug McLure in 2007, the pirate metric categories are awareness, acquisition, activation, revenue, retention and referral (AARRR).\n- **Referral:**: Referral metrics measure how often and how well current users are referring new users to your product.\n- **Retention:**Retention metrics measure how long, on average, users remain active users and/or paying customers.\n- **Revenue:**: Revenue metrics measure the revenue (or money earned) by a product or feature.\n\n## Further research\n\n- *Startup Metrics for Pirates* Slideshow: https://www.slideshare.net/dmc500hats/startup-metrics-for-pirates-long-version",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1028167,
+          "key": "ee4f722e-f24a-4c91-ad60-e6076d3914f8",
+          "title": "Identify and Calculate KPIs in Customers' Journey Quizzes",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "ee4f722e-f24a-4c91-ad60-e6076d3914f8",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1028168,
+              "key": "bb6489df-d3c0-4d1a-a760-2e0a5aa3d6c7",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Identify and Calculate KPIs in Customers' Journey Quizzes",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1043577,
+              "key": "59ac5de9-6890-4c60-a3a9-35717f7a6604",
+              "title": "Pirate Metric Framework",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "59ac5de9-6890-4c60-a3a9-35717f7a6604",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which of the following represents the order of metrics in the pirate metrics framework?",
+                "answers": [
+                  {
+                    "id": "a1593982680700",
+                    "text": "Activation, Acquisition, Revenue, Retention, Referral",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1593982687417",
+                    "text": "Activation, Acquisition, Retention, Referral, and Revenue",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1593982702501",
+                    "text": "Acquisition, Activation, Retention, Revenue, and Referral ",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1593982724109",
+                    "text": "Acquisition, Activation, Retention, Referral, and Revenue",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1043525,
+              "key": "348df9de-921c-4368-8dc1-8c7d727a6531",
+              "title": "Matching KPIs to Pirate Metric Stages",
+              "semantic_type": "MatchingQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "348df9de-921c-4368-8dc1-8c7d727a6531",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "complex_prompt": {
+                  "text": "Match the following pieces of data to the stage in the pirate metrics framework with which they most closely relate."
+                },
+                "concepts_label": "Stage",
+                "answers_label": "Example Data",
+                "concepts": [
+                  {
+                    "text": "Acquisition",
+                    "correct_answer": {
+                      "id": "a1593967609316",
+                      "text": "There are 100 new visitors to the website homepage every day"
+                    }
+                  },
+                  {
+                    "text": "Activation",
+                    "correct_answer": {
+                      "id": "a1593967700117",
+                      "text": "30% of first time visitors create an account"
+                    }
+                  },
+                  {
+                    "text": "Retention",
+                    "correct_answer": {
+                      "id": "a1593967703481",
+                      "text": "90% of annual subscribers renew their annual subscriptions each year"
+                    }
+                  },
+                  {
+                    "text": "Revenue",
+                    "correct_answer": {
+                      "id": "a1593967767911",
+                      "text": "The average customer generates $250 in revenue during their lifetime"
+                    }
+                  },
+                  {
+                    "text": "Referral",
+                    "correct_answer": {
+                      "id": "a1593967831451",
+                      "text": "20% of customers say they first heard about the product from another user's recommendation"
+                    }
+                  }
+                ],
+                "answers": [
+                  {
+                    "id": "a1593967703481",
+                    "text": "90% of annual subscribers renew their annual subscriptions each year"
+                  },
+                  {
+                    "id": "a1593967831451",
+                    "text": "20% of customers say they first heard about the product from another user's recommendation"
+                  },
+                  {
+                    "id": "a1593967767911",
+                    "text": "The average customer generates $250 in revenue during their lifetime"
+                  },
+                  {
+                    "id": "a1593967700117",
+                    "text": "30% of first time visitors create an account"
+                  },
+                  {
+                    "id": "a1593967609316",
+                    "text": "There are 100 new visitors to the website homepage every day"
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1043526,
+              "key": "286e6ee7-c1d1-4653-8aaf-e14a9d23d19a",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "286e6ee7-c1d1-4653-8aaf-e14a9d23d19a",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which of the following Customer Acquisition Cost to customer Lifetime Value ratios represents the **healthiest** ratio?",
+                "answers": [
+                  {
+                    "id": "a1593967918762",
+                    "text": "Customer Acquisition Cost (CAC): $300, average customer Lifetime Value (LTV): $200",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1593968003711",
+                    "text": "Customer Acquisition Cost (CAC): $2.50, average customer Lifetime Value (LTV): $2.49",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1593968006434",
+                    "text": "Customer Acquisition Cost (CAC): $2.50, average customer Lifetime Value (LTV): $100",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1593968040174",
+                    "text": "Customer Acquisition Cost (CAC): $2.50, average customer Lifetime Value (LTV): $2.51",
+                    "is_correct": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 1028169,
+          "key": "9d5bb63d-41c8-4912-877c-9c3687eab054",
+          "title": "Exercise 2: Identify and Calculate KPI in Customers' Journey",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "9d5bb63d-41c8-4912-877c-9c3687eab054",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1028170,
+              "key": "69af9c62-edb9-491d-95b3-4a2ed186f5f7",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Identify and Calculate KPIs in Customers' Journey Exercise\n## Calculating Customer Acquisition Cost (CAC) & Lifetime Value (LTV) for BestAppEver Customers",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1031121,
+              "key": "d1295e54-86c9-44e8-8d41-c445269d93b5",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "You've been asked to look over the books for a new app called the BestAppEver. The app creator has data on the amount they've spent on marketing, the number of new paying users the app gets each month, and a sample of five users' purchases. The sample purchases should be representative of the average revenue generated by customers in a given **week**. She wants your help to determine if what she's spending on marketing is likely to generate the traffic she needs. This app has a **pay-as-you-go** model, so some users use the basic functionality for free. Others pay different amounts based on wanting to level up their app characters or use different premium features on a given day.\n\nClick [here](https://video.udacity-data.com/topher/2020/June/5ef684e2_l1-e2/l1-e2.xlsx) to download the data and answer the following questions.\n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1031785,
+              "key": "47beb45f-7265-4646-9a3a-8fb9ef1ec51d",
+              "title": "Reflect",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "47beb45f-7265-4646-9a3a-8fb9ef1ec51d",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": null,
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "Please use the space below to record your answer. Note, the data has two tabs: *Spending on market* and *Example customer spending*\n\n1. Use the provided data, calculate the average customer acquisition cost per month. \n2.  The app creator tells you they've been trying different marketing channels every month. Based on the provided data, is there a particular month's method you would suggest she invest in? Is there a particular month's method you suggest she not use again?\n3. Using the provided data, calculate the lifetime value of an average paying user of the BestAppEver.\n4. Given the LTV and CACs calculated, is the BestAppEver creator overspending on marketing when trying to acquire new users?"
+              },
+              "answer": {
+                "text": "See the solution page for a detailed solution.",
+                "video": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 1028171,
+          "key": "6cbc4cc2-190e-4727-95e5-e39fcd6751ff",
+          "title": "Solution: Identify and Calculate KPIs in Customers' Journey",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "6cbc4cc2-190e-4727-95e5-e39fcd6751ff",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1028172,
+              "key": "8d012d38-b8df-4fde-a3d5-ea1033032334",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Identify and Calculate KPIs in Customers' Journey Solution",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1028184,
+              "key": "a21ea26a-c2ba-4ef0-b499-207f748365f2",
+              "title": "ND030 C3 L1 12 Calculating User AARR Exercise Solution Video",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "b8z2hjeQd_0",
+                "china_cdn_id": "b8z2hjeQd_0.mp4"
+              }
+            },
+            {
+              "id": 1028185,
+              "key": "30bf116e-aa57-470f-81af-e31e878d4173",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Summary",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1031225,
+              "key": "76216b13-0373-4d24-a425-6f703ced5e23",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### 1) Using the provided data, calculate the basic average customer acquisition cost per month.\n\n```text\nCAC = Total acquisition expense / Number of new customers acquired\n```\nTo calculate the basic CAC, sum all marketing and sales costs put towards acquiring users. Since the BestAppEver allows users access to some of the app's features for free, include the cost of all work done to maintain the free version of the app in this sum. Finally, divide the calculated number (total expense) by the number of new (not returning) users in a given month.\n \nThe calculations should range from a low of $91.27 CAC in November to a high of $150.45 in March.\n\n### 2) The app creator tells you they've been trying different marketing channels every month. Based on the provided data, is there a particular month's method you would suggest she invest in? Is there a particular month's method you suggest she not use again?\n\nThe month with the *lowest* customer acquisition costs would indicate the marketing methods that might be worthy of reuse. For this reason, you should recommend the marketing methods used in November (with the lowest CAC, of $91.27) be further explored. \n<br>Since many months had similarly low CACs, the app owner should also consider *if all marketing methods brought in the same type of customers*. For example, a month with a slightly higher CAC that resulted in higher spending, longer-retained app users might be worth the slightly higher expense. However, if all customers acquired across the months had similar usage and spending behavior, November's marketing methods would likely be the most cost-efficient marketing solution.\n\nThe month with the *highest* customer acquisition costs would indicate the marketing methods that might not be worthy of reuse. For this reason, you should recommend the marketing methods used in March (with the highest CAC, of $150.45) NOT be further explored. Given that the March CAC was *far higher* than other months, the marketing methods employed during that month are likely not as cost-effective as others.\n\n### 3) Using the provided data, calculate the lifetime value of an average paying user of the BestAppEver.\n\nTo calculate basic lifetime value for an *average customer*, we multiply the *average* customer spending (in a given time period) by the average customer lifespan (in the *same time units*). \n```text\nLTV = Average amount spent within a time period X Retention time period\n```\nMake sure that the spending and lifespan period use the *same time units*, such as weeks or months. In the case of the BestAppEver, the average customer lifespan is stated as 12 *weeks*, so LTV can be calculated by average customer spending in a *week* * 12 weeks. \n\nThe provided data gives a sample of 5 different user purchases over a week who we are told had a level of spending similar to an average customer. To get the *average amount spent per user within a week*, we *add up* the weekly spent by each user then divide it by the total number of users. This will result in a value of $23.30.\n\nOnce you have established the average spending per week per customer at $23.30, multiply that number by the average customer lifetime (12 weeks for the BestAppEver) to get a customer lifetime value. For the BestAppEver, the average lifetime value of a customer is $279.60.\n\n### 4) Given the LTV and CACs calculated, is the BestAppEver creator overspending on marketing when trying to acquire new users?\n\nSince the LTV of a customer doesn't take into account the expenses it took to recruit the customer, it is important CAC be (far) less than than the LTV of a customer. Right now, BestAppEver is spending about half of the LTV of the customer ($150 CAC vs. $279.60 LTV) to acquire new customers. This means they aren't losing money from their marketing efforts. Further data about the cost of app maintenance, the size of the addressable market, etc. would be needed to know if the BestAppEver has a solid business plan. However, you can confidently say their customer acquisition costs don't cost more than an average user will return in revenue.\n\n\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1028173,
+          "key": "0ae38b11-4e13-4dec-83db-18df50de1a97",
+          "title": "Instrument and Collect Data at Feature-Level",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "0ae38b11-4e13-4dec-83db-18df50de1a97",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1028174,
+              "key": "85bf5889-2f94-4c88-be21-4dec60944814",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Instrument and Collect Data at Feature-Level",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1044320,
+              "key": "1b5fee9e-66e2-498f-a222-edf8c2b9f081",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Feature-Level Data Collection",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1028175,
+              "key": "deffe166-3852-40c4-a18f-e1a1fa226a21",
+              "title": "ND030 C3 L1 13 Collecting Additional Data For KPI Calculations Video Part 1",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "lhu8xVZoNUA",
+                "china_cdn_id": "lhu8xVZoNUA.mp4"
+              }
+            },
+            {
+              "id": 1028191,
+              "key": "144b1db9-b60d-4ee9-abff-a9a221c564e2",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Summary\nProduct managers also help determine, create, and launch *new features* within a product. KPIs are just as important at the feature level as the product level. Before launching a new feature, you need to think about what data to collect at the feature-level and how to instrument the feature to collect the data.\n\n### Data collection \nWhile the Pirate Metrics framework can provide a holistic view of a product’s performance, it can also be leveraged to examine the success of a new feature. At the feature-level, data should be collected including:\n\n- Acquisition: who saw the feature\n- Activation: who used the feature\n- Retention: how often users returned and re-used the feature\n- Revenue: how much can be made from the feature\n\nBesides data from the Pirate Metric framework, it is also important to collect *customer data*. This data includes:\n\n- Which customer uses the feature and which don't. By tracking this, you can identify if the feature is used differently among different customers and you can know who to talk to to get user feedback after launch.\n- When a user uses the feature. This data helps you understand why a customer uses the feature and helps you build new features that meet users' needs.\n- How a user uses the feature (*event-level* data and *session-based* data) such as the user's operating system or other information that can change from session to session. This data tells you if the feature is used differently. It provides valuable insights into further improvement.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1044321,
+              "key": "25c230c4-31e6-4f70-ba0b-eb4aeb18c834",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Feature-Level Metrics and Instrumentation",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1044317,
+              "key": "1d26a1d3-cfd3-4899-9a47-540f939c5dff",
+              "title": "ND030 C3 L1 14 Collecting Additional Data For KPI Calculations Video Part 2",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "JquFFgVCJ68",
+                "china_cdn_id": "JquFFgVCJ68.mp4"
+              }
+            },
+            {
+              "id": 1044316,
+              "key": "bd263faa-3927-4834-a8cf-fbfa4572b16e",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Feature-level metrics\nThe feature-level data can then be used to evaluate if the feature is successful or not. There are two common *metrics* that you can calculate from the feature-level data.\n\n### The percent of feature users out of total product users\nThis percentage measures how many users *actually use* a feature after *seeing* it. It tells you how *widespread* the feature usage is among all of a product’s active users.\n\n### Feature usage frequency and duration\nThis data measures *how frequently* a user engages with the feature and on average, how much *time* customers spend on the feature during each session. It provides information about *how* the feature is being used.\n\nNote that whether the frequency and duration of feature usage are “good” or “bad” depends entirely on the context of the product and the feature.\n\nWhen the frequency and duration don’t match product expectations or the frequency & duration of similar features already launched in the product, this is a sign that further investigation and research is needed.\n\n## Feature instrumentation\nAfter knowing the data you want to collect at the feature-level, you need to instrument the feature to ensure it can be collected. There are a few best practices in feature instrumentation. \n\n1. Keep in mind the data you want to collect when making decisions on how to build a feature. Common data that should be collected: who, when, how the feature is used, and different events/actions.\n2. Test instrumentation before launch. You can simulate the data that will be collected and check if the data can answer every question you have in mind.\n3. Define and document any new events/data created. Describe exactly how a piece of data is triggered. Data isn’t helpful if you don’t know the meaning of it.\n4. Bottom line: Keep in mind your future self. Think about the data you want to collect in three months from now and start to plan and instrument it now.\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1044322,
+              "key": "feebb512-945c-4caa-830f-b7ada822df11",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## New Feature Example",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1044318,
+              "key": "e44be225-57a6-45e0-9ed6-45fb053749ea",
+              "title": "ND030 C3 L1 15 Collecting Additional Data For KPI Calculations Video Part 3",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "-Fr2HPfD3hE",
+                "china_cdn_id": "-Fr2HPfD3hE.mp4"
+              }
+            },
+            {
+              "id": 1043748,
+              "key": "b2800d63-0bbb-405f-95aa-70c3f709d84b",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Summary\nWhile features don't typically need additional *revenue instrumentation* and some features may not need *retention instrumentation*,  the retention and revenue of a product can be highly relevant with feature-level success. By adding instrumentation and collecting data at a feature-level, product managers can compare feature usage to product KPIs. For example: is user satisfaction different among users who use and not use the feature? Are users who use the feature retains longer than those who don't use the feature? Answering these questions can help product managers find areas for further improvement. \n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1028176,
+          "key": "7348f48c-8837-46b0-a223-38bfeda3c424",
+          "title": "Instrument and Collect Data at Feature-Level Quizzes",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "7348f48c-8837-46b0-a223-38bfeda3c424",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1028177,
+              "key": "9b36aeec-eef1-4399-8cbd-7fb28a3407cc",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Instrument and Collect Data at Feature-Level Quizzes",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1043528,
+              "key": "843b3638-7ca7-441b-84af-fac5c51e6353",
+              "title": "Feature Instrumentation",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "843b3638-7ca7-441b-84af-fac5c51e6353",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which of the following are important to do when instrumenting a new feature? (select all that apply)",
+                "answers": [
+                  {
+                    "id": "a1593968374902",
+                    "text": "Plan and put instrumentation in place only after a new feature has been built",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1593983606112",
+                    "text": "Track separate events for separate user actions.",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1593983617079",
+                    "text": "Test your instrumentation by checking the data collected as soon as you launch a new feature",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1593983664014",
+                    "text": "Define and document any new events you create when instrumenting",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1593983691962",
+                    "text": "Track both event-level data and session-based data such as a user's browser or device type",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1043529,
+              "key": "04484ff6-c73b-49ea-b290-27131b358351",
+              "title": "Feature Instrumentation",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "04484ff6-c73b-49ea-b290-27131b358351",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Scenario: A data product manager is launching a feature in a map app to give more value to customers by including the history of buildings while a user is walking. Users can click on a \"learn more\" icon about the buildings they are interested in. From the choices below, select all instrumentation that would be important to put in place for the new feature.",
+                "answers": [
+                  {
+                    "id": "a1593968421984",
+                    "text": "How many users walked past buildings of interest",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1594225274466",
+                    "text": "Which users selected the \"learn more\" option",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1594225408998",
+                    "text": "How many times the average user chose to learn more during a walking session",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1594225438584",
+                    "text": "How many steps the user walked during their session",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1594225471687",
+                    "text": "How many building of interest have put into the system",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1043530,
+              "key": "1a4e65b3-896a-4aac-8e23-ffc976b44b60",
+              "title": "Feature Instrumentation and Pirate Metrics",
+              "semantic_type": "MatchingQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "1a4e65b3-896a-4aac-8e23-ffc976b44b60",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "complex_prompt": {
+                  "text": "Connect the type of information collected by instrumentation to the stage in pirate metrics it best represents."
+                },
+                "concepts_label": "Pirate Metrics Stage",
+                "answers_label": "Instrumentation",
+                "concepts": [
+                  {
+                    "text": "Acquisition",
+                    "correct_answer": {
+                      "id": "a1593968495529",
+                      "text": "Instrument to collect the number of users who see a new feature"
+                    }
+                  },
+                  {
+                    "text": "Activation",
+                    "correct_answer": {
+                      "id": "a1593968559655",
+                      "text": "Instrument to see how long the average user interacts with the new feature"
+                    }
+                  },
+                  {
+                    "text": "Retention",
+                    "correct_answer": {
+                      "id": "a1593968565256",
+                      "text": "Instrument to count the number of repeat users of the feature"
+                    }
+                  }
+                ],
+                "answers": [
+                  {
+                    "id": "a1593968559655",
+                    "text": "Instrument to see how long the average user interacts with the new feature"
+                  },
+                  {
+                    "id": "a1593968565256",
+                    "text": "Instrument to count the number of repeat users of the feature"
+                  },
+                  {
+                    "id": "a1593968495529",
+                    "text": "Instrument to collect the number of users who see a new feature"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 1028178,
+          "key": "3f255cf4-0e16-4179-ab1d-278340e679ce",
+          "title": "Exercise 3: Instrument and Collect Data at Feature-Level",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "3f255cf4-0e16-4179-ab1d-278340e679ce",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1028179,
+              "key": "7e906625-244f-4542-aaa2-d42b25b73310",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Instrument and Collect Data at Feature-Level Exercise\n## Instrumenting a New Referral Feature\n\nYou work at a food delivery startup \"Foodfast\" that sends pre-made meals to customers on a weekly basis. Customers pay per week for each food delivery and can skip a delivery at any time for no charge. You've convinced your CEO of the importance and power of referrals for attracting new customers. In the next week, your development team will be deploying a test of a **new feature** that allows current users to send a referral code to friends. If the friend joins the service, they get 50% off their first purchase (so that the first purchase simply covers the net cost of the food/packing/delivery to your company). At this time, the referrer gets no bonus. But in the future, to increase the incentive to refer friends, the company has a plan to experiment with offering a discount off the referrer's next order if the referred user signs up for a full-price delivery.\n\nAnswer the following questions with the above scenario in mind.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1035532,
+              "key": "eaa735e9-f494-4e47-9026-0e38dd94eb72",
+              "title": "Question 1: Choosing Data to Track",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "eaa735e9-f494-4e47-9026-0e38dd94eb72",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": null,
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "Before the feature launches, what data would you ensure your team is tracking? Imagine your team has no tracking in place and list all metrics you'd want to make sure are collected and instrumented. "
+              },
+              "answer": {
+                "text": "See solution page.",
+                "video": null
+              }
+            },
+            {
+              "id": 1035533,
+              "key": "3c4bd7f7-9130-470c-9490-e25844ba1be7",
+              "title": "Question 2: Future Data Collection Needs",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "3c4bd7f7-9130-470c-9490-e25844ba1be7",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": null,
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "It would be much simpler and take less development time to launch a single code that could be universally used by all referrers. Given the KPIs of interest, and the fact that soon after launch you will likely be offering incentives to referrers, would you recommend launch with a single code or with codes unique to each user? "
+              },
+              "answer": {
+                "text": "See solution page.",
+                "video": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 1028180,
+          "key": "54087e32-35ef-43b8-900a-6bdb8677a54e",
+          "title": "Solution: Instrument and Collect Data at Feature-Level",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "54087e32-35ef-43b8-900a-6bdb8677a54e",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1028181,
+              "key": "368db1f5-802d-4d93-b9f1-d5fd47af9bf7",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Instrument and Collect Data at Feature-Level Solution\n## Instrumenting a New Referral Feature",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1028182,
+              "key": "2ce4037e-7503-41b0-9a16-dd7831c37e3c",
+              "title": "ND030 C3 L1 16 Collecting Additional Data For KPI Calculations Exercise Solution Video",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "WeoxDTptXss",
+                "china_cdn_id": "WeoxDTptXss.mp4"
+              }
+            },
+            {
+              "id": 1028183,
+              "key": "b7dd2448-50b4-4fe4-976f-9a9415eae5ef",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Summary\n\n### Question 1: Choosing Data to Track\nWhenever launching a new feature (or test), it is important that the success of the feature can be verified. In the case of a referral feature, you should ensure you can track the entire referral process:\n- which users send invites\n- how many users send invites\n- how many invites an individual user sends\n- if an invite results in a new customer\n- which users arrive via referral (this will allow you to calculate the the LTV of the new customers that arrive via referral vs. the LTV of traditionally acquired customers)\n\nNote: if different methods of referral are in the initial tests, make sure different methods of referral can be tracked separately. For example, you might give users a way to share on social media that generates a different code than if a referral is sent via email. This will allow you to compare the above data by method to see if one form of sharing is typically more impactful. \n\n### Question 2: Future Data Collection Needs\n\nWhen designing new features, it is important to instrument with the near-term evolution of the feature in mind. If you know incentives might be offered to the referrer in the future, you should ensure that each code and referral is associated with a particular user. More than that, even if the new feature is never launched, important KPIs such as how many users send invites or which users sent invites could be lost if the codes are universal.\n\nWhen instrumenting features, knowing exactly who has done what is crucial to measuring success. This also makes reaching out to users and non-users of the feature for feedback simpler, as you will know which users have used the feature. ",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1028186,
+          "key": "5e6e2de0-af49-42ec-a2c8-d2930ff1ff58",
+          "title": "Lesson Conclusion",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "5e6e2de0-af49-42ec-a2c8-d2930ff1ff58",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1028187,
+              "key": "7be0f5f0-d5bf-4bfb-9196-b443fd6ca8d4",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Lesson Conclusion",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1028188,
+              "key": "77c852eb-ac02-4d61-86d7-bdcdd2151db3",
+              "title": "ND030 C3 L1 17 Lesson Conclusion",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "BdpiwOPEzKE",
+                "china_cdn_id": "BdpiwOPEzKE.mp4"
+              }
+            },
+            {
+              "id": 1028189,
+              "key": "3593e78e-642c-4edb-a528-8dfd93b3e8b5",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Summary\nCongratulations! You have just finished the second lesson of this course.\n\nIn this lesson, we first discussed the most common business models, including eCommerce, freemium, and software as a service. We learned that revenue-related KPI is a north star for all products and business models, and that leading indicators of revenue production, such as customer satisfaction are also important and should be tracked.\n\nIn the second part of this lesson, we discussed the KPIs around the customer journey. We learned about the framework of the Pirate Metrics, which suggests focusing on KPIs related to user acquisition, activation, retention, and revenue. By using all the data we collect to calculate KPIs at each step of the user journey, product managers can discern where they should be spending time and energy to improve a product.\n\nFinally, we learned about instrumenting features and collecting data at a feature-level. The AARR framework can also be leveraged to examine the success of a new feature. We should also track the customer-level data, that is, which customers used the feature, and how and when they used the feature.\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1043749,
+              "key": "22b11e8f-9a1a-41df-9c99-8bd84e221f23",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Glossary\n- **Activation Conversion:** When a person goes from being aware of your product to actively using and/or paying for the product.\n- **Acquisition:** User acquisition metrics measure the number of users who learn about a product or feature.\n- **Activation:** User activation metrics measure how quickly new visitors decide to become active users and/or paying customers.\n-  **Activation Conversion:** When a person goes from being aware of your product to actively using and/or paying for the product.\n- **Customer Acquisition Cost (CAC):** How much is spent on acquiring paying customers, per customer acquired.\n- **Customer lifetime value (LTV):** The amount of revenue an average customer generates.\n- **eCommerce:** The traditional business model of the sale of an item in exchange for payment. For eCommerce, the storefront is online.\n- **HEART Model**: Google framework for organizing product and customer data into five different categories: Happiness, Engagement, Adoption, Retention, and Task data.\n- **KPI:** Key Performance Indicator, a metric chosen and watched closely because it provides a good indication of product health/success.\n- **Freemium:** Business model that allows users to use the basic features of service for free, but charges for upgrades or the removal of advertisements.\n- **Leading Indicators:** Any metric that changes before the rest of a product's metrics begin to go in a particular direction. \n- **Pirate Metrics **: A set of metrics to help predict whether a product is on the path to success. Created by Doug McLure in 2007, the pirate metric categories are: awareness, acquisition, activation, revenue, retention and referral (AARRR).\n- **Referral:**: Referral metrics measure how often and how well current users are referring new users to your product.\n- **Retention:** Retention metrics measure how long, on average, users remain active users and/or paying customers.\n- **Revenue:**: Revenue metrics measure the revenue (or money earned) by a product or feature.\n- **Software as a Service (SAAS):** Business model that offers customers access to software in exchange for payment. Typically users have access to the software for as long as they are paying for the service.\n\n\n## Further reading\n\n- *Creating Success – A Guide to Product Manager KPIs*:\nhttps://www.toptal.com/product-managers/product-management/creating-success-a-guide-to-product-manager-kpis",
+              "instructor_notes": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    }
+  ]
+}

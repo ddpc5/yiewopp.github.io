@@ -1,0 +1,179 @@
+{
+  "data": {
+    "lesson": {
+      "id": 1027444,
+      "key": "0eb5f441-26ed-49a4-bd59-8a5afafc9c3e",
+      "title": "Project: Create an Iterative Design Path",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": "In this project, you will analyze the data from a previously run multivariate experiment to determine what is the next best step for Flyber.",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": false,
+      "resources": {
+        "files": [
+          {
+            "name": "DPMND - C3 Student Presentation Template",
+            "uri": "https://video.udacity-data.com/topher/2020/July/5f0f521e_dpmnd-c3-student-presentation-template/dpmnd-c3-student-presentation-template.pptx"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": {
+        "key": "e1b757aa-4e88-406a-a563-14970453926e",
+        "version": "1.0.0",
+        "locale": "en-us",
+        "duration": 40320,
+        "semantic_type": "Project",
+        "title": "Create an Iterative Design Path",
+        "description": "## Project Summary\nIn this project, you have selected KPIs and evaluated previous multivariate experiment results; done funnel and cohort analyses; come up with a hypothesis and next Steps\n\n## Submission Checklist\nBefore you submit, check if the following have been completed:  \n\n|    | |\n|-------------------------|--------------------------------------------------------------------------------------------------------------|\n| <input type=\"checkbox\"> | Everything in the [Rubric](https://review.udacity.com/#!/rubrics/2841/view) is in the presentation. |\n| <input type=\"checkbox\"> | Final review of presentation for typos, clarity, grammar, name, date, etc. |\n| <input type=\"checkbox\"> | The presentation is in the form of a PDF and is still correctly formatted.  |\n| <input type=\"checkbox\"> | The PDF file's name should include your name to make it unique.|\n| | | |\n\n## Ready to Submit?\nOnce you have all the items above completed, you can click the submit button. Follow the directions to submit your project in one of the following ways:\n1. A zip file\n2. A single PDF file",
+        "is_public": true,
+        "summary": null,
+        "forum_path": "",
+        "rubric_id": "2841",
+        "terminal_project_id": null,
+        "resources": null,
+        "image": null
+      },
+      "lab": null,
+      "concepts": [
+        {
+          "id": 1027445,
+          "key": "9171cd4f-7b2c-46a5-9164-007a17b8d67c",
+          "title": "Project Overview",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "9171cd4f-7b2c-46a5-9164-007a17b8d67c",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1027446,
+              "key": "98c12c73-c3d6-43ff-96c6-e2b84e082aae",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Project Overview\n## Iterative Design & The Future of Flyber: A Path Forward\nIn the past 6 months, your team worked tirelessly to launch the first flying car app, Flyber, to customers across New York City. The app has been something of a steep hit with the core group of flyers you launched with.\n\nYou've decided it's time to step up and layout a plan for how you're going to identify paths forward which give you the best chance at success. You pitch the team on an iterative design process that brings qualitative and quantitative techniques together in order to minimize industry-standard risk types so that you can move forward confidently.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1044301,
+              "key": "fd2dcbb2-4af5-4ef9-bbf3-b3fa32551bb0",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/July/5f080115_pro2/pro2.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/fd2dcbb2-4af5-4ef9-bbf3-b3fa32551bb0",
+              "caption": "",
+              "alt": "",
+              "width": 672,
+              "height": 392,
+              "instructor_notes": null
+            },
+            {
+              "id": 1044300,
+              "key": "e18c5725-c6f4-4df7-975b-fbd29c1ba729",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "First, you'll *identify KPIs* for Flyber and explain why these should be the key metrics for the company to focus on moving forward.\n\nSomeone in your company recently learned about experiments, so they ran an unofficial *multivariate experiment* without putting much thought into what they were testing. They launched three new landing pages, but they aren't sure if they saw a significant (and experimentally valid) lift in the rate of ride booking from this unofficial multivariate experiment. They came to you for your product management and data science expertise. To begin your iterative design program on the right foot and gain buy-in, you'll need the data collected during the multivariate testing and let your colleagues know if this experiment had any effect on the percent of users booking rides.\n\nOnce you've provided your recommendations, you need to run some *funnel and segment analyses* before you launch the next experiment to the site so your team has the best chance of success. Luckily, you helped build data instrumentation into each part of the Flyber app. You and the data scientists on your team have some *event logs* to dig through. You can analyze the Flyber intake funnel, compare trip booking rates among different demographic segments, and look for any areas to improve. You also have *qualitative interviews* from 20 typical riders to re-examine in light of the funnel data. Between the quantitative and qualitative data available, you're sure you can *hypothesize ways* to make the Flyber app even more successful!\n\nYou tell the CEO that you're going to summarize what's known and propose a path forward which is iterative and gives you the best chance of moving the needle. For the final part of this project, you'll create a *presentation* of your findings and present ideas for the next multivariate tests that Flyber should run.",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1027447,
+          "key": "f94bc15c-6cb1-44cd-a0f7-789ddeda3aa8",
+          "title": "Project Materials & Instructions",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "f94bc15c-6cb1-44cd-a0f7-789ddeda3aa8",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1027448,
+              "key": "38e0b41a-50fe-4586-a071-1e573f3d6d53",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Project Materials & Instructions\n## Materials\n| <center> Starter Material |<center>Description | <center>Download|\n|---------------------------------------------------------------------|----------------------|----------------------|\n|<center>Data | <center>.zip file, contains the event log data and the <br>interview data you need to complete your analysis| <center>[Click to download](https://video.udacity-data.com/topher/2020/June/5eebb59b_flyber-data/flyber-data.zip)\n|<center>Presentation Template|<center>Google slide or .pptx, template to start the project| <center>[Make a copy (google slide)](https://docs.google.com/presentation/d/1TBgYAyxd-Fl0qo34JJPVR5yBwa9JTDxKd0o9NVe--hY/copy)<br>or [Download (.pptx)](https://video.udacity-data.com/topher/2020/July/5f0f521e_dpmnd-c3-student-presentation-template/dpmnd-c3-student-presentation-template.pptx)",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1044299,
+              "key": "bd5a2c55-1106-4255-bc7d-f6a01092d6ed",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/July/5f0800c6_project/project.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/bd5a2c55-1106-4255-bc7d-f6a01092d6ed",
+              "caption": "Project template sample",
+              "alt": "",
+              "width": 614,
+              "height": 586,
+              "instructor_notes": null
+            },
+            {
+              "id": 1027449,
+              "key": "95fbe888-e5af-4427-8aa5-cf031c3b72b0",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Set up the project\n1. Please download the data file.\n2. Please make a copy of or download the presentation template.\n2. Open the presentation template and follow the instructions below. \n3. You will need to use [Tableau](https://public.tableau.com/s/) to analyze data and create visuals.\n\n## Instructions\n**Section 1: Select KPIs & Evaluate Previous Multivariate Experiment Results**\n \n1. Open the Flyber event logs data\n2. Determine KPIs for Flyber based on a) Flyber's business model AND b) data available; write these within presentation template\n3. Determine the elements tested in the multivariate experiment by reviewing the visualizations in the presentation template\n4. Create graph visualizing the results of the multivariate experiment on the percent of rides launched per user session started\n5. Check if the experiments or control won by performing a t-test to calculate the statistical significance of any differences between control and test conditions; report on if the difference is significant\n6. Write and show findings from steps 2, 3, 4 & 5 in the presentation template.\n \n**Section 2: Funnel & Segment Analyses**\n \n1. Find the stages of the user funnel available in the provided data\n2. Analyze the user funnel for dropoff\n3. Write findings and place a visual of funnels in the presentation template\n3. Identify demographic user characteristics for segment analysis available in the provided data\n4. Re-analyze the user funnel for each identified demographic segment\n5. Determine any areas of under-performance\n6. Write findings and place a visual of under-performing segment funnel in the presentation template\n6. Begin considering possible hypotheses for under-performance\n \n**Section 3: Hypothesis & Next Steps**\n \n1. Review user interview spreadsheet to better understand user pain points and motivation especially as related to the data analyzed in section 2\n2. Generate hypotheses of what to do next.\n3. Summarize your hypothesis and propose a multivariate experiment for testing this hypothesis in the presentation template\n ",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1027450,
+          "key": "1389c3b0-5437-4b36-b2d1-10656716c501",
+          "title": "Project Submission",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1389c3b0-5437-4b36-b2d1-10656716c501",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1027451,
+              "key": "18f25f6c-fffe-4362-849d-ba3b452b47a4",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Project Submission\n## Submission Instructions\n1. Make sure to check over the [Project Rubric](https://review.udacity.com/#!/rubrics/2841/view) to ensure you have met all of the project specifications\n2. Final review of presentation for typos, clarity, grammar, name, date, etc.\n3. Save your presentation as a PDF file and include your name in the file name\n4. Check if the presentation is still correctly formatted in the form of a PDF\n5. Upload and submit the PDF file for evaluation",
+              "instructor_notes": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    }
+  ]
+}

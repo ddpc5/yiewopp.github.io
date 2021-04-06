@@ -1,0 +1,217 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:04.515
+What we have discussed so far forms the basis of relational modeling.
+
+00:00:04.515 --> 00:00:09.285
+Relational modeling is forming relationships between data tables.
+
+00:00:09.285 --> 00:00:11.025
+First, we need to discuss
+
+00:00:11.025 --> 00:00:15.510
+normalization in order to better understand relational modeling.
+
+00:00:15.510 --> 00:00:19.860
+Normalization refers to eliminating redundancy.
+
+00:00:19.860 --> 00:00:24.345
+Each table should have data around a specific topic.
+
+00:00:24.345 --> 00:00:31.515
+This eliminates modification complexities and saves on storage.
+
+00:00:31.515 --> 00:00:37.935
+As mentioned, normalization helps in eliminating database modification complexities.
+
+00:00:37.935 --> 00:00:41.815
+For example, if Jon Doe changes their phone number,
+
+00:00:41.815 --> 00:00:44.530
+only customer table needs to be updated.
+
+00:00:44.530 --> 00:00:47.415
+We don't need to update order table,
+
+00:00:47.415 --> 00:00:50.480
+and thus we save on storage since we are not
+
+00:00:50.480 --> 00:00:53.960
+copying all customer data for every single order.
+
+00:00:53.960 --> 00:00:57.270
+Another fundamental concept is around keys,
+
+00:00:57.270 --> 00:00:59.940
+primary key and foreign key.
+
+00:00:59.940 --> 00:01:04.330
+A key is nothing but an index of a record in a table.
+
+00:01:04.330 --> 00:01:08.665
+Primary keys. Primary keys are unique identifiers,
+
+00:01:08.665 --> 00:01:11.780
+and there is only one primary key in a table.
+
+00:01:11.780 --> 00:01:15.985
+Also, primary key column cannot be blank or null.
+
+00:01:15.985 --> 00:01:20.810
+Primary keys are intended to identify a unique record in a table.
+
+00:01:20.810 --> 00:01:24.200
+In our tables, customer ID,
+
+00:01:24.200 --> 00:01:28.645
+project ID, and order ID are our primary keys.
+
+00:01:28.645 --> 00:01:31.230
+Now let's talk about foreign keys.
+
+00:01:31.230 --> 00:01:33.125
+A foreign key is a set of
+
+00:01:33.125 --> 00:01:38.945
+one or more column that refers to a primary key in another table.
+
+00:01:38.945 --> 00:01:42.860
+A table can have one or more foreign keys.
+
+00:01:42.860 --> 00:01:48.690
+Foreign keys can contain duplicates and can have null values.
+
+00:01:48.690 --> 00:01:54.765
+In order table, customer ID and project ID will be our foreign keys.
+
+00:01:54.765 --> 00:01:57.875
+Product ID is the primary key of the product table,
+
+00:01:57.875 --> 00:02:01.265
+and customer ID is the primary key of customer table.
+
+00:02:01.265 --> 00:02:05.285
+Product table and customer table contain no foreign keys.
+
+00:02:05.285 --> 00:02:08.045
+As you can see, customer 123,
+
+00:02:08.045 --> 00:02:09.860
+which refers to Jon,
+
+00:02:09.860 --> 00:02:16.720
+has two orders, hence two records in orders table that have same customer ID.
+
+00:02:16.720 --> 00:02:22.860
+He purchase A1B2, red square eraser both the times.
+
+00:02:22.860 --> 00:02:24.710
+In our data model,
+
+00:02:24.710 --> 00:02:30.659
+if for some reason a customer does not have a customer ID and makes a purchase,
+
+00:02:30.659 --> 00:02:33.970
+the record can still be created in order table,
+
+00:02:33.970 --> 00:02:39.865
+but it won't be created in customer table unless it does assign an ID.
+
+00:02:39.865 --> 00:02:43.930
+To summarize, customer ID, product ID,
+
+00:02:43.930 --> 00:02:48.985
+and order ID are our primary keys in their respective tables,
+
+00:02:48.985 --> 00:02:54.725
+and customer ID and project ID are foreign keys in order table.
+
+00:02:54.725 --> 00:02:59.200
+Keys help us in establishing relationships between tables
+
+00:02:59.200 --> 00:03:04.225
+that is needed to run complex queries that join data from different tables.
+
+00:03:04.225 --> 00:03:08.680
+In our example, if we want to create a buying pattern for Jon,
+
+00:03:08.680 --> 00:03:10.675
+we can join customer table,
+
+00:03:10.675 --> 00:03:13.780
+order table, and product table to see Jon
+
+00:03:13.780 --> 00:03:17.770
+prefers red color product and is a frequent buyer.
+
+00:03:17.770 --> 00:03:21.400
+Can you notice anything about the order dates?
+
+00:03:21.400 --> 00:03:24.470
+He buys erasers on holidays.
+
+00:03:24.470 --> 00:03:29.000
+This information is important for marketing so that they
+
+00:03:29.000 --> 00:03:33.280
+can advertise to Jon the products that fall in red color palette.
+
+00:03:33.280 --> 00:03:38.210
+This information is also important for inventory management team.
+
+00:03:38.210 --> 00:03:43.600
+They can predict demand of red color products and have inventory accordingly.
+
+00:03:43.600 --> 00:03:49.895
+The dataset we have here is miniscule in comparison to what real world data looks like.
+
+00:03:49.895 --> 00:03:56.645
+Generally, these insights are derived from tables that could have millions of rows.
+
+00:03:56.645 --> 00:03:59.600
+The concepts discussed here are
+
+00:03:59.600 --> 00:04:03.545
+fundamental to the understanding of a relational database.
+
+00:04:03.545 --> 00:04:07.610
+Relational database have data in tables.
+
+00:04:07.610 --> 00:04:09.560
+Tables are linked through keys,
+
+00:04:09.560 --> 00:04:12.520
+and data in these tables is normalized.
+
+00:04:12.520 --> 00:04:16.610
+Entity data captures current state of an application,
+
+00:04:16.610 --> 00:04:19.370
+such as who our customers are,
+
+00:04:19.370 --> 00:04:21.275
+or what products we have.
+
+00:04:21.275 --> 00:04:26.090
+The drawbacks of entity data model are joins might get
+
+00:04:26.090 --> 00:04:29.300
+complicated and introduce latency for
+
+00:04:29.300 --> 00:04:33.055
+queries that need to combine data from cross tables.
+
+00:04:33.055 --> 00:04:37.990
+Advantages are removal of data duplication,
+
+00:04:37.990 --> 00:04:41.945
+and simple or easy to understand basic data structure.
+
+00:04:41.945 --> 00:04:43.790
+In the next section,
+
+00:04:43.790 --> 00:04:48.810
+we'll introduce you to event data. See you soon.
+

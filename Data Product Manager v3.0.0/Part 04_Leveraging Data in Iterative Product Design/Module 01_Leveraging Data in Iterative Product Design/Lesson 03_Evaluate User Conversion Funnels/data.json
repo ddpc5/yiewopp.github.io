@@ -1,0 +1,1754 @@
+{
+  "data": {
+    "lesson": {
+      "id": 1028379,
+      "key": "7faadc5a-5e90-4473-9e4b-cac09869287c",
+      "title": "Evaluate User Conversion Funnels",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": "In this lesson, you will learn how to create user conversion funnels and apply it to product management.",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": false,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "https://zips.udacity-data.com/7faadc5a-5e90-4473-9e4b-cac09869287c/1028379/1605812305067/Evaluate+User+Conversion+Funnels+Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "https://zips.udacity-data.com/7faadc5a-5e90-4473-9e4b-cac09869287c/1028379/1605812301435/Evaluate+User+Conversion+Funnels+Subtitles.zip"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 1028383,
+          "key": "dc3f9648-f889-4427-b9d5-430fdaf77846",
+          "title": "Evaluate User Conversion Funnels",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "dc3f9648-f889-4427-b9d5-430fdaf77846",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1028384,
+              "key": "7d133944-6619-4495-826d-97633c92998f",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Evaluate User Conversion Funnels\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1028385,
+              "key": "a5ecb2b6-ca5a-450c-8d7f-f4bd6bc751be",
+              "title": "ND030 C3 L2 01 Evaluating User Conversion Funnels Video",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "dU02snZMhNo",
+                "china_cdn_id": "dU02snZMhNo.mp4"
+              }
+            },
+            {
+              "id": 1043971,
+              "key": "e851b24d-efa3-4d9a-a25e-e0a11df253bc",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/July/5f06141c_l2-co/l2-co.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/e851b24d-efa3-4d9a-a25e-e0a11df253bc",
+              "caption": "Course outline",
+              "alt": "",
+              "width": 750,
+              "height": 270,
+              "instructor_notes": null
+            },
+            {
+              "id": 1028386,
+              "key": "60e23a02-d65d-460c-bcde-d6889f4b7196",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Summary\nIn this lesson, we will talk about conversion funnels, including how to measure user drop off between steps and how to visualize funnel drop off in Tableau. By analyzing user funnels, we can identify potential opportunities for product improvement. Using data to identify areas for improvement is an important step in a cycle of data-driven iterative design.\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1028387,
+          "key": "2bd3c40a-094e-4ef0-8776-255ed2707f5e",
+          "title": "Big Picture / Intuition",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2bd3c40a-094e-4ef0-8776-255ed2707f5e",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1028388,
+              "key": "cad68421-2e9e-4c7d-9e2b-8e10b6353b04",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Big Picture / Intuition",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1028389,
+              "key": "1e754656-612f-422b-a246-4024d75bd4b3",
+              "title": "ND030 C3 L2 02 Big Picture Video",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "1-VWmjdCgLY",
+                "china_cdn_id": "1-VWmjdCgLY.mp4"
+              }
+            },
+            {
+              "id": 1028390,
+              "key": "94921c6b-51bc-4b4c-9c09-716118b175cd",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Summary\nUser funnel analysis tracks the *step-by-step* use of a product or a feature.\n\nAfter identifying each step users take, product managers can analyze user data and calculate which steps are prone to drop off. Steps with a large dropoff are usually areas that need further investigation and improvement.\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1043604,
+              "key": "61aca2e2-7607-4c89-9586-4d6c6af8e888",
+              "title": "",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "61aca2e2-7607-4c89-9586-4d6c6af8e888",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which of the following is true about user conversion funnels?",
+                "answers": [
+                  {
+                    "id": "a1593994534532",
+                    "text": "Used to help a product manager know if product is succeeding overall",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1593994627860",
+                    "text": "Track users along a set of actions towards a goal",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1593994649579",
+                    "text": "Indicate specific steps in a process which are prone to user dropoff",
+                    "is_correct": true
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 1028392,
+          "key": "7c6df103-f723-4d33-9d2d-3ffd59ccb5b5",
+          "title": "Lesson Outline",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "7c6df103-f723-4d33-9d2d-3ffd59ccb5b5",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1028393,
+              "key": "460ae55c-f762-42ec-906c-d3abbb5d2830",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Lesson Outline",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1028394,
+              "key": "29abc797-5d3f-4566-85aa-ceb4717dd804",
+              "title": "ND030 C3 L2 03 Lesson Outline Video",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "7cHG3e0N0YU",
+                "china_cdn_id": "7cHG3e0N0YU.mp4"
+              }
+            },
+            {
+              "id": 1043972,
+              "key": "1dbcf7f3-f0ed-44d8-a70f-3310b2d089ca",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/July/5f061438_l2-lo/l2-lo.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/1dbcf7f3-f0ed-44d8-a70f-3310b2d089ca",
+              "caption": "Lesson outline",
+              "alt": "",
+              "width": 700,
+              "height": 182,
+              "instructor_notes": null
+            },
+            {
+              "id": 1028395,
+              "key": "1f3f0054-f12d-47fd-972d-51ab4a8dd436",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Summary\nIn this lesson, we’ll first learn about the steps users take towards a goal and form a funnel and then learn to apply the same technique to feature usage.\n\nIn the second part, we’ll discuss how to calculate funnel drop off in Tableau and identify the steps in a user funnel with the highest drop off rates.\n\nFinally, in the third part of this lesson, we’ll discuss how to visualize funnel drop off in Tableau for use in presentations.\n\n## Lesson objective\nBy the end of this lesson, you will be able to\n- Identify the steps in typical user acquisition and activation funnel\n- Run analysis in Tableau to determine the rate of user dropoff during each step of a funnel\n- Visualize a funnel analysis in Tableau in bar chart form\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1028396,
+          "key": "24b71c4d-ab32-4722-9d5a-f451afb2cc10",
+          "title": "User Conversion Funnels",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "24b71c4d-ab32-4722-9d5a-f451afb2cc10",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1028397,
+              "key": "25b93e4a-d601-4876-8e2a-46084a6f1a3d",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# User Conversion Funnels\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1044328,
+              "key": "7256d7af-d451-4cb0-ab5b-17cf63eba26c",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Traditional sales funnel",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1028398,
+              "key": "bd5aebfe-9614-4250-b8fc-3c96b503c720",
+              "title": "ND030 C3 L2 04 User Aquisition And Activation Funnels Video Part 1",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "j9yRqoHQoxo",
+                "china_cdn_id": "j9yRqoHQoxo.mp4"
+              }
+            },
+            {
+              "id": 1028399,
+              "key": "ce7958ee-b286-4ef7-a8a9-3476fb94a7b1",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Funnel analysis\nCreating a user funnel starts with **identifying the steps a user takes** when going towards the desired action, such as making a purchase or using a new feature. \n\nThen product managers **count the number of users who take each step**. The shape of a funnel occurs because the number of users is reduced as customers “fall out”\n\nLastly, product managers look for **where large drop off** occurs. The steps where the large drop off occurs indicates areas that may be confusing or difficult for customers to make.\n\n## Traditional sales funnel\nA conversion funnel can be looked at in three stages. ** awareness, evaluation, and purchase.**  These funnels allow us to dig into detailed data about a customer’s step by step journey to find specific areas for improvement.\n\n### Awareness\nAwareness is when the user becomes aware of a need and/or a product. Users in the awareness stage *discover* the product based on their needs.\n\n### Evaluation \nEvaluation is when the user *researches* their options. Users in the evaluation stage take time to learn about their purchase options and consider whether a purchase is aligned with their interests.\n\n### Purchase \nPurchase is when the user *takes the desired action* such as becoming a paying customer. This is the final stage because, in this stage, the ultimate goal is met.\n\nUsers can take many steps in each stage. By looking at the number of users in each step, you can determine where the largest drop off occurs and decide where to investigate further.\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1043973,
+              "key": "27f103d7-ef08-4891-9f77-eb24c236576e",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/July/5f06145c_l2-funnel/l2-funnel.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/27f103d7-ef08-4891-9f77-eb24c236576e",
+              "caption": "Three stages in a sales funnel",
+              "alt": "",
+              "width": 360,
+              "height": 224,
+              "instructor_notes": null
+            },
+            {
+              "id": 1044329,
+              "key": "2f5a25cc-46a0-4259-b982-cc547c8f2821",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Example: eCommerce purchase funnel",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1044327,
+              "key": "4fee6607-7e58-42d4-b584-01a857a525b2",
+              "title": "ND030 C3 L2 05 User Aquisition And Activation Funnels Video Part 2",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "xEnThYhEWrQ",
+                "china_cdn_id": "xEnThYhEWrQ.mp4"
+              }
+            },
+            {
+              "id": 1043976,
+              "key": "62a9a034-8843-4045-ae6c-13199dcbe6d0",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Example: eCommerce purchase funnel\nDuring the awareness stage, the steps can be:\n- Advertisement viewing\n- Site visit \n\nThen, the user moves to the evaluation stage. Steps in this stage may include:\n- Review the product and consider a purchase\n- Add items to cart\n- Enter checkout page\n\nThe final stage is the purchase stage. The steps in this stage may be:\n- Make a purchase\n\n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1043975,
+              "key": "893433fb-a536-48e3-87a4-aa546cff2f29",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/July/5f06150d_l2-s-funnel/l2-s-funnel.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/893433fb-a536-48e3-87a4-aa546cff2f29",
+              "caption": "Stages and steps in a sales funnel ",
+              "alt": "",
+              "width": 728,
+              "height": 314,
+              "instructor_notes": null
+            },
+            {
+              "id": 1043876,
+              "key": "cbf045bd-98f2-4635-b67a-4d31ef3d8933",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Funnel analysis in feature usage\nFunnel analysis in feature usage is almost identical to that in the product level. It starts with **identifying the steps** a user takes to complete the desired actions. In the case of feature usage, the desired action may not be making a purchase, but use of the new feature.\n\nRegardless of whether the goal is purchase or usage, the analysis still consists of **counting the number of users** who make it to each step and **looking at areas with a high drop off** which indicate a need for further investigation and potential improvement.\n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1043870,
+              "key": "602a6823-f88a-4676-8852-3392225800dd",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## New terms\n- **Awareness:** The step in a sales funnel when the user becomes aware of a need and/or a product.\n- **Evaluation:** The step in a sales funnel when the user researches their options and considers whether a product will bring them value. \n- **Purchase:** The step in a sales funnel when the user takes the final/desired action of becoming a paying customer\n\n\n## Further research\n- *Conversion Funnel And User Journey Optimization: A Complete Guide*:\nhttps://www.digitalsilk.com/conversion-funnel-user-journey \n\n- *How to Create a User Conversion Funnel (Examples)*: https://www.crazyegg.com/blog/website-conversion-funnel/",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1028400,
+          "key": "8d6261af-431b-4942-a966-303b83de6551",
+          "title": "User Conversion Funnels Quizzes",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8d6261af-431b-4942-a966-303b83de6551",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1028401,
+              "key": "7e4129fc-6cc1-4ca2-aaa5-fa0ad8c977b5",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# User Conversion Funnels Quizzes",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1043607,
+              "key": "35aca0b1-1dbe-4a65-99cf-9aef9c089a5a",
+              "title": "Funnel Analysis",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "35aca0b1-1dbe-4a65-99cf-9aef9c089a5a",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which of the following are true about funnel analysis? (Select all that apply)",
+                "answers": [
+                  {
+                    "id": "a1593995600916",
+                    "text": "Low drop off between steps indicates areas for improvements",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1593995649629",
+                    "text": "High drop off between steps indicates areas for improvements",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1593995667936",
+                    "text": "Steps need to be ordered from the first step taken by a user to the final step taken by a user in pursuit of a goal",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1593995677259",
+                    "text": "Steps can be in any order during analysis",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1593995705502",
+                    "text": "Funnel analysis can only be used in evaluating the sales funnels (awareness/evaluation/purchase)",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1043605,
+              "key": "2d1b0491-8943-4092-8586-b9d0782a4f38",
+              "title": "",
+              "semantic_type": "MatchingQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "2d1b0491-8943-4092-8586-b9d0782a4f38",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "complex_prompt": {
+                  "text": "Match the user action to the related stage in the traditional sales funnel."
+                },
+                "concepts_label": "Traditional Sales Funnel Stage",
+                "answers_label": "User Action",
+                "concepts": [
+                  {
+                    "text": "Awareness",
+                    "correct_answer": {
+                      "id": "a1593994920944",
+                      "text": "User clicks on a Facebook ad for a monthly subscription box of international snacks"
+                    }
+                  },
+                  {
+                    "text": "Evaluation",
+                    "correct_answer": {
+                      "id": "a1593994988383",
+                      "text": "User lands on landing page of the international snacks subscription box website. User reads reviews of the subscription box. User places a six month subscription in their cart and goes to checkout."
+                    }
+                  },
+                  {
+                    "text": "Purchase",
+                    "correct_answer": {
+                      "id": "a1593995024699",
+                      "text": "User enters credit card information and clicks submit to pay for a monthly subscription for 6 months."
+                    }
+                  }
+                ],
+                "answers": [
+                  {
+                    "id": "a1593994920944",
+                    "text": "User clicks on a Facebook ad for a monthly subscription box of international snacks"
+                  },
+                  {
+                    "id": "a1593995024699",
+                    "text": "User enters credit card information and clicks submit to pay for a monthly subscription for 6 months."
+                  },
+                  {
+                    "id": "a1593994988383",
+                    "text": "User lands on landing page of the international snacks subscription box website. User reads reviews of the subscription box. User places a six month subscription in their cart and goes to checkout."
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1043606,
+              "key": "9382426b-42c3-4bc2-b397-6d399ecd3c36",
+              "title": "Feature Usage Funnel Analysis",
+              "semantic_type": "MatchingQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "9382426b-42c3-4bc2-b397-6d399ecd3c36",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "complex_prompt": {
+                  "text": "Place the user actions in order, as you would when building a feature usage funnel for analysis. In the following scenario, imagine the user is getting married and creating a wishlist of favorite items to share with wedding attendees who want help deciding which gift to buy."
+                },
+                "concepts_label": "Step Number",
+                "answers_label": "User Action",
+                "concepts": [
+                  {
+                    "text": "1",
+                    "correct_answer": {
+                      "id": "a1593995178713",
+                      "text": "User creates an empty wishlist"
+                    }
+                  },
+                  {
+                    "text": "2",
+                    "correct_answer": {
+                      "id": "a1593995229355",
+                      "text": "User searches and finds an item they would like as a gift"
+                    }
+                  },
+                  {
+                    "text": "3",
+                    "correct_answer": {
+                      "id": "a1593995230890",
+                      "text": "User selects \"add item to wishlist\""
+                    }
+                  },
+                  {
+                    "text": "4",
+                    "correct_answer": {
+                      "id": "a1593995233273",
+                      "text": "User goes to wishlist page to review all items added"
+                    }
+                  },
+                  {
+                    "text": "5",
+                    "correct_answer": {
+                      "id": "a1593995492272",
+                      "text": "User copies wishlist link and adds to their wedding website and invitations"
+                    }
+                  }
+                ],
+                "answers": [
+                  {
+                    "id": "a1593995229355",
+                    "text": "User searches and finds an item they would like as a gift"
+                  },
+                  {
+                    "id": "a1593995230890",
+                    "text": "User selects \"add item to wishlist\""
+                  },
+                  {
+                    "id": "a1593995233273",
+                    "text": "User goes to wishlist page to review all items added"
+                  },
+                  {
+                    "id": "a1593995492272",
+                    "text": "User copies wishlist link and adds to their wedding website and invitations"
+                  },
+                  {
+                    "id": "a1593995178713",
+                    "text": "User creates an empty wishlist"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 1028402,
+          "key": "bb703e68-c069-42dd-a41f-1634b18e5ce2",
+          "title": "Exercise 1: User Conversion Funnels",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "bb703e68-c069-42dd-a41f-1634b18e5ce2",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1028403,
+              "key": "dacd7919-2e19-46ca-a802-3b8f3ff83464",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# User Conversion Funnels Exercise: Online Shopping Experience",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1028741,
+              "key": "4ca38ec5-fb3b-481f-8a0d-9cf263db1587",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Instruction\n\nWe can learn a lot from our own experiences with products. For example, if you've ever purchased an item online from an e-commerce site for the first time, you went through a **user conversion funnel**. In this exercise, you'll list the **stages and steps** as you went through a conversion funnel when purchasing an item online.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1035547,
+              "key": "23e18ad2-fe60-4121-84b8-903508cd2951",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Example\n\nHere is an example of what the awareness stage and steps of your shopping funnel might look like. The example chosen is a funnel that ends in the purchase of a dog toy from an online store.\n\n**Stage**: Awareness\n<br>**Step(s)**: The customer learns about the website, perhaps while searching for a particular type of item. Paid advertising can also come into play here via Adwords and other marketing techniques.\n<br>**Example**: when Nina searches on Google for \"toys for dog chewy\" she sees an ad for DogToys.com",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1031842,
+              "key": "75f5f25d-ffee-4953-a533-858bbdcb6b5f",
+              "title": "List Stages and Steps ",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "75f5f25d-ffee-4953-a533-858bbdcb6b5f",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": null,
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "Name the **stages and list the steps** of the user acquisition and activation funnel you went through in a recent online purchase. Provide an **example** under each step. For bonus points, while going through stages and steps, make suggestions about how the online shopping funnel you experienced could have been improved!\n\n*(If you never make online purchases, feel free to do this exercise while thinking of an in-person acquisition/activation funnel.)*"
+              },
+              "answer": {
+                "text": "See the solution page for a sample solution. ",
+                "video": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 1028404,
+          "key": "039b7855-cb78-4f34-a852-ddb563b05aed",
+          "title": "Solution: User Conversion Funnels Exercise Solution",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "039b7855-cb78-4f34-a852-ddb563b05aed",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1028405,
+              "key": "3f7d45b1-3a09-45d7-b477-e81559f2b7d2",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# User Conversion Funnels Exercise Solution: Online Shopping Experience",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1028406,
+              "key": "8cf77dea-cb4f-44db-be8d-7cbc5ac54a70",
+              "title": "ND030 C3 L2 06 User Aquisition And Activation Funnels Exercise Solution Video",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "Nlh6eVOyHjk",
+                "china_cdn_id": "Nlh6eVOyHjk.mp4"
+              }
+            },
+            {
+              "id": 1028407,
+              "key": "dd95063c-493d-4b9a-8f71-651fb8926a41",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Summary\n\nWhile the specific user acquisition and activation funnel you followed when making an online purchase will vary, the below covers the main stages and the most common experiences of an e-commerce funnel:\n\n### The funnel begins:\n\n1) The customer has a need for a product. This can come from external triggers or via advertising (paid marketing). \n<br>*Example: sick of her dog's chew toys being pulled apart, potential customer Nina decides to look for more rugged options*\n\n### Awareness:\n\n2) The customer learns about the website, perhaps while searching for a particular type of item. Paid advertising can also come into play here via Adwords and other marketing techniques.\n<br>*Example: when Nina searches on Google for \"toys for dog chewy\" she sees an ad for DogToys.com*\n\n3) The customer enters the website\n<br>*Example: Nina clicks on the DogToys.com ad. Because of the \"chewy\" word in her search, the link drops her in the \"extra tough\" section.*\n\n\n### Evaluation:\n4) The customer searches for potential items to purchase\n<br>*Example: Nina looks at the reviews on the three top-rated extra-tough dog toys*\n\n5) The customer decides to make a purchase\n<br>*Example: Nina places two dog toys in her cart and chooses to continue to checkout.*\n\n### Purchase\n6) The customer follows through on their intent and makes a purchase.\n<br>*Example: Nina puts in her shipping address and credit card information and hits submit. Fido gets new toys and Nina has completed this part of the funnel!*",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1043974,
+              "key": "7e78fa40-af4a-4a7b-935f-b92049d15138",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/July/5f0614a8_l2-e-funnel/l2-e-funnel.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/7e78fa40-af4a-4a7b-935f-b92049d15138",
+              "caption": "Stages and steps in an eCommerce sale funnel",
+              "alt": "",
+              "width": 642,
+              "height": 330,
+              "instructor_notes": null
+            },
+            {
+              "id": 1044753,
+              "key": "25bc1486-690c-4bea-914c-4421cb256f5d",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Retention & Reactivation\n\nOf course, online shops don't want customers to only make one purchase. They'll use lots of techniques to keep you interested and try to attract you back. Perhaps the delivery box contains a coupon for 15% off your next purchase. If you provided an email when purchasing the item, you'll likely receive targeted marketing emails as well. ",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1028420,
+          "key": "37a46ca2-6c13-495e-b1c0-e72b050f7bd2",
+          "title": "Calculate Funnel Drop Off in Tableau",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "37a46ca2-6c13-495e-b1c0-e72b050f7bd2",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1028421,
+              "key": "ed7de075-998f-44d1-9056-bbdf32b63f40",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Calculate Funnel Drop Off in Tableau",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1044330,
+              "key": "eb2dda7c-fa48-4335-b9bf-9dd7937f3e5c",
+              "title": "ND030 C3 L2 07 Calculating Funnel Drop Off In Tableau Video",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "NlnW_UodAuQ",
+                "china_cdn_id": "NlnW_UodAuQ.mp4"
+              }
+            },
+            {
+              "id": 1028423,
+              "key": "7870a1e1-75b3-443f-b5cc-62d3997a03d4",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Summary\nTo calculate a funnel drop off rate using Tableau, we can follow 4 steps: \n1. **Review available data to look for the pieces of data that correspond to a user’s steps in the funnel**. For example, data showing a user visited a page at 1 pm might be a step in the awareness stage; data showing the user clicked on a button at 1:01 pm might be a step in the evaluation stage.\n\n2. **Determine users' steps and put them in the correct order, from the first action to the final goal**. Note that not all steps a user takes need to be included in a funnel. For example, some steps are optional and should not be included.\n\n3. **Count the number of unique sessions where users take each step.** A *session* is a period of time in which a user interacts with a product. If a user interacts with the product at different times, or on different days, each of these would be a unique session. The number of unique sessions might be calculated in the following ways\n - If every user could only interact with the feature one time (such as a feature that is only shown once to users, on the first login), count the user ID would be the same with count the unique sessions.\n - If a user could have had multiple sessions where they interacted with a feature (such as a feature that appears every time a user logs in or a feature can be used multiple times a day), you need to use count the *distinct session* not the user ID\n\n4. **Calculate the percent change (i.e. drop off) between steps**. This means evaluating the relative size of the number of users who moved from one step to another. In a funnel, as users drop out and the number of users that make it to each subsequent step gets smaller, the calculation will show a percent decrease between each step. By looking at those steps with a high percent change, you can identify areas that may need investigation and further improvement.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1038678,
+              "key": "8f54aa16-a8b7-47dc-aa40-d198ad3c0bcb",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Tableau walkthrough",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1028422,
+              "key": "e82767af-1565-4d48-b8a9-ee9ce89242dc",
+              "title": "ND030 C3 L2 08 Calculating Funnel Drop Off In Tableau Walkthrough",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "nlD-cazGhPI",
+                "china_cdn_id": "nlD-cazGhPI.mp4"
+              }
+            },
+            {
+              "id": 1043877,
+              "key": "1d517db2-ee69-4482-bd1e-07c5b8ed81bf",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Summary\nClick [here](https://video.udacity-data.com/topher/2020/June/5ef53ee3_l2-walkthrough1-2/l2-walkthrough1-2.xlsx) to download the data.\n\n**Step 1: Review the available data**\n<br>The data is for a website that sells items. There are two dimensions: ```user ID``` and ```Pages```. The name of the pages corresponds to a specific action taken by users.\n\n**Step 2. Put the steps in order from the first step to the final goal step**\n<br>After reviewing each dimension of the data, you can see that the name of the pages (home page, payment confirmation page, payment page, and search page) are the steps a user would take in a purchase funnel.\n<br>The correct order should be home page > search page > payment page > payment confirmation page\n\n**Step 3:  Count the unique sessions for each step**\n<br>By comparing the ```number of records``` for each page with the number of ```user ID```, you know each user only went through the funnel once since the numbers are identical. So ```number of records``` can be used for calculating the dropoff.\n\n - If every user could only interact with the feature one time, you can use anyone from COUNT user, COUNT (Distinct) user,  COUNT session, COUNT (Distinct) session and get the same result, as you will never double-count a user.\n - If a user could have had multiple sessions where they interacted with a feature, you should use COUNT (Distinct) session.\n\n**Step 4: Determine the percent change or dropoff rate between each step. **\n<br>To do this, we apply a table calculation for percent change. In Tableau, you can apply  **Quick table calculation > percent difference** to the numbers generated in step 3. In this example, the highest level of drop off occurs in the final step, between payment and payment confirmation, at 92%, which indicates the product manager probably needs to find ways to make payment easier.\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1028428,
+          "key": "5ff8818b-3aa5-4015-afaa-17fc88666e12",
+          "title": "Calculate Funnel Drop Off in Tableau Quizzes",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "5ff8818b-3aa5-4015-afaa-17fc88666e12",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1028429,
+              "key": "6f421485-9b1e-4c3a-a053-88deb60ddbf3",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Calculate Funnel Drop Off in Tableau Quizzes",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1043609,
+              "key": "14e43415-373d-4cb6-afff-657b376056ba",
+              "title": "",
+              "semantic_type": "MatchingQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "14e43415-373d-4cb6-afff-657b376056ba",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "complex_prompt": {
+                  "text": "Places the steps for calculating funnel drop off in Tableau in the correct order"
+                },
+                "concepts_label": "Step Number",
+                "answers_label": "Step",
+                "concepts": [
+                  {
+                    "text": "Step 1",
+                    "correct_answer": {
+                      "id": "a1593995809076",
+                      "text": "Review available data"
+                    }
+                  },
+                  {
+                    "text": "Step 2",
+                    "correct_answer": {
+                      "id": "a1593995849335",
+                      "text": "Place user steps in order"
+                    }
+                  },
+                  {
+                    "text": "Step 3",
+                    "correct_answer": {
+                      "id": "a1593995851631",
+                      "text": "Count unique sessions per step"
+                    }
+                  },
+                  {
+                    "text": "Step 4",
+                    "correct_answer": {
+                      "id": "a1593995854973",
+                      "text": "Determine drop off between steps"
+                    }
+                  }
+                ],
+                "answers": [
+                  {
+                    "id": "a1593995851631",
+                    "text": "Count unique sessions per step"
+                  },
+                  {
+                    "id": "a1593995849335",
+                    "text": "Place user steps in order"
+                  },
+                  {
+                    "id": "a1593995854973",
+                    "text": "Determine drop off between steps"
+                  },
+                  {
+                    "id": "a1593995809076",
+                    "text": "Review available data"
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1043610,
+              "key": "209f8eda-d752-4a8c-aa85-aaf273c56708",
+              "title": "",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "209f8eda-d752-4a8c-aa85-aaf273c56708",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which of the following are true about funnel analysis in Tableau? (select all that apply)",
+                "answers": [
+                  {
+                    "id": "a1593996120146",
+                    "text": "Total number of users should be counted for each step",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1593996140398",
+                    "text": "The percent change in the number users who made it to each step is how product managers understand which steps are most prone to drop off",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1593996151772",
+                    "text": "Unique sessions should be counted for each step",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1593996187703",
+                    "text": "The raw number of users who made it to each step is how product managers understand which steps are most prone to drop off",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1593996248723",
+                    "text": "The higher the drop off rate, the better",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1593996254881",
+                    "text": "The lower the drop off rate, the better",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1043612,
+              "key": "18668cdd-90c9-4a51-96d3-88ed6006875b",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "18668cdd-90c9-4a51-96d3-88ed6006875b",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Between which of the following steps did users experience the highest drop off rate?",
+                "answers": [
+                  {
+                    "id": "a1593996331497",
+                    "text": "Entering the site: 100 users --> Clicking on an item to learn more: 50 users",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1593996370415",
+                    "text": "Clicking on an item to learn more: 50 users --> Putting item in cart: 5 users",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1593996404256",
+                    "text": "Putting item in cart: 10 users --> Opening checkout page: 8 users",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1593996430282",
+                    "text": "Opening checkout page: 8 users --> Paying for item: 4 users",
+                    "is_correct": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 1028424,
+          "key": "859d4e6a-9a5c-410b-900b-011b1096359a",
+          "title": "Exercise 2: Calculate Funnel Drop Off in Tableau",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "859d4e6a-9a5c-410b-900b-011b1096359a",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1028425,
+              "key": "82bd11a9-fa2f-4b5d-bf1d-c65a2f625ed2",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Calculate Funnel Drop Off in Tableau Exercise: E-commerce Flow",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1028743,
+              "key": "34480775-5edd-4b1a-89da-6c3f8108273c",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Instruction\n\nThe e-commerce site \"BuyStuff.com\" has a very simple design. Users can land, search for an item, go to pay for that item, and complete payment. The CEO isn't happy with sales for new users, so she's given you the data for new user's page activity during the path month. Using **Tableau**, determine the drop off rate between each page in the sales funnel. \n\nClick [here](https://video.udacity-data.com/topher/2020/June/5ef53892_l2-exercise2-3/l2-exercise2-3.xlsx) to download the data.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1031873,
+              "key": "4f98d50e-efe2-41f8-b818-ddc0f624dc84",
+              "title": "Question 1",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "4f98d50e-efe2-41f8-b818-ddc0f624dc84",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": null,
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "Use Tableau to generate a chart showing the percent change (dropoff) between each page/activity as proof of your findings. Then list the percent change (drop off) between each page/activity here."
+              },
+              "answer": {
+                "text": "See the solution page.",
+                "video": null
+              }
+            },
+            {
+              "id": 1031886,
+              "key": "84019f36-9fee-4223-bb1f-1f78376ab873",
+              "title": "Question 2",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "84019f36-9fee-4223-bb1f-1f78376ab873",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": null,
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "Between which pages/actions do users drop off the least?"
+              },
+              "answer": {
+                "text": "See the solution page.",
+                "video": null
+              }
+            },
+            {
+              "id": 1031887,
+              "key": "417873fd-8de3-45b0-b1ba-24e332c1dbb0",
+              "title": "Question 3",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "417873fd-8de3-45b0-b1ba-24e332c1dbb0",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": null,
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "Between which pages/actions do users drop off the most?"
+              },
+              "answer": {
+                "text": "See the solution page.",
+                "video": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 1028426,
+          "key": "4ab8672a-f66d-4484-9ed4-b366cb6a1eea",
+          "title": "Solution: Calculate Funnel Drop Off in Tableau Exercise",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "4ab8672a-f66d-4484-9ed4-b366cb6a1eea",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1028427,
+              "key": "caf08744-4be1-49a6-808d-de7c6d361353",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Calculate Funnel Drop Off in Tableau Exercise Solution: Ecommerce Flow",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1028430,
+              "key": "da168c3d-ef82-4198-a59a-5ec66dc4def0",
+              "title": "ND030 C3 L2 09 Calculating Funnel Drop Off In Tableau Exercise Solution Video",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "kzHu91pz06k",
+                "china_cdn_id": "kzHu91pz06k.mp4"
+              }
+            },
+            {
+              "id": 1028431,
+              "key": "00714d42-4298-4ca9-bccc-d2bd0616534f",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Summary\n\nTo determine the funnel drop off, first, upload the data file in Tableau. Under the \"**page**\" column, you will see four different pages: **home page, search page, payment page, and payment confirmation page**. These four pages align with an e-commerce sales funnel. Your website's visitors must land on a landing page (\"home page\") and then look for an item to purchase (\"search page\") before going to purchase the item (\"payment page\") and finally submitting their payment information (\"payment confirmation page\"). Make sure to order the pages in Tableau in the same order.\n\nTo see the drop off between pages, first count the number of distinct events on each page. Because this website has a simple flow, every page is required of the user to complete a purchase. Therefore, every page will be shown in the tunnel and every page represents a user taking a new action. To calculate the actual dropoff, use a Quick Table Calculation of percent change between counts. See image below. \n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1031732,
+              "key": "66c408fb-e8e7-456d-bf64-669e5002e6d6",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/June/5ed653cd_screen-shot-2020-06-02-at-6.19.58-am/screen-shot-2020-06-02-at-6.19.58-am.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/66c408fb-e8e7-456d-bf64-669e5002e6d6",
+              "caption": "In Tableau, choose \"Quick Table Calculation\" and then \"Percent Difference\" to calculate drop off between steps",
+              "alt": "Image shows the dropdown menus in Tableau for selecting Quick Table Calculation ",
+              "width": 1000,
+              "height": 500,
+              "instructor_notes": null
+            },
+            {
+              "id": 1031733,
+              "key": "e6cc943d-e6aa-4ee1-b6df-93121c0ca4b5",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### 1) List the percent change (drop off) between each page/activity.\n\nSee the example chart below! Note the chart is relabelled as \"Conversion Tunnel Drop off Rate\" to ensure it is clear to viewers the purpose and meaning behind the numbers below.\n\nBased on this chart we can see a 50% drop off between home and search page, a 86.6% drop off between search and payment pages, and a 92.5% drop off between the payment and payment confirmation pages.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1031731,
+              "key": "e3e39ed8-75b0-435d-83c2-bd85f88a458e",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/July/5f0cbd6a_screen-shot-2020-06-02-at-6.20.44-am/screen-shot-2020-06-02-at-6.20.44-am.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/e3e39ed8-75b0-435d-83c2-bd85f88a458e",
+              "caption": "Your final conversion numbers should match these, with the lowest drop-off between landing and searching (50%) and the highest between payment and payment confirmation (92.5%).",
+              "alt": "Image shows a chart of conversion tunnel dropoff rates",
+              "width": 500,
+              "height": 298,
+              "instructor_notes": null
+            },
+            {
+              "id": 1031888,
+              "key": "a9fbe905-9801-49d3-b7db-9dfe457b0334",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### 2) Between which pages/actions do users drop off the least?\n\nUsers drop off the least between the home_page and the search page. About 50% of all users continue from home page to search page.\n\n### 3) Between which pages/actions do users drop off the most?\n\nUsers drop off the most between payment page and payment confirmation page, with 92.5% of users still in the funnel dropping out at this time. You might suggest to your CEO that you talk with users and investigate why this drop occurs. Perhaps the checkout page is difficult to use. Or perhaps there is another disincentive for customers to continue, such as a surprisingly high shipping fee.",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1028432,
+          "key": "94362205-e8e0-45e2-843c-1a4f3dba1986",
+          "title": "Visualize Funnel Drop Off in Tableau",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "94362205-e8e0-45e2-843c-1a4f3dba1986",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1028433,
+              "key": "e2daedcc-0b17-4797-af82-57b84206c959",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Visualize Funnel Drop Off in Tableau",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1028437,
+              "key": "15749840-971a-41bf-b02f-4b074240c3a6",
+              "title": "ND030 C3 L2 10 Visualizing Funnel Dropoff In Tableau Walkthrough",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "Sgq-lm3NWo4",
+                "china_cdn_id": "Sgq-lm3NWo4.mp4"
+              }
+            },
+            {
+              "id": 1043967,
+              "key": "2d2422d2-6f56-4bdd-aa74-6c821006cb9b",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Click [here](https://video.udacity-data.com/topher/2020/June/5ef53ee3_l2-walkthrough1-2/l2-walkthrough1-2.xlsx) to download the data.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1028438,
+              "key": "1f5b5a0d-ab5d-4f96-bf55-84440ba993da",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Summary\nTo visualize the funnel drop off in Tableau, you start with review what data is available, putting steps in order, and counting the number of users who make it through each step. Then you create a visualization.\n\nThe simplest visualization is to **create a bar chart**. To create a bar chart, you can select that visual type from the visual section.\n\nBefore the visual can be put in front of others, you need to make sure all the **labels are readable and correct.** \n\nNext, you need to make sure the **title clearly represents what is being visualized**.\n\nWhile the bars show the relative drop at each step, it is always nice to **provide the exact numbers** for easy reference. To do this, you will go to the marks section and add labels\n\nFinally, before sharing a visual, it is helpful to **distinguish the steps with different colors**. This makes them stand out as separate moments in the user journey. To color the bars, you need to drag the dimension of interest over the color section in marks.\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1043968,
+              "key": "50362766-4eea-4768-9beb-32bca97ea813",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Further reading\n\n- *Two Ways to Build Funnel Charts in Tableau*:\nhttps://interworks.com/blog/dsirey/2018/06/27/two-ways-to-build-funnel-charts-in-tableau/\n\n- *How to Build Funnel Charts in Tableau. Basics Part 1*:\nhttps://www.decisivedata.net/blog/how-to-build-funnel-charts-in-tableau.-basics-part-1\n\n- *Tableau Funnel Chart – Creating Stepped & Advanced Funnel Chart*:\nhttps://data-flair.training/blogs/tableau-funnel-chart/\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1028439,
+          "key": "c30cd4b7-4de2-4412-ac9a-83ae6b898478",
+          "title": "Visualize Funnel Drop Off in Tableau Quizzes",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "c30cd4b7-4de2-4412-ac9a-83ae6b898478",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1028440,
+              "key": "83769713-72c3-49ef-8c18-727fbd5272c4",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Visualize Funnel Drop Off in Tableau Quizzes",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1043613,
+              "key": "54906aaa-c8a6-4530-8388-2e029e16feeb",
+              "title": "",
+              "semantic_type": "MatchingQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "54906aaa-c8a6-4530-8388-2e029e16feeb",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "complex_prompt": {
+                  "text": "Places the steps for visualizing funnel drop off in Tableau in the correct order"
+                },
+                "concepts_label": "Step Number",
+                "answers_label": "Step",
+                "concepts": [
+                  {
+                    "text": "Step 1",
+                    "correct_answer": {
+                      "id": "a1593996521089",
+                      "text": "Determine what data is available"
+                    }
+                  },
+                  {
+                    "text": "Step 2",
+                    "correct_answer": {
+                      "id": "a1593996540186",
+                      "text": "Put the user steps in order"
+                    }
+                  },
+                  {
+                    "text": "Step 3",
+                    "correct_answer": {
+                      "id": "a1593996542350",
+                      "text": "Count the number of unique sessions per step"
+                    }
+                  },
+                  {
+                    "text": "Step 4",
+                    "correct_answer": {
+                      "id": "a1593996545455",
+                      "text": "Change view to bar chart"
+                    }
+                  }
+                ],
+                "answers": [
+                  {
+                    "id": "a1593996545455",
+                    "text": "Change view to bar chart"
+                  },
+                  {
+                    "id": "a1593996542350",
+                    "text": "Count the number of unique sessions per step"
+                  },
+                  {
+                    "id": "a1593996613540",
+                    "text": "Determine percent change (drop off) between steps "
+                  },
+                  {
+                    "id": "a1593996521089",
+                    "text": "Determine what data is available"
+                  },
+                  {
+                    "id": "a1593996540186",
+                    "text": "Put the user steps in order"
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1044185,
+              "key": "6b289142-dee3-4acf-b233-a09a099d3a05",
+              "title": "Visualizing a User Funnel: Matching Action to Step",
+              "semantic_type": "MatchingQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "6b289142-dee3-4acf-b233-a09a099d3a05",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "complex_prompt": {
+                  "text": "Match the action taken by the product manager to the step in the process of visualizing a user funnel."
+                },
+                "concepts_label": "Step",
+                "answers_label": "Action",
+                "concepts": [
+                  {
+                    "text": "Determine what data is available",
+                    "correct_answer": {
+                      "id": "a1594324984398",
+                      "text": "The data product manager opens a file from the DB that shows all user records collected as users went through a series of steps to upload a profile picture."
+                    }
+                  },
+                  {
+                    "text": "Put the user steps in order",
+                    "correct_answer": {
+                      "id": "a1594325074122",
+                      "text": "The product manager drags the click_actions into the order: search_for_photo, upload_photo, confirm_profile_picture_correct."
+                    }
+                  },
+                  {
+                    "text": "Count the number of users who took each step",
+                    "correct_answer": {
+                      "id": "a1594325149861",
+                      "text": "In Tableau, the product manager adds a measure (count user IDs) to the ordered steps."
+                    }
+                  },
+                  {
+                    "text": "Change view to a bar chart",
+                    "correct_answer": {
+                      "id": "a1594325164545",
+                      "text": "The product manager opens the \"show me\" section in Tableau and selects a bar chart."
+                    }
+                  }
+                ],
+                "answers": [
+                  {
+                    "id": "a1594324984398",
+                    "text": "The data product manager opens a file from the DB that shows all user records collected as users went through a series of steps to upload a profile picture."
+                  },
+                  {
+                    "id": "a1594325164545",
+                    "text": "The product manager opens the \"show me\" section in Tableau and selects a bar chart."
+                  },
+                  {
+                    "id": "a1594325149861",
+                    "text": "In Tableau, the product manager adds a measure (count user IDs) to the ordered steps."
+                  },
+                  {
+                    "id": "a1594325074122",
+                    "text": "The product manager drags the click_actions into the order: search_for_photo, upload_photo, confirm_profile_picture_correct."
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1043698,
+              "key": "f0a7d6a1-f0b1-4b16-865e-b47f038c121e",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/July/5f0331e9_screen-shot-2020-07-06-at-7.14.46-am/screen-shot-2020-07-06-at-7.14.46-am.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/f0a7d6a1-f0b1-4b16-865e-b47f038c121e",
+              "caption": "",
+              "alt": "",
+              "width": 700,
+              "height": 500,
+              "instructor_notes": null
+            },
+            {
+              "id": 1043615,
+              "key": "90fe3a99-4bf6-4e3b-8f29-25ff219ae985",
+              "title": "Improve the Funnel Visualization",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "90fe3a99-4bf6-4e3b-8f29-25ff219ae985",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Consider the visual of a funnel above. Choose all the ways the following visualization of a funnel could be improved",
+                "answers": [
+                  {
+                    "id": "a1593996671596",
+                    "text": "Title the visual ",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1593996691188",
+                    "text": "Arrange the steps in order from first step taken by a user to final, goal step in the funnel",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1594044927730",
+                    "text": "Add colors to better distinguish the steps in the funnel",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1594044948216",
+                    "text": "Add the number of user sessions per step",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1594044955987",
+                    "text": "Label the steps that the user takes",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1043616,
+              "key": "468880b0-f351-4362-a8dc-15e8be174d2c",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "468880b0-f351-4362-a8dc-15e8be174d2c",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "When are visualizations of funnel drop off most useful to data product managers?",
+                "answers": [
+                  {
+                    "id": "a1593996751619",
+                    "text": "When creating a slide deck to convince stakeholders to allow action to be taken to combat drop off between steps",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1593996798147",
+                    "text": "When personally analyzing the drop off seen as users go through the steps in a conversion funnel",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1593996876814",
+                    "text": "When trying to improve on one's Tableau skills ",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1593996898608",
+                    "text": "When trying to understand between which steps the highest rate of drop off (percent difference) occurs",
+                    "is_correct": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 1028441,
+          "key": "e3745f00-4e25-421f-bdd4-37dfa9c9e63c",
+          "title": "Exercise 3: Visualize Funnel Drop Off in Tableau",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "e3745f00-4e25-421f-bdd4-37dfa9c9e63c",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1028442,
+              "key": "707a12a3-baf0-4eb8-8e2c-9a4f17f26f1a",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Visualize Funnel Drop Off in Tableau Exercise: E-commerce Funnel ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1028744,
+              "key": "47c4d333-9252-4efa-85f3-8a273931709c",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Instruction\n\nThe CEO from \"BuyStuff.com\" liked your work on the funnel analysis for new buyers. He's going to present to the board tomorrow, however, and he knows visuals will be more convincing than numbers in a table. \n\nUsing the same dataset from the previous exercise, transform the BuyStuff.com funnel into a bar graph using **Tableau**. The bar chart shows the number of users who accessed each page. *Be sure to title the graph and ensure all the labels can be read so that the board members know what the bar chart represents*.\n\nClick [here](https://video.udacity-data.com/topher/2020/June/5ef53892_l2-exercise2-3/l2-exercise2-3.xlsx) to download the dataset.",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1028443,
+          "key": "3c3eacf1-62a1-4721-b2be-e423287ef5d2",
+          "title": "Solution: Visualize Funnel Drop Off in Tableau Exercise",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "3c3eacf1-62a1-4721-b2be-e423287ef5d2",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1028444,
+              "key": "be3837c5-76a2-429f-b435-f5c19502cc7f",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Visualize Funnel Drop Off in Tableau Exercise Solution: Ecommerce Funnel ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1028445,
+              "key": "5a46fa79-91de-4dd7-877a-78fc3f759a9f",
+              "title": "ND030 C3 L2 11 Visualizing Funnel Dropoff In Tableau Exercise Solution Video",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "MQnqfq0efX0",
+                "china_cdn_id": "MQnqfq0efX0.mp4"
+              }
+            },
+            {
+              "id": 1028446,
+              "key": "59fc486e-1b13-4f90-9772-6925473380a2",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Summary\n\nAs with the exercise in the section on calculating funnel dropoff, to determine the funnel drop off, you must first confirm the order of pages and/or user activity in the funnel of interest. Under the \"page\" column in the BuyStuff.com data set, you will see four different pages: home page, search page, payment page, and payment confirmation page. These four pages align with an e-commerce sales funnel. Your website's visitors must land on a landing page (\"home page\") and then look for an item to purchase (\"search page\") before going to purchase the item (\"payment page\") and finally submitting their payment information (\"payment confirmation page\"). *Make sure to order the pages in Tableau in the same order*.\n\nWhether calculating or visualizing, first count the number of distinct events on each page. Because this website has a simple flow, every page is required of the user to complete a purchase. Therefore, every page will be shown in the tunnel and every page represents a user taking new action. \n\nA **bar chart** is a clean and simple way to show drop-off between steps in a funnel. While there are more \"funnel\" like visualizations possible, the following instructions confirm how to create a bar chart from the data:",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1031740,
+              "key": "4780addf-f961-4dfa-bae8-7dd190d44f4b",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "1. Upload the data into Tableau. Put the page events into the order they occur in the sales funnel and count the number of distinct events on each page.\n\n2. Select the bar chart from the \"Show Me\" dropdown to transform the data. See the image below.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1031739,
+              "key": "f8e07d5b-3574-4a0c-8ac3-6728e7573eb7",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/June/5ed663c4_screen-shot-2020-06-02-at-7.35.29-am/screen-shot-2020-06-02-at-7.35.29-am.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/f8e07d5b-3574-4a0c-8ac3-6728e7573eb7",
+              "caption": "Select the bar chart from the Show Me Dropdown in Tableau to quickly transform numbers into visuals.",
+              "alt": "Image showing the \"Show Me\" dropdown in Tableau.",
+              "width": 800,
+              "height": 900,
+              "instructor_notes": null
+            },
+            {
+              "id": 1031738,
+              "key": "928caafb-b980-4fe2-a481-9266c4b264bc",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/June/5ed661c5_screen-shot-2020-06-02-at-7.02.21-am/screen-shot-2020-06-02-at-7.02.21-am.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/928caafb-b980-4fe2-a481-9266c4b264bc",
+              "caption": "With columns as page names, each bar in the bar chart can show the distinct count of visitors to that page.",
+              "alt": "Image showing columns contain page names and the rows the sum of the number of records",
+              "width": 700,
+              "height": 800,
+              "instructor_notes": null
+            },
+            {
+              "id": 1031742,
+              "key": "cda1e29c-ac22-4028-b9fa-58bf60e9bdf0",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "3. Select \"Labels\" from the side navigation and check \"Show mark labels.\" This will cause the number of visitors to each page to be displayed above each bar. Such labeling often makes it easier for viewers to understand the raw numbers associated with a visual.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1031737,
+              "key": "ef276f61-bed2-4776-9da5-eb723c0a8407",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/June/5ed660f2_screen-shot-2020-06-02-at-7.02.46-am/screen-shot-2020-06-02-at-7.02.46-am.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/ef276f61-bed2-4776-9da5-eb723c0a8407",
+              "caption": "By selecting \"Show mark labels\", the raw number of visitors to each page is displayed above each bar.",
+              "alt": "Image of the \"Label\" popup showing a checkbox checked next to \"Show mark labels\"",
+              "width": 600,
+              "height": 550,
+              "instructor_notes": null
+            },
+            {
+              "id": 1031741,
+              "key": "fea57fdd-4391-46c8-afc9-0dfeb2534d0e",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "4. Expand the chart large enough that all labels are readable. This will make your chart ready for the board room!",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1031736,
+              "key": "fce619e0-03ae-422c-98a2-3df83bdd1c6b",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/June/5ed660bf_screen-shot-2020-06-02-at-7.03.26-am/screen-shot-2020-06-02-at-7.03.26-am.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/fce619e0-03ae-422c-98a2-3df83bdd1c6b",
+              "caption": "Your finished visualization of the BuyStuff.com sales funnel should look like this",
+              "alt": "Image of final conversion tunnel dropoff chart",
+              "width": 700,
+              "height": 800,
+              "instructor_notes": null
+            }
+          ]
+        },
+        {
+          "id": 1028447,
+          "key": "f75364ab-13e2-4510-bee7-863afbdfde2e",
+          "title": "Lesson Conclusion",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "f75364ab-13e2-4510-bee7-863afbdfde2e",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1028448,
+              "key": "c1532c97-c0ed-4925-b47d-1f37aca313ed",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Lesson Conclusion",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1028449,
+              "key": "f1891cc3-ef15-43d3-b503-f25b3f6ee916",
+              "title": "ND030 C3 L2 12 Lesson Conclusion",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "xktvgXmc3wk",
+                "china_cdn_id": "xktvgXmc3wk.mp4"
+              }
+            },
+            {
+              "id": 1028450,
+              "key": "1f30a165-30ef-42ef-af13-63d517d8dae3",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Summary\nCongratulations! You have just finished the third lesson of this course on evaluating user funnels to reveal opportunities for product improvement.\n\nIn this lesson, we first learned about how to create a user funnel. We examined the stages of the traditional sales funnel, from awareness to evaluation to purchase, and how to break down a user’s actions as steps towards a goal. Then we learned how these funnel analysis techniques could be applied to feature usage.\n\nIn the second part, we learned how to calculate funnel drop off in Tableau. You need to evaluate the available data, order events as a user would experience them, count unique sessions in each step, and finally calculate the percent change between steps.\n\nFinally, in the third part, we learned how to visualize the user funnel in Tableau using a bar chart. Converting raw data into appealing visuals will strengthen our case in front of stakeholders.\n\n## Glossary\n\n- **Awareness:** The step in a sales funnel when the user becomes aware of a need and/or a product.\n- **Evaluation:** The step in a sales funnel when the user researches their options and considers whether a product will bring them value.\n- **Purchase:** The step in a sales funnel when the user takes the final/desired action of becoming a paying customer\n\n\n\n## Further reading\n- *How Marketing Funnels Work*:\nhttps://neilpatel.com/blog/how-marketing-funnels-work/\n\n- *The feature adoption funnel: How to track and measure feature adoption*:\nhttps://www.projectbi.net/feature-adoption-funnel-how-track-measure-feature-adoption\n\n\n\n",
+              "instructor_notes": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    }
+  ]
+}

@@ -1,0 +1,229 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:01.830
+Getting data is great,
+
+00:00:01.830 --> 00:00:04.935
+but being able to use it is very important.
+
+00:00:04.935 --> 00:00:09.330
+To do that, we need to understand who is a data consumer.
+
+00:00:09.330 --> 00:00:11.670
+A data consumer would be a person,
+
+00:00:11.670 --> 00:00:16.755
+an organization, or system that uses data for a specific purpose.
+
+00:00:16.755 --> 00:00:20.055
+Our data consumer can also be a data producer.
+
+00:00:20.055 --> 00:00:22.995
+How's that possible? We'll discuss that later.
+
+00:00:22.995 --> 00:00:28.395
+Now let us try to identify some common data stakeholders across businesses.
+
+00:00:28.395 --> 00:00:33.915
+Companies have many different departments and many different types of data stakeholders.
+
+00:00:33.915 --> 00:00:39.495
+These stakeholders might include sales, marketing, accounting,
+
+00:00:39.495 --> 00:00:42.890
+finance, engineering, product management,
+
+00:00:42.890 --> 00:00:47.140
+security and risk, and probably customer care.
+
+00:00:47.140 --> 00:00:49.780
+Let's break this down a bit.
+
+00:00:49.780 --> 00:00:55.165
+Sales organizations are responsible for setting up sales targets,
+
+00:00:55.165 --> 00:00:58.065
+they are the people who sell the product.
+
+00:00:58.065 --> 00:01:05.390
+Tesla sales team will target how many model S3 they want to sell in 2020 and 2021.
+
+00:01:05.390 --> 00:01:08.150
+For all that, they need to use data.
+
+00:01:08.150 --> 00:01:13.010
+Marketing on the other hand is about acquiring new customers and retaining old.
+
+00:01:13.010 --> 00:01:16.330
+Hermes is high-fashion luxury brand.
+
+00:01:16.330 --> 00:01:21.425
+Hermes marketing team will target customers making purchases in that segment.
+
+00:01:21.425 --> 00:01:23.760
+For that, they need data.
+
+00:01:23.760 --> 00:01:26.260
+Accounting is about recording
+
+00:01:26.260 --> 00:01:30.760
+the expenses and earnings of a business as they're happening.
+
+00:01:30.760 --> 00:01:34.390
+For any business, accounting is required.
+
+00:01:34.390 --> 00:01:36.100
+Some do it in-house,
+
+00:01:36.100 --> 00:01:38.125
+while others use outside help.
+
+00:01:38.125 --> 00:01:43.965
+Companies like Deloitte and Ernst and Young help businesses with their accounting needs.
+
+00:01:43.965 --> 00:01:49.720
+What do they need? Data. Finance is about managing the company's wealth,
+
+00:01:49.720 --> 00:01:52.150
+having a strategy of where to invest,
+
+00:01:52.150 --> 00:01:54.895
+and having financial predictions around it.
+
+00:01:54.895 --> 00:01:57.550
+Finance teams work towards creating
+
+00:01:57.550 --> 00:02:01.330
+a positive financial outlook to influence investor decision.
+
+00:02:01.330 --> 00:02:04.465
+Engineering is the group that creates the product,
+
+00:02:04.465 --> 00:02:06.665
+designs and creates it.
+
+00:02:06.665 --> 00:02:10.855
+For Boeing, they're manufacturing planes, while for Pinterest,
+
+00:02:10.855 --> 00:02:12.835
+they're creating a website.
+
+00:02:12.835 --> 00:02:15.230
+Next, product management.
+
+00:02:15.230 --> 00:02:18.970
+Product management focuses on the life cycle of a product.
+
+00:02:18.970 --> 00:02:23.030
+Product management process domain boundaries of technology,
+
+00:02:23.030 --> 00:02:27.635
+business, and behavioral sciences to understand how magic can be created.
+
+00:02:27.635 --> 00:02:29.390
+Nobody asked for an iPhone,
+
+00:02:29.390 --> 00:02:31.490
+well, maybe except for Steve Jobs,
+
+00:02:31.490 --> 00:02:36.550
+but some great work went into it and they created a magic out of it.
+
+00:02:36.550 --> 00:02:39.255
+What they all need is data.
+
+00:02:39.255 --> 00:02:40.965
+Customer care.
+
+00:02:40.965 --> 00:02:43.640
+As the name suggests and you might also
+
+00:02:43.640 --> 00:02:47.135
+know it is the department that customer reaches out to,
+
+00:02:47.135 --> 00:02:50.025
+to address grievances or concerns.
+
+00:02:50.025 --> 00:02:51.705
+They don't need any data,
+
+00:02:51.705 --> 00:02:55.695
+just kidding. Security and risk.
+
+00:02:55.695 --> 00:03:01.175
+While Paypal security and risk teams make sure all standards are out in place
+
+00:03:01.175 --> 00:03:06.850
+to secure customers payment information and no fraudulent elements are misusing it,
+
+00:03:06.850 --> 00:03:13.015
+Hyatt security team will also have to take care of its customers physical security.
+
+00:03:13.015 --> 00:03:16.744
+Depending on type of business and context,
+
+00:03:16.744 --> 00:03:21.875
+security and risk teams might be taking care of different aspects of business.
+
+00:03:21.875 --> 00:03:24.530
+Well, they don't need any data.
+
+00:03:24.530 --> 00:03:27.535
+Well, I'll leave up to you to decide.
+
+00:03:27.535 --> 00:03:32.285
+So far what we have discussed is not a comprehensive list.
+
+00:03:32.285 --> 00:03:37.295
+Different companies might have different departments and corresponding stakeholders.
+
+00:03:37.295 --> 00:03:39.815
+GE will have manufacturing,
+
+00:03:39.815 --> 00:03:42.730
+while Shell will have oil and drilling.
+
+00:03:42.730 --> 00:03:46.145
+What you need to remember in all of this is that
+
+00:03:46.145 --> 00:03:50.135
+consumers need data to do their jobs in any department.
+
+00:03:50.135 --> 00:03:52.865
+To better understand our data consumers,
+
+00:03:52.865 --> 00:03:54.459
+we need to understand,
+
+00:03:54.459 --> 00:03:56.340
+how data will be used.
+
+00:03:56.340 --> 00:03:59.745
+Is it far reporting or building ML models.
+
+00:03:59.745 --> 00:04:01.410
+What tools will be used?
+
+00:04:01.410 --> 00:04:04.170
+Excel or Google Data Studio.
+
+00:04:04.170 --> 00:04:08.110
+Are there any standards within a particular community of users.
+
+00:04:08.110 --> 00:04:11.960
+Legal might want data differently than accounting or finance.
+
+00:04:11.960 --> 00:04:17.075
+Also, sometimes you might have to provide the same data in multiple formats.
+
+00:04:17.075 --> 00:04:19.955
+So we need to know format requirements.
+
+00:04:19.955 --> 00:04:23.595
+Now it's time to put your shine and your knowledge to test.
+
+00:04:23.595 --> 00:04:26.640
+Please complete the exercises below.
+

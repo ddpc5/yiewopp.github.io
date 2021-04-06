@@ -1,0 +1,151 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.939
+Now that we have covered identifying data consumer,
+
+00:00:02.939 --> 00:00:05.790
+let's talk about the use cases for data.
+
+00:00:05.790 --> 00:00:11.445
+A data use case is how a group of customers or stakeholders uses data.
+
+00:00:11.445 --> 00:00:15.540
+Broadly, data use cases can be categorized into five buckets.
+
+00:00:15.540 --> 00:00:17.535
+Let's discuss each one of them.
+
+00:00:17.535 --> 00:00:19.365
+Business Intelligence.
+
+00:00:19.365 --> 00:00:21.750
+Use cases for BI would be,
+
+00:00:21.750 --> 00:00:23.940
+to understand your customer better.
+
+00:00:23.940 --> 00:00:25.965
+If you are Walmart you want to know,
+
+00:00:25.965 --> 00:00:28.395
+if you want milk, will you buy bread?
+
+00:00:28.395 --> 00:00:32.085
+To identify sales trends, if you're Wafer,
+
+00:00:32.085 --> 00:00:36.430
+you want to know if certain decorative items are more popular in December.
+
+00:00:36.430 --> 00:00:39.034
+To provide personalized services.
+
+00:00:39.034 --> 00:00:40.415
+If you are pizza hook,
+
+00:00:40.415 --> 00:00:43.880
+you might want to remember ordering preferences of your customer.
+
+00:00:43.880 --> 00:00:46.140
+Next, visualizations.
+
+00:00:46.140 --> 00:00:47.895
+To monitor trends.
+
+00:00:47.895 --> 00:00:52.495
+Fidelity might be interested in monitoring stock market almost real time.
+
+00:00:52.495 --> 00:00:55.335
+To monitor spikes in real-time.
+
+00:00:55.335 --> 00:00:57.965
+Nordstrom engineering team might monitor
+
+00:00:57.965 --> 00:01:02.345
+peak loads during Black Friday to scale appropriately.
+
+00:01:02.345 --> 00:01:04.385
+To track metrics.
+
+00:01:04.385 --> 00:01:10.530
+Microsoft sales team might need visualizations to track sales target of Surface Pro.
+
+00:01:10.600 --> 00:01:18.095
+Reporting use cases would be: Public reporting of operating and financial data.
+
+00:01:18.095 --> 00:01:22.850
+The earnings report you hear about of every publicly traded company,
+
+00:01:22.850 --> 00:01:26.550
+such as Walgreens or BestBuy. Customer report.
+
+00:01:26.550 --> 00:01:30.005
+Your credit card statements from Citibank or Wells Fargo.
+
+00:01:30.005 --> 00:01:32.090
+Reports for decision makers.
+
+00:01:32.090 --> 00:01:34.670
+Apple leadership might be interested in quarterly,
+
+00:01:34.670 --> 00:01:37.795
+monthly reports on latest iPhone model.
+
+00:01:37.795 --> 00:01:41.925
+Big data use cases would be: Preventing fraud,
+
+00:01:41.925 --> 00:01:45.905
+20 to 30 million transaction happen on Amazon everyday.
+
+00:01:45.905 --> 00:01:51.410
+They need a big data fraud solution to make sure no fraudulent activities are happening.
+
+00:01:51.410 --> 00:01:53.440
+Recommendation engine.
+
+00:01:53.440 --> 00:01:57.120
+Netflix has 150 million paid subscribers.
+
+00:01:57.120 --> 00:02:01.270
+They sieve through big data to recommend content to their users.
+
+00:02:01.270 --> 00:02:03.525
+Social media analysis.
+
+00:02:03.525 --> 00:02:07.245
+Analyzing across 500 million tweets per day,
+
+00:02:07.245 --> 00:02:10.365
+Twitter tracks, trends and hashtags.
+
+00:02:10.365 --> 00:02:12.975
+ML use cases could be,
+
+00:02:12.975 --> 00:02:15.510
+virtual assistants, such as Alexa,
+
+00:02:15.510 --> 00:02:18.030
+Siri, and Google, they use ML.
+
+00:02:18.030 --> 00:02:23.000
+DC is able to provide a personalized customer experience using ML.
+
+00:02:23.000 --> 00:02:28.195
+Netflix uses ML models to analyze what content should be created.
+
+00:02:28.195 --> 00:02:30.870
+An important point here is that,
+
+00:02:30.870 --> 00:02:34.380
+a use case can span across categories.
+
+00:02:34.380 --> 00:02:37.265
+Now let's see if you can identify categories
+
+00:02:37.265 --> 00:02:40.085
+of data use cases for knapsack data consumers,
+
+00:02:40.085 --> 00:02:42.540
+and apply your learning.
+

@@ -1,0 +1,193 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.910
+Enterprise resource planning, or ERP,
+
+00:00:02.910 --> 00:00:06.630
+is the integrated management of main business processes,
+
+00:00:06.630 --> 00:00:11.430
+often in real-time and mediated by software and technology.
+
+00:00:11.430 --> 00:00:14.070
+ERP data stores.
+
+00:00:14.070 --> 00:00:19.230
+ERP provides an integrated and continuously updated view of
+
+00:00:19.230 --> 00:00:27.090
+core business processes using common databases maintained by database management system.
+
+00:00:27.090 --> 00:00:32.685
+ERP systems drag business resources, cash, raw materials,
+
+00:00:32.685 --> 00:00:36.665
+production capacity, and the status of business commitments,
+
+00:00:36.665 --> 00:00:40.065
+orders, purchase orders, and payroll.
+
+00:00:40.065 --> 00:00:46.250
+The applications that make up the system share data across various departments,
+
+00:00:46.250 --> 00:00:50.120
+manufacturing, purchasing, sales, accounting,
+
+00:00:50.120 --> 00:00:54.885
+etc, and provide the data to ERP.
+
+00:00:54.885 --> 00:00:58.835
+ERP facilitates information flow between
+
+00:00:58.835 --> 00:01:04.195
+all business functions and manages connection to outside stakeholders.
+
+00:01:04.195 --> 00:01:07.880
+ERP databases are relational in nature.
+
+00:01:07.880 --> 00:01:13.010
+Some common ERP solutions are Oracle or SAP.
+
+00:01:13.010 --> 00:01:15.380
+Revisiting Amazon.
+
+00:01:15.380 --> 00:01:19.070
+Human resources pays salaries to employees,
+
+00:01:19.070 --> 00:01:22.740
+logistics team takes care of office furniture,
+
+00:01:22.740 --> 00:01:27.925
+and PR does conferences and other events to maintain brand images.
+
+00:01:27.925 --> 00:01:30.380
+For all this they need funds.
+
+00:01:30.380 --> 00:01:34.775
+Imagine all these departments doing it in complete isolation,
+
+00:01:34.775 --> 00:01:37.310
+it'll create all sorts of issues.
+
+00:01:37.310 --> 00:01:43.205
+They're better off having an ERP with specialized modules for their specific needs,
+
+00:01:43.205 --> 00:01:45.830
+but managing resources centrally.
+
+00:01:45.830 --> 00:01:50.780
+The DB for such a system will be entity data producers.
+
+00:01:50.780 --> 00:01:56.585
+Some financial analysts might need to run monthly report on this data to answer,
+
+00:01:56.585 --> 00:01:59.675
+how much did HR payout in salary?
+
+00:01:59.675 --> 00:02:05.170
+How much was spent in office furniture and how much was spent by PR?
+
+00:02:05.170 --> 00:02:09.740
+Having an ERP will make it easier for everybody.
+
+00:02:09.740 --> 00:02:14.390
+Customer relationship management is an approach to
+
+00:02:14.390 --> 00:02:19.325
+manage a company's interaction with current and potential customers.
+
+00:02:19.325 --> 00:02:22.670
+CRM systems help with it.
+
+00:02:22.670 --> 00:02:26.874
+CRM is a type of ERP.
+
+00:02:26.874 --> 00:02:32.345
+CRM systems compile data from a range of different communication channels,
+
+00:02:32.345 --> 00:02:36.440
+including a company's website, telephone, email,
+
+00:02:36.440 --> 00:02:39.665
+live chat, marketing materials,
+
+00:02:39.665 --> 00:02:42.140
+and more recently, social media.
+
+00:02:42.140 --> 00:02:46.805
+Through the CRM approach and the systems used to facilitate it,
+
+00:02:46.805 --> 00:02:53.890
+businesses learn more about their target audiences and how to best cater to their needs.
+
+00:02:53.890 --> 00:02:58.795
+A very common example of CRM is Salesforce.
+
+00:02:58.795 --> 00:03:01.969
+Considering CRMs are type of ERP,
+
+00:03:01.969 --> 00:03:06.815
+CRM data stores have same features as an ERP data store.
+
+00:03:06.815 --> 00:03:14.765
+Common databases, DBs maintained by DBMS teams share data across departments,
+
+00:03:14.765 --> 00:03:17.960
+information flows between business functions,
+
+00:03:17.960 --> 00:03:21.040
+and data is relational in nature.
+
+00:03:21.040 --> 00:03:25.770
+CRM example, let's say you are
+
+00:03:25.770 --> 00:03:32.960
+an Azure marketing executive and have clients who are CIOs of companies like HP.
+
+00:03:32.960 --> 00:03:38.170
+You want to keep track of all the conversation between your team and HP.
+
+00:03:38.170 --> 00:03:40.615
+while you are still converting your lead,
+
+00:03:40.615 --> 00:03:43.255
+a CRM will be helpful for you.
+
+00:03:43.255 --> 00:03:48.250
+It can pull all the conversation between your team and client together,
+
+00:03:48.250 --> 00:03:52.345
+it can help you keep track of all the leads and opportunities,
+
+00:03:52.345 --> 00:03:55.210
+and the KPIs associated with those.
+
+00:03:55.210 --> 00:04:02.175
+In another example, you are Mom and Pop antique store and you're moving online.
+
+00:04:02.175 --> 00:04:06.690
+You're posting ads on Twitter, Facebook, and Instagram.
+
+00:04:06.690 --> 00:04:12.095
+At the same time, you are also tracking the conversation with your current customers.
+
+00:04:12.095 --> 00:04:16.405
+The offer emails you send and the offer links clicked in email.
+
+00:04:16.405 --> 00:04:19.715
+A CRM could be of great help to you.
+
+00:04:19.715 --> 00:04:22.085
+You can track your social media presence,
+
+00:04:22.085 --> 00:04:26.360
+define and monitor KPIs for social media advertising.
+
+00:04:26.360 --> 00:04:31.550
+You can use CRMs to understand the conversion through the email marketing,
+
+00:04:31.550 --> 00:04:36.900
+CRM will reduce your headache of marketing and will streamline processes for you.
+

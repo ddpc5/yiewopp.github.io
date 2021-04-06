@@ -1,0 +1,1955 @@
+{
+  "data": {
+    "lesson": {
+      "id": 1028452,
+      "key": "6cc0ed22-1147-45fd-83c4-f0ce35ace482",
+      "title": "Apply User Segment Analysis",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": "In this lesson, you will learn how to generate user segments and apply user segment analysis.",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": false,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "https://zips.udacity-data.com/6cc0ed22-1147-45fd-83c4-f0ce35ace482/1028452/1605812310977/Apply+User+Segment+Analysis+Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "https://zips.udacity-data.com/6cc0ed22-1147-45fd-83c4-f0ce35ace482/1028452/1605812306695/Apply+User+Segment+Analysis+Subtitles.zip"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 1028453,
+          "key": "7a5c659b-58b6-4592-aaaa-dd392f038d0e",
+          "title": "Apply User Segment Analysis",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "7a5c659b-58b6-4592-aaaa-dd392f038d0e",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1028454,
+              "key": "e4e4cd99-9fc8-4989-98d0-80a6b2e9a484",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Apply User Segment Analysis\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1028455,
+              "key": "fdfa816e-1769-4068-bd2d-b310efdec364",
+              "title": "ND030 C3 L3 01 Applying User Segment Analysis",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "t7TspOuD7W0",
+                "china_cdn_id": "t7TspOuD7W0.mp4"
+              }
+            },
+            {
+              "id": 1044109,
+              "key": "87c73c3f-ff51-4f79-9426-6f42522ef4ca",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/July/5f074753_l3-co/l3-co.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/87c73c3f-ff51-4f79-9426-6f42522ef4ca",
+              "caption": "Course outline",
+              "alt": "",
+              "width": 586,
+              "height": 212,
+              "instructor_notes": null
+            },
+            {
+              "id": 1028456,
+              "key": "925e72c5-8094-4e0b-8c7e-a19dfce12394",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Summary\nWelcome to lesson four! In this lesson, we’re going to be talking about segment analysis, including how to divide users into segments that share similar characteristics. By looking at product data broken into user segments, product managers can identify opportunities to engage and improve the user experience for different types of users.",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1028457,
+          "key": "7a8297cf-d001-4b74-ad28-79c53f5a1af8",
+          "title": "Big Picture / Intuition",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "7a8297cf-d001-4b74-ad28-79c53f5a1af8",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1028458,
+              "key": "8f621510-fd48-41f0-808d-104ec558b52a",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Big Picture / Intuition",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1028459,
+              "key": "ad7c8a99-36f1-40ac-91c0-296f9f24aae5",
+              "title": "ND030 C3 L3 02 Big Picture",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "0feuGFiyYIA",
+                "china_cdn_id": "0feuGFiyYIA.mp4"
+              }
+            },
+            {
+              "id": 1028460,
+              "key": "9dbda43e-32d5-448f-b81a-4a52a800b530",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Summary\nUser segment analysis allows product managers to look at data from the perspective of different types of customers.\n\nUser segments are groups of users that share a similar characteristic. A user segment can be based on **dates** a user started a product, user **demographics**, and **behavioral characteristics**.\n\nUsers are not all the same, and segment analysis allows us to find patterns in the data about how our product is succeeding or failing specific types of users. The findings from segment analysis often drive further research that leads to improvement enabling the product to better appeal to user segments of interest.\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1043617,
+              "key": "2ce144f6-d10c-4d3a-80f1-c8a5fa11d246",
+              "title": "",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "2ce144f6-d10c-4d3a-80f1-c8a5fa11d246",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which of the following are true about user segment analysis? (select all that apply)",
+                "answers": [
+                  {
+                    "id": "a1593997018859",
+                    "text": "Product managers prefer to look at all users so they can see the overall performance of a feature",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1593997052618",
+                    "text": "User segments are groups of users that share a similar characteristic",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1593997063268",
+                    "text": "User segments can be based on when the demographics of a user",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1593997092788",
+                    "text": "User segments can be based on the behavior of the users",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1593997101752",
+                    "text": "Some user segments include all users",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1593997123088",
+                    "text": "User segment analysis helps product managers find places where a product or feature works better for some than others",
+                    "is_correct": true
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 1028462,
+          "key": "a6967ddb-1c1a-4244-a699-2bca148aaa99",
+          "title": "Lesson Outline",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "a6967ddb-1c1a-4244-a699-2bca148aaa99",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1028463,
+              "key": "5ade8e8f-b3bb-4759-b1c0-2b181b249454",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Lesson Outline",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1028464,
+              "key": "5a0a7e32-fed2-4271-a46c-c37215d2bb18",
+              "title": "ND030 C3 L3 03 Lesson Outline Video",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "uhCt6xYrxQA",
+                "china_cdn_id": "uhCt6xYrxQA.mp4"
+              }
+            },
+            {
+              "id": 1044110,
+              "key": "a3b68763-9b75-40e3-9379-f211671fcaea",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/July/5f07476a_l3-lo/l3-lo.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/a3b68763-9b75-40e3-9379-f211671fcaea",
+              "caption": "Lesson outline",
+              "alt": "",
+              "width": 700,
+              "height": 250,
+              "instructor_notes": null
+            },
+            {
+              "id": 1028465,
+              "key": "732e3e5b-3343-4b8e-a48d-feaefd03fe20",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Summary\nIn this lesson, we’ll first learn how to segment user data and discuss how those types of user behaviors and characteristics can be used in segment analysis.\n\nIn the second part of the lesson, we’ll learn how to apply segment analysis to user conversion funnels. We’ll discuss what data patterns provide evidence that segments are performing differently and when further research would be a good next step.\n\nFinally, in the third part of the lesson, we’ll learn how to apply user segment analysis to feature usage. As with funnel analysis, we’ll discuss what data patterns provide evidence that different types of users are performing differently. We’ll learn when further research at a user segment level would be a good next step for improving a feature.\n\n## Lesson objective\nBy the end of this lesson, you will be able to\n- Explain the importance of segmenting user data\n- Identify behavioral traits in a data set that could be used to analyze user behavior\n- Apply segments to funnel analysis\n- Calculate feature usage within a product, both among all users and among selected segment groups using existing event data\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1028466,
+          "key": "1dacf605-4951-4040-ba27-31675e8e4256",
+          "title": "Segment User Data",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1dacf605-4951-4040-ba27-31675e8e4256",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1028467,
+              "key": "0bb92387-6219-487c-8825-2734a58ea2f1",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Segment User Data",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1044333,
+              "key": "655db106-e802-4810-9657-8b740ed34a64",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Define Segment",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1028468,
+              "key": "e264405d-42a7-46b0-a447-d7034b3203ba",
+              "title": "ND030 C3 L3 04 Segmenting Data By User Cohorts Video",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "Mr_4nBKX-ls",
+                "china_cdn_id": "Mr_4nBKX-ls.mp4"
+              }
+            },
+            {
+              "id": 1028469,
+              "key": "d1f9827d-3798-4bc6-a7d8-ce82fc8fcd3a",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Summary\n### Define user segments\nA user segment is a group of users that *share something in common*. When thinking about how to segment that user data, we can consider three main categories.\n\n* By user **acquisition date (cohort analysis)**. This refers to when the user starts using a product or a feature.\n\n* By **demographic **similarities. Demographics are anything that describes a user as a person, such as income, age, and gender.\n\n- By user’s **behavior** when using a product or feature. This means they ways users use a product such as how often a product is visited or the device used.\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1044332,
+              "key": "9a63705f-419e-4723-825e-8e28063acf34",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Cohort Analysis",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1044331,
+              "key": "63dc8eb0-6a18-4535-b01f-3023f394732f",
+              "title": "ND030 C3 L3 05 Cohort Analysis",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "L9-wrXVQWeQ",
+                "china_cdn_id": "L9-wrXVQWeQ.mp4"
+              }
+            },
+            {
+              "id": 1042924,
+              "key": "517470e6-ffc2-434f-925a-28f9c2c94f01",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Note: in the video, the instructor said \"a change might have been made around Oct. 18th\". It should be \"Oct. 14th\".",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1043987,
+              "key": "a661ad97-d43f-413d-b921-5811059bdeed",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Cohort analysis\nA cohort is a group of people who *start using the same product around the same time*. Note: when segmenting users into cohorts, you should consider *the pace* at which changes are made in your product (by day, by week or by month, etc).\n\nProduct managers can use a cohort analysis to isolate the effect of product modification on user behavior. By noting the differences among cohorts, product managers can also measure the effect of cumulative changes over time. \n\n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1044335,
+              "key": "e3945180-8f10-49a6-9b90-a9d26f6718e2",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Demographic and Behavior Segments",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1044334,
+              "key": "15faf08c-53e8-4b88-873c-182f0a6375d9",
+              "title": "ND030 C3 L3 06 Demographic & Behavior Segments",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "QfP9tnAsQCU",
+                "china_cdn_id": "QfP9tnAsQCU.mp4"
+              }
+            },
+            {
+              "id": 1043988,
+              "key": "8e2110ca-cccc-437d-877a-4bc42c0bfdcb",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Demographic segments\nDemographic segments group users that share the *same personal characteristics*\n\nCustomers with demographics might have different needs that impact the way they use a product. Product managers use demographic segmentation to understand if personal characteristics result in different product experiences. \n\nWhen significant differences among different groups occur, product managers can form a hypothesis for the cause of these results and then investigate further. Such investigations often lead to discoveries about the unmet needs of the underperforming segment. These unmet needs to become opportunities to boost KPIs with targeted product changes.\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1043992,
+              "key": "0a28116e-0873-424b-b2bb-3d761798bd10",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Behavior segments\nSegmenting users based on behaviors means to group users who use a product (“behave”) in similar ways.\n\nDifferent behaviors indicate that customers might have different motivations and needs. Segmenting users based on their behaviors allows product managers to find patterns about how our product is succeeding or failing specific types of users. \n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1044003,
+              "key": "039b5bf1-1688-4106-b8a0-af9c70bb2372",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Data collection\nCohort analysis and behavioral information will come naturally from the instrumentation that has been put in place to track user actions. \n\nTo collect demographic information, however, you need to ask users to fill out profiles or answer questions about themselves.\nA note of caution when seeking information on users:\n1. Make it clear to users why providing the information will be valuable to them. \n2. Keep in mind that consumer privacy laws such as the General Data Protection Regulation (GDPR) in Europe and the California Consumer Privacy Act (CCPA) give users many rights with regards to their personal information.\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1043986,
+              "key": "536a1b59-b085-4eea-b8a0-1cd6425d4c36",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## New terms\n- **Cohort:** For analysis purposes, cohorts refer to groups of people who begin using a product or feature at the same time.\n- **Cohort Analysis:** A type of segment analysis that focuses specifically on user cohorts.\n- **Demographics:** Anything that describes a user as a person, such as income, age, and gender.\n- **Segment Analysis:** The process of analyzing how different groups of users compare in product or feature usage.\n\n\n## Further research\n\n- *User segmentation: A guide to understanding your customers*\nhttps://mixpanel.com/blog/2018/05/09/user-segmentation-guide-understanding-customers\n\n- *How we do Customer segmentation — Customer science & Analytics*\nhttps://towardsdatascience.com/how-we-do-customer-segmentation-customer-science-analytics-e237f3db32bb",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1028470,
+          "key": "4b05e928-778f-46c1-9e0f-64d4dab7d624",
+          "title": "Segment User Data Quizzes",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "4b05e928-778f-46c1-9e0f-64d4dab7d624",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1028471,
+              "key": "9dfb9476-10b9-49e0-8e02-7d66343a2539",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Segment User Data Quizzes",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1043618,
+              "key": "d4145d05-af29-426d-a2d8-7e76390f3a6b",
+              "title": "",
+              "semantic_type": "MatchingQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "d4145d05-af29-426d-a2d8-7e76390f3a6b",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "complex_prompt": {
+                  "text": "Match the example user data with the type of user segment it represents."
+                },
+                "concepts_label": "User Segment",
+                "answers_label": "Example User Data",
+                "concepts": [
+                  {
+                    "text": "Acquisition Cohort",
+                    "correct_answer": {
+                      "id": "a1593997152667",
+                      "text": "All users who downloaded the app in July"
+                    }
+                  },
+                  {
+                    "text": "Demographic Segment",
+                    "correct_answer": {
+                      "id": "a1593997181474",
+                      "text": "All female users compared to all male users"
+                    }
+                  },
+                  {
+                    "text": "Behavioral Segment",
+                    "correct_answer": {
+                      "id": "a1593997187166",
+                      "text": "All customers who log in only on smartphones compared to customers who use the app on smartphones and/or tablets"
+                    }
+                  }
+                ],
+                "answers": [
+                  {
+                    "id": "a1593997181474",
+                    "text": "All female users compared to all male users"
+                  },
+                  {
+                    "id": "a1593997152667",
+                    "text": "All users who downloaded the app in July"
+                  },
+                  {
+                    "id": "a1593997187166",
+                    "text": "All customers who log in only on smartphones compared to customers who use the app on smartphones and/or tablets"
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1044189,
+              "key": "875f9e45-e532-48b1-ae7b-deae6f21b0eb",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "875f9e45-e532-48b1-ae7b-deae6f21b0eb",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which of the following would be a good reasons to segment data examining the use of a bike rental app by gender?",
+                "answers": [
+                  {
+                    "id": "a1594327400534",
+                    "text": "Users of different genders will always use features and products in different ways",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1594327460795",
+                    "text": "Product managers should segment usage by all different demographics segments available in their data set",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1594327466913",
+                    "text": "Users of different genders may use features and products in different ways",
+                    "is_correct": true
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 1028481,
+          "key": "bb94cfa5-fc4f-45c8-a61f-39612f17814c",
+          "title": "Attribute in Segment Analysis Quizzes",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "bb94cfa5-fc4f-45c8-a61f-39612f17814c",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1028482,
+              "key": "beac5ee9-51c7-43ad-a000-b3551e9bb8b8",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Attribute in Segment Analysis Quizzes",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1043699,
+              "key": "772a1f6f-f9ec-4f7e-80f0-8d3cff7e4c04",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/July/5f0335d8_screen-shot-2020-07-06-at-7.31.38-am/screen-shot-2020-07-06-at-7.31.38-am.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/772a1f6f-f9ec-4f7e-80f0-8d3cff7e4c04",
+              "caption": "Cohort analysis of visitors to a website, showing the percent that made a purchase X number of days after their first visit to the site.",
+              "alt": "",
+              "width": 828,
+              "height": 310,
+              "instructor_notes": null
+            },
+            {
+              "id": 1043619,
+              "key": "54851c57-fdfd-4ac0-9af2-8b2823c6605d",
+              "title": "Cohort Analysis",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "54851c57-fdfd-4ac0-9af2-8b2823c6605d",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "The cohort analysis graph above represents the percent of visitors to a website that made a purchase X number of days after their first visit to the site. Based on this chart, which starting date segment was most likely to make a purchase on the day after they first arrived at the website? (Hint: Day 0 is the first day a user visited the website, Day 1 is the first day after the first visit, etc.)",
+                "answers": [
+                  {
+                    "id": "a1593997371229",
+                    "text": "October 10",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1594046103666",
+                    "text": "October 11",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1594046106013",
+                    "text": "October 12",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1594046108700",
+                    "text": "October 13",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1594046114286",
+                    "text": "October 14",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1594046120052",
+                    "text": "October 15",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1043620,
+              "key": "6f544d87-9b66-422e-a8e5-08de684df4da",
+              "title": "",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "6f544d87-9b66-422e-a8e5-08de684df4da",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which of the following could be used for demographic segmentation? (Select all that apply)",
+                "answers": [
+                  {
+                    "id": "a1593997541946",
+                    "text": "User age",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1593997569564",
+                    "text": "User device",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1594046328967",
+                    "text": "Number of logins per day",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1594046334730",
+                    "text": "User country",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1594046351995",
+                    "text": "Date user first began using app",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1043621,
+              "key": "438ed9bb-955d-4f09-9d82-5e3e8b5f7df0",
+              "title": "Behavioral Segmentation",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "438ed9bb-955d-4f09-9d82-5e3e8b5f7df0",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which of the following could be used for behavioral segmentation? (Select all that apply)",
+                "answers": [
+                  {
+                    "id": "a1593997597280",
+                    "text": "User age",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1594046316854",
+                    "text": "Number of logins per day",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1594046656520",
+                    "text": "User gender",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1594046663556",
+                    "text": "User has or has not used a specific feature",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1594046686480",
+                    "text": "Month user registered for an account",
+                    "is_correct": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 1028472,
+          "key": "4ea0be3f-cc9d-4d34-a444-a7d9cbd9da6a",
+          "title": "Exercise 1: Segment User Data ",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "4ea0be3f-cc9d-4d34-a444-a7d9cbd9da6a",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1028473,
+              "key": "47352ac0-ff89-4992-85b9-9d6948e89655",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Segment User Data Exercise 1: Food Delivery App User Segments",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1028745,
+              "key": "fa908fcc-fbb0-4773-84ff-2074e20a621e",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Instruction\nRemember the food delivery startup \"Foodfast\" you worked at? \n1. Consider the users of the food delivery app. Generate a list of **three** user characteristics that might relate to differences in the way users order food via that app. \n2. For **each user segment**, provide a reason that might impact the way a user orders food via a food delivery app. \n3. For **each user segment**, generate example divisions for each characteristic. These won't be the perfect divisions for a given characteristic but should show how segments might be compared for a given characteristic. Only by looking at data of actual users and trying different divisions will you know which segment divisions are helpful.\n\n*A sample answer would be: *\n\n1. Household Income is a user characteristic. \n\n2. Household income might impact how much a user is willing to spend on food from an app. Users from a lower household income might spend less and users from a higher income household might spend more.\n\n3. The household income segments could be low earners (below $60K/year), medium earners ($60/k - $120K), and high earners ($120k+)\n\n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1031896,
+              "key": "ba65cc97-250a-4603-a3b1-d30530089016",
+              "title": "Reflect",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "ba65cc97-250a-4603-a3b1-d30530089016",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": null,
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "Use the space below to record your answers."
+              },
+              "answer": {
+                "text": "See the solution page.",
+                "video": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 1028474,
+          "key": "c0ffd423-cf11-4b32-ba30-e942312cc7d2",
+          "title": "Solution: Segment User Data Exercise 1 ",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "c0ffd423-cf11-4b32-ba30-e942312cc7d2",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1028475,
+              "key": "b520e4ff-f760-4be5-a4de-5182314e2498",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Solution: Food Delivery App User Segments",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1028476,
+              "key": "b237ee53-726e-4c6a-a725-1eab2a561735",
+              "title": "ND030 C3 L3 07 Segmenting Data By User Cohorts Exercise Solution Video",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "DPqtnN3hHFY",
+                "china_cdn_id": "DPqtnN3hHFY.mp4"
+              }
+            },
+            {
+              "id": 1028477,
+              "key": "52e8291e-97b0-4879-b6a4-16a0dc39b80c",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Summary\n\nThere are innumerable behavioral and user characteristics that might impact how a customer uses a food delivery app. However, some characteristics seem more likely than others. Three examples are provided below.\n\n1. Consider the users of a food delivery app. Generate a list of 3 behavioral or user characteristics that might relate to differences in the way users orders food via that app.\n\n>*  Age\n* Device\n* Location\n\n\n2. Provide a reason that might impact the way a user orders food via a food delivery app. \n\n>- Age: Teenage & college-aged students might order food at different times of day than older adults who are more likely to be working typical 9-5 hours. For example, younger users might order more late at night whereas older users might order more in the 6-8pm dinner window.\n- Device: Different devices provide different layouts and options. Tablets provide more screen area, for example, which means tablet users might spend more time browsing and reading text-based menus.\n- Location: Users in different locations may have access to a different number and variety of restaurants. Based on the restaurants available, the food delivery app may be more or less appealing to users from a certain location. \n\n3. Generate example segment divisions for each selected characteristic. \n\n>- Age - Under 20, 21-25, 26-35, 36-45 and so on.\n- Device - Tablet vs. smartphone vs. desktop.\n- Location - Rural vs. suburban vs. urban. Or locations with a certain number of restaurants in the app per capita (for example, locations with less than 15 restaurants per capita, locations with 15-30 restaurants per capita, and locations with more than 30 restaurants per capita).",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1031744,
+              "key": "cee37470-787e-4f07-a5f4-317abc6d81fa",
+              "title": "Reflect",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "cee37470-787e-4f07-a5f4-317abc6d81fa",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": null,
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "How well did your answers align with the solution provided? Write a few sentences about what you've learned through this exercise."
+              },
+              "answer": {
+                "text": "There are no right or wrong answers in a reflection.",
+                "video": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 1028483,
+          "key": "aae5a519-b2a2-41ba-bfa5-f9b2fc5b069a",
+          "title": "Exercise 2: Segment User Data ",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "aae5a519-b2a2-41ba-bfa5-f9b2fc5b069a",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1028484,
+              "key": "c626c9da-93ea-44ce-bfdd-eec553af3725",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Segment User Data Exercise 2: BuyStuff.com New Users",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1028746,
+              "key": "1f2f86aa-2053-4d8f-a1c7-3ff7307cdc6a",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Instruction\n\n\nThe CEO from BuyStuff.com is back and she wants to know more about her new users. \n\nRecall that \"BuyStuff.com\" has a very simple design. Users can land, search for an item, go to pay for that item, and complete payment. Using **Tableau** to answer the following questions.\n\nClick [here](https://video.udacity-data.com/topher/2020/June/5ef53ca2_l3-exercise2/l3-exercise2.csv) to download user data. \n\n1. List all the user characteristics or behavioral segments available in the data set. \n\n2. List the divisions for each demographic or behavioral segment in the data set.\n\n3. Which is the largest user segment group? Which is the smallest user segment group?",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1037444,
+              "key": "bfde08f4-ab04-45f7-b118-c34e846b85c2",
+              "title": "Reflect",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "bfde08f4-ab04-45f7-b118-c34e846b85c2",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": null,
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "Please record your answers here."
+              },
+              "answer": {
+                "text": "See solution page for details.",
+                "video": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 1028485,
+          "key": "77b04cfb-60ee-43e3-9d1b-0e714099bc3e",
+          "title": "Solution: Segment User Data Exercise 2 ",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "77b04cfb-60ee-43e3-9d1b-0e714099bc3e",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1028486,
+              "key": "05f904cc-4f6a-4c21-8ea2-deee2517609e",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Solution: BuyStuff.com New Users",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1028487,
+              "key": "7446e26d-9b50-481f-91ff-d203140c9d6a",
+              "title": "ND030 C3 L3 08 Identifying Behavioral Exercise Solution Video",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "HIlpiadAA1s",
+                "china_cdn_id": "HIlpiadAA1s.mp4"
+              }
+            },
+            {
+              "id": 1028488,
+              "key": "01660d0f-07bf-4045-ad07-9ef38eeade26",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Summary\n\n### Question 1: List all the user characteristics or behavioral segments available in the data set.\n\nBy uploading the raw file into Tableau, we can quickly review the column names and the different values within each column. By placing a dimension from the table into a column or row in Tableau, the number of unique names per dimension will be shown.  In the case of this data file, the columns with bearing on user characteristics/behavior include **Sex**, **Device**, and **Date**. \n\n### Question 2:   List the divisions for each demographic or behavioral segment in the data set.\n\nThe gender segments are **male** and **female**.\n\nThe device segments are **desktop** and **mobile**.\n\nThe dates, which might refer to the date the user was first seen, including dates from **January**, **February**, **March**, and **April** in the year **2015**.\n\n### Question 3:  Which is the largest user segment group? Which is the smallest user segment group?\n\nThe largest segment group is **desktop** users, who represent **60,200** users. The smallest segment group is the monthly number of records, at **22,600** records per month. For user traits, the smallest segment group is **mobile** users, with **30,200** mobile records.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1031751,
+              "key": "fcb9ce80-b352-439b-b4b1-726d142cc877",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/June/5ed6731b_screen-shot-2020-06-02-at-8.19.59-am/screen-shot-2020-06-02-at-8.19.59-am.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/fcb9ce80-b352-439b-b4b1-726d142cc877",
+              "caption": "By placing a dimension from the table into a column or row in Tableau, the number of unique names per dimension will be shown. ",
+              "alt": "Image shows count of records for Device and Sex columns ",
+              "width": 1792,
+              "height": 972,
+              "instructor_notes": null
+            },
+            {
+              "id": 1031757,
+              "key": "b4cbb465-41ff-4601-8659-fd6d35c28ea8",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/June/5ed6738e_screen-shot-2020-06-02-at-8.43.01-am/screen-shot-2020-06-02-at-8.43.01-am.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/b4cbb465-41ff-4601-8659-fd6d35c28ea8",
+              "caption": "The number of records per date (year and month) can be counted.",
+              "alt": "Image shows the sum of the number of records under the Date dimension.",
+              "width": 2208,
+              "height": 1334,
+              "instructor_notes": null
+            }
+          ]
+        },
+        {
+          "id": 1028489,
+          "key": "fcad57e7-40e3-4d05-82b8-3a465be458d4",
+          "title": "Analyze User Segment Performance in Funnels",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "fcad57e7-40e3-4d05-82b8-3a465be458d4",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1028490,
+              "key": "9514757e-a5a0-4aa4-90b4-179c915f2b54",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Analyze User Segment Performance in Funnels",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1044336,
+              "key": "c743c622-cc74-4654-a33e-f728fb1dc6a8",
+              "title": "ND030 C3 L3 09 Applying Cohort Analysis To Funnel Analyses In Tableau Video",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "db0_FCe4U_w",
+                "china_cdn_id": "db0_FCe4U_w.mp4"
+              }
+            },
+            {
+              "id": 1044006,
+              "key": "45a68934-cbe3-4069-ba6f-dcd6e5cb86af",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Summary\nSegment analysis of funnels can reveal users who drop off or convert. Product managers who perform such analysis can learn why a difference in performance occurs for different user types and will likely learn valuable information about how to optimize a product.\n\nSegment analysis of funnels follows four basic steps:\n\n1. Create the overall funnel and count the number of users who complete each step. \n\n2. Determine which user segments are available in the data. These user segments are the ones you will apply to the funnel analysis.\n\n3. Calculate the funnel dropoff for each group within a segment. \n4. Look for groups within a segment with a drop off rate that is noticeably higher or lower than average.\n\nIf a particular group of users isn’t getting the experience they need, this will likely be reflected in a drop out at a rate that is higher than average. Once such a pattern is identified, product managers can talk to those users and run experiments to find ways to optimize their user experience.\n\n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1044009,
+              "key": "ef7ed8d6-3720-4114-a20b-d8c0049baee0",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Tableau walkthrough",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1028491,
+              "key": "e2b1dc5e-26f6-436e-9e55-c3429b9096da",
+              "title": "ND030 C3 L3 10 Applying Cohort Analysis To Funnel Analyses In Tableau Walkthrough",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "2g2G_AXSu5E",
+                "china_cdn_id": "2g2G_AXSu5E.mp4"
+              }
+            },
+            {
+              "id": 1044008,
+              "key": "4d5127f2-9e15-4196-85b5-03870f892522",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Click [here](https://video.udacity-data.com/topher/2020/July/5f04a556_l3-walkthrough1/l3-walkthrough1.xlsx) to download the data.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1038680,
+              "key": "643ce43b-6ac7-41ea-a288-90966ee2dbc4",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Summary\n**Step 1: create the overall funnel and count the number of users per session who completed each step**\n<br>For this funnel, a user begins by landing on the home page and completes the funnel when a purchase is made. Right now the funnel shows the number of users who completed each step.\n\nNote: in this example, the data set only showed the first time any given user went through the funnel. Each user will only ever have taken a step one time. Therefore, we can use the count of users OR the distinct count of users OR the number of unique sessions and get the same result.\n\n**Step 2: determine which user segments are available in the data**\n<br>For this example, let’s look at the segment of devices. By adding the devices to the funnel analysis, we can see the device segment is divided into groups of users on mobile devices and desktop.\n\n**Step 3: calculate drop off for each group in a segment.** \nUse a table calculation of **percent difference** to calculate the dropoff and select **table down**.\n\n**Step 4: look for groups within a segment with a drop off rate that is noticeably higher or lower than average.**\n<br>Looking at the data, we can see mobile users have a 10% lower drop off rate between the search and payment pages than that of the desktop users. They also have a 5% lower drop off rate between the payment and payment confirmation pages than the desktop users. \n\nThe findings may indicate areas for desktop experience optimization. The product manager should talk to users and/or review the desktop design to determine what may be causing the higher drop off rates.\n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1028620,
+              "key": "334c7459-61aa-459b-8ea7-2faaa4519d3d",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Further research\n- *How to Create and Compare Segments in Tableau*\nhttps://playfairdata.com/create-compare-segments-tableau/",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1028492,
+          "key": "c677d3a9-3144-4774-a65d-8e2e817ec122",
+          "title": "Analyze User Segment Performance in Funnels Quizzes",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "c677d3a9-3144-4774-a65d-8e2e817ec122",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1028493,
+              "key": "68f4e8e7-c9eb-4442-a56c-c73469841a64",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Analyze User Segment Performance in Funnels Quizzes",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1043622,
+              "key": "6ed99105-fb9e-46c5-a425-e0c8e07c4511",
+              "title": "",
+              "semantic_type": "MatchingQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "6ed99105-fb9e-46c5-a425-e0c8e07c4511",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "complex_prompt": {
+                  "text": "Place the steps in user segment funnel analysis in order"
+                },
+                "concepts_label": "Step Number",
+                "answers_label": "Step",
+                "concepts": [
+                  {
+                    "text": "Step 1",
+                    "correct_answer": {
+                      "id": "a1593997663634",
+                      "text": "Understand the data available"
+                    }
+                  },
+                  {
+                    "text": "Step 2",
+                    "correct_answer": {
+                      "id": "a1593997700097",
+                      "text": "Place the user steps in order"
+                    }
+                  },
+                  {
+                    "text": "Step 3",
+                    "correct_answer": {
+                      "id": "a1594046879655",
+                      "text": "Calculate unique sessions per step"
+                    }
+                  },
+                  {
+                    "text": "Step 4",
+                    "correct_answer": {
+                      "id": "a1594046918862",
+                      "text": "Apply user segments to see drop off per step by segment"
+                    }
+                  },
+                  {
+                    "text": "Step 5",
+                    "correct_answer": {
+                      "id": "a1594046928649",
+                      "text": "Determine percent change (drop off) per step"
+                    }
+                  },
+                  {
+                    "text": "Step 6",
+                    "correct_answer": {
+                      "id": "a1594046978485",
+                      "text": "Look for segments and steps where a non-average level of drop off occurs"
+                    }
+                  }
+                ],
+                "answers": [
+                  {
+                    "id": "a1593997663634",
+                    "text": "Understand the data available"
+                  },
+                  {
+                    "id": "a1593997700097",
+                    "text": "Place the user steps in order"
+                  },
+                  {
+                    "id": "a1594046978485",
+                    "text": "Look for segments and steps where a non-average level of drop off occurs"
+                  },
+                  {
+                    "id": "a1594046879655",
+                    "text": "Calculate unique sessions per step"
+                  },
+                  {
+                    "id": "a1594046918862",
+                    "text": "Apply user segments to see drop off per step by segment"
+                  },
+                  {
+                    "id": "a1594046928649",
+                    "text": "Determine percent change (drop off) per step"
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1043701,
+              "key": "aa19136d-3cfe-485e-9347-8905425c95a6",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/July/5f033b6f_screen-shot-2020-07-06-at-7.55.29-am/screen-shot-2020-07-06-at-7.55.29-am.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/aa19136d-3cfe-485e-9347-8905425c95a6",
+              "caption": "Example segmented funnel analysis ",
+              "alt": "",
+              "width": 734,
+              "height": 286,
+              "instructor_notes": null
+            },
+            {
+              "id": 1043623,
+              "key": "2f168ad3-c39e-4b6f-8dc2-3705777f0294",
+              "title": "User Segment Analysis",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "2f168ad3-c39e-4b6f-8dc2-3705777f0294",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "In the above user segment analysis, for which demographic group and between which steps is the highest level of drop off seen?",
+                "answers": [
+                  {
+                    "id": "a1593997732917",
+                    "text": "Males, between home page and search page",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1593997783638",
+                    "text": "Females, between home page and search page",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1594047392413",
+                    "text": "Males, between payment and payment confirmation page",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1594047404173",
+                    "text": "Females, between payment and payment confirmation page",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1043624,
+              "key": "183b75ed-98f2-45da-b1ab-6d9032820304",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "183b75ed-98f2-45da-b1ab-6d9032820304",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Given the above sales funnel analysis by gender, would you recommend that the business invest more in improving the experience for male or female users?",
+                "answers": [
+                  {
+                    "id": "a1593997830839",
+                    "text": "Male users",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1594047707137",
+                    "text": "Female users",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1594047710877",
+                    "text": "More information needed",
+                    "is_correct": true
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 1028494,
+          "key": "3058a58f-7a20-4c12-bc94-c8467f7d125c",
+          "title": "Exercise 3: Analyze User Segment Performance in Funnels ",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "3058a58f-7a20-4c12-bc94-c8467f7d125c",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1028495,
+              "key": "71853d9f-1724-47b0-9716-851dcda08547",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Analyze User Segment Performance in Funnels Exercise",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1028747,
+              "key": "4bc68f93-78e8-483e-8b19-3609c140e72b",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Instruction\n\nBuyStuff.com CEO is back. She loved your work analyzing the new customer funnel and analyzing the behavioral information available on her users. She now wants you to re-analyze the funnel for the different device, sex, and month (date) segment. \n\nRecall that \"BuyStuff.com\" has a very simple design. Users can land, search for an item, go to pay for that item, and complete payment. Using **Tableau** to answer the following questions.\n\nClick [here](https://video.udacity-data.com/topher/2020/June/5ef63757_l3-exercise3/l3-exercise3.xlsx) to download data. \n\n1) Determine the drop off rate at each step in the BuyStuff.com e-commerce funnel by creating a table for users\n\n- On different devices\n\n- On different sexes\n\n- On different months\n\n2)  Determine and write findings of segment analysis for devices, sexes, and months. Which segment has a higher average drop off rate between steps than other users and what could such a drop off rate indicate?\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1037447,
+              "key": "14952354-2e80-4c4b-9ff1-c90ba4255bd6",
+              "title": "Reflect",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "14952354-2e80-4c4b-9ff1-c90ba4255bd6",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": null,
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "Use the space below to record your answer."
+              },
+              "answer": {
+                "text": "Please see the solution page.",
+                "video": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 1028496,
+          "key": "a8c6c8ee-0ba4-4ad8-a639-be272afaadfa",
+          "title": "Solution: Analyze User Segment Performance in Funnels ",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "a8c6c8ee-0ba4-4ad8-a639-be272afaadfa",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1044011,
+              "key": "01c2ff44-123e-46da-bc40-9a0e057a6b79",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Analyze User Segment Performance in Funnels Solution",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1028498,
+              "key": "e40a750e-edd9-415d-9fd0-d646e05433c8",
+              "title": "ND030 C3 L3 11 Applying Cohort Analysis To Funnel Analyses In Tableau Exercise Solution Video",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "EObGxXGXGro",
+                "china_cdn_id": "EObGxXGXGro.mp4"
+              }
+            },
+            {
+              "id": 1028497,
+              "key": "58af3ac8-b678-4156-9a79-97c9b4bcc8bc",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Summary\nBegin just as you did when calculating the overall drop off rate between pages on BuyStuff.com. To see the drop off between pages, first count the number of distinct events on each page. Because this website has a simple flow, every page is required of the user to complete a purchase. Therefore, every page will be shown in the tunnel and every page represents a user taking new action. To calculate the actual drop off, use a Quick Table Calculation of percent change between counts. \n\n#### 1) Determine the drop off rate at each step in the BuyThings.com e-commerce funnel\n\nAdd the behavioral aspect to a row or column view to determine the drop off rate for a given behavior/characteristic. By looking at device, sex, and month separately, you'll be able to see where the drop off rates vary among cohorts. See the images below.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1031775,
+              "key": "7b56ea8f-1ba4-4236-8c97-f84874eaee58",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/July/5f07860e_screen-shot-2020-07-09-at-2.02.34-pm/screen-shot-2020-07-09-at-2.02.34-pm.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/7b56ea8f-1ba4-4236-8c97-f84874eaee58",
+              "caption": "The drop off rate is about the same in each gender",
+              "alt": "Image of drop off rate by page for females and males",
+              "width": 450,
+              "height": 418,
+              "instructor_notes": null
+            },
+            {
+              "id": 1031774,
+              "key": "04339033-602b-4f46-af3f-d7801ba36954",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/July/5f07861e_screen-shot-2020-07-09-at-2.02.46-pm/screen-shot-2020-07-09-at-2.02.46-pm.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/04339033-602b-4f46-af3f-d7801ba36954",
+              "caption": "The drop off rate per device shows mobile users get the the payment and payment confirmation page at lower rates than desktop users.",
+              "alt": "Image showing drop off rate per page by device type",
+              "width": 450,
+              "height": 424,
+              "instructor_notes": null
+            },
+            {
+              "id": 1031773,
+              "key": "8f78dbeb-fb29-4a32-a306-7d8804342985",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/July/5f078641_screen-shot-2020-07-09-at-2.03.44-pm/screen-shot-2020-07-09-at-2.03.44-pm.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/8f78dbeb-fb29-4a32-a306-7d8804342985",
+              "caption": "By looking at the sales funnel by month, a large increase in drop off rates in the first two steps of the funnel can be seen between February and March.",
+              "alt": "Image showing drop off rate of funnel by month of user entry",
+              "width": 450,
+              "height": 480,
+              "instructor_notes": null
+            },
+            {
+              "id": 1031967,
+              "key": "d1284137-3eb7-4dee-a2ab-83fb9e74564b",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "#### 2) Determine and write findings of cohort analysis for devices, sexes, and months. Which cohorts that have a higher average drop off rate between steps than other users and what could such a drop off rate indicate?\n\n**Sex**: For males and females, there is no difference in drop off between steps. This indicates gender may not play a role in whether a new user completes the shopping flow.\n\n**Device**: Mobile users have a 10% higher drop off rate between the search and payment pages (90% conversion on desktop versus 80% on mobile). They also have a 5% higher drop off rate between the payment and payment confirmation pages. These may indicate areas for mobile experience optimization.\n\n**Month**: A large increase in drop off between landing and search pages can be seen when comparing January/February to March/April. Drop off increases from about 40% to about 60% between the first two pages. Similarly, the drop off rate between search and payment pages increases 10% from around 82% to around 92%. This indicates a change occurred between February and March that is impacting the new user funnel conversion. The CEO should examine what changed from February to March. Perhaps a new feature introduced a bug or a new marketing method is recruiting more users who are less likely to purchase.",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1028500,
+          "key": "f9a6075d-fac2-4f84-9d48-b9421c2ff2d8",
+          "title": "Analyze User Segment Performance in Feature Usage",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "f9a6075d-fac2-4f84-9d48-b9421c2ff2d8",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1028501,
+              "key": "9e8fa2dc-249d-4e74-9220-aee42863e59d",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Analyze User Segment Performance in Feature Usage",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1028502,
+              "key": "6fd17521-9aab-4c1f-8db7-ffef288e51e0",
+              "title": "ND030 C3 L3 12 Analyzing Product & Feature Usage In Tableau Video",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "YNvHspD1FuU",
+                "china_cdn_id": "YNvHspD1FuU.mp4"
+              }
+            },
+            {
+              "id": 1044037,
+              "key": "ff76811f-6a59-4e93-8dfa-54e9bf5f5c17",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Summary\nSegmentation of feature usage data shows whether a feature is being adopted at the same rate or used in the same manner by different types of users. Differences in feature use among segment groups can lead to realization that a feature needs to be made more appealing to the under-using segment group.\n\nIt is also worth noting that feature usage itself can be a behavioral segment. KPIs from customers that use a feature can be compared to those that don’t, or customers that use a feature more frequently can be compared to those who use it less frequently.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1038681,
+              "key": "2db97fb3-3d13-44e6-85e1-b3e4481d973b",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Tableau Walkthrough",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1044040,
+              "key": "25d7969a-df04-40d8-ba42-31db57bba271",
+              "title": "ND030 C3 L3 13 Analyzing Product & Feature Usage In Tableau Walkthrough",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "hs8bLfFfiDc",
+                "china_cdn_id": "hs8bLfFfiDc.mp4"
+              }
+            },
+            {
+              "id": 1044038,
+              "key": "2607c20b-7f5b-41d5-bf64-6334eadc3c58",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Click [here](https://video.udacity-data.com/topher/2020/June/5ef541ec_l3-walkthrough2/l3-walkthrough2.csv) to download the data",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1044039,
+              "key": "237cc21c-fbad-4260-92eb-98937316832b",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Summary\nFirst, we examined the number of *feature users* compared to the number of *product users*. We can see 40 of the 70 product customers have used the attendance feature. That is a larger percentage of customers. But we still need to see if the different user groups use the feature at the same frequency. \n\nIn this data set, we have the job dimension (elementary school teacher vs. middle school teachers). By dragging the job dimension onto the sheet, we can compare the usage of the feature in these two different demographics. We can see that 2/3 of elementary school teachers and 1/2 of middle school teachers are using the attendance feature. Now that we’ve identified this difference in the data, we can talk with customers and run experiments to determine why feature usage is different and ways to improve it.\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1044242,
+              "key": "ef531ce7-0346-4bd2-a25a-59067ce70fe7",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Comparing the Use of Multiple Features\n\nIn the example above, we analyzed the use of one feature, an attendance tracker, in reference to the total number of users of a product. Sometimes, product managers want to compare the use of *two or more features*. For example, in the exercise, you want to see if users use \"play a random song\" feature differently from the \"play a requested song\" feature.\n\nTo compare two features, you can follow the same process as outlined in the walkthrough and look at the number of feature users compared to the total number of product users. However, to better *compare* two feature usage, you can calculate the *relative percent of users who used a feature*.\n\n### Analyze features used only ONCE\n1. Place the events that correspond to a feature being used in Tableau\n2. Place of **COUNT** or **COUNT (distinct)** of users to see the number of unique users who used the feature. The two methods result in the same number since the feature can only be used once.\n3. Use a **Quick Table Calculation > Percent of Total** to see the relative number of uses of one feature compared to the other. \n\nFor example, if a product has 200 users, Feature A was used by 100 users and Feature B was used by 50 users, Feature A would represent 66% (100 out of 150) and Feature B would represent 33% (50 out of 150) of the *total number of users who used either features*. Note: the percentage is calculated against the *total number of users who used either feature (100+50)* not the total number of users who use the product (200). You can see that feature A is twice as popular as feature B.\n\n### Analyze features used MULTIPLE times\n\n1. Place the events that correspond to a feature being used in Tableau\n2. Place **COUNT (distinct)** of users to see the number of *unique users* who used the feature *at least* once. \n3. Use a **Quick Table Calculation > Percent of Total** to see the relative number of uses of the features. Note: since **COUNT** and **COUNT (distinct)** now results in different numbers, when to use COUNT and COUNT (distinct) depends on the question. See the examples below.\n\nFor example, if feature A was used by 50 users, feature B was used by 25 users, and feature A was used 100 times, feature B was used 300 times.\n\nIf using **COUNT**, we count *all uses of the feature*, including *multiple uses by the same person*. We will see feature A was used 100 times and feature B was used 300 times. Feature A would have gotten 25% (100/400) and Feature B would have gotten 75% (300/400) of the *total uses* of either feature. Feature B is *used* three times as often as feature A.\n\nHowever, same scenario but using **COUNT (distinct)**, it counts the *unique users* of each feature. We will see feature A was used by 50 users *at least once* and feature B was used by 25 users *at least once*. Feature A would represent 66% (50/75) and feature B would represent 33% (25/75) of the *total users who used either feature at least once*. You can see that feature A has twice more *users* compared to feature B.\n\nTo summarize, if you are interested in the *actual use* of different features, **COUNT** is a better choice. However, if you are interested in the *number of users* who uses different features, you should use **COUNT (distant)**.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1044246,
+              "key": "0387f3bd-86c1-439f-8ab6-3952e5d6d606",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/July/5f079903_screen-shot-2020-07-09-at-3.23.39-pm/screen-shot-2020-07-09-at-3.23.39-pm.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/0387f3bd-86c1-439f-8ab6-3952e5d6d606",
+              "caption": "Depending on the data set and you objectives, you can select Measure (Count) or Measure Count (Distinct) when comparing the usage of two features.",
+              "alt": "A screenshot of selecting Measure (Count) or Measure Count (Distinct)",
+              "width": 700,
+              "height": 1228,
+              "instructor_notes": null
+            },
+            {
+              "id": 1044247,
+              "key": "f238addb-e620-4b7e-9ab9-b2953ccadd02",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/July/5f079937_screen-shot-2020-07-09-at-3.23.25-pm/screen-shot-2020-07-09-at-3.23.25-pm.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/f238addb-e620-4b7e-9ab9-b2953ccadd02",
+              "caption": "Go to Quick Table Calculation >> Percent of Total when comparing directly comparing feature use.",
+              "alt": "A screenshot of selecting Percent of Total from Quick Table Calculation in Tableau",
+              "width": 700,
+              "height": 1826,
+              "instructor_notes": null
+            }
+          ]
+        },
+        {
+          "id": 1028503,
+          "key": "c6dc535c-9478-4dd1-ac9b-3e4127630412",
+          "title": "Analyze User Segment Performance in Feature Usage Quizzes",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "c6dc535c-9478-4dd1-ac9b-3e4127630412",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1028504,
+              "key": "cd4a6758-354d-4291-931b-92bbaabd349e",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Analyze User Segment Performance in Feature Usage Quizzes",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1044057,
+              "key": "0d3cfc90-522d-4700-8409-ec2e523a93c9",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "|Age    | 16-25 | 26-35 | 36-45  | 46+ |\n|:--------------:|:--------:|:--------:|:----------:|:---:|\n|Percentage of users posted game results on Instagram| 30% | 25% | 10%  |  5% |\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1043625,
+              "key": "74e69c9c-1973-483b-a2a3-5c5eb83ce4b6",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "74e69c9c-1973-483b-a2a3-5c5eb83ce4b6",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "A feature in a mobile game allows users to post their accomplishments onto their Instagram feed. Based on the analysis shown in the above chart, which age segment is finding the feature the most appealing?",
+                "answers": [
+                  {
+                    "id": "a1593997980927",
+                    "text": "16-25 years old",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1594048127328",
+                    "text": "26-35 years old",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1594048132254",
+                    "text": "36-45 years old",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1594048137648",
+                    "text": "46+ years old",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1043626,
+              "key": "84788370-4dcc-409e-bfb5-2dea3e6e2148",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "84788370-4dcc-409e-bfb5-2dea3e6e2148",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "For the Instagram-posting feature above, which of the following can be said to be true?",
+                "answers": [
+                  {
+                    "id": "a1593998083739",
+                    "text": "Younger users prefer sharing their achievements on social media",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1593998114850",
+                    "text": "Older users don't like posting to Instagram",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1593998129293",
+                    "text": "Older users are using the Instagram posting feature less frequently than younger users",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1593998148168",
+                    "text": "A smaller percentage of older users have Instagram accounts",
+                    "is_correct": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 1028505,
+          "key": "5aacfcc6-76b4-4151-8485-e7be0a8ec729",
+          "title": "Exercise 4: Analyze User Segment Performance in Feature",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "5aacfcc6-76b4-4151-8485-e7be0a8ec729",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1028506,
+              "key": "eb537427-e15b-4d30-bdd1-bb6331714bc3",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Analyze User Segment Performance in Feature Usage Exercise: Random Song Feature Analysis",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1028748,
+              "key": "b73e730c-bd4a-4414-9804-80dae6f3623d",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Instruction\n\nA music app allows users to search for and play a specific song. In the second week of October of 2019,  they launched a new feature that allowed first-time visitors to play a random song. In this exercise, you will perform a feature analysis to determine the popularity of the feature with new users. Also, break the users into segments and confirm if both features were used at roughly the same rate among different user segments, or if one feature appealed more to a certain user group. \n\nThe data that they provided contains information of first-time users **only**. However, the users could use the features **multiple times**. \n\nClick [here](https://video.udacity-data.com/topher/2020/June/5ef53cb1_l3-exercise4/l3-exercise4.csv) to download data.\n\n1. Calculate the number of distinct users that used each feature at least once\n2. Based on available segments, analyze the data to determine if the *use of the two features* was different among segments. Explain your answer using  **numbers as evidence** of these findings.\n\nHint:  COUNT userIDs will count all the *uses of each feature*. COUNT (distinct) userIDs will count *unique users* who used each feature at least once.\n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1044754,
+              "key": "98928bf5-fabc-41e9-a58b-89f884445971",
+              "title": "Reflect",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "98928bf5-fabc-41e9-a58b-89f884445971",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": null,
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "Record your observation here."
+              },
+              "answer": {
+                "text": "See the solution page for details.",
+                "video": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 1028507,
+          "key": "0d990c69-fe71-490b-a865-0f214b1f416c",
+          "title": "Solution: Analyze User Segment Performance in Feature ",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "0d990c69-fe71-490b-a865-0f214b1f416c",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1028508,
+              "key": "20baaccf-5390-4048-acdf-1a5a0ad467fe",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Solution: Random Song Feature Analysis",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1028509,
+              "key": "84e53405-9480-4f1b-ab99-b3e6c9d1acfe",
+              "title": "ND030 C3 L3 14 Analyzing Product & Feature Usage In Tableau Exercise Solution Video",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "opVeTvsTP24",
+                "china_cdn_id": "opVeTvsTP24.mp4"
+              }
+            },
+            {
+              "id": 1044240,
+              "key": "fa03b82e-b01f-4316-b587-1c54df9d0528",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Error in the video: the instructor said: \"Since these are first-time users, there will be only one session ID for every User ID and vice versa\". It is not correct. Since these first-time users can use the features multiple times, each User ID may have *several* session IDs.\n\n**For the event time segment: you will follow the same procedure. See the screenshots below for the answers and explanations.**",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1028510,
+              "key": "fc647a8a-4a1f-466e-8308-07fb92bab7e8",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Summary\n\n#### 1) Determine the number of users that used each feature \n\nLooking at the data file, we can see three \"event types\" (landing_page, play_random_song, and play_requested_song). We know that the new feature of the music app was the ability for new users to play a random song, so all play_random_song event types likely represent a user making use of this new feature. In contrast, the \"play_requested_song\" represents the new user using the original feature set.\n\nTo see the number of users using each feature, one has to count the number of users associated with each event type. Since the users could use the features multiple times in one visit, so we will want to use **COUNT user ID (distinct)** to ensure we don't count the same user multiple times.\n\nBy counting the number of unique user IDs associated with the two event types in Tableau, we can see **1,709 users** played a random song and only **1,045 users** played a specific song during their visit.\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1031868,
+              "key": "5530a1bb-7a18-42bb-b8f2-a99637c49891",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/June/5ed6c229_screen-shot-2020-06-02-at-2.18.21-pm/screen-shot-2020-06-02-at-2.18.21-pm.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/5530a1bb-7a18-42bb-b8f2-a99637c49891",
+              "caption": "By counting the number of distinct user ID associated with the two event types, we can determine the number of users who used each feature during the week the feature launched in October 2019.",
+              "alt": "Image showing the count of unique users who played a random song or requested a specific song",
+              "width": 700,
+              "height": 500,
+              "instructor_notes": null
+            },
+            {
+              "id": 1031864,
+              "key": "d75ec698-8f71-4292-9461-384f8c0135c4",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "#### 2. Based on available segments, analyze the data to determine if the *use of the two features* was different among segments. Explain your answer using numbers as evidence of these findings.\n\nSince we are interested in the *actual use of the two features* not the number of unique users. You should use **COUNT** when calculating the relative percentage of use.\n\nThe data provides three potential elements of demographic or behavioral distinction: **gender**, **device**, and **date**. By looking at the count of the \"requested\" and \"random\" events broken down into groups for each segment, we can calculate the percent of use by each user group. This allows us to determine if any type of user used one of the two features more often. \n\nAs seen in the tables below, both genders have about the same ratio (of all the times either feature was used, 67-69% times were the random feature and 30-32% were the requested feature). Similar ratios are seen among all devices types as well (of all the times either feature was used, about 67-68% were the random feature and 30-32% were the playing a requested song). When looking at the differences among feature usage by day, a similar pattern is seen. This implies that none of the behavioral and user characteristics tracked contributed to one of the features being more popular with a particular group. \n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1031862,
+              "key": "54ff8c8a-d6d5-4b84-82d8-386f3096a528",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/July/5f078aa3_screen-shot-2020-07-09-at-2.22.25-pm/screen-shot-2020-07-09-at-2.22.25-pm.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/54ff8c8a-d6d5-4b84-82d8-386f3096a528",
+              "caption": "",
+              "alt": "",
+              "width": 700,
+              "height": 846,
+              "instructor_notes": null
+            },
+            {
+              "id": 1031863,
+              "key": "eb232984-9515-4abd-821e-73187d9e23b7",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/July/5f078ac6_screen-shot-2020-07-09-at-2.23.01-pm/screen-shot-2020-07-09-at-2.23.01-pm.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/eb232984-9515-4abd-821e-73187d9e23b7",
+              "caption": "",
+              "alt": "",
+              "width": 700,
+              "height": 856,
+              "instructor_notes": null
+            },
+            {
+              "id": 1032515,
+              "key": "10495860-1105-4f1f-a9fa-4b1c5da95b96",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/July/5f078a7f_screen-shot-2020-07-09-at-2.20.08-pm/screen-shot-2020-07-09-at-2.20.08-pm.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/10495860-1105-4f1f-a9fa-4b1c5da95b96",
+              "caption": "",
+              "alt": "",
+              "width": 700,
+              "height": 864,
+              "instructor_notes": null
+            }
+          ]
+        },
+        {
+          "id": 1028517,
+          "key": "903bac22-8e06-45ea-927d-5d84fa9d9554",
+          "title": "Lesson Conclusion",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "903bac22-8e06-45ea-927d-5d84fa9d9554",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1028518,
+              "key": "3bbc7020-5f7b-4501-b39d-013d1f514f99",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Lesson Conclusion",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1028519,
+              "key": "52e4caa9-ea23-453f-86c7-10e78f1455b8",
+              "title": "ND030 C3 L3 15 Lesson Conclusion Video",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "tHRO8iFEXpI",
+                "china_cdn_id": "tHRO8iFEXpI.mp4"
+              }
+            },
+            {
+              "id": 1044178,
+              "key": "b44e8fd2-288a-4483-8c6d-9a05f5e23ee6",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/July/5f0777cd_l3-lo/l3-lo.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/b44e8fd2-288a-4483-8c6d-9a05f5e23ee6",
+              "caption": "Lesson outline",
+              "alt": "",
+              "width": 700,
+              "height": 250,
+              "instructor_notes": null
+            },
+            {
+              "id": 1028520,
+              "key": "0dcb14b9-4ff0-451b-b824-4af6df1704c4",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Summary\nCongratulations! You have just finished the fourth lesson of this course. In this lesson, we learned how to apply user segment analysis to reveal opportunities to optimize products for different types of users.\n\nFirst, we discussed different types of user segments and how to break down users into smaller groups based on their start date, demographics, and behavior. \n\nSecond, we learned how to apply segment analysis to funnel analyses in Tableau. \n\nFinally, we learned how to use segment analysis when reviewing feature usage data. \n\nSegment analysis is an important part of the data-driven iterative design cycle. By adding segment analysis to funnel and feature analyses, product managers can further identify how different types of users use a product and can identify areas for improvement to better serve different segments of users.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1044058,
+              "key": "b9a25917-8b75-4657-a6ea-b410107b9aed",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Glossary\n- **Cohort:** For analysis purposes, cohorts refer to groups of people who begin using a product or feature at the same time.\n- **Cohort Analysis:** A type of segment analysis that focuses specifically on user cohorts.\n- **Demographics:** Anything that describes a user as a person, such as income, age, and gender.\n- **Segment Analysis:** The process of analyzing how different groups of users compare in product or feature usage.\n\n## Further reading\n\n- *Who’s who: Understanding your business with customer segmentation*\nhttps://www.intercom.com/blog/customer-segmentation/\n\n- *User segmentation: A guide to understanding your customers*\nhttps://mixpanel.com/blog/2018/05/09/user-segmentation-guide-understanding-customers/",
+              "instructor_notes": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:01.995
+Once we know our stakeholders,
+
+00:00:01.995 --> 00:00:05.760
+their use cases, we need to identify what data they need.
+
+00:00:05.760 --> 00:00:08.730
+Is it entity data or event data?
+
+00:00:08.730 --> 00:00:12.225
+We need to know the difference between entity and event data
+
+00:00:12.225 --> 00:00:16.380
+because how they can be processed and stored is different,
+
+00:00:16.380 --> 00:00:19.784
+and that influences our technology decisions.
+
+00:00:19.784 --> 00:00:27.360
+Entity data, entity is a unique objects such as customer, product, order.
+
+00:00:27.360 --> 00:00:31.275
+Attributes are the property that describe it for a customer.
+
+00:00:31.275 --> 00:00:35.835
+Entity attributes could be name, address, email, phone.
+
+00:00:35.835 --> 00:00:41.150
+Data that follows entity data model rules is called entity data.
+
+00:00:41.150 --> 00:00:44.420
+This might sound like a recursive definition,
+
+00:00:44.420 --> 00:00:47.540
+but as we discuss this further it will become clear.
+
+00:00:47.540 --> 00:00:50.665
+Entity data is stored in a table.
+
+00:00:50.665 --> 00:00:54.535
+For every entity there is a separate table,
+
+00:00:54.535 --> 00:00:59.540
+and every table has columns that are attributes describing these entities.
+
+00:00:59.540 --> 00:01:03.260
+One row is dedicated to record one type of entity.
+
+00:01:03.260 --> 00:01:09.065
+In our example, John Doe is one record of customer entity and Vaishali another record.
+
+00:01:09.065 --> 00:01:12.755
+It's time to practice your entity data modeling skills.
+
+00:01:12.755 --> 00:01:17.610
+Please complete the quiz and we'll meet in the solution section.
+

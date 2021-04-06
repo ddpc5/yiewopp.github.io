@@ -1,0 +1,1974 @@
+{
+  "data": {
+    "lesson": {
+      "id": 1028521,
+      "key": "4daad0c6-96fd-48da-a47c-fd0061a7495c",
+      "title": "Quantitative and Qualitative Data",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": "In this lesson, you will learn the benefits and drawbacks of quantitative and qualitative data and how to integrate data into the iterative design lifecycle.",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": false,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "https://zips.udacity-data.com/4daad0c6-96fd-48da-a47c-fd0061a7495c/1028521/1605812314004/Quantitative+and+Qualitative+Data+Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "https://zips.udacity-data.com/4daad0c6-96fd-48da-a47c-fd0061a7495c/1028521/1605812310550/Quantitative+and+Qualitative+Data+Subtitles.zip"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 1028522,
+          "key": "b95d0169-7e68-4b45-80e9-907dee62e262",
+          "title": "Quantitative and Qualitative Data",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "b95d0169-7e68-4b45-80e9-907dee62e262",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1028523,
+              "key": "45fa3fc3-864f-490e-913d-04a69bc29eef",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Quantitative and Qualitative Data",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1028525,
+              "key": "83584e42-4a8e-446b-a5ac-d326bd4fe0b6",
+              "title": "ND030 C3 L4 01 Quantitative And Qualitative Data Video",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "r3SxwG-BsAI",
+                "china_cdn_id": "r3SxwG-BsAI.mp4"
+              }
+            },
+            {
+              "id": 1044176,
+              "key": "168302d7-19bd-48bb-8790-4a2c1f2a4b5c",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/July/5f077795_l4-co/l4-co.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/168302d7-19bd-48bb-8790-4a2c1f2a4b5c",
+              "caption": "",
+              "alt": "Course outline",
+              "width": 758,
+              "height": 274,
+              "instructor_notes": null
+            },
+            {
+              "id": 1028526,
+              "key": "abdcea1a-3cd4-4eda-888c-03a2c2cf5928",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Summary\n\nWelcome to lesson five. This lesson will talk about qualitative and quantitative data, including methods for collecting qualitative data and integrating data into the iterative design process. You will also learn about using the Jobs to Be Done theory to better understand your customers and using the RICE framework to prioritize product improvements. \n\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1028527,
+          "key": "8b71f6ac-3248-4cba-b8df-144514881051",
+          "title": "Big Picture / Intuition",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8b71f6ac-3248-4cba-b8df-144514881051",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1028528,
+              "key": "755e49f4-f603-467d-a8a6-ce1bab6cf5c4",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Big Picture / Intuition",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1028766,
+              "key": "b03a59a0-476a-42de-b6f1-54b84e0c302c",
+              "title": "ND030 C3 L4 02 Big Picture Video",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "fUimzs7fmXk",
+                "china_cdn_id": "fUimzs7fmXk.mp4"
+              }
+            },
+            {
+              "id": 1028767,
+              "key": "d9e3e853-43fd-424e-9f58-d8886f1bc763",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Summary\nQuantitative and qualitative data each have their place in product development and the cycle of product design. Quantitative data provides great information about **how** customers are using a feature or product: what a user will do or has done. Qualitative data allows product managers to better understand what **motivates** their customers: why a user takes certain actions.  \n\nTogether, qualitative and quantitative data provide powerful guidance that can guide the iterative cycle of product improvement.\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1028529,
+          "key": "9c1248db-cf7f-402b-b404-9af59bb833a7",
+          "title": "Lesson Outline",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "9c1248db-cf7f-402b-b404-9af59bb833a7",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1028530,
+              "key": "c568339b-2e21-447e-a57d-a2f7f880928d",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Lesson Outline",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1028531,
+              "key": "2def4149-d894-4278-b7ba-3f1fd4a8f09c",
+              "title": "ND030 C3 L4 03 Lesson Outline Video",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "bD9mt8vNLVk",
+                "china_cdn_id": "bD9mt8vNLVk.mp4"
+              }
+            },
+            {
+              "id": 1044177,
+              "key": "a011c64c-4ac8-4660-bda9-e5d658deacfd",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/July/5f0777af_l4-lo/l4-lo.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/a011c64c-4ac8-4660-bda9-e5d658deacfd",
+              "caption": "Lesson outline",
+              "alt": "",
+              "width": 700,
+              "height": 266,
+              "instructor_notes": null
+            },
+            {
+              "id": 1028532,
+              "key": "474abb09-a5d6-4b82-a44f-53c31f7d5af2",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Summary\nIn this lesson, we’ll discuss the following topics:\n- Differences between quantitative and qualitative data and their benefits and drawbacks.\n- How to integrate data into the iterative design process \n- Three common qualitative research methods\n- The Jobs to Be Done theory to understand customers’ true motivations for using a product.\n- The RICE framework to prioritize between different product improvement ideas.\n\n## Lesson objective\nAt the end of the lesson, you will be able to\n- Explain the benefits and drawbacks of quantitative data\n- Explain the benefits and drawbacks of qualitative data\n- Determine when qualitative data is most useful during the iterative design process\n- Describe unstructured and structured methods of qualitative research, including interviews/focus groups, surveys, and prototype testing\n- Explain the framework of “jobs to be done” as used during qualitative research\n- Narrow scope and choose which feature(s) to test first using the RICE framework\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1028533,
+          "key": "51557971-e6ca-4dd3-a162-378e35995733",
+          "title": "Benefits and Drawbacks of Different Data",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "51557971-e6ca-4dd3-a162-378e35995733",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1028534,
+              "key": "8e8bf543-7821-4ede-b044-e8f7773a7669",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Benefits and Drawbacks of Different Data",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1028535,
+              "key": "312f49e6-e458-441f-bc15-8e0f7ad39bf9",
+              "title": "ND030 C3 L4 04 The Benefits And Drawbacks Of Quantitative And Qualitative Data Video",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "oP_Y4NmBy-w",
+                "china_cdn_id": "oP_Y4NmBy-w.mp4"
+              }
+            },
+            {
+              "id": 1028622,
+              "key": "2854e524-9d4a-486d-880a-465cbe52d978",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Summary\n### Quantitative data\nQuantitative data is any data the expresses a *count, amount, or range in a numeric fashion*. Quantitative data can be used to answer questions like How many? How often? and how much?\n- Benefits\n - Provides descriptive measurements of how a product is used\n - Allows the analysis of trends and differences between groups\n\n- Limitations\n - Can’t tell why a user takes an action\n - There can be many interpretations of the results\n\n### Qualitative data \nQualitative data often focuses on *human behavior and needs* that can’t simply be quantified by measuring user actions. Qualitative data is usually collected by talking to users or potential users, often in interviews or focus groups. \n- Benefits \n - Provides insight into why a user has done something or might be interested in something\n - Gives access to a richer understanding of users' desires and concerns\n- Limitations\n - Collecting and analyzing qualitative data can be very time-consuming\n - Larger themes around customer needs and desires are difficult to quantify\n - Has an inherent risk of inaccuracy\n\n\n\n\n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1044112,
+              "key": "c9230f4d-1c5a-4a54-8713-56bf194815e3",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## New terms\n- **Qualitative:** Qualitative data is data . Qualitative data is descriptive data that is observed but typically can't be measured. \n- **Quantitative:** Quantitative data is any data the expresses a count, amount, or range in a numeric fashion. \n\n\n## Further research\n\n- *Qualitative vs Quantitative Data*\nhttp://www.cleverpm.com/2015/10/14/qualitative-vs-quantitative-data/\n\n- *Why you Need Quantitative AND Qualitative Data*\nhttps://www.mindtheproduct.com/need-quantitative-qualitative-data/",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1028536,
+          "key": "fcbf64a3-0b08-4c7c-bb86-d8de03d85846",
+          "title": "Benefits and Drawbacks of Different Data Quizzes",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "fcbf64a3-0b08-4c7c-bb86-d8de03d85846",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1028537,
+              "key": "efdfd296-7883-4196-8ad2-79ecd549ff55",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Benefits and Drawbacks of Different Data Quizzes",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1043637,
+              "key": "0c9aa38d-0e40-4af4-bb1d-e0350b80280f",
+              "title": "Quantitative Data",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "0c9aa38d-0e40-4af4-bb1d-e0350b80280f",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Mark all the data points that represent quantitative data",
+                "answers": [
+                  {
+                    "id": "a1594001903480",
+                    "text": "Users are very happy with the new two-factor identification security feature",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1594049041783",
+                    "text": "80% of users have set up their accounts for two-factor identification",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1594049061168",
+                    "text": "The sales team reports potential clients are very security conscious ",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1594049079470",
+                    "text": "100 users set up their accounts for two-factor identification in July",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1043635,
+              "key": "887db0f0-3bb4-4e36-a9ca-7f940d231d88",
+              "title": "Qualitative Data",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "887db0f0-3bb4-4e36-a9ca-7f940d231d88",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Mark all the data points that represent qualitative data",
+                "answers": [
+                  {
+                    "id": "a1594001872188",
+                    "text": "Customers report it is difficult to understand how to upload pictures for their user profile",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1594048756932",
+                    "text": "The sales team reports that clients are asking for more ways to share their data with colleagues",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1594048769572",
+                    "text": "80% of users do not upload a profile picture",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1594048829813",
+                    "text": "8 new clients have come onboard in the month of June",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1043638,
+              "key": "3c45c090-17c7-4192-9cd9-78f4a0744240",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "3c45c090-17c7-4192-9cd9-78f4a0744240",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "In the following scenario, which type of data would be the most important to gather? \n\nScenario: A product manager just launched an app that allows people to convert recipes into grocery lists and then order food delivery based on the grocery list. There are lots of users converting recipes, but only a very small percentage (3%) then go on to buy groceries. The product manager wants to know why.",
+                "answers": [
+                  {
+                    "id": "a1594001964352",
+                    "text": "Qualitative",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1594001984676",
+                    "text": "Quantitative",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1043639,
+              "key": "a55d7730-08e8-47ae-8401-9b8277f67feb",
+              "title": "",
+              "semantic_type": "MatchingQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "a55d7730-08e8-47ae-8401-9b8277f67feb",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "complex_prompt": {
+                  "text": "Match the scenario to the type of data gathered"
+                },
+                "concepts_label": "Data Type Gathered",
+                "answers_label": "Scenario",
+                "concepts": [
+                  {
+                    "text": "Qualitative",
+                    "correct_answer": {
+                      "id": "a1594002007513",
+                      "text": "You and your user research team interviewed users to discuss why they chose to use your product over competitors."
+                    }
+                  },
+                  {
+                    "text": "Quantitative",
+                    "correct_answer": {
+                      "id": "a1594002038734",
+                      "text": "You and your user research team survey users and review competitive reports to determine the percent of users in your market that have chosen your product over competitors."
+                    }
+                  }
+                ],
+                "answers": [
+                  {
+                    "id": "a1594002007513",
+                    "text": "You and your user research team interviewed users to discuss why they chose to use your product over competitors."
+                  },
+                  {
+                    "id": "a1594002038734",
+                    "text": "You and your user research team survey users and review competitive reports to determine the percent of users in your market that have chosen your product over competitors."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 1028548,
+          "key": "da76f997-bc1d-4b61-87a9-733966849b5b",
+          "title": "Integrate Data into Iterative Design",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "da76f997-bc1d-4b61-87a9-733966849b5b",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1028550,
+              "key": "92fb1a04-71a6-492d-adec-f9d32bc56e85",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Integrate Data into Iterative Design",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1028552,
+              "key": "a3e42e38-d9fb-4349-9504-3fcf7de88d29",
+              "title": "ND030 C3 L4 05 Integrating Qualitative Data Into The Iterative Design Process Video",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "IWKqDGX6F3M",
+                "china_cdn_id": "IWKqDGX6F3M.mp4"
+              }
+            },
+            {
+              "id": 1028623,
+              "key": "5ab34a5d-32b3-49c0-b549-76edaef97e38",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Summary\n### Cycle of quantitative and qualitative data usage\n\nFirst, analyzing usage data, conversion funnels, and other *quantitative data* collected can reveal users or areas that are under- and over- performing. \n\nNext, upon seeing areas for improvement via quantitative analysis, product managers then turn to user interviews or other *qualitative data* techniques to understand why such trends might be occurring. \n\nBy combining quantitative and qualitative data, a product manager can form *hypotheses* of why a trend occurs and what change can address it. Then the product manager can then run experiments to confirm the hypothesis. As the product manager reviews the quantitative data associated with the experiment, the cycle re-starts. \n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1044179,
+              "key": "890f91b4-6ecf-4104-a3a8-8685df941218",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/July/5f0777ec_l4-cycle/l4-cycle.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/890f91b4-6ecf-4104-a3a8-8685df941218",
+              "caption": "Cycle of quantitative and qualitative data usage",
+              "alt": "",
+              "width": 510,
+              "height": 358,
+              "instructor_notes": null
+            },
+            {
+              "id": 1044180,
+              "key": "0f023185-e86d-405e-a3fb-17998049470a",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Data in the Design Thinking cycle\nThroughout the cycle, product managers leverage both qualitative and quantitative data to drive the creation of the most appealing product for users.\n\nDuring the Understand stage, and especially in the empathize step, *qualitative research* is employed to understand a user’s needs. When defining a problem, both *qualitative and quantitative data* are considered to narrow down the problems that need to be solved.\n\nIn the Explore stage where different ideas for meeting a user’s needs are explored, the first step is Ideation. Once many ideas have been generated, a few that seem like the best fit will be prototyped. \n\nThen it enters the Materialize stage. The first step in the Materialize stage is to test the prototype. The test step includes obtaining *qualitative data* such as feedback on the prototype from users and obtaining *quantitative data* from the prototype instrumentation. The testing step also includes *running experiments (hypothesis test)* by exposing some live users to the prototype. Product managers then use the *quantitative data or results* from the experiment to confirm the effect of the new feature on the product KPIs.\n\nFinally, after testing, the new design is implemented for all users. With the new design launched, a product manager can continue to analyze *quantitative data* to find trends or areas that are under- and over- performing. With this, the cycle begins again. \n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1044181,
+              "key": "030957ec-e239-4857-a57d-d2391e58fdd2",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/July/5f07781a_l4-cycle2/l4-cycle2.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/030957ec-e239-4857-a57d-d2391e58fdd2",
+              "caption": "Data in the Design Thinking cycle",
+              "alt": "",
+              "width": 798,
+              "height": 398,
+              "instructor_notes": null
+            },
+            {
+              "id": 1044113,
+              "key": "7a5e8f39-8bd4-427f-8e0c-76dad02928fc",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Further research\n\n- *How to Use Qualitative and Quantitative Research in Product Development*\nhttps://www.relevantinsights.com/blog/how-to-use-qualitative-and-quantitative-research-in-new-product-development\n\n- *Your Quantitative+Qualitative Digital Experience Flywheel*\nhttps://blog.fullstory.com/quantitative-data-vs-qualitative-research-analytics-work-better-together/",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1028554,
+          "key": "ec15586f-b092-4669-a81b-be78d13bb994",
+          "title": "Integrate Data into Iterative Design Quizzes",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "ec15586f-b092-4669-a81b-be78d13bb994",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1028555,
+              "key": "78033d73-393c-4ba2-bfbf-6a1cf4323c2f",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Integrate Data into Iterative Design Quizzes",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1043640,
+              "key": "37a43e36-a31d-4661-8a65-c24d85eaaa90",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "37a43e36-a31d-4661-8a65-c24d85eaaa90",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Read the scenario below, what stage in the cycle of quantitative and qualitative data use is the data product manager in? \n\nScenario: There's an app that converts recipes into shopping lists and allows users to order groceries based on those shopping lists. A product manager of this app just began to test a new feature that sends reminders to schedule a grocery delivery on half the app's users.",
+                "answers": [
+                  {
+                    "id": "a1594002132203",
+                    "text": "Use quantitative data to identify areas for improvement",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1594002179072",
+                    "text": "Uncover why areas are under performing with qualitative data",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1594002197010",
+                    "text": "Run experiments to test a feature and a product KPI",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1043641,
+              "key": "79b69ba2-cc47-4f5e-ab9d-4c4b19244175",
+              "title": "Design Thinking",
+              "semantic_type": "MatchingQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "79b69ba2-cc47-4f5e-ab9d-4c4b19244175",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "complex_prompt": {
+                  "text": "Match the step in the design thinking cycle with the product manager's actions in design a music app"
+                },
+                "concepts_label": "Step in the Design Thinking Cycle",
+                "answers_label": "Product Manager's Action",
+                "concepts": [
+                  {
+                    "text": "Empathize",
+                    "correct_answer": {
+                      "id": "a1594002271521",
+                      "text": "Survey users about why they use (or don't use) the \"save song to playlist\" feature"
+                    }
+                  },
+                  {
+                    "text": "Define",
+                    "correct_answer": {
+                      "id": "a1594002348226",
+                      "text": "Observe that users want the ability to create new playlists on the go and decide to focus on solving this problem"
+                    }
+                  },
+                  {
+                    "text": "Ideate",
+                    "correct_answer": {
+                      "id": "a1594002413466",
+                      "text": "Brainstorm ways to help users create playlists on the go, including updates to existing features and totally new feature sets"
+                    }
+                  },
+                  {
+                    "text": "Prototype",
+                    "correct_answer": {
+                      "id": "a1594002439593",
+                      "text": "Design an updated playlist creation experience that can be launched by favoriting a song; create only the user experience design (no development resources used yet)"
+                    }
+                  },
+                  {
+                    "text": "Test",
+                    "correct_answer": {
+                      "id": "a1594002508065",
+                      "text": "Have part of users click through a prototype of the new playlist creation experience. Users narrate when they are confused about where to go or what to do to create a playlist. "
+                    }
+                  },
+                  {
+                    "text": "Implement",
+                    "correct_answer": {
+                      "id": "a1594002544185",
+                      "text": "Launch new playlist creation feature"
+                    }
+                  }
+                ],
+                "answers": [
+                  {
+                    "id": "a1594002544185",
+                    "text": "Launch new playlist creation feature"
+                  },
+                  {
+                    "id": "a1594002413466",
+                    "text": "Brainstorm ways to help users create playlists on the go, including updates to existing features and totally new feature sets"
+                  },
+                  {
+                    "id": "a1594002439593",
+                    "text": "Design an updated playlist creation experience that can be launched by favoriting a song; create only the user experience design (no development resources used yet)"
+                  },
+                  {
+                    "id": "a1594002508065",
+                    "text": "Have part of users click through a prototype of the new playlist creation experience. Users narrate when they are confused about where to go or what to do to create a playlist. "
+                  },
+                  {
+                    "id": "a1594002348226",
+                    "text": "Observe that users want the ability to create new playlists on the go and decide to focus on solving this problem"
+                  },
+                  {
+                    "id": "a1594002271521",
+                    "text": "Survey users about why they use (or don't use) the \"save song to playlist\" feature"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 1028556,
+          "key": "f129442d-8af7-4baf-856f-318a71a53986",
+          "title": "Exercise 1: Integrate Qualitative Data into Iterative Design",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "f129442d-8af7-4baf-856f-318a71a53986",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1028557,
+              "key": "0127c7e6-db07-4b76-b23c-d0a2aa42d96c",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Integrate Qualitative Data into Iterative Design Exercise",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1028751,
+              "key": "b9f647e0-a359-41a8-a61e-fe5b80efe99f",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Instruction\n\nRead the following scenario about a hypothetical online wedding planning platform and provide suggestions about how and when qualitative data might be used.\n\nScenario: An online wedding planning platform notices that their users meet and book many photographers through the platform, but not many caterers. The product managers of the platform assume that this is because photographers' portfolios can be reviewed online, but couples might want to taste a caterers' food in person. The product management team is brainstorming on how to increase the booking of caterers.\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1032545,
+              "key": "e6885e66-c0cf-481f-a392-7daaf7916195",
+              "title": "Question 1",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "e6885e66-c0cf-481f-a392-7daaf7916195",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": null,
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "By beginning to brainstorm solutions to increase the booking of caterers, what stage of the iterative design cycle is the PM team acting like it is in?\n"
+              },
+              "answer": {
+                "text": "See solution page.",
+                "video": null
+              }
+            },
+            {
+              "id": 1032546,
+              "key": "3dadfb67-b052-492c-a9de-1a4d2332f512",
+              "title": "Question 2",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "3dadfb67-b052-492c-a9de-1a4d2332f512",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": null,
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "What stage of the iterative design cycle should the PM team act like it is in, in regards to the problem of under-booked caterers? Why?"
+              },
+              "answer": {
+                "text": "See solution page.",
+                "video": null
+              }
+            },
+            {
+              "id": 1032547,
+              "key": "5c6faeaa-ec32-4261-ac28-d430508b5574",
+              "title": "Question 3",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "5c6faeaa-ec32-4261-ac28-d430508b5574",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": null,
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "Would qualitative data likely be useful at this moment? Why or why not?"
+              },
+              "answer": {
+                "text": "See solution page.",
+                "video": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 1028558,
+          "key": "ae4a06a6-5d2c-41dd-a253-aa1772c0a16e",
+          "title": "Solution: Integrate Qualitative Data into Iterative Design",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "ae4a06a6-5d2c-41dd-a253-aa1772c0a16e",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1028559,
+              "key": "78f55eb2-085d-4bd3-9449-bf082160a1f6",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Integrate Qualitative Data into Iterative Design Solution",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1028560,
+              "key": "886bedf1-b8eb-4ca2-8dbd-bc92598d0949",
+              "title": "ND030 C3 L4 06 Integrating Qualitative Data...Exercise Solution Video",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "BDDT8Yx12vU",
+                "china_cdn_id": "BDDT8Yx12vU.mp4"
+              }
+            },
+            {
+              "id": 1028561,
+              "key": "eaa10e3d-0e2b-46eb-8714-3a7f70a40759",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Summary\n\n\n#### 1) By beginning to brainstorm solutions to increase the booking of caterers, what stage of the iterative design cycle is the PM team acting like it is in?\n\nComing up with solutions is part of the **explore** step in the iterative design cycle. The PM team is **ideating** by generating potential features and solutions to the perceived problem.\n\n\n#### 2) What stage of the iterative design cycle should the PM team act like it is in, in regards to the problem of under-booked caterers?\n\nThere is no evidence that the PM team knows why caterers are booked less often than other services. They can make guesses and assumptions based on their own experiences, but they should still be in the **understand** stage of the iterative design cycle because they have not observed customers or talked with them to understand their problems. The team needs to take the step to talk with users and **empathize** before they can **define** the problem users face that results in fewer caterers being booked.\n\n#### 3) Would qualitative data likely be useful at this moment? Why or why not?\n\nQualitative data would likely be very useful at this moment, as qualitative data is helpful when trying to understand the \"why\" behind a users' actions. Since the PM team should be in the understand/define stage of design, they still need to know more about their users' motivations. Talking with or surveying customers who have and have not booked a caterer on the site will provide helpful (qualitative) information about the problems users experience in regards to booking caterers. After they get a better understanding of the \"why\", the PM team can then move into idea ideation and prototyping. Their ideas are likely to be more successful because they will be targeted to address the users' motivations and feelings instead of addressing an assumed problem that may not exist.",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1028564,
+          "key": "0b526dd6-aff5-4756-9902-21e9f21a8e9b",
+          "title": "Qualitative Research Methods",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "0b526dd6-aff5-4756-9902-21e9f21a8e9b",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1028566,
+              "key": "44d9f8e0-0007-42ed-8669-2d220dcf43aa",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Qualitative Research Methods ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1028570,
+              "key": "d38aca77-7b4d-45ca-96a6-237a81c14dab",
+              "title": "ND030 C3 L4 07 Qualitative Research Methods  Video",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "TWcl5sNef7A",
+                "china_cdn_id": "TWcl5sNef7A.mp4"
+              }
+            },
+            {
+              "id": 1044147,
+              "key": "c0c40a02-6c6b-4f28-9fba-16e7e3bb1303",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Summary\nThere are three popular qualitative research methods used by product managers today: focus groups, interviews, and usability testing.\n\n### Focus group\nA focus group is a group of participants from the target market *gathered together* in one room with a moderator. The moderator leads the group in a discussion of topics around a product or feature. \n- Benefits\n - Time-saving: 6-10 people provide opinions at once\n- Drawbacks\n - Limited time to dig into an individual participant’s background\n - Participants can be influenced by the opinions of others\n\n### User interview.\nA user interview is a *one-on-one discussion* with a customer or potential customer. The interview script may focus on the user journey or seek opinions on a potential new feature.\n\n- Benefits\n - Ability to dig deeply into interviewee’s background\n - Interviewee not influenced by others (vs. focus groups)\n\n- Drawbacks\n - Time-consuming (one person at a time)\n\n### Usability testing\nUsability testing is when a user or potential user is asked to actually click through a product or prototype to accomplish a task. The usability tester may be asked to “think out loud” and explain why they are doing certain things and what elements confuse them as they try to reach their assigned goal.\n\n- Benefits\n - Get feedback on actual designs\n - See behavior and usability issues in real-time\n- Drawbacks\n - Only helpful once a prototype exists.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1028624,
+              "key": "680a312d-72e3-4e94-b467-33393e09025a",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## New terms\n- **Focus group:** A group of people gathered together to have a conversation facilitated by a moderator. The moderator leads the group in a discussion of topics around a product, feature, or other items of interest.\n- **Usability testing:** A method of product research where a user or potential user is asked to click through a product or prototype to accomplish a task while being observed.\n- **User interview:** A research method where a one-on-one discussion with a customer or potential customer takes place.\n\n\n## Further research\n\n- *How to Collect Customer Feedback Using Interviews & Focus Groups*\nhttps://community.uservoice.com/blog/customer-interviews-focus-group-best-practices/\n\n- *Your Ultimate Guide To Successful Usability Testing*\nhttps://uxstudioteam.com/ux-blog/usability-testing/\n\n- *The Complete Guide to User Testing*\nhttps://www.justinmind.com/blog/user-testing/",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1028573,
+          "key": "81e6cd3a-bff0-4758-93b5-410c6e2a317b",
+          "title": "Qualitative Research Methods Quizzes",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "81e6cd3a-bff0-4758-93b5-410c6e2a317b",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1028575,
+              "key": "398eb9e5-49e3-4229-a3b3-01e217c3228a",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Qualitative Research Methods Quizzes",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1043645,
+              "key": "8816709d-5f76-4740-bffd-1d816acc14f4",
+              "title": "",
+              "semantic_type": "MatchingQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "8816709d-5f76-4740-bffd-1d816acc14f4",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "complex_prompt": {
+                  "text": "Match the type of qualitative user research with the description of what a product manager did "
+                },
+                "concepts_label": "Qualitative Research Type",
+                "answers_label": "Product Manager Actions",
+                "concepts": [
+                  {
+                    "text": "Usability Testing",
+                    "correct_answer": {
+                      "id": "a1594002835439",
+                      "text": "A product manager placed mock ups of a design in front of potential users and asked them how they would accomplish a task. The product manager observed and looked for areas where the users struggled."
+                    }
+                  },
+                  {
+                    "text": "User Interviews",
+                    "correct_answer": {
+                      "id": "a1594002916062",
+                      "text": "A product manager called a user and asked the user a series of questions about how they currently use the product in their daily life."
+                    }
+                  },
+                  {
+                    "text": "Focus Group",
+                    "correct_answer": {
+                      "id": "a1594002922182",
+                      "text": "A product manager brought five users into a video conference and asked a series of discussion questions about how and why the users currently used the product in their daily life."
+                    }
+                  }
+                ],
+                "answers": [
+                  {
+                    "id": "a1594003005503",
+                    "text": "A product manager analyzed the data on feature usage in their product"
+                  },
+                  {
+                    "id": "a1594002916062",
+                    "text": "A product manager called a user and asked the user a series of questions about how they currently use the product in their daily life."
+                  },
+                  {
+                    "id": "a1594002835439",
+                    "text": "A product manager placed mock ups of a design in front of potential users and asked them how they would accomplish a task. The product manager observed and looked for areas where the users struggled."
+                  },
+                  {
+                    "id": "a1594002922182",
+                    "text": "A product manager brought five users into a video conference and asked a series of discussion questions about how and why the users currently used the product in their daily life."
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1043642,
+              "key": "437a24a2-16af-4580-8566-4f758884fade",
+              "title": "User Interviews",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "437a24a2-16af-4580-8566-4f758884fade",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "In the following scenario, what are the reasons that it might be best to conduct user interviews instead of a focus group? \n\nScenario: a product manager for a women's health app wants to better understand why women track their periods and sex life in the app. This is exploratory research with no deadline, but the product manager knows it will be helpful for empathizing with the users.",
+                "answers": [
+                  {
+                    "id": "a1594002648131",
+                    "text": "The topic you want to discuss with customers is sensitive and users might be uncomfortable discussing it in front of users",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1594002719166",
+                    "text": "You don't have a lot of time or resources; you need to get the opinions of a ~10 users in less than a day",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1594002770099",
+                    "text": "You want to ask lots of follow up questions and dig into each user's background and motivations",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1594002791111",
+                    "text": "You want to see how users interact with an actual design for a new feature",
+                    "is_correct": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 1028587,
+          "key": "d1e6d548-5f74-46f9-86ba-544258faa750",
+          "title": "Jobs to Be Done Framework",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "d1e6d548-5f74-46f9-86ba-544258faa750",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1028588,
+              "key": "e412359b-f77c-45ba-8c90-eec3838f203f",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Jobs to Be Done Framework",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1028590,
+              "key": "0fe57500-4cff-4ef6-94b4-8829524f3ece",
+              "title": "ND030 C3 L4 08 Jobs To Be Done Framework Video Part 1",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "CX-THo6VPzY",
+                "china_cdn_id": "CX-THo6VPzY.mp4"
+              }
+            },
+            {
+              "id": 1044157,
+              "key": "d752adf7-73a2-412a-816c-9941921897f4",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Summary\nThe **Jobs to Be Done Framework** pushes product managers to consider *what job people are hiring their product to do*. This job goes beyond the simple actions a user takes and instead examines the *motivations and goals* a customer is trying to achieve.\n\nThere are three types of jobs a job executor (the person actually using your product) is trying to accomplish: **core functional job, related jobs, and emotional jobs**\n\n- Core functional job: this is the *direct result* that job executor is trying to achieve by using a product. Note: it should be *motivations and goals* a customer is trying to achieve, regardless of what tools they use.\n- Related jobs: these are jobs done either *before, during, or following* the execution of the core functional job. By understanding related jobs, you can find opportunities to add additional features to the product that helps customers.\n- Emotional job:  this is how the job executor wants to *feel or be perceived* after finishing the core functional job.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1044339,
+              "key": "91835fc1-7ae5-445f-b1df-175e31b6b079",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Job Map",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1044337,
+              "key": "47b67855-9a39-4f91-ab15-d509a950d3f6",
+              "title": "ND030 C3 L4 09 Jobs To Be Done Framework Video Part 2",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "c6sgGfDnGfY",
+                "china_cdn_id": "c6sgGfDnGfY.mp4"
+              }
+            },
+            {
+              "id": 1044338,
+              "key": "1d28f4c0-9941-4fd4-a77f-11c59909dc11",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Summary\nThe **Jobs to Be Done Framework** pushes product managers to consider *what job people are hiring their product to do*. This job goes beyond the simple actions a user takes and instead examines the *motivations and goals* a customer is trying to achieve.\n\nThere are three types of jobs a job executor (the person actually using your product) is trying to accomplish: **the core functional job, related jobs, and emotional jobs**\n\n- Core functional job: this is the *direct result* that a job executor is trying to achieve by using a product. Note: the core functional job should be the *motivations and goals* a customer is trying to achieve, regardless of what tools they use.\n- Related jobs: these are jobs done either *before, during, or following* the execution of the core functional job. By understanding related jobs, you can find opportunities to add additional features to a product that helps customers achieve everything they are looking to do.\n- Emotional job:  this is how the job executor wants to *feel or be perceived* after finishing the core functional job.\n\n### Job map\nA job map breaks down the steps a customer is taking while trying to get a job done. It outlines the ideal process flow for the *needs* each customer is trying to fulfill.\n\nA good job map is solution agnostic, that is, as much as possible, it should describe what the customer is trying to fulfill *independent of what they are using or doing to get the job done.*\n\nA job map contains 8 steps. Each step can reveal opportunities to innovate and improve products.\n\n- **Step 1: Define**: defines goals and the resources needed for achieving goals. \n<br>In this step, product managers can improve their product by making planning simpler for the user.\n\n- **Step 2: Locate**: gathers everything needed to accomplish a job, whether physical tools or information.\n<br>A product manager can innovate in this step by making it easier for a user to gather everything they need in one place.\n- **Step 3: Prepare**: sets up the environment to do a job. \n<br> To make improvements, product managers can reduce required set up or provide guidance that allows users to prepare more quickly.\n- **Step 4: Confirm**: a final check to make sure the job is ready to do.\n<br> Product manager can innovate by giving users easy ways to confirm their readiness for a job.\n- ** Step 5:  Execute**: begins to carry out a job.\n<br> A product manager improves this step by removing blockers and ensuring their product is intuitive to use.\n- **Step 6: Monitor**: checks whether the job is being successfully carried out.\n<br> For this step, product managers can innovate by giving users more information about progress towards their goal.\n- **Step 7: Modify**: make changes or adjustments to improve the outcomes of the job.\n<br> To improve a product in this step, a product manager should reduce the number of modifications a user has to make when executing a job.\n- **Step 8:  Conclude**: finishes executing the job.\n<br>To improve a product in this step, product managers can decrease the work needed to conclude a job.\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1044182,
+              "key": "3c83ae95-487d-489a-b97d-f8cf4eed7539",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/July/5f07783b_l4-st14/l4-st14.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/3c83ae95-487d-489a-b97d-f8cf4eed7539",
+              "caption": "",
+              "alt": "",
+              "width": 716,
+              "height": 174,
+              "instructor_notes": null
+            },
+            {
+              "id": 1044183,
+              "key": "92142563-24ae-40ad-8d27-92442ec6fe06",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/July/5f077849_l4-st58/l4-st58.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/92142563-24ae-40ad-8d27-92442ec6fe06",
+              "caption": "Steps to create a job map",
+              "alt": "",
+              "width": 716,
+              "height": 152,
+              "instructor_notes": null
+            },
+            {
+              "id": 1028592,
+              "key": "05c48a11-6630-4e11-8c70-774c32c59b88",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## New terms\n- **Jobs To Be Done (JTBD) Framework:** A framework for understanding customer needs by focusing on the goal a customer is trying to accomplish by using a product.\n\n\n## Further research\n- *Jobs-To-Be-Done Framework*\nhttps://strategyn.com/jobs-to-be-done/customer-centered-innovation-map/\n\n- *What Is Jobs-to-be-Done?*\nhttps://jobs-to-be-done.com/what-is-jobs-to-be-done-fea59c8e39eb\n\n- *What is Jobs to be Done (JTBD)?*\nhttps://jtbd.info/2-what-is-jobs-to-be-done-jtbd-796b82081cca",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1028593,
+          "key": "c073be3f-74c2-4d5d-b47a-de4e07cc7566",
+          "title": "Jobs to Be Done Framework Quizzes",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "c073be3f-74c2-4d5d-b47a-de4e07cc7566",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1028594,
+              "key": "a0ed0e5c-8d5c-4f22-910a-0d8d2e22de17",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Jobs to Be Done Framework Quizzes",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1043646,
+              "key": "94c4ca3a-3f6f-4cb0-9f46-c0f5adbc5174",
+              "title": "Jobs to Be Done Job Types",
+              "semantic_type": "MatchingQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "94c4ca3a-3f6f-4cb0-9f46-c0f5adbc5174",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "complex_prompt": {
+                  "text": "The examples below are jobs related to the following scenario: a user using an online tool called TaxDay to calculate and file their family's taxes.\n\nGiven the above scenario, match the examples below to the job type they represent."
+                },
+                "concepts_label": "Job Type",
+                "answers_label": "Example",
+                "concepts": [
+                  {
+                    "text": "Core Functional Job",
+                    "correct_answer": {
+                      "id": "a1594003159826",
+                      "text": "Get a tax refund"
+                    }
+                  },
+                  {
+                    "text": "Emotional Job",
+                    "correct_answer": {
+                      "id": "a1594003164711",
+                      "text": "Avoiding fear that the government will audit me"
+                    }
+                  },
+                  {
+                    "text": "Related Job",
+                    "correct_answer": {
+                      "id": "a1594003167679",
+                      "text": "Organize the family financial documents"
+                    }
+                  }
+                ],
+                "answers": [
+                  {
+                    "id": "a1594003164711",
+                    "text": "Avoiding fear that the government will audit me"
+                  },
+                  {
+                    "id": "a1594003159826",
+                    "text": "Get a tax refund"
+                  },
+                  {
+                    "id": "a1594003420207",
+                    "text": "Use TaxDay to file my taxes"
+                  },
+                  {
+                    "id": "a1594003167679",
+                    "text": "Organize the family financial documents"
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1044290,
+              "key": "c1fd23c6-d308-4cca-89dd-ed6d29fd82c6",
+              "title": "Job Map: Part 1",
+              "semantic_type": "MatchingQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "c1fd23c6-d308-4cca-89dd-ed6d29fd82c6",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "complex_prompt": {
+                  "text": "Match the first four steps in a jobs-to-be-done job map to the example action taken by a user. In this scenario, the user wants to eat a healthy lunch quickly."
+                },
+                "concepts_label": "Job Map Step",
+                "answers_label": "Example Action",
+                "concepts": [
+                  {
+                    "text": "Step 1: Define",
+                    "correct_answer": {
+                      "id": "a1594342794192",
+                      "text": "The user realizes he is hungry and only has 30 minutes before his next meeting. He decides he wants to make something quickly that is still healthy."
+                    }
+                  },
+                  {
+                    "text": "Step 2: Locate",
+                    "correct_answer": {
+                      "id": "a1594342954425",
+                      "text": "The user looks in the freezer and sees there is a HealthyWeight microwavable meal. He reads the instructions on how to cook the meal."
+                    }
+                  },
+                  {
+                    "text": "Step 3: Prepare",
+                    "correct_answer": {
+                      "id": "a1594342963401",
+                      "text": "The user takes the meal tray out of the box, pokes holes in the plastic wrap around the tray, puts the HealthyWeight meal in the oven, and set the timer on the microwave."
+                    }
+                  },
+                  {
+                    "text": "Step 4: Confirm",
+                    "correct_answer": {
+                      "id": "a1594342970659",
+                      "text": "The user double-checks the amount of time for which the meal should be microwaved."
+                    }
+                  }
+                ],
+                "answers": [
+                  {
+                    "id": "a1594342963401",
+                    "text": "The user takes the meal tray out of the box, pokes holes in the plastic wrap around the tray, puts the HealthyWeight meal in the oven, and set the timer on the microwave."
+                  },
+                  {
+                    "id": "a1594342794192",
+                    "text": "The user realizes he is hungry and only has 30 minutes before his next meeting. He decides he wants to make something quickly that is still healthy."
+                  },
+                  {
+                    "id": "a1594342954425",
+                    "text": "The user looks in the freezer and sees there is a HealthyWeight microwavable meal. He reads the instructions on how to cook the meal."
+                  },
+                  {
+                    "id": "a1594342970659",
+                    "text": "The user double-checks the amount of time for which the meal should be microwaved."
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1044292,
+              "key": "10b34d9d-8a94-416d-975e-11bcc1ecc264",
+              "title": "Job Map: Part Two",
+              "semantic_type": "MatchingQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "10b34d9d-8a94-416d-975e-11bcc1ecc264",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "complex_prompt": {
+                  "text": "Match the last four steps in a jobs-to-be-done job map to the example action taken by a user. In this scenario, the user wants to eat a healthy lunch quickly."
+                },
+                "concepts_label": "Job Map Step",
+                "answers_label": "Example Action",
+                "concepts": [
+                  {
+                    "text": "Step 5: Execute",
+                    "correct_answer": {
+                      "id": "a1594343045853",
+                      "text": "The user starts the microwave with the HealthyWeight pre-made meal inside."
+                    }
+                  },
+                  {
+                    "text": "Step 6: Monitor",
+                    "correct_answer": {
+                      "id": "a1594343091846",
+                      "text": "The user watches the microwave to make sure the HealthyWeight meal tray isn't melting and listens to make sure the food sounds like it is cooking properly."
+                    }
+                  },
+                  {
+                    "text": "Step 7: Modify",
+                    "correct_answer": {
+                      "id": "a1594343097685",
+                      "text": "The user stops the microwave for a few seconds when he sees the plastic wrap is expanding from the steam. He pokes a few more holes and then re-starts the microwave."
+                    }
+                  },
+                  {
+                    "text": "Step 8: Conclude",
+                    "correct_answer": {
+                      "id": "a1594343106445",
+                      "text": "The user pulls the HealthyWeight meal from the microwave, takes off the plastic wrapping, and begins to eat."
+                    }
+                  }
+                ],
+                "answers": [
+                  {
+                    "id": "a1594343097685",
+                    "text": "The user stops the microwave for a few seconds when he sees the plastic wrap is expanding from the steam. He pokes a few more holes and then re-starts the microwave."
+                  },
+                  {
+                    "id": "a1594343091846",
+                    "text": "The user watches the microwave to make sure the HealthyWeight meal tray isn't melting and listens to make sure the food sounds like it is cooking properly."
+                  },
+                  {
+                    "id": "a1594343106445",
+                    "text": "The user pulls the HealthyWeight meal from the microwave, takes off the plastic wrapping, and begins to eat."
+                  },
+                  {
+                    "id": "a1594343045853",
+                    "text": "The user starts the microwave with the HealthyWeight pre-made meal inside."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 1028595,
+          "key": "4a3fc614-f5da-4b4c-9568-fecb398b4bae",
+          "title": "Exercise 2: Jobs to Be Done Framework",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "4a3fc614-f5da-4b4c-9568-fecb398b4bae",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1028597,
+              "key": "972a2a5a-b4a4-44f0-811a-5807a7853f69",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Jobs to Be Done Framework Exercise: Hand Washing\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1028753,
+              "key": "d29e0951-824f-4f98-97c6-0d0b2684506f",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Instruction\n\nCreate a job map for a job you do every day: washing your hands! Define each step below.\n1. Definition step\n2. Location step\n3. Preparation Step\n4. Confirmation Step\n5. Execution Step\n6. Monitoring Step\n7. Modification Step\n8. Conclusion Step\n\nPlease record your answer in the blank spaced provided.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1034914,
+              "key": "c79fb5a6-52f9-4d6c-bdf4-036f044e6f71",
+              "title": "Step 1- 4",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "c79fb5a6-52f9-4d6c-bdf4-036f044e6f71",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": null,
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "1. definition step - How does a hand washer define how to know if the job of hand washing has been successful?\n2. location step - What must the hand washer locate and gather before the job of hand washing can be done?\n3. preparation step - What must be prepared before hand washing begins to be ready for the job?\n4. confirmation step - What must someone about to wash their hands do to confirm they are ready to begin the job?"
+              },
+              "answer": {
+                "text": "See solution page.",
+                "video": null
+              }
+            },
+            {
+              "id": 1035245,
+              "key": "22f736ea-bf33-400c-875b-682f644f3749",
+              "title": "Step 5-8 ",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "22f736ea-bf33-400c-875b-682f644f3749",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": null,
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "5. execution step - What must a hand washer do to execute the job successfully?\n6. monitoring step - How does a hand washer monitoring the hand washing job to know that it is going well?\n7. modification step - What might a hand washer need to change to ensure the job is completed successfully?\n8. conclusion step - How does a hand washer complete and finish the job of hand washing?"
+              },
+              "answer": {
+                "text": "See solution page.",
+                "video": null
+              }
+            },
+            {
+              "id": 1035249,
+              "key": "99ee538e-e29a-4841-b554-8ecd0558fb4f",
+              "title": "Bonus: Emotional Needs Served",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "99ee538e-e29a-4841-b554-8ecd0558fb4f",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": null,
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "What are some emotional needs that might be served by the job of washing one's hands? "
+              },
+              "answer": {
+                "text": "See solution page.",
+                "video": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 1028598,
+          "key": "7f010dd5-a77f-40f5-b174-fe60722635b4",
+          "title": "Solution: Jobs to Be Done Framework Exercise",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "7f010dd5-a77f-40f5-b174-fe60722635b4",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1028599,
+              "key": "5d0d361e-0930-4cc6-9cf6-3e00ad21bf00",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Jobs to Be Done Framework Exercise Solution\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1028600,
+              "key": "d0480056-7a78-4ddf-b35c-e154ca74791c",
+              "title": "ND030 C3 L4 10 Jobs To Be Done Framework Exercise Solution Video",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "rrPhriZDcTQ",
+                "china_cdn_id": "rrPhriZDcTQ.mp4"
+              }
+            },
+            {
+              "id": 1028601,
+              "key": "421a2f61-6f61-43f3-b8da-3d6eff95e80a",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Summary\n\n#### 1: Definition\n\nTo define the job, job-doers must confirm how clean they want their hands to look/feel and how much time they have to spend washing their hands to achieve this result. \n\n#### 2: Location\n\nThe job of hand-washing requires locating a sink with running water and some sort of cleaning material (like soap). Optionally, the job might also require locating some way of drying hands.\n*Note: Remember that the steps in a job map should be generic enough that they apply to all customers, not just how a specific customer does the work. For example, a cleaning product/soap is needed for pre-execution, but if the soap is a bar soap or liquid soap doesn't matter for the job map.*\n\n#### 3: Preparation\n\nTo prepare the environment for the job of hand-washing, a person might turn on the water to begin to heat it up to the desired temperature. If using a hand towel, they might also place it near the sink to prevent dripping when going from water to hand-drying during the washing process.\n\n#### 4: Confirmation\n\nTo ensure they are ready for the job of hand-washing, a person will likely re-check that all the required elements are gathered (water, soap). Hand washers also check their hands to confirm they are ready to be washed and don't have anything on their hands that shouldn't be cleaned, such as jewelry that might slip off or a note written in ink. \n\n#### 5: Execution\n\nWhen actually carrying out the job, the hand washer must apply soap and water to their hands. They must also move their hands around to get the cleaning supplies over the entire hands. Then, they must run water over their hands until the hands no longer have any soap on them. \n\n#### 6: Monitoring\n\nTo ensure they are carrying out the job of hand washing properly, the job doer will watch to make sure soap is actually applied to their hands. They may also look for a physical difference in cleanliness if the dirt on their hands is visible.\n\n#### 7: Modification\n\nWhile hand washing, a hand washer might need to adjust the pattern with which they move their hands to clean off any visible dirt or soap. For example, especially dirty or sticky hands might require a longer amount of time or a more intense scrub. Fastidious hand washers or those with especially dirty hands/nails might need to introduce an extra scrubbing tool to the process to be successful in removing dirt.\n\n#### 8: Conclusion\n\nAt the end of the hand washing job, the hand washer must turn off the water and (optionally) dry off their hands.\n\n#### Bonus: Emotional Needs Served\n\nWhen washing hands, a user might serve the emotional need for feeling safer or healthier. They might also be serving the emotional need of showing others that they are healthy people with good habits. Finally, in an environment where hand washing is required (such as a food worker or a doctor at a hospital), there might be an emotional fear of being reprimanded for not hand-washing that motivates the hand washer to perform the act.\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1028602,
+          "key": "1518ad29-f374-489d-88d6-9bc104400d4a",
+          "title": "Narrow Scope with the RICE Framework",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1518ad29-f374-489d-88d6-9bc104400d4a",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1028603,
+              "key": "220137d3-e6c4-4c7a-b27b-d518e42f11a4",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Narrow Scope with the RICE Framework",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1044341,
+              "key": "0cdccac2-7239-4c96-80e9-e58f66d18331",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## The Need for Prioritization",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1028604,
+              "key": "05af5ae6-5296-41f6-a27b-5fbd67b7765a",
+              "title": "ND030 C3 L4 11 Narrowing Scope With The RICE Framework Video Part 1 1",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "bCqeNhJuNNg",
+                "china_cdn_id": "bCqeNhJuNNg.mp4"
+              }
+            },
+            {
+              "id": 1044343,
+              "key": "7c9d76d0-a851-4e3e-ba1a-33dda4add725",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Summary\nOne difficulty product managers face is the desire to focus on new, exciting ideas. While sometimes the new exciting ideas are the right features to focus on, other times more traditional and established changes may provide a greater lift.\n\n\nAnother reality is that different stakeholders may have pet ideas that appeal to their particular use case. Even if stakeholders don’t have pet ideas, they still won’t always agree on what features are the most important.\n\nA prioritization framework provides a common language for discussing features. By using one, stakeholders and product managers can prioritize features in a manner that is consistent and fair.\n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1044342,
+              "key": "311a298f-5cc8-4083-a304-403fdb5f4e87",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## RICE Framework",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1044340,
+              "key": "4996cba2-322e-4651-8488-57c02cef8751",
+              "title": "ND030 C3 L4 12 Narrowing Scope With The RICE Framework Video Part 2",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "wjeTRfg0YcU",
+                "china_cdn_id": "wjeTRfg0YcU.mp4"
+              }
+            },
+            {
+              "id": 1044168,
+              "key": "dcb3d1b7-a1e5-4018-aacc-2d820db06e3e",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Summary\nProduct managers must make choices about what new features to prioritize. One way to prioritize is by using a framework, like the **RICE framework**.\n\n## RICE framework\n- **R (Reach):** the *number of people or customers* a feature is expected to be used by, in a set time period. \n- **I (Impact):** measures the *effect* a new feature is expected to have on KPIs such as conversion rate or customer satisfaction. \n- **C (Confidence):** describes *how sure* you are that your estimates are correct. The more data you have about reach, impact, and effort, the more confident you would be.\n- **E (Effort):** the *amount of time* it will take to make a feature go live, from design to engineering to QA and launch. The effort can be measured in *person-months*, which means the work *one person can do in a number of months*.\n\nOnce you’ve gathered the reach, impact, confidence, and effort scores, you can calculate the **RICE score** for a feature. The feature with the *highest RICE score should be built first*.\n\n```text\nRICE Score = (R * I * C) / E\n```\nOf course, there are many reasons why you might work on a project with a lower score first. The important thing is that, with a scoring framework in place, everyone at your company can clearly identify when trade-offs like this are made.\n\n\n\n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1028626,
+              "key": "ab062419-fe77-4b26-afe5-beef0b4d352a",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## New terms\n- **RICE Framework:** A framework used by product managers to prioritize product work. The framework uses a formula that relies on estimates of product/feature reach, product/feature impact, a metric for confidence in these estimates, and a rough calculation of the effort to build a product/feature.\n\n\n## Further research\n\n- *RICE: Simple prioritization for product managers*\nhttps://www.intercom.com/blog/rice-simple-prioritization-for-product-managers/\n\n- *9 product prioritization frameworks for product managers*\nhttps://roadmunk.com/guides/product-prioritization-techniques-product-managers/",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1028605,
+          "key": "b3ecc65d-3149-4957-b660-dc991ce28760",
+          "title": "Narrow Scope with the RICE Framework Quizzes",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "b3ecc65d-3149-4957-b660-dc991ce28760",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1028606,
+              "key": "48224d93-9806-4a1e-914e-9a1e6e24af0c",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Narrow Scope with the RICE Framework Quizzes",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1043647,
+              "key": "b22bf0ae-19a8-4b3e-b3de-e4141f0a9645",
+              "title": "RICE Calculations",
+              "semantic_type": "MatchingQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "b22bf0ae-19a8-4b3e-b3de-e4141f0a9645",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "complex_prompt": {
+                  "text": "Match the example metric to the part of the RICE formula it represents"
+                },
+                "concepts_label": "RICE Framework ",
+                "answers_label": "Example Metric",
+                "concepts": [
+                  {
+                    "text": "Reach",
+                    "correct_answer": {
+                      "id": "a1594003487128",
+                      "text": "This feature will be used by 1 million customers a month."
+                    }
+                  },
+                  {
+                    "text": "Impact",
+                    "correct_answer": {
+                      "id": "a1594003519552",
+                      "text": "The feature will be loved by customers and greatly increase retention."
+                    }
+                  },
+                  {
+                    "text": "Confidence",
+                    "correct_answer": {
+                      "id": "a1594003527437",
+                      "text": "This type of feature has never been built before and there is limited data on how it will perform; there is only a 30% chance that estimates are correct."
+                    }
+                  },
+                  {
+                    "text": "Effort",
+                    "correct_answer": {
+                      "id": "a1594003536337",
+                      "text": "Including time for design, engineering, and testing, the feature will take 3 person-months to build."
+                    }
+                  }
+                ],
+                "answers": [
+                  {
+                    "id": "a1594003527437",
+                    "text": "This type of feature has never been built before and there is limited data on how it will perform; there is only a 30% chance that estimates are correct."
+                  },
+                  {
+                    "id": "a1594003536337",
+                    "text": "Including time for design, engineering, and testing, the feature will take 3 person-months to build."
+                  },
+                  {
+                    "id": "a1594003487128",
+                    "text": "This feature will be used by 1 million customers a month."
+                  },
+                  {
+                    "id": "a1594003519552",
+                    "text": "The feature will be loved by customers and greatly increase retention."
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1044293,
+              "key": "3f7bb6c1-d154-4652-83c9-1da9a7ebfd87",
+              "title": "RICE Framework Calculations",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "3f7bb6c1-d154-4652-83c9-1da9a7ebfd87",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Calculate the RICE score for the following features and identify which should be built first according to the RICE framework.\n- Feature 1: Reaches 100 users, medium impact (score of 2), confidence in estimates high (.9), effort level 2 weeks\n- Feature 2: Reaches 50 users, large impact (score of 3), confidence in estimates high (.9), effort level 3 weeks",
+                "answers": [
+                  {
+                    "id": "a1594343570984",
+                    "text": "Feature 1 score = 360, Feature 2 score = 450. Feature 2 has the highest score and should be built first",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1594343611422",
+                    "text": "Feature 1 score = 360, Feature 2 score = 450. Feature 1 has the lowest score and should be built first.",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1594343661978",
+                    "text": "Feature 1 score = 90, Feature 2 score = 45. Feature 1 has the highest score and should be built first",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1594343669035",
+                    "text": "Feature 1 score = 90, Feature 2 = 45. Feature 2 has the lowest score and should be built first.",
+                    "is_correct": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 1028607,
+          "key": "fa15b176-4dda-464f-a5d5-5cf7ffbfb926",
+          "title": "Exercise 3: Narrow Scope with the RICE Framework",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "fa15b176-4dda-464f-a5d5-5cf7ffbfb926",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1028608,
+              "key": "25bf1d9d-0b15-4d64-8d8b-84f3884c230e",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Narrow Scope with the RICE Framework Exercise",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1028754,
+              "key": "ace335d2-7b74-4af5-829f-0c6ef4e6ff05",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Instruction\n\nIt is time to plan out work for the next quarter. Your product is a customer relationship management system that allows your enterprise clients to keep tracks of interactions and sales with their many different customers. With a list of 5 important features in the backlog and limited team bandwidth, you want to make sure to build the most important features first. The 5 features are:\n\n- Ability to share individual customer pages via a quick link (for clients to share customer pages across teams)\n- Create line, bar, and pie charts based on collected data (to visualize sales data)\n- Single Sign-On with Social Media Sites (Google)\n- Single Sign-On with Social Media Site (Facebook)\n- Uploading external files to attach as notes to customer pages\n\nTo prioritize, you've worked with cross-functional team members to determine the *reach, impact, confidence, and effort* of every proposed feature. \n- You've talked to your sales team and surveyed existing customers to calculate the *anticipated number of users (reach)* who would be impacted/use the 5 features. \n- You've talked to your sales team, customer support, and surveyed existing customers to calculate the *anticipated impact* of the 5 features. Each feature's anticipated impact could be rated as massive impact (3), high (2), medium (1), and low (.5)\n- You've talked to your sales team, customer support, and subject matter experts to determine the *median confidence* that each feature will have the anticipated impact. Confidence is listed between 0 to 100 (percent). \n- You've talked to your design and engineering leads to determine the level of *effort (in weeks)* for each feature.\n\nUse the RICE framework and the data below to determine the order with which features should be prioritized.\n\n|Feature| Anticipated reach | Anticipated impact | Confidence  |  Effort in weeks |\n|:--------------:|:--------:|:--------:|:----------:|:---:|\n|Ability to share individual pages via a quick link| 2000 customers | massive impact  | 50%  |  5 |\n|Create line, bar, and pie charts based on collected data|3000 customers | massive impact  | 90%  |  10 |\n|Single Sign-On with Social Media Sites (Google)|  1000 customers |  medium | 80%  |  3 |\n|Single Sign-On with Social Media Site (Facebook)| 250 customers | low  | 80%  |  2 |\n|Uploading external files to attach as notes| 3000 customers  | high  | 95%  |  8 |\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1035865,
+              "key": "96d09218-2bd7-4dea-b7f2-b298ff4c256d",
+              "title": "Question 1",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "96d09218-2bd7-4dea-b7f2-b298ff4c256d",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": null,
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "Using the RICE framework, what is the RICE score of each of the 5 features?"
+              },
+              "answer": {
+                "text": "See the solution page",
+                "video": null
+              }
+            },
+            {
+              "id": 1035866,
+              "key": "bc717849-7ab1-4455-be0a-5ff83f318446",
+              "title": "Question 2",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "bc717849-7ab1-4455-be0a-5ff83f318446",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": null,
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "In what order should the 5 features be prioritized according to the RICE method?"
+              },
+              "answer": {
+                "text": "See the solution page",
+                "video": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 1028609,
+          "key": "0789fdb3-64a2-4117-b6a3-8765650a146c",
+          "title": "Solution: Narrow Scope with the RICE Framework Exercise",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "0789fdb3-64a2-4117-b6a3-8765650a146c",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1028610,
+              "key": "d6904c0f-ec8d-4df4-9a4d-69b1c63b5f84",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Narrow Scope with the RICE Framework Exercise Solution",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1028611,
+              "key": "9f8e4953-adb0-442f-ab0a-e84b2f786a01",
+              "title": "ND030 C3 L4 13 Narrowing Scope With The RICE Framework Exercise Solution Video",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "MXDxGskmNps",
+                "china_cdn_id": "MXDxGskmNps.mp4"
+              }
+            },
+            {
+              "id": 1028612,
+              "key": "f8e0f1d5-c723-4f15-ba05-c9016d763998",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Summary\n\n#### 1) Using the RICE framework, what is the score of each of the 5 features?\n\nTo calculate the RICE score for each feature, multiple the REACH, IMPACT, and CONFIDENCE together for the feature, then divide this total by the EFFORT to get the final RICE calculation.\n\n- Ability to share individual pages via a quick link: **score of 600**\n- Create line, bar, and pie charts based on collected data: **score of 810**\n- Single Sign-On with Social Media Sites (Google): **score of 266.67**\n- Single Sign-On with Social Media Site (Facebook): **score of 50**\n- Uploading external files to attach as notes: **score 712.5**\n\n#### 2) In what order should the 5 features be prioritized according to the RICE method?\n\nUsing the rice method, the highest scored features should be prioritized first. Thus, using the calculated scores, the features should be built in the following order:\n\n1. Create line, bar, and pie charts based on collected data\n2. Uploading external files to attach as notes\n3. Ability to share individual pages via a quick link\n4. Single Sign-On with Social Media Sites (Google)\n5. Single Sign-On with Social Media Site (Facebook)",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1034901,
+              "key": "c9475fef-5f97-4529-9d9b-a8dd1b9b6b8b",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/June/5ef42053_screen-shot-2020-06-24-at-8.55.47-pm/screen-shot-2020-06-24-at-8.55.47-pm.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/c9475fef-5f97-4529-9d9b-a8dd1b9b6b8b",
+              "caption": "The calculation of RICE scores show the order in which to prioritize upcoming features",
+              "alt": "Scores and features in order",
+              "width": 700,
+              "height": 942,
+              "instructor_notes": null
+            }
+          ]
+        },
+        {
+          "id": 1028614,
+          "key": "86db4e4f-ea0f-4b18-b0e9-5f6eace33cb4",
+          "title": "Lesson Conclusion",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "86db4e4f-ea0f-4b18-b0e9-5f6eace33cb4",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1028615,
+              "key": "9fd112b1-4e4c-494d-9543-835856703056",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Lesson Conclusion",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1028616,
+              "key": "ef01571f-b08c-481d-acf9-94a7a422a851",
+              "title": "ND030 C3 L4 14 Lesson Conclusion",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "K7sl8zfu_r4",
+                "china_cdn_id": "K7sl8zfu_r4.mp4"
+              }
+            },
+            {
+              "id": 1044184,
+              "key": "d912f50e-9cb3-4b85-ab35-5724579e2bbe",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/July/5f077870_l4-lo/l4-lo.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/d912f50e-9cb3-4b85-ab35-5724579e2bbe",
+              "caption": "Lesson outline",
+              "alt": "",
+              "width": 700,
+              "height": 266,
+              "instructor_notes": null
+            },
+            {
+              "id": 1028617,
+              "key": "3968a39d-7f21-4704-862f-70badc6d09a0",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Summary\nCongratulations! You have just finished the fifth lesson of this course.\nNow let’s summarize what we have learned.\n\nIn this lesson, we first discussed the definition and the use of quantitative and qualitative data, including the benefits and drawbacks of each data type \n\nThen we talked about how qualitative and quantitative data are integrated into the cycle of iterative design.\n\nIn the third part, we covered different qualitative research methods including focus group, user interview, and usability testing. \n\nIn the fourth part, we discussed the Jobs to Be Done framework for understanding the jobs customers try to accomplish with a product. We covered the core functional, related, and emotional jobs and learned how to create a job map to reveal areas for further product innovation.\n\nFinally, we learned about the RICE framework to aid in feature prioritization. By looking at the Reach, Impact, Confidence, and Effort for each feature, product managers can make better decisions about which feature to build first.\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1044175,
+              "key": "49a6ba0b-200f-4de5-b2ea-504e4f5f1ea7",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Glossary\n- **Focus group:** A group of people gathered together to have a conversation facilitated by a moderator. The moderator leads the group in a discussion of topics around a product, feature, or other items of interest.\n- **Jobs To Be Done (JTBD) Framework:** A framework for understanding customer needs by focusing on the goal a customer is trying to accomplish by using a product.\n- **Qualitative:** Qualitative data is data . Qualitative data is descriptive data that is observed but typically can't be measured. \n- **Quantitative:** Quantitative data is any data the expresses a count, amount, or range in a numeric fashion. \n- **RICE Framework:** A framework used by product managers to prioritize product work. The framework uses a formula that relies on estimates of product/feature reach, product/feature impact, a metric for confidence in these estimates, and a rough calculation of the effort to build a product/feature.\n- **Usability testing:** A method of product research where a user or potential user is asked to click through a product or prototype to accomplish a task while being observed.\n- **User interview:** A research method where a one-on-one discussion with a customer or potential customer takes place.\n\n## Further reading\n\n- *User Research is Product Management*\nhttps://www.thisisproductmanagement.com/episodes/user-research/\n- *UX Research Cheat Sheet*\nhttps://www.nngroup.com/articles/ux-research-cheat-sheet/",
+              "instructor_notes": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    }
+  ]
+}

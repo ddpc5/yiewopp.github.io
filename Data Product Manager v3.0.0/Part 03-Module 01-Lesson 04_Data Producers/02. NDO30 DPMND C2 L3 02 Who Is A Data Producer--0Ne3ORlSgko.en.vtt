@@ -1,0 +1,79 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.640
+As the term speaks for itself.
+
+00:00:02.640 --> 00:00:06.600
+A system, service, or user that
+
+00:00:06.600 --> 00:00:11.010
+produces data relevant to business is called data producer.
+
+00:00:11.010 --> 00:00:15.480
+We need to learn in depth about data producers because data
+
+00:00:15.480 --> 00:00:20.190
+produces determine what data is generated, in what format,
+
+00:00:20.190 --> 00:00:22.605
+at what rate, how much,
+
+00:00:22.605 --> 00:00:25.635
+all these factors influence our data strategy,
+
+00:00:25.635 --> 00:00:30.530
+and also what our data offering will look like to data customers.
+
+00:00:30.530 --> 00:00:33.335
+We need to go a little deeper into the topic of
+
+00:00:33.335 --> 00:00:37.640
+even data to understand different types of data producer.
+
+00:00:37.640 --> 00:00:44.170
+But first, let's talk about how our data consumer can be a data producer.
+
+00:00:44.170 --> 00:00:47.510
+Consider a simple relational database.
+
+00:00:47.510 --> 00:00:49.925
+In our eraser example,
+
+00:00:49.925 --> 00:00:51.815
+we had bunch of tables.
+
+00:00:51.815 --> 00:00:56.500
+Data is generated when customer registers or buys an eraser.
+
+00:00:56.500 --> 00:00:59.420
+That is stored in a relational database,
+
+00:00:59.420 --> 00:01:04.490
+let us call it EBD, eraser booking database.
+
+00:01:04.490 --> 00:01:12.130
+This database is the data consumer or data destination for all our data.
+
+00:01:12.130 --> 00:01:16.820
+But similar teams can run reports or query this DB to ask
+
+00:01:16.820 --> 00:01:21.440
+questions like how many erasers were sold in certain time frame,
+
+00:01:21.440 --> 00:01:25.295
+and this DB will be a source of data for them.
+
+00:01:25.295 --> 00:01:31.970
+There can be many such instances where data consumer would also be a data producer.
+
+00:01:31.970 --> 00:01:36.935
+All SAS application will be data consumers and data producers.
+
+00:01:36.935 --> 00:01:42.230
+We will learn more about several sub-systems in later part of this lesson.
+
+00:01:42.230 --> 00:01:46.530
+But first, even data and even data modeling.
+

@@ -1,0 +1,374 @@
+<!-- udacity2.0 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Event Data Modeling</title>
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/plyr.css">
+  <link rel="stylesheet" href="../assets/css/katex.min.css">
+  <link rel="stylesheet" href="../assets/css/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="shortcut icon" type="image/png" href="../assets/img/udacimak.png" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav id="sidebar">
+  <div class="sidebar-header">
+    <h3>Data Producers</h3>
+  </div>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled components">
+    <li class="">
+      <a href="01. Data Producers.html">01. Data Producers</a>
+    </li>
+    <li class="">
+      <a href="02. Data Producer.html">02. Data Producer</a>
+    </li>
+    <li class="">
+      <a href="03. Event Data.html">03. Event Data</a>
+    </li>
+    <li class="">
+      <a href="04. Event Data Modeling.html">04. Event Data Modeling</a>
+    </li>
+    <li class="">
+      <a href="05. Knapsack Solution.html">05. Knapsack Solution</a>
+    </li>
+    <li class="">
+      <a href="06. Other Type of Producers.html">06. Other Type of Producers</a>
+    </li>
+    <li class="">
+      <a href="07. ERP and CRMs.html">07. ERP and CRMs</a>
+    </li>
+    <li class="">
+      <a href="08. OLTP Contd....html">08. OLTP Contd...</a>
+    </li>
+    <li class="">
+      <a href="09. Solution Data Producers.html">09. Solution Data Producers</a>
+    </li>
+    <li class="">
+      <a href="10. Data Structures.html">10. Data Structures</a>
+    </li>
+    <li class="">
+      <a href="11. Knapsack Data Solution.html">11. Knapsack Data Solution</a>
+    </li>
+    <li class="">
+      <a href="12. Bringing it All Together.html">12. Bringing it All Together</a>
+    </li>
+    <li class="">
+      <a href="13. Solution to Elliptical Quiz.html">13. Solution to Elliptical Quiz</a>
+    </li>
+    <li class="">
+      <a href="14. Data Producers Recap.html">14. Data Producers Recap</a>
+    </li>
+    <li class="">
+      <a href="15. Glossary &amp; Resources.html">15. Glossary &amp; Resources</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+</nav>
+
+    <div id="content">
+      <header class="container-fluild header">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="align-items-middle">
+                <button type="button" id="sidebarCollapse" class="btn btn-toggle-sidebar">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </button>
+
+                <h1 style="display: inline-block">04. Event Data Modeling</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="ud-atom">
+  <h3><p>Event Data Modeling Heading</p></h3>
+  <div>
+  <h1 id="event-data-modeling">Event Data Modeling</h1>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>NDO30 DPMND C2 L3 04 Event Data Modeling</p></h3>
+  <video controls>
+  <source src="04. NDO30 DPMND C2 L3 04 Event Data Modeling-v9bNE64eRTg.mp4" type="video/mp4">
+
+  <track default="true" kind="subtitles" srclang="en" src="04. NDO30 DPMND C2 L3 04 Event Data Modeling-v9bNE64eRTg.en.vtt" label="en">
+</video>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>Event Table</p></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/image8.png" alt="Event Data Table" class="img img-fluid">
+    <figcaption class="figure-caption">
+      <p>Event Data Table</p>
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>Event Table 2</p></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/image19.png" alt="Event Table 2 Aggregation" class="img img-fluid">
+    <figcaption class="figure-caption">
+      <p>Event Table 2 Aggregation</p>
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>Event Data Best Practices</p></h3>
+  <div>
+  <p><strong>Event data modeling</strong> is logically aggregating event data to answer business questions. </p>
+<h3 id="event-data-best-practices">Event Data Best Practices</h3>
+<ol>
+<li>Know your current needs</li>
+<li>Do not track everything</li>
+<li>Plan for future as well</li>
+</ol>
+<h3 id="event-data-producers">Event Data Producers</h3>
+<ul>
+<li>Devices</li>
+<li>Web</li>
+<li>Sensors</li>
+<li>Systems</li>
+<li>Social Media</li>
+</ul>
+<p><strong>KPIs and Event Data</strong>: “A performance indicator or key performance indicator (KPI) is a type of performance measurement.KPIs evaluate the success of an organization or of a particular activity in which it engages.”</p>
+<p><a href="https://en.wikipedia.org/wiki/Performance_indicator" rel="noopener noreferrer" target="_blank">Performance Indicator</a></p>
+<h3 id="ways-to-measure-kpis">Ways to measure KPIs</h3>
+<h4 id="number-of-users-actively-using-your-website-or-app-generally-measured-as-">Number of users actively using your website or App. Generally measured as :</h4>
+<ul>
+<li>Daily Active Users (DAU)</li>
+<li>Weekly Active Users (WAU)</li>
+<li>Monthly Active Users (MAU)</li>
+<li>Primary Measure of User Growth</li>
+</ul>
+<h4 id="session-length">Session Length</h4>
+<ul>
+<li>Time spent by a user using your app in one session</li>
+<li>The measure of User Engagement</li>
+</ul>
+<h4 id="click-through-rate">Click-Through Rate</h4>
+<ul>
+<li>The ratio of users who clicked an ad or banner versus total users who viewed the page with that ad or banner</li>
+<li>Measures Users Interest in Content or Content Relevance</li>
+</ul>
+<h4 id="bounce-rate">Bounce Rate</h4>
+<ul>
+<li>Percentage of users leaving the website after viewing only one page</li>
+<li>Measures effectiveness of entry page</li>
+</ul>
+<h4 id="conversion-rate">Conversion Rate</h4>
+<ul>
+<li>Most important KPI</li>
+<li>Percentage of users completing the desired action.</li>
+<li>Desired actions<ul>
+<li>Buying an Item</li>
+<li>Completing Registration </li>
+<li>Downloading  File</li></ul></li>
+<li>Measures Interest of User in Offering</li>
+</ul>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>Knapsack Image</p></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/image18.png" alt="Knapsack Wireframe" class="img img-fluid">
+    <figcaption class="figure-caption">
+      <p>Knapsack Wireframe</p>
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>Knapsack Events</p></h3>
+  <div>
+  <div>
+    <h4>Task Description:</h4>
+    <p>Now it's time to think about event data modeling for Knapsack. Please complete the following tasks. The instructions and image are also available in the template document. You will be using both the document template and the spreadsheet. It is recommended that you copy your data table into your document when you have completed that part of the exercise.</p>
+  </div>
+
+  <form>
+    <fieldset>
+      <legend>Task List:</legend>
+
+      <div>
+        <input type="checkbox" id="c47c8b75-9ad1-44d6-87fa-b08b4a6b4503--0">
+        <label for="c47c8b75-9ad1-44d6-87fa-b08b4a6b4503--0"><p>The image above is what the first screen of our App looks like right now. Please use this image to answer the following in your template:<br />
+What are the possible event types that the product team needs to track for this screen? Provide at least 4.</p></label>
+      </div>
+      <div>
+        <input type="checkbox" id="c47c8b75-9ad1-44d6-87fa-b08b4a6b4503--1">
+        <label for="c47c8b75-9ad1-44d6-87fa-b08b4a6b4503--1"><p>Use the tabs related to Knapsack Event Data in the Data Infrastructure Strategy Exercises spreadsheet, which is also available to download in the classroom if you haven't already.</p></label>
+      </div>
+      <div>
+        <input type="checkbox" id="c47c8b75-9ad1-44d6-87fa-b08b4a6b4503--2">
+        <label for="c47c8b75-9ad1-44d6-87fa-b08b4a6b4503--2"><p>Use the tab, Knapsack Event Data Quiz, to aggregate the raw data from the Knapsack Event Data tab in the provided table. You should update the event names. <strong>Hint</strong>COUNTIF is a great way to do this.</p></label>
+      </div>
+      <div>
+        <input type="checkbox" id="c47c8b75-9ad1-44d6-87fa-b08b4a6b4503--3">
+        <label for="c47c8b75-9ad1-44d6-87fa-b08b4a6b4503--3"><p>Copy the table with the 6 unique event types and the number of times each event type occurred in the Knapsack Event Data Quiz tab into your template document.</p></label>
+      </div>
+      <div>
+        <input type="checkbox" id="c47c8b75-9ad1-44d6-87fa-b08b4a6b4503--4">
+        <label for="c47c8b75-9ad1-44d6-87fa-b08b4a6b4503--4"><p>Use the raw data and the table you created to find the <strong>number of active users</strong>. If you cannot determine this, please provide the why.</p></label>
+      </div>
+      <div>
+        <input type="checkbox" id="c47c8b75-9ad1-44d6-87fa-b08b4a6b4503--5">
+        <label for="c47c8b75-9ad1-44d6-87fa-b08b4a6b4503--5"><p>Use the raw data and the table you created to find the <strong>most popular feature</strong>. If you cannot determine this, please provide the why.</p></label>
+      </div>
+      <div>
+        <input type="checkbox" id="c47c8b75-9ad1-44d6-87fa-b08b4a6b4503--6">
+        <label for="c47c8b75-9ad1-44d6-87fa-b08b4a6b4503--6"><p>Use the raw data and the table you created to find the <strong>least popular feature</strong>. If you cannot determine this, please provide the why.</p></label>
+      </div>
+      <div>
+        <input type="checkbox" id="c47c8b75-9ad1-44d6-87fa-b08b4a6b4503--7">
+        <label for="c47c8b75-9ad1-44d6-87fa-b08b4a6b4503--7"><p>Use the raw data and the table you created to find the <strong>number of daily active users</strong>. If you cannot determine this, please provide the why.</p></label>
+      </div>
+      <div>
+        <input type="checkbox" id="c47c8b75-9ad1-44d6-87fa-b08b4a6b4503--8">
+        <label for="c47c8b75-9ad1-44d6-87fa-b08b4a6b4503--8"><p>Use the raw data and the table you created to find the <strong>average session length</strong>. If you cannot determine this, please provide the why.</p></label>
+      </div>
+    </fieldset>
+  </form>
+
+  <div>
+    <h4>Task Feedback:</h4>
+
+
+    <p>Great job completing these activities. Head to the next page to see the solutions!</p>
+  </div>
+</div>
+
+
+</div>
+<div class="divider"></div>
+          </div>
+
+          <div class="col-12">
+            <p class="text-right">
+              <a href="05. Knapsack Solution.html" class="btn btn-outline-primary mt-4" role="button">Next Concept</a>
+            </p>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p class="text-center">
+                <a href="https://us-udacity.github.io/" target="_blank">【udacity2.0 】If you need more courses, please add wechat：udacity6</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+  <script src="../assets/js/jquery-3.3.1.min.js"></script>
+  <script src="../assets/js/plyr.polyfilled.min.js"></script>
+  <script src="../assets/js/bootstrap.min.js"></script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="../assets/js/katex.min.js"></script>
+  <script>
+    // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('04. Event Data Modeling')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+</body>
+
+</html>

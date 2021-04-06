@@ -1,0 +1,154 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.730
+Types of data producers for Knapsack.
+
+00:00:02.730 --> 00:00:06.300
+This is what we know so far about Knapsack.
+
+00:00:06.300 --> 00:00:10.800
+So who are all of the Knapsack data producers.
+
+00:00:10.800 --> 00:00:15.525
+The data producers of Knapsack are: Website;
+
+00:00:15.525 --> 00:00:20.010
+Knapsack.com, mobile app; Knapsack,
+
+00:00:20.010 --> 00:00:25.770
+our SaaS solutions; Simply Accounting, Just Sale,
+
+00:00:25.770 --> 00:00:30.090
+connected backpacks, storage devices,
+
+00:00:30.090 --> 00:00:33.525
+relational DB, Data Lake.
+
+00:00:33.525 --> 00:00:36.945
+Where is entity data coming from?
+
+00:00:36.945 --> 00:00:42.035
+Our entity data producers will be the website and app.
+
+00:00:42.035 --> 00:00:46.985
+All the transactions occurring on app and website will generate entity data.
+
+00:00:46.985 --> 00:00:50.105
+Customers registering and creating account,
+
+00:00:50.105 --> 00:00:56.760
+customer buying backpacks, all this with create entity data. Our SaaS.
+
+00:00:56.760 --> 00:01:01.610
+Simply Accounting will have tables around all of the monthly financial transactions of
+
+00:01:01.610 --> 00:01:04.775
+Knapsack and Just Sale will have
+
+00:01:04.775 --> 00:01:09.155
+data around marketing channels and associated campaigns running on them.
+
+00:01:09.155 --> 00:01:14.560
+This all will be entity data as well, stored in tables.
+
+00:01:14.560 --> 00:01:18.400
+Finally, our relational DB,
+
+00:01:18.400 --> 00:01:21.545
+that we use to store data around transactions,
+
+00:01:21.545 --> 00:01:24.185
+what was bought? By whom?
+
+00:01:24.185 --> 00:01:26.330
+When? How much?
+
+00:01:26.330 --> 00:01:30.865
+This information will also be stored as entity data in tables.
+
+00:01:30.865 --> 00:01:35.015
+Our website and app will also generate event data.
+
+00:01:35.015 --> 00:01:39.710
+Users searching backpack, clicking through product pictures,
+
+00:01:39.710 --> 00:01:42.665
+navigating through various sections of pages,
+
+00:01:42.665 --> 00:01:45.250
+all these will generate event data.
+
+00:01:45.250 --> 00:01:50.055
+Our smart backpacks are connected devices, or IoT devices.
+
+00:01:50.055 --> 00:01:55.305
+They will generate event data when our anti-theft device is triggered,
+
+00:01:55.305 --> 00:01:57.450
+or while location tracking,
+
+00:01:57.450 --> 00:02:00.795
+or when emergency 911 is pressed.
+
+00:02:00.795 --> 00:02:04.665
+There're transactions happening on Knapsack's platform,
+
+00:02:04.665 --> 00:02:08.705
+to manage these OLTP capabilities will be needed.
+
+00:02:08.705 --> 00:02:13.415
+We want all our financial transactions to be ACID-compliant.
+
+00:02:13.415 --> 00:02:18.230
+OLTP capabilities are must-have for any e-commerce business,
+
+00:02:18.230 --> 00:02:22.340
+all OLTP data will be stored in a relational DB.
+
+00:02:22.340 --> 00:02:24.860
+There is no right answer to this question.
+
+00:02:24.860 --> 00:02:30.330
+What is most likely to happen in the early phase of a startup,
+
+00:02:30.330 --> 00:02:33.215
+they might not have OLAP capabilities
+
+00:02:33.215 --> 00:02:37.655
+because it is not necessary for basic functioning of a business.
+
+00:02:37.655 --> 00:02:39.560
+It is not a must-have,
+
+00:02:39.560 --> 00:02:42.710
+but it is good to have for a business to understand and
+
+00:02:42.710 --> 00:02:46.355
+analyze data to try to evaluate auto-fit.
+
+00:02:46.355 --> 00:02:48.785
+So Knapsack is working towards this,
+
+00:02:48.785 --> 00:02:53.670
+they do not have strong OLAP muscle as of now, but are building it.
+
+00:02:53.670 --> 00:02:57.810
+Our Simply Accounting is a type of ERP,
+
+00:02:57.810 --> 00:03:02.455
+it pulls in financial data and generates reports for its users,
+
+00:03:02.455 --> 00:03:05.825
+and does automatic balance sheet entries.
+
+00:03:05.825 --> 00:03:12.319
+Just Sale is our CRM that helps us keep track on how we are acquiring our customers,
+
+00:03:12.319 --> 00:03:15.095
+which channels are most successful,
+
+00:03:15.095 --> 00:03:18.120
+how our campaigns are doing.
+

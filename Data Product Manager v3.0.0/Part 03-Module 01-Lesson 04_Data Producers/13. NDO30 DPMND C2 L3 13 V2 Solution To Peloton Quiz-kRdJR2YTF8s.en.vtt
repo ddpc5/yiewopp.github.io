@@ -1,0 +1,283 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.925
+Let's talk about data producers and data.
+
+00:00:02.925 --> 00:00:09.945
+Entity data. They definitely have website and app that will generate some entity data.
+
+00:00:09.945 --> 00:00:14.460
+They most likely will have some relational DB at the back end.
+
+00:00:14.460 --> 00:00:17.175
+They will have some SaaS solution,
+
+00:00:17.175 --> 00:00:19.605
+could be for HR, supply management,
+
+00:00:19.605 --> 00:00:22.065
+finance, accounting, or marketing.
+
+00:00:22.065 --> 00:00:24.930
+They might have Salesforce, Concur,
+
+00:00:24.930 --> 00:00:29.100
+Oracle, ServiceNow, so on and so forth.
+
+00:00:29.100 --> 00:00:33.060
+There are so many aspects of a business and multitude of
+
+00:00:33.060 --> 00:00:37.400
+SaaS solutions out there, even data producers.
+
+00:00:37.400 --> 00:00:40.340
+Again, as we have understood very well,
+
+00:00:40.340 --> 00:00:43.955
+website and app will be generating some event data.
+
+00:00:43.955 --> 00:00:47.740
+The equipments will also be generating event data.
+
+00:00:47.740 --> 00:00:51.815
+They will be collecting data around consumption of their live classes,
+
+00:00:51.815 --> 00:00:54.935
+and also how touch screens are used.
+
+00:00:54.935 --> 00:00:59.000
+They will have an OLTP for their transaction.
+
+00:00:59.000 --> 00:01:03.230
+They will also have OLAPs to analyze trends of
+
+00:01:03.230 --> 00:01:08.925
+sales month over month or year over year across different regions in the US.
+
+00:01:08.925 --> 00:01:13.085
+To manage their resources across different divisions such as sales,
+
+00:01:13.085 --> 00:01:15.760
+marketing, supply chain, and operations,
+
+00:01:15.760 --> 00:01:18.755
+they will have some type of ERP.
+
+00:01:18.755 --> 00:01:26.980
+Reason why they are most likely to have an ERP is they are an exercise equipment company.
+
+00:01:26.980 --> 00:01:29.870
+They wouldn't or shouldn't spend resources in
+
+00:01:29.870 --> 00:01:33.425
+developing solution that are not unique to their space.
+
+00:01:33.425 --> 00:01:35.870
+They should focus on their core business,
+
+00:01:35.870 --> 00:01:38.005
+which is fitness and well-being.
+
+00:01:38.005 --> 00:01:41.670
+CRM. In today's world,
+
+00:01:41.670 --> 00:01:44.295
+where channels of advertising has grown,
+
+00:01:44.295 --> 00:01:45.725
+it is hard to manage
+
+00:01:45.725 --> 00:01:50.980
+all customer-related information across various touch points without a CRM.
+
+00:01:50.980 --> 00:01:55.010
+You will have a social media presence on various platforms,
+
+00:01:55.010 --> 00:01:56.975
+you might do e-mail campaigns,
+
+00:01:56.975 --> 00:01:59.945
+you might run ads on fitness and well-being sites,
+
+00:01:59.945 --> 00:02:02.525
+blogs, magazines, TV channel,
+
+00:02:02.525 --> 00:02:04.375
+podcast or YouTube channels.
+
+00:02:04.375 --> 00:02:07.820
+They are most likely to have CRM solution
+
+00:02:07.820 --> 00:02:11.945
+to help them with their customer acquisition and retention targets.
+
+00:02:11.945 --> 00:02:14.120
+What type of data does it have?
+
+00:02:14.120 --> 00:02:16.675
+Short answer, all types.
+
+00:02:16.675 --> 00:02:19.325
+To answer any of these question,
+
+00:02:19.325 --> 00:02:22.220
+it'll be important to consider a few things.
+
+00:02:22.220 --> 00:02:24.875
+What is overall success rate?
+
+00:02:24.875 --> 00:02:27.685
+What is the first attempt success rate?
+
+00:02:27.685 --> 00:02:29.790
+Why both of them are important?
+
+00:02:29.790 --> 00:02:32.115
+We will discuss in next slide.
+
+00:02:32.115 --> 00:02:37.365
+Similarly, overall failure rate and first attempt failure rate.
+
+00:02:37.365 --> 00:02:44.005
+Also, what is the strategic implication of taking any of these decisions?
+
+00:02:44.005 --> 00:02:45.980
+From the data provided,
+
+00:02:45.980 --> 00:02:50.030
+we can create tables and calculate success and failure rates.
+
+00:02:50.030 --> 00:02:54.740
+Hope you did calculate success rate and failure rate as I did.
+
+00:02:54.740 --> 00:02:57.745
+Let us look at this data for a moment.
+
+00:02:57.745 --> 00:03:03.140
+Start, stop, and incline have same overall success rate,
+
+00:03:03.140 --> 00:03:08.005
+but incline has low first attempt success rate.
+
+00:03:08.005 --> 00:03:11.045
+Stride length, program number,
+
+00:03:11.045 --> 00:03:15.025
+and my program have much lower success rates.
+
+00:03:15.025 --> 00:03:19.960
+Highest first attempt error rate is for program number,
+
+00:03:19.960 --> 00:03:25.000
+and highest overall failure rate is for stride length.
+
+00:03:25.000 --> 00:03:28.350
+Now let's answer our questions.
+
+00:03:28.350 --> 00:03:33.695
+Clearly, start and stop commands have better success rates,
+
+00:03:33.695 --> 00:03:39.320
+and they also have lowest overall failure rate and first attempt failure rate.
+
+00:03:39.320 --> 00:03:43.765
+It will make sense to launch features that have minimum failure.
+
+00:03:43.765 --> 00:03:46.050
+If you look beyond numbers,
+
+00:03:46.050 --> 00:03:49.155
+this seems to be right set of an offering.
+
+00:03:49.155 --> 00:03:53.045
+If we offered incline and stop in our first release,
+
+00:03:53.045 --> 00:03:55.705
+it doesn't seem to be a cohesive set.
+
+00:03:55.705 --> 00:04:00.950
+Also imagine getting on an exercise equipment and you say start,
+
+00:04:00.950 --> 00:04:03.680
+and it greets you with a customized message.
+
+00:04:03.680 --> 00:04:07.105
+This might be a great start of your workout.
+
+00:04:07.105 --> 00:04:09.515
+Similarly, you say stop,
+
+00:04:09.515 --> 00:04:14.170
+and it provides you with a summary with wonderful, encouraging message.
+
+00:04:14.170 --> 00:04:18.495
+This will hopefully make you get more on that equipment.
+
+00:04:18.495 --> 00:04:24.050
+Resistance and incline both have same first attempt success rate,
+
+00:04:24.050 --> 00:04:28.360
+but overall success rate for incline is better.
+
+00:04:28.360 --> 00:04:32.195
+If you have to pick one out of these two,
+
+00:04:32.195 --> 00:04:35.120
+incline is definitely the better choice.
+
+00:04:35.120 --> 00:04:39.340
+Highest error rate is in four word commands.
+
+00:04:39.340 --> 00:04:43.310
+This might be pointing out that at NLP models,
+
+00:04:43.310 --> 00:04:45.905
+natural language processing models,
+
+00:04:45.905 --> 00:04:49.910
+are still not as robust as we would like them to be.
+
+00:04:49.910 --> 00:04:54.635
+I would like my engineering team to work on my program command first.
+
+00:04:54.635 --> 00:04:58.745
+Not only it has comparatively higher success rate,
+
+00:04:58.745 --> 00:05:04.135
+but also it will be a great offering with just one command,
+
+00:05:04.135 --> 00:05:09.725
+incline, resistance, and stride length are all set to your expectation.
+
+00:05:09.725 --> 00:05:12.940
+Definitely a great customer experience.
+
+00:05:12.940 --> 00:05:15.930
+Sometimes you have to drill through.
+
+00:05:15.930 --> 00:05:20.400
+Even though stride length has high first attempt success rate,
+
+00:05:20.400 --> 00:05:23.790
+it has high overall failure rate.
+
+00:05:23.790 --> 00:05:29.015
+If we add all, our 90 percent customer give up after first attempt,
+
+00:05:29.015 --> 00:05:31.145
+we should prioritize stride length,
+
+00:05:31.145 --> 00:05:34.555
+because it has higher first attempt success rate.
+
+00:05:34.555 --> 00:05:40.595
+But if we are told only 50 percent gave up and rest try second and third time,
+
+00:05:40.595 --> 00:05:43.010
+we should prioritize program number,
+
+00:05:43.010 --> 00:05:47.580
+because overall failure rate is lower for program number.
+

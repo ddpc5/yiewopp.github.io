@@ -1,0 +1,67 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:06.255
+I hope you had fun thinking about attributes for orders and products. I know I did.
+
+00:00:06.255 --> 00:00:10.950
+There are no fixed rules on what attributes would define what entity.
+
+00:00:10.950 --> 00:00:16.980
+Attributes of product table could be different depending on product and business needs.
+
+00:00:16.980 --> 00:00:19.770
+Similarly, what are the data elements we want
+
+00:00:19.770 --> 00:00:22.665
+to record also depend on business requirements.
+
+00:00:22.665 --> 00:00:26.130
+I have kept an eraser in mind to build a product table.
+
+00:00:26.130 --> 00:00:30.120
+Just for fun, I've also added some records to the tables.
+
+00:00:30.120 --> 00:00:31.545
+For the product table,
+
+00:00:31.545 --> 00:00:34.020
+I have product ID, shape,
+
+00:00:34.020 --> 00:00:36.240
+color, costs per unit,
+
+00:00:36.240 --> 00:00:39.900
+the retail price per unit and SKU number.
+
+00:00:39.900 --> 00:00:43.020
+For the order table, I have order ID,
+
+00:00:43.020 --> 00:00:45.620
+date of order, product ID,
+
+00:00:45.620 --> 00:00:49.189
+which tells us what product was purchased by the customer,
+
+00:00:49.189 --> 00:00:53.540
+customer ID that tells us which customer bought the product,
+
+00:00:53.540 --> 00:00:57.650
+quantity and total order value and tax rate.
+
+00:00:57.650 --> 00:01:02.675
+It is important to note that I have used product ID and customer
+
+00:01:02.675 --> 00:01:05.540
+ID here so that I do not have to
+
+00:01:05.540 --> 00:01:09.415
+enter the information about product and customer in order table.
+
+00:01:09.415 --> 00:01:11.180
+In the upcoming concept,
+
+00:01:11.180 --> 00:01:14.610
+we will discuss this in detail. Shall we continue?
+

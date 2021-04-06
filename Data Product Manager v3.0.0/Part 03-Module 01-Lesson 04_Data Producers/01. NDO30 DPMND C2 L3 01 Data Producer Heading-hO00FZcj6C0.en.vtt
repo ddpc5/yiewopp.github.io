@@ -1,0 +1,40 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:05.245
+Hello. So far we have learned how important data consumers are.
+
+00:00:05.245 --> 00:00:08.105
+Equally important are data producer.
+
+00:00:08.105 --> 00:00:12.000
+What type of data is generated and how much data is generated
+
+00:00:12.000 --> 00:00:15.870
+define several aspects of our data infrastructure.
+
+00:00:15.870 --> 00:00:20.020
+In this lesson, we will learn about data producers.
+
+00:00:20.020 --> 00:00:23.280
+Next we will explore event data,
+
+00:00:23.280 --> 00:00:25.840
+and we will do event data modeling.
+
+00:00:25.840 --> 00:00:29.900
+After that, we will look at different types of data producers.
+
+00:00:29.900 --> 00:00:35.835
+We will talk about data producers that are mostly hidden in the back of an organization,
+
+00:00:35.835 --> 00:00:39.815
+that manage operations and drive efficiency.
+
+00:00:39.815 --> 00:00:43.745
+Further, we will touch upon the concepts of structured,
+
+00:00:43.745 --> 00:00:49.110
+semi-structured, and unstructured data with examples.
+

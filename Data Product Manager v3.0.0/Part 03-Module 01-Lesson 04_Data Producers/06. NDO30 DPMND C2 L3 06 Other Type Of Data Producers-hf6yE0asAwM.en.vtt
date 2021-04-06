@@ -1,0 +1,307 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.750
+So far, we've discussed the even data producers.
+
+00:00:03.750 --> 00:00:08.555
+In this section, we'll continue our discussion on other data producers,
+
+00:00:08.555 --> 00:00:10.525
+a bit complex ones.
+
+00:00:10.525 --> 00:00:17.020
+Many of these are also data consumers and some of these are stand-alone systems.
+
+00:00:17.020 --> 00:00:19.505
+Foreign robust data strategy,
+
+00:00:19.505 --> 00:00:23.745
+it is important that we identify all such data sources to
+
+00:00:23.745 --> 00:00:28.710
+avoid data silos and unnecessary duplication of data.
+
+00:00:28.710 --> 00:00:35.445
+Using this systems the right way will help us unlock true business value of our data.
+
+00:00:35.445 --> 00:00:39.855
+OLTP or Online Transaction Processing Systems,
+
+00:00:39.855 --> 00:00:43.070
+are information systems that typically
+
+00:00:43.070 --> 00:00:48.340
+facilitate and manage transaction-oriented applications.
+
+00:00:48.340 --> 00:00:50.915
+To understand what these are,
+
+00:00:50.915 --> 00:00:53.860
+we need to touch up on acid.
+
+00:00:53.860 --> 00:01:01.010
+In Wikipedia, acid is defined as a set of properties of database transaction intended to
+
+00:01:01.010 --> 00:01:08.140
+guarantee validity even in the event of errors, power failures, etc.
+
+00:01:08.140 --> 00:01:10.665
+We need to break it down further.
+
+00:01:10.665 --> 00:01:13.815
+As you can see from Wikipedia definition,
+
+00:01:13.815 --> 00:01:20.935
+atomicity treats a transaction as one unit that either fails or succeeds completely.
+
+00:01:20.935 --> 00:01:24.295
+Imagine transferring money online,
+
+00:01:24.295 --> 00:01:27.950
+if only money is removed from your account but does not
+
+00:01:27.950 --> 00:01:31.975
+add it to intended party's account, that'll be keotic.
+
+00:01:31.975 --> 00:01:39.410
+Atomicity is ensuring this does not happen and such transactions are treated as a atomic.
+
+00:01:39.410 --> 00:01:42.530
+As soon as money is removed from your account,
+
+00:01:42.530 --> 00:01:45.490
+it is added to intended by this account.
+
+00:01:45.490 --> 00:01:47.895
+Next, consistency.
+
+00:01:47.895 --> 00:01:51.365
+Consistency makes sure a certain set of rules
+
+00:01:51.365 --> 00:01:54.785
+are followed on how the transaction happens.
+
+00:01:54.785 --> 00:01:57.925
+In the above case, you transferred $100,
+
+00:01:57.925 --> 00:02:00.855
+but first you saw $50 were taken off,
+
+00:02:00.855 --> 00:02:04.280
+later in the day, you saw another 50 reduced.
+
+00:02:04.280 --> 00:02:07.220
+This might not be a desirable behavior.
+
+00:02:07.220 --> 00:02:10.550
+We might want to have some consistency.
+
+00:02:10.550 --> 00:02:13.245
+The moment you transferred $100,
+
+00:02:13.245 --> 00:02:15.915
+you saw $100 removed from your account.
+
+00:02:15.915 --> 00:02:17.870
+This is the expected behavior,
+
+00:02:17.870 --> 00:02:21.635
+and this is important in the world of online transactions.
+
+00:02:21.635 --> 00:02:26.560
+Otherwise, it will open floodgates to frauds and financial risk.
+
+00:02:26.560 --> 00:02:28.455
+Next, isolation.
+
+00:02:28.455 --> 00:02:34.895
+How transaction integrity is visible to other users and systems is also very important.
+
+00:02:34.895 --> 00:02:38.540
+In our example while you were transferring $100,
+
+00:02:38.540 --> 00:02:41.510
+I was transferring $1,000 to your account.
+
+00:02:41.510 --> 00:02:43.935
+This should be two separate transaction.
+
+00:02:43.935 --> 00:02:47.665
+It should not appear as one transaction of $900.
+
+00:02:47.665 --> 00:02:51.590
+Instead, $100 should be taken off from your account in
+
+00:02:51.590 --> 00:02:57.234
+your transaction and $1,000 from my account to your account in a separate transaction.
+
+00:02:57.234 --> 00:02:59.565
+Last, durability.
+
+00:02:59.565 --> 00:03:04.075
+Transaction that have been committed should survive permanently.
+
+00:03:04.075 --> 00:03:10.070
+In our scenario, let us assume after all the transactions that happen on Jan' 1st,
+
+00:03:10.070 --> 00:03:12.670
+your account balance was $1,000,
+
+00:03:12.670 --> 00:03:15.180
+but when you checked on Jan' 20th,
+
+00:03:15.180 --> 00:03:18.485
+your account had a pending $100 credit.
+
+00:03:18.485 --> 00:03:22.280
+Since some of the transactions were not registered by system,
+
+00:03:22.280 --> 00:03:25.205
+this will not be a desirable behavior.
+
+00:03:25.205 --> 00:03:26.900
+Even after some time,
+
+00:03:26.900 --> 00:03:30.455
+the transaction should reflect the way they occured.
+
+00:03:30.455 --> 00:03:33.785
+It should reflect all the transaction we did so far,
+
+00:03:33.785 --> 00:03:36.745
+and hence a total of $1,000.
+
+00:03:36.745 --> 00:03:42.965
+OLTP databases are used for such transactions and typically involves inserting,
+
+00:03:42.965 --> 00:03:47.740
+updating, and deleting small amounts of data in a database.
+
+00:03:47.740 --> 00:03:50.700
+In order to maintain data integrity,
+
+00:03:50.700 --> 00:03:54.735
+OLTP databases are asset compliant.
+
+00:03:54.735 --> 00:03:59.149
+OLTP databases are relational and normalize,
+
+00:03:59.149 --> 00:04:02.330
+there are source of entity data.
+
+00:04:02.330 --> 00:04:08.315
+OLTP data can be further fit to analytics engines such as OLAPs.
+
+00:04:08.315 --> 00:04:10.805
+For most e-commerce sites,
+
+00:04:10.805 --> 00:04:13.705
+OLTPs, are a must have.
+
+00:04:13.705 --> 00:04:19.010
+Some examples of transaction that will be registered in OLTP systems are;
+
+00:04:19.010 --> 00:04:21.695
+when consumer buys an item,
+
+00:04:21.695 --> 00:04:24.455
+a customer cancels an item,
+
+00:04:24.455 --> 00:04:29.875
+a customer changes the quantity of an item while it does still to be shipped.
+
+00:04:29.875 --> 00:04:34.545
+OLAP, or Online Analytical Processing Systems,
+
+00:04:34.545 --> 00:04:37.610
+a software that help users analyze data from
+
+00:04:37.610 --> 00:04:41.300
+different databases across multiple dimensions.
+
+00:04:41.300 --> 00:04:44.665
+Dimensions such as time or region.
+
+00:04:44.665 --> 00:04:47.310
+OLAP System consists of
+
+00:04:47.310 --> 00:04:53.630
+OLAP data warehouses that usually combine data from many different sources in a company.
+
+00:04:53.630 --> 00:04:58.115
+OLAP server is used to run complex and sophisticated queries.
+
+00:04:58.115 --> 00:05:00.930
+The standard application of OLAP are;
+
+00:05:00.930 --> 00:05:05.645
+business intelligence, data writing and reporting through data mining processes.
+
+00:05:05.645 --> 00:05:08.600
+Tables and OLAP systems are not normalized
+
+00:05:08.600 --> 00:05:12.475
+and OLAP data systems are not strictly relational.
+
+00:05:12.475 --> 00:05:16.350
+First, we look at some numbers for Amazon,
+
+00:05:16.350 --> 00:05:23.450
+4,000 items are sold per minute from 12 million products to choose from.
+
+00:05:23.450 --> 00:05:27.470
+More than a 103 million buyers use this platform,
+
+00:05:27.470 --> 00:05:31.585
+and more than 2.5 million sellers sell on Amazon.
+
+00:05:31.585 --> 00:05:35.170
+These numbers give us a good idea of the volume.
+
+00:05:35.170 --> 00:05:40.580
+Now, imagine Amazon analysts sifting through this data to generate reports for
+
+00:05:40.580 --> 00:05:43.820
+all sellers with details of how many units were sold
+
+00:05:43.820 --> 00:05:47.510
+in Jan' verses Feb' and also otherwise,
+
+00:05:47.510 --> 00:05:51.595
+how many units were sold in Washington versus California?
+
+00:05:51.595 --> 00:05:55.010
+It might take them years if they do not have systems like
+
+00:05:55.010 --> 00:05:58.970
+OLAP that aggregate data across multiple dimensions,
+
+00:05:58.970 --> 00:06:01.835
+such as time and all regions,
+
+00:06:01.835 --> 00:06:05.860
+resulting in reduced runtime for such complex queries.
+
+00:06:05.860 --> 00:06:12.580
+Similarly, marketing might be analyzing bestsellers, monthly or annually.
+
+00:06:12.580 --> 00:06:14.100
+To get this data,
+
+00:06:14.100 --> 00:06:16.880
+a query will have to be run through millions of
+
+00:06:16.880 --> 00:06:20.255
+transaction and might have to join multiple tables.
+
+00:06:20.255 --> 00:06:23.870
+Again, super time consuming and inefficient.
+
+00:06:23.870 --> 00:06:28.130
+OLAP cubes will help get such answers way quicker.
+
+00:06:28.130 --> 00:06:33.930
+Bottom line, OLAP systems will make reporting and data easy.
+
