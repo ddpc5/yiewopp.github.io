@@ -1,0 +1,31 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.060
+Hi everyone, and welcome to lesson 6.
+
+00:00:03.060 --> 00:00:07.650
+Today, we're going to be talking about A/B and multivariate tests,
+
+00:00:07.650 --> 00:00:11.490
+including how to choose appropriate tests for a situation,
+
+00:00:11.490 --> 00:00:13.665
+how to track data during a test,
+
+00:00:13.665 --> 00:00:18.195
+and how to evaluate a test result for statistical significance.
+
+00:00:18.195 --> 00:00:21.690
+Experiments like A/B and multivariate tests allow
+
+00:00:21.690 --> 00:00:24.255
+product managers to know with confidence
+
+00:00:24.255 --> 00:00:27.315
+whether a new feature results in desired outcomes.
+
+00:00:27.315 --> 00:00:33.340
+Designing and launching tests is an important part of data-driven iterative design.
+

@@ -1,0 +1,145 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.580
+When deciding whether to use an A/B test,
+
+00:00:02.580 --> 00:00:05.880
+there are important benefits and drawbacks to keep in mind.
+
+00:00:05.880 --> 00:00:10.050
+A major benefit is that A/B tests need fewer users than
+
+00:00:10.050 --> 00:00:14.670
+multivariate tests to get statistically significant results from a small effect size.
+
+00:00:14.670 --> 00:00:18.000
+When working on an experiment with a small number of users,
+
+00:00:18.000 --> 00:00:20.715
+if we have to split the users into many groups,
+
+00:00:20.715 --> 00:00:23.325
+we won't have very many users per group.
+
+00:00:23.325 --> 00:00:25.950
+When there aren't very many users in a test group,
+
+00:00:25.950 --> 00:00:27.930
+it is hard to prove that a difference among
+
+00:00:27.930 --> 00:00:30.825
+the test and control is statistically significant.
+
+00:00:30.825 --> 00:00:33.810
+Therefore, if you have a small number of users,
+
+00:00:33.810 --> 00:00:35.985
+it is best to use an A/B test.
+
+00:00:35.985 --> 00:00:39.670
+Since an A/B test only creates two different cases to test,
+
+00:00:39.670 --> 00:00:42.485
+it requires fewer users than an experiment that needs
+
+00:00:42.485 --> 00:00:45.860
+enough users to fill multiple test groups.
+
+00:00:45.860 --> 00:00:48.870
+However, there are drawbacks to A/B tests,
+
+00:00:48.870 --> 00:00:52.310
+the most obvious of which is that in a proper A/B test,
+
+00:00:52.310 --> 00:00:54.935
+you can only test one change at a time,
+
+00:00:54.935 --> 00:00:57.380
+and you also don't have the ability to see how
+
+00:00:57.380 --> 00:01:01.465
+different changes interact together in influencing user experience.
+
+00:01:01.465 --> 00:01:04.625
+When deciding whether to use a multivariate test,
+
+00:01:04.625 --> 00:01:07.585
+there are important benefits and drawbacks to keep in mind.
+
+00:01:07.585 --> 00:01:10.909
+Benefits of multivariate tests include that,
+
+00:01:10.909 --> 00:01:14.375
+the tests allow you to test many different variations at once,
+
+00:01:14.375 --> 00:01:17.480
+and the test can show you how different changes work
+
+00:01:17.480 --> 00:01:22.030
+together so that you can find the most effective combination of changes.
+
+00:01:22.030 --> 00:01:25.605
+However, multivariate testing has drawbacks.
+
+00:01:25.605 --> 00:01:27.280
+As we mentioned before,
+
+00:01:27.280 --> 00:01:30.930
+we need enough users in each group to show statistical significance.
+
+00:01:30.930 --> 00:01:32.425
+If an effect size is small,
+
+00:01:32.425 --> 00:01:34.720
+as many experimental effects may be.
+
+00:01:34.720 --> 00:01:38.560
+This means a large number of users must be recruited to be able to show
+
+00:01:38.560 --> 00:01:42.880
+statistical significance if there are many variations or changes to be tested,
+
+00:01:42.880 --> 00:01:46.000
+since you'll need enough users to fill each test group.
+
+00:01:46.000 --> 00:01:49.225
+Additionally, as we saw in the visual example,
+
+00:01:49.225 --> 00:01:52.975
+multivariate test quickly lead to a great number of test states.
+
+00:01:52.975 --> 00:01:54.685
+Running large number of tests,
+
+00:01:54.685 --> 00:01:57.790
+including sorting users randomly into many variations,
+
+00:01:57.790 --> 00:02:01.135
+can be difficult for this and the above reason,
+
+00:02:01.135 --> 00:02:03.040
+many companies that do a large amount of
+
+00:02:03.040 --> 00:02:06.920
+multivariate testing either build a special testing framework
+
+00:02:06.920 --> 00:02:10.160
+or use an open source or commercial testing product that
+
+00:02:10.160 --> 00:02:13.975
+makes a sorting of users into different test conditions easier.
+
+00:02:13.975 --> 00:02:17.300
+Whether an A/B or multivariate test is used,
+
+00:02:17.300 --> 00:02:20.450
+product managers gain insight from experiments as to
+
+00:02:20.450 --> 00:02:23.735
+whether their proposed changes will have the hypothesized effect.
+
+00:02:23.735 --> 00:02:28.620
+This makes experiments an important tool and the product manager toolkit
+

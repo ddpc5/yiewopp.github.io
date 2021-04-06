@@ -1,0 +1,262 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.810
+Good product managers learn lots of experiments by
+
+00:00:03.810 --> 00:00:07.490
+exposing some part of the user base to a new feature or layout,
+
+00:00:07.490 --> 00:00:12.495
+while leaving another part of the user base exposed to the original feature and layout.
+
+00:00:12.495 --> 00:00:15.770
+By exposing some users to a new feature,
+
+00:00:15.770 --> 00:00:20.905
+product managers can measure whether that feature had the desired effect on KPIs.
+
+00:00:20.905 --> 00:00:23.975
+One type of experiment is an A/B test,
+
+00:00:23.975 --> 00:00:26.450
+an A/B test is a way of seeing if
+
+00:00:26.450 --> 00:00:30.785
+a single change has an effect compared to what is currently in place.
+
+00:00:30.785 --> 00:00:34.690
+Here's how an A/B test works: First,
+
+00:00:34.690 --> 00:00:36.950
+you decide what change you want to test.
+
+00:00:36.950 --> 00:00:40.970
+For example, you might want to know if a red checkbox will be more
+
+00:00:40.970 --> 00:00:45.790
+effective than your current blue checkbox at getting people to read your newsletter.
+
+00:00:45.790 --> 00:00:49.100
+Then you decide which groups of users will see
+
+00:00:49.100 --> 00:00:52.595
+the control and which group of users will see the test.
+
+00:00:52.595 --> 00:00:55.460
+You want both groups to be similar so that you
+
+00:00:55.460 --> 00:00:58.805
+know any change you measure will be the result of your experiment,
+
+00:00:58.805 --> 00:01:02.350
+not because the people in the two groups are different types of people.
+
+00:01:02.350 --> 00:01:03.990
+Once you have your groups,
+
+00:01:03.990 --> 00:01:05.385
+you run the experiment,
+
+00:01:05.385 --> 00:01:09.420
+you want the experiment to run long enough that enough people have seen it.
+
+00:01:09.420 --> 00:01:10.775
+The more people see it,
+
+00:01:10.775 --> 00:01:13.250
+or the bigger the change the experiment causes,
+
+00:01:13.250 --> 00:01:17.720
+the more confident you can be that any change you see is because of your experiment.
+
+00:01:17.720 --> 00:01:20.525
+Finally, you measure the results and see
+
+00:01:20.525 --> 00:01:24.155
+if the experiment results in improved key performance indicators.
+
+00:01:24.155 --> 00:01:28.805
+For example, were users who saw the red checkbox more likely to read your newsletter?
+
+00:01:28.805 --> 00:01:32.825
+If so, you will likely want to roll out this change to all users.
+
+00:01:32.825 --> 00:01:35.960
+If you decide the experiment didn't have the impact you want,
+
+00:01:35.960 --> 00:01:38.330
+you know you need to try something else.
+
+00:01:38.330 --> 00:01:40.565
+In addition to A/B tests,
+
+00:01:40.565 --> 00:01:43.700
+product managers often run multivariate tests.
+
+00:01:43.700 --> 00:01:48.755
+Multivariate tests follow the same steps of an A/B tests in deciding what to test,
+
+00:01:48.755 --> 00:01:52.895
+making user groups, running an experiment, and measuring results.
+
+00:01:52.895 --> 00:01:57.610
+However, multivariate tests test more than one change at once.
+
+00:01:57.610 --> 00:02:01.550
+The difference between A/B tests and multivariate tests is whether
+
+00:02:01.550 --> 00:02:05.555
+you are testing one experimental condition against a control condition,
+
+00:02:05.555 --> 00:02:09.985
+or testing many experimental conditions against a control condition.
+
+00:02:09.985 --> 00:02:16.010
+The multiple conditions a product manager might test take three main forms: First,
+
+00:02:16.010 --> 00:02:18.335
+multivariate tests can test a range,
+
+00:02:18.335 --> 00:02:22.090
+any variable that goes from a low number to a higher one.
+
+00:02:22.090 --> 00:02:26.120
+For example, when deciding how much to charge for a product,
+
+00:02:26.120 --> 00:02:28.970
+a product manager might show different prices ranging
+
+00:02:28.970 --> 00:02:31.640
+from $50-100 to see
+
+00:02:31.640 --> 00:02:35.660
+which phrase resulted in the greatest profit based on conversion rates.
+
+00:02:35.660 --> 00:02:39.290
+Another type of multivariate test is when a product manager test
+
+00:02:39.290 --> 00:02:43.175
+many totally different versions of a feature or user interface.
+
+00:02:43.175 --> 00:02:46.550
+This might occur when there are very different visions about
+
+00:02:46.550 --> 00:02:49.990
+what the future should look like or how a page might function.
+
+00:02:49.990 --> 00:02:52.670
+For example, a product manager might have
+
+00:02:52.670 --> 00:02:55.880
+three different versions of the learning page with different texts
+
+00:02:55.880 --> 00:02:58.595
+and images and test those three learning pages
+
+00:02:58.595 --> 00:03:01.750
+against the current learning page to see what converts better.
+
+00:03:01.750 --> 00:03:05.685
+However, this all in nothing approach isn't very sophisticated,
+
+00:03:05.685 --> 00:03:12.320
+so the most common type of multivariate testing seen in products is testing variations of
+
+00:03:12.320 --> 00:03:15.665
+a design by only changing a few elements at a time
+
+00:03:15.665 --> 00:03:19.660
+and comparing the result of all the different variations that can be made.
+
+00:03:19.660 --> 00:03:22.925
+For example, a product manager might want to
+
+00:03:22.925 --> 00:03:26.465
+test a red or blue button to promote newsletter sign-up,
+
+00:03:26.465 --> 00:03:30.250
+but also might want to test the words hello or hi.
+
+00:03:30.250 --> 00:03:34.134
+The product manager would then create four different options,
+
+00:03:34.134 --> 00:03:37.245
+a page with a blue button and the word hello,
+
+00:03:37.245 --> 00:03:40.145
+a page with a blue button and the word hi,
+
+00:03:40.145 --> 00:03:43.330
+a page with a red button and the word hello,
+
+00:03:43.330 --> 00:03:46.760
+and finally a page with a red button and the word hi.
+
+00:03:46.760 --> 00:03:50.360
+Because the product manager had two things they wanted to test,
+
+00:03:50.360 --> 00:03:51.935
+each with two variations,
+
+00:03:51.935 --> 00:03:56.050
+the final number of test designs is two-by-two or four.
+
+00:03:56.050 --> 00:04:00.590
+Let's look at a simple visual example of multivariate testing of designs.
+
+00:04:00.590 --> 00:04:03.410
+Here, we see a learning page that currently has
+
+00:04:03.410 --> 00:04:07.900
+a dark blue bar at the top and a bright blue bar on the side.
+
+00:04:07.900 --> 00:04:11.540
+A product manager wants to know if an orange or black might be
+
+00:04:11.540 --> 00:04:15.775
+better on the top and if yellow or green might be better on the side.
+
+00:04:15.775 --> 00:04:21.005
+Each change could be tested on its own as an A/B test, but then,
+
+00:04:21.005 --> 00:04:22.295
+as a product manager,
+
+00:04:22.295 --> 00:04:26.740
+we lose visibility into how different elements interact and affect each other.
+
+00:04:26.740 --> 00:04:30.290
+For example, perhaps the dark blue bar works better on
+
+00:04:30.290 --> 00:04:34.255
+top than a black bar unless the sidebar is also yellow.
+
+00:04:34.255 --> 00:04:37.270
+Because there are multiple elements users interact with,
+
+00:04:37.270 --> 00:04:39.500
+those multiple elements may work better in
+
+00:04:39.500 --> 00:04:43.300
+some combination even if they don't work best viewed on their own.
+
+00:04:43.300 --> 00:04:44.810
+Note that in this test,
+
+00:04:44.810 --> 00:04:49.550
+the number of designs that needs to be tested is two elements each with three variations,
+
+00:04:49.550 --> 00:04:51.815
+which produces a total of nine designs,
+
+00:04:51.815 --> 00:04:53.405
+including the control state.
+
+00:04:53.405 --> 00:04:56.974
+As the number of elements and the number of variations increases,
+
+00:04:56.974 --> 00:05:00.360
+the number of tests designs grows quickly.
+

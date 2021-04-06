@@ -1,0 +1,103 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.180
+In this exercise, you've been called in to consult with
+
+00:00:03.180 --> 00:00:08.295
+two businesses who are deciding between running an AB or a multivariate test.
+
+00:00:08.295 --> 00:00:11.250
+Business A is looking to update the design
+
+00:00:11.250 --> 00:00:14.505
+on a page that is only used by existing customers.
+
+00:00:14.505 --> 00:00:19.140
+They have a variety of colors and images they could test on this page.
+
+00:00:19.140 --> 00:00:22.604
+But since the pages open only to existing customers,
+
+00:00:22.604 --> 00:00:25.155
+they have a limited number of users to test with.
+
+00:00:25.155 --> 00:00:27.165
+Given the factors listed above,
+
+00:00:27.165 --> 00:00:29.760
+the advice you should provide to the business is to use
+
+00:00:29.760 --> 00:00:32.565
+an AB test on the new design of the page.
+
+00:00:32.565 --> 00:00:34.365
+With a small number of users,
+
+00:00:34.365 --> 00:00:36.180
+it would take a long time to receive
+
+00:00:36.180 --> 00:00:40.010
+enough visitors to gain conclusive evidence on the best direction to take
+
+00:00:40.010 --> 00:00:42.680
+the page if they used a multivariate test that
+
+00:00:42.680 --> 00:00:46.150
+tested many different pages with different colors and images.
+
+00:00:46.150 --> 00:00:48.465
+Now let's consider business B.
+
+00:00:48.465 --> 00:00:51.020
+Business B wants to run an experiment on
+
+00:00:51.020 --> 00:00:54.280
+the landing page that new potential customers land on.
+
+00:00:54.280 --> 00:00:56.225
+Business B is a gallery,
+
+00:00:56.225 --> 00:01:00.155
+and they want to find the perfect number of pictures to show on the landing page,
+
+00:01:00.155 --> 00:01:04.880
+both across the screen and down the screen to show potential customers enough of
+
+00:01:04.880 --> 00:01:07.160
+their gallery collection to entice them to learn more
+
+00:01:07.160 --> 00:01:09.680
+about the business without overwhelming them.
+
+00:01:09.680 --> 00:01:13.960
+Business B also reports a high amount of traffic to the landing page.
+
+00:01:13.960 --> 00:01:16.520
+Given that business B wants to test a range from
+
+00:01:16.520 --> 00:01:19.325
+one to many pictures across and down their page,
+
+00:01:19.325 --> 00:01:24.410
+and given that business B reports a large number of new users landing on the page,
+
+00:01:24.410 --> 00:01:28.425
+you should suggest that business B consider a multivariate test.
+
+00:01:28.425 --> 00:01:30.600
+Business B has the traffic to come to
+
+00:01:30.600 --> 00:01:34.300
+a conclusion even when testing multiple options and variations.
+
+00:01:34.300 --> 00:01:37.535
+Given the wide range of variations they might want to test,
+
+00:01:37.535 --> 00:01:41.900
+business B should consider using dynamic tools to adjust the number of pictures shown
+
+00:01:41.900 --> 00:01:47.100
+on the site to determine the number of pictures that result in the best clickthrough.
+

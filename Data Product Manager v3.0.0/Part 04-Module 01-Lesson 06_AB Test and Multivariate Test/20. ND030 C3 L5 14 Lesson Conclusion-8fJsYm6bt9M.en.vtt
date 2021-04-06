@@ -1,0 +1,79 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:05.130
+Congratulations, you have just finished the sixth and final lesson of this course.
+
+00:00:05.130 --> 00:00:08.070
+Now let's summarize what we have learned.
+
+00:00:08.070 --> 00:00:10.530
+In this lesson, we first learned about
+
+00:00:10.530 --> 00:00:14.040
+the difference between an A/B test and a multivariate test.
+
+00:00:14.040 --> 00:00:18.180
+We also learned the benefits and drawbacks to each type of test,
+
+00:00:18.180 --> 00:00:21.840
+and which tests will be best for different situations.
+
+00:00:21.840 --> 00:00:23.760
+In the second part of the lesson,
+
+00:00:23.760 --> 00:00:26.114
+we covered how to track user actions,
+
+00:00:26.114 --> 00:00:30.235
+discussed the importance of instrumentation throughout an entire experiment,
+
+00:00:30.235 --> 00:00:33.110
+and learned the importance of selecting a KPI or
+
+00:00:33.110 --> 00:00:37.285
+conversion rate that we will use to measure the success of a test.
+
+00:00:37.285 --> 00:00:39.410
+In the third part of this lesson,
+
+00:00:39.410 --> 00:00:41.450
+we talked about the importance of recruiting
+
+00:00:41.450 --> 00:00:45.085
+test participants in a way that prevents bias in the results.
+
+00:00:45.085 --> 00:00:47.645
+Finally, in the last part of the lesson,
+
+00:00:47.645 --> 00:00:51.050
+we discussed how to interpret the results of the test by performing
+
+00:00:51.050 --> 00:00:54.800
+T-test to show statistical significance of any observed effect.
+
+00:00:54.800 --> 00:00:58.460
+We also learned how the results of a test show product managers whether
+
+00:00:58.460 --> 00:01:02.300
+the test can be expanded or the idea needs to be revisited.
+
+00:01:02.300 --> 00:01:05.540
+Data-driven product managers get ideas on how to improve
+
+00:01:05.540 --> 00:01:09.665
+a product by analyzing usage data and talking with customers.
+
+00:01:09.665 --> 00:01:15.620
+Experiments like A/B and multivariate tests provide a way to validate those hypotheses.
+
+00:01:15.620 --> 00:01:18.440
+You've just completed the sixth and final lesson in
+
+00:01:18.440 --> 00:01:22.250
+this course on applying iterative design principles to a live product.
+
+00:01:22.250 --> 00:01:26.250
+Congratulations, and good luck on the final project.
+

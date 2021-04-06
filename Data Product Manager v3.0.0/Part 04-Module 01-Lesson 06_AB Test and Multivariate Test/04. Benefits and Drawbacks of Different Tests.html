@@ -1,0 +1,348 @@
+<!-- udacity2.0 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Benefits and Drawbacks of Different Tests</title>
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/plyr.css">
+  <link rel="stylesheet" href="../assets/css/katex.min.css">
+  <link rel="stylesheet" href="../assets/css/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="shortcut icon" type="image/png" href="../assets/img/udacimak.png" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav id="sidebar">
+  <div class="sidebar-header">
+    <h3>A/B Test and Multivariate Test</h3>
+  </div>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled components">
+    <li class="">
+      <a href="01. AB Test and Multivariate Test.html">01. A/B Test and Multivariate Test</a>
+    </li>
+    <li class="">
+      <a href="02. Big Picture  Intuition.html">02. Big Picture / Intuition</a>
+    </li>
+    <li class="">
+      <a href="03. Lesson Outline.html">03. Lesson Outline</a>
+    </li>
+    <li class="">
+      <a href="04. Benefits and Drawbacks of Different Tests.html">04. Benefits and Drawbacks of Different Tests</a>
+    </li>
+    <li class="">
+      <a href="05. Benefits and Drawbacks of Different Test Quizzes.html">05. Benefits and Drawbacks of Different Test Quizzes</a>
+    </li>
+    <li class="">
+      <a href="06.  Exercise 1 Select Between AB and Multivariate Tests.html">06.  Exercise 1: Select Between A/B and Multivariate Tests</a>
+    </li>
+    <li class="">
+      <a href="07. Solution Select Between AB and Multivariate Tests Exercise.html">07. Solution: Select Between A/B and Multivariate Tests Exercise</a>
+    </li>
+    <li class="">
+      <a href="08. Track User Actions During Testing.html">08. Track User Actions During Testing</a>
+    </li>
+    <li class="">
+      <a href="09. Track User Actions During Testing Quizzes.html">09. Track User Actions During Testing Quizzes</a>
+    </li>
+    <li class="">
+      <a href="10. Exercise 2 Track User Actions During Testing.html">10. Exercise 2: Track User Actions During Testing</a>
+    </li>
+    <li class="">
+      <a href="11. Solution Track User Actions During Testing Exercise.html">11. Solution: Track User Actions During Testing Exercise</a>
+    </li>
+    <li class="">
+      <a href="12. Ensure Unbiased Control &amp; Test Groups.html">12. Ensure Unbiased Control &amp; Test Groups</a>
+    </li>
+    <li class="">
+      <a href="13. Ensure Unbiased Control &amp; Test Groups Quizzes.html">13. Ensure Unbiased Control &amp; Test Groups Quizzes</a>
+    </li>
+    <li class="">
+      <a href="14. Exercise 3 Ensure Unbiased Control &amp; Test Groups.html">14. Exercise 3: Ensure Unbiased Control &amp; Test Groups</a>
+    </li>
+    <li class="">
+      <a href="15. Solution Ensure Unbiased Control &amp; Test Groups Exercise.html">15. Solution: Ensure Unbiased Control &amp; Test Groups Exercise</a>
+    </li>
+    <li class="">
+      <a href="16. Calculate &amp; Respond to Test Results .html">16. Calculate &amp; Respond to Test Results </a>
+    </li>
+    <li class="">
+      <a href="17. Calculate &amp; Respond to Test Results Quizzes.html">17. Calculate &amp; Respond to Test Results Quizzes</a>
+    </li>
+    <li class="">
+      <a href="18. Exercise 4 Calculate &amp; Respond to Test Results.html">18. Exercise 4: Calculate &amp; Respond to Test Results</a>
+    </li>
+    <li class="">
+      <a href="19. Solution Calculate &amp; Respond to Test Results Exercise.html">19. Solution: Calculate &amp; Respond to Test Results Exercise</a>
+    </li>
+    <li class="">
+      <a href="20. Lesson Conclusion.html">20. Lesson Conclusion</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+</nav>
+
+    <div id="content">
+      <header class="container-fluild header">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="align-items-middle">
+                <button type="button" id="sidebarCollapse" class="btn btn-toggle-sidebar">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </button>
+
+                <h1 style="display: inline-block">04. Benefits and Drawbacks of Different Tests</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h1 id="benefits-and-drawbacks-of-different-test">Benefits and Drawbacks of Different Test</h1>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h2 id="ab-and-multivariate-test">A/B and Multivariate Test</h2>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>ND030 C3 L5 04 Benefits And Drawbacks Of A-B Testing Video Part 1</p></h3>
+  <video controls>
+  <source src="04. ND030 C3 L5 04 Benefits And Drawbacks Of A-B Testing Video Part 1-BNnDkwp-0Dw.mp4" type="video/mp4">
+
+  <track default="true" kind="subtitles" srclang="en" src="04. ND030 C3 L5 04 Benefits And Drawbacks Of A-B Testing Video Part 1-BNnDkwp-0Dw.en.vtt" label="en">
+</video>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>Error in the video: in the multivariate testing example, the design shown at the top right corner should have a dark blue bar, not a pink bar.</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/l5-ab.png" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h2 id="summary">Summary</h2>
+<h3 id="ab-test">A/B test</h3>
+<p>An A/B test is an experiment to seeing if a <em>single change</em> has an effect compared to what is currently in place. <br />
+An A/B test works in four steps: </p>
+<ol>
+<li>Decide what change you want to test. </li>
+<li>Decide which group of users will see the control and which group of users will see the test. </li>
+<li>Run the experiment. You want the experiment to run long enough that enough people can see it.</li>
+<li>Measure the results and see if the experiment results in KPI improvement. </li>
+</ol>
+<h3 id="multivariate-tests">Multivariate tests</h3>
+<p>Multivariate tests follow the same steps of an A/B test in deciding what to test, making user groups, running an experiment, and measuring results. </p>
+<p>However, a multivariate test can test <em>more than one change</em> at once.<br />
+The multiple changes a product manager can test takes three main forms:</p>
+<ul>
+<li>Test a range: any variable that goes from a low number to a higher one.</li>
+<li>Test many, <em>totally different</em> versions of a feature or UI. </li>
+<li>Test variations of a design by only <em>changing one element or a few elements</em> at a time.</li>
+</ul>
+<p>To calculate how many tests one has, you need to <em>multiply the number of options in each testing element</em>. In the video, there are two testing elements and 3 options for each element (including the original version). So 3 options for the first testing element times 3 options for the second testing element (3*3), which gives 9 tests including the control (the original design).</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h2 id="benefits-and-drawbacks">Benefits and Drawbacks</h2>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>ND030 C3 L5 05 Benefits And Drawbacks Of A-B Testing Video Part 2</p></h3>
+  <video controls>
+  <source src="04. ND030 C3 L5 05 Benefits And Drawbacks Of A-B Testing Video Part 2-YDEYcFvGJco.mp4" type="video/mp4">
+
+  <track default="true" kind="subtitles" srclang="en" src="04. ND030 C3 L5 05 Benefits And Drawbacks Of A-B Testing Video Part 2-YDEYcFvGJco.en.vtt" label="en">
+</video>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h2 id="benefits-and-drawbacks-of-ab-tests">Benefits and drawbacks of A/B tests</h2>
+<ul>
+<li><p>Benefit</p>
+<ul>
+<li>Need fewer users to get statistically significant results since there aren't many test groups.</li></ul></li>
+<li><p>Drawbacks </p>
+<ul>
+<li>Can only test one change at a time</li>
+<li>Don’t have the ability to see how different changes interact together</li></ul></li>
+</ul>
+<h2 id="benefits-and-drawbacks-of-multivariate-tests">Benefits and drawbacks of multivariate tests</h2>
+<ul>
+<li><p>Benefits</p>
+<ul>
+<li>Allow testing many different variations at once</li>
+<li>Show how different changes work together and interact</li></ul></li>
+<li><p>Drawbacks</p>
+<ul>
+<li>Need enough users in each group to show statistical significance</li>
+<li>Running a large number of tests, including sorting users randomly into the many variations, can be difficult</li></ul></li>
+</ul>
+<p>Whether an A/B or multivariate test is used, product managers gain insight from experiments as to whether their proposed changes will have the hypothesized effect. This makes experiments an important tool in the product manager toolkit.</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h2 id="new-terms">New terms</h2>
+<ul>
+<li><strong>A/B test:</strong> An experiment to seeing if a <em>single change</em> has an effect compared to what is currently in place. </li>
+<li><strong>Multivariate test:</strong> An experiment to see the effects of a changes of multiple variables, including how the variables interact with each other.</li>
+</ul>
+<h2 id="further-research">Further research</h2>
+<ul>
+<li><p><em>The Definitive Guide to Multivariate and A/B Testing</em><br />
+<a href="https://www.invespcro.com/blog/multivariate-ab-testing-guide/" rel="noopener noreferrer" target="_blank">https://www.invespcro.com/blog/multivariate-ab-testing-guide/</a></p></li>
+<li><p><em>Multivariate Testing vs A/B Testing</em><br />
+<a href="https://www.optimizely.com/optimization-glossary/multivariate-test-vs-ab-test/" rel="noopener noreferrer" target="_blank">https://www.optimizely.com/optimization-glossary/multivariate-test-vs-ab-test/</a></p></li>
+</ul>
+</div>
+
+</div>
+<div class="divider"></div>
+          </div>
+
+          <div class="col-12">
+            <p class="text-right">
+              <a href="05. Benefits and Drawbacks of Different Test Quizzes.html" class="btn btn-outline-primary mt-4" role="button">Next Concept</a>
+            </p>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p class="text-center">
+                <a href="https://us-udacity.github.io/" target="_blank">【udacity2.0 】If you need more courses, please add wechat：udacity6</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+  <script src="../assets/js/jquery-3.3.1.min.js"></script>
+  <script src="../assets/js/plyr.polyfilled.min.js"></script>
+  <script src="../assets/js/bootstrap.min.js"></script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="../assets/js/katex.min.js"></script>
+  <script>
+    // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('04. Benefits and Drawbacks of Different Tests')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+</body>
+
+</html>

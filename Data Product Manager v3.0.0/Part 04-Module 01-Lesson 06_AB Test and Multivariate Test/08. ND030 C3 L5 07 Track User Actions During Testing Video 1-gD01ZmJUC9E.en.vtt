@@ -1,0 +1,241 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:01.829
+When launching an experiment,
+
+00:00:01.829 --> 00:00:06.060
+it is important that tracking is in place so you can determine if the results of
+
+00:00:06.060 --> 00:00:08.490
+the experiment show that the test state is
+
+00:00:08.490 --> 00:00:11.925
+causing users to act differently than the control state.
+
+00:00:11.925 --> 00:00:14.190
+When considering how to instrument,
+
+00:00:14.190 --> 00:00:16.245
+to track user actions during testing,
+
+00:00:16.245 --> 00:00:19.320
+most of the same metrics covered in our earlier lessons on
+
+00:00:19.320 --> 00:00:22.785
+KPIs and usage analysis will apply.
+
+00:00:22.785 --> 00:00:25.680
+To start, it is always helpful to track
+
+00:00:25.680 --> 00:00:30.015
+user actions on an experiment page to know what they did when starting,
+
+00:00:30.015 --> 00:00:35.070
+during, and ending their interaction with the experiment page or feature.
+
+00:00:35.070 --> 00:00:37.740
+For example, if there are buttons that a user
+
+00:00:37.740 --> 00:00:40.335
+can click on a page that is part of an experiment,
+
+00:00:40.335 --> 00:00:42.980
+it would be important to track if and when a user
+
+00:00:42.980 --> 00:00:45.950
+click those buttons if that wasn't already being tracked.
+
+00:00:45.950 --> 00:00:50.060
+You will also want to know how much time a user spends on the experiment page,
+
+00:00:50.060 --> 00:00:54.610
+perhaps measured by tracking user entry to the page and the time of user exit.
+
+00:00:54.610 --> 00:00:56.465
+In addition to user actions,
+
+00:00:56.465 --> 00:00:58.880
+it is always helpful to collect information that
+
+00:00:58.880 --> 00:01:01.585
+might vary about a user from visit to visit.
+
+00:01:01.585 --> 00:01:04.820
+For example, a user's Id, gender,
+
+00:01:04.820 --> 00:01:08.645
+and any demographic information they provided probably won't change.
+
+00:01:08.645 --> 00:01:13.100
+But the device they are using or the app version they are on might change.
+
+00:01:13.100 --> 00:01:14.780
+After launching the experiment,
+
+00:01:14.780 --> 00:01:19.370
+you might want to consider differences in performance across session variables like this.
+
+00:01:19.370 --> 00:01:22.630
+So it is important the instrument to collect this information.
+
+00:01:22.630 --> 00:01:26.020
+Some instrumentation that needs to be in place for experiments is
+
+00:01:26.020 --> 00:01:30.410
+different than that normally considered in feature and funnel analysis.
+
+00:01:30.410 --> 00:01:34.525
+Product managers do not always run experiments on all users,
+
+00:01:34.525 --> 00:01:37.600
+but might focus on a particular type of user.
+
+00:01:37.600 --> 00:01:40.540
+For example, the user they've identified as under
+
+00:01:40.540 --> 00:01:43.240
+converting in the data.This means you need to
+
+00:01:43.240 --> 00:01:45.760
+instrument and collect information on the right type of
+
+00:01:45.760 --> 00:01:49.075
+users and ensure that they are part of the experiment.
+
+00:01:49.075 --> 00:01:54.380
+For example, product managers often want to run experiments on first-time users.
+
+00:01:54.380 --> 00:01:57.100
+If first-time users are signing up for an account,
+
+00:01:57.100 --> 00:02:01.660
+then product managers can assign users to a test state as they complete registration.
+
+00:02:01.660 --> 00:02:05.480
+That way, no existing customers will be part of the test.
+
+00:02:05.480 --> 00:02:10.820
+But what if users don't have to make accounts such as shoppers on an e-commerce site.
+
+00:02:10.820 --> 00:02:16.565
+Then product managers need to find some way to identify a person as a returning user.
+
+00:02:16.565 --> 00:02:20.630
+Using current technologies, this might mean dropping a cookie so that you
+
+00:02:20.630 --> 00:02:24.865
+can see if a user has a cookie that shows they've already visited your page.
+
+00:02:24.865 --> 00:02:30.275
+Finally, it is vitally important to track which test state a user is assigned.
+
+00:02:30.275 --> 00:02:33.260
+Of course, this is necessary to be able to
+
+00:02:33.260 --> 00:02:36.410
+analyze the difference in results between experiment groups.
+
+00:02:36.410 --> 00:02:40.790
+But it is also important so you can consistently show the same test state to
+
+00:02:40.790 --> 00:02:45.575
+the same user by tracking which test state a user was shown as part of the experiment,
+
+00:02:45.575 --> 00:02:50.800
+you can be sure to always show them only that test state and tell the experiment is over.
+
+00:02:50.800 --> 00:02:55.730
+The final and perhaps most important thing to track during an experiment is
+
+00:02:55.730 --> 00:03:01.115
+what percent of users in each experiment group successfully perform the desired action.
+
+00:03:01.115 --> 00:03:03.650
+This is called the conversion rate.
+
+00:03:03.650 --> 00:03:06.935
+A conversion rate measures the percent of users
+
+00:03:06.935 --> 00:03:10.330
+who take the action you want your experiment to promote.
+
+00:03:10.330 --> 00:03:13.580
+This might be a behavior you encourage users to take,
+
+00:03:13.580 --> 00:03:16.250
+such as opening your app or using a new feature.
+
+00:03:16.250 --> 00:03:19.340
+Ideally, you can track the experiment results and
+
+00:03:19.340 --> 00:03:22.865
+see that key performance indicators are being raised by the experiment,
+
+00:03:22.865 --> 00:03:27.320
+such as an increase in customer satisfaction rating by those who use the feature.
+
+00:03:27.320 --> 00:03:32.010
+The conversion you're targeting can also be something you want a user to stop doing.
+
+00:03:32.010 --> 00:03:36.505
+For example, you might want to measure the percent of users who cancel an order.
+
+00:03:36.505 --> 00:03:38.645
+Another common experiment conversion,
+
+00:03:38.645 --> 00:03:42.800
+is the percent of users who make a purchase or spend a certain amount of money.
+
+00:03:42.800 --> 00:03:46.910
+The key to choosing the correct conversion rate to measure is choosing one that
+
+00:03:46.910 --> 00:03:51.395
+relates to the important long-term impact you wish your experiment to drive.
+
+00:03:51.395 --> 00:03:55.675
+This may often be a product or feature key performance indicator.
+
+00:03:55.675 --> 00:03:58.925
+Let's look at the example of an online store.
+
+00:03:58.925 --> 00:04:03.650
+A product manager wants to carry out an AB experiment that compares the impact of
+
+00:04:03.650 --> 00:04:09.830
+the color of the newsletter readership button being blue to the impact of it being read.
+
+00:04:09.830 --> 00:04:14.170
+Now let's consider what conversion rate to track in this experiment.
+
+00:04:14.170 --> 00:04:18.890
+We know that the number of purchases is an important key performance indicator.
+
+00:04:18.890 --> 00:04:22.580
+Perhaps the product manager doing the experiment has seen that readers of
+
+00:04:22.580 --> 00:04:27.025
+the newsletter are more likely to come back to the site and make additional purchases.
+
+00:04:27.025 --> 00:04:30.725
+The percentage of users who read the newsletter using the blue button
+
+00:04:30.725 --> 00:04:34.340
+and the percentage of users who read the newsletter using the red button,
+
+00:04:34.340 --> 00:04:36.445
+can be a good conversion to look at.
+
+00:04:36.445 --> 00:04:39.530
+As a product manager with established KPIs,
+
+00:04:39.530 --> 00:04:43.280
+especially when following a data-driven iterative cycle of design,
+
+00:04:43.280 --> 00:04:45.470
+the target conversion rate you want to track for
+
+00:04:45.470 --> 00:04:50.250
+an experiment may often be a feature or product level KPI.
+

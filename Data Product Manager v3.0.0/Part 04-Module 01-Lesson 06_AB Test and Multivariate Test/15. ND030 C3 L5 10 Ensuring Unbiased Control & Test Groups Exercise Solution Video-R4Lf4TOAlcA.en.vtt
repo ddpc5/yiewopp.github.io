@@ -1,0 +1,151 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.465
+In this exercise, we're back with business A and B.
+
+00:00:03.465 --> 00:00:06.075
+Now, we need to advise them on how to create
+
+00:00:06.075 --> 00:00:09.150
+unbiased test and control groups for their experiment.
+
+00:00:09.150 --> 00:00:11.550
+A quick review of business A;
+
+00:00:11.550 --> 00:00:15.705
+business A wanted to make changes to a page used by existing customers.
+
+00:00:15.705 --> 00:00:20.205
+Specifically, business A wanted to change the design on the page
+
+00:00:20.205 --> 00:00:25.260
+to push more customers to use a feature that allowed them to link their social accounts.
+
+00:00:25.260 --> 00:00:29.775
+Because this page and feature has a limited small number of users,
+
+00:00:29.775 --> 00:00:32.640
+we recommended business A run an A/B test with
+
+00:00:32.640 --> 00:00:34.380
+one experiment group viewing
+
+00:00:34.380 --> 00:00:38.520
+the control and one experiment group viewing a change to the page.
+
+00:00:38.520 --> 00:00:42.365
+In order to create unbiased control and test groups,
+
+00:00:42.365 --> 00:00:45.320
+business A should only target desired users.
+
+00:00:45.320 --> 00:00:48.335
+In this case, the desired users are existing users,
+
+00:00:48.335 --> 00:00:53.005
+so they should ensure that they only show the test to logged in users,
+
+00:00:53.005 --> 00:00:56.270
+and they should balance the user types by randomly
+
+00:00:56.270 --> 00:00:59.320
+assigning users to either the test or control condition.
+
+00:00:59.320 --> 00:01:02.450
+With random assignment, it is likely that devices,
+
+00:01:02.450 --> 00:01:04.850
+operating systems and even user types,
+
+00:01:04.850 --> 00:01:07.130
+such as newer versus established users,
+
+00:01:07.130 --> 00:01:09.320
+frequent versus infrequent users,
+
+00:01:09.320 --> 00:01:12.125
+would be relatively similar across both groups.
+
+00:01:12.125 --> 00:01:16.010
+However, the business should confirm that these user characteristics are
+
+00:01:16.010 --> 00:01:20.425
+roughly similar across both groups to prevent unintentional bias.
+
+00:01:20.425 --> 00:01:22.620
+Now let's look at business B.
+
+00:01:22.620 --> 00:01:24.890
+Business B was a gallery that wanted to make
+
+00:01:24.890 --> 00:01:28.240
+changes to a landing page visited by new customers.
+
+00:01:28.240 --> 00:01:33.200
+Specifically, business B wanted to change the number of pictures on the page to
+
+00:01:33.200 --> 00:01:35.390
+see what density of pictures would encourage
+
+00:01:35.390 --> 00:01:38.470
+customers to click through to learn more about the gallery.
+
+00:01:38.470 --> 00:01:41.135
+Because this page had a high amount of traffic,
+
+00:01:41.135 --> 00:01:44.150
+we recommended that they run a multivariate test that
+
+00:01:44.150 --> 00:01:47.810
+tested a different number of pictures across and down the page.
+
+00:01:47.810 --> 00:01:52.885
+When considering what business B should do to ensure unbiased control in test groups,
+
+00:01:52.885 --> 00:01:55.620
+they should target only desired users.
+
+00:01:55.620 --> 00:01:58.160
+The desired users in the case of business B,
+
+00:01:58.160 --> 00:02:00.005
+was new visitors to the site,
+
+00:02:00.005 --> 00:02:02.120
+only new visitors, to the best of
+
+00:02:02.120 --> 00:02:06.580
+business B's knowledge should be put in the experiment's control and test groups.
+
+00:02:06.580 --> 00:02:09.005
+Next, to prevent bias,
+
+00:02:09.005 --> 00:02:12.985
+the business should randomly place new visitors into control and test groups.
+
+00:02:12.985 --> 00:02:15.190
+As they are performing a multivariate test,
+
+00:02:15.190 --> 00:02:18.710
+the business may want to use a framework for multivariate testing that
+
+00:02:18.710 --> 00:02:22.765
+assigns users at different rates based on the impacts seen from different designs.
+
+00:02:22.765 --> 00:02:26.150
+If the business does not have the resources to use such a framework,
+
+00:02:26.150 --> 00:02:29.540
+they can assign each new visitor to one of the test states by
+
+00:02:29.540 --> 00:02:33.275
+randomly assigning users to a control or one of the test groups.
+
+00:02:33.275 --> 00:02:36.590
+User characteristics should be roughly balanced and therefore,
+
+00:02:36.590 --> 00:02:39.210
+will not bias the results.
+

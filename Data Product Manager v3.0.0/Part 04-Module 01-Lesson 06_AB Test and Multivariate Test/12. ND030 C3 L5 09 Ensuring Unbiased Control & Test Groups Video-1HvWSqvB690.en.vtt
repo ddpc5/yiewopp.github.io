@@ -1,0 +1,94 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:01.680
+When it comes to experiments,
+
+00:00:01.680 --> 00:00:04.230
+you want both your control and your test or
+
+00:00:04.230 --> 00:00:07.170
+experiment group to share the same characteristics.
+
+00:00:07.170 --> 00:00:10.035
+That way, if something is different in the results,
+
+00:00:10.035 --> 00:00:12.930
+you know it is the change you made that caused it.
+
+00:00:12.930 --> 00:00:15.825
+When choosing who to expose to an experiment,
+
+00:00:15.825 --> 00:00:18.970
+you need to determine what type of user you are testing.
+
+00:00:18.970 --> 00:00:20.430
+Is it every user?
+
+00:00:20.430 --> 00:00:23.330
+In earlier examples we looked at businesses who only
+
+00:00:23.330 --> 00:00:26.060
+wanted to test the effects of changes on new users.
+
+00:00:26.060 --> 00:00:29.585
+So in sorting users into the control and experiment groups,
+
+00:00:29.585 --> 00:00:33.400
+that business would only want to put new users in either group.
+
+00:00:33.400 --> 00:00:36.125
+In addition to everyone being a target user,
+
+00:00:36.125 --> 00:00:38.330
+you'd want other user characteristics to be
+
+00:00:38.330 --> 00:00:41.060
+balanced between the control and experiment group.
+
+00:00:41.060 --> 00:00:43.430
+Age, race, income; we'd want
+
+00:00:43.430 --> 00:00:47.605
+relatively the same amount of users of each type in each group.
+
+00:00:47.605 --> 00:00:50.690
+A great way to get balance is by randomizing
+
+00:00:50.690 --> 00:00:53.480
+who is in the control and who is in the test group.
+
+00:00:53.480 --> 00:00:55.745
+Put one visitor into the control group,
+
+00:00:55.745 --> 00:00:57.860
+put the next visitor into the test,
+
+00:00:57.860 --> 00:01:01.310
+and after that, put the next visitor into the control group, and so on.
+
+00:01:01.310 --> 00:01:04.040
+Randomizing who is in what group generally
+
+00:01:04.040 --> 00:01:07.885
+results in a balance of user characteristics between the groups.
+
+00:01:07.885 --> 00:01:11.750
+If your company is performing extensive multivariate testing,
+
+00:01:11.750 --> 00:01:15.530
+the business may want to invest in a framework for multivariate testing that
+
+00:01:15.530 --> 00:01:19.720
+assigns users at different rates based on the impacts seen of different designs.
+
+00:01:19.720 --> 00:01:21.410
+Using an established framework,
+
+00:01:21.410 --> 00:01:24.350
+or creating one based on strong data science principles,
+
+00:01:24.350 --> 00:01:28.500
+can decrease the number of users required to perform the test.
+

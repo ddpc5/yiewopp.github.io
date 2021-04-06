@@ -1,0 +1,52 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.510
+In this lesson, we'll first learn about A/B and multivariate
+
+00:00:03.510 --> 00:00:08.175
+experiments before discussing the benefits and drawbacks of each type of test.
+
+00:00:08.175 --> 00:00:13.095
+We will also talk about how and when to use each type of experiment.
+
+00:00:13.095 --> 00:00:15.225
+In the second part of this lesson,
+
+00:00:15.225 --> 00:00:19.560
+we'll discuss how to instrument and track user actions during tests.
+
+00:00:19.560 --> 00:00:22.770
+This is important as we need to ensure the correct tracking
+
+00:00:22.770 --> 00:00:26.455
+is in place to be able to see whether our tests are a success.
+
+00:00:26.455 --> 00:00:29.900
+We'll also discuss how to place participants into test and
+
+00:00:29.900 --> 00:00:33.230
+control groups to ensure an unbiased sample,
+
+00:00:33.230 --> 00:00:36.475
+so that we know the results of an experiment can be trusted.
+
+00:00:36.475 --> 00:00:39.395
+Finally, in the last part of this lesson,
+
+00:00:39.395 --> 00:00:44.359
+we'll learn how to analyze test results to ensure findings are statistically significant.
+
+00:00:44.359 --> 00:00:46.400
+The findings from experiments can show
+
+00:00:46.400 --> 00:00:49.910
+product managers whether to expand the feature to more users,
+
+00:00:49.910 --> 00:00:52.400
+or whether to go back to the drawing board
+
+00:00:52.400 --> 00:00:56.040
+as part of an iterative cycle of product design.
+

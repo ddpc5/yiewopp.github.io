@@ -1,0 +1,241 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.370
+The results of an A/B test or
+
+00:00:02.370 --> 00:00:06.915
+similar experiment can be evaluated by something called a t-test.
+
+00:00:06.915 --> 00:00:11.370
+A t-test compares the means of two groups to see whether any difference
+
+00:00:11.370 --> 00:00:15.870
+in the means is large enough that it is probably not due to random chance.
+
+00:00:15.870 --> 00:00:18.795
+In the case of an A/B or multivariate tests,
+
+00:00:18.795 --> 00:00:22.680
+a t-test helps us understand whether any differences observed in
+
+00:00:22.680 --> 00:00:27.630
+conversion rate are likely due to the change we made to the test groups experience.
+
+00:00:27.630 --> 00:00:30.680
+To properly evaluate the results of a t-test,
+
+00:00:30.680 --> 00:00:33.835
+there are three steps that need to be taken before testing.
+
+00:00:33.835 --> 00:00:37.425
+Step 1, is stating the null hypothesis,
+
+00:00:37.425 --> 00:00:40.565
+the null hypothesis is not an affirmative statement,
+
+00:00:40.565 --> 00:00:45.355
+but rather represents the idea that the control state is not different from a test date.
+
+00:00:45.355 --> 00:00:47.660
+You run an experiment hoping to have
+
+00:00:47.660 --> 00:00:52.460
+large enough differences between control and test to prove that test date is different,
+
+00:00:52.460 --> 00:00:55.600
+this is called rejecting the null hypothesis.
+
+00:00:55.600 --> 00:00:58.820
+A generic null hypothesis would be that customers do
+
+00:00:58.820 --> 00:01:02.305
+not convert better with a test state compared to the control state.
+
+00:01:02.305 --> 00:01:06.365
+Step 2 is the hypothesis you want your experiment to show.
+
+00:01:06.365 --> 00:01:10.100
+For example, customers prefer our new landing page.
+
+00:01:10.100 --> 00:01:12.680
+A generic alternative hypothesis would be
+
+00:01:12.680 --> 00:01:15.785
+customers will convert differently with this change.
+
+00:01:15.785 --> 00:01:19.185
+Step 3 is a set a confidence threshold,
+
+00:01:19.185 --> 00:01:22.135
+every experiment has some chance of error.
+
+00:01:22.135 --> 00:01:24.890
+It is worth noting that product managers almost
+
+00:01:24.890 --> 00:01:27.935
+universally use a 95 percent confidence level.
+
+00:01:27.935 --> 00:01:32.765
+If the results of the tests at 95 percent confidence appear statistically valid,
+
+00:01:32.765 --> 00:01:36.100
+there's only a one in 20 chance that the result is an error.
+
+00:01:36.100 --> 00:01:38.930
+95 percent threshold is fairly strict,
+
+00:01:38.930 --> 00:01:41.810
+but not as strict as a 98 percent confidence level
+
+00:01:41.810 --> 00:01:45.425
+that is more common in medical studies with higher stakes.
+
+00:01:45.425 --> 00:01:48.680
+On one hand, a higher confidence level means you won't get
+
+00:01:48.680 --> 00:01:53.270
+as many false positives that declare your experiment likely had an effect when it didn't.
+
+00:01:53.270 --> 00:01:56.930
+On the other hand, a higher confidence level also means you might declare
+
+00:01:56.930 --> 00:02:00.775
+a tests to not have had an effect when it actually had a weak one.
+
+00:02:00.775 --> 00:02:05.150
+Setting a confidence interval before performing a test ensures you aren't tempted
+
+00:02:05.150 --> 00:02:10.015
+later to lower your confidence threshold to make your results statistically significant.
+
+00:02:10.015 --> 00:02:14.390
+Once the hypotheses and competence threshold for an experiment have been set,
+
+00:02:14.390 --> 00:02:18.040
+you can move on to Step 4, running the experiment.
+
+00:02:18.040 --> 00:02:21.500
+When the experiment has been run and data collected,
+
+00:02:21.500 --> 00:02:26.125
+Step 5 is to see whether any test groups perform better than the control.
+
+00:02:26.125 --> 00:02:28.565
+To calculate this, you will need to know
+
+00:02:28.565 --> 00:02:32.240
+the number of users in the control group and in each test group,
+
+00:02:32.240 --> 00:02:34.595
+the number of conversions in each group,
+
+00:02:34.595 --> 00:02:37.625
+and the competence threshold you want to use for the test.
+
+00:02:37.625 --> 00:02:39.830
+By entering this information into any of
+
+00:02:39.830 --> 00:02:43.145
+the free statistical significance calculators available online,
+
+00:02:43.145 --> 00:02:45.350
+you will be able to see if the test group
+
+00:02:45.350 --> 00:02:48.515
+performed significantly different than the control group.
+
+00:02:48.515 --> 00:02:51.890
+Other than the number of users and conversions in each group,
+
+00:02:51.890 --> 00:02:54.500
+some statistical significant calculators will
+
+00:02:54.500 --> 00:02:57.745
+ask you if a test is one tailed or two tailed.
+
+00:02:57.745 --> 00:03:00.230
+A two-tailed test means your test might make
+
+00:03:00.230 --> 00:03:04.415
+the conversion rate worse or better, higher or lower.
+
+00:03:04.415 --> 00:03:06.740
+For example, the red button from
+
+00:03:06.740 --> 00:03:09.995
+the previous example might increase newsletter readership,
+
+00:03:09.995 --> 00:03:13.595
+but it also might have a bad impact and decrease readership.
+
+00:03:13.595 --> 00:03:16.234
+Because the results might go in two directions,
+
+00:03:16.234 --> 00:03:17.875
+the test is two-sided,
+
+00:03:17.875 --> 00:03:21.260
+almost all product experiments will be two-tailed tests.
+
+00:03:21.260 --> 00:03:24.230
+Most online calculators will tell you if the results are
+
+00:03:24.230 --> 00:03:28.160
+significance by telling if the p-value is less than a threshold.
+
+00:03:28.160 --> 00:03:30.215
+Without going into too many details,
+
+00:03:30.215 --> 00:03:33.580
+if the competence threshold you choose is 95 percent,
+
+00:03:33.580 --> 00:03:35.400
+and it is a two-tailed test,
+
+00:03:35.400 --> 00:03:40.185
+the value of the t-test is compared against 0.025.
+
+00:03:40.185 --> 00:03:43.710
+When the p-value is less than 0.025,
+
+00:03:43.710 --> 00:03:47.090
+the difference in the control in the experiment conversion rates can be
+
+00:03:47.090 --> 00:03:50.764
+considered significant at 95 percent confidence.
+
+00:03:50.764 --> 00:03:54.400
+In other words, the null hypothesis can be rejected.
+
+00:03:54.400 --> 00:03:56.965
+The final step, Step 6,
+
+00:03:56.965 --> 00:03:59.974
+is to take action based on the results of your experiment,
+
+00:03:59.974 --> 00:04:01.910
+if your evaluation found the change to be
+
+00:04:01.910 --> 00:04:04.804
+helpful and the results are statistically significant,
+
+00:04:04.804 --> 00:04:08.485
+you can expand the test condition to more or all of your users.
+
+00:04:08.485 --> 00:04:12.545
+If the change didn't have the desired effect or the results aren't significant,
+
+00:04:12.545 --> 00:04:14.300
+you should keep experimenting.
+
+00:04:14.300 --> 00:04:16.235
+In fact, whatever the results,
+
+00:04:16.235 --> 00:04:19.025
+good product managers will always be running experiments
+
+00:04:19.025 --> 00:04:22.890
+and evaluating the results to improve their product.
+
