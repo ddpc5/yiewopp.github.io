@@ -1,0 +1,175 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:01.100 --> 00:00:06.720
+Line graphs are the most commonly used visualization for showing time series trends,
+
+00:00:06.720 --> 00:00:09.105
+or the measurement of something over time.
+
+00:00:09.105 --> 00:00:12.435
+The x-axis or the horizontal axis,
+
+00:00:12.435 --> 00:00:14.760
+is focused on a constant time interval,
+
+00:00:14.760 --> 00:00:17.100
+usually ascending from recency.
+
+00:00:17.100 --> 00:00:19.860
+In this case, it's the day of order.
+
+00:00:19.860 --> 00:00:25.215
+The y-axis or vertical axis plots the value of what is being measured.
+
+00:00:25.215 --> 00:00:28.440
+In this case, it's the number of total orders.
+
+00:00:28.440 --> 00:00:31.350
+When analyzing data via a line graphs,
+
+00:00:31.350 --> 00:00:35.850
+it's always good to split your analyses out by different dimensions if you're interested
+
+00:00:35.850 --> 00:00:37.770
+in measuring differences in behavior
+
+00:00:37.770 --> 00:00:40.515
+according to the different segments in your data set.
+
+00:00:40.515 --> 00:00:44.435
+For this example, we're visualizing total orders by month,
+
+00:00:44.435 --> 00:00:48.320
+but this time, split against the different vendors in your data set.
+
+00:00:48.320 --> 00:00:51.530
+This enables us to see that the total orders for
+
+00:00:51.530 --> 00:00:55.310
+vendor 2 is a little higher than vendor 1,
+
+00:00:55.310 --> 00:00:58.250
+but seems to be converging in the recent months.
+
+00:00:58.250 --> 00:01:02.165
+Pie charts are great for low cardinality analyses.
+
+00:01:02.165 --> 00:01:04.100
+As in against the dimension that
+
+00:01:04.100 --> 00:01:07.525
+compares only a small number of values against each other,
+
+00:01:07.525 --> 00:01:10.040
+this time vendor 1 versus vendor 2.
+
+00:01:10.040 --> 00:01:13.910
+Pie charts are not ideal for high cardinality analyses,
+
+00:01:13.910 --> 00:01:17.930
+or against dimensions that have a high number of values.
+
+00:01:17.930 --> 00:01:21.055
+In this case, each day of the month.
+
+00:01:21.055 --> 00:01:25.940
+Some examples of low cardinality analyses that are suited for pie charts
+
+00:01:25.940 --> 00:01:30.605
+are measuring the overall market share of a product between its competitors,
+
+00:01:30.605 --> 00:01:36.080
+or measuring the usage splits of a product between different regions like EMEA,
+
+00:01:36.080 --> 00:01:38.420
+APAC and Latin America.
+
+00:01:38.420 --> 00:01:41.225
+Doughnut charts function just like pie charts,
+
+00:01:41.225 --> 00:01:43.775
+except well, shaped like a doughnut.
+
+00:01:43.775 --> 00:01:46.910
+Say you're the product manager for a grocery delivery app,
+
+00:01:46.910 --> 00:01:49.970
+and you are looking to build a feature that automatically promotes
+
+00:01:49.970 --> 00:01:53.975
+churning items when they're discounted due to seasonality.
+
+00:01:53.975 --> 00:01:56.615
+To measure the viability of this feature,
+
+00:01:56.615 --> 00:02:01.400
+you will need to see if there's enough price fluctuation in the trending items.
+
+00:02:01.400 --> 00:02:04.945
+Let's focus on one item in particular, the avocado.
+
+00:02:04.945 --> 00:02:08.610
+We have a data set containing avocado sales.
+
+00:02:08.610 --> 00:02:14.100
+First, you'll need to take the average price measure and peg it as a row.
+
+00:02:14.330 --> 00:02:21.090
+We'll want to cast it to an average of averages instead of a sum of averages.
+
+00:02:22.600 --> 00:02:27.175
+This shows the average avocado price across all of time,
+
+00:02:27.175 --> 00:02:31.015
+but we all want to measure if the price changes over time.
+
+00:02:31.015 --> 00:02:33.585
+Take your date dimension,
+
+00:02:33.585 --> 00:02:36.370
+and peg it as a column.
+
+00:02:38.180 --> 00:02:43.805
+From here, you can change the granularity of the date interval from year,
+
+00:02:43.805 --> 00:02:45.440
+to quarter, to month,
+
+00:02:45.440 --> 00:02:48.125
+day or even any custom value.
+
+00:02:48.125 --> 00:02:49.855
+Let's keep it at month.
+
+00:02:49.855 --> 00:02:54.845
+You can break out the line graph into any other dimension like avocado type.
+
+00:02:54.845 --> 00:02:58.550
+Simply place the dimension as a mark and
+
+00:02:58.550 --> 00:03:02.970
+ensure that you have selected on a continuous line as the chart type.
+
+00:03:03.620 --> 00:03:07.280
+From here, you can see the time series split of
+
+00:03:07.280 --> 00:03:11.920
+the average price of organic versus conventional avocados.
+
+00:03:11.920 --> 00:03:16.310
+To better visualize the comparison of the relative percentage of
+
+00:03:16.310 --> 00:03:21.310
+organic versus conventional avocados in terms of total sales,
+
+00:03:21.310 --> 00:03:25.330
+replace average price with total volume,
+
+00:03:28.910 --> 00:03:35.820
+remove the date and visualize this as a pie chart.
+
+00:03:41.840 --> 00:03:48.840
+We can now see that conventional avocados makes up roughly 95 percent of total sales.
+

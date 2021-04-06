@@ -1,0 +1,142 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.990 --> 00:00:03.265
+As a product manager,
+
+00:00:03.265 --> 00:00:05.620
+your KPIs cannot be measured by you or
+
+00:00:05.620 --> 00:00:10.355
+your data science team without an events instrumentation plan and strategy.
+
+00:00:10.355 --> 00:00:14.545
+KPIs are measured through analyzing and calculating events.
+
+00:00:14.545 --> 00:00:19.770
+Events are data points that are produced whenever an action happens.
+
+00:00:19.770 --> 00:00:21.660
+Here are some examples.
+
+00:00:21.660 --> 00:00:27.280
+When you finish playing a song on Spotify an event is produced called songPlayed.
+
+00:00:27.280 --> 00:00:29.560
+That's just a guess, I don't work at Spotify so I
+
+00:00:29.560 --> 00:00:31.925
+don't know the actual name, but regardless.
+
+00:00:31.925 --> 00:00:34.290
+When you sign in to your account on Spotify,
+
+00:00:34.290 --> 00:00:36.990
+an event is produced called userSignedIn.
+
+00:00:36.990 --> 00:00:40.060
+When you click into a piece of content on Netflix
+
+00:00:40.060 --> 00:00:43.300
+from the homepage to go to the detail page,
+
+00:00:43.300 --> 00:00:46.670
+an event is produced called detailPageViewed.
+
+00:00:46.670 --> 00:00:51.370
+Events themselves have additional properties that tell you more metadata
+
+00:00:51.370 --> 00:00:55.915
+or information about the details of that event. Here is an example.
+
+00:00:55.915 --> 00:00:58.495
+When I finish playing a song on Spotify,
+
+00:00:58.495 --> 00:01:01.175
+a songPlayed event is produced.
+
+00:01:01.175 --> 00:01:06.705
+These following properties tell us more about what happened during the event.
+
+00:01:06.705 --> 00:01:11.315
+Events don't just come straight out of the box when your engineers develop the product,
+
+00:01:11.315 --> 00:01:14.845
+instrumentation is the act of ensuring that events are produced,
+
+00:01:14.845 --> 00:01:19.520
+saved, cleaned, and stored in a database for access.
+
+00:01:19.520 --> 00:01:25.005
+Data-driven product managers set instrumentation strategy so that data scientists,
+
+00:01:25.005 --> 00:01:27.410
+analysts, and the product manager herself or
+
+00:01:27.410 --> 00:01:31.540
+himself has the right data they need to make future decisions.
+
+00:01:31.540 --> 00:01:33.870
+To set up an instrumentation strategy,
+
+00:01:33.870 --> 00:01:35.715
+you'll need to work backwards.
+
+00:01:35.715 --> 00:01:39.800
+Start out with the KPIs you've defined and break down the user
+
+00:01:39.800 --> 00:01:45.235
+steps it takes to contribute to the KPI in a positive manner, end-to-end.
+
+00:01:45.235 --> 00:01:48.210
+Here is an example. Let's say,
+
+00:01:48.210 --> 00:01:52.010
+you're the PM for a restaurant review and food delivery app.
+
+00:01:52.010 --> 00:01:56.710
+One of your objectives this year is to increase delivery engagement and retention.
+
+00:01:56.710 --> 00:02:01.130
+One of your KPIs to support this objective is to increase
+
+00:02:01.130 --> 00:02:06.545
+the number of delivery bookings per week divided by the number of users registered.
+
+00:02:06.545 --> 00:02:10.820
+Given that there are multiple steps in the app that a user has to go through
+
+00:02:10.820 --> 00:02:14.900
+to order a delivery and that a user could drop off at any point,
+
+00:02:14.900 --> 00:02:19.835
+we'll need to know when the final users tend to drop off so that we could focus
+
+00:02:19.835 --> 00:02:22.430
+running experiments in the hopes of
+
+00:02:22.430 --> 00:02:25.760
+improving conversion rates on that specific final step.
+
+00:02:25.760 --> 00:02:28.610
+Let's walk through the individual steps that a user
+
+00:02:28.610 --> 00:02:31.610
+has to take in order to complete a delivery order.
+
+00:02:31.610 --> 00:02:34.970
+A user goes into the restaurant detail page,
+
+00:02:34.970 --> 00:02:37.330
+a user clicks on "Delivery",
+
+00:02:37.330 --> 00:02:40.790
+the user enters in their orders from the menu options,
+
+00:02:40.790 --> 00:02:44.645
+and user fills out their billing information, and hits "Submit".
+
+00:02:44.645 --> 00:02:48.330
+Finally, a user confirms their order.
+

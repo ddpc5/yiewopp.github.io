@@ -1,0 +1,40 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:01.100 --> 00:00:05.655
+In this lesson, we'll be focused on understanding the granularity,
+
+00:00:05.655 --> 00:00:08.730
+the distribution, and the modeling of data.
+
+00:00:08.730 --> 00:00:12.720
+Granularity is defined by what exactly is being measured
+
+00:00:12.720 --> 00:00:16.575
+in a dataset or basically what each row represents.
+
+00:00:16.575 --> 00:00:18.135
+A table could be measuring
+
+00:00:18.135 --> 00:00:22.740
+individual sales or a table could be measuring individual orders,
+
+00:00:22.740 --> 00:00:25.575
+which could constitute of multiple sales.
+
+00:00:25.575 --> 00:00:29.490
+Distribution is defined by how spread apart is the data,
+
+00:00:29.490 --> 00:00:31.680
+where's the center of the data in terms of
+
+00:00:31.680 --> 00:00:35.190
+both numerical value and number of data points.
+
+00:00:35.190 --> 00:00:39.030
+Modeling is defined by how data could be spread across
+
+00:00:39.030 --> 00:00:46.080
+multiple tables and how data can be aggregated or pre-counted for query efficiency.
+

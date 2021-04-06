@@ -1,0 +1,67 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:01.160 --> 00:00:05.925
+Aggregates consist of data already pre-counted together in a table.
+
+00:00:05.925 --> 00:00:09.225
+So you don't have to run a computation on the data yourself.
+
+00:00:09.225 --> 00:00:11.550
+For a large established company,
+
+00:00:11.550 --> 00:00:14.310
+querying a table that has each row represented by
+
+00:00:14.310 --> 00:00:18.450
+an individual sale would be monetarily expensive and time-consuming
+
+00:00:18.450 --> 00:00:22.460
+query to run repeatedly for dashboarding in the scenario where
+
+00:00:22.460 --> 00:00:26.920
+you'd want to plot out the trend of sales per month over the last 20 years.
+
+00:00:26.920 --> 00:00:31.430
+Instead, they would most likely store the table in an aggregate where
+
+00:00:31.430 --> 00:00:36.890
+the primary key would be the concatenation of product_id and sale_month.
+
+00:00:36.890 --> 00:00:39.740
+In each row we have one field
+
+00:00:39.740 --> 00:00:44.125
+representing the count of sales for that sale_month and product_id.
+
+00:00:44.125 --> 00:00:47.810
+The downside of aggregates is that you're not able to conduct
+
+00:00:47.810 --> 00:00:52.745
+analysis that we would require more granular data than what is already aggregated.
+
+00:00:52.745 --> 00:00:58.255
+In this table we would not be able to analyze data on an individual sales level.
+
+00:00:58.255 --> 00:01:03.020
+Data in a data warehouse is usually stored in a fact dimensional model.
+
+00:01:03.020 --> 00:01:07.940
+The fact table contains the data that is being measured or counted.
+
+00:01:07.940 --> 00:01:11.240
+Dimensional tables join with the fact table on
+
+00:01:11.240 --> 00:01:16.505
+a common key and contains metadata about different slices in that fact table.
+
+00:01:16.505 --> 00:01:21.590
+In this example, you start your analyses on the sales table and find out
+
+00:01:21.590 --> 00:01:24.680
+more information about the associated products in orders of
+
+00:01:24.680 --> 00:01:28.860
+the sale based on the representative dimensional tables
+

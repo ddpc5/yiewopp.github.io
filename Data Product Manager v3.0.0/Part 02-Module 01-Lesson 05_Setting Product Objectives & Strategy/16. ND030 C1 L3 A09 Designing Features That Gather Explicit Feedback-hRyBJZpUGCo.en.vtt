@@ -1,0 +1,76 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:01.130 --> 00:00:06.915
+Implicit feedback or events collected through instrumentation is imperative,
+
+00:00:06.915 --> 00:00:09.165
+but again, does not tell the whole story.
+
+00:00:09.165 --> 00:00:12.420
+Users maybe doing something constantly on your product,
+
+00:00:12.420 --> 00:00:14.790
+but they may not actually be liking it.
+
+00:00:14.790 --> 00:00:18.780
+For example, if you were the Nanodegree Product Manager at Udacity,
+
+00:00:18.780 --> 00:00:21.870
+you could assume a user liked your product if they went through
+
+00:00:21.870 --> 00:00:25.380
+the entire AI Product Manager Nanodegree course.
+
+00:00:25.380 --> 00:00:29.535
+However, you don't know exactly what about the course they liked
+
+00:00:29.535 --> 00:00:34.230
+or what made them stick around without gathering explicit feedback from them.
+
+00:00:34.230 --> 00:00:38.600
+You could literally just ask them what they liked about the course, what you should do.
+
+00:00:38.600 --> 00:00:41.920
+But it's not really a scalable from a volume perspective.
+
+00:00:41.920 --> 00:00:47.510
+You could employ in product experiences such as surveys, ratings,
+
+00:00:47.510 --> 00:00:49.535
+thumbs up and down prompts,
+
+00:00:49.535 --> 00:00:54.545
+open-ended feedback models, tips, or referral programs.
+
+00:00:54.545 --> 00:00:56.165
+The options are limitless,
+
+00:00:56.165 --> 00:01:01.340
+but only as long as they're direct inorganic to the native because of experience.
+
+00:01:01.340 --> 00:01:03.710
+Here are some real life examples for users to
+
+00:01:03.710 --> 00:01:07.125
+provide product feedback without being too obstructive.
+
+00:01:07.125 --> 00:01:10.550
+In Zendesk, end users have the ability to provide
+
+00:01:10.550 --> 00:01:14.470
+a rating for a thumbs down or thumbs up in chat.
+
+00:01:14.470 --> 00:01:19.805
+In Uber, general driver and ride quality could be assessed through rider stars,
+
+00:01:19.805 --> 00:01:23.695
+tips, and a multiple choice questionnaire at the end of the ride.
+
+00:01:23.695 --> 00:01:27.845
+In Google BigQuery, a SQL engine in UI to analyze data,
+
+00:01:27.845 --> 00:01:32.550
+there's an open-ended feedback form for their beta products.
+

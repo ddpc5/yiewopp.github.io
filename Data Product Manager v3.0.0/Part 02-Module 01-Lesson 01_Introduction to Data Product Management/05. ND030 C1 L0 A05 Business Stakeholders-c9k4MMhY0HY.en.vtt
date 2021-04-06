@@ -1,0 +1,139 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.710 --> 00:00:03.780
+Let's take a look at the key stakeholders you'll be
+
+00:00:03.780 --> 00:00:06.240
+working with as a data product manager.
+
+00:00:06.240 --> 00:00:08.460
+You'll be working extremely close with
+
+00:00:08.460 --> 00:00:11.690
+data science to help you understand the nuances in the data,
+
+00:00:11.690 --> 00:00:14.985
+in addition to running any deep statistical analyses.
+
+00:00:14.985 --> 00:00:17.385
+Product marketing is another stakeholder.
+
+00:00:17.385 --> 00:00:20.745
+Product managers work with them to help determine pricing,
+
+00:00:20.745 --> 00:00:22.950
+strategize on market positioning,
+
+00:00:22.950 --> 00:00:27.165
+assess market viability, estimate the total addressable market,
+
+00:00:27.165 --> 00:00:29.040
+creating a role as strategy,
+
+00:00:29.040 --> 00:00:31.604
+and producing communications collateral.
+
+00:00:31.604 --> 00:00:34.275
+You'll be working closely with user research,
+
+00:00:34.275 --> 00:00:37.725
+to recruit and interview users from different segments,
+
+00:00:37.725 --> 00:00:39.715
+before and after a launch.
+
+00:00:39.715 --> 00:00:42.140
+Data engineering is a close partner,
+
+00:00:42.140 --> 00:00:44.405
+where they are usually the team that collects,
+
+00:00:44.405 --> 00:00:47.960
+transforms and stores batch and/or streaming
+
+00:00:47.960 --> 00:00:52.354
+data into the desired output and location for a future analyses.
+
+00:00:52.354 --> 00:00:55.370
+Client engineering like web, Android,
+
+00:00:55.370 --> 00:01:00.230
+or iOS, built intuitive interfaces for end-user consumption.
+
+00:01:00.230 --> 00:01:03.400
+Always be sure to loop in legal, privacy,
+
+00:01:03.400 --> 00:01:08.150
+and compliance teams to determine data processing regulation requirements.
+
+00:01:08.150 --> 00:01:10.880
+Indoor ensure that the data products that you're
+
+00:01:10.880 --> 00:01:14.470
+building are compliant with consumer protection laws.
+
+00:01:14.470 --> 00:01:16.830
+Finance and business operations are
+
+00:01:16.830 --> 00:01:21.185
+two closely ally teams that will help you measure unit economics,
+
+00:01:21.185 --> 00:01:25.090
+business growth, and financial health metrics like revenue,
+
+00:01:25.090 --> 00:01:27.880
+churn, retention, gross margins,
+
+00:01:27.880 --> 00:01:30.455
+and new user acquisition rates.
+
+00:01:30.455 --> 00:01:33.560
+You'll need to work with sales and customer success,
+
+00:01:33.560 --> 00:01:35.630
+especially if you have a B2B product,
+
+00:01:35.630 --> 00:01:39.725
+to evangelize the limitations and capabilities of the current product.
+
+00:01:39.725 --> 00:01:43.820
+In addition to providing them with insights on the future roadmap,
+
+00:01:43.820 --> 00:01:48.410
+they'll also provide you feedback on the reasons or lack of features on why
+
+00:01:48.410 --> 00:01:54.050
+potential customers may not end up signing deals or going to other competitors.
+
+00:01:54.050 --> 00:01:56.300
+If you have a global product,
+
+00:01:56.300 --> 00:01:58.520
+it will most likely need to be localized,
+
+00:01:58.520 --> 00:02:01.240
+or have text dynamically translated into
+
+00:02:01.240 --> 00:02:05.885
+the various languages you support for international adoption and accessibility.
+
+00:02:05.885 --> 00:02:08.600
+Quality assurance engineering's goal is to break
+
+00:02:08.600 --> 00:02:13.435
+your product or expose bugs in your product before your external users do.
+
+00:02:13.435 --> 00:02:17.875
+They may end up finding a lot more issues than your team can physically work on.
+
+00:02:17.875 --> 00:02:20.150
+You will need to leverage analytics to make
+
+00:02:20.150 --> 00:02:22.880
+a determination on which issues to tackle first,
+
+00:02:22.880 --> 00:02:25.820
+based on existing feature usage.
+

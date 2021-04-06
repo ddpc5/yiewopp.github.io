@@ -1,0 +1,94 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.860 --> 00:00:03.540
+To review the exercise prompt,
+
+00:00:03.540 --> 00:00:07.395
+you're the PM for an e-commerce eco-sustainable shoe store,
+
+00:00:07.395 --> 00:00:10.230
+and we just finished A/B test experiment,
+
+00:00:10.230 --> 00:00:13.020
+where 50 percent of your users didn't
+
+00:00:13.020 --> 00:00:15.825
+receive free shipping or the as-is experienced today,
+
+00:00:15.825 --> 00:00:18.900
+and 50 percent of them did receive free shipping.
+
+00:00:18.900 --> 00:00:24.165
+Now your goal as PM was to determine and present whether or not we should
+
+00:00:24.165 --> 00:00:29.850
+offer free shipping to all customers based on the experiment data that you received.
+
+00:00:29.850 --> 00:00:34.305
+Let's start out by first measuring if free shipping increases total revenue.
+
+00:00:34.305 --> 00:00:39.075
+We plot out the control and variable in a bar chart tagged against revenue,
+
+00:00:39.075 --> 00:00:41.000
+and we see that variable wins out,
+
+00:00:41.000 --> 00:00:42.965
+meaning that free shipping, yes,
+
+00:00:42.965 --> 00:00:45.685
+overall does increase total revenue.
+
+00:00:45.685 --> 00:00:48.345
+What is the average spend per customer?
+
+00:00:48.345 --> 00:00:51.140
+Again, we could see that the variable group,
+
+00:00:51.140 --> 00:00:54.710
+the group that received free shipping tended to spend more.
+
+00:00:54.710 --> 00:00:56.240
+All things are looking good.
+
+00:00:56.240 --> 00:01:00.425
+But what percentage of visitors actually purchased something on the site?
+
+00:01:00.425 --> 00:01:04.010
+As we can see here, the difference is marginal.
+
+00:01:04.010 --> 00:01:05.855
+We have a lot of traffic on the site,
+
+00:01:05.855 --> 00:01:12.410
+but relatively few visitors actually purchase both of the control and variable buckets.
+
+00:01:12.410 --> 00:01:14.090
+So at the end of the day,
+
+00:01:14.090 --> 00:01:16.905
+does free shipping actually increasing income?
+
+00:01:16.905 --> 00:01:23.195
+If we tally up revenue and minus that by COGS or cost of goods sold,
+
+00:01:23.195 --> 00:01:29.465
+we actually notice that a control or no free shipping is more profitable in the long run.
+
+00:01:29.465 --> 00:01:31.715
+However, as an aside,
+
+00:01:31.715 --> 00:01:35.255
+we noticed that free shipping does increase net income
+
+00:01:35.255 --> 00:01:38.915
+for very particular products, these ones included.
+
+00:01:38.915 --> 00:01:42.140
+So this warrants a further investigation or
+
+00:01:42.140 --> 00:01:48.330
+further experimentation of only offering free shipping for these particular products.
+

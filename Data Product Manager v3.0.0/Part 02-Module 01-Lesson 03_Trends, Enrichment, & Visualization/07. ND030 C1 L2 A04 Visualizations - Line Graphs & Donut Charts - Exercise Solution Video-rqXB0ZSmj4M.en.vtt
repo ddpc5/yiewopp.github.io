@@ -1,0 +1,37 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:02.510 --> 00:00:08.445
+Take your room's book measure and take it as a row in Tableau.
+
+00:00:08.445 --> 00:00:14.380
+Now take the arrival date month dimension and take it as a column.
+
+00:00:14.630 --> 00:00:20.250
+This helps us visualize rooms booked by time, by arrival month.
+
+00:00:20.250 --> 00:00:23.820
+We can conclude here that the highest volume of bookings are
+
+00:00:23.820 --> 00:00:27.615
+for stays in the spring in mid summer seasons.
+
+00:00:27.615 --> 00:00:33.360
+To measure the split of total bookings between the type of hotel on a donut chart,
+
+00:00:33.360 --> 00:00:35.700
+keep rooms booked as your measure,
+
+00:00:35.700 --> 00:00:42.030
+but remove arrival date and replace it with hotel as a dimension in a column.
+
+00:00:42.030 --> 00:00:47.900
+Cast the visualization as a donut to measure relative percentages. There you go.
+
+00:00:47.900 --> 00:00:51.380
+The dominating type of hotel where 75 percent of
+
+00:00:51.380 --> 00:00:56.700
+bookings go for your company or city hotels instead of resort hotels.
+

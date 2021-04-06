@@ -1,0 +1,46 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:02.230 --> 00:00:06.870
+After a quick Google search of state to region mapping,
+
+00:00:06.870 --> 00:00:11.025
+you stumble upon this dataset in Kaggle that contains exactly what you need,
+
+00:00:11.025 --> 00:00:12.570
+state to region mapping.
+
+00:00:12.570 --> 00:00:15.359
+So you download it, upload it to Tableau,
+
+00:00:15.359 --> 00:00:19.860
+and join it against the NFL survey data that you have ensuring that
+
+00:00:19.860 --> 00:00:26.740
+the NFL State column is linked to these new datasets State code column.
+
+00:00:28.730 --> 00:00:32.040
+You peg the sum of fans that responded with
+
+00:00:32.040 --> 00:00:35.820
+the political affiliation of independence as a row.
+
+00:00:35.820 --> 00:00:40.510
+Then peg the team dimension as a column.
+
+00:00:41.240 --> 00:00:46.365
+Finally, with the new dataset that you used to enrich this dataset with,
+
+00:00:46.365 --> 00:00:49.160
+you can now filter by region to limit
+
+00:00:49.160 --> 00:00:52.960
+this analysis to only those states in the Northeast.
+
+00:00:52.960 --> 00:00:56.990
+From this analysis, we've gleaned that we only want to focus
+
+00:00:56.990 --> 00:01:01.890
+our campaigns for now for the New England Patriots and Pittsburgh Steelers.
+

@@ -1,0 +1,79 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:01.520 --> 00:00:04.960
+These are research or we call it, say, the feedback,
+
+00:00:04.960 --> 00:00:08.240
+is imperative, but it only tells half the story.
+
+00:00:08.240 --> 00:00:11.650
+You're constricted by the sample size of how many users you can
+
+00:00:11.650 --> 00:00:15.020
+physically interview or gather qualitative feedback from.
+
+00:00:15.020 --> 00:00:19.780
+A user may describe their pain with existing product but you need to leverage
+
+00:00:19.780 --> 00:00:25.685
+data to understand how prevalent that pain actually is throughout the user base at large.
+
+00:00:25.685 --> 00:00:28.930
+Depending on the size and nature of the company,
+
+00:00:28.930 --> 00:00:34.130
+product managers may have access to data scientists to help them out with their analyses.
+
+00:00:34.130 --> 00:00:38.110
+If you don't, you have to do that analyses yourself.
+
+00:00:38.110 --> 00:00:42.510
+If you do, data science resources are oftentimes limited,
+
+00:00:42.510 --> 00:00:47.275
+and you have to be strategic on what you want data scientists to focus on.
+
+00:00:47.275 --> 00:00:52.640
+You should take a self service approach to product analytics so that your data scientists
+
+00:00:52.640 --> 00:00:58.370
+have more focus on deep statistical analyses in machine learning algorithm development.
+
+00:00:58.370 --> 00:01:03.565
+Here's an example scenario of what you will miss if you do not analyze the data.
+
+00:01:03.565 --> 00:01:08.480
+Say, you are PM for a personal finance app where users can aggregate
+
+00:01:08.480 --> 00:01:10.670
+their ongoing expenses and income
+
+00:01:10.670 --> 00:01:14.060
+into an intuitive dashboard for monitoring their budget.
+
+00:01:14.060 --> 00:01:18.395
+Users sometimes tend to not be too vocal about their inefficiencies,
+
+00:01:18.395 --> 00:01:21.335
+rather just accepting them for what they are.
+
+00:01:21.335 --> 00:01:25.370
+Let's say you notice your users manually inputting in data rather
+
+00:01:25.370 --> 00:01:29.470
+than hooking up an integration with one of your existing banking partners.
+
+00:01:29.470 --> 00:01:32.540
+You parse through the strings of what the titles are for
+
+00:01:32.540 --> 00:01:36.635
+these data inputs and you notice that the top value is Robin Hood.
+
+00:01:36.635 --> 00:01:40.490
+Upon further investigation, you realize that Robin Hood is not
+
+00:01:40.490 --> 00:01:45.690
+a current integration partner and you'll prioritize this to the top of your road map.
+

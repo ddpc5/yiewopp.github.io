@@ -1,0 +1,43 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:01.310 --> 00:00:05.510
+In Tableau, your measure is the average of review score,
+
+00:00:05.510 --> 00:00:10.905
+and you use region as a dimension to compare and contrast distributions.
+
+00:00:10.905 --> 00:00:17.860
+Visualize your review measure as a row and ensure that you're selected on a text table.
+
+00:00:18.500 --> 00:00:22.720
+Cast your measure to a standard deviation.
+
+00:00:23.270 --> 00:00:27.900
+Here's the standard deviation across all products in all countries.
+
+00:00:27.900 --> 00:00:31.170
+But we would want to filter by product ID of
+
+00:00:31.170 --> 00:00:36.340
+three to ensure our analysis is limited to smartwatches only.
+
+00:00:37.760 --> 00:00:40.800
+Finally, take the country dimension as
+
+00:00:40.800 --> 00:00:45.445
+a column to split out standard deviation by country.
+
+00:00:45.445 --> 00:00:47.900
+You can see that Canada, Japan,
+
+00:00:47.900 --> 00:00:50.915
+and Brazil have the highest standard deviation,
+
+00:00:50.915 --> 00:00:55.460
+indicating that they have the widest spread of positive and negative reviews,
+
+00:00:55.460 --> 00:00:58.560
+warranting additional deep dive.
+

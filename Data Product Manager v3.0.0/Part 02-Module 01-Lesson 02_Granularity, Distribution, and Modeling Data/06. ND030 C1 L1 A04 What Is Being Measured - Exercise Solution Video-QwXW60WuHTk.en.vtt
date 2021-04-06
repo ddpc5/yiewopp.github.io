@@ -1,0 +1,40 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:02.510 --> 00:00:06.450
+Running a simple count of the total number of rows on the table,
+
+00:00:06.450 --> 00:00:10.800
+we see that it contains 506 active subscriptions.
+
+00:00:10.800 --> 00:00:15.180
+We want to see if each subscriber is tied to exactly one subscription.
+
+00:00:15.180 --> 00:00:19.955
+Hence, we run another query counting the number of distinct subscribers,
+
+00:00:19.955 --> 00:00:24.215
+only to find out that there are some subscribers that are double counted in the table,
+
+00:00:24.215 --> 00:00:26.960
+leading to our suspicion that there are cases where
+
+00:00:26.960 --> 00:00:31.940
+some subscribers are subscribed to more than one type of subscription at the same time.
+
+00:00:31.940 --> 00:00:36.725
+So here we confirm our primary key is not subscriber ID.
+
+00:00:36.725 --> 00:00:41.464
+We run another query that counts the distinct number of subscriber IDs
+
+00:00:41.464 --> 00:00:46.285
+concatenated with subscription ID to confirm that our suspicions are correct.
+
+00:00:46.285 --> 00:00:49.910
+The primary key for this table is not subscriber itself,
+
+00:00:49.910 --> 00:00:54.780
+but rather both subscriber ID and subscription ID.
+

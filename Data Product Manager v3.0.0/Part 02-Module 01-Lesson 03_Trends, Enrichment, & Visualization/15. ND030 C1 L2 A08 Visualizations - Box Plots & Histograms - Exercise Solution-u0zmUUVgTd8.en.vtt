@@ -1,0 +1,40 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:01.160 --> 00:00:06.610
+Take your review measure as a row and cast it as an average.
+
+00:00:10.130 --> 00:00:15.340
+Filter on your data set by Product ID of three.
+
+00:00:19.070 --> 00:00:24.190
+Finally, take the country dimension as a column.
+
+00:00:25.670 --> 00:00:29.550
+To clean from this data set that the five countries with
+
+00:00:29.550 --> 00:00:33.090
+the highest average review ratings are China,
+
+00:00:33.090 --> 00:00:37.275
+Mexico, Russia, Brazil, and Estonia.
+
+00:00:37.275 --> 00:00:42.490
+To simplify the five point review scale into only three categories,
+
+00:00:42.490 --> 00:00:49.709
+remove country and take the review measure as a row and casts it to a counter values,
+
+00:00:52.870 --> 00:00:57.340
+inside histogram as the chart type.
+
+00:00:57.790 --> 00:01:07.530
+Change the bin size to 2.1.
+
+00:01:07.530 --> 00:01:09.750
+So that range is 1-2,
+
+00:01:09.750 --> 00:01:15.930
+3-4, and five are passed out into their separate bins.
+

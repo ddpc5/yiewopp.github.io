@@ -1,0 +1,154 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:03.470 --> 00:00:07.215
+After speaking with professionals from different industries,
+
+00:00:07.215 --> 00:00:11.610
+we found that many were excited around the idea of sharing their knowledge with others,
+
+00:00:11.610 --> 00:00:14.550
+and definitely do have the expertise to do so but
+
+00:00:14.550 --> 00:00:17.610
+feel a little intimidated by the process as they're not
+
+00:00:17.610 --> 00:00:21.750
+instructors by trade and don't really have the time and resources to get in
+
+00:00:21.750 --> 00:00:24.240
+an environment setup where courses could be produced
+
+00:00:24.240 --> 00:00:27.645
+efficiently and distributed out to students.
+
+00:00:27.645 --> 00:00:31.425
+Our target users are professionals that want to teach students,
+
+00:00:31.425 --> 00:00:33.780
+but have not taught in an academic setting
+
+00:00:33.780 --> 00:00:37.720
+and/or are unfamiliar with digital content production.
+
+00:00:37.720 --> 00:00:40.490
+This would be impacting two sets of users in
+
+00:00:40.490 --> 00:00:44.090
+our two-sided marketplace, professionals and students.
+
+00:00:44.090 --> 00:00:48.515
+Professionals could leverage this as a means of extra income or more importantly,
+
+00:00:48.515 --> 00:00:50.465
+giving back their talents to the world.
+
+00:00:50.465 --> 00:00:55.070
+Students would now have a higher volume of content to learn from on the platform at
+
+00:00:55.070 --> 00:01:00.260
+the same quality without being bound to geographical or financial limits.
+
+00:01:00.260 --> 00:01:05.330
+Having more employees of employers train students on a platform would
+
+00:01:05.330 --> 00:01:10.445
+put more trust in that particular employer to hire students graduating from Utopia.
+
+00:01:10.445 --> 00:01:13.295
+This would not replace traditional academia,
+
+00:01:13.295 --> 00:01:18.800
+but instead compliment it with real-world instruction from professionals in the industry.
+
+00:01:18.800 --> 00:01:21.950
+This would accelerate our recurring course revenue
+
+00:01:21.950 --> 00:01:25.295
+with more courses in the door for students to choose from.
+
+00:01:25.295 --> 00:01:30.545
+What we propose is to build a learning management system for instructors to input,
+
+00:01:30.545 --> 00:01:35.305
+publish, and manage their written and video content on their own.
+
+00:01:35.305 --> 00:01:40.205
+Instructors may be limited in acquiring audio and video recording hardware.
+
+00:01:40.205 --> 00:01:42.020
+But no matter how good the editing,
+
+00:01:42.020 --> 00:01:44.180
+templating, and counter material is,
+
+00:01:44.180 --> 00:01:46.720
+if the audio and video content are not up to snuff,
+
+00:01:46.720 --> 00:01:50.045
+the rest of the course will be perceived as unprofessional.
+
+00:01:50.045 --> 00:01:51.515
+To account for this,
+
+00:01:51.515 --> 00:01:56.030
+we could explore setting up a service where instructors could select what equipment they
+
+00:01:56.030 --> 00:02:01.435
+need and have an automated miller ship it out to them with instructions for setup.
+
+00:02:01.435 --> 00:02:04.625
+Coding environments like Python, Java,
+
+00:02:04.625 --> 00:02:08.990
+or SQL workspaces may be required for programming instruction.
+
+00:02:08.990 --> 00:02:11.584
+However, given that this is an MBP,
+
+00:02:11.584 --> 00:02:16.880
+it may be unfeasible from an engineering resourcing perspective to build it at this time.
+
+00:02:16.880 --> 00:02:21.230
+Hence, we could guide instructors to guide students to set criteria of
+
+00:02:21.230 --> 00:02:26.559
+success to measure the results of their programming exercises and projects.
+
+00:02:26.559 --> 00:02:31.430
+Given that, our first handful of iterations may not fully capture everything
+
+00:02:31.430 --> 00:02:35.955
+that is needed for instructors to self-serve content development on a course,
+
+00:02:35.955 --> 00:02:38.435
+only to run experiments with a batch of
+
+00:02:38.435 --> 00:02:41.390
+early adopter instructors who are willing to try out
+
+00:02:41.390 --> 00:02:44.330
+a better product with a little bit more shakiness so
+
+00:02:44.330 --> 00:02:48.070
+that we get feedback on what's intuitive and what's not.
+
+00:02:48.070 --> 00:02:51.350
+Initially, course development on the product will be a
+
+00:02:51.350 --> 00:02:54.694
+little bit more rigid with very defined templates.
+
+00:02:54.694 --> 00:02:57.785
+This will allow us to expand templating based on
+
+00:02:57.785 --> 00:03:01.520
+continual instructor demand rather than working inversely,
+
+00:03:01.520 --> 00:03:06.410
+which is giving free reign for instructors to create content in any format they want,
+
+00:03:06.410 --> 00:03:10.410
+ultimately creating a less standardized content offering.
+

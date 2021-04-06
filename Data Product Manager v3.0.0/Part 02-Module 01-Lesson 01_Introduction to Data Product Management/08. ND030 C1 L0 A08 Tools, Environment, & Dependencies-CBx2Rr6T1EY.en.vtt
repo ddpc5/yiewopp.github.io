@@ -1,0 +1,43 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:01.830 --> 00:00:06.940
+You will need access to Tableau Public to analyze and visualize data.
+
+00:00:06.940 --> 00:00:09.830
+We've placed a link for you below to download.
+
+00:00:09.830 --> 00:00:13.330
+You'll also need basic knowledge of structured query language,
+
+00:00:13.330 --> 00:00:15.520
+or more commonly known as SQL.
+
+00:00:15.520 --> 00:00:18.340
+You can learn everything you need to know and more through
+
+00:00:18.340 --> 00:00:22.025
+Udacity SQL for data analysis course, also a link below.
+
+00:00:22.025 --> 00:00:26.710
+Throughout this course, you'll have direct access to Udacity's SQL workspace,
+
+00:00:26.710 --> 00:00:29.855
+which uses PostgreSQL under the hood.
+
+00:00:29.855 --> 00:00:33.630
+PostgreSQL is nearly identical to the SQLite,
+
+00:00:33.630 --> 00:00:37.854
+Redshift, Presto, Hive, or MySQL syntax.
+
+00:00:37.854 --> 00:00:39.730
+But you may need a reference to it's
+
+00:00:39.730 --> 00:00:43.060
+documentation if you want to do some really fancy analysis.
+
+00:00:43.060 --> 00:00:45.320
+Again, link below.
+

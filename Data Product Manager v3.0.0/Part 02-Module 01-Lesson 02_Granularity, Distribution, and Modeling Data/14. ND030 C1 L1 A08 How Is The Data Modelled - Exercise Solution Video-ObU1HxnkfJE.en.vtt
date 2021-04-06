@@ -1,0 +1,70 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.530 --> 00:00:04.500
+After looking at the sales_f table,
+
+00:00:04.500 --> 00:00:06.660
+you notice that it's a fact table,
+
+00:00:06.660 --> 00:00:09.495
+with each row representing one cell.
+
+00:00:09.495 --> 00:00:14.715
+There is a field representing a two-digit country code in there called country_id.
+
+00:00:14.715 --> 00:00:17.430
+However, there are over 51 countries that are in
+
+00:00:17.430 --> 00:00:20.465
+the continent of Asia at this time in publication.
+
+00:00:20.465 --> 00:00:25.140
+You don't want to manually attribute each country to their region.
+
+00:00:25.140 --> 00:00:29.610
+There is also a product_id field which contains many different values.
+
+00:00:29.610 --> 00:00:32.370
+So you don't really know if this table only contains
+
+00:00:32.370 --> 00:00:35.565
+smartphones or sales of other products as well.
+
+00:00:35.565 --> 00:00:38.760
+You also noticed that there is no year of sale filled,
+
+00:00:38.760 --> 00:00:43.400
+but rather a timestamp denoting the date and time of sale.
+
+00:00:43.400 --> 00:00:47.285
+You query for name and ID in the products_d table,
+
+00:00:47.285 --> 00:00:52.470
+and you notice that the name for their smartphones are smartphone one and smartphone two.
+
+00:00:52.470 --> 00:00:56.050
+This company should really come up with better names for their products.
+
+00:00:56.050 --> 00:01:01.340
+You query the country_d table and find each country mapped to the region that they're in,
+
+00:01:01.340 --> 00:01:03.230
+whether it be Asia, Europe,
+
+00:01:03.230 --> 00:01:05.320
+Africa, or the Americas.
+
+00:01:05.320 --> 00:01:08.445
+Looking through PostgreSQL's reference documentation,
+
+00:01:08.445 --> 00:01:10.880
+you find that the way to extract year from
+
+00:01:10.880 --> 00:01:14.570
+a timestamp would be to use the date_part function,
+
+00:01:14.570 --> 00:01:18.480
+you could find a SQL query solution posted below.
+

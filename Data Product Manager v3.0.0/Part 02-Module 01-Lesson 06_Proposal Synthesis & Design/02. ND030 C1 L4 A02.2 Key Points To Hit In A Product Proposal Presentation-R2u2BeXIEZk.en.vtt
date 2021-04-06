@@ -1,0 +1,199 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:01.530 --> 00:00:04.525
+In user research interviews that you had,
+
+00:00:04.525 --> 00:00:07.630
+you heard that customer experience managers have frequently
+
+00:00:07.630 --> 00:00:12.105
+lamented on the high onboarding costs it takes to train up new agents.
+
+00:00:12.105 --> 00:00:15.625
+A common product management technique is always asking why,
+
+00:00:15.625 --> 00:00:18.685
+to get to the first principles of an issue at hand.
+
+00:00:18.685 --> 00:00:22.960
+After diving deeper into the data and research to ask why,
+
+00:00:22.960 --> 00:00:25.030
+most of the onboarding involves learning
+
+00:00:25.030 --> 00:00:29.065
+deep nuances about the products that the companies are selling.
+
+00:00:29.065 --> 00:00:32.065
+Onboarding costs are high due to
+
+00:00:32.065 --> 00:00:37.805
+employee volume in addition to higher onboarding costs on an individual level.
+
+00:00:37.805 --> 00:00:42.520
+The average tenure of customer experience agents from which you found currently sets at
+
+00:00:42.520 --> 00:00:48.010
+1.2 years compared to 2.3 years for the rest of the industry.
+
+00:00:48.010 --> 00:00:50.045
+Let us ask why again,
+
+00:00:50.045 --> 00:00:52.520
+only to find out that agents find
+
+00:00:52.520 --> 00:00:55.190
+the work satisfying as they get to help their customers,
+
+00:00:55.190 --> 00:00:57.950
+but generally always face the brunt of issues
+
+00:00:57.950 --> 00:01:00.815
+and limitations of other product from their customers.
+
+00:01:00.815 --> 00:01:04.850
+Agents are also closely monitored on their productivity on
+
+00:01:04.850 --> 00:01:09.680
+an hourly level and are judged by their productivity in ticket resolution.
+
+00:01:09.680 --> 00:01:12.320
+So our primary target users for solving
+
+00:01:12.320 --> 00:01:15.490
+this pain point would be the customer experience agents,
+
+00:01:15.490 --> 00:01:18.920
+or indirect users would be the customer experienced managers.
+
+00:01:18.920 --> 00:01:22.475
+They are still equally impacted by higher agent churn,
+
+00:01:22.475 --> 00:01:26.450
+but ultimately the agent experience should be changed.
+
+00:01:26.450 --> 00:01:30.565
+How does solving these pain points impact users?
+
+00:01:30.565 --> 00:01:35.330
+Well, these features will increase agents satisfaction and wellness,
+
+00:01:35.330 --> 00:01:39.200
+which then leads to increasing agent retention,
+
+00:01:39.200 --> 00:01:44.900
+which then as a result leads to decrease then total onboarding cost for the company.
+
+00:01:44.900 --> 00:01:50.240
+Furthermore, increasing the satisfaction of admins and agents with Expilliary,
+
+00:01:50.240 --> 00:01:54.055
+leading to higher product upsell and retention.
+
+00:01:54.055 --> 00:01:56.510
+In terms of market impact,
+
+00:01:56.510 --> 00:01:59.510
+this will help position Expilliary with
+
+00:01:59.510 --> 00:02:03.220
+distinguishing features in the market compared to its competitors.
+
+00:02:03.220 --> 00:02:06.785
+It will drive NPS or net promoter score,
+
+00:02:06.785 --> 00:02:09.335
+which leads to higher customer referrals,
+
+00:02:09.335 --> 00:02:11.765
+both from agents and the admins.
+
+00:02:11.765 --> 00:02:13.685
+In terms of business impact,
+
+00:02:13.685 --> 00:02:15.680
+solving for this pain point aligns with
+
+00:02:15.680 --> 00:02:20.994
+the Expilliary's vision of helping customers be loved by their customers.
+
+00:02:20.994 --> 00:02:24.000
+This also aligns with this year's objective and
+
+00:02:24.000 --> 00:02:28.580
+key results of increasing upsell revenue by 41 percent.
+
+00:02:28.580 --> 00:02:33.635
+We're proposing two solutions to promote agent wellness and satisfaction.
+
+00:02:33.635 --> 00:02:37.280
+The first is an automated positive feedback system.
+
+00:02:37.280 --> 00:02:40.850
+An example of this is where notifications would be delivered to
+
+00:02:40.850 --> 00:02:47.555
+Expilliary's UI to agents if CSAT rates are above 85 percent in the previous day.
+
+00:02:47.555 --> 00:02:51.815
+Another solution is centered around the notion of agent kudos,
+
+00:02:51.815 --> 00:02:57.440
+where agents could send other agents Kudo or statements of congratulations on
+
+00:02:57.440 --> 00:03:00.260
+a bi-weekly basis for helping them out with
+
+00:03:00.260 --> 00:03:05.255
+a difficult investigation or just giving them props on excellent ticket resolution.
+
+00:03:05.255 --> 00:03:09.720
+This will help gamify efficient and accurate ticket resolution.
+
+00:03:09.720 --> 00:03:14.250
+So what are some potential pitfalls we need to remain cognizant of?
+
+00:03:14.250 --> 00:03:19.370
+The customer experience managers may view this as hampering productivity.
+
+00:03:19.370 --> 00:03:23.990
+Prohibiting the enablement of this feature in their instance will need to win
+
+00:03:23.990 --> 00:03:26.629
+their trust from other customer examples
+
+00:03:26.629 --> 00:03:30.020
+and present this feature to them first and foremost.
+
+00:03:30.020 --> 00:03:32.120
+There also may be an onset of
+
+00:03:32.120 --> 00:03:36.695
+repetition fatigue from a lack of diversity in notification prompts.
+
+00:03:36.695 --> 00:03:38.810
+We'll need to ensure we have a good amount of
+
+00:03:38.810 --> 00:03:42.445
+notification styles circulating in the system.
+
+00:03:42.445 --> 00:03:45.405
+How will we get this out to the market?
+
+00:03:45.405 --> 00:03:49.155
+Initially, through an EAP or Early Access program,
+
+00:03:49.155 --> 00:03:54.170
+to generate early adopters and customer success stories to further
+
+00:03:54.170 --> 00:04:00.340
+evangelize from downstream customer experience managers in the mainstream market.
+
+00:04:00.340 --> 00:04:03.170
+Also we need to launch an experiment on
+
+00:04:03.170 --> 00:04:08.400
+multiple positive feedback notifications across different variance.
+

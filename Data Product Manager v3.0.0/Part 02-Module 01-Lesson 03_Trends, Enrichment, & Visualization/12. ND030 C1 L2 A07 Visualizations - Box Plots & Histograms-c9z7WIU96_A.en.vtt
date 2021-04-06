@@ -1,0 +1,199 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.500 --> 00:00:04.830
+Box plots are good for quickly visualizing the spread of data.
+
+00:00:04.830 --> 00:00:07.740
+Its median, its first and third quartiles,
+
+00:00:07.740 --> 00:00:11.490
+as in data points in the 25th and 75th percentage,
+
+00:00:11.490 --> 00:00:13.965
+its outliers, and its total range.
+
+00:00:13.965 --> 00:00:19.910
+Here, the middle line in each box represents the median sales per segment.
+
+00:00:19.910 --> 00:00:24.805
+The edges of each box represent the first and third quartiles,
+
+00:00:24.805 --> 00:00:31.669
+and the whiskers or lines sticking out of each box represent the max and min ranges.
+
+00:00:31.669 --> 00:00:35.240
+Histograms are good for visualizing distributions of
+
+00:00:35.240 --> 00:00:41.485
+continuous variables or variables that are sequential to one another in terms of value.
+
+00:00:41.485 --> 00:00:47.495
+In this example, we plot out the passenger counts per lift ride on the x-axis,
+
+00:00:47.495 --> 00:00:51.485
+each representing a histogram bin of one passenger count,
+
+00:00:51.485 --> 00:00:55.415
+two passenger counts, three passenger counts, and so forth.
+
+00:00:55.415 --> 00:00:59.045
+On the y-axis, we plot out how many rides
+
+00:00:59.045 --> 00:01:03.470
+fell to each bin based on the count of passengers per ride.
+
+00:01:03.470 --> 00:01:06.470
+Bar charts may look similar to histograms,
+
+00:01:06.470 --> 00:01:11.865
+where instead good for visualizing comparisons of discrete variables.
+
+00:01:11.865 --> 00:01:17.750
+Here, we plot out librarian employment on the y-axis per state,
+
+00:01:17.750 --> 00:01:20.180
+which is reflected on the x-axis.
+
+00:01:20.180 --> 00:01:23.000
+Bar charts are different from histograms where
+
+00:01:23.000 --> 00:01:26.075
+the x-axis is not a bin or range of values,
+
+00:01:26.075 --> 00:01:30.130
+nor is it ascending or descending in terms of value.
+
+00:01:30.130 --> 00:01:32.690
+Rewind the clock and say we're back in
+
+00:01:32.690 --> 00:01:36.530
+2003 and you're the first product manager for a company that's
+
+00:01:36.530 --> 00:01:39.320
+starting up an online marketplace that pairs up
+
+00:01:39.320 --> 00:01:42.535
+hosts with visitors for temporary homestays.
+
+00:01:42.535 --> 00:01:47.810
+You're pairing up with the executive team to gather existing market trends to convince
+
+00:01:47.810 --> 00:01:50.600
+investors why they should provide your company with
+
+00:01:50.600 --> 00:01:54.490
+an additional fundraise to finish out the development of your product.
+
+00:01:54.490 --> 00:01:58.160
+In this example, we have hotel booking data.
+
+00:01:58.160 --> 00:02:01.460
+To plot out total bookings split out by room type,
+
+00:02:01.460 --> 00:02:04.250
+which is a distinct data-continuous dimension,
+
+00:02:04.250 --> 00:02:06.475
+we'll plot it out in a bar chart.
+
+00:02:06.475 --> 00:02:10.630
+Peg the rooms book measure as a row,
+
+00:02:11.420 --> 00:02:16.610
+and peg the reserved room type dimension as a column.
+
+00:02:18.170 --> 00:02:22.130
+Ensure that you have a bar chart selected,
+
+00:02:22.170 --> 00:02:26.155
+and here we could see that room type A,
+
+00:02:26.155 --> 00:02:27.790
+room to the kitchens,
+
+00:02:27.790 --> 00:02:31.000
+is book the most frequently probably due to supply.
+
+00:02:31.000 --> 00:02:34.090
+Now, let's see how many days in advance users tend to
+
+00:02:34.090 --> 00:02:38.095
+book compared to their arrival date in intervals of five.
+
+00:02:38.095 --> 00:02:43.030
+As in, how many people book one through five days in advance compared to
+
+00:02:43.030 --> 00:02:48.445
+how many people book 6-10 days versus 11-15 days, and so forth.
+
+00:02:48.445 --> 00:02:51.100
+We could do this best through a histogram.
+
+00:02:51.100 --> 00:02:58.150
+We remove all current dimensions and measures and peg the lead time measure as
+
+00:02:58.150 --> 00:03:06.540
+a column and ensure that you have a histogram selected as your chart type.
+
+00:03:08.180 --> 00:03:16.570
+The bin size or how big each histogram bar is is set to a pre-assigned value at default.
+
+00:03:16.570 --> 00:03:18.675
+Well, we ought to change it to five.
+
+00:03:18.675 --> 00:03:22.550
+To do that, take the auto-created dimension representing
+
+00:03:22.550 --> 00:03:27.720
+lead time bins and edit the size of each bin to five.
+
+00:03:30.460 --> 00:03:37.100
+From here, we can see that the lead time forms a long tail distribution to the right,
+
+00:03:37.100 --> 00:03:40.925
+terminating to about bookings 400 days in advance,
+
+00:03:40.925 --> 00:03:46.070
+starting to flatline at bookings 100 days in advance with
+
+00:03:46.070 --> 00:03:51.970
+a relatively higher peak for bookings 0-15 days in advance.
+
+00:03:51.970 --> 00:03:56.780
+Now, if we want to quickly track the distribution metrics like median, quartiles,
+
+00:03:56.780 --> 00:04:01.820
+and upper and lower bounds of the number of hotel bookings on a weekly basis,
+
+00:04:01.820 --> 00:04:06.025
+or want to leverage visualizing the data on a box plot,
+
+00:04:06.025 --> 00:04:10.020
+take the booking counts measure and peg it as a row.
+
+00:04:10.090 --> 00:04:13.640
+Now, take the arrival date week number dimension,
+
+00:04:13.640 --> 00:04:16.080
+and place it as a mark.
+
+00:04:16.960 --> 00:04:22.470
+Be sure to select the box and whisker as the chart type.
+
+00:04:23.720 --> 00:04:29.240
+We could see here that the median sits around 2400,
+
+00:04:29.240 --> 00:04:32.405
+with the slightly longer tail heading to the left,
+
+00:04:32.405 --> 00:04:35.030
+or lower values of booking counts,
+
+00:04:35.030 --> 00:04:39.394
+indicating more weeks of significantly lower bookings
+
+00:04:39.394 --> 00:04:45.630
+compared to a more contained or predictable range of weeks with higher bookings.
+

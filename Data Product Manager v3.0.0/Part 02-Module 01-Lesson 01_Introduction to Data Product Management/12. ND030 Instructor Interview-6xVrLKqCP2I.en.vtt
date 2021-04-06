@@ -1,0 +1,208 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.970
+Hey there. My name is JJ and I'm
+
+00:00:02.970 --> 00:00:06.780
+a Senior Product Manager at [inaudible] focused on the agent experience.
+
+00:00:06.780 --> 00:00:08.850
+I was the Data Product Manager at Apple,
+
+00:00:08.850 --> 00:00:12.550
+VSCO and Collective Health in a past life.
+
+00:00:16.570 --> 00:00:21.380
+People should take this course if they want to effectively leverage data in
+
+00:00:21.380 --> 00:00:26.250
+their day-to-day strategic and tactical decision-making as a product manager.
+
+00:00:30.190 --> 00:00:33.470
+This course is perfect for a data engineer,
+
+00:00:33.470 --> 00:00:35.990
+data analyst or data scientist that's
+
+00:00:35.990 --> 00:00:38.950
+yearning to apply their skills towards product management,
+
+00:00:38.950 --> 00:00:44.520
+or a product manager that just wants to become more data-driven in their decision-making.
+
+00:00:51.160 --> 00:00:55.939
+One piece of information about this course is that your internal stakeholders
+
+00:00:55.939 --> 00:01:00.050
+will oftentimes have many different opinions on what the company should build.
+
+00:01:00.050 --> 00:01:01.295
+But at the end of the day,
+
+00:01:01.295 --> 00:01:06.000
+data and user research will ultimately be the deciding factor.
+
+00:01:11.860 --> 00:01:15.440
+Some career options for people after they complete this course
+
+00:01:15.440 --> 00:01:18.305
+are becoming an associate product manager,
+
+00:01:18.305 --> 00:01:20.920
+product manager, product analyst,
+
+00:01:20.920 --> 00:01:26.950
+product operations specialist, data product manager or data program manager.
+
+00:01:32.140 --> 00:01:36.155
+These skills are important to learn because almost every company
+
+00:01:36.155 --> 00:01:40.410
+is underutilizing the amount of data they have at their disposal.
+
+00:01:45.870 --> 00:01:51.835
+Hiring managers look for product managers with a good grasp of SQL and they know-how,
+
+00:01:51.835 --> 00:01:57.590
+how to whip up raw data into actionable insights for product presentations.
+
+00:02:02.070 --> 00:02:05.350
+I love working with a small team that builds
+
+00:02:05.350 --> 00:02:09.340
+products to make people's lives more fulfilling and efficient,
+
+00:02:09.340 --> 00:02:12.055
+whether they're musicians, photographers,
+
+00:02:12.055 --> 00:02:17.270
+customer experience agents, or just anyone who has a problem worth solving.
+
+00:02:24.200 --> 00:02:28.925
+If you're currently employed in a company but not in a product manager role,
+
+00:02:28.925 --> 00:02:32.315
+you can still build up your product management chops on the job.
+
+00:02:32.315 --> 00:02:33.849
+You find a problem,
+
+00:02:33.849 --> 00:02:36.875
+either a customer-facing or internal process issue,
+
+00:02:36.875 --> 00:02:39.350
+gather data and use the research to estimate
+
+00:02:39.350 --> 00:02:42.290
+the benefits of how much it would impact the business if we
+
+00:02:42.290 --> 00:02:44.210
+solved it and pitch that to
+
+00:02:44.210 --> 00:02:48.720
+internal stakeholders to hopefully get the resources to solve it.
+
+00:02:53.920 --> 00:02:56.120
+When you enter this field,
+
+00:02:56.120 --> 00:03:00.620
+you're going to expect that data will always be really messy and unorganized,
+
+00:03:00.620 --> 00:03:05.790
+and that you'll apply your new found skills to bring order to the chaos.
+
+00:03:12.050 --> 00:03:14.415
+Every day is a little different.
+
+00:03:14.415 --> 00:03:17.950
+A particularly diverse day involving typical tasks at
+
+00:03:17.950 --> 00:03:22.255
+work involve working with user research and design,
+
+00:03:22.255 --> 00:03:24.985
+to talk to customers about a new prototype,
+
+00:03:24.985 --> 00:03:27.470
+either through Zoom or in person.
+
+00:03:27.470 --> 00:03:31.000
+After, I usually look through a small queue of tickets that were
+
+00:03:31.000 --> 00:03:34.705
+routed in from the customer advocacy team via Zendesk,
+
+00:03:34.705 --> 00:03:39.280
+which I then through triage looking for any customer request,
+
+00:03:39.280 --> 00:03:41.170
+either informing them that it's coming up in
+
+00:03:41.170 --> 00:03:44.950
+a roadmap or asking more clarifying questions in
+
+00:03:44.950 --> 00:03:47.590
+the hopes of designing a solution that will not band-aid
+
+00:03:47.590 --> 00:03:51.395
+the problem but rather fix it scalably for the long term.
+
+00:03:51.395 --> 00:03:56.300
+I then attend two daily scrum rituals with the engineering teams that I work with,
+
+00:03:56.300 --> 00:03:59.465
+taking note of the development of our progress.
+
+00:03:59.465 --> 00:04:04.480
+In addition to taking note of any edge cases that crop up during development.
+
+00:04:04.480 --> 00:04:06.830
+I may then tier up documentation for
+
+00:04:06.830 --> 00:04:10.345
+our APIs based on a change that's about to go out later this week,
+
+00:04:10.345 --> 00:04:12.725
+and not just showing the glory but I also may attend
+
+00:04:12.725 --> 00:04:16.595
+a postmortem about a production outage the other day,
+
+00:04:16.595 --> 00:04:18.500
+discussing with engineering managers,
+
+00:04:18.500 --> 00:04:22.220
+site reliability engineers and other product managers how we
+
+00:04:22.220 --> 00:04:26.435
+can mitigate this particular incident from happening again in the future.
+
+00:04:26.435 --> 00:04:30.110
+Finally, I may wrap up my day by pulling data from
+
+00:04:30.110 --> 00:04:33.920
+Google BigQuery and then visualizing it in Tableau to
+
+00:04:33.920 --> 00:04:37.640
+inform a PRD or product requirements document that
+
+00:04:37.640 --> 00:04:42.390
+I'm running for a product that will be starting development on in a couple of weeks.
+
+00:04:48.790 --> 00:04:53.690
+Employers are looking for someone to uncover and communicate
+
+00:04:53.690 --> 00:05:00.120
+user market and product insights from raw data without mess or fuss.
+
+00:05:04.960 --> 00:05:09.140
+The most rewarding thing about working in the field of product management is
+
+00:05:09.140 --> 00:05:13.355
+physically seeing your users find delight in the products that you shape,
+
+00:05:13.355 --> 00:05:18.050
+and that you've led a team to make user's lives better in some way.
+

@@ -1,0 +1,112 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:01.190 --> 00:00:06.630
+In this video, we'll be learning about KPIs or key performance indicators.
+
+00:00:06.630 --> 00:00:12.210
+KPIs ensure that you're monitoring the progression and regression of your OKRs.
+
+00:00:12.210 --> 00:00:15.135
+Good KPIs are actually measurable.
+
+00:00:15.135 --> 00:00:17.340
+They're either lagging or leading
+
+00:00:17.340 --> 00:00:21.540
+indicators that determine the success or failure of your OKRs.
+
+00:00:21.540 --> 00:00:26.970
+They are malleable or are able to be moved within the given time frame.
+
+00:00:26.970 --> 00:00:30.150
+Let's go over an example for setting KPIs.
+
+00:00:30.150 --> 00:00:33.925
+Say you're the product manager at Facebook for birthdays.
+
+00:00:33.925 --> 00:00:36.715
+One of your KPIs that you've set would be
+
+00:00:36.715 --> 00:00:41.305
+the average percentage of friends posting on a user's profile.
+
+00:00:41.305 --> 00:00:47.285
+For short, let's call this ABPR or average birthday post rate.
+
+00:00:47.285 --> 00:00:50.690
+You'll need to understand the baseline experience of your KPIs,
+
+00:00:50.690 --> 00:00:52.985
+or what's the current ABPR?
+
+00:00:52.985 --> 00:00:56.705
+You would determine this through analyzing data at your disposal.
+
+00:00:56.705 --> 00:01:02.360
+Key results are determined by establishing threshold of success for your KPIs.
+
+00:01:02.360 --> 00:01:07.220
+Let's hypothetically say that the current ABPR is 14 percent.
+
+00:01:07.220 --> 00:01:09.380
+Only to plot out a histogram or
+
+00:01:09.380 --> 00:01:13.310
+percentages to determine the standard deviation of the data.
+
+00:01:13.310 --> 00:01:18.700
+Say we find out that one standard deviation for the mean is four percent.
+
+00:01:18.700 --> 00:01:22.845
+Basically 68 percent of all users have
+
+00:01:22.845 --> 00:01:28.490
+10-18 percent of their Facebook friends posting onto their profile during their birthday.
+
+00:01:28.490 --> 00:01:33.110
+This is key information as this enables us to know that it's not very
+
+00:01:33.110 --> 00:01:37.940
+realistic to set the threshold of a success for this KPI to a number like say,
+
+00:01:37.940 --> 00:01:43.825
+60 percent, but rather more realistically somewhere in the 10-20 percent range.
+
+00:01:43.825 --> 00:01:48.110
+Whenever you create in large experiments to try to move your KPIs,
+
+00:01:48.110 --> 00:01:52.445
+these experiments may incidentally diminish other related metrics.
+
+00:01:52.445 --> 00:01:53.975
+Back to our example,
+
+00:01:53.975 --> 00:01:55.610
+after looking through the data,
+
+00:01:55.610 --> 00:02:01.565
+you realize that close friends tend to directly message users during their birthdays,
+
+00:02:01.565 --> 00:02:06.405
+leading to engagement in Facebook Messenger for close relationships.
+
+00:02:06.405 --> 00:02:11.030
+You want to drive more users to post onto their friend's profiles for their birthdays
+
+00:02:11.030 --> 00:02:13.970
+but you don't want to over cannibalize the rate
+
+00:02:13.970 --> 00:02:17.210
+of birthday messages via Facebook Messenger.
+
+00:02:17.210 --> 00:02:22.190
+You'll need to set a guardrail metric to determine at what point
+
+00:02:22.190 --> 00:02:24.920
+your experiments negative impact on other facets of
+
+00:02:24.920 --> 00:02:29.700
+the product is not worth continuing on with the experiment.
+

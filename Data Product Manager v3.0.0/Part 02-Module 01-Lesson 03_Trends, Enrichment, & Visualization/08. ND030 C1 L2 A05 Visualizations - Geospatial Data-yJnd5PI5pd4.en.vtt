@@ -1,0 +1,148 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:01.190 --> 00:00:05.400
+Geospatial data analysis has been around for quite a while,
+
+00:00:05.400 --> 00:00:09.510
+but is becoming more prevalent and mainstream due to GIS or
+
+00:00:09.510 --> 00:00:12.480
+Geospatial Information Systems being baked
+
+00:00:12.480 --> 00:00:16.350
+directly into more traditional software like Postgres,
+
+00:00:16.350 --> 00:00:18.719
+Tableau, or Google BigQuery.
+
+00:00:18.719 --> 00:00:23.490
+Utilizing geospatial data is beneficial for product managers in terms of
+
+00:00:23.490 --> 00:00:28.425
+making decisions on where something should be built or launched in terms of location,
+
+00:00:28.425 --> 00:00:30.375
+and how product adoption,
+
+00:00:30.375 --> 00:00:32.475
+especially for B2C products,
+
+00:00:32.475 --> 00:00:35.100
+spreads throughout regions, whether it's through
+
+00:00:35.100 --> 00:00:38.265
+particular nodes or in a more centralized manner.
+
+00:00:38.265 --> 00:00:42.160
+So what do you even need to start analyzing geospatial data.
+
+00:00:42.160 --> 00:00:44.150
+At the fundamental level,
+
+00:00:44.150 --> 00:00:46.190
+you will need geospatial coordinates,
+
+00:00:46.190 --> 00:00:48.545
+also known as X or Y coordinates,
+
+00:00:48.545 --> 00:00:51.160
+or the longitude and latitude.
+
+00:00:51.160 --> 00:00:56.405
+Here's what latitude and longitude looks like as coordinates.
+
+00:00:56.405 --> 00:00:59.840
+Precision matters depending on the type of analysis.
+
+00:00:59.840 --> 00:01:02.329
+The more decimal points you have in your coordinates,
+
+00:01:02.329 --> 00:01:04.705
+the more targeted they will be.
+
+00:01:04.705 --> 00:01:07.880
+Some common types of maps you may have to leverage as
+
+00:01:07.880 --> 00:01:11.375
+a product manager to make decisions are density maps.
+
+00:01:11.375 --> 00:01:14.450
+Density maps, or also known as heat maps,
+
+00:01:14.450 --> 00:01:18.620
+show where the largest and smallest concentrations in activity are on a map.
+
+00:01:18.620 --> 00:01:23.645
+Density maps are colored according to a scale depending on value intensity.
+
+00:01:23.645 --> 00:01:27.140
+It's best to only have two colors and have white represents
+
+00:01:27.140 --> 00:01:31.325
+smaller values to create a binary-intuitive visualization.
+
+00:01:31.325 --> 00:01:33.130
+To plot out a density map,
+
+00:01:33.130 --> 00:01:37.760
+first ensure that you have a set of points on your data set with X or Y coordinates,
+
+00:01:37.760 --> 00:01:40.085
+or latitude and longitude.
+
+00:01:40.085 --> 00:01:42.799
+Upload that data set into Tableau,
+
+00:01:42.799 --> 00:01:47.460
+and plot out longitude as a dimension in the column.
+
+00:01:48.430 --> 00:01:53.940
+Likewise, plot out latitude as a dimension in a row.
+
+00:01:54.500 --> 00:01:58.460
+Now, ensure a symbol map is selected as
+
+00:01:58.460 --> 00:02:02.720
+the visualization and that we're using density as the mark.
+
+00:02:02.720 --> 00:02:06.980
+You could format map styling through clicking on the map dropdown on
+
+00:02:06.980 --> 00:02:12.755
+your OS menu bar and style it accordingly to your preferences.
+
+00:02:12.755 --> 00:02:18.300
+You can also include map layers by clicking on map layers.
+
+00:02:18.430 --> 00:02:22.220
+From there, Tableau provides pre-loaded layers out of
+
+00:02:22.220 --> 00:02:25.310
+the box depending on what you need to analyze against,
+
+00:02:25.310 --> 00:02:28.265
+from postal codes, to neighborhoods,
+
+00:02:28.265 --> 00:02:32.290
+cities, even physical road infrastructure.
+
+00:02:37.340 --> 00:02:41.935
+So by default, you are including the entire data set in your analysis.
+
+00:02:41.935 --> 00:02:44.330
+But you could add as many filters as you
+
+00:02:44.330 --> 00:02:49.225
+need so that you can focus on geospatial patterns of different segments.
+
+00:02:49.225 --> 00:02:52.145
+Here, we're adding Pickup Datetime as a filter,
+
+00:02:52.145 --> 00:02:58.980
+filtering on hours and limiting our filter to only times during rush hour.
+
+00:03:01.160 --> 00:03:05.130
+Let's jump on to a hands-on exercise.
+

@@ -1,0 +1,178 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:01.340 --> 00:00:05.955
+A product vision or North Star is the ultimate goal
+
+00:00:05.955 --> 00:00:10.200
+of what you want your users to do or accomplish with your product.
+
+00:00:10.200 --> 00:00:13.920
+OKRs or Objectives and Key Results is
+
+00:00:13.920 --> 00:00:16.230
+a goal-setting framework used by companies to
+
+00:00:16.230 --> 00:00:19.560
+centralize the definition in tracking of objectives.
+
+00:00:19.560 --> 00:00:25.095
+It was first introduced and implemented by Andy Grove at Intel in 1983.
+
+00:00:25.095 --> 00:00:28.035
+It's popularity is growing even bigger today,
+
+00:00:28.035 --> 00:00:30.375
+leveraged by companies large and small,
+
+00:00:30.375 --> 00:00:35.280
+including Google, LinkedIn, Twitter, Uber, and Zendesk.
+
+00:00:35.280 --> 00:00:37.980
+Product teams should have one to several sets of
+
+00:00:37.980 --> 00:00:41.925
+OKRs to help them build the right things for their users.
+
+00:00:41.925 --> 00:00:44.810
+OKRs could be set on any time period,
+
+00:00:44.810 --> 00:00:48.260
+but typically on a scale that where change could happen,
+
+00:00:48.260 --> 00:00:51.015
+either on quarters like Q1 or Q2,
+
+00:00:51.015 --> 00:00:54.675
+halves like H1 or H2, or even years.
+
+00:00:54.675 --> 00:00:57.920
+An objective is a clearly defined goal.
+
+00:00:57.920 --> 00:01:00.920
+It does not have to be rigidly quantitative.
+
+00:01:00.920 --> 00:01:03.770
+For example, the growth product management team
+
+00:01:03.770 --> 00:01:06.200
+at Slack may have the following objective for
+
+00:01:06.200 --> 00:01:09.380
+2020: have a higher proportion of group chat
+
+00:01:09.380 --> 00:01:13.705
+software market share compared to Microsoft Teams.
+
+00:01:13.705 --> 00:01:17.300
+Key results are measurable metric targets that
+
+00:01:17.300 --> 00:01:20.630
+directly influence the success of the objective.
+
+00:01:20.630 --> 00:01:24.380
+Key results could be both quantitative or qualitative.
+
+00:01:24.380 --> 00:01:27.590
+Going back to one of our objectives with Slack,
+
+00:01:27.590 --> 00:01:30.155
+from our user research and data analysis,
+
+00:01:30.155 --> 00:01:35.060
+we noticed that there is a direct correlation in market share based on product renewals,
+
+00:01:35.060 --> 00:01:40.015
+online reviews, and ability to synchronize with other Cloud ecosystems.
+
+00:01:40.015 --> 00:01:42.080
+Hence as a result of this,
+
+00:01:42.080 --> 00:01:47.045
+one key result could be partner with and launch three app integrations with Microsoft,
+
+00:01:47.045 --> 00:01:50.360
+so users don't have to switch over to Microsoft Teams if they
+
+00:01:50.360 --> 00:01:54.470
+already rely heavily on Microsoft's other products in their workflows.
+
+00:01:54.470 --> 00:02:00.875
+Another key result could be drive up annual renewals to 82 to 89 percent.
+
+00:02:00.875 --> 00:02:05.780
+The last key result could be to redesign the admin onboarding flow to get
+
+00:02:05.780 --> 00:02:08.690
+the average high MRR company to get
+
+00:02:08.690 --> 00:02:12.490
+fully up and running in five days instead of the average four weeks,
+
+00:02:12.490 --> 00:02:17.360
+to improve the negative reviews of implementation costs.
+
+00:02:17.360 --> 00:02:21.455
+So you can have any number of key results for each objective.
+
+00:02:21.455 --> 00:02:24.605
+Typically, I've found that two to four is a sweet spot,
+
+00:02:24.605 --> 00:02:28.730
+as you don't want to have too many where you're not able to truly focus,
+
+00:02:28.730 --> 00:02:32.690
+and you don't want to have only one either because your objectives are
+
+00:02:32.690 --> 00:02:37.075
+oftentimes multifaceted and need to be attacked by multiple angles.
+
+00:02:37.075 --> 00:02:40.670
+Key results don't explicitly state what features you launch,
+
+00:02:40.670 --> 00:02:42.365
+but rather the features,
+
+00:02:42.365 --> 00:02:45.350
+products, enhancements, and optimizations that
+
+00:02:45.350 --> 00:02:48.950
+will be built as a result of the key results you layout.
+
+00:02:48.950 --> 00:02:52.865
+Here are some more hypothetical examples from other companies.
+
+00:02:52.865 --> 00:02:56.150
+At Salesforce, let's say you're a product manager for
+
+00:02:56.150 --> 00:03:00.725
+apps enablement and objective for this half of the year, H1,
+
+00:03:00.725 --> 00:03:03.995
+would be to stabilize the app framework so that
+
+00:03:03.995 --> 00:03:08.825
+external developers developing for Salesforce incur less breaking changes,
+
+00:03:08.825 --> 00:03:11.930
+less API outages, and faster time
+
+00:03:11.930 --> 00:03:15.500
+to develop and launch your apps on the Salesforce Marketplace.
+
+00:03:15.500 --> 00:03:21.500
+A key result could be to migrate the remaining 30 percent of external developers
+
+00:03:21.500 --> 00:03:23.920
+from leveraging v4 to v5 of
+
+00:03:23.920 --> 00:03:27.455
+the app framework so that you could officially deprecate the former,
+
+00:03:27.455 --> 00:03:29.570
+which is now buggy and unsupported.
+
+00:03:29.570 --> 00:03:35.490
+Another key result could be to reduce the number of 303s or server-side errors
+

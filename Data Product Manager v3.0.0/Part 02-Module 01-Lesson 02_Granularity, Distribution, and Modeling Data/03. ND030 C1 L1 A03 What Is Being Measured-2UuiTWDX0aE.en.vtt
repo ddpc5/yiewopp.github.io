@@ -1,0 +1,103 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.980 --> 00:00:06.480
+Granularity is defined by what exactly is being measured in a dataset,
+
+00:00:06.480 --> 00:00:10.560
+or basically what does each row in a table represent?
+
+00:00:10.560 --> 00:00:13.605
+A table could be measuring Individual Sales,
+
+00:00:13.605 --> 00:00:19.265
+a table could be measuring Individual Orders which constitutes a multiple sales,
+
+00:00:19.265 --> 00:00:21.005
+or table could be measuring
+
+00:00:21.005 --> 00:00:25.600
+Individual Products with metadata about each product incitement.
+
+00:00:25.600 --> 00:00:27.950
+As you start out your analyses,
+
+00:00:27.950 --> 00:00:31.255
+you should immediately find out how many rows are there.
+
+00:00:31.255 --> 00:00:36.265
+This would help you determine if the size of the dataset falls within your expectations.
+
+00:00:36.265 --> 00:00:37.809
+If it's too small,
+
+00:00:37.809 --> 00:00:40.910
+we may be missing certain slices of data in the dataset,
+
+00:00:40.910 --> 00:00:42.755
+and we'll need to find out what they are.
+
+00:00:42.755 --> 00:00:44.285
+If it's too large,
+
+00:00:44.285 --> 00:00:46.490
+it may have extra data that we won't need,
+
+00:00:46.490 --> 00:00:49.540
+and we'd have to filter it out from our analyses.
+
+00:00:49.540 --> 00:00:52.745
+Size also matters if the data is way too big
+
+00:00:52.745 --> 00:00:56.060
+to efficiently query with your infrastructure at hand,
+
+00:00:56.060 --> 00:00:59.935
+whether it's a data visualization tool or a SQL database.
+
+00:00:59.935 --> 00:01:03.095
+You'll need to find out the primary key in your dataset.
+
+00:01:03.095 --> 00:01:07.880
+The primary key is what will help you determine what the table is measuring and
+
+00:01:07.880 --> 00:01:12.550
+will also likely be the field that you'll use to join with other tables.
+
+00:01:12.550 --> 00:01:17.125
+The primary key is a unique value for each row in your dataset.
+
+00:01:17.125 --> 00:01:20.030
+There should not be any duplicate values if you
+
+00:01:20.030 --> 00:01:22.975
+compare your primary key across different rows.
+
+00:01:22.975 --> 00:01:28.385
+The primary key could be one field or a concatenated combination of fields.
+
+00:01:28.385 --> 00:01:31.400
+This means that the total number of unique values in
+
+00:01:31.400 --> 00:01:35.620
+your primary key should match the total number of rows in the table.
+
+00:01:35.620 --> 00:01:42.050
+Hence, if you run a SELECT count distinct SQL statement on your suspected primary key,
+
+00:01:42.050 --> 00:01:47.350
+it should match the value if you run SELECT count star on the dataset.
+
+00:01:47.350 --> 00:01:52.295
+You can also just run a describe command on the table to determine the primary key,
+
+00:01:52.295 --> 00:01:57.245
+but only if it were specified by the creators of the table during schema creation.
+
+00:01:57.245 --> 00:02:01.505
+The syntax for this varies amongst different relational databases.
+
+00:02:01.505 --> 00:02:10.620
+For example, its d table_name for PostgreSQL and DESCRIBE table_name for MySQL.
+

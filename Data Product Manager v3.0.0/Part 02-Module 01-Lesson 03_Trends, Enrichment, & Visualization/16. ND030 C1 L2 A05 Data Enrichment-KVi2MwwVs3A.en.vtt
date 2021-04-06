@@ -1,0 +1,85 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:01.790 --> 00:00:04.620
+Oftentimes as a PM,
+
+00:00:04.620 --> 00:00:06.930
+you will need to enrich your existing product data
+
+00:00:06.930 --> 00:00:09.915
+with external datasets for greater context.
+
+00:00:09.915 --> 00:00:14.535
+For example, let's say you're the city's product manager for Uber,
+
+00:00:14.535 --> 00:00:17.685
+say we have ride-sharing data from Uber,
+
+00:00:17.685 --> 00:00:20.820
+which already has the city of ride pickup.
+
+00:00:20.820 --> 00:00:25.220
+You'll need to access the census level information for cities to acquire
+
+00:00:25.220 --> 00:00:29.740
+additional information such as city population and city population density.
+
+00:00:29.740 --> 00:00:32.975
+You have to find these sources externally.
+
+00:00:32.975 --> 00:00:38.750
+There are many sources online where you could find free quality datasets like Kaggle,
+
+00:00:38.750 --> 00:00:41.750
+Data.gov, FiveThirtyEight, or many,
+
+00:00:41.750 --> 00:00:44.465
+many more, links are posted below.
+
+00:00:44.465 --> 00:00:46.805
+Before joining your datasets,
+
+00:00:46.805 --> 00:00:50.375
+you will need to ensure that there is a common key for both tables.
+
+00:00:50.375 --> 00:00:53.255
+One of them usually being the primary key,
+
+00:00:53.255 --> 00:00:55.505
+that you can link your datasets with.
+
+00:00:55.505 --> 00:00:57.610
+Let's jump into an example.
+
+00:00:57.610 --> 00:01:01.385
+If you have a table of ride sharing data with
+
+00:01:01.385 --> 00:01:04.230
+city name information and if you find
+
+00:01:04.230 --> 00:01:08.345
+a dataset online that contains city population information,
+
+00:01:08.345 --> 00:01:13.145
+to join them, you will need to ensure that the city names match up accordingly.
+
+00:01:13.145 --> 00:01:15.829
+In this example, Wichita,
+
+00:01:15.829 --> 00:01:17.585
+from the table on the left,
+
+00:01:17.585 --> 00:01:20.585
+does not cleanly match up with Wichita,
+
+00:01:20.585 --> 00:01:22.675
+KS on the right.
+
+00:01:22.675 --> 00:01:25.309
+Some deeper data cleaning from yourself,
+
+00:01:25.309 --> 00:01:30.540
+a data scientist, or data engineer would be required to solve this problem.
+

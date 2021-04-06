@@ -1,0 +1,181 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:01.100 --> 00:00:04.020
+Product management is not black and white.
+
+00:00:04.020 --> 00:00:06.165
+Our answers may be completely different,
+
+00:00:06.165 --> 00:00:09.570
+but as long as you're able to justify your reasoning and capture
+
+00:00:09.570 --> 00:00:13.680
+actions that enable you and your team to measure your KPIs,
+
+00:00:13.680 --> 00:00:15.270
+then you should be on the right track.
+
+00:00:15.270 --> 00:00:18.075
+Here's a potential solution that I would have.
+
+00:00:18.075 --> 00:00:21.165
+Going back to the prompt, URPM at YouTube.
+
+00:00:21.165 --> 00:00:23.670
+You are launching a new feature that enables lightweight
+
+00:00:23.670 --> 00:00:26.445
+video editing native to YouTube studio,
+
+00:00:26.445 --> 00:00:28.275
+before a video is uploaded.
+
+00:00:28.275 --> 00:00:30.345
+Lets call this feature Symphony.
+
+00:00:30.345 --> 00:00:32.895
+First, lets set our OKRs.
+
+00:00:32.895 --> 00:00:37.785
+Our objective would be to empower our casual, emphasis on casual,
+
+00:00:37.785 --> 00:00:39.690
+YouTube creators to have
+
+00:00:39.690 --> 00:00:44.440
+all the editing capabilities they need to add it raw content on to YouTube,
+
+00:00:44.440 --> 00:00:48.115
+without having to edit on an expensive third-party program.
+
+00:00:48.115 --> 00:00:51.650
+Key result for this objective would be to maintain the quality of
+
+00:00:51.650 --> 00:00:57.205
+videos specifically for the casual user segment at the same rate it was before.
+
+00:00:57.205 --> 00:01:02.825
+This can be measured through viewership engagement in terms of the volume of comments,
+
+00:01:02.825 --> 00:01:04.985
+likes, and views per video.
+
+00:01:04.985 --> 00:01:08.360
+Another key result of this objective would be to increase
+
+00:01:08.360 --> 00:01:12.025
+the rate of videos uploaded by the casual creator segment.
+
+00:01:12.025 --> 00:01:16.550
+Our second objective would be able to keep symphony lightweight,
+
+00:01:16.550 --> 00:01:21.470
+being completely intentional about what features are available and which ones are not,
+
+00:01:21.470 --> 00:01:25.715
+minimizing the potential for clutter or feature overload in the editor.
+
+00:01:25.715 --> 00:01:30.260
+A key result would be to ensure that no feature is underutilized.
+
+00:01:30.260 --> 00:01:33.395
+We're less than three percent of all YouTube uploads
+
+00:01:33.395 --> 00:01:36.680
+from casual creators are not using the feature.
+
+00:01:36.680 --> 00:01:41.410
+So again, here's our first objective and it's relevant key results.
+
+00:01:41.410 --> 00:01:46.385
+The KPIs for this would be averaged like counts,
+
+00:01:46.385 --> 00:01:50.675
+three months after publish for videos by creators in the casual segment.
+
+00:01:50.675 --> 00:01:56.570
+Likewise, average comments and views for the same dimensions.
+
+00:01:56.570 --> 00:02:00.890
+Now, given that video likes, video comments,
+
+00:02:00.890 --> 00:02:05.490
+and video views, are metadata information about the video.
+
+00:02:05.490 --> 00:02:08.710
+We don't need this data stored in an event.
+
+00:02:08.710 --> 00:02:13.925
+We could assume that YouTube has a video state table that measures video likes,
+
+00:02:13.925 --> 00:02:18.090
+video comments, and video views over time.
+
+00:02:18.760 --> 00:02:23.275
+Again, here's key result 2 for objective 1.
+
+00:02:23.275 --> 00:02:28.850
+Our KPI for this is the number of videos uploaded by creators in
+
+00:02:28.850 --> 00:02:34.520
+the casual segment divided by the total number of creators in the casual segment.
+
+00:02:35.300 --> 00:02:38.510
+We'll need to ensure that the following events are
+
+00:02:38.510 --> 00:02:42.380
+filed to be able to measure this video uploaded,
+
+00:02:42.380 --> 00:02:46.760
+which signifies every time a video was successfully uploaded.
+
+00:02:46.760 --> 00:02:50.794
+At the very least, this falling event would need to have the properties
+
+00:02:50.794 --> 00:02:54.720
+of video ID and creator ID.
+
+00:02:54.720 --> 00:02:58.355
+We can have creator segment here as well, as a property.
+
+00:02:58.355 --> 00:03:00.110
+However, there's most likely
+
+00:03:00.110 --> 00:03:06.005
+a creator dimension table that attributes the creator ID to the creator segment.
+
+00:03:06.005 --> 00:03:09.890
+No need for including extraneous information in your event,
+
+00:03:09.890 --> 00:03:13.280
+when it's already stored in another table or event.
+
+00:03:13.280 --> 00:03:20.730
+So here's our key results for objective 2 for our KPI.
+
+00:03:20.730 --> 00:03:23.465
+Only to figure out for each feature,
+
+00:03:23.465 --> 00:03:29.665
+what percentage of all total uploads had this editing feature applied on the video.
+
+00:03:29.665 --> 00:03:34.940
+For events, we could reuse our video uploaded event again,
+
+00:03:34.940 --> 00:03:38.600
+which is triggered every time a video is successfully uploaded.
+
+00:03:38.600 --> 00:03:42.115
+However, in addition to our existing properties for this event,
+
+00:03:42.115 --> 00:03:46.775
+we'll need to include the notion of edit applied property,
+
+00:03:46.775 --> 00:03:51.050
+which is an array or a list of strings that
+
+00:03:51.050 --> 00:03:56.760
+correspond to the features that are applied to this video upon upload.
+
