@@ -1,0 +1,146 @@
+{
+  "data": {
+    "lesson": {
+      "id": 958680,
+      "key": "52a51f3f-b269-4765-bd75-5dd9f0c7463e",
+      "title": "Build a Scalable Data Strategy",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": "Flyber has been growing and now it needs a scalable data strategy. It is your job to create that data strategy.",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": false,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "https://zips.udacity-data.com/52a51f3f-b269-4765-bd75-5dd9f0c7463e/958680/1593148089676/Build+a+Scalable+Data+Strategy+Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "https://zips.udacity-data.com/52a51f3f-b269-4765-bd75-5dd9f0c7463e/958680/1593148087056/Build+a+Scalable+Data+Strategy+Subtitles.zip"
+          },
+          {
+            "name": "Template-Of-Flyber-Data-Strategy-Mvp",
+            "uri": "https://video.udacity-data.com/topher/2020/December/5fe042e2_template-of-flyber-data-strategy-mvp/template-of-flyber-data-strategy-mvp.docx"
+          },
+          {
+            "name": "Section-3-Event-Logs-Template",
+            "uri": "https://video.udacity-data.com/topher/2020/December/5fe04313_section-3-event-logs-template/section-3-event-logs-template.xlsx"
+          },
+          {
+            "name": "Section-5-Data",
+            "uri": "https://video.udacity-data.com/topher/2020/December/5fe0433a_section-5-data/section-5-data.xlsx"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": {
+        "key": "475da374-f49a-4d93-a497-8306fa7d3405",
+        "version": "1.0.0",
+        "locale": "en-us",
+        "duration": 40320,
+        "semantic_type": "Project",
+        "title": "Build a Scalable Data Strategy",
+        "description": "## Instructions\nFlyber, the first flying taxi service in New York City has been massively successful. The original data pipelines to receive and process the customer events are unable to keep up. You have been tasked to come up with a data strategy to not only handle this massive amount of data but also process it to get the business insights they need to run and grow their business. Using the skills you have learned in this course, you will:\n1. Identify primary data stakeholders and their data needs.\n2. Understand how data can be modeled or organized to support data business needs. \n3. Perform ETL. \n4. Choose relevant data sets to answer business questions.\n5. **Optional** Create visualizations to understand the scale of data growth.\n6. Analyze data to address Flyber's Data Growth Rate.\n7. Choose Data Infrastructure strategy for Flyber. \nSection 1 and 2 focus on what data is needed. Section 3, 4, 5 and 6 focus on understanding the scalability needs. Section 7 is selecting a Data WareHouse strategy based on analysis of all the previous sections. \n\n## Submission Details\n### Deliverables: \nData Strategy Proposal: All answers to questions and visualizations should be added to the MVP document template linked in workspace in the indicated areas.\n1. ETL is performed on the provided Event Logs template linked in workspace and results will be transferred to the proposal template. The project's ETL should be created inside of the provided Event Logs template in the tab titled, ETL.\n2. **Optional Data Visualizations** can be completed in [Public Tableau](https://public.tableau.com/s/)  or any other software you are familiar with and transferred into the document template. The Flyber Data is provided in the Section 5 Data template and there are visualizations provided in the appendix if you elect not to do this step.\n\nWhen you are finished with your project:\nMake sure to check over the [Project Rubric](https://review.udacity.com/#!/rubrics/2758/view)  to ensure you have met all of the project specifications\nSubmit your Data Strategy Proposal Document and your copies of the Event Logs and Section 4 Data Templates for review in a zip file through this workspace.\n",
+        "is_public": true,
+        "summary": null,
+        "forum_path": "",
+        "rubric_id": "2758",
+        "terminal_project_id": null,
+        "resources": {
+          "files": [
+            {
+              "name": "section_5_data",
+              "uri": "https://video.udacity-data.com/topher/2020/March/5e6bc725_section-5-data/section-5-data.xlsx"
+            },
+            {
+              "name": "section-3-event-logs-template",
+              "uri": "https://video.udacity-data.com/topher/2020/March/5e6bc769_section-3-event-logs-template/section-3-event-logs-template.xlsx"
+            },
+            {
+              "name": "Template of Flyber Data Strategy MVP",
+              "uri": "https://video.udacity-data.com/topher/2020/April/5e90a63f_template-of-flyber-data-strategy-mvp/template-of-flyber-data-strategy-mvp.docx"
+            }
+          ],
+          "google_plus_link": null,
+          "career_resource_center_link": null,
+          "coaching_appointments_link": null,
+          "office_hours_link": null,
+          "aws_provisioning_link": null
+        },
+        "image": null
+      },
+      "lab": null,
+      "concepts": [
+        {
+          "id": 958691,
+          "key": "054847dc-36d7-4e06-a9ac-afb5843d0964",
+          "title": "Project Introduction",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "054847dc-36d7-4e06-a9ac-afb5843d0964",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 958692,
+              "key": "1f98443b-235d-430b-abc9-8ac0e160f3d2",
+              "title": "NDO30 DPMND C2 L0 08 Project Introduction",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "bJG7-WR7HRw",
+                "china_cdn_id": "bJG7-WR7HRw.mp4"
+              }
+            },
+            {
+              "id": 958693,
+              "key": "c164ef19-029c-414d-b1f9-fbb0f41e0002",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Project Instructions\nFlyber, the first flying taxi service in New York City has been massively successful. The original data pipelines to receive and process the customer events are unable to keep up. You have been tasked to come up with a data strategy to not only handle this massive amount of data but also process it to get the business insights they need to run and grow their business. Using the skills you have learned in this course, you will:\n1. Identify primary data stakeholders and their data needs.\n2. Understand how data can be modeled or organized to support data business needs. \n3. Perform ETL. \n4. Choose relevant data sets to answer business questions.\n5. **Optional** Create visualizations to understand the scale of data growth.\n6. Analyze data to address Flyber's Data Growth Rate.\n7. Choose Data Infrastructure strategy for Flyber. \n\n## Getting Started:\nYou can find all of the materials needed for the project in the Project Resources Section of the classroom \n\nStart With the **Template Flyber Data Strategy**. \n\nAll project instructions details are included in this file. There are also links to the data files you would need to complete part 3 and the **optional** part 5. These files can also be downloaded from the Project Resources section of the classroom.\n\nSection 1 and 2 focus on stakeholders and what data they need. Section 3, 4, 5 and 6 focus on understanding the scalability needs. Section 7 is all about suggesting a Data Infrastructure strategy based on analysis of all the previous sections. \n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 958694,
+          "key": "97ee2dbf-a3af-4f39-8825-fd65398e5854",
+          "title": "Project Submission",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "97ee2dbf-a3af-4f39-8825-fd65398e5854",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 958695,
+              "key": "5f239aad-416a-46b0-b973-c6d952d13239",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Submission Details\n### Deliverables: \nData Strategy Proposal: All answers to questions and visualizations should be added to provided template in the indicated areas.\n1. ETL is performed on the provided Event Logs and results will be transferred to the proposal template. The project's ETL should be created inside of the provided Event Logs template in the tab titled, ETL.\n2. **Optional Data Visualizations** can be completed in [Public Tableau](https://public.tableau.com/s/)  or any other software you are familiar with and transferred into the document template. The Flyber Data is provided in the Section 5 Data template and there are visualizations provided in the appendix if you elect not to do this step.\n\nWhen you are finished with your project:\nMake sure to check over the [Project Rubric](https://review.udacity.com/#!/rubrics/2758/view) to ensure you have met all of the project specifications\nSubmit your Data Strategy Proposal Document and your copies of the Event Logs and Section 5 Data Templates for review in a zip file through this workspace.",
+              "instructor_notes": ""
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

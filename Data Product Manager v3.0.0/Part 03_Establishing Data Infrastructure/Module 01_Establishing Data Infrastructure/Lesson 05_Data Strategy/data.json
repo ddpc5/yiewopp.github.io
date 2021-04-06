@@ -1,0 +1,2544 @@
+{
+  "data": {
+    "lesson": {
+      "id": 1008156,
+      "key": "2277fcf6-67e5-4ad7-bfaf-36e149d1a944",
+      "title": "Data Strategy",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": "Putting everything together to create the right data strategy for your situation. ",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": false,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "https://zips.udacity-data.com/2277fcf6-67e5-4ad7-bfaf-36e149d1a944/1008156/1593148076712/Data+Strategy+Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "https://zips.udacity-data.com/2277fcf6-67e5-4ad7-bfaf-36e149d1a944/1008156/1593148067436/Data+Strategy+Subtitles.zip"
+          },
+          {
+            "name": "Course Glossary",
+            "uri": "https://video.udacity-data.com/topher/2020/March/5e78d601_course-glossary/course-glossary.pdf"
+          },
+          {
+            "name": "Solution Knapsack Data Strategy Proposal",
+            "uri": "https://video.udacity-data.com/topher/2020/March/5e78e541_solution-knapsack-data-strategy-proposal/solution-knapsack-data-strategy-proposal.docx"
+          },
+          {
+            "name": "Knapsack Data Strategy MVP Proposal Template",
+            "uri": "https://video.udacity-data.com/topher/2020/March/5e78f225_knapsack-data-strategy-mvp-proposal-template/knapsack-data-strategy-mvp-proposal-template.docx"
+          },
+          {
+            "name": "Data Infrastructure Strategy Exercises Template",
+            "uri": "https://video.udacity-data.com/topher/2020/September/5f511b0b_data-infrastructure-strategy-exercises-template/data-infrastructure-strategy-exercises-template.docx"
+          },
+          {
+            "name": "Data Infrastructure Strategy Exercises",
+            "uri": "https://video.udacity-data.com/topher/2020/September/5f511b35_data-infrastructure-strategy-exercises/data-infrastructure-strategy-exercises.xlsx"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 1008138,
+          "key": "fead8b27-2cb3-4e28-b9ac-c44e83f156f8",
+          "title": "Lesson Intro",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "fead8b27-2cb3-4e28-b9ac-c44e83f156f8",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1008027,
+              "key": "d3a9203a-f3c7-44d5-b10e-07a2c892da31",
+              "title": "Lesson Intro Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Data Strategy",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1008039,
+              "key": "1e3f55f9-94ca-4991-b6e1-3ac2d28c01c1",
+              "title": "NDO30 DPMND C2 L4 01 Lesson Intro",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "XAt60IG9u9o",
+                "china_cdn_id": "XAt60IG9u9o.mp4"
+              }
+            },
+            {
+              "id": 1008013,
+              "key": "1ce70d98-7ac1-4627-9f5b-eb6ed31e3f80",
+              "title": "Lesson Outline",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/March/5e78f2f8_image11/image11.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/1ce70d98-7ac1-4627-9f5b-eb6ed31e3f80",
+              "caption": "Lesson Outline",
+              "alt": "Lesson Outline\n",
+              "width": 969,
+              "height": 509,
+              "instructor_notes": null
+            },
+            {
+              "id": 1008016,
+              "key": "f61c7e54-b5e7-4b10-bd71-554340d55359",
+              "title": "Lesson Outline Recap",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "In this lesson we will cover: \n- Processing of data with ETL versus ELT \n- Data storage options\n    - How to choose the best option between a Database, a Data Warehouse or Data Lake\n- Data strategy \n    - When should you build and when should you buy?\n    - Open source vs commercial \n    - Cloud Vs. On-prem.\n    - Insource Vs. outsource the development of tech. \n- Security and compliance.\n\n**For all exercises in this course you will be using a spreadsheet, [Data Infrastructure Strategy Exercises], and document, [Data Infrastructure Strategy Exercises Template], provided in the Resources section of the classroom.\n** \n\n## Important Keep a Copy of your Exercise Responses in the Template Document\nIt is highly recommended that as you complete the open-ended exercises in this course, you should keep them in the provided template document to refer back to throughout the course. It will be extremely useful as you complete the Final Exercise in the course: Knapsack Data Strategy MVP in the Data Strategy section of this course. You can still copy and paste your responses into the text boxes on each page in the course for each exercise if you wish.\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1008130,
+          "key": "84531b01-d602-4e9e-bea1-0a176a59d901",
+          "title": "ETL",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "84531b01-d602-4e9e-bea1-0a176a59d901",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1008049,
+              "key": "06cb52e4-6c8f-47a9-ac3f-7494c80531a2",
+              "title": "ETL Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# ETL (Extract, Transform and Load)",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1008015,
+              "key": "3375851f-9541-4054-98bf-676b241cc6da",
+              "title": "NDO30 DPMND C2 L4 02 Introduction To ETL",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "MQj942WBKk8",
+                "china_cdn_id": "MQj942WBKk8.mp4"
+              }
+            },
+            {
+              "id": 1008028,
+              "key": "1f3d18fa-c8e2-4f1a-b1d3-63a63e9051fa",
+              "title": "ETL Image",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/March/5e78f35e_image13/image13.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/1f3d18fa-c8e2-4f1a-b1d3-63a63e9051fa",
+              "caption": "ETL Process Overview",
+              "alt": "ETL Process Overview",
+              "width": 1999,
+              "height": 1062,
+              "instructor_notes": null
+            },
+            {
+              "id": 1008020,
+              "key": "fbaac6f9-677f-4e3d-84b1-298f2ab889ac",
+              "title": "What is ETL",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## What is ETL\n**ETL stands for Extraction, Transformation and Loading** of data. In this type of processing pipeline, data is first extracted from various sources, after that transformed and loaded to a Database or Data Warehouse, from where it is pulled for analysis.\n\n- **[Data processing](https://en.wikipedia.org/wiki/Data_processing)** is, generally, the collection and manipulation of items of data to produce meaningful information.\n- **[Data extraction](https://en.wikipedia.org/wiki/Data_extraction)** is the act or process of retrieving data out of data sources for further data processing or data storage. \n- **In the [data transformation stage](https://en.wikipedia.org/wiki/Extract,_transform,_load)**, a series of rules or functions are applied to the extracted data in order to prepare it for loading into the end target.\n- **The load phase**: loads the data into the end target, which can be any data store including a simple delimited flat file or a data warehouse. ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1008037,
+              "key": "a1a19444-ff8c-458f-8b92-19123c9dd532",
+              "title": "batch image",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/March/5e78f37c_image18/image18.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/a1a19444-ff8c-458f-8b92-19123c9dd532",
+              "caption": "Batch Processing Overview",
+              "alt": "Batch Processing Overview",
+              "width": 1999,
+              "height": 1054,
+              "instructor_notes": null
+            },
+            {
+              "id": 1008062,
+              "key": "f022bae1-7313-4fb3-a800-8735718def0a",
+              "title": "Batch Text",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "**Batch processing**:  \n\nProcessing massive data with scheduled jobs at once is batch processing. \n\nThis works really well in scenarios where  periodic processing of data is needed. A good example is processing salaries of employees every week or Ecommerce platforms generating invoices for their vendors every month. ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1008029,
+              "key": "531f2b27-25f7-49ad-a97c-598c8faef7b8",
+              "title": "Stream Image",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/August/5f47e714_stream-processing-overview/stream-processing-overview.svg",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/531f2b27-25f7-49ad-a97c-598c8faef7b8",
+              "caption": "Stream Processing Overview",
+              "alt": "Stream Processing Overview",
+              "width": 1920,
+              "height": 1080,
+              "instructor_notes": null
+            },
+            {
+              "id": 1008018,
+              "key": "8c1d699d-0773-4eda-a6bd-9c65a6bebcbc",
+              "title": "Stream Text",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "**Stream Processing**: \n\nAnother type of processing is done in almost real-time, as data comes it is processed.\n\nOr as the streams of data come together, they are processed. Stream processing examples would be payment processing and fraud detection. These two have to be done in real time as they happen.  ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1008011,
+              "key": "23ebb78c-000f-4574-bd43-5fcca4d26a29",
+              "title": "ETL Intro Quiz",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "23ebb78c-000f-4574-bd43-5fcca4d26a29",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "In the ETL processing the sequence of Extraction,Transformation and Loading is **not** important. ",
+                "answers": [
+                  {
+                    "id": "rbk1",
+                    "text": "True",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk2",
+                    "text": "False",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1008012,
+              "key": "e0660625-ee3b-4d7e-845e-e6e9e9659e3c",
+              "title": "Stream and Batch Processing",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "e0660625-ee3b-4d7e-845e-e6e9e9659e3c",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which of the following are **True** about Stream and Batch Processing?",
+                "answers": [
+                  {
+                    "id": "rbk1",
+                    "text": "If you need to process all of your data once a week stream processing is great.",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk2",
+                    "text": "If you need to process data as it comes again stream processing is the answer.",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk3",
+                    "text": "You are an online learning site for preschoolers. You want to send an activity log to parents every month. You should use stream processing.",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk4",
+                    "text": "A fashion blogger and own a styling website. You want to capture trends in real-time from social media platforms and appropriately highlight articles on your site. You should use stream processing.",
+                    "is_correct": true
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 1008134,
+          "key": "cc80e38a-3a94-469e-9b63-01381d4163ec",
+          "title": "Challenges with ETL",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "cc80e38a-3a94-469e-9b63-01381d4163ec",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1008024,
+              "key": "dcf96a90-48ed-4ee3-9808-d05418e8ebf9",
+              "title": "Challenges with ETL Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Challenges with ETL",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1008031,
+              "key": "1d7e9287-ebf8-489e-845b-2604e16c9bb5",
+              "title": "NDO30 DPMND C2 L4 03 Challenges With ETL",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "V_k-hEhTPqM",
+                "china_cdn_id": "V_k-hEhTPqM.mp4"
+              }
+            },
+            {
+              "id": 1008059,
+              "key": "5897cac1-29a6-4cd3-8a06-d42db714abb5",
+              "title": "Challenges with ETL",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### ETL Challenges\nSome of the challenges with ETL include:\n- Processing data before loading it. \n- Amount of data generated in an enterprise is increasing \n- Transformation code can be millions of lines. This might make it really hard to scale an ETL pipeline. \n- Transforming all the data before loading might be an overkill. \n    - *Example*: you might not need to process all the event data generated on the website at once. \n\n### Challenges continued: \n**Different Data Types**\n\nEntity data needs to be treated very differently than event data. Similarly, structured data, semi-structured data, or unstructured data. All have specific needs. ETLs work best with **entity** and **structured data**. Implementing ETL for other data types can be challenging. \n\n**Different Data Sources**\n\nData sources are varied and spread across. We have data on-prem and in the cloud. We have constant streams of data, and we have batches of data. With ETL pipelines it might be difficult and slow to bring all this data together.\n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1008070,
+              "key": "9e25e95a-774f-4e25-9acc-e4f8b4a479ae",
+              "title": "ETL Quiz 1",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "9e25e95a-774f-4e25-9acc-e4f8b4a479ae",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "ETL Pipelines work best with",
+                "answers": [
+                  {
+                    "id": "rbk1",
+                    "text": "Structured and Entity Data",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk2",
+                    "text": "Unstructured and Entity Data",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1008023,
+              "key": "8bfdfce6-7799-44ee-8c9f-9c0d66411c6f",
+              "title": "ETL Challenges Quiz",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "8bfdfce6-7799-44ee-8c9f-9c0d66411c6f",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which of the following poses challenges for ETLs",
+                "answers": [
+                  {
+                    "id": "rbk1",
+                    "text": "Data is of all types- structured, unstructured or semi-structured",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk2",
+                    "text": "Data is spread across Cloud and on-premise",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk3",
+                    "text": "Data is of entity type and of event type",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk4",
+                    "text": "Data might need Stream or Batch Processing",
+                    "is_correct": true
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 1008135,
+          "key": "31e40316-7e5b-4fbf-a909-4ef71e2bc93f",
+          "title": "When to use ETL",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "31e40316-7e5b-4fbf-a909-4ef71e2bc93f",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1008030,
+              "key": "87f778a5-87ba-490b-b44b-36f68af99a07",
+              "title": "When to use ETL Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# When to Use ETL",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1008045,
+              "key": "c2935262-5cb1-42e3-bc40-ecd9cb3a954a",
+              "title": "NDO30 DPMND C2 L4 04 When To Use ETL",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "Ti8mNnXajkk",
+                "china_cdn_id": "Ti8mNnXajkk.mp4"
+              }
+            },
+            {
+              "id": 1008035,
+              "key": "14796646-1c10-4fe4-b2f7-eeac477dcd85",
+              "title": "When to use ETL Image",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/March/5e78f3d3_image19/image19.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/14796646-1c10-4fe4-b2f7-eeac477dcd85",
+              "caption": "When to use ETL",
+              "alt": "When to use ETL",
+              "width": 1999,
+              "height": 829,
+              "instructor_notes": null
+            },
+            {
+              "id": 1008053,
+              "key": "d701f814-ff40-4922-ae82-7a2d7e289edd",
+              "title": "When to use ETL",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### When to use ETLs\nIt is very clear from our discussion that ETLS works best in scenarios where data is structured and of an entity type. A few examples would be:\n- Online transaction data\n- Customer records\n- Inventory records",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1008025,
+              "key": "6d80f19b-5396-40f4-a64e-54e77a03b338",
+              "title": "When to use ETL Quiz 1",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "6d80f19b-5396-40f4-a64e-54e77a03b338",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "ETLs are best suited to data infrastructure if data volumes are huge",
+                "answers": [
+                  {
+                    "id": "rbk1",
+                    "text": "True",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk2",
+                    "text": "False",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1008060,
+              "key": "0a8f5587-cab2-4259-b6f6-c8d16ca1e273",
+              "title": "ETL Quiz 2",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "0a8f5587-cab2-4259-b6f6-c8d16ca1e273",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "ETLs can be used if:",
+                "answers": [
+                  {
+                    "id": "rbk1",
+                    "text": "Data is produced in a one format and is consumed in a different format.",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk2",
+                    "text": "Data volumes are not huge.",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk3",
+                    "text": "Data is transactional in nature.",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk4",
+                    "text": "Data is relational.",
+                    "is_correct": true
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 1008137,
+          "key": "9832881d-3362-48e0-95a3-040bcde3d05d",
+          "title": "ELT",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "9832881d-3362-48e0-95a3-040bcde3d05d",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1008058,
+              "key": "136082c9-ff84-4f5a-9ddc-220402286d77",
+              "title": "ELT Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# ELTs",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1008068,
+              "key": "37249ecd-82fe-4f0a-bad9-76330b72e631",
+              "title": "NDO30 DPMND C2 L4 05 Introduction To ELT",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "2Qgydu9fG84",
+                "china_cdn_id": "2Qgydu9fG84.mp4"
+              }
+            },
+            {
+              "id": 1008019,
+              "key": "5bf29113-b218-4c57-87d5-e617c18967f4",
+              "title": "ELT Image",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/March/5e78f42f_image22/image22.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/5bf29113-b218-4c57-87d5-e617c18967f4",
+              "caption": "ELT Overview",
+              "alt": "ELT Overview",
+              "width": 1450,
+              "height": 895,
+              "instructor_notes": null
+            },
+            {
+              "id": 1008022,
+              "key": "8cbf887e-7a41-479e-9ae6-b636ddadf70a",
+              "title": "What is ELT",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### What is an ELT\nIn ELT, pipeline data can be extracted from various data sources. This data could be structured, unstructured, or semi-structured data. Data is loaded in data storage such as Data Lake. Transformation is still required before data can be used. This happens after data has been loaded in Data Lake. ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1008044,
+              "key": "6af064f6-e8df-49e3-b356-0d9dd7a9f47a",
+              "title": "What is ELT Quiz",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "6af064f6-e8df-49e3-b356-0d9dd7a9f47a",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "ELT is",
+                "answers": [
+                  {
+                    "id": "rbk1",
+                    "text": "When you extract data after it is loaded.",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk2",
+                    "text": "When you transform data after it is loaded.",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk3",
+                    "text": "When you transform data before it is extracted or loaded.",
+                    "is_correct": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 1008131,
+          "key": "38480b8a-95f3-41fe-9606-b5399fa8ec4d",
+          "title": "Challenges with ELT",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "38480b8a-95f3-41fe-9606-b5399fa8ec4d",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1008063,
+              "key": "ffe6ac5f-379f-4cfb-80a3-8d7e095708da",
+              "title": "Challenges with ELT Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Challenges with ELT",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1008021,
+              "key": "a19e70b5-3a47-4c90-a3ca-edfecf50bb64",
+              "title": "NDO30 DPMND C2 L4 06 Challenges With ELT",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "YdBGLB5eplg",
+                "china_cdn_id": "YdBGLB5eplg.mp4"
+              }
+            },
+            {
+              "id": 1008047,
+              "key": "fd1c7714-3b3d-4bae-88d0-fc446793762f",
+              "title": "Challenges with ELT",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### ELT Challenges\n- **Expensive**: ELT pipelines generally deal with huge volumes of structured and unstructured data. Scalability is a necessity for ELT pipelines. If data storage and data processing are a concern, ELT might not be the solution. \n- **New**: ELT is less mature and less reliable than ETL. It is still evolving; it is hard to find resources with expertise in this domain. \n- **Corner Cases**: ETL requires stringent standards to avoid security risk and removing, masking or encrypting data might be harder",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1008056,
+              "key": "20ddf055-0a5b-4f04-96e0-7217ddc11ac0",
+              "title": "ELT Challenges",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "20ddf055-0a5b-4f04-96e0-7217ddc11ac0",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which of the following is not true for ELTs",
+                "answers": [
+                  {
+                    "id": "rbk1",
+                    "text": "Less mature tech",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk2",
+                    "text": "Hard to find resources",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk3",
+                    "text": "Needs lots of storage",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk4",
+                    "text": "Better than ETLs",
+                    "is_correct": true
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 1008145,
+          "key": "cce7542d-20ed-4892-8c65-d81a4738760e",
+          "title": "When to use ELT",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "cce7542d-20ed-4892-8c65-d81a4738760e",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1008066,
+              "key": "b6197518-1821-4fff-9327-1085d14028ce",
+              "title": "When to use ELT Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# When to Use ELT",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1008114,
+              "key": "ff7f2ec9-977e-4001-a434-f339682ded24",
+              "title": "NDO30 DPMND C2 L4 07 When To Use ELT",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "z6bnP5QAm08",
+                "china_cdn_id": "z6bnP5QAm08.mp4"
+              }
+            },
+            {
+              "id": 1008034,
+              "key": "04026e43-5759-4e31-bc5c-4f49238c3499",
+              "title": "when to use elt image",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/March/5e78f493_image6/image6.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/04026e43-5759-4e31-bc5c-4f49238c3499",
+              "caption": "Example of when to use ELTs: Big Data",
+              "alt": "Example of when to use ELTs: Big Data",
+              "width": 1302,
+              "height": 538,
+              "instructor_notes": null
+            },
+            {
+              "id": 1008057,
+              "key": "1bbaff9b-45cb-4340-8ade-6f629a1ab637",
+              "title": "When to use ELT",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### When should you use ELT?\n\n**Source and Target Database are of the same type**\n\nOne use case of ELT could be when the source and target database are of the same type. An example being an Oracle source and Oracle target. There would be no reason to do unnecessary processing before loading data from the source Oracle database to the destination Oracle database?\n\n**Huge Data Volumes**\n\n\nWhen data volumes are huge, you do not want to process anything and everything under the Sun. This is the reality for most enterprises. Data volumes are huge; hence ELTs might work better as they won’t become bottlenecks. \n\n**Data is unstructured or mixed structure**\n\n\nELTs are better when you have a mix of data types. For a use case of customer sentiment analysis where you might have data such as user reviews, emails, customer care chat scripts, ELT will work better. \n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1008036,
+              "key": "2f02321d-65e6-4837-be6b-8ba4099a79b9",
+              "title": "When to use ELT",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "2f02321d-65e6-4837-be6b-8ba4099a79b9",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "When should you use ELT",
+                "answers": [
+                  {
+                    "id": "rbk1",
+                    "text": "When data is highly structured and organized",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk2",
+                    "text": "Source and destination are of same type",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk3",
+                    "text": "Data volumes are really high",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk4",
+                    "text": "Data is a mix of all data types",
+                    "is_correct": true
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 1008133,
+          "key": "1584f140-edf7-4e01-acf8-713e898ca2f3",
+          "title": "Data Processing Strategy",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1584f140-edf7-4e01-acf8-713e898ca2f3",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1008078,
+              "key": "9cea7d91-11fa-416f-b71f-df9969d08d6a",
+              "title": "Choose Your Processing Elements Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "At Knapsack, we are building an OLAP ecosystem. What that means is we will have a Data Warehouse and an OLAP server on top of it. ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1058674,
+              "key": "7ccbd653-479d-4f07-b631-601da6bc3539",
+              "title": "Choose Your Elements Quiz",
+              "semantic_type": "TaskListAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "7ccbd653-479d-4f07-b631-601da6bc3539",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "tasks": [
+                "Knowing what we know so far, what are all of the sources of data that should feed into Knapsack's OLAP.",
+                "What type of processing is required batch processing or stream processing for the above use case? Why?",
+                "Do we need an ETL or ELT pipeline? Why?",
+                "For the above use case can you create an illustration of a data pipeline which has following: Data Producers, Data Processing elements and Data Consumer in an OLAP Data Warehouse."
+              ],
+              "positive_feedback": "Well done. See how you did on then next page of the classroom. ",
+              "video_feedback": null,
+              "description": "\nUse your template document to answer the following:"
+            }
+          ]
+        },
+        {
+          "id": 1008132,
+          "key": "5059fc3a-2349-46f1-9aa0-b8f2b0b061e3",
+          "title": "Data Processing Strategy Solution",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "5059fc3a-2349-46f1-9aa0-b8f2b0b061e3",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1008075,
+              "key": "85169cb7-66e5-4b07-b16b-dcab9ff3724e",
+              "title": "Choose Your Processing Elements Solution Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Data Processing Strategy Solution",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1008077,
+              "key": "3e21968d-3da1-461b-af30-0270c027026e",
+              "title": "NDO30 DPMND C2 L4 08 Choose Your Processing Elements",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "PnQZYf-WId8",
+                "china_cdn_id": "PnQZYf-WId8.mp4"
+              }
+            },
+            {
+              "id": 1008055,
+              "key": "871377fb-9a95-4e9b-9dea-7ae34797c02f",
+              "title": "Choose Elements img",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/March/5e78f515_image23/image23.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/871377fb-9a95-4e9b-9dea-7ae34797c02f",
+              "caption": "Knapsack -OLAP Data Pipeline",
+              "alt": "Knapsack -OLAP Data Pipeline",
+              "width": 1999,
+              "height": 1052,
+              "instructor_notes": null
+            },
+            {
+              "id": 1008065,
+              "key": "ec535153-f273-4873-88e7-a48e46ed4c37",
+              "title": "Choose Your Processing Elements",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Putting everything together using the image above.\nHere is what our data pipeline might look like. \n\nWe have data sources\n- OLTP DB\n- Simply Accounting DB\n- Just Sale DB\n\nWe have our ETL processes running, and we have data being loaded to an OLAP data warehouse. \n\n\nData from here goes to an OLAP server, where it is used for business reporting and building historical sales trends.\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1008141,
+          "key": "b657e16f-6dd6-417e-933b-b834706dc11a",
+          "title": "Data Storage",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "b657e16f-6dd6-417e-933b-b834706dc11a",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1008014,
+              "key": "48051f41-e646-47c7-a786-ecfab1d1b87c",
+              "title": "Data Storage Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Data Storage",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1008105,
+              "key": "ac7c9d56-377a-4e09-86a4-a73b5e14f600",
+              "title": "NDO30 DPMND C2 L4 09 Database Definition",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "qSPNpFfdjzY",
+                "china_cdn_id": "qSPNpFfdjzY.mp4"
+              }
+            },
+            {
+              "id": 1008104,
+              "key": "605d2259-7afb-4736-a4d1-54ded7bd4cf7",
+              "title": "Databases vs DHW image",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/March/5e78f55e_image4/image4.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/605d2259-7afb-4736-a4d1-54ded7bd4cf7",
+              "caption": "DB vs Data Warehouse",
+              "alt": "DB vs Data Warehouse",
+              "width": 1196,
+              "height": 630,
+              "instructor_notes": null
+            },
+            {
+              "id": 1008088,
+              "key": "003ef090-22f1-4998-bd4f-d51bf10fa28d",
+              "title": "Database Definition",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "\nA **[database](https://en.wikipedia.org/wiki/Database)** is an organized collection of data, generally stored and accessed electronically from a computer system.\n\nA **[data warehouse](https://aws.amazon.com/data-warehouse/)** is a central repository of information that can be analyzed to make better-informed decisions. Data flows into a data warehouse from transactional systems, relational Databases, and other sources, typically on a regular cadence. \n\nTo summarize, Data Warehouses are required to store large quantities of historical data and provide fast, complex queries across all the data, mostly using OLAPS. Databases focus on storing current transactional data to enable fast access to specific data for business processes. This is how OLTPs work.\n\n### Types of Database\nDatabases can be categorized into two major classes SQL Databases and No SQL Databases. \n\n**SQL Databases** are the classic category of Databases they store data in tables, data is relational in nature and can be queried using SQL. **Schemas** need to be defined. A **Schema** is nothing but an organization of data as a blueprint of how the  Databases is constructed. \n\nCommon SQL Databases are [MS SQL Server](https://en.wikipedia.org/wiki/Microsoft_SQL_Server), [Oracle](https://www.oracle.com/database/) and [MySQL](https://en.wikipedia.org/wiki/MySQL) \n\n**No SQL Databases**\n- **Document oriented**\n\nDocument oriented Databases do not have a fixed schema. Data is stored in JSON documents, each document can have different fields common examples are [Mongo DB](https://en.wikipedia.org/wiki/MongoDB), [CouchDB](https://docs.couchdb.org/) or [Documentdb](https://en.wikipedia.org/wiki/Amazon_DocumentDB)\n- **Columnar Databases**\n\nIn columnar Databases data is stored in columns instead of how it is stored in rows in relational DBs. Column based queries can run fast on these DBs. It is much easier in columnar Databases to add columns than their counterpart relational DBs. One common example of the most popular columnar  Databases is [Cassandra](https://en.wikipedia.org/wiki/Cassandra).\n\n- **Key-Value Databases**\n\nIn key-value Databases, values are stored with unique keys. These Databases are much simpler and capable of reads and write. Examples of key-value Databases are [Redis](https://en.wikipedia.org/wiki/Redis) and [Amazon DynamoDB](https://en.wikipedia.org/wiki/Amazon_DynamoDB).\n\n- **Graph Databases**\n\nIn graph Databases, data is stored as a network. These Databases focus on connections between data points and are used for the analysis of relationships between data points. Examples of graph Databases are [Infinite Graph](https://en.wikipedia.org/wiki/InfiniteGraph) and [Neo4j](https://en.wikipedia.org/wiki/InfiniteGraph). ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1008073,
+              "key": "3d9b26a8-65e4-46e5-8ec1-6fde12644ce2",
+              "title": "Database Quiz",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "3d9b26a8-65e4-46e5-8ec1-6fde12644ce2",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "A database is ",
+                "answers": [
+                  {
+                    "id": "rbk1",
+                    "text": "a  physical storage unit",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk2",
+                    "text": "storage that gets data from multiple applications",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk3",
+                    "text": "A storage for OLAP systems, because it gets data from various places",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk4",
+                    "text": "a structured set of data held in a computer, especially one that is accessible in various ways",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1008048,
+              "key": "728cfb6f-fec7-4762-8be1-4bfe79850b1c",
+              "title": "Types of Database Quiz",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "728cfb6f-fec7-4762-8be1-4bfe79850b1c",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which of the following are true?",
+                "answers": [
+                  {
+                    "id": "rbk1",
+                    "text": "NoSQL Databases are great for relational datasets",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk2",
+                    "text": "Document oriented Databases do not need fixed Schema",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk3",
+                    "text": "SQL Databases can be queried using structured query language",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk4",
+                    "text": "In columnar Databases it is hard to change columns",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1008100,
+              "key": "bcc341d1-412a-4010-87c2-02d7c2dcf77f",
+              "title": "Database and Data Warehouse Quiz",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "bcc341d1-412a-4010-87c2-02d7c2dcf77f",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which of the following are not true?",
+                "answers": [
+                  {
+                    "id": "rbk1",
+                    "text": "Database and Data warehouse are different names for the same thing.",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk2",
+                    "text": "Data warehouse get data from multiple applications",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk3",
+                    "text": "Database are primarily used for business analytics",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk4",
+                    "text": "Data warehouse are great for OLTP applications",
+                    "is_correct": true
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 1008153,
+          "key": "1b2d827a-988a-4b37-af84-6bd48d117bfb",
+          "title": "Database Selection Criterion",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1b2d827a-988a-4b37-af84-6bd48d117bfb",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1008067,
+              "key": "8ce5a82c-5229-418e-b3cc-3709482a7447",
+              "title": "Database Selection Criterion Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Database Selection Criterion",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1008119,
+              "key": "ad39a245-0c27-4c80-a28b-4418dc444921",
+              "title": "NDO30 DPMND C2 L4 10 Database Selection Criterion",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "YTOqijz3NA8",
+                "china_cdn_id": "YTOqijz3NA8.mp4"
+              }
+            },
+            {
+              "id": 1008064,
+              "key": "e7489056-9086-4c53-abab-728d55068888",
+              "title": "Database Selection Criterion Recap",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Choosing the right Database\n\nHere are some tips. \n- Look at the possible structure of your data? \n    - clearly relational such as transactional data\n    - can it be mapped to key-value pairs like user comments or ratings?\n- What is the size of the data? \n    - Big data or regular data. \n- What are the latency requirements?\n    - used for reporting where data can be made available in minutes or hours \n    - Is it needed for real-time use cases such as upsell/cross-sell? \n- What are the core requirements of this DB? \n    - are the operations read-heavy or write-heavy \n    - will it be needed for search operations \n\n### SQL Databases or Relational DB\n- Most mature and stable category of Databases -> Security\n- Structured Data\n- Financial applications or defense\n\n### Document Oriented\n- Schema Free\n- Semi-structured  or Unstructured Data\n- Content Management System: WordPress\n\n### Columnar DB\n- [Eventual Consistency](https://hackernoon.com/eventual-vs-strong-consistency-in-distributed-Database-282fdad37cf7)\n- Query on subset of Column\n- Data Science\n\n### Key Value\n- Simple key-value data\n- Unstructured Data\n- Customer Reviews\n\n### Graph\n- Graph like data\n- Connections, nearest neighbor -> Focus on relationships\n- Social Networks",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1008109,
+              "key": "043bda9d-61da-42a0-a79e-cd6f8a607db8",
+              "title": "Selection Quiz",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "043bda9d-61da-42a0-a79e-cd6f8a607db8",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which of the following is not a database selection criterion",
+                "answers": [
+                  {
+                    "id": "rbk1",
+                    "text": "Structure of data generated",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk2",
+                    "text": "Timeliness requirements",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk3",
+                    "text": "When is data generated - Monday vs Friday.",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1058676,
+              "key": "867b801a-0888-4d16-948c-59a931e8f68c",
+              "title": "Database Selection Quiz",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "867b801a-0888-4d16-948c-59a931e8f68c",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which of the following are something to consider for a database selection criterion",
+                "answers": [
+                  {
+                    "id": "rbk1",
+                    "text": "Structure of data generated",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk2",
+                    "text": "Timeliness requirements",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk3",
+                    "text": "Size of the data",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk4",
+                    "text": "Use case of the database",
+                    "is_correct": true
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 1008146,
+          "key": "dd4dfc23-892b-42f5-aec5-be2bf97630d8",
+          "title": "Data Warehouse",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "dd4dfc23-892b-42f5-aec5-be2bf97630d8",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1008108,
+              "key": "11b5c2f9-fdc5-4939-b856-af49ffc27b4b",
+              "title": "Data Warehouse Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Data Warehouses",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1008076,
+              "key": "2b143a4d-3f10-4c48-b064-d1fb676a6f20",
+              "title": "NDO30 DPMND C2 L4 11 Data Warehouse",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "FVAYq2wV0YI",
+                "china_cdn_id": "FVAYq2wV0YI.mp4"
+              }
+            },
+            {
+              "id": 1008110,
+              "key": "5ea7662d-bfcc-4cd9-94a1-36e26312f342",
+              "title": "DWH Image",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/March/5e78f5c7_image12/image12.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/5ea7662d-bfcc-4cd9-94a1-36e26312f342",
+              "caption": "Data Warehouse Overview",
+              "alt": "Data Warehouse Overview",
+              "width": 1576,
+              "height": 846,
+              "instructor_notes": null
+            },
+            {
+              "id": 1008069,
+              "key": "1c6675b1-ad42-46c4-b4a9-11c5ccd756b7",
+              "title": "Data Warehouse",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "#### Quick Reminder:\nA **[data warehouse](https://aws.amazon.com/data-warehouse/)** is a central repository of information that can be analyzed to make better-informed decisions. Data flows into a data warehouse from transactional systems, relational databases, and other sources, typically on a regular cadence.\n\n### Advantages\n- Data consolidated at one place\n- Speed\n- Enriched data -> Better Business Intelligence\n- Better decision making\n- Improved Data Quality\n\n### Disadvantages/Limitations\n- Could be Costly\n- Requires continuous cleaning, transformation and data integration\n- Not helpful for real-time decision making\n- Once implemented adding a new data source might be challenging\n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1008117,
+              "key": "9272e0c4-758d-490c-91a0-8c94b7fde9d3",
+              "title": "DW Quiz",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "9272e0c4-758d-490c-91a0-8c94b7fde9d3",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "A data warehouse is not...",
+                "answers": [
+                  {
+                    "id": "rbk1",
+                    "text": "A central repository of data",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk2",
+                    "text": "A network connecting Multiple Database across the organization",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk3",
+                    "text": "A storage that can be used to analyze data and make informed decisions",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk4",
+                    "text": "A place where data from all other Database or data sources might come",
+                    "is_correct": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 1008143,
+          "key": "e22d26eb-f8a1-4b63-9a75-fb9a3a6e6cc8",
+          "title": "When to use Data Warehouse",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "e22d26eb-f8a1-4b63-9a75-fb9a3a6e6cc8",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1008085,
+              "key": "770ff42a-fe17-4797-8e54-9c552c2861f1",
+              "title": "NDO30 DPMND C2 L4 12 When To Use Data Warehouse Heading",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "od3QPUHHEnE",
+                "china_cdn_id": "od3QPUHHEnE.mp4"
+              }
+            },
+            {
+              "id": 1008043,
+              "key": "caaafeee-835f-44c9-a39f-9843687ab0f2",
+              "title": "When Data Warehouse",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## When to use Data Warehouse\n\n- Multiple Database across the organization\n- Large Database\n- Lots of historical data. \n- DWHs are best for data mining in such scenarios. \n- Market research analysis. When large volumes of data are needed to do in-depth analysis with multiple dimensions of data help\n- User behavior analysis needs a large volume of data, and data is needed from multiple sources.\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1008112,
+              "key": "645230ea-c75b-41c8-848c-0c4afa87b55b",
+              "title": "DW Quiz",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "645230ea-c75b-41c8-848c-0c4afa87b55b",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "When should you use a Data Warehouse...",
+                "answers": [
+                  {
+                    "id": "rbk1",
+                    "text": "When data needs to be combined from various Database",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk2",
+                    "text": "When large volumes of data needs to be analyzed",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk3",
+                    "text": "When data needs to be analyzed on multiple dimensions",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk4",
+                    "text": "When you need to process huge historical data",
+                    "is_correct": true
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 1008140,
+          "key": "a1ae106e-c33c-4c0b-a67d-fe5b8a688577",
+          "title": "Data Lake",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "a1ae106e-c33c-4c0b-a67d-fe5b8a688577",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1008107,
+              "key": "ea89d708-8ae7-4a8d-9b0c-5c492ade1c83",
+              "title": "NDO30 DPMND C2 L4 13 Data Lake Heading",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "EYLqZLKhz8Y",
+                "china_cdn_id": "EYLqZLKhz8Y.mp4"
+              }
+            },
+            {
+              "id": 1008071,
+              "key": "53a36f35-c7dd-4619-a774-f9b8537d12a8",
+              "title": "DL Image",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/March/5e78f628_image22/image22.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/53a36f35-c7dd-4619-a774-f9b8537d12a8",
+              "caption": "Data Lake Example",
+              "alt": "Data Lake Example",
+              "width": 1450,
+              "height": 895,
+              "instructor_notes": null
+            },
+            {
+              "id": 1008126,
+              "key": "3f09be15-e0c7-4dce-8474-adcd36d981c5",
+              "title": "Data Lake",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Data Lakes\n\nA **[data lake](https://en.wikipedia.org/wiki/Data_lake)** is a system or repository of data stored in its natural/raw format,usually object blobs or files. \n\nBroken down the definition of what data lake is:\n- A Repository of Data that Stores data in its natural form \n- Usually a single store of all enterprise data \n- Used for reporting, visualization, advanced analytics, and machine learning \n- Has structured, semi-structured and unstructured data\n\n### Advantages\n\n- A vast amount of data can be stored. \n- It can be\n    - Structured \n    - Semi-structured  \n    - Unstructured data \n- Processing before loading not required\n- Highly Agile\n\n### Disadvantages/Limitations\n- Maturing Technology\n- Data Governance\n- Low-cost storage might encourage unnecessary data accumulation\n- Privacy Issues\n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1008026,
+              "key": "613f3052-53cb-4446-a4d6-2bbf3b9a9e0d",
+              "title": "Data Lakes",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "613f3052-53cb-4446-a4d6-2bbf3b9a9e0d",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which of the following is true for data lakes...",
+                "answers": [
+                  {
+                    "id": "rbk1",
+                    "text": "It has a long and complex definition, but is a simple concept.",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk2",
+                    "text": "Data can be stored as it comes and does not need to be processed.",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk3",
+                    "text": "Is good for all kinds of data - structured, unstructured or semi-structured.",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk4",
+                    "text": "Is a relatively new concept",
+                    "is_correct": true
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 1008147,
+          "key": "2267819b-8d29-46a8-8b56-eee4df05e7c0",
+          "title": "When to use Data Lake",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2267819b-8d29-46a8-8b56-eee4df05e7c0",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1008074,
+              "key": "4403c5fb-9214-4357-9924-d638db5d05bf",
+              "title": "When  DL Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# When to use Data Lake",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1008115,
+              "key": "5fd49d28-51c4-4c05-b234-1cb809564f01",
+              "title": "NDO30 DPMND C2 L4 14 When To Use Data Lake Heading",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "PcL9xeGnJh8",
+                "china_cdn_id": "PcL9xeGnJh8.mp4"
+              }
+            },
+            {
+              "id": 1008042,
+              "key": "84cec49c-f9b1-4f71-b73d-381ae9acb2dc",
+              "title": "Recap",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## When to use a Data Lake\n\n- Experimental Analysis\n\nData lakes can be used for experimental analysis of data, where you are still not sure and want to have a proof of concept before investing in an end-to-end data pipeline. ELTs make it easy to use Data lakes for such experimental analysis. \n\n-  Cybersecurity \n\nCybersecurity data collection and analysis is a great use case of data lakes. Any enterprise devices such as laptops, servers, cloud computing devices, and virtual systems all are vulnerable. Add connected devices to this mix. It becomes a big data problem that can be solved using Data lakes. \n\n- Customer Data Platform\n\nData Lakes can be used to build customer data platforms to provide rich customer insights. Data for such platforms can come from various sources such as \n- customer profile Databases\n- web and mobile events\n- brick and mortar systems\n- loyalty systems\n- service center data \n\nThis data can be of any type of structured, semi-structured, or unstructured. Data Lakes work best for such use cases. ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1008084,
+              "key": "9654d5e3-4e12-4b0c-ae9a-1ff4e6e3ef05",
+              "title": "DL Quiz 2",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "9654d5e3-4e12-4b0c-ae9a-1ff4e6e3ef05",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "When should you use Data Lake",
+                "answers": [
+                  {
+                    "id": "rbk1",
+                    "text": "If it is not completely clear what data needs to be used.",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk2",
+                    "text": "When data needs to be collected from very many sources, and is of all types.",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk3",
+                    "text": "When ELT is the best processing strategy",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk4",
+                    "text": "When you have big data problems",
+                    "is_correct": true
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 1008148,
+          "key": "ac367e60-6b5a-450d-b91d-6bca927cbcc8",
+          "title": "Data Warehouse vs Data Lake",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "ac367e60-6b5a-450d-b91d-6bca927cbcc8",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1008096,
+              "key": "7e3c63c7-26b4-41ec-8ab6-79a70a49f68a",
+              "title": "NDO30 DPMND C2 L4 15 Data Warehouse Vs Data Lake Heading",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "qdoK-sUxtdY",
+                "china_cdn_id": "qdoK-sUxtdY.mp4"
+              }
+            },
+            {
+              "id": 1008111,
+              "key": "b2b883bf-176f-4d25-813c-12caa77b32f4",
+              "title": "dl vs dwh image",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/March/5e78f6f3_image24/image24.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/b2b883bf-176f-4d25-813c-12caa77b32f4",
+              "caption": "Key Differences Between Data Warehouses and Data Lakes",
+              "alt": "Key Differences Between Data Warehouses and Data Lakes",
+              "width": 1144,
+              "height": 598,
+              "instructor_notes": null
+            },
+            {
+              "id": 1008097,
+              "key": "b31eaede-c235-45ce-b8c2-929417aabb01",
+              "title": "DW v DL Image",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/March/5e78f703_image15/image15.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/b31eaede-c235-45ce-b8c2-929417aabb01",
+              "caption": "When should you use DWH and when you should use DL?",
+              "alt": "When should you use DWH and when you should use DL?",
+              "width": 1846,
+              "height": 458,
+              "instructor_notes": null
+            },
+            {
+              "id": 1008098,
+              "key": "f29432a3-a68e-4463-a59d-fae153ba5d35",
+              "title": "Data Warehouse vs Data Lake",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Data Warehouse vs. Data Lake\n\nWhen should you use Data Warehouses, and when should you use Data Lakes?\n#### Type of Data\n\nWhen you have unstructured and structured data from various company data, sources use a data lake. When you have Historical data that has been structured to fit a relational database schema, use Data Warehouses.\n\n#### Purpose\n\nWhen you need cost-effective big data storage, use a Data Lake. When you need to store data to run analytics for business decisions, use Data Warehouses.\n\n#### Users\n\nData Lake users are often data scientists and engineers, whereas Data Wharehouse users are data analysts and business analysts.\n\n#### Workload\nData Lakes are suitable for storing massive data and big data analytics, like deep learning and real-time analytics. Data Warehouses are ideal for a smaller set of data compared to DL and are used for typical read-only queries that aggregate or summarize data.\n\n#### Size\nData Lakes store all data that might be used and can take up to petabytes! Data Warehouses store only data relevant to the analysis.\n\n#### Neither/Both?\nSometimes neither or both are better, while there are specific scenarios for each one, most enterprises adopt a hybrid approach. A business may catch all their data in a data lake and build ETL on top of it to feed DWH. For a small business, you might not need either.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1008080,
+              "key": "e6af9f09-808f-45d2-bcf6-c60db5ae6630",
+              "title": "DW vs DL Quiz",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "e6af9f09-808f-45d2-bcf6-c60db5ae6630",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which of the following is True for Data Warehouses(DWHs) and Data Lakes(DLs)?",
+                "answers": [
+                  {
+                    "id": "rbk1",
+                    "text": "The main data consumers for DWHs are data scientists and for DLs are business analysts",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk2",
+                    "text": "For DLs the storage is cheaper so that whatever data we want can be stored. Comparatively DWHs are expensive where only required and relevant data is stored.",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk3",
+                    "text": "DWHs are more agile compared to DLs.",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk4",
+                    "text": "DWHs are best when data requirements are clearly defined and data is not unstructured or semi-structured. DLs can be used in other cases.",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1058675,
+              "key": "ca13d975-448c-4cb3-961b-ee286472e312",
+              "title": "Data Elements for Knapsack",
+              "semantic_type": "TaskListAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "ca13d975-448c-4cb3-961b-ee286472e312",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "tasks": [
+                "Structured Data",
+                "Semi-Structured Data",
+                "Unstructured Data"
+              ],
+              "positive_feedback": "Thanks for completing that, check out the next page to see how your answers compare.",
+              "video_feedback": null,
+              "description": "Now it's your turn to figure out what Knapsack's Data storage needs might look like. \nPlease complete the following in your exercise template.\n.\nFor Knapsack, choose a database solution for each of the following:"
+            }
+          ]
+        },
+        {
+          "id": 1008136,
+          "key": "de9b6060-1f2e-4ce8-833c-900b25574dfe",
+          "title": "Data Storage Elements Solution",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "de9b6060-1f2e-4ce8-833c-900b25574dfe",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1008083,
+              "key": "43b52788-43bb-48f2-a55a-2bb032960c78",
+              "title": "NDO30 DPMND C2 L4 16 Choose Your Data Storage Elements Solution",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "LeJnRWEl674",
+                "china_cdn_id": "LeJnRWEl674.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 1008139,
+          "key": "f5809d1c-10cd-4b3f-aada-1ae5554a4f89",
+          "title": "Build vs Buy",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "f5809d1c-10cd-4b3f-aada-1ae5554a4f89",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1008079,
+              "key": "bf7f0a91-ea5b-4d25-87c5-a4884953e90b",
+              "title": "Build vs Buy Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Build vs Buy",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1008082,
+              "key": "53021c80-bb97-4be8-ba22-7ee3d85b5a08",
+              "title": "NDO30 DPMND C2 L4 17 Introduction & Build Vs Buy",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "hd7aSOz8B6c",
+                "china_cdn_id": "hd7aSOz8B6c.mp4"
+              }
+            },
+            {
+              "id": 1008033,
+              "key": "ea09e4bd-1bed-4ada-abc3-44b378824932",
+              "title": "Build vs Buy",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### When to Build\nWhen should you build?\n- When time commitments are critical, and vendors are not able to honor that. \n- You should build if the total cost of building, including development, testing, configuration, and scaling, along with talent and infrastructure, is much lower. \n- If a deep understanding of your business is needed. \n- You should also build when the costs of customization are huge. \n- It is always best to build for reasons of strategic importance that might provide you a competitive advantage. \n\n### When To Buy\nWhen should you buy? \n- If it will take you too long to build.\n- When the overall cost, including Licensing, Implementation, Integration, Customization, support, and infrastructure is much lower. \n- It is always good to buy market-available solutions for problems that are common across enterprises. For example, HR solutions. \n- If the problems have already been solved and there are market leaders available with solutions. For example, buying cloud storage on AWS or on Azure would be better than building it. \n- Buying some of the tech solutions will help you scale more quickly and reduce your speed to market.\n\n### Additional Resources\n[Uber Under Invested in Technology](https://www.zdnet.com/article/uber-we-under-invested-in-technology)\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1008032,
+              "key": "1723e085-f8d0-42bc-8daf-85bd00213e39",
+              "title": "Build vs Buy Quiz",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "1723e085-f8d0-42bc-8daf-85bd00213e39",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which of the following are true?",
+                "answers": [
+                  {
+                    "id": "rbk1",
+                    "text": "Total Cost of Ownership (TCO) is an important piece when deciding to Build or Buy, and can comprise of different costs for Build and different for Buy",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk2",
+                    "text": "It is always very easy to hire people and hence that is not critical to a Build versus Buy decision",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk3",
+                    "text": "If it is related to creating a differentiation in the market or value proposition, you should lean towards Building",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk4",
+                    "text": "Building in-house is important if you want to scale. Buying from outside might slow you down.",
+                    "is_correct": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 1008149,
+          "key": "46fd730e-7b4e-452c-be68-38323104e450",
+          "title": "Open Source vs Commercial",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "46fd730e-7b4e-452c-be68-38323104e450",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1008118,
+              "key": "f68aa8ad-f798-4530-bb11-a75f5c82f25b",
+              "title": "Open Source vs Commercial Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Open Source vs Commercial",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1008089,
+              "key": "a0a28182-60ab-43b0-b714-062ba2588172",
+              "title": "NDO30 DPMND C2 L4 18 Open Source Vs Commercial",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "-siHR3eephI",
+                "china_cdn_id": "-siHR3eephI.mp4"
+              }
+            },
+            {
+              "id": 1008106,
+              "key": "40a522f6-a974-4147-8deb-61bca3599c62",
+              "title": "Open Source",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/March/5e78f797_image21/image21.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/40a522f6-a974-4147-8deb-61bca3599c62",
+              "caption": "When to use Open Source",
+              "alt": "When to use Open Source",
+              "width": 1999,
+              "height": 1050,
+              "instructor_notes": null
+            },
+            {
+              "id": 1008092,
+              "key": "b00366ef-f083-4eab-b1e3-bebfab3113b4",
+              "title": "Open Source vs Commercial",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "**[Open-source software (OSS)](https://en.wikipedia.org/wiki/Open-source_software)** is a type of computer software in which source code is released under a license in which the copyright holder grants users the rights to study, change, and distribute the software to anyone and for any purpose.\n\n## When to use Open Source\nUse Open Source:\n- If someone has already created what you need.  \n- When the code is well supported by its community. \n- When Total Cost of Ownership (TCO) is low \n- When it  aligns with what your brand stands for \n- When you need source code not just an application",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1008095,
+              "key": "cdba20e1-a77d-431e-8c1a-06454b0e43ca",
+              "title": "Commercial",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/March/5e78f7bc_image9/image9.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/cdba20e1-a77d-431e-8c1a-06454b0e43ca",
+              "caption": "When to use Commercial",
+              "alt": "When to use Commercial",
+              "width": 1999,
+              "height": 1056,
+              "instructor_notes": null
+            },
+            {
+              "id": 1008061,
+              "key": "cb19fb75-0e7e-4f41-b729-ebed7f10a659",
+              "title": "Use commercial if",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "**Commercial Software** is a software that is built by a person or group to be sold at a price. And depending on the software and price, source code may or may not be included.\n## When to use Commercial Software\nUse commercial software if:\n- Total Cost of Ownership (TOC) is high for open source\n- Security is a big concern \n- It is easier to adapt to your needs\n- it is an Industry standard solution like spreadsheets everybody uses it \n- You need reliable support ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1008090,
+              "key": "515790a4-d3a3-4864-b5c1-cf5db47bcfe1",
+              "title": "OS vs Commercial Quiz",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "515790a4-d3a3-4864-b5c1-cf5db47bcfe1",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which of the following is false?",
+                "answers": [
+                  {
+                    "id": "rbk1",
+                    "text": "You should not use the most popular commercial softwares because your competitor might also be using the same.",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk2",
+                    "text": "Support is not important because you can always train people to support functionalities and they can always solve problems for you.",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk3",
+                    "text": "TCO is an important factor even for Open Source versus Commercial.",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk4",
+                    "text": "You never need source code for the software you buy.",
+                    "is_correct": true
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 1008144,
+          "key": "62fe9961-94c8-4c69-bd26-a0245b799033",
+          "title": "Cloud vs On-Prem",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "62fe9961-94c8-4c69-bd26-a0245b799033",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1008086,
+              "key": "d08bd2c7-ee3f-4a41-bc49-291f7b252a86",
+              "title": "Cloud vs On-Prem Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Cloud vs On-Prem",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1008051,
+              "key": "7c47a023-c563-40c4-aa02-68a59797a8b5",
+              "title": "NDO30 DPMND C2 L4 19 Cloud Vs On-Prem",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "WrkSCsp-Xqo",
+                "china_cdn_id": "WrkSCsp-Xqo.mp4"
+              }
+            },
+            {
+              "id": 1008099,
+              "key": "baa1c174-91e1-4b6c-a947-cf7c35515351",
+              "title": "Cloud vs On-Prem",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "**[Cloud computing](https://en.wikipedia.org/wiki/Cloud_computing)** is the on-demand availability of computer system resources, especially data storage and computing power, without direct active management by the user. The term is generally used to describe data centers available to many users over the Internet while **On-Prem or on-premise** is referred to as building and owning computing infrastructure within the physical confines of an enterprise.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1008125,
+              "key": "b0d46ded-73e3-4473-aeb8-5d5664d89ea9",
+              "title": "Cloud Image",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/March/5e78f830_image26/image26.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/b0d46ded-73e3-4473-aeb8-5d5664d89ea9",
+              "caption": "When to use Cloud",
+              "alt": "When to use Cloud",
+              "width": 1999,
+              "height": 1052,
+              "instructor_notes": null
+            },
+            {
+              "id": 1008116,
+              "key": "5cc6e053-34fd-4feb-93c5-2769e28acc25",
+              "title": "When to Use Cloud text",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Cloud \nYou should use cloud computing if you need \n- Scalability & agility for quick deployments\n- Accessibility from anywhere\n- To have low infrastructure costs in the long term \n- Less control over security and compliance\n- An always-available support model. \n\nMoving to cloud computing also frees up your resources, and you can focus on innovation.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1008038,
+              "key": "94d45a4a-776f-452e-ab2e-081ff3d46ee7",
+              "title": "OnPrem image",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/March/5e78f846_image16/image16.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/94d45a4a-776f-452e-ab2e-081ff3d46ee7",
+              "caption": "When to use On-prem",
+              "alt": "When to use On-prem",
+              "width": 1682,
+              "height": 894,
+              "instructor_notes": null
+            },
+            {
+              "id": 1008041,
+              "key": "d00eb42e-469f-4b60-8793-aa60128dd21b",
+              "title": "When to use on prem text",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## On-prem\nYou might want to use op-prem if \n- Your total cost of ownership is lower\n- Uptime is a concern, and your on-prem solution provides you with better uptime\n- You want control and governance in your hands \n- When you have latency concerns because your data could be everywhere, across zones, on-prem, etc. \n- Egress is traffic going out of the ecosystem and ingress is traffic entering it\n- If you need huge amounts of data to be transferred between cloud and on-prem constantly, i.e., ingress and egress are high, the cloud might be expensive for you.\n\n### Additional resources\n[On Premise vs. Cloud: Key Differences, Benefits and Risks](https://www.cleo.com/blog/knowledge-base-on-premise-vs-cloud)\n[4 Reasons to Choose On-Premise vs. Cloud for Modern Workloads](https://www.itprotoday.com/cloud-computing/4-reasons-choose-premise-vs-cloud-modern-workloads)\n[Cloud Vs On Premise Software: Which is Best For Your Business?](https://www.xperience-group.com/blog/cloud-vs-on-premise-software/)\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1008072,
+              "key": "8bd031d4-7067-4f17-a472-18e3d2d9cf6d",
+              "title": "Cloud vs On-Prem Quiz",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "8bd031d4-7067-4f17-a472-18e3d2d9cf6d",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which of the following is not True?",
+                "answers": [
+                  {
+                    "id": "rbk1",
+                    "text": "When it comes to cloud vs on-prem, cloud is the answer always because it is new and cool.",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk2",
+                    "text": "Cloud can be expensive if implementation is shoddy.",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk3",
+                    "text": "On-prem always offers better security features and control.",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk4",
+                    "text": "On-prem has been used for so long there must be some reasons, hence we should stick to on-prem.",
+                    "is_correct": true
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 1008150,
+          "key": "e8aa6319-f019-4f30-b6ed-b1dac38a0066",
+          "title": "In-house vs Outsource",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "e8aa6319-f019-4f30-b6ed-b1dac38a0066",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1008122,
+              "key": "ff46b9f1-eb8d-4663-bb47-a7ff311957b4",
+              "title": "In-house vs Outsource Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# In-house/Insource vs Outsource",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1008087,
+              "key": "7191e063-4b65-4b4d-b702-e03ad6cb0340",
+              "title": "NDO30 DPMND C2 L4 20 In-House Vs Outsource",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "Vb7CJ4qOLHQ",
+                "china_cdn_id": "Vb7CJ4qOLHQ.mp4"
+              }
+            },
+            {
+              "id": 1008091,
+              "key": "73aca073-aa49-41ac-827d-93ed79489e2c",
+              "title": "In-house vs Outsource",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Why does this matter in our case? \nBuilding and maintaining a data infrastructure is a huge task. There are various pieces to it. Sometimes you might want to own some parts, and you might want to outsource a few. Data needs a lot of massaging before it can be consumed. You might want to own some critical and strategic pieces. The long term of having inhouse expertise for such data infrastructure pieces could provide a competitive advantage. It might also help in retaining high-quality talent. Outsourcing pieces that do not offer you a competitive advantage might help you scale and focus on core business functions.   \n\nInsourcing is doing a project with internal resources, while outsourcing is getting it done outside your company.\n\n## Insource or Inhouse\nYou should insource when \n- Intellectual Property or IP must remain in-house\n- When an understanding of culture and product is required\n- When the work that needs to be done aligns with core business activities, and when the project deals with sensitive enterprise information such as security data.\n\n## Outsource \nYou should outsource when \n- A variety of skills are needed to complete the project. Outsourcing gives you access to a larger talent pool. \n- You should consider outsourcing when the work does not fall into the category of your core business function. \n- You should also consider outsourcing when you need to scale since it can be cost-effective.\n\n\n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1008040,
+              "key": "8b4b6393-45a1-4dd8-8b80-2546295b04a3",
+              "title": "In-house Quiz",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "8b4b6393-45a1-4dd8-8b80-2546295b04a3",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "When considering Insource or Outsource you should consider... ",
+                "answers": [
+                  {
+                    "id": "rbk1",
+                    "text": "Is it critical to your core business",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk2",
+                    "text": "Is it important that Intellectual property (IP) should remain with the company",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk3",
+                    "text": "A complete picture of the companies requirements to get the work done is needed",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk4",
+                    "text": "It will help in scaling and providing competitive advantage",
+                    "is_correct": true
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 1008154,
+          "key": "e0faaee9-1080-4079-a64f-a3c45315197f",
+          "title": "Security and Compliance",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "e0faaee9-1080-4079-a64f-a3c45315197f",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1008052,
+              "key": "1a1ffe5c-481a-4063-9f56-5607ea334b30",
+              "title": "Security and Compliance Header",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Security and Compliance",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1008123,
+              "key": "f0ba167d-a556-44c3-ab5b-5df1a14d6362",
+              "title": "NDO30 DPMND C2 L4 21 Security And Compliance",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "JzN7Itk3CYY",
+                "china_cdn_id": "JzN7Itk3CYY.mp4"
+              }
+            },
+            {
+              "id": 1008128,
+              "key": "edf8a6fa-2767-45a8-bd49-c885a305fc85",
+              "title": "Security and Compliance",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Security and Compliance\nOne of the most important aspects to keep in mind when building a data strategy is Data Security. There are many regulations and standards in today's world that have to be incorporated into a Data Strategy. If these are not addressed, your company will be open to huge fines for violations. Below you will find most of the critical items to consider, but remember that one of our stakeholders, Security and/or Legal, will help address compliance regulation.\n\n### PII\n**[PII](https://en.wikipedia.org/wiki/Personal_data)**: \"Personal data, also known as personal information or personally identifiable information (PII)is any information relating to an identifiable person.\" \n\n**Keep the following in mind when Handling PII:**\n- Know local laws and definitions\n- Identify where all PII is\n    - **Data at rest**: Data that is stored in a storage device and is not actively used \n    - **Data in motion**: Data that is being used \n- Establish data retention policies\n- Governance and controls\n\n### PCI DSS\n**[PCI DSS](https://en.wikipedia.org/wiki/Payment_Card_Industry_Data_Security_Standard)**: \"The Payment Card Industry Data Security Standard (PCI DSS) is an information security standard for organizations that handle branded credit cards from the major card schemes.\"\n\nIf you have PCI data, you need to follow stringent compliance guidelines, and there will be regular audits. If the procedures are not followed, there will be fines and legal ramifications.\n\n**Core Control Objectives of PCI Data**\n1. Build and Maintain a Secure Network and Systems\n2. Protect Cardholder Data\n3. Maintain a Vulnerability Management Program\n4. Implement Strong Access Control Measures\n5. Regularly Monitor and Test Networks\n6. Maintain an Information Security Policy\n\n### HIPAA\n**[HIPAA](https://en.wikipedia.org/wiki/Health_Insurance_Portability_and_Accountability_Act)**- Health Insurance Portability and Accountability Act\n**Protected Health Information (PHI)- medical record numbers, device identifiers and serial numbers. Any company or individual that comes into contact with PHI must enact and enforce appropriate policies, procedures, and safeguards to protect data.\n\n**Violations lead to**:\n- Termination from Job\n- Sanctions from professional boards\n- Criminal charges including fines and imprisonment\n\n\nMore information: [HIPAA for Dummies](https://www.hipaaguide.net/hipaa-for-dummies)\n\n### GDPR\n**[GDPR](https://en.wikipedia.org/wiki/General_Data_Protection_Regulation)**: General Data Protection Regulation\n- European Union and European Economic Area\n- More control to citizens over their data\n- Fines up to 20 Million Euros or 4% of global turnover\n- Know what you have and why you have it?\n- Where is the data, who uses it, and how is it used?\n- Encryption is key\n- Data Governance is highly recommended\n\n### CCPA\n**[CCPA](https://en.wikipedia.org/wiki/California_Consumer_Privacy_Act)**: California Consumer Privacy Act\n\nThis act gives Californians the right \n- To know what personal information is being collected about them?\n- To Know whether their personal information is sold or disclosed and to whom?\n- To say no to the sale of personal information.\n- To access their personal data.\n- To have equal service and price, even if they exercise their privacy rights. ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1008054,
+              "key": "3adc8af0-7c3b-4710-8e43-c8eedd337636",
+              "title": "Security and Compliance",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "3adc8af0-7c3b-4710-8e43-c8eedd337636",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which of the following are **not** true...",
+                "answers": [
+                  {
+                    "id": "rbk1",
+                    "text": "PII could be a single identifier of a consumer or multiple fields put together, such as First name with phone.",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk2",
+                    "text": "Consumers are responsible for their PII, if they provide a company with PII information, the company can use it the way they want.",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk3",
+                    "text": "Only banks should care about PCI, small websites selling stuff on web don’t need to bother about it",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk4",
+                    "text": "PCI just makes your life hard and does not provide any benefit",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1008081,
+              "key": "1d794860-bc43-4740-ab8a-2a203e607168",
+              "title": "GDPR Quiz",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "1d794860-bc43-4740-ab8a-2a203e607168",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which of the following are True.",
+                "answers": [
+                  {
+                    "id": "rbk1",
+                    "text": "GDPR is only for European citizens so we do not have to be too cautious about data of customer residing outside Europe",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk2",
+                    "text": "The penalties are too heavy and that is the only reason we should comply with GDPR.",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk3",
+                    "text": "We might see regulations like GDPR coming from different parts of the world and hence we need to have a broader and stronger data compliance and data governance machinery.",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk4",
+                    "text": "It makes sense to follow good data practices, GDPR or no GDPR.",
+                    "is_correct": true
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 1008151,
+          "key": "e68a0a24-93fb-499a-8a1d-85cb6facdf4b",
+          "title": "Knapsack Data Strategy Proposal",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "e68a0a24-93fb-499a-8a1d-85cb6facdf4b",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1008121,
+              "key": "0b3601b0-6646-44de-9099-522c3e23707a",
+              "title": "Knapsack Data Strategy MVP",
+              "semantic_type": "TaskListAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "0b3601b0-6646-44de-9099-522c3e23707a",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "tasks": [
+                "Download the Knapsack Data Strategy MVP Proposal Template",
+                "Use your answers from the Data Infrastructure Strategy Exercises spreadsheet and Data Infrastructure Strategy Exercises Template document to help you complete the MVP Proposal!"
+              ],
+              "positive_feedback": "Great, now that you have completed this mini-project, please see the next page in the classroom for my solution. \n\n**As a reminder and as with just about all of the exercises in this course, Product Managers do not work in a vacuum and are part of a larger team who would normally provide input into the entire process. Therefore, your answers are subjective as are mine and it's ok if you came up with something different as long as you can back up your thoughts data and reason.**",
+              "video_feedback": null,
+              "description": "### Knapsack Data Strategy MVP\nBefore you complete your project for this course, you will be completing a mini project on Knapsack's Data strategy, which will help you to complete the final project. \n\nYour problem statement and template for the exercise is in **Knapsack Data Strategy MVP Proposal Template** from the lesson resources to complete the mini-project. This is where all of the hard work in all of the lesson exercises will pay off. You can and should use your answers from the exercises to help fill out your MVP for Knapsack. We have also provided an example solution in a separate file for this exercise. "
+            }
+          ]
+        },
+        {
+          "id": 1008142,
+          "key": "b8065155-6e0d-41a7-8a91-5af09bfd4a68",
+          "title": "Solution Data Strategy Proposal",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "b8065155-6e0d-41a7-8a91-5af09bfd4a68",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1008124,
+              "key": "dfc5de0f-3350-4c7f-a89f-b9eeb7474600",
+              "title": "Knapsack Solution",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "#  Knapsack Data Strategy Proposal Solution\nTo see the solution, please download the *Solution Knapsack Data Strategy Proposal* found in the lesson resources. Thank you again for taking the time to complete this mini-project. You should now be prepared to complete the final project for this course!",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1008152,
+          "key": "d20c2994-b465-49ce-9aef-bc4b2e60dd10",
+          "title": "Data Infrastructure Strategy Recap",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "d20c2994-b465-49ce-9aef-bc4b2e60dd10",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1008050,
+              "key": "a36134df-09ec-4e80-93b2-bfa88adfdbcb",
+              "title": "Data Infrastructure Strategy Recap Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Data Infrastructure Strategy Recap",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1008120,
+              "key": "b22ec63d-be99-490c-a9e8-ea983f604bfc",
+              "title": "NDO30 DPMND C2 L4 22 Data Infrastructure Strategy Recap",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "6_uDreX1lDc",
+                "china_cdn_id": "6_uDreX1lDc.mp4"
+              }
+            },
+            {
+              "id": 1008113,
+              "key": "55c946d5-54e1-4559-b755-2954fd54efcc",
+              "title": "Lesson Overview",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/March/5e78f8ba_image17/image17.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/55c946d5-54e1-4559-b755-2954fd54efcc",
+              "caption": "Lesson content overview",
+              "alt": "Lesson content overview",
+              "width": 630,
+              "height": 200,
+              "instructor_notes": null
+            },
+            {
+              "id": 1008103,
+              "key": "984ffce6-8c93-4780-8dba-0f6bc6fc747e",
+              "title": "Lesson Overview",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Based on what we covered during this lesson, you can now decide on processing pieces, strategize on when you need ETL and when you need ELT,  and you know all about data storage. \n\nYou should be able to differentiate between a database, data warehouse or data lake and select the relevant data storage piece. You should be able to apply strategic nuances for making infrastructure decisions and security and compliance. You can now ensure that you are in compliance while dealing with various types of data. \n\nGreat job getting through this lesson's content, next we'll wrap up the course!\n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1008102,
+              "key": "87cc1aa5-089d-4fcc-86cd-0f2dabf46c2b",
+              "title": "Additional Resources",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Key Terms and Additional Resources:\n- **ETL stands for Extraction, Transformation and Loading** of data. In this type of processing pipeline, data is first extracted from various sources, after that transformed and loaded to a Database or Data Warehouse, from where it is pulled for analysis.\n- **[Data processing](https://en.wikipedia.org/wiki/Data_processing)** is, generally, the collection and manipulation of items of data to produce meaningful information.\n- **[Data extraction](https://en.wikipedia.org/wiki/Data_extraction)** is the act or process of retrieving data out of data sources for further data processing or data storage. \n- **In the [data transformation stage](https://en.wikipedia.org/wiki/Extract,_transform,_load)**, a series of rules or functions are applied to the extracted data in order to prepare it for loading into the end target.\n- **The load phase** loads the data into the end target, which can be any data store including a simple delimited flat file or a data warehouse. **Batch processing**Processing massive data with scheduled jobs at once is batch processing. \n- **Stream Processing** Another type of processing is done in almost real-time, as data comes it is processed.**Extraction, Loading and Transformation** In ELT, pipeline data can be extracted from various data sources, this data could be structured, unstructured or semi-structured data. Data is loaded in data storages such as Data Lake. Transformation is still required before data can be used. This happens after data has been loaded in Data Lake.\n- **[database](https://en.wikipedia.org/wiki/Database)** is an organized collection of data, generally stored and accessed electronically from a computer system.\n- **[data warehouse](https://aws.amazon.com/data-warehouse/)** is a central repository of information that can be analyzed to make better informed decisions. Data flows into a data warehouse from transactional systems, relational Database, and other sources, typically on a regular cadence.\n- **[data lake](https://en.wikipedia.org/wiki/Data_lake)** is a system or repository of data stored in its natural/raw format,usually object blobs or files. \n- **[Open-source software (OSS)](https://en.wikipedia.org/wiki/Open-source_software)** is a type of computer software in which source code is released under a license in which the copyright holder grants users the rights to study, change, and distribute the software to anyone and for any purpose.\n- **Commercial Software** is a software that is built by a person or group to be sold at a price. And depending on software and price source code may or may not be included.\n- **On-Prem or on-premise** is referred to building and owning computing infrastructure within the physical confines of an enterprise.\n- **[Cloud computing](https://en.wikipedia.org/wiki/Cloud_computing)** is the on-demand availability of computer system resources, especially data storage and computing power, without direct active management by the user. \n- **Outsourcing** is getting it done outside your company.\n- **Insourcing** is doing a project with internal resources.\n- **Data at rest**: Data that is stored in storage device and is not actively used \n- **Data in motion**: Data that is being used \n- **[PII](https://en.wikipedia.org/wiki/Personal_data)**: “Personal data, also known as personal information or personally identifiable information (PII)is any information relating to an identifiable person.”\n- **[PCI DSS](https://en.wikipedia.org/wiki/Payment_Card_Industry_Data_Security_Standard)]: “The Payment Card Industry Data Security Standard (PCI DSS) is an information security standard for organizations that handle branded credit cards from the major card schemes.”\n- **Protected Health Information (PHI)- medical record numbers, device identifiers and serial numbers. Any company or individual that comes into contact with PHI must enact and enforce appropriate policies, procedures and safeguards to protect data.\n- **[HIPAA](https://en.wikipedia.org/wiki/Health_Insurance_Portability_and_Accountability_Act)**- Health Insurance Portability and Accountability Act\n- **[GDPR](https://en.wikipedia.org/wiki/General_Data_Protection_Regulation)**: General Data Protection Regulation\n- **[CCPA](https://en.wikipedia.org/wiki/California_Consumer_Privacy_Act)**: California Consumer Privacy Act\n\n### Additional Resources\n- [Uber: We under-invested in technology](https://www.zdnet.com/article/uber-we-under-invested-in-technology/)\n- [Best open source projects from tech company giants](https://www.computerworld.com/article/3412219/best-open-source-projects-from-tech-company-giants.html)",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1008155,
+          "key": "7dec5ece-a1a6-4d5b-8c90-8ad9ef05251e",
+          "title": "Course Overview",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "7dec5ece-a1a6-4d5b-8c90-8ad9ef05251e",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1008046,
+              "key": "aa6ff700-2e12-40d2-bff6-10947274b1c9",
+              "title": "Course Overview Header",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Course Overview",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1008101,
+              "key": "eafc4078-bf67-4582-8a7b-3c24d8270a28",
+              "title": "NDO30 DPMND C2 L4 23 Course Recap",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "igC3VgMN524",
+                "china_cdn_id": "igC3VgMN524.mp4"
+              }
+            },
+            {
+              "id": 1008127,
+              "key": "e45df107-0290-44f6-a097-50990a1e1ea4",
+              "title": "Course Overview Image",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/March/5e78f8e9_image10/image10.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/e45df107-0290-44f6-a097-50990a1e1ea4",
+              "caption": "Course Overview",
+              "alt": "Course Overview",
+              "width": 1999,
+              "height": 1053,
+              "instructor_notes": null
+            },
+            {
+              "id": 1008129,
+              "key": "d41a071e-f9e8-4b69-8f0b-6bd0919be02d",
+              "title": "Course Recap Text",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "That's it! You are at the end of the course! I'm so glad you made it!\n\nYou are just about ready to be able to implement a data strategy in the real world. We've covered data pipelines, what data pipelines are as well as the components of data pipelines. Next, we talked about data consumers, types of data consumers, and data use cases of data consumers. After that, we covered data producers, types of data producers, and different types of data. In our last lesson, we applied a data strategy. In this section, we discussed data processing strategies, data storage choices, data infrastructure strategy, and security and compliance.\n\n\nNow it's time to put all of your new knowledge and skills together to create a complete data strategy in the project for this course! Again, fantastic job making it through the content and exercises for the course!\n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1008093,
+              "key": "10b972be-c2c2-40f7-9afa-d04265ddd666",
+              "title": "Course Glossary",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "| Term  | Definition |\n|-----------------------------|----------------------------------------------------------------------------------------|\n|**API**:| An application program interface (API) is a set of routines, protocols, and tools for building software applications. Basically, an API specifies how software components should interact.|\n|**Batch processing**:|Processing massive data with scheduled jobs at once is batch processing.|\n|**[CCPA](https://en.wikipedia.org/wiki/California_Consumer_Privacy_Act)**:| California Consumer Privacy Act|\n|**[Cloud computing](https://en.wikipedia.org/wiki/Cloud_computing)**| is the on-demand availability of computer system resources, especially data storage and computing power, without direct active management by the user.|\n|**DBMS**:| Database Management System (also known as DBMS) is a software for storing and retrieving users' data by considering appropriate security measures. It allows users to create their own Database as per their requirement.|\n|**[Data extraction](https://en.wikipedia.org/wiki/Data_extraction)**| is the act or process of retrieving data out of data sources for further data processing or data storage.|\n|**[data lake](https://en.wikipedia.org/wiki/Data_lake)**| is a system or repository of data stored in its natural/raw format,usually object blobs or files.\n|**[Data processing](https://en.wikipedia.org/wiki/Data_processing)**| is, generally, the collection and manipulation of items of data to produce meaningful information.|\n|**[data warehouse](https://aws.amazon.com/data-warehouse/)**| is a central repository of information that can be analyzed to make better informed decisions. Data flows into a data warehouse from transactional systems, relational Database, and other sources, typically on a regular cadence.|\n|**[Database](https://en.wikipedia.org/wiki/Database)**| is an organized collection of data, generally stored and accessed electronically from a computer system.|\n|**[GDPR](https://en.wikipedia.org/wiki/General_Data_Protection_Regulation)**:| General Data Protection Regulation|\n|**Flat File**:| A flat file contains records that have no structured interrelationships. A flat file typically consists of a text file, from which all [word processing](https://searchwindowsserver.techtarget.com/definition/word-processor) or other structure characters or [markup](https://whatis.techtarget.com/definition/markup) has been removed.|\n| **[HIPAA](https://en.wikipedia.org/wiki/Health_Insurance_Portability_and_Accountability_Act)**:| Health Insurance Portability and Accountability Act|\n|**[Open-source software (OSS)](https://en.wikipedia.org/wiki/Open-source_software)**| is a type of computer software in which source code is released under a license in which the copyright holder grants users the rights to study, change, and distribute the software to anyone and for any purpose.|\n|**[PCI DSS](https://en.wikipedia.org/wiki/Payment_Card_Industry_Data_Security_Standard)**:| “The Payment Card Industry Data Security Standard (PCI DSS) is an information security standard for organizations that handle branded credit cards from the major card schemes.”|\n|**[PII](https://en.wikipedia.org/wiki/Personal_data)**:| “Personal data, also known as personal information or personally identifiable information (PII)is any information relating to an identifiable person.”|\n|**AI and ML**:| Artificial Intelligence means “making machines intelligent,” so they can make some decisions on their own according to the situations without the need for any human interference. And Machine Learning is “the way to make those machines intelligent.” Machine learning is a subset of AI that focuses on a narrow range of activities.|\n|**Batch Data Use-case**:| Batch processing requires separate programs for input, process, and output. Generally done for periodic data needs such as monthly, weekly, etc. An example is payroll and billing systems.|\n|**Big Data**:| Big Data is described with the “three Vs”, the volume of big-data is measured in terabytes or petabytes, the velocity at which data is generated is high and lastly it has a wide variety of sources such as text files, images, video, audio files, presentations, spreadsheets, email messages, and Database.|\n|**Business Intelligence**:| Business Intelligence is a technology-driven process for analyzing data and presenting actionable information that helps executives, managers, and other corporate end-users make informed business decisions. Some common tools, SAP, Microsoft Power BI.|\n|**Commercial Software**| is a software that is built by a person or group to be sold at a price. And depending on software and price source code may or may not be included.|\n|**Data at rest**:| Data that is stored in storage device and is not actively used|\n|**Data in motion**:| Data that is being used|\n|**Data Normalization**:| Database normalization is the process of structuring a relational database following a series of so-called normal forms to reduce data redundancy and improve data integrity.|\n|**Data Pipeline**:| A set of processes to move data from a source to destination, possibly transforming the data along the way.|\n|**[In the data transformation stage](https://en.wikipedia.org/wiki/Extract,_transform,_load)**|, a series of rules or functions are applied to the extracted data in order to prepare it for loading into the end target.|\n|**Entity Attributes**:| Attributes are the properties that describe it, for a customer entity attributes could be Name, address, email, phone.|\n|**Entity Data**:| Entity data is the data that  is stored in a table, for every entity there is a seperate table, and every table has columns that are attributes describing these entities. One row is dedicated to record one type of entity.|\n|**Entity**:| Entity is a unique object such as customer, product, order etc.|\n|**Extraction, Loading and Transformation**| In ELT, pipeline data can be extracted from various data sources, this data could be structured, unstructured or semi-structured data. Data is loaded in data storages such as Data Lake. Transformation is still required before data can be used. This happens after data has been loaded in Data Lake.|\n|**ETL stands for Extraction, Transformation and Loading**| of data. In this type of processing pipeline, data is first extracted from various sources, after that transformed and loaded to a Database or Data Warehouse, from where it is pulled for analysis.|\n|**Event Data**:| Event data is generated by actions that happen in an application. The scale at which event data is generated is much larger compared to entity data. For every one user using the app, there could be thousands of events. Server logs also generate event data.|\n|**Foreign Key**:| A foreign key is a set of one or more columns that refer to a primary key in another table. A table can have one or more foreign keys. Foreign keys can contain duplicates and can have null values.|\n|**Insourcing**| is doing a project with internal resources.|\n|**IoT**:| The Internet of Things (IoT) is a system of interrelated computing devices, mechanical and digital machines, objects, animals, or people that are provided with unique identifiers (UIDs) and the ability to transfer data over a network without requiring human-to-human or human-to-computer interaction.|\n|**Key**:| A key is an index to a record in a table.|\n| **Normalization**:| Normalization refers to eliminating redundancy. Each table should have data around a specific topic. This eliminates modification complexities and saves on storage.|\n|**On-Prem or on-premise**| is referred to building and owning computing infrastructure within the physical confines of an enterprise.|\n|**Outsourcing**| is getting it done outside your company.|\n|**Primary Key**:| Primary keys are unique identifiers for a record in a table. There is only one primary key in a table. Primary key column cannot be blank or null.|\n|**Protected Health Information (PHI)**:| medical record numbers, device identifiers and serial numbers. Any company or individual that comes into contact with PHI must enact and enforce appropriate policies, procedures and safeguards to protect data.|\n|**QuickBooks**|: QuickBooks is an accounting software geared mainly toward small and medium-sized businesses and offers on-premises accounting applications as well as cloud-based versions that accept business payments, manage and pay bills, and payroll functions.|\n|**Real-Time Data Use-case**|: Real-time data processing involves a continual input, process, and output of data. Data must be processed in a small time period (or near real-time).|\n|**Relational Modeling**:|  Relational modeling is forming relationships between data tables.|\n|**Reporting**:| A report is a document that presents information in an organized format for a specific audience and purpose. Although summaries of reports may be delivered orally, complete reports are almost always in the form of written documents. Business reporting or enterprise reporting refers to both \"the public reporting of operating and financial data by a business enterprise, and \"the regular provision of information to decision-makers within an organization to support them in their work. Some common tools are Sap Crystal Reports, Zoho.|\n|**SaaS**:| Software as a service (SaaS) is a software distribution model in which a third-party provider hosts applications and makes them available to customers over the Internet.|\n|**Salesforce**:| Salesforce is a customer relationship management solution.|\n|**Schema**:| A data schema is a structure for organizing and classifying data in a database. It defines both the data contents and relationships.|\n|**Slack**:| Slack is a cloud-based proprietary instant messaging platform developed by Slack Technologies.|\n|**Stream Processing**:| Another type of processing is done in almost real-time, as data comes it is processed.|\n|**Stripe**:| Stripe is online payment processing for internet businesses. It allows individuals and companies to make and receive payments over the Internet.|\n|**The load phase**| loads the data into the end target, which can be any data store including a simple delimited flat file or a data warehouse.|\n|**Use-case**:| A specific situation in which a product or service could potentially be used.|\n|**Visualization**:| Data visualization is the graphical representation of information and data. By using visual elements like charts, graphs, and maps, data visualization tools provide an accessible way to see and understand trends, outliers, and patterns in data. Some common tools are Tableau, QlikView.|",
+              "instructor_notes": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    }
+  ]
+}

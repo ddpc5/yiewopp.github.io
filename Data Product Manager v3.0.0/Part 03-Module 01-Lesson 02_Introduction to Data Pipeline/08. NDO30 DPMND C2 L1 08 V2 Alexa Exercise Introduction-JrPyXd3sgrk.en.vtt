@@ -1,0 +1,25 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.420
+Wow, we have made it to the end of Part 1.
+
+00:00:03.420 --> 00:00:05.400
+You're doing fantastic so far.
+
+00:00:05.400 --> 00:00:07.965
+This was a bit tricky question,
+
+00:00:07.965 --> 00:00:12.000
+and I'm assuming they will be using AWS Textract.
+
+00:00:12.000 --> 00:00:15.360
+There is no one right way to answer this question.
+
+00:00:15.360 --> 00:00:18.405
+There are multiple ways to design a pipeline.
+
+00:00:18.405 --> 00:00:22.090
+I'll walk you through one possible solution.
+

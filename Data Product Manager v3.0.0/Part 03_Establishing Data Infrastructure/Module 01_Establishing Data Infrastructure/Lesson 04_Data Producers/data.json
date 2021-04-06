@@ -1,0 +1,1389 @@
+{
+  "data": {
+    "lesson": {
+      "id": 982931,
+      "key": "b23090e2-fb7e-46f7-95bf-2517225bca81",
+      "title": "Data Producers",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": "This lesson is about systems or services that produce data.",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": false,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "https://zips.udacity-data.com/b23090e2-fb7e-46f7-95bf-2517225bca81/982931/1594854929081/Data+Producers+Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "https://zips.udacity-data.com/b23090e2-fb7e-46f7-95bf-2517225bca81/982931/1594854925357/Data+Producers+Subtitles.zip"
+          },
+          {
+            "name": "Course Glossary",
+            "uri": "https://video.udacity-data.com/topher/2020/March/5e78d601_course-glossary/course-glossary.pdf"
+          },
+          {
+            "name": "Data Infrastructure Strategy Exercises Template",
+            "uri": "https://video.udacity-data.com/topher/2020/September/5f511b0b_data-infrastructure-strategy-exercises-template/data-infrastructure-strategy-exercises-template.docx"
+          },
+          {
+            "name": "Data Infrastructure Strategy Exercises",
+            "uri": "https://video.udacity-data.com/topher/2020/September/5f511b35_data-infrastructure-strategy-exercises/data-infrastructure-strategy-exercises.xlsx"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 982916,
+          "key": "5e209208-8c21-4b79-8315-2b0176905e0c",
+          "title": "Data Producers",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "5e209208-8c21-4b79-8315-2b0176905e0c",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 982861,
+              "key": "93a500c0-be63-408e-a751-0cb7c82e0f78",
+              "title": "Data Producers Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Data Producers",
+              "instructor_notes": ""
+            },
+            {
+              "id": 982866,
+              "key": "0829a15e-a68d-410d-9690-316febbdbb9e",
+              "title": "NDO30 DPMND C2 L3 01 Data Producer Heading",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "hO00FZcj6C0",
+                "china_cdn_id": "hO00FZcj6C0.mp4"
+              }
+            },
+            {
+              "id": 982865,
+              "key": "287f34f6-11e0-4f81-8200-695053a58bea",
+              "title": "Lesson Overview",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/March/5e5d8739_image7/image7.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/287f34f6-11e0-4f81-8200-695053a58bea",
+              "caption": "Lesson Overview",
+              "alt": "Lesson Overview",
+              "width": 811,
+              "height": 428,
+              "instructor_notes": null
+            },
+            {
+              "id": 982850,
+              "key": "54e64f69-b9db-46a6-911c-3c33c5f14885",
+              "title": "Lesson Overview",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Lesson Overview\n- Data Producers\n- Event Data Continued\n    - Event Data Modeling\n- Data Producers\n- Data Types\n    - Structured, semi-structured and unstructured data\n ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1058661,
+              "key": "1bea869f-7719-48ba-b237-2314ebe2bf3c",
+              "title": "Lesson Exercises",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "#### Important: Keep a Copy of your Exercise Responses in the Template Document\nIt is highly recommended that as you complete the open-ended exercises in this course, you should keep them in the provided template document to refer back to throughout the course. It will be advantageous as you complete the Final Exercise in the course: Knapsack Data Strategy MVP in the Data Strategy section of this course. You can still copy and paste your responses into the text boxes on each page in the course for each exercise if you wish.",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 982918,
+          "key": "02fc4f8c-21a0-4dee-879b-2400146b5bc5",
+          "title": "Data Producer",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "02fc4f8c-21a0-4dee-879b-2400146b5bc5",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 982852,
+              "key": "94e9759a-0634-4914-8564-8168a6c2edd3",
+              "title": "Data Producer Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Who are Data Producers?",
+              "instructor_notes": ""
+            },
+            {
+              "id": 982862,
+              "key": "a5e35d33-8df9-4d46-9e3d-ba0cb4cbe9f0",
+              "title": "NDO30 DPMND C2 L3 02 Who Is A Data Producer-",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "0Ne3ORlSgko",
+                "china_cdn_id": "0Ne3ORlSgko.mp4"
+              }
+            },
+            {
+              "id": 982869,
+              "key": "043d186c-89b1-4b55-90d0-c3ddda43e9ba",
+              "title": "Who is Data Producer?",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "**Data Producer**: A system, service, or user that produces data relevant to a business.\n\nA data consumer can be a data producer. Consider a relational database storing online transactions. It will be a valuable source of shopping trends and patterns for the marketing team. ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 982871,
+              "key": "8841279f-3500-49fd-a18f-cd56a6ed6e3a",
+              "title": "Data Producer Quiz",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "8841279f-3500-49fd-a18f-cd56a6ed6e3a",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Choose the correct answer: Which of the following is true for data producers?",
+                "answers": [
+                  {
+                    "id": "rbk1",
+                    "text": "Only systems can be data producers",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk2",
+                    "text": "Websites can be data producers",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk3",
+                    "text": "Soil moisture sensor can be a data producer",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk4",
+                    "text": "Local SQL DB is not a data producer",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk5",
+                    "text": "Data user can be data producer",
+                    "is_correct": true
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 982919,
+          "key": "9ccb93aa-72ed-46da-a916-827de4591c37",
+          "title": "Event Data",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "9ccb93aa-72ed-46da-a916-827de4591c37",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 982867,
+              "key": "ae1e994d-29fa-4e6d-b22f-8b59a4d503b1",
+              "title": "Event Data Continued...",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Event and Event Data",
+              "instructor_notes": ""
+            },
+            {
+              "id": 982851,
+              "key": "fb326416-ad1a-4b6f-ae08-45f0b23148f1",
+              "title": "NDO30 DPMND C2 L3 03 What Is Event Data",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "unuYgX9E1cA",
+                "china_cdn_id": "unuYgX9E1cA.mp4"
+              }
+            },
+            {
+              "id": 982849,
+              "key": "17eba161-f300-4e67-96f5-eadfce9e7e3e",
+              "title": "lots of data",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/March/5e5d8762_image16/image16.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/17eba161-f300-4e67-96f5-eadfce9e7e3e",
+              "caption": "2.5 Exabytes of data is produced everyday!",
+              "alt": "Data per Day Image",
+              "width": 812,
+              "height": 431,
+              "instructor_notes": null
+            },
+            {
+              "id": 982872,
+              "key": "ea24ae25-ac74-48d0-94c2-4f80bdcc4275",
+              "title": "Event and Event Data",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "In today's world of connected devices and social media, it is estimated that 2.5 exabytes of data is produced every day, which is equal to 90 years of HD video. \n\nA considerable portion of this data is event data. Therefore, event data is essential, it will influence how successfully we navigate data product management.\n\n**An Event** is an interaction or an action at a particular moment by a user, a system, or a sensor. \n\n**Event Data** is generated by such events\nExample:\nWebsite - User Interaction \n- Downloads\n- Link clicks \n- Form submission\n\nSocial Media \n- Shares\n- Likes \n- Mention\n- Hashtags\n\nSystems \n- Data Replication\n- Data Syncing \n- Deletion of jobs\n\nSensors \n- Motion Detection\n- Voice Detection  \n- Smoke Detection \n- Temperature Detection\n\nMajor Event Data Components:\n- Action\n- Timestamp\n- State \n\nAdditional reading: [How Much Data is produced every day](https://www.northeastern.edu/graduate/blog/how-much-data-produced-every-day/)",
+              "instructor_notes": ""
+            },
+            {
+              "id": 982859,
+              "key": "816b2f77-bc03-4d68-b8ac-71ab6901bb01",
+              "title": "event data example",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/March/5e5d8783_image1/image1.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/816b2f77-bc03-4d68-b8ac-71ab6901bb01",
+              "caption": "Example Event Data Table",
+              "alt": "Example Event Data Table",
+              "width": 1463,
+              "height": 202,
+              "instructor_notes": null
+            },
+            {
+              "id": 982868,
+              "key": "6a759e90-0792-4e74-8119-7ea082ac5321",
+              "title": "Event Data Quiz 1",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "6a759e90-0792-4e74-8119-7ea082ac5321",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "What is event data?",
+                "answers": [
+                  {
+                    "id": "rbk1",
+                    "text": "Data of the events you attend in your life",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk2",
+                    "text": "Data that gets generated by user interaction on website",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk3",
+                    "text": "Data that follows entity modeling rules",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk4",
+                    "text": "Data that is generated by smart devices in homes",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 982857,
+              "key": "f62513a7-8b70-480f-84c0-7d5d016a02d5",
+              "title": "Event Data Quiz 2",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "f62513a7-8b70-480f-84c0-7d5d016a02d5",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which of the following is not event data?",
+                "answers": [
+                  {
+                    "id": "rbk1",
+                    "text": "Data generated every time you open a social media app on your phone",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk2",
+                    "text": "Data you query using SQL",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk3",
+                    "text": "Data stored in a DB after an online transaction is completed",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk4",
+                    "text": "Data generated when you click for next set of results on Google",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 982874,
+              "key": "5f24cb25-669f-4681-9991-e0911461760b",
+              "title": "Event Quiz 3",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "5f24cb25-669f-4681-9991-e0911461760b",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which of the following is part of an event data?",
+                "answers": [
+                  {
+                    "id": "rbk1",
+                    "text": "Type of interaction the user had with the app - opened it, closed it, downloaded something, searched something",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk2",
+                    "text": "When exactly did the user do all of this?",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk3",
+                    "text": "Why exactly did the user do it?",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk4",
+                    "text": "What device was the user using?",
+                    "is_correct": true
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 982920,
+          "key": "e02eb441-2219-4ceb-acb1-a72f6e12443a",
+          "title": "Event Data Modeling",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "e02eb441-2219-4ceb-acb1-a72f6e12443a",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 982858,
+              "key": "05af2806-3b3f-4bac-a8fb-4d01ce91bde8",
+              "title": "Event Data Modeling Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Event Data Modeling",
+              "instructor_notes": ""
+            },
+            {
+              "id": 982855,
+              "key": "17a0e196-a49e-495e-a3d1-d4e08c03c67a",
+              "title": "NDO30 DPMND C2 L3 04 Event Data Modeling",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "v9bNE64eRTg",
+                "china_cdn_id": "v9bNE64eRTg.mp4"
+              }
+            },
+            {
+              "id": 982873,
+              "key": "6d7cb1d2-48c2-4494-b64d-53f1b771c641",
+              "title": "Event Table",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/March/5e5d87a6_image8/image8.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/6d7cb1d2-48c2-4494-b64d-53f1b771c641",
+              "caption": "Event Data Table",
+              "alt": "Event Data Table",
+              "width": 570,
+              "height": 261,
+              "instructor_notes": null
+            },
+            {
+              "id": 982863,
+              "key": "b1882f98-4851-4978-88bf-02b3e3855386",
+              "title": "Event Table 2",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/March/5e5d87be_image19/image19.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/b1882f98-4851-4978-88bf-02b3e3855386",
+              "caption": "Event Table 2 Aggregation",
+              "alt": "Event Table Aggregation ",
+              "width": 429,
+              "height": 187,
+              "instructor_notes": null
+            },
+            {
+              "id": 982856,
+              "key": "b2c0aa1b-1d65-4415-b0e8-b61b95cc97fb",
+              "title": "Event Data Best Practices",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "**Event data modeling** is logically aggregating event data to answer business questions. \n\n### Event Data Best Practices \n1. Know your current needs\n2. Do not track everything\n3. Plan for future as well\n\n### Event Data Producers\n- Devices\n- Web\n- Sensors\n- Systems\n- Social Media\n\n**KPIs and Event Data**: “A performance indicator or key performance indicator (KPI) is a type of performance measurement.KPIs evaluate the success of an organization or of a particular activity in which it engages.”\n\n[Performance Indicator]( https://en.wikipedia.org/wiki/Performance_indicator)\n\n### Ways to measure KPIs\n#### Number of users actively using your website or App. Generally measured as :\n- Daily Active Users (DAU)\n- Weekly Active Users (WAU)\n- Monthly Active Users (MAU)\n- Primary Measure of User Growth\n\n#### Session Length\n- Time spent by a user using your app in one session\n- The measure of User Engagement\n\n#### Click-Through Rate\n- The ratio of users who clicked an ad or banner versus total users who viewed the page with that ad or banner\n- Measures Users Interest in Content or Content Relevance\n\n#### Bounce Rate\n- Percentage of users leaving the website after viewing only one page\n- Measures effectiveness of entry page\n\n#### Conversion Rate\n- Most important KPI\n- Percentage of users completing the desired action.\n- Desired actions\n    - Buying an Item\n    - Completing Registration \n    - Downloading  File\n- Measures Interest of User in Offering\n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 982853,
+              "key": "8d7213f8-3eaf-4f28-9ff3-e82b0ba3411c",
+              "title": "Knapsack Image",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/March/5e5d87e6_image18/image18.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/8d7213f8-3eaf-4f28-9ff3-e82b0ba3411c",
+              "caption": "Knapsack Wireframe",
+              "alt": "Knapsack Wireframe",
+              "width": 834,
+              "height": 587,
+              "instructor_notes": null
+            },
+            {
+              "id": 1058660,
+              "key": "c47c8b75-9ad1-44d6-87fa-b08b4a6b4503",
+              "title": "Knapsack Events",
+              "semantic_type": "TaskListAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "c47c8b75-9ad1-44d6-87fa-b08b4a6b4503",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "tasks": [
+                "The image above is what the first screen of our App looks like right now. Please use this image to answer the following in your template:\nWhat are the possible event types that the product team needs to track for this screen? Provide at least 4.",
+                "Use the tabs related to Knapsack Event Data in the Data Infrastructure Strategy Exercises spreadsheet, which is also available to download in the classroom if you haven't already.",
+                "Use the tab, Knapsack Event Data Quiz, to aggregate the raw data from the Knapsack Event Data tab in the provided table. You should update the event names. **Hint**COUNTIF is a great way to do this.",
+                "Copy the table with the 6 unique event types and the number of times each event type occurred in the Knapsack Event Data Quiz tab into your template document.",
+                "Use the raw data and the table you created to find the **number of active users**. If you cannot determine this, please provide the why.",
+                "Use the raw data and the table you created to find the **most popular feature**. If you cannot determine this, please provide the why.",
+                "Use the raw data and the table you created to find the **least popular feature**. If you cannot determine this, please provide the why.",
+                "Use the raw data and the table you created to find the **number of daily active users**. If you cannot determine this, please provide the why.",
+                "Use the raw data and the table you created to find the **average session length**. If you cannot determine this, please provide the why."
+              ],
+              "positive_feedback": "Great job completing these activities. Head to the next page to see the solutions!",
+              "video_feedback": null,
+              "description": "Now it's time to think about event data modeling for Knapsack. Please complete the following tasks. The instructions and image are also available in the template document. You will be using both the document template and the spreadsheet. It is recommended that you copy your data table into your document when you have completed that part of the exercise."
+            }
+          ]
+        },
+        {
+          "id": 982929,
+          "key": "e4c8db54-ccd5-427c-bc1d-e2b0310adf1d",
+          "title": "Knapsack Solution",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "e4c8db54-ccd5-427c-bc1d-e2b0310adf1d",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 982860,
+              "key": "6bdf6cce-a562-4d7b-8277-c41f263be231",
+              "title": "Event Quiz 3 Solution",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Knapsack Event Quiz Solutions",
+              "instructor_notes": ""
+            },
+            {
+              "id": 982897,
+              "key": "cf5a102b-086a-42ea-9a2a-7b9bd9038069",
+              "title": "NDO30 DPMND C2 L3 05 Solution To Quiz 2,3 And 4",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "wc_ENp03GO0",
+                "china_cdn_id": "wc_ENp03GO0.mp4"
+              }
+            },
+            {
+              "id": 982893,
+              "key": "f4eec70a-1dbe-44b1-afbf-de2f70a87863",
+              "title": "Event quiz 2 solution",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "*Remember that everything in this course is subjective and your answers may be different, and that is alright. It's most important that you can justify your answers. Data product management is done on a team, not in isolation.*\n\n1. What could be possible event types that the product team needs to track for this screen?\n    - open_app\n    - hamburger_click\n    - search\n    - new_product_click\n    - product_of_the_day_click\n    - close_app\n\n\n2. Create an event model for the above problem using the provided data.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 982877,
+              "key": "1455ab9f-82bb-47e2-85d8-40b7a89cda3f",
+              "title": "Knapsack Event Model",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/March/5e5d8817_image20/image20.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/1455ab9f-82bb-47e2-85d8-40b7a89cda3f",
+              "caption": "Knapsack Event Model",
+              "alt": "Knapsack Event Model",
+              "width": 863,
+              "height": 501,
+              "instructor_notes": null
+            },
+            {
+              "id": 982898,
+              "key": "e815d96e-754e-4377-9ca4-a86b3e0f5662",
+              "title": "Event quiz 3 solution",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "3. Using the event data model created can you answer the following:\n    - Active Users: 125\n    - Most Popular Feature: Search\n        - 47 Clicks\n    - Least Popular Feature: Product of the Day\n        - 4 Clicks\n\n\n4. Daily Active Users - insufficient data, but can be extrapolated \n    - 125 Active Users in 1 hour\n    - 24 Hours in a day\n    - **125** * **24** = ~ **3000** Daily Active Users\n5. Session Length - incomplete data, cannot be extrapolated\n    - Timestamps Required\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 982928,
+          "key": "67ffc5fa-591a-4c78-a7e7-7066e7fcbdd9",
+          "title": "Other Type of Producers",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "67ffc5fa-591a-4c78-a7e7-7066e7fcbdd9",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 982881,
+              "key": "6fbd3c65-df7d-4526-a629-cd4b2e40c933",
+              "title": "Other Type of Data Producers Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Other Type of Data Producers",
+              "instructor_notes": ""
+            },
+            {
+              "id": 982905,
+              "key": "f7595fd2-4e64-4130-b186-648e23f0a0b4",
+              "title": "NDO30 DPMND C2 L3 06 Other Type Of Data Producers",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "hf6yE0asAwM",
+                "china_cdn_id": "hf6yE0asAwM.mp4"
+              }
+            },
+            {
+              "id": 982891,
+              "key": "be2d25d9-36ef-454b-a32e-8ffe482724d5",
+              "title": "OLTP and OLAP",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "**OLTP (Online Transaction Processing)**: Information systems that facilitate and manage transaction-oriented applications.\n[OLTP](https://en.wikipedia.org/wiki/Online_transaction_processing)\n\n**ACID** ([atomicity](https://en.wikipedia.org/wiki/Atomicity_%28database_systems%29), [consistency](https://en.wikipedia.org/wiki/Consistency_%28database_systems%29),  [isolation](https://en.wikipedia.org/wiki/Isolation_%28database_systems%29),  [durability](https://en.wikipedia.org/wiki/Durability_%28database_systems%29) is a set of properties of [database transactions](https://en.wikipedia.org/wiki/Database_transaction)) intended to guarantee validity even in the event of errors, power failures, etc.\n[ACID](https://en.wikipedia.org/wiki/ACID)\n\nOLTP Databases are:\n- Inserting, Updating and/or Deleting\n- ACID (Atomicity, Consistency, Isolation and Durability)\n- Relational and Normalized\n\n**OLAP (Online Analytical Processing)**:  tools enable users to analyze multidimensional data interactively from multiple perspectives. OLAP consists of three basic analytical operations: consolidation (roll-up), drill-down, and slicing and dicing.\n[OLAP](https://en.wikipedia.org/wiki/Online_analytical_processing)\n\n**OLAP Data Warehouses**:\n- Combine data from different sources\n- For Complex queries\n- BI, Reporting and Data Mining\n- Not strictly relational or Normalized\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 982875,
+              "key": "54623746-ee04-4c70-b6d9-b6d8e86f3590",
+              "title": "OLTP Example",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/March/5e5d883c_image9/image9.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/54623746-ee04-4c70-b6d9-b6d8e86f3590",
+              "caption": "OLTP Example",
+              "alt": "OLTP Example",
+              "width": 816,
+              "height": 434,
+              "instructor_notes": null
+            },
+            {
+              "id": 982910,
+              "key": "83914dc3-781e-403a-b716-836b5c42eecd",
+              "title": "OLAP DWH",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/March/5e5d884d_image10/image10.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/83914dc3-781e-403a-b716-836b5c42eecd",
+              "caption": "OLAP",
+              "alt": "OLAP",
+              "width": 814,
+              "height": 425,
+              "instructor_notes": null
+            },
+            {
+              "id": 982894,
+              "key": "a2b2fb58-3367-4129-b8db-71a96a4e4c13",
+              "title": "OLTP Quiz 1",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "a2b2fb58-3367-4129-b8db-71a96a4e4c13",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Choose correct answer(s) in regard to OLTP",
+                "answers": [
+                  {
+                    "id": "rbk1",
+                    "text": "OLTP systems are for transactions",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk2",
+                    "text": "OLTP systems have to have normalized data",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk3",
+                    "text": "OLTP systems are strictly relational",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk4",
+                    "text": "OLTP systems have to have atomicity",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 982878,
+              "key": "44ffcbfc-f0ad-46c1-8d7a-59fcdc445582",
+              "title": "OLTP Quiz 2",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "44ffcbfc-f0ad-46c1-8d7a-59fcdc445582",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which of the following is true about OLAP?",
+                "answers": [
+                  {
+                    "id": "rbk1",
+                    "text": "OLAP systems are ACID compliant",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk2",
+                    "text": "OLAP systems are not strictly relational",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk3",
+                    "text": "OLAP systems have duplicate data",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk4",
+                    "text": "OLAP and OLTP are similar",
+                    "is_correct": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 982927,
+          "key": "8551f118-c1c4-41fb-b723-9d0ef2317948",
+          "title": "ERP and CRMs",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8551f118-c1c4-41fb-b723-9d0ef2317948",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 982885,
+              "key": "3ff8cb5a-def3-44fc-83fa-d24ef10d35c5",
+              "title": "ERP Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# ERP and CRMs",
+              "instructor_notes": ""
+            },
+            {
+              "id": 982888,
+              "key": "67f3b26b-f697-4970-807e-6f6042441b04",
+              "title": "NDO30 DPMND C2 L3 07 ERP Systems",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "-_M_O7Yi_AE",
+                "china_cdn_id": "-_M_O7Yi_AE.mp4"
+              }
+            },
+            {
+              "id": 982887,
+              "key": "0da870e5-bc79-48b2-bae7-3c3b5634aa17",
+              "title": "ERP and CRM",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "**Enterprise resource planning (ERP)** is the integrated management of main business processes, often in real-time and mediated by software and technology.\n[ERP](https://en.wikipedia.org/wiki/Enterprise_resource_planning)\n\nERP Data Stores\n- Common Databases\n- **DBMS**: Database Management System\n- Share data across departments\n- Information flows between business functions\n- Relational\n\n**Customer relationship management (CRM)** is an approach to manage a company's interaction with current and potential [customers](https://en.wikipedia.org/wiki/Customer). It uses [data analysis](https://en.wikipedia.org/wiki/Data_analysis) about customers' history with a company to improve business relationships with customers, specifically focusing on [customer retention](https://en.wikipedia.org/wiki/Customer_retention) and ultimately driving [sales](https://en.wikipedia.org/wiki/Sales) growth.\n[CRM](https://en.wikipedia.org/wiki/Customer_relationship_management)\n\nCRM Data Stores\n- Common Databases\n- DBMS : Database Management System\n- Share data across departments\n- Information flows between business functions\n- Relational\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 982884,
+              "key": "bbf97b17-5ecd-4068-8439-9918876bbec5",
+              "title": "ERP and CRM Quiz",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "bbf97b17-5ecd-4068-8439-9918876bbec5",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which of the following are correct about CRM and ERP?",
+                "answers": [
+                  {
+                    "id": "rbk1",
+                    "text": "CRM is a type of ERP",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk2",
+                    "text": "ERP is a type of CRM",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk3",
+                    "text": "ERP and CRM have nothing in common",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk4",
+                    "text": "ERP databases are managed by database management system",
+                    "is_correct": true
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 982926,
+          "key": "3b3ed37d-eafa-4839-a89a-37457733f7f8",
+          "title": "OLTP Contd...",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "3b3ed37d-eafa-4839-a89a-37457733f7f8",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 982896,
+              "key": "5f16c4c3-3322-4269-87b6-db6322d385ed",
+              "title": "OLTP heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Other Data Producers",
+              "instructor_notes": ""
+            },
+            {
+              "id": 982911,
+              "key": "4f5ec2f2-bc18-4f83-b989-4a20f1412cff",
+              "title": "NDO30 DPMND C2 L3 08 Data Through APIs",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "tWbXkmIAe5w",
+                "china_cdn_id": "tWbXkmIAe5w.mp4"
+              }
+            },
+            {
+              "id": 982895,
+              "key": "8a13dec0-32c6-4d2e-ae82-2477ed41d4f9",
+              "title": "Other Data Producers",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Other Data sources to think about:\n- Data through APIs\n- Data through flat files\n\n### Relational databases built on:\n\n- IBM DB2 \n-  Postgres\n- Oracle\n- MySQL\n- Microsoft SQL Server\n- Teradata\n- Amazon Redshift\n\n### Distributed File Systems such as:\n- MapR-FS\n- Azure Data Lake Store\n- Amazon S3\n- HDFS\n- NAS\n\n### NoSql and Hadoop systems:\n- HBase\n- Elasticsearch\n- Hive\n- MongoDB\n- Amazon Elasticsearch Service\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1058673,
+              "key": "6def1194-7ce4-4794-8578-ea4b4b8b669d",
+              "title": "Knapsack Data Producers Quiz",
+              "semantic_type": "TaskListAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "6def1194-7ce4-4794-8578-ea4b4b8b669d",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "tasks": [
+                "2 Entity Data Producers",
+                "2 Event Data Producers",
+                "An OLTP use case",
+                "An OLAP use case",
+                "An OLAP use case",
+                "An ERP use case",
+                "How Knapsack might use a CRM."
+              ],
+              "positive_feedback": "Thanks for completing that. Head to the next page to see how you did. ",
+              "video_feedback": null,
+              "description": "Please use your template document to identify the following for Knapsack Data Producers:"
+            }
+          ]
+        },
+        {
+          "id": 982925,
+          "key": "67d62dcd-2121-4603-99af-93feb7f9904d",
+          "title": "Solution Data Producers",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "67d62dcd-2121-4603-99af-93feb7f9904d",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1007177,
+              "key": "2aba6132-5524-44cf-8e50-7ea852601552",
+              "title": "headline",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Solution Data Producers",
+              "instructor_notes": ""
+            },
+            {
+              "id": 982912,
+              "key": "8a339d7c-bec5-4acb-a8e1-9996eb8a2043",
+              "title": "NDO30 DPMND C2 L3 09 Solution To Quiz 4",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "zDh0J4Sqmdo",
+                "china_cdn_id": "zDh0J4Sqmdo.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 982923,
+          "key": "bcc56aa9-9522-4cc4-81c4-263920505f6a",
+          "title": "Data Structures",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "bcc56aa9-9522-4cc4-81c4-263920505f6a",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 982904,
+              "key": "8f827aea-a05c-456b-8458-f94d39e5a719",
+              "title": "Data Structures Intro",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Data Structures",
+              "instructor_notes": ""
+            },
+            {
+              "id": 982890,
+              "key": "18e3fd4c-209a-43b4-8227-142ecc72faaa",
+              "title": "NDO30 DPMND C2 L3 10 Looking At Data In A New Way",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "bhGFvK-lVCA",
+                "china_cdn_id": "bhGFvK-lVCA.mp4"
+              }
+            },
+            {
+              "id": 982882,
+              "key": "3b5f077b-8969-4d5d-9d7b-d6797dd96c89",
+              "title": "Structured Data",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Raw Data\n\"**[Raw data](https://en.wikipedia.org/wiki/Raw_data)**, also known as primary data, is data (e.g., numbers, instrument readings, figures, etc.) collected from a source. In the context of examinations, the raw data might be described as a raw score.\"\n\n## Structured Data\n**Structured data** is quantitative data, these are facts and numbers that can be collected, exported, stored, and organized to run analysis on.\n- Quantitative Data\n- Model Designed by DB Engineers\n- Entity Data stored in Rows and Columns\n- Relational\n- SQL\n- OLTP Data",
+              "instructor_notes": ""
+            },
+            {
+              "id": 982880,
+              "key": "8d21b619-c70b-4a88-b97e-e8c627a72e37",
+              "title": "Semi-Structured Data",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Semi-Structured Data\n**Semi-structured data** does not conform to relational databases such as Excel or SQL, but has some level of organization like tags.\n- Not strictly Relational\n- With Processing it can be stored in a  Relational DB\n- NoSQL DB\n- CSV, XML and JSON\n- Flat Files and API Data",
+              "instructor_notes": ""
+            },
+            {
+              "id": 982879,
+              "key": "5790c6a0-c6f0-4264-a179-b3380e313a1f",
+              "title": "Unstructured Data",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Unstructured Data\n**Unstructured data** is qualitative data. Example: Customer reviews. What customers are saying is important but there is no easy way to run analytics on these comments. \n- Qualitative\n- No Model\n- Not Relational\n- Data Lakes or NoSQL \n- Audio, Video or PDFs\n- User Reviews\n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 982909,
+              "key": "ec3615f5-c5fa-4ca1-9514-dbe28c8a66f5",
+              "title": "Data Structure Quiz",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "ec3615f5-c5fa-4ca1-9514-dbe28c8a66f5",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Social Media Data is",
+                "answers": [
+                  {
+                    "id": "rbk1",
+                    "text": "Unstructured Data",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk2",
+                    "text": "Semi-structured Data",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk3",
+                    "text": "Structured Data",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 982908,
+              "key": "e022c06e-9825-466f-ab9c-2064b8384342",
+              "title": "Data Structure Quiz 2",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "e022c06e-9825-466f-ab9c-2064b8384342",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "An email is considered:",
+                "answers": [
+                  {
+                    "id": "rbk1",
+                    "text": "Unstructured Data",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk2",
+                    "text": "Semi-structured Data",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk3",
+                    "text": "Structured Data",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1058672,
+              "key": "493a3fff-177a-438e-94ef-53eb2f13ffbf",
+              "title": "Knapsack Data Exercise",
+              "semantic_type": "TaskListAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "493a3fff-177a-438e-94ef-53eb2f13ffbf",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "tasks": [
+                "Which types of data might these producers create entity data and which might create event data?",
+                "Which category would its data fall into: Structured, Semi-structured, Unstructured?"
+              ],
+              "positive_feedback": "OUTSTANDING! Sorry for shouting, but it's exciting to see you progressing so well!",
+              "video_feedback": null,
+              "description": "Please use the template document to complete this exercise.\n\nKnapsack has the following data producers: \n- Website\n- App\n- Connected devices\n- ERP\n- CRM\n- Relational Database\n- Data Dake \n\n\nFor each of the above answer the following:"
+            }
+          ]
+        },
+        {
+          "id": 982921,
+          "key": "0c6d39da-48de-4cdf-828d-690aa2c94871",
+          "title": "Knapsack Data Solution",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "0c6d39da-48de-4cdf-828d-690aa2c94871",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1007176,
+              "key": "1eba3af4-0537-4ea2-a7be-83df3bea58f3",
+              "title": "headline",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Solution to Knapsack Data",
+              "instructor_notes": ""
+            },
+            {
+              "id": 982903,
+              "key": "ec11a206-b928-44cd-847d-2d970cc05198",
+              "title": "NDO30 DPMND C2 L3 11 Solution To Quiz 3",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "SLAS0yUU21U",
+                "china_cdn_id": "SLAS0yUU21U.mp4"
+              }
+            },
+            {
+              "id": 982892,
+              "key": "94084c40-5861-44a7-8e90-f241a8e193d3",
+              "title": "data solution text",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Structured \n- Entity and event data - site and app\n- Event data - Knapsacks\n- Relational DB, ERP and CRM\n\n### Semi-structured \n- JSON and XML\n- Data Lake\n\n### Unstructured\n- Customer Reviews\n- Data Lake",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 982930,
+          "key": "79dcfd08-d80d-4734-be7e-c241e8ddc85a",
+          "title": "Bringing it All Together",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "79dcfd08-d80d-4734-be7e-c241e8ddc85a",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 982900,
+              "key": "0bd3561c-002b-451f-aea7-d6bc99a14598",
+              "title": "BTLT Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Bringing it All Together",
+              "instructor_notes": ""
+            },
+            {
+              "id": 982899,
+              "key": "b98d624c-5e72-4db5-b698-512899d5dee6",
+              "title": "NDO30 DPMND C2 L3 12 V2 Intro To Peloton Quiz",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "0mUpkwa1Z0U",
+                "china_cdn_id": "0mUpkwa1Z0U.mp4"
+              }
+            },
+            {
+              "id": 982902,
+              "key": "2fd02dda-9e6f-4f17-8db8-a8ed23233dbc",
+              "title": "Exercise Company Tasks",
+              "semantic_type": "TaskListAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "2fd02dda-9e6f-4f17-8db8-a8ed23233dbc",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "tasks": [
+                "At least 2 Entity Data Producers",
+                "A least 2 Event Data Producers",
+                "At least one potential type of data produced by OLTP",
+                "At least one type of data produced by OLAP",
+                "At least one type of data produced by ERP",
+                "At least type of data produced by CRM",
+                "Structured, semi-structured and unstructured data?"
+              ],
+              "positive_feedback": "Great, you check to see how your answers compared after finishing the other activities on this page.",
+              "video_feedback": null,
+              "description": "_Please complete this activity in the provided templates._\n\nImagine that you are working as a data product manager for an exercise subscription company that is thinking about releasing new treadmills in addition to standalone exercise courses they already offer. Thus far, this company has only sold regular treadmills.\n\nFor this exercise, you will be working on the treadmill team that is developing its next generation of treadmills with advanced voice control features. If you are unfamiliar with exercise companies, you should explore the web a bit to learn more about different exercise companies to get an understanding of how they might be set up.\n\nWhat types of data producers might a company like this have? Identify "
+            },
+            {
+              "id": 1058662,
+              "key": "37ddea46-9982-4a57-b476-1aac6617a794",
+              "title": "Exercise Company Part 2",
+              "semantic_type": "TaskListAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "37ddea46-9982-4a57-b476-1aac6617a794",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "tasks": [
+                "Which are the top two commands that should go in the first release and why?",
+                "Among resistance and incline command which one is doing better and why?",
+                "Could there be a reason why the number of successful events is lower for certain commands?",
+                "Which command among the three having high failure rates should the engineering team be working on? Why?",
+                "Any other observations?"
+              ],
+              "positive_feedback": "Great! Thanks for completing that. Head to the next page to see how you did!",
+              "video_feedback": null,
+              "description": "_Please complete this activity in the provided templates._\n\nThe data for this exercise can be found in the **Data Infrastructure Strategy Exercises** spreadsheet in tab **Treadmill Exercise Data**.\n\nThis exercise company has recently launched an elliptical machine with a new dashboard. This new dashboard is voice-controlled and has been in beta testing to determine which features should be available at launch. For your analysis and insights, a data analyst has created the event data model found in the spreadsheet. You can do further analysis of this data if you would like, but the data provided should be all you would need to answer the following:"
+            }
+          ]
+        },
+        {
+          "id": 982917,
+          "key": "61799090-1264-400a-9747-af8ee3d8156c",
+          "title": "Solution to Elliptical Quiz",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "61799090-1264-400a-9747-af8ee3d8156c",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1007175,
+              "key": "cb2760ac-749b-43f5-bdd9-0431d8b262e8",
+              "title": "headline",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Solution to Elliptical Quiz",
+              "instructor_notes": ""
+            },
+            {
+              "id": 982876,
+              "key": "07dc6991-82e1-4f38-9088-5579792e2362",
+              "title": "NDO30 DPMND C2 L3 13 V2 Solution To Peloton Quiz",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "kRdJR2YTF8s",
+                "china_cdn_id": "kRdJR2YTF8s.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 982924,
+          "key": "322742ec-c76e-4430-9dc4-c45b71ce5131",
+          "title": "Data Producers Recap",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "322742ec-c76e-4430-9dc4-c45b71ce5131",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 982907,
+              "key": "b05a75aa-0615-4ffc-b090-44e633b18f25",
+              "title": "Data Producers Recap Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Data Producers Recap",
+              "instructor_notes": ""
+            },
+            {
+              "id": 982914,
+              "key": "f5ad280b-023e-401d-9be2-af2c92b2ef62",
+              "title": "NDO30 DPMND C2 L3 14 Data Producers Recap",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "upnn-0D_L0A",
+                "china_cdn_id": "upnn-0D_L0A.mp4"
+              }
+            },
+            {
+              "id": 982915,
+              "key": "9326e95d-9b9d-4742-a7c7-f58310626046",
+              "title": "Data Producers Overview",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/March/5e5d888f_image17/image17.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/9326e95d-9b9d-4742-a7c7-f58310626046",
+              "caption": "Lesson Overview",
+              "alt": "Lesson Overview",
+              "width": 814,
+              "height": 429,
+              "instructor_notes": null
+            },
+            {
+              "id": 982913,
+              "key": "f7c043b3-a0a7-4a9e-929f-d0d5ff61acd1",
+              "title": "Data Producers Recap Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Wow! You're now 3 quarters, 75%, or most of the way through this course! Great job!\n\nIn this lesson, we learned about Data producers, explored event data, and we did some event data modeling, identified different types of data producers. Finally, we touched upon the concepts of Structured, semi-structured, and unstructured data.\n\nAre you ready to tackle the last hurdle...I am so excited for you...see you soon.",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 982922,
+          "key": "6a37f03d-236f-40e8-b61a-c0a6585b13d1",
+          "title": "Glossary & Resources",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "6a37f03d-236f-40e8-b61a-c0a6585b13d1",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 982901,
+              "key": "a1504a0e-49ee-46c5-ba7f-7dcd87bb1aec",
+              "title": "Key Terms",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Key Terms\n\n**Event** is an interaction or an action at a particular moment by a user, a system or a sensor. \n\n**Event Data** is data generated by events is called event data. Event data primarily comprises action, timestamp and state. \n\n**KPI** or Key Performance Indicator is a performance measurement for an activity or product.\n\n**Active Users** is the number of users actively using an app or website.\n\n**Session Length** is the amount of time a user spends on the app or website in one session.\n\n**Click Through Rate** is the percentage of users who clicked on an ad or banner.\n\n**Bounce Rate** is the percentage of users leaving a website after viewing only one page is called bounce rate.\n\n**Conversion Rate** is the percentage of users completing a desired action.\n\n**ERP** is usually referred to as a category of business management software — typically a suite of integrated applications — that an organization can use to collect, store, manage and interpret data from many business activities.\n\n**CRM**: Customer relationship management (CRM) is an approach to manage a company's interaction with current and potential customers. It uses data analysis about customers' history with a company to improve business relationships with customers, specifically focusing on customer retention and ultimately driving sales growth.\n\n**Database**: A database is a collection of related data that represents some aspect of the real world. A database system is designed to be built and populated with data for a certain task.\n\n**DBMS**: Database Management System (also known as DBMS) is a software for storing and retrieving users' data by considering appropriate security measures. It allows users to create their own databases as per their requirement.\n\n**Data Warehouse**: Data warehouses are a type of DB, which is often used to store very large amounts of data.\n\n**API**: An application program interface (API) is a set of routines, protocols, and tools for building software applications. Basically, an API specifies how software components should interact.\n\n**Flat File**: A flat file contains records that have no structured interrelationships. A flat file typically consists of a text file, from which all [word processing](https://searchwindowsserver.techtarget.com/definition/word-processor) or other structure characters or [markup](https://whatis.techtarget.com/definition/markup) has been removed.\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 982906,
+              "key": "10eb5cb0-5d95-4e45-90b7-9e1c4c4ada5d",
+              "title": "Additional Resources",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Additional Resources\n- [Event](https://en.wikipedia.org/wiki/Event_%28computing%29)\n- [Event Driven Architecture](https://en.wikipedia.org/wiki/Event-driven_architecture)\n- [Performance Indicator](https://en.wikipedia.org/wiki/Performance_indicator)\n- [Active Users](https://en.wikipedia.org/wiki/Active_users)\n- [Session](https://en.wikipedia.org/wiki/Session_%28web_analytics%29)\n- [Click Through Rate](https://en.wikipedia.org/wiki/Click-through_rate)\n- [Bounce Rate](https://en.wikipedia.org/wiki/Bounce_rate)\n- [Conversion Marketing](https://en.wikipedia.org/wiki/Conversion_marketing#Conversion_rate)\n- [Online Transaction Processing](https://en.wikipedia.org/wiki/Online_transaction_processing)\n- [ACID](https://en.wikipedia.org/wiki/ACID)\n- [Online Analytical Processing](https://en.wikipedia.org/wiki/Online_analytical_processing)\n- [Enterprise Resource Planning](https://en.wikipedia.org/wiki/Enterprise_resource_planning)\n- [Customer Relationship Management](https://en.wikipedia.org/wiki/Customer_relationship_management)\n- [Application Programming Interface](https://en.wikipedia.org/wiki/Application_programming_interface)\n- [Flat File Database](https://en.wikipedia.org/wiki/Flat-file_database#Flat_files)\n- [What’s The Difference Between Structured, Semi-Structured And Unstructured Data?](https://www.forbes.com/sites/bernardmarr/2019/10/18/whats-the-difference-between-structured-semi-structured-and-unstructured-data/#26a084ab2b4d)\n- [Structured, Semi-Structured and Unstructured Data](https://jeremyronk.wordpress.com/2014/09/01/structured-semi-structured-and-unstructured-data/)",
+              "instructor_notes": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    }
+  ]
+}

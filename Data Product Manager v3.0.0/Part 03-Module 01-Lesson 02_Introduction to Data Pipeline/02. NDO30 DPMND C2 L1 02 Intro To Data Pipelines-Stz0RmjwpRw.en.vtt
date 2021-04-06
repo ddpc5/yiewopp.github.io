@@ -1,0 +1,142 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:04.680
+We'll start with exploring what exactly it means when we say data pipeline.
+
+00:00:04.680 --> 00:00:10.710
+A data pipeline is a set of processes to move data from a source to destination,
+
+00:00:10.710 --> 00:00:14.010
+possibly transforming the data along the way.
+
+00:00:14.010 --> 00:00:16.575
+We'll understand this with an example.
+
+00:00:16.575 --> 00:00:18.750
+We have an e-commerce business.
+
+00:00:18.750 --> 00:00:20.250
+We sell backpacks.
+
+00:00:20.250 --> 00:00:22.965
+Our site is knapsack.com,
+
+00:00:22.965 --> 00:00:24.435
+and we have an app,
+
+00:00:24.435 --> 00:00:27.930
+iOS and Android with the name knapsack.
+
+00:00:27.930 --> 00:00:30.375
+We want to collect and use data.
+
+00:00:30.375 --> 00:00:34.080
+Data will be generated from the website and mobile app.
+
+00:00:34.080 --> 00:00:36.390
+We will be using this data for
+
+00:00:36.390 --> 00:00:41.145
+some business insights and maybe for some machine learning applications.
+
+00:00:41.145 --> 00:00:44.990
+What will the data pipeline do here?
+
+00:00:44.990 --> 00:00:48.680
+It will collect data from data producers,
+
+00:00:48.680 --> 00:00:51.845
+process it depending on business requirements
+
+00:00:51.845 --> 00:00:55.639
+and deliver it to the stakeholders for making business decisions.
+
+00:00:55.639 --> 00:00:58.280
+This graphic represents a very basic view of
+
+00:00:58.280 --> 00:01:01.070
+what our data pipeline for knapsack might look like.
+
+00:01:01.070 --> 00:01:03.010
+There are data producers,
+
+00:01:03.010 --> 00:01:07.810
+a pipeline to do something with the data and the consumers of that data.
+
+00:01:07.810 --> 00:01:10.160
+It's important to be able to visualize
+
+00:01:10.160 --> 00:01:14.795
+a data pipeline and is a skill a data product manager should possess.
+
+00:01:14.795 --> 00:01:17.720
+Before you create your own visualizations,
+
+00:01:17.720 --> 00:01:22.040
+you first need to be able to identify the parts of a data pipeline.
+
+00:01:22.040 --> 00:01:28.525
+A data pipeline is something that takes data from one place to another,
+
+00:01:28.525 --> 00:01:31.209
+has one or more data inputs,
+
+00:01:31.209 --> 00:01:33.964
+has one or more data outputs,
+
+00:01:33.964 --> 00:01:36.420
+transforms or replicates data.
+
+00:01:36.420 --> 00:01:40.330
+A few more things to note about data pipelines are,
+
+00:01:40.330 --> 00:01:45.265
+data pipeline could be a third party solutions such as Alooma,
+
+00:01:45.265 --> 00:01:53.015
+segment or stitch data or it could be built in house carefully selecting each part.
+
+00:01:53.015 --> 00:01:56.170
+An enterprise might have multiple data pipelines,
+
+00:01:56.170 --> 00:01:59.590
+each optimized for a specific set of use cases.
+
+00:01:59.590 --> 00:02:01.600
+A data pipeline could be,
+
+00:02:01.600 --> 00:02:04.240
+optimized for real-time use cases,
+
+00:02:04.240 --> 00:02:06.980
+or for batch data use cases.
+
+00:02:06.980 --> 00:02:10.230
+Data pipelines could be building
+
+00:02:10.230 --> 00:02:14.285
+cloud where in every piece of technology is hosted on cloud.
+
+00:02:14.285 --> 00:02:20.800
+This may save on infrastructure and on expert resources needed.
+
+00:02:20.800 --> 00:02:25.775
+Data pipelines could also be built using open source solution.
+
+00:02:25.775 --> 00:02:30.115
+That gives businesses a huge opportunity to customize,
+
+00:02:30.115 --> 00:02:34.475
+also it saves cost of buying commercial data products.
+
+00:02:34.475 --> 00:02:38.375
+If we already have in house expertise to make it work,
+
+00:02:38.375 --> 00:02:41.735
+then it's better to have built in house,
+
+00:02:41.735 --> 00:02:45.300
+and this brings us to the end of this concept.
+

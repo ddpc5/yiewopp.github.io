@@ -1,0 +1,502 @@
+{
+  "data": {
+    "lesson": {
+      "id": 983004,
+      "key": "7ffaed70-1e6c-4804-ae2e-a2ef875b74e2",
+      "title": "Introduction to Data Infrastructure",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": "This is the Introduction to the Data Infrastructure Course.",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": false,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "https://zips.udacity-data.com/7ffaed70-1e6c-4804-ae2e-a2ef875b74e2/983004/1594854876399/Introduction+to+Data+Infrastructure+Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "https://zips.udacity-data.com/7ffaed70-1e6c-4804-ae2e-a2ef875b74e2/983004/1594854873284/Introduction+to+Data+Infrastructure+Subtitles.zip"
+          },
+          {
+            "name": "Course Glossary",
+            "uri": "https://video.udacity-data.com/topher/2020/March/5e78d601_course-glossary/course-glossary.pdf"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 1009785,
+          "key": "651688f5-0600-46b2-9b34-1540787fae90",
+          "title": "Instructor Introduction",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "651688f5-0600-46b2-9b34-1540787fae90",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1009784,
+              "key": "9a60582e-b062-4aeb-ab7e-40fe6b40b190",
+              "title": "NDO30 DPMND C2 L0 01 Instructor Intro",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "mfAjOYh0ppo",
+                "china_cdn_id": "mfAjOYh0ppo.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 982998,
+          "key": "db7c4bde-6217-4d8b-8d96-495570e1cad5",
+          "title": "What is DI?",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "db7c4bde-6217-4d8b-8d96-495570e1cad5",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 982971,
+              "key": "a4519880-6141-4acc-b67b-533345565240",
+              "title": "What is DI? Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# What is Data Infrastructure?",
+              "instructor_notes": ""
+            },
+            {
+              "id": 982974,
+              "key": "1f3652c9-6a47-4387-a584-023f0d0a4f08",
+              "title": "NDO30 DPMND C2 L0 02 What Is DI-",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "CCCB-mO2-E4",
+                "china_cdn_id": "CCCB-mO2-E4.mp4"
+              }
+            },
+            {
+              "id": 982977,
+              "key": "b58bdfa2-75c3-4acc-9b35-a8bf61bbd41c",
+              "title": "What is DI? Recap",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "##  What is Data Infrastructure?\n- **Pieces of technology** put together in a **Strategic way** that is **Data-driven** towards business goals. \n- It is a foundational establishment in any 21st-century business\n- It ensures the efficient flow of data\n\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 983003,
+          "key": "fac5c265-3089-4ff0-b6c4-90e05e7f676d",
+          "title": "Why is DI important?",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "fac5c265-3089-4ff0-b6c4-90e05e7f676d",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 982995,
+              "key": "3d216a46-acb1-44e1-b0f6-9430b542078c",
+              "title": "Why is DI important? Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Why is Data Infrastructure Important?",
+              "instructor_notes": ""
+            },
+            {
+              "id": 982970,
+              "key": "49984983-ec45-446a-9431-85a82d147086",
+              "title": "NDO30 DPMND C2 L0 03 Why Is DI Important-",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "JIlGjjWfX34",
+                "china_cdn_id": "JIlGjjWfX34.mp4"
+              }
+            },
+            {
+              "id": 982972,
+              "key": "3484618c-a0df-4726-835e-9e62098141ef",
+              "title": "Why is DI important? Graphic",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/March/5e5d7720_image7/image7.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/3484618c-a0df-4726-835e-9e62098141ef",
+              "caption": "Data Infrastructure Importance",
+              "alt": "Data Infrastructure Importance",
+              "width": 1532,
+              "height": 642,
+              "instructor_notes": null
+            }
+          ]
+        },
+        {
+          "id": 982996,
+          "key": "2942aeae-3ef5-432f-9623-76bacabc5871",
+          "title": "Who is DI relevant to?",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2942aeae-3ef5-432f-9623-76bacabc5871",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 982973,
+              "key": "f52a4507-d639-4a2c-b3d2-3e0596766e40",
+              "title": "Who is DI relevant to? Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Who is Data Infrastructure relevant to?",
+              "instructor_notes": ""
+            },
+            {
+              "id": 982988,
+              "key": "7e1cf18d-5684-4e68-ad22-3880614aca5f",
+              "title": "NDO30 DPMND C2 L0 04 Who Is DI Relevant To-",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "IuC_VugnGDY",
+                "china_cdn_id": "IuC_VugnGDY.mp4"
+              }
+            },
+            {
+              "id": 982980,
+              "key": "d8d11a2e-c63a-4921-ac72-46dd78774f98",
+              "title": "Who is DI relevant to? Recap",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Who is Data Infrastructure relevant to?\n- Everybody\n- C-Suite to Intern\n- Engineering and Product Management\n\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 982999,
+          "key": "e83894ae-64ff-4d95-a748-0e823462f002",
+          "title": "What is the historical context of DI?",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "e83894ae-64ff-4d95-a748-0e823462f002",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 982969,
+              "key": "ba31c42a-64c5-40b1-b74f-721d11583727",
+              "title": "What is the historical context of DI? Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# What is the historical context of Data Infrastructure?",
+              "instructor_notes": ""
+            },
+            {
+              "id": 982975,
+              "key": "be67db1c-3c61-4e82-a767-7ba049878f21",
+              "title": "NDO30 DPMND C2 L0 05 What Is The Historical Context Of DI-",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "64Ypqwe6Qec",
+                "china_cdn_id": "64Ypqwe6Qec.mp4"
+              }
+            },
+            {
+              "id": 982982,
+              "key": "c37a5330-3b80-4d91-af5e-042e92aa3847",
+              "title": "What is the historical context of DI? Graphic",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/March/5e5d7edc_image5/image5.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/c37a5330-3b80-4d91-af5e-042e92aa3847",
+              "caption": "The Evolution of Data Infrastructure",
+              "alt": "The Evolution of Data Infrastructure",
+              "width": 1522,
+              "height": 640,
+              "instructor_notes": null
+            }
+          ]
+        },
+        {
+          "id": 982997,
+          "key": "04b5ffd3-8366-4395-955b-8b0bf861a0a4",
+          "title": "Course Topics",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "04b5ffd3-8366-4395-955b-8b0bf861a0a4",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 982979,
+              "key": "ab17f038-7f8c-4e40-823e-7a8868c15793",
+              "title": "Course Topics Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Course Topics",
+              "instructor_notes": ""
+            },
+            {
+              "id": 982984,
+              "key": "c5018656-0356-4a23-8b51-2868f32e53d7",
+              "title": "NDO30 DPMND C2 L0 06 Course Topics",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "uj5ZMHMZzCQ",
+                "china_cdn_id": "uj5ZMHMZzCQ.mp4"
+              }
+            },
+            {
+              "id": 982986,
+              "key": "8fa97830-0adb-4e9a-97cc-46a03b6fea8d",
+              "title": "Course Topics Graphic",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/March/5e5d7f1c_image6/image6.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/8fa97830-0adb-4e9a-97cc-46a03b6fea8d",
+              "caption": "Course Outline",
+              "alt": "Course Outline",
+              "width": 1722,
+              "height": 912,
+              "instructor_notes": null
+            }
+          ]
+        },
+        {
+          "id": 983001,
+          "key": "674a44ad-fe1d-4095-836b-037ae30a573b",
+          "title": "Relevant tools that students might use?",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "674a44ad-fe1d-4095-836b-037ae30a573b",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 982978,
+              "key": "58527c3f-bc57-4894-af01-775d45943bf1",
+              "title": "Relevant tools that students might use? Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Relevant Tools",
+              "instructor_notes": ""
+            },
+            {
+              "id": 982994,
+              "key": "a46bed2c-223e-41cc-93dc-e1c1a2c8f78e",
+              "title": "NDO30 DPMND C2 L0 07 Relevant Tools That Students Might Use-",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "kQtFoIIMpVg",
+                "china_cdn_id": "kQtFoIIMpVg.mp4"
+              }
+            },
+            {
+              "id": 982981,
+              "key": "4b2a22a3-5294-4cf4-a516-bc9102150ad9",
+              "title": "Relevant tools that students might use? Graphic",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/March/5e5d7f66_image4/image4.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/4b2a22a3-5294-4cf4-a516-bc9102150ad9",
+              "caption": "Each company and position will be different, but these are some common tools used by a Data Product Manager",
+              "alt": "Potential Tools Used",
+              "width": 1414,
+              "height": 590,
+              "instructor_notes": null
+            },
+            {
+              "id": 982993,
+              "key": "0f1f7703-7766-4073-accf-7dfa3cfca49e",
+              "title": "Relevant tools that students might use? further research",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "\n- [Office Suite](https://products.office.com/en-us/compare-all-microsoft-office-products-b?&ef_id=EAIaIQobChMI5vmI4vL05wIVFdVkCh3LJQaaEAAYASAAEgK70_D_BwE:G:s&OCID=AID2000750_SEM_AScrADhc&MarinID=sAScrADhc|415464563675|%2Bmicrosoft%20%2Boffice|b|c||50814084959|kwd-1309826907&lnkd=Google_O365SMB_Brand&gclid=EAIaIQobChMI5vmI4vL05wIVFdVkCh3LJQaaEAAYASAAEgK70_D_BwE&activetab=tab:primaryr2) - Word, Excel and Powerpoint\n- [SQL Server Management Studio](https://docs.microsoft.com/en-us/sql/ssms/sql-server-management-studio-ssms)\n- [Tableau](https://www.tableau.com/)\n- Dashboards\n- [Splunk](https://www.tableau.com/)\n\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 983000,
+          "key": "78ae6d3c-7cc4-4e58-87e3-b20bf1f34918",
+          "title": "Project Introduction",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "78ae6d3c-7cc4-4e58-87e3-b20bf1f34918",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 982985,
+              "key": "c2e8d8ca-a3f6-4dad-a223-3b5d9db76a71",
+              "title": "Project Introduction Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Project Introduction",
+              "instructor_notes": ""
+            },
+            {
+              "id": 982990,
+              "key": "1e1d5fea-fb3d-4795-ae7e-8c93de9388c8",
+              "title": "NDO30 DPMND C2 L0 08 Project Introduction",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "bJG7-WR7HRw",
+                "china_cdn_id": "bJG7-WR7HRw.mp4"
+              }
+            },
+            {
+              "id": 982989,
+              "key": "5ca0b629-a6dd-47b7-a69d-045b3d4650fb",
+              "title": "Project Introduction Graphic",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/March/5e5d7f98_image8/image8.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/5ca0b629-a6dd-47b7-a69d-045b3d4650fb",
+              "caption": "Project Topics",
+              "alt": "Project Topics",
+              "width": 1528,
+              "height": 634,
+              "instructor_notes": null
+            },
+            {
+              "id": 982992,
+              "key": "0fb877a8-25c3-4ec8-bf60-15e235e13468",
+              "title": "Project Note",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Important:\nYour thoughts may look different than mine while doing project or classroom exercises, and that is alright. Product Management is not conducted in a vacuum, and you will be working directly with the types of teams we are using in our examples. Much of product management is subjective, but this course and its exercises are meant to help you anticipate the possibilities. \n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 983002,
+          "key": "c0a82510-5db1-4ddf-8fe4-c9916e9d44ec",
+          "title": "Lesson Recap",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "c0a82510-5db1-4ddf-8fe4-c9916e9d44ec",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 982976,
+              "key": "6fce1eb3-3259-4538-9abf-5aa27fa1b377",
+              "title": "Lesson Recap Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Lesson Recap",
+              "instructor_notes": ""
+            },
+            {
+              "id": 982983,
+              "key": "a65a8da8-3a5e-4c2e-a583-f89451e2f89c",
+              "title": "NDO30 DPMND C2 L0 09 Lesson Recap",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "JmRlvOeVpPw",
+                "china_cdn_id": "JmRlvOeVpPw.mp4"
+              }
+            },
+            {
+              "id": 982991,
+              "key": "809c3e02-3eff-46c6-9cd7-8dc1f0b242ce",
+              "title": "Lesson Recap Text",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Key Terms:\n**What is Data Infrastructure**: **Pieces of technology** put together in a **Strategic way** that is **Data-driven** towards business goals. ",
+              "instructor_notes": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    }
+  ]
+}

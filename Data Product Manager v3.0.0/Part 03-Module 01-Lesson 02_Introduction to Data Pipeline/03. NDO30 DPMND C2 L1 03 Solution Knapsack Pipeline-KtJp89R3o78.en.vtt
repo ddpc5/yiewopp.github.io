@@ -1,0 +1,28 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:05.220
+A basic data pipeline for Knapsack will collect data from data producer,
+
+00:00:05.220 --> 00:00:07.770
+in this case, website and mobile app,
+
+00:00:07.770 --> 00:00:11.115
+process it, and deliver it to data destination.
+
+00:00:11.115 --> 00:00:14.625
+In this case, machine learning app and BI too.
+
+00:00:14.625 --> 00:00:19.500
+Here, data pipeline is taking data from one place to another,
+
+00:00:19.500 --> 00:00:21.614
+has two data inputs,
+
+00:00:21.614 --> 00:00:23.595
+has two data outputs,
+
+00:00:23.595 --> 00:00:26.199
+and a processing pipeline.
+

@@ -1,0 +1,1493 @@
+{
+  "data": {
+    "lesson": {
+      "id": 981039,
+      "key": "049b5534-cb60-43e5-8b27-f5aa8b1d82b8",
+      "title": "Data Consumers",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": "About systems, services or users who consume data",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": false,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "https://zips.udacity-data.com/049b5534-cb60-43e5-8b27-f5aa8b1d82b8/981039/1594854910638/Data+Consumers+Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "https://zips.udacity-data.com/049b5534-cb60-43e5-8b27-f5aa8b1d82b8/981039/1594854906953/Data+Consumers+Subtitles.zip"
+          },
+          {
+            "name": "Course Glossary",
+            "uri": "https://video.udacity-data.com/topher/2020/March/5e78d601_course-glossary/course-glossary.pdf"
+          },
+          {
+            "name": "Data Infrastructure Strategy Exercises Template",
+            "uri": "https://video.udacity-data.com/topher/2020/September/5f511b0b_data-infrastructure-strategy-exercises-template/data-infrastructure-strategy-exercises-template.docx"
+          },
+          {
+            "name": "Data Infrastructure Strategy Exercises",
+            "uri": "https://video.udacity-data.com/topher/2020/September/5f511b35_data-infrastructure-strategy-exercises/data-infrastructure-strategy-exercises.xlsx"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 981025,
+          "key": "5afaf7cf-c407-4823-8960-13d28454f863",
+          "title": "Lesson Intro",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "5afaf7cf-c407-4823-8960-13d28454f863",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 980961,
+              "key": "fa6687bb-8fe8-4c3e-b524-fbc5b4351a11",
+              "title": "Lesson Intro Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Data Consumers",
+              "instructor_notes": ""
+            },
+            {
+              "id": 980965,
+              "key": "47dae365-d5ed-4cca-8c14-3aa4cab3f2c7",
+              "title": "NDO30 DPMND C2 L2 01 Lesson Overview",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "UUFuuW00bzw",
+                "china_cdn_id": "UUFuuW00bzw.mp4"
+              }
+            },
+            {
+              "id": 980964,
+              "key": "b6f339c8-eede-4ff0-9389-bc33260ed709",
+              "title": "Lesson Overview",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/March/5e5d8359_screen-shot-2020-03-02-at-2.05.48-pm/screen-shot-2020-03-02-at-2.05.48-pm.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/b6f339c8-eede-4ff0-9389-bc33260ed709",
+              "caption": "Lesson Overview",
+              "alt": "Lesson Overview",
+              "width": 1178,
+              "height": 570,
+              "instructor_notes": null
+            },
+            {
+              "id": 980966,
+              "key": "9040e31f-aa92-4b4e-b601-e2467b664464",
+              "title": "Lesson Outline",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "In this lesson, we will learn \n- who data consumers are \n- to proactively identify different types of data stakeholders within an organization\n- anticipate stakeholder data use-cases \n- how to determine what data is needed for our use-cases\n- identify entity-based or event-based data types\n- create entity data models\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1058515,
+          "key": "22c684b4-0fa4-42f3-9064-7559d399456d",
+          "title": "Getting Setup for the Exercises in this Course",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "22c684b4-0fa4-42f3-9064-7559d399456d",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1058509,
+              "key": "872bac9b-9954-4217-9cf2-b08c79173c83",
+              "title": "Exercises for this Course",
+              "semantic_type": "TaskListAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "872bac9b-9954-4217-9cf2-b08c79173c83",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "tasks": [
+                "Locate the template documents at the upper left-hand corner of the classroom in the resources section.",
+                "Download: Data Infrastructure Strategy Exercises Template document",
+                "Download: Data Infrastructure Strategy Exercises spreadsheet"
+              ],
+              "positive_feedback": "Great job, you are set up for success on the exercises now!",
+              "video_feedback": null,
+              "description": "For all exercises requiring data analysis in this course, you will be using a spreadsheet, **Data Infrastructure Strategy Exercises**, and document, **Data Infrastructure Strategy Exercises Template** in the Resources section of the classroom.\n\nResources are available in the navigation panel on the left side of the screen under search. You may need to click the 3 lines to show the menu if it's hidden.\n\nComplete the following:  "
+            },
+            {
+              "id": 1058508,
+              "key": "a30920cb-7f79-4571-b51b-3a2fb6d60e6e",
+              "title": "Additional Exercise Information",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Additional Information about the Exercises\nEach tab in the spreadsheet is correlated with an exercise in this course where it should be used. The document contains the questions relevant to each exercise.\n\n#### Important: Keep a Copy of your Exercise Responses in the Template Document\nIt is highly recommended that as you complete the open-ended exercises in this course, you should keep them in the provided template document to refer back to throughout the course. It will be advantageous as you complete the Final Exercise in the course: Knapsack Data Strategy MVP in the Data Strategy section of this course. You can still copy and paste your responses into the text boxes on each page in the course for each exercise if you wish.\n\n\n## If you are using something other than Microsoft Office\nThis spreadsheet is saved in Excel format but can be opened in any spreadsheet application.\n\nAll video exercises were completed in Google Sheets/Docs, and if you want to follow along using Google Sheets/Docs or if you don't have Microsoft Office, please follow the direction below:\n\n- Upload the Exercises file into Google Drive\n- Click on it and choose Open With\n- Select Google Sheets/Docs depending on the file\n\nIf the file opens in Google Drive's Compatibility Mode, indicated by an Excel X or Word X icon in the top right of the spreadsheet,\n- Click on File in the Menu Bar\n- Click Save as Google Sheets/Docs\n- Google will convert the file and allow you to follow along using Google Sheets/Docs.\n\nIf you have other spreadsheet software or use MS Office, the Excel file should open in that software as well, but you will need to consult the documentation for that software to complete the activities in this course for your spreadsheet software as the steps may be different from Google Sheets/Docs.",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 981033,
+          "key": "ba786850-0a59-4272-a1ef-d22893f33427",
+          "title": "Data Consumer",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "ba786850-0a59-4272-a1ef-d22893f33427",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 980986,
+              "key": "a0a18654-df06-4c52-b87a-c5b1df939393",
+              "title": "DC header",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Data Consumers",
+              "instructor_notes": ""
+            },
+            {
+              "id": 980974,
+              "key": "900c4dfa-3579-4d9a-b3b5-c97cccac5a9c",
+              "title": "NDO30 DPMND C2 L2 02 Who Is A Data Consumer-",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "fgngj-d1Xjw",
+                "china_cdn_id": "fgngj-d1Xjw.mp4"
+              }
+            },
+            {
+              "id": 981015,
+              "key": "03d1031f-59af-470a-ba60-33cee21b6b56",
+              "title": "Understanding Data Consumer Better",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Getting data is excellent, but being able to use it is very important. To do that, we need to understand who a data consumer is? A data consumer would be a person, an organization, or a system that uses data for a specific purpose. A data consumer can also be a data producer. How is that possible? \n\nTo further understand our data stakeholders, we will have to dive deep into:  \n- How does a data consumer want to use data? Is it for reporting, creating a visualization, for reconciliation, or building ML models?\n- What tools are being used by users? Microsoft Excel, Tableau, Microsoft Power BI, or Google Data Studio.\n- Are there any standards within a particular community of users? Legal might want data differently than accounting or finance.\n\nHere we also need to understand that sometimes we might have to provide the same data in multiple formats to satisfy the needs of different consumer groups.\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 980967,
+              "key": "5127a54e-000c-4460-a467-88bc7330ae27",
+              "title": "Data Consumers Image",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/March/5e5d83c4_image16/image16.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/5127a54e-000c-4460-a467-88bc7330ae27",
+              "caption": "Data Consumers",
+              "alt": "Data Consumers",
+              "width": 1480,
+              "height": 782,
+              "instructor_notes": null
+            },
+            {
+              "id": 980987,
+              "key": "48aa2723-c697-45b8-9604-8d1560d4a94a",
+              "title": "Quiz 1",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "48aa2723-c697-45b8-9604-8d1560d4a94a",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which one of the following is true for Data?",
+                "answers": [
+                  {
+                    "id": "rbk1",
+                    "text": "One data set should be used only for one purpose",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk2",
+                    "text": "A data consumer cannot be a data producer",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk3",
+                    "text": "Companies have many different types of data needs",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk4",
+                    "text": "Data is the new gold because it holds the potential to unlock immense business opportunities",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 980968,
+              "key": "3a83f0c4-0f7e-4989-8542-108c5339fcf9",
+              "title": "Quiz 2",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "3a83f0c4-0f7e-4989-8542-108c5339fcf9",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "To understand data consumers, we *do not* need to know which one of the following:",
+                "answers": [
+                  {
+                    "id": "rbk1",
+                    "text": "How data is used",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk2",
+                    "text": "Which tools are being used for data consumption",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk3",
+                    "text": "If Finance and Accounting teams sit next to each other",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk4",
+                    "text": "Data standards followed in a community of users",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk5",
+                    "text": "Personal contact information of stakeholders",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 981003,
+              "key": "9f93dec6-dab1-405f-b2c2-ab482e955915",
+              "title": "Exercise: Data Consumers",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "9f93dec6-dab1-405f-b2c2-ab482e955915",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": "ID data consumers",
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "_Note: use the template to complete this activity and paste your response here._\n\nRemember, Knapsack is a start-up. We have limited resources; our first few goals are:\n1.  Having a working product\n2.  Getting new customers and retaining old\n3.  Predicting P&L (Profit & Loss) growth\n4.  Smooth product delivery\n5.  Having sufficient inventory\n6.  Addressing customer grievances\n7.  Improving product\n\nCan you identify one of our data consumers for each goal? You can do this in the space below, or you can graphically depict it using a tool like Google Drawing, MS Visio, Sketchpad, or Lucidchart.\n\n"
+              },
+              "answer": {
+                "text": "Thanks for your response. Head to the next page to see how the instructor answered this question. ",
+                "video": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 981034,
+          "key": "1b820b0c-d117-4e02-8bf3-9dfec4581972",
+          "title": "Consumers Solution",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1b820b0c-d117-4e02-8bf3-9dfec4581972",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 980971,
+              "key": "591b572f-3ccf-4e8f-b3b3-6fdbc3577322",
+              "title": "Identify Consumers Header",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Identify Consumers Solution",
+              "instructor_notes": ""
+            },
+            {
+              "id": 981018,
+              "key": "2f1fde7b-f567-40e4-bb19-442b3eb7f67c",
+              "title": "NDO30 DPMND C2 L2 03 Identify Data Consumers- Solution",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "bsSW-bNo1j4",
+                "china_cdn_id": "bsSW-bNo1j4.mp4"
+              }
+            },
+            {
+              "id": 980969,
+              "key": "c4a0f13a-f55a-48b3-acf0-543c4f93204e",
+              "title": "Knapsack Image",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/March/5e5d83f8_image2/image2.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/c4a0f13a-f55a-48b3-acf0-543c4f93204e",
+              "caption": "Knapsack Data Consumers",
+              "alt": "Knapsack Data Consumers",
+              "width": 1199,
+              "height": 632,
+              "instructor_notes": null
+            },
+            {
+              "id": 980970,
+              "key": "a9bec810-b4a6-4f75-8ff4-801d9781b3cd",
+              "title": "Data Consumers text",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Mapping business goals to data consumer groups\n- A working product that will be the focus of the Engineering Team \n- Getting new customers and retaining the old ones, the Marketing Team will work towards that\n- Predicting Profit and loss growth is taken care of by the Finance Team\n- Product Delivery will be taken care of by our Logistics team\n- Having sufficient inventory is the objective of the Inventory Management Team\n- Addressing customer grievances, Customer Care Team will do that\n- Improving the product is Product Management Team's work",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 981026,
+          "key": "a7be0daa-5eaf-46c7-9f3c-4b7a20a0c153",
+          "title": "Data Use-cases",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "a7be0daa-5eaf-46c7-9f3c-4b7a20a0c153",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 980975,
+              "key": "10be425b-6848-46ba-90b7-df1c625ad7ea",
+              "title": "Data Use-cases Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Data Use-Cases",
+              "instructor_notes": ""
+            },
+            {
+              "id": 980973,
+              "key": "bd182680-a8f4-4089-9310-0803373908ef",
+              "title": "NDO30 DPMND C2 L2 04 Data Use Cases",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "tlYrcN0mRW8",
+                "china_cdn_id": "tlYrcN0mRW8.mp4"
+              }
+            },
+            {
+              "id": 980972,
+              "key": "1d67b507-566d-4033-ba0a-596769f654d3",
+              "title": "Data Use-cases Recap",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Broadly, data use-cases can be categorized into 5 buckets:\n1.   Business Intelligence\n2.   Visualization\n3.   Reporting\n4.   Big-data\n5.   ML\n\nBelow are example use-cases for each category.\n### Business Intelligence use-cases would be:\n- Understand your customers more effectively\n- Drive performance and revenue\n- Identify sales trends\n- Provide personalized service more easily\n- Improve operational efficiency\n\n### Visualization use-cases are:\n- Identifying trends and spikes.\n- Tracking metrics\n- Getting notified when changes occur\n- Real-time monitoring\n- Accessing data displays remotely\n\n### Reporting use-cases would be:\n- Public reporting of operating and financial data\n- Customer reports\n- Reconciliation reports\n- Reports to decision-makers\n- Reports for business reviews – monthly business reviews\n\n### Big Data use-cases could be:\n- Fraud Prevention\n- Price Optimization\n- Recommendation Engine\n- Social Media Analysis\n- Complete Customer view\n\n### ML use-cases are:\n- Optimum resource utilization\n- Diagnosing ailments and creating treatment plans\n- Virtual assistants: Alexa, Siri, Google, etc\n- Personalized customer experiences: Disney, etc\n- Content creation: Netflix, etc",
+              "instructor_notes": ""
+            },
+            {
+              "id": 980977,
+              "key": "b6470922-9ba1-4028-b617-579781009355",
+              "title": "Data Use-case Quiz 1",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "b6470922-9ba1-4028-b617-579781009355",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which of the following are true about data use-cases?",
+                "answers": [
+                  {
+                    "id": "rbk1",
+                    "text": "A data use-case can fall in multiple categories",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk2",
+                    "text": "A data use-case is how a data consumer expects data",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk3",
+                    "text": "A data use-case is how a data producer produces the data",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk4",
+                    "text": "A data use-case is how a data consumer uses the data",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 980978,
+              "key": "d2ffb00f-a656-4be8-80ca-e1a9dba8eabb",
+              "title": "Data Use-case Quiz 2",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "d2ffb00f-a656-4be8-80ca-e1a9dba8eabb",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": "Data Use-case Quiz 2",
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "Name at least 2 business intelligence and visualization tools. "
+              },
+              "answer": {
+                "text": "Thanks for your response.",
+                "video": null
+              }
+            },
+            {
+              "id": 980976,
+              "key": "e31c4369-514f-459c-ae0f-129dd4860c53",
+              "title": "Identify data Use-case Quiz 3",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "e31c4369-514f-459c-ae0f-129dd4860c53",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": "Identify data Use-case Quiz 3",
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "_Note: use the template to complete this activity and paste your response here._\n\nWe know Knapsack’s business goals, we know Knapsack’s data stakeholders.\n1.   \tHaving a working product: Engineering Team\n2.   \tGetting new customers and retaining old: Marketing Team\n3.   \tPredicting P&L growth: Finance Team\n4.   \tProduct Delivery: Logistics Team\n5.\tHaving sufficient inventory:  Inventory Management Team\n6.   \tAddressing customer grievances: Customer Care Team\n7.         Improving product: Product Management Team\n\n\nWhat are the data use cases for these data consumers? Which category does each of these use cases fall into?"
+              },
+              "answer": {
+                "text": "Thanks for your response. Head to the next page to compare your work with the instructors.",
+                "video": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 981027,
+          "key": "e3f0f217-16f7-4f36-a4d4-f770b456e646",
+          "title": "ID Use-case Solution",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "e3f0f217-16f7-4f36-a4d4-f770b456e646",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 980990,
+              "key": "5c51b4d8-4b56-487d-844b-bab90e1a95e8",
+              "title": "NDO30 DPMND C2 L2 05 Identify Data Use-Case Quiz 3- Solution",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "1nR6iIxpCDM",
+                "china_cdn_id": "1nR6iIxpCDM.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 981028,
+          "key": "ce218c74-6e65-4564-9352-26bc980e34c8",
+          "title": "Entity Data Part 1",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "ce218c74-6e65-4564-9352-26bc980e34c8",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 980994,
+              "key": "1bfc3b8c-53d1-41e3-8e03-6e51b37bf5c3",
+              "title": "Data Needs of Stakeholders Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# What is Entity Data?",
+              "instructor_notes": ""
+            },
+            {
+              "id": 980979,
+              "key": "ec9fc93f-b68a-44d3-bcc3-1c8f09028fcf",
+              "title": "NDO30 DPMND C2 L2 06 Entity Data Intro",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "8L0KpmirkUc",
+                "china_cdn_id": "8L0KpmirkUc.mp4"
+              }
+            },
+            {
+              "id": 980983,
+              "key": "bedbb9fd-5a12-4132-ac12-1daf84980275",
+              "title": "Entity Text",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Entity Data\n\nAn **Entity** is a unique object such as a customer, product, order, etc. \n\n**Entity Attributes** are the properties that describe it. \n\nFor example, we can have three entities in any business: \n- the customer\n- the product\n- the order\n\nThe attributes for a **Customer** could be: \n- Customer id \n- name\n- address\n- email\n- phone\n\nEntity data is stored in a table, for every entity there is a separate table, and every table has columns that describe these entities. One row is dedicated to recording one type of each entity.\n\nThe concepts discussed here are fundamental to the understanding of relational databases. Relational databases have data stored in tables that are related to each other through keys. \n\nThis type of entity data helps capture our application's current state, such as our customers' information or what the product range is.\n\nThe drawback of the entity data model is that the joins might get complicated and introduce latency. \n\nThe advantages are the removal of data duplication and a simple, easy to understand basic structure. ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 980984,
+              "key": "e2a19d87-3efb-470c-aa82-909012813669",
+              "title": "Entity Image",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/March/5e5d8464_image12/image12.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/e2a19d87-3efb-470c-aa82-909012813669",
+              "caption": "Customer Entity Table",
+              "alt": "Customer Entity Table",
+              "width": 1280,
+              "height": 142,
+              "instructor_notes": null
+            },
+            {
+              "id": 1058511,
+              "key": "c5ce2b54-24d5-4c5f-bb82-9185f8448462",
+              "title": "Quiz Entity Data Advantages",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "c5ce2b54-24d5-4c5f-bb82-9185f8448462",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which of the following is an advantage of Entity Data Models?",
+                "answers": [
+                  {
+                    "id": "rbk1",
+                    "text": "Data is stored in many different tables and requires careful relations to ensure that data is easy to work with.",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk2",
+                    "text": "Data latency is very low",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk3",
+                    "text": "Data duplication is generally removed.",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1058510,
+              "key": "d6fbcc02-3c68-4c74-a05c-255b7ce2f160",
+              "title": "Entity Data Models Quiz",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "d6fbcc02-3c68-4c74-a05c-255b7ce2f160",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Thinking about a stakeholder like Marketing, which of the following entity attributes would you want to add to your Entity Model to help marketers do their job better?",
+                "answers": [
+                  {
+                    "id": "rbk1",
+                    "text": "Age",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk2",
+                    "text": "Geography",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk3",
+                    "text": "Social Platforms",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk4",
+                    "text": "Number of Products Ordered by one customer",
+                    "is_correct": true
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 1007174,
+          "key": "86b91da0-d2da-41fc-ba3d-33a38ed29dbf",
+          "title": "Entity Data Quiz Solution",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "86b91da0-d2da-41fc-ba3d-33a38ed29dbf",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1007169,
+              "key": "04653489-de57-4790-abb4-3fed38de9ff2",
+              "title": "solution headline",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Entity Data Quiz Solution ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 980993,
+              "key": "59ecb5ec-ad36-4ec2-916f-392f78ecf48e",
+              "title": "NDO30 DPMND C2 L2 07 Entity Data Quiz Solution",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "T_pel5qSbtQ",
+                "china_cdn_id": "T_pel5qSbtQ.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 981031,
+          "key": "d3a008a5-f058-4ba6-ab09-55ad683ddb3b",
+          "title": "Entity Data Part 2",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "d3a008a5-f058-4ba6-ab09-55ad683ddb3b",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 980995,
+              "key": "bfc5dadd-ff59-496e-9591-95036bf686de",
+              "title": "Entity cont header",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Relating Normalizing and Entity Data",
+              "instructor_notes": ""
+            },
+            {
+              "id": 980980,
+              "key": "cef88281-3b22-47ff-a131-e0e815927ab5",
+              "title": "NDO30 DPMND C2 L2 08 Entity Data Cont",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "G_rXvA4Bm5w",
+                "china_cdn_id": "G_rXvA4Bm5w.mp4"
+              }
+            },
+            {
+              "id": 980962,
+              "key": "11456bd0-0dd5-41dd-b6d1-8a985be43660",
+              "title": "Entity cont summary",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Relating and Normalizing Entity Data\nEntity data captures the current state of an application, such as - who our customers are or what products we have.\n\nTo summarize, Customer ID, Product ID, and Order ID are our typical primary keys in their respective tables. \n\nAnd Customer ID and Product ID would be foreign keys in an order table. \n\nKeys help us in establishing relationships between tables. Once we have relationships established, we can run complex queries to join data from different tables. \n\nThe concepts discussed here are fundamental to the understanding of relational databases. \n- Relational databases have data in tables\n- Tables are linked through keys\n- Data in these tables is normalized. \n\nIn our example, if we want to create a buying pattern for Jon, we can join the order table and product table to see Jon prefers a red color product and is a frequent buyer.  This information is essential for marketing to advertise to Jon the products that fall in the red color palette. This information is also vital for inventory management teams as they can predict the demand for red-colored products and have inventory accordingly.  \n\nWe have a minimal data set here. Generally, these insights are derived from tables that could have millions of rows.\n\n**Normalization** refers to eliminating redundancy. Each table should have data around a specific topic. This eliminates modification complexities and saves on storage.\n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 981005,
+              "key": "c9389fda-d7d6-49b1-b604-400f961255b1",
+              "title": "Entity cont image",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/March/5e5d849b_image5/image5.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/c9389fda-d7d6-49b1-b604-400f961255b1",
+              "caption": "Normalization helps in eliminating database modification complexities. For example if Jon Doe changes phone numbers only the customer table needs to be updated. We don’t need to update the order table and all the transactions made by Jon Doe.",
+              "alt": "Entity Data Normalization",
+              "width": 1391,
+              "height": 732,
+              "instructor_notes": null
+            },
+            {
+              "id": 980989,
+              "key": "343a6db9-7fc7-45f1-85c6-e5ec2fc3ef3a",
+              "title": "Example 2 Keys",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/March/5e5d84c6_image18/image18.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/343a6db9-7fc7-45f1-85c6-e5ec2fc3ef3a",
+              "caption": "Keys and Normalization Example",
+              "alt": "Keys and Normalization Example",
+              "width": 995,
+              "height": 609,
+              "instructor_notes": null
+            },
+            {
+              "id": 980988,
+              "key": "46464504-cc25-472f-a06b-3e9a5c910cd7",
+              "title": "Entity Data Quiz",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "46464504-cc25-472f-a06b-3e9a5c910cd7",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which one of the following is true for entity data",
+                "answers": [
+                  {
+                    "id": "rbk1",
+                    "text": "Entity data is redundant",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk2",
+                    "text": "Entity data is stored in relational databases",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk3",
+                    "text": "Entity data is how customers interact with our website",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk4",
+                    "text": "Entity data is uncommon these days",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk5",
+                    "text": "Entity data is normalized",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1058512,
+              "key": "7281bc3b-6e12-4727-bf68-d94bc3fe54e6",
+              "title": "Entity Data Model Quiz",
+              "semantic_type": "TaskListAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "7281bc3b-6e12-4727-bf68-d94bc3fe54e6",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "tasks": [
+                "Create a table and attributes for your product.",
+                "Create a table and attributes for your orders.",
+                "Identify Primary Keys",
+                "Identify Foreign Keys"
+              ],
+              "positive_feedback": "Your product and order tables may look different than the solution on the next page, but let's see how it compares!",
+              "video_feedback": null,
+              "description": "Please use the Entity Data Quiz Tab in the Data Strategy Class Exercises spreadsheet to help you complete this activity.\n\nFor a product of your choice, create entity model attribute tables for both products and orders. Use your imagination for what attributes could be associated with a product and an order. Use the areas below each table type to create a table for the different attributes for your product and customer. Also, remember to include which columns are Primary and Foreign Keys.\n\nHINT: You can use the customer table discussed previously as a reference point."
+            }
+          ]
+        },
+        {
+          "id": 981038,
+          "key": "56fd5b3a-2212-4b41-847d-c3ee105416a6",
+          "title": "Event Data",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "56fd5b3a-2212-4b41-847d-c3ee105416a6",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 980997,
+              "key": "9be78b5a-4ce1-4dc7-a17f-a9c327662cfc",
+              "title": "Event Data",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Event Data",
+              "instructor_notes": ""
+            },
+            {
+              "id": 980999,
+              "key": "a00cf266-5908-4e24-a9b9-aa06e2db9298",
+              "title": "NDO30 DPMND C2 L2 09 Event Data",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "cIGW3rhtePc",
+                "china_cdn_id": "cIGW3rhtePc.mp4"
+              }
+            },
+            {
+              "id": 981014,
+              "key": "9eaf4f98-3c74-42a6-8e56-3ce166e40c7b",
+              "title": "Difference between entity and event data",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Event Data:\nSensors are infiltrating our lives, and businesses are trying to track every action a user takes. All this is done using event data. Just think about all smartphones, cameras, smartwatches, and other trackers that are constantly collecting data. But what are they collecting?\n\n**Event data** mainly describes the actions performed by entities. \nA Few key pieces of information that are captured in event data might be the action, timestamp and state. \n\n*Example*: \n\n**The Action** is when a customer opened a promotional email. \n\n**The Timestamp** is when it happens - 6:15 pm October 6th. \n\n**The State** will refer to all other relevant data such as device mobile, tablet, or computer and the browser than what browser or app was used, etc. An iPhone using the Gmail app.\n\nEntity Data| Event Data      \n----------|-----------\nNormalized |  Denormalized\nDescribes entities | Describes actions of entities\nDescribes now | Describes trends over time\nUpdates | Appends",
+              "instructor_notes": ""
+            },
+            {
+              "id": 980981,
+              "key": "7609310b-3885-4f21-ba84-9bb6cd83a2a2",
+              "title": "Event Image",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/March/5e5d84ef_image13/image13.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/7609310b-3885-4f21-ba84-9bb6cd83a2a2",
+              "caption": "Event Data",
+              "alt": "Event Data",
+              "width": 1396,
+              "height": 737,
+              "instructor_notes": null
+            },
+            {
+              "id": 981023,
+              "key": "3c78d614-2341-44c3-82b7-4bdb2b374c2a",
+              "title": "Event Data Quiz",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "3c78d614-2341-44c3-82b7-4bdb2b374c2a",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Event data is also called behavioral data because: ",
+                "answers": [
+                  {
+                    "id": "rbk1",
+                    "text": "It is entity action-driven",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk2",
+                    "text": "It is stored in behavioral databases",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk3",
+                    "text": "It is how customers engage with our site.",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk4",
+                    "text": "It is denormalized",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk5",
+                    "text": "It gives us insight into individual aspects of the customer.",
+                    "is_correct": true
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 981032,
+          "key": "b25ca79c-4f33-4136-a7d7-dce4f455fd39",
+          "title": "Data Needs Activity",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "b25ca79c-4f33-4136-a7d7-dce4f455fd39",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1007167,
+              "key": "91caa383-22e4-46a1-a32d-69d29146a9be",
+              "title": "headline",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Data Needs Activity",
+              "instructor_notes": ""
+            },
+            {
+              "id": 981004,
+              "key": "5d2a295d-1c60-464f-837b-6460ac9eab73",
+              "title": "Data needs Quiz Image",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/March/5e5d8519_image17/image17.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/5d2a295d-1c60-464f-837b-6460ac9eab73",
+              "caption": "Knapsack Data Needs Table",
+              "alt": "Knapsack Data Needs Table",
+              "width": 1152,
+              "height": 567,
+              "instructor_notes": null
+            },
+            {
+              "id": 1058513,
+              "key": "0b4b1a42-d927-4a55-92f4-2c8b3c15f871",
+              "title": "Data Needs and Entity Models Exercise",
+              "semantic_type": "TaskListAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "0b4b1a42-d927-4a55-92f4-2c8b3c15f871",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "tasks": [
+                "Determine the kind of data that will be needed(entity/event).",
+                "Now that you have recognized the type of data identify what minimum set of data elements are needed in each case.",
+                "Choose one of the following, Marketing, Finance, or Customer Care use cases, and create entity data model tables with at least two tables and four attributes per table. Make sure to identify the Primary and Foreign key(s) for each table.",
+                "**Optional Standout Suggestion**: Use a diagram tool like draw.io or Google Drawing to map this out visually."
+              ],
+              "positive_feedback": "Well done, that exercise might have been a challenge. See how you did on the next page!",
+              "video_feedback": null,
+              "description": "Use the table in the Data Strategy Class Exercises spreadsheet in the Recognizing Data Needs Quiz tab to complete this activity. (Instructions are also included in the Template document)\n\nPlease complete the following:"
+            }
+          ]
+        },
+        {
+          "id": 981035,
+          "key": "86448f11-ed4b-44a5-9e71-c19dbd643bf3",
+          "title": "Solution",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "86448f11-ed4b-44a5-9e71-c19dbd643bf3",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1007173,
+              "key": "d857e84a-20a1-44db-a963-1565f204241a",
+              "title": "headline",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Knapsack Data Requirements",
+              "instructor_notes": ""
+            },
+            {
+              "id": 981010,
+              "key": "689739ca-a2da-4cfc-a762-febdbafd4f54",
+              "title": "NDO30 DPMND C2 L2 10 Recognizing Data Needs And Applying Entity Data Fundamentals - Solution",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "l3moKJUoVPU",
+                "china_cdn_id": "l3moKJUoVPU.mp4"
+              }
+            },
+            {
+              "id": 981009,
+              "key": "04ee663b-b917-4259-9f3d-ae64c8ef0f6b",
+              "title": "Data modeling",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Exercise Solution\nBelow you can see an example of the data needs for each stakeholder and use-case as well as the data type(s) needed for each. Also included is an example of entity modeling for relational data. \n\n**Important**: Your thoughts may look different than this, and that is alright. Product Management is not conducted in a vacuum, and you will be working directly with the types of teams we are using in our example. Much of product management is subjective, but this course and it's exercises are meant to help you anticipate the needs of your stakeholders and help identify who you need to talk to. \n\n### Entity Modeling:\n**Primary Keys**:\n- **Customer ID** is the primary key for customer table and customer demographics table\n- **Product ID** is the primary key for Product table\n- **Order ID** is the primary key for order Details table\n\n**Foreign Keys**:\n- **Customer ID** and **Product ID** for the Order Details Table",
+              "instructor_notes": ""
+            },
+            {
+              "id": 980963,
+              "key": "5e2eb6b7-77f3-40c1-9f70-38f5263332bd",
+              "title": "Data Elements",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/March/5e5d8580_image23/image23.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/5e2eb6b7-77f3-40c1-9f70-38f5263332bd",
+              "caption": "Data Elements for Knapsack",
+              "alt": "Data Elements for Knapsack",
+              "width": 1270,
+              "height": 669,
+              "instructor_notes": null
+            },
+            {
+              "id": 980991,
+              "key": "a0e6cd0d-951a-4d9b-b262-ceaf2ab07b5c",
+              "title": "Entity Image 1",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/March/5e5d85a4_image21/image21.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/a0e6cd0d-951a-4d9b-b262-ceaf2ab07b5c",
+              "caption": "Targeted Advertising",
+              "alt": "Targeted Advertising",
+              "width": 1442,
+              "height": 757,
+              "instructor_notes": null
+            },
+            {
+              "id": 980960,
+              "key": "32ad0067-dc4c-4f2a-a74a-c94f62030af4",
+              "title": "Entity Image 2",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/March/5e5d85c5_image14/image14.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/32ad0067-dc4c-4f2a-a74a-c94f62030af4",
+              "caption": "Profit and Loss",
+              "alt": "Profit and Loss",
+              "width": 1999,
+              "height": 1054,
+              "instructor_notes": null
+            },
+            {
+              "id": 981008,
+              "key": "40060795-058a-4fb1-9c25-fcbe16cef490",
+              "title": "Personalized Responses",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/March/5e5d85e0_image22/image22.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/40060795-058a-4fb1-9c25-fcbe16cef490",
+              "caption": "Personalized Responses",
+              "alt": "Personalized Responses",
+              "width": 1999,
+              "height": 1055,
+              "instructor_notes": null
+            }
+          ]
+        },
+        {
+          "id": 981029,
+          "key": "d78d558d-4bc7-414c-a0af-e12ad6b0040b",
+          "title": "Bringing it All Together",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "d78d558d-4bc7-414c-a0af-e12ad6b0040b",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1058514,
+              "key": "5ba55566-70a3-4d78-a6a8-c08b0011a2a2",
+              "title": "Background",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Scenario\n_You can complete this activity below in the space provided in the template._\n\nYou have just been hired at a new start-up looking to disrupt the car rental industry. This company offers peer-to-peer car-sharing where a person who has a car can rent it out to someone who needs a car for a specified amount of time. In this situation, both the car owners and renters are customers. \n### Additional Details to Consider\nRenters searching for cars might want a certain type or model in a certain location for a certain amount of time. \n\nThe owners might want to add unique details about their rentals and get information about the renter before agreeing to rent out their car. \n\nThere are many other considerations like verifying customer's driving records, insurance, and car details and car details as well, but you do not need to get too detailed for this exercise. \n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 981020,
+              "key": "9136b8d3-6de3-4dcf-95da-ced39890da7c",
+              "title": "Peer-to-Peer Car Sharing Quiz",
+              "semantic_type": "TaskListAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "9136b8d3-6de3-4dcf-95da-ced39890da7c",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "tasks": [
+                "List at least 4 data needs for this company",
+                "Identify at least one data use-case of each data stakeholder",
+                "Determine at least 3 data elements needed for each use-case",
+                "Identify if these data elements are entity-based or event-based (at least one of each)",
+                "Complete an entity data model table for at least 3 entity data elements",
+                "When you are finished compare your answers to the solution video on the next page"
+              ],
+              "positive_feedback": "Great Job! See how your answer compares on the next page!",
+              "video_feedback": null,
+              "description": "Consider the car-sharing company from above and Identify the following for these stakeholders: \n- Risk and Security team\n- Accounting team\n- Payments Team: "
+            }
+          ]
+        },
+        {
+          "id": 981036,
+          "key": "88e8215e-f7d0-40d9-9fec-573912fd228a",
+          "title": "Peer-to-Peer Car Sharing Solution",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "88e8215e-f7d0-40d9-9fec-573912fd228a",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 981019,
+              "key": "972d8570-66fb-445a-97bd-30812d27fca5",
+              "title": "NDO30 DPMND C2 L2 11 V2 Turo Solution - Answer",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "G5ARgWGcu84",
+                "china_cdn_id": "G5ARgWGcu84.mp4"
+              }
+            },
+            {
+              "id": 981000,
+              "key": "aa235ef4-33b6-43db-b793-d55cc0b63ab6",
+              "title": "Peer-to-Peer  Car Sharing Text",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Peer-to-Peer Car Sharing Solution\n\n**Important**: Your thoughts may look different than this, and that is alright. Product Management is not conducted in a vacuum, and you will be working directly with the types of teams we are using in our example. Much of product management is subjective, but this course and it's exercises are meant to help you anticipate the needs of your stakeholders and help identify who you need to talk to. \n\n### Problem statement:\nOne example for our peer-to-peer car-sharing company could include the following business goals:\n- Risk and security team: focused on safety, and security of car owners and car renters\n- Accounting team: ensuring they are financially compliant\n- Payments Team: focused on smooth payment mechanisms for car owners and renters",
+              "instructor_notes": ""
+            },
+            {
+              "id": 980996,
+              "key": "44988063-b70d-43fa-af9c-608102e04217",
+              "title": "Turo Use Cases",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/March/5e5d8618_image4/image4.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/44988063-b70d-43fa-af9c-608102e04217",
+              "caption": "Data Elements",
+              "alt": "Data Elements",
+              "width": 1439,
+              "height": 762,
+              "instructor_notes": null
+            },
+            {
+              "id": 980992,
+              "key": "85d55001-bf2b-4afb-a775-caadcc047644",
+              "title": "Peer-to-Peer Car Sharing Data Use Cases",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "To ensure safety and security, the risk and security team will be interested in customer and car owner screening.\n\nThe financial compliance accounting team will maintain financial books and create accurate balance sheets. \n\nManaging seamless payments to car owners is a use case for the Payments team. \n\nYou can see potential Data Elements and the type of data in the table above. There could be others as well. For example, the payments team might want timestamps for payment events (credit card charge, credit card processing, payment sent, the payment received, payment verified) in order to monitor the performance of the payment process. \n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 981013,
+              "key": "3ba80815-773b-4a17-8bc1-d5077d44e16b",
+              "title": "Turo Entity Model",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/March/5e5d863b_image19/image19.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/3ba80815-773b-4a17-8bc1-d5077d44e16b",
+              "caption": "Entity Model",
+              "alt": "Entity Model",
+              "width": 1443,
+              "height": 761,
+              "instructor_notes": null
+            },
+            {
+              "id": 981006,
+              "key": "12ff6bb2-20e5-48d9-a26f-20c09a388a0d",
+              "title": "Peer-to-Peer Car Sharing Entity Text",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Entity Modeling for Peer-to-Peer Car Sharing \nThe Entity modeling for Peer-to-Peer Car Sharing is a bit complex. The tables, their attributes, and primary and foreign keys have been identified in the image above.\n\nPK = Primary Key\n\nFK = Foreign Key\n\n**Entity Tables**: \n- Customer table\n- Car owner (who is our partner here)\n- Partner payment information\n- Car details\n- Booking details table\n\nBelow you can see how we might use our Entity Modeling for each use case.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 981016,
+              "key": "bc9b2ca7-93c8-4ed5-b6a7-0db78c0ae3a6",
+              "title": "Risk Image",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/March/5e5d8655_image1/image1.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/bc9b2ca7-93c8-4ed5-b6a7-0db78c0ae3a6",
+              "caption": "Risk and Security Entity Model",
+              "alt": "Risk and Security Entity Model",
+              "width": 1442,
+              "height": 764,
+              "instructor_notes": null
+            },
+            {
+              "id": 1007170,
+              "key": "eaf6c338-be78-4c9b-bec4-106c5966249f",
+              "title": "risk and security",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Risk and Security \nFor car owners screening, the risk and security team will combine the partner table with the partner payment table and car table. The information provided in these tables can be combined and used for partner verification. \n\nFraud algorithms can be built to detect anomalies. Similarly, customer screening can be done using the customer table's information, along with Facebook and Google login details. Again some ML modeling will be needed that will use these parameters to detect inconsistencies.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 981001,
+              "key": "43186477-bc8d-4cd1-ab99-eb03c36cbf08",
+              "title": "Finance Model",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/March/5e5d866a_image20/image20.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/43186477-bc8d-4cd1-ab99-eb03c36cbf08",
+              "caption": "Accounting Entity Model",
+              "alt": "Accounting Entity Model",
+              "width": 1443,
+              "height": 762,
+              "instructor_notes": null
+            },
+            {
+              "id": 1007172,
+              "key": "cfd45880-4e3d-4128-b6e5-c300849fccd8",
+              "title": "Accounting",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Accounting\nAccounting can calculate costs and margins using a booking table. From the booking total, daily rental cost, taxes, and fees would be subtracted to get the margin. All this will be aggregated on a monthly and weekly basis to make financial entries into books.  ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 980998,
+              "key": "fb9927d2-5dbf-4e7d-b6cf-39891351ed7a",
+              "title": "Payments Model",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/March/5e5d8687_image10/image10.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/fb9927d2-5dbf-4e7d-b6cf-39891351ed7a",
+              "caption": "Payments Entity Model",
+              "alt": "Payments Entity Model",
+              "width": 1439,
+              "height": 759,
+              "instructor_notes": null
+            },
+            {
+              "id": 1007171,
+              "key": "e9340f34-ea11-4b55-a939-2b609b53dfe3",
+              "title": "Payments",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Payments\nAnd finally, the payments team will combine data from the booking table, car table, partner table, and partner payment table to get details of what payment needs to be made and to whom.  They will use the booking table to get what needs to be paid and figure out the margin. ",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 981037,
+          "key": "1a757b52-ca0c-4fbd-b690-ead4ada2feb9",
+          "title": "Data Consumers Recap",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1a757b52-ca0c-4fbd-b690-ead4ada2feb9",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 981002,
+              "key": "2620bf91-dfdf-469a-a894-97cea5102a75",
+              "title": "Data Consumers Recap Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Data Consumers Recap",
+              "instructor_notes": ""
+            },
+            {
+              "id": 981022,
+              "key": "4d553347-eacb-4d23-a2fa-95d3819a711e",
+              "title": "NDO30 DPMND C2 L2 12 Data Consumers Recap",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "bUY_ibdR66E",
+                "china_cdn_id": "bUY_ibdR66E.mp4"
+              }
+            },
+            {
+              "id": 981007,
+              "key": "c100fbff-2043-4186-9312-db8d0895d089",
+              "title": "Consumers Recap Image",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/March/5e5d86c0_screen-shot-2020-03-02-at-2.20.29-pm/screen-shot-2020-03-02-at-2.20.29-pm.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/c100fbff-2043-4186-9312-db8d0895d089",
+              "caption": "Lesson Overview",
+              "alt": "Lesson Overview",
+              "width": 1260,
+              "height": 644,
+              "instructor_notes": null
+            },
+            {
+              "id": 981011,
+              "key": "a569dbc9-df07-43b3-909b-0883e0af16e2",
+              "title": "Data Consumers Recap Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Things covered in the lesson\n- Who is a data consumer \n- Types of data use-cases\n- Data needs of stakeholders\n- Entity Based Data \n- Entity Data Modeling\n- Intro to Event-Based Data\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 981030,
+          "key": "e8123e1f-e818-4ccb-a638-0b6c7f53373f",
+          "title": "Glossary & Resources",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "e8123e1f-e818-4ccb-a638-0b6c7f53373f",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 981017,
+              "key": "8fe2ce84-bb8c-4c41-8b1a-93dec1a7334d",
+              "title": "Glossary & Resources",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Key Terms\n- **Business Intelligence** - Business Intelligence is a technology-driven process for analyzing data and presenting actionable information that helps executives, managers, and other corporate end-users make informed business decisions. Some common tools, SAP, Microsoft Power BI.\n- **Visualization** - Data visualization is the graphical representation of information and data. By using visual elements like charts, graphs, and maps, data visualization tools provide an accessible way to see and understand trends, outliers, and patterns in data. Some common tools are Tableau, QlikView.\n- **Reporting** - A report is a document that presents information in an organized format for a specific audience and purpose. Although summaries of reports may be delivered orally, complete reports are almost always in the form of written documents. Business reporting or enterprise reporting refers to both \"the public reporting of operating and financial data by a business enterprise, and \"the regular provision of information to decision-makers within an organization to support them in their work. Some common tools are Sap Crystal Reports, Zoho.\n- **Big Data** - Big Data is described with the “three Vs”, the volume of big-data is measured in terabytes or petabytes, the velocity at which data is generated is high and lastly it has a wide variety of sources such as text files, images, video, audio files, presentations, spreadsheets, email messages, and databases.\n- **AI and ML** - Artificial Intelligence means “making machines intelligent,” so they can make some decisions on their own according to the situations without the need for any human interference. And Machine Learning is “the way to make those machines intelligent.” Machine learning is a subset of AI that focuses on a narrow range of activities.\n- **Entity** - Entity is a unique object such as customer, product, order etc.\n- **Entity Attributes** - Attributes are the properties that describe it, for a customer entity attributes could be Name, address, email, phone. \n- **Entity Data** - Entity data is the data that is stored in a table. For every entity there is a separate table, and every table has columns that are attributes describing these entities. One row is dedicated to recording one type of entity. \n- **Relational Modeling** -  Relational modeling is forming relationships between data tables.\n- **Normalization** - Normalization refers to eliminating redundancy. Each table should have data around a specific topic. This eliminates modification complexities and saves on storage.\n- **Key** - A key is an index to a record in a table.\n- **Primary Key** - Primary keys are unique identifiers for a record in a table. There is only one primary key in a table. Primary key column cannot be blank or null. \n- **Foreign Key** - A foreign key is a set of one or more columns that refer to a primary key in another table. A table can have one or more foreign keys. Foreign keys can contain duplicates and can have null values.\n\n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 981021,
+              "key": "156c31fe-452b-4ea2-82af-f47ef2d70563",
+              "title": "Additional Resources",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Additional Resources\n\n- [Business Intelligence](https://en.wikipedia.org/wiki/Business_intelligence)\n- [Big Data](https://en.wikipedia.org/wiki/Big_data)\n- [Data Science vs. Artificial Intelligence vs. Machine Learning vs. Deep Learning](https://towardsdatascience.com/data-science-vs-artificial-intelligence-vs-machine-learning-vs-deep-learning-9fadd8bda583)\n- [Relational Model](https://en.wikipedia.org/wiki/Relational_model)\n- [Database Normalization](https://en.wikipedia.org/wiki/Database_normalization)\n- [Primary Key](https://en.wikipedia.org/wiki/Primary_key)\n- [Foreign Key](https://en.wikipedia.org/wiki/Foreign_key)",
+              "instructor_notes": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:06.705
+Data origin components will be the webpage, mobile app, headphones.
+
+00:00:06.705 --> 00:00:11.010
+They might be getting some relational data through Amazon RDS,
+
+00:00:11.010 --> 00:00:14.205
+some noSQL content through DynamoDB.
+
+00:00:14.205 --> 00:00:18.060
+Amazon DynamoDB is a noSQL DB,
+
+00:00:18.060 --> 00:00:22.580
+and Amazon RDS is an Amazon relational database service.
+
+00:00:22.580 --> 00:00:27.380
+Headphones are our connected or IOT devices in this pipeline.
+
+00:00:27.380 --> 00:00:32.229
+Amazon generally has inbuilt solution for different parts of their businesses.
+
+00:00:32.229 --> 00:00:34.284
+Instead of a SaaS,
+
+00:00:34.284 --> 00:00:37.160
+I'm assuming that all the data external to
+
+00:00:37.160 --> 00:00:41.725
+this pipeline will be either structured and comes through
+
+00:00:41.725 --> 00:00:44.570
+RDS type of systems or is either
+
+00:00:44.570 --> 00:00:50.200
+semi-structured or unstructured and comes from Dynamo type of interfaces.
+
+00:00:50.200 --> 00:00:52.095
+Data processing.
+
+00:00:52.095 --> 00:00:55.485
+First component as Amazon S3.
+
+00:00:55.485 --> 00:01:00.760
+Amazon Simple Storage Service is a highly scalable storage service.
+
+00:01:00.760 --> 00:01:03.885
+Next, we have Amazon Lambda.
+
+00:01:03.885 --> 00:01:08.200
+It is a compute service that runs in response to events.
+
+00:01:08.200 --> 00:01:10.375
+You can replace Lambda by Glue,
+
+00:01:10.375 --> 00:01:12.605
+which will be an ETL service.
+
+00:01:12.605 --> 00:01:16.750
+Lambda will place data into an S3 bucket again.
+
+00:01:16.750 --> 00:01:18.100
+Here, if you notice,
+
+00:01:18.100 --> 00:01:21.300
+our S3 buckets are intermediate storages.
+
+00:01:21.300 --> 00:01:25.359
+From S3 data, it's pulled by Amazon EMR,
+
+00:01:25.359 --> 00:01:27.970
+which is big data platform service.
+
+00:01:27.970 --> 00:01:33.185
+It is used for distributed storage and to run compute over big data.
+
+00:01:33.185 --> 00:01:37.475
+It uses frameworks such as Hadoop and Apache Spark.
+
+00:01:37.475 --> 00:01:41.770
+Next, data storage, we already know for intermediate data storage,
+
+00:01:41.770 --> 00:01:43.390
+we are using S3.
+
+00:01:43.390 --> 00:01:47.270
+Along with that, we are using Amazon Redshift,
+
+00:01:47.270 --> 00:01:49.715
+which is a data warehouse.
+
+00:01:49.715 --> 00:01:54.270
+Our data destinations are; Amazon SageMaker,
+
+00:01:54.270 --> 00:01:57.135
+which is a Cloud machine learning platform,
+
+00:01:57.135 --> 00:01:58.870
+and Amazon Quick Sight,
+
+00:01:58.870 --> 00:02:01.595
+which is a business intelligence service.
+
+00:02:01.595 --> 00:02:06.780
+Here is what the pipeline might look like, end-to-end.
+

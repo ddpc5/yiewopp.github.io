@@ -1,0 +1,422 @@
+<!-- udacity2.0 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Need for Data Pipelines</title>
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/plyr.css">
+  <link rel="stylesheet" href="../assets/css/katex.min.css">
+  <link rel="stylesheet" href="../assets/css/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="shortcut icon" type="image/png" href="../assets/img/udacimak.png" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav id="sidebar">
+  <div class="sidebar-header">
+    <h3>Introduction to Data Pipeline</h3>
+  </div>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled components">
+    <li class="">
+      <a href="01. Data Pipeline.html">01. Data Pipeline</a>
+    </li>
+    <li class="">
+      <a href="02. What a Data Pipeline Is.html">02. What a Data Pipeline Is</a>
+    </li>
+    <li class="">
+      <a href="03. Pipeline Quiz Solution.html">03. Pipeline Quiz Solution</a>
+    </li>
+    <li class="">
+      <a href="04. Need for Data Pipelines.html">04. Need for Data Pipelines</a>
+    </li>
+    <li class="">
+      <a href="05. Knapsack DP Solution.html">05. Knapsack DP Solution</a>
+    </li>
+    <li class="">
+      <a href="06. Data Pipeline Components.html">06. Data Pipeline Components</a>
+    </li>
+    <li class="">
+      <a href="07. Knapsack DP Components.html">07. Knapsack DP Components</a>
+    </li>
+    <li class="">
+      <a href="08. Bringing it all together.html">08. Bringing it all together</a>
+    </li>
+    <li class="">
+      <a href="09. Alex Solution.html">09. Alex Solution</a>
+    </li>
+    <li class="">
+      <a href="10. Wrap Up.html">10. Wrap Up</a>
+    </li>
+    <li class="">
+      <a href="11. Lesson Terms &amp; Resources.html">11. Lesson Terms &amp; Resources</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+</nav>
+
+    <div id="content">
+      <header class="container-fluild header">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="align-items-middle">
+                <button type="button" id="sidebarCollapse" class="btn btn-toggle-sidebar">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </button>
+
+                <h1 style="display: inline-block">04. Need for Data Pipelines</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="ud-atom">
+  <h3><p>Need of Data Pipelines Heading</p></h3>
+  <div>
+  <h1 id="why-do-we-need-data-pipelines">Why do we need Data Pipelines?</h1>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>NDO30 DPMND C2 L1 04 Need For Data Pipelines</p></h3>
+  <video controls>
+  <source src="04. NDO30 DPMND C2 L1 04 Need For Data Pipelines-CtZnoI7_kOg.mp4" type="video/mp4">
+
+  <track default="true" kind="subtitles" srclang="en" src="04. NDO30 DPMND C2 L1 04 Need For Data Pipelines-CtZnoI7_kOg.en.vtt" label="en">
+</video>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>Google Trends</p></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/image14.png" alt="Rising interest in Data Pipelines
+https://trends.google.com/trends/explore?date&#x3D;2011-10-18%202019-11-18&amp;q&#x3D;Data%20Pipeline" class="img img-fluid">
+    <figcaption class="figure-caption">
+      <p>Rising interest in Data Pipelines<br />
+<a href="https://trends.google.com/trends/explore?date=2011-10-18%202019-11-18&q=Data%20Pipeline" rel="noopener noreferrer" target="_blank">https://trends.google.com/trends/explore?date=2011-10-18%202019-11-18&q=Data%20Pipeline</a></p>
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>image source</p></h3>
+  <div>
+  <p><a href="https://trends.google.com/trends/explore?date=2011-10-18%202019-11-18&q=Data%20Pipeline" rel="noopener noreferrer" target="_blank">Google Trends Source</a></p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>Need for Data Pipelines Recap</p></h3>
+  <div>
+  <h3 id="changing-data-landscape">Changing Data Landscape</h3>
+<p>There is more data than ever before, and data pipelines are needed to use all of that data.</p>
+<ul>
+<li><strong>Siloed Data</strong>: We need to centralize and normalize data. </li>
+<li><strong>Connected Devices</strong>: We need optimized and automated data pipelines.</li>
+<li><strong>Growing Data</strong>: We need scalability.</li>
+</ul>
+<h3 id="breaking-down-silos">Breaking Down Silos</h3>
+<p>Data is more distributed and siloed. We need solutions that can work in such complexities and solve our problems, and data pipelines can help centralize and normalize data to discover insights across silos.</p>
+<h3 id="classic-data-problems-can-be-tackled-with-data-pipelines">Classic Data Problems can be tackled with data pipelines</h3>
+<ul>
+<li>Changing incoming data</li>
+<li>Changing data use-cases</li>
+<li>Data corruption</li>
+<li>Data duplication</li>
+<li>Data leaks</li>
+<li>Latency</li>
+</ul>
+<p>A Data Pipeline is optimized across some of these factors depending on the data use case.  </p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>Need for Data Pipelines Quiz</p></h3>
+  <div>
+  <form>
+    <fieldset>
+      <legend><p>Choose the correct answer – An enterprise should invest in data pipelines because:</p></legend>
+    </fieldset>
+
+    <div>
+      <input type="checkbox" value="rbk1" name="980924" id="rbk1">
+      <label for="rbk1"><p>Saas is becoming more and more popular</p></label>
+    </div>
+    <div>
+      <input type="checkbox" value="rbk2" name="980924" id="rbk2">
+      <label for="rbk2"><p>IoT is everywhere, and we don’t know what to do</p></label>
+    </div>
+    <div>
+      <input type="checkbox" value="rbk3" name="980924" id="rbk3">
+      <label for="rbk3"><p>It’s the new thing, and we should do it</p></label>
+    </div>
+    <div>
+      <input type="checkbox" value="rbk4" name="980924" id="rbk4">
+      <label for="rbk4"><p>AWS offers data pipeline technology</p></label>
+    </div>
+  </form>
+
+  <details>
+    <summary><strong>SOLUTION:</strong></summary>
+    <ul>
+      <li>Saas is becoming more and more popular</li>
+      <li>IoT is everywhere, and we don’t know what to do</li>
+  </ul>
+  </details>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>Data Problems and Pipeline Solutions.</p></h3>
+  <div>
+  <p><strong>QUIZ QUESTION:</strong>: <p>Match the following problem with a potential data pipeline solution:</p></p>
+  <p><strong>ANSWER CHOICES:</strong></p>
+  <button class="btn btn-primary"><p>Bottleneck removal</p></button>
+  <button class="btn btn-primary"><p>Scalability</p></button>
+  <button class="btn btn-primary"><p>Monitoring</p></button>
+  <button class="btn btn-primary"><p>Data Validation</p></button>
+  <button class="btn btn-primary"><p>Data Completeness</p></button>
+  <button class="btn btn-primary"><p>Data Correctness</p></button>
+  <button class="btn btn-primary"><p>Flexibility</p></button>
+
+  <br><br>
+
+  <table class="table">
+    <tr class="thead-dark table-hover">
+      <th>
+        <p>Classic Data Problems</p>
+      </th>
+      <th>
+        <p>Solution that Data Pipeline might provide</p>
+      </th>
+    </tr>
+
+    <tr>
+      <td><p>Changing Data Needs </p></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><p>Data Corruption</p></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><p>Data Duplication</p></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><p>Data Leaks</p></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><p>Growing Data</p></td>
+      <td></td>
+    </tr>
+  </table>
+
+  <details>
+    <summary><strong>SOLUTION:</strong></summary>
+
+    <table class="table">
+      <tr class="thead-dark table-hover">
+        <th>
+          <p>Classic Data Problems</p>
+        </th>
+        <th>
+          <p>Solution that Data Pipeline might provide</p>
+        </th>
+      </tr>
+
+      <tr>
+        <td>
+          <p>Growing Data</p>
+        </td>
+        <td>
+            <button class="btn btn-primary"><p>Scalability</p></button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Data Duplication</p>
+        </td>
+        <td>
+            <button class="btn btn-primary"><p>Data Validation</p></button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Data Leaks</p>
+        </td>
+        <td>
+            <button class="btn btn-primary"><p>Data Completeness</p></button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Data Corruption</p>
+        </td>
+        <td>
+            <button class="btn btn-primary"><p>Data Correctness</p></button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Changing Data Needs </p>
+        </td>
+        <td>
+            <button class="btn btn-primary"><p>Flexibility</p></button>
+        </td>
+      </tr>
+    </table>
+  </details>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>Need for Data Pipeline</p></h3>
+  <div>
+  <p><strong>QUESTION: <p>Need for Data Pipeline</p></strong></p>
+  <h2 id="exercise-2">Exercise 2</h2>
+<p><em>Use the template you downloaded to complete this activity.</em></p>
+<p>At Knapsack, we decided to focus on the core business of selling backpacks. Hence we decided to use cloud-based third-party solutions for some business units. </p>
+<p>We use “SimplyAccounting” for accounting and “JustSale” for managing marketing campaigns. </p>
+<p>Also, we have recently launched a beta version of our “Smart Knapsack,” that is in the market with few beta customers, and we are continuously monitoring its performance. The Smart Knapsack has the following features:</p>
+<ul>
+<li>Anti-theft device</li>
+<li>Wifi signal booster</li>
+<li>Solar panel to charge devices  </li>
+<li>Retractable light</li>
+<li>One button 911 dial with location tracking. </li>
+</ul>
+<p>Try to recreate the Knapsack data pipeline. Can you identify SaaS and IoT components? What do you think could be some potential data problems for Knapsack?</p>
+<h2 id="important-keep-a-copy-of-your-exercise-responses-in-the-template-document">Important Keep a Copy of your Exercise Responses in the Template Document</h2>
+<p>It is highly recommended that as you complete the open-ended exercises in this course, you should keep them in the provided template document to refer back to throughout the course. It will be instrumental as you complete the Final Exercise in the course: Knapsack Data Strategy MVP in the Data Strategy section of this course. You can still copy and paste your responses into the text boxes on each page in the course for each exercise if you wish.</p>
+
+  <details>
+    <summary><strong>ANSWER:</strong></summary>
+    <p><p>Thanks for your response.</p></p>
+  </details>
+</div>
+
+
+</div>
+<div class="divider"></div>
+          </div>
+
+          <div class="col-12">
+            <p class="text-right">
+              <a href="05. Knapsack DP Solution.html" class="btn btn-outline-primary mt-4" role="button">Next Concept</a>
+            </p>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p class="text-center">
+                <a href="https://us-udacity.github.io/" target="_blank">【udacity2.0 】If you need more courses, please add wechat：udacity6</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+  <script src="../assets/js/jquery-3.3.1.min.js"></script>
+  <script src="../assets/js/plyr.polyfilled.min.js"></script>
+  <script src="../assets/js/bootstrap.min.js"></script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="../assets/js/katex.min.js"></script>
+  <script>
+    // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('04. Need for Data Pipelines')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,320 @@
+{
+  "id": 2758,
+  "project_id": 696,
+  "upload_types": [
+    "zip"
+  ],
+  "file_filter_regex": "\\A(?!(((.*/)?(__MACOSX|\\.git|node_modules|bower_components|jspm_packages|\\.idea|build|.ipynb_checkpoints|\\.Trash-0|logs)(\\Z|/))))((.*\\.(js|css|py|html|htm|txt|md|markdown|sql|swift|java|ts|gradle|xml|rst|yml|yaml|rmd|pdf|docx|h|H|hh|hxx|h\\+\\+|c|C|cc|cpp|cxx|c\\+\\+)\\Z)|((.*/)?(README|Readme|readme|Makefile)\\Z))",
+  "nomination_eligible": false,
+  "stand_out": "1. Project identifies fields that would be good to include, but not required. \n2. Project creates other relevant data visualizations to add to the dashboard such as all event types on a logarithmic scale. \n3. Project includes a working public link to the dashboard.\n4. Project suggests a hybrid strategy and addressing all of the items above.\n5. Project suggests a hybrid data strategy and addresses the relevant products and provides reasoning on the choices made.\n",
+  "hide_criteria": false,
+  "created_at": "2019-11-21T16:37:56.141Z",
+  "updated_at": "2020-10-21T12:25:22.808Z",
+  "hashtag": "",
+  "max_upload_size_mb": 500,
+  "estimated_sla": null,
+  "project_assistant_enabled": false,
+  "available_for_cert_project": false,
+  "language": "en-us",
+  "ndkeys": [
+    "nd030-beta",
+    "nd030",
+    "nd030-2",
+    "nd089-ent-daimler",
+    "nd104-ent-daimler",
+    "nd030-ent"
+  ],
+  "coursekeys": [],
+  "is_career": false,
+  "sections": [
+    {
+      "id": 5869,
+      "name": "Data Collection",
+      "created_at": "2019-11-21T19:23:14.990Z",
+      "updated_at": "2019-11-21T19:27:23.786Z",
+      "deleted_at": null,
+      "position": 0,
+      "rubric_id": 2758,
+      "rubric_items": [
+        {
+          "id": 16843,
+          "section_id": 5869,
+          "passed_description": "The project recognizes at least 3 stakeholders.\n\nThe project clearly states why these stakeholders  were chosen and identified as primary stakeholders.\n\nThe project identifies stakeholders in at least 3 different departments of the business \n\nHint: Flyber is a startup. The app is live so an engineering team is there. They are one of the primary stakeholders. On similar lines who could be primary stakeholders.  What are primary focus areas for a startup?\n",
+          "exceeded_description": null,
+          "created_at": "2019-11-21T19:23:39.958Z",
+          "updated_at": "2019-11-21T19:49:05.954Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 0,
+          "criteria": "The project addresses relevant stakeholders in regards to the data pipeline.",
+          "exceedable": false
+        },
+        {
+          "id": 16844,
+          "section_id": 5869,
+          "passed_description": "The project should have at least 1-2 use-cases for each of the stakeholders identified.\n\nThe project clearly states why these use-cases were chosen and identified as primary use-cases for the stakeholders.\n\n  \nExample: Engineering would like to monitor the traffic so that they can respond to scaling needs of app quickly. They need data that can help them with it. \n",
+          "exceeded_description": null,
+          "created_at": "2019-11-21T19:27:24.005Z",
+          "updated_at": "2019-11-21T19:27:58.383Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 1,
+          "criteria": "The project focuses on primary use-cases  for stakeholders. \n",
+          "exceedable": false
+        },
+        {
+          "id": 16845,
+          "section_id": 5869,
+          "passed_description": "The project should identify at least 2 data fields required for each of the above mentioned use-cases. \n\nThe project clearly states why these data fields were chosen for each use-case.\n\nOptional: Project may identify fields that would be good to include, but not required. \n",
+          "exceeded_description": null,
+          "created_at": "2019-11-21T19:27:58.553Z",
+          "updated_at": "2019-11-21T19:49:05.960Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 2,
+          "criteria": "The project has data requirements captured for MVP",
+          "exceedable": false
+        }
+      ]
+    },
+    {
+      "id": 5870,
+      "name": "Data Modeling",
+      "created_at": "2019-11-21T19:28:51.103Z",
+      "updated_at": "2019-11-21T19:29:05.738Z",
+      "deleted_at": null,
+      "position": 1,
+      "rubric_id": 2758,
+      "rubric_items": [
+        {
+          "id": 16846,
+          "section_id": 5870,
+          "passed_description": "Project has at least 3 tables defined for the data requirements gathered.  \n\nProject clearly states why these tables were chosen and how they connect to Flyber's stakeholders primary use cases.\n\nHint: These tables are a way to organize data elements identified for the MVP use-cases in the previous exercise. \n",
+          "exceeded_description": null,
+          "created_at": "2019-11-21T19:29:05.905Z",
+          "updated_at": "2019-11-21T19:49:05.966Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 0,
+          "criteria": "The project logically organizes data for collection into tables.",
+          "exceedable": false
+        },
+        {
+          "id": 16847,
+          "section_id": 5870,
+          "passed_description": "Project should have Normalized (no redundancy) tables.\n\nProject has Primary Keys and Foreign Keys identified for each of these tables. \n\nProject states why these Primary and Foreiegn key identifiers were chosen over other potential identifiers.\n",
+          "exceeded_description": null,
+          "created_at": "2019-11-21T19:29:45.300Z",
+          "updated_at": "2019-11-21T19:30:11.423Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 1,
+          "criteria": "The project has normalized tables with unique identifiers. ",
+          "exceedable": false
+        }
+      ]
+    },
+    {
+      "id": 5871,
+      "name": "Extraction and Transformation",
+      "created_at": "2019-11-21T19:30:29.626Z",
+      "updated_at": "2019-11-21T19:30:57.227Z",
+      "deleted_at": null,
+      "position": 2,
+      "rubric_id": 2758,
+      "rubric_items": [
+        {
+          "id": 16849,
+          "section_id": 5871,
+          "passed_description": "The project includes steps to transform data into a format that can be used for further analysis and visualization. \nThe  project clearly states why this format and tool is chosen. \nHint: This file can be converted using excel to a relevant format. \n",
+          "exceeded_description": null,
+          "created_at": "2019-11-21T19:32:23.364Z",
+          "updated_at": "2019-11-21T19:33:20.634Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 0,
+          "criteria": "The project extracts and transforms raw data.",
+          "exceedable": false
+        },
+        {
+          "id": 16848,
+          "section_id": 5871,
+          "passed_description": "The project has details on how data was loaded and transformed to answer the following questions: \n1. How many events are being recorded per day?\n2. How many events of each event type per day?\n3. How many events per device type per day?\n4. How many events per page type per day?\n5. How many events for each location per day?\n",
+          "exceeded_description": null,
+          "created_at": "2019-11-21T19:30:57.382Z",
+          "updated_at": "2019-11-21T19:50:31.012Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 1,
+          "criteria": "The project transforms data to answer business questions. ",
+          "exceedable": false
+        },
+        {
+          "id": 16850,
+          "section_id": 5871,
+          "passed_description": "Project addresses the following points to summarize data processing needs of Flyber:\nWas the process of manually Extracting, Loading and Transforming data from raw logs efficient? Is it scalable?\nIs there a need for automated ETL pipeline? Why? \n",
+          "exceeded_description": null,
+          "created_at": "2019-11-21T19:32:23.381Z",
+          "updated_at": "2019-11-21T19:33:20.645Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 2,
+          "criteria": "The project addresses scalability of ETLs",
+          "exceedable": false
+        }
+      ]
+    },
+    {
+      "id": 5872,
+      "name": "Choosing Relevant Dataset",
+      "created_at": "2019-11-21T19:34:03.038Z",
+      "updated_at": "2019-11-21T19:34:16.932Z",
+      "deleted_at": null,
+      "position": 3,
+      "rubric_id": 2758,
+      "rubric_items": [
+        {
+          "id": 16852,
+          "section_id": 5872,
+          "passed_description": "The project selects one correct criteria that provides the most relevant information from the following to get data from Engineering:\n\n1. How many events are being recorded per day?\n2. How many events of each event type per day?\n3. How many events per device type per day?\n4. How many events per page type per day?\n5. How many events for each location per day?\n\nThe project analyzes criteria selection considering how it can answer the following questions: \n1. How much is the customer data increasing?\n2. How much is the transactional data increasing?\n3. How much is the event log data increasing?\n\nHint: Only one of the criteria will provide the most information around the above dimensions. ",
+          "exceeded_description": null,
+          "created_at": "2019-11-21T19:34:17.139Z",
+          "updated_at": "2019-11-21T19:50:31.021Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 0,
+          "criteria": "The project defines criteria to select relevant data for analyzing the scale of data growth in Flyber. ",
+          "exceedable": false
+        }
+      ]
+    },
+    {
+      "id": 5873,
+      "name": "Loading and Visualization",
+      "created_at": "2019-11-21T19:37:10.416Z",
+      "updated_at": "2019-11-21T19:37:25.083Z",
+      "deleted_at": null,
+      "position": 4,
+      "rubric_id": 2758,
+      "rubric_items": [
+        {
+          "id": 16853,
+          "section_id": 5873,
+          "passed_description": "The project contains at least 2 continuous line visualizations for two of the event types. And answer: \nWhat do these graphs tell?\n\nThe project clearly defines the steps taken to generate continuous line visualizations.\nOptional: Project creates other relevant data visualizations to add to the dashboard such as all event types on a logarithmic scale. \n",
+          "exceeded_description": null,
+          "created_at": "2019-11-21T19:37:25.269Z",
+          "updated_at": "2019-11-21T19:38:37.216Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 0,
+          "criteria": "The project visualizes data using Public Tableau. ",
+          "exceedable": false
+        }
+      ]
+    },
+    {
+      "id": 5874,
+      "name": "Data Analysis: Telling Stories with Data",
+      "created_at": "2019-11-21T19:38:44.187Z",
+      "updated_at": "2019-11-21T19:38:54.944Z",
+      "deleted_at": null,
+      "position": 5,
+      "rubric_id": 2758,
+      "rubric_items": [
+        {
+          "id": 16854,
+          "section_id": 5874,
+          "passed_description": "Project has some estimation calculation to answer - “By how many times have the event logs grown in the last 1 month?”\n\nProject has a labeled graph to accompany the answer of the above question. \n",
+          "exceeded_description": null,
+          "created_at": "2019-11-21T19:38:55.120Z",
+          "updated_at": "2019-11-21T19:40:09.657Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 0,
+          "criteria": "Project analyzes the total event growth in the last month. ",
+          "exceedable": false
+        },
+        {
+          "id": 16855,
+          "section_id": 5874,
+          "passed_description": "Project analyzes data to answer which of the data types is growing at the fastest rate? Analyze around :\n- Event logs\n- Transactional data\n- Customer data\n\nProject has logical reasoning to explain why the data types are growing fastest.\n",
+          "exceeded_description": null,
+          "created_at": "2019-11-21T19:40:09.929Z",
+          "updated_at": "2019-11-21T19:40:46.173Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 1,
+          "criteria": "Project analyzes data to understand the growth of other data types. ",
+          "exceedable": false
+        },
+        {
+          "id": 16856,
+          "section_id": 5874,
+          "passed_description": "The project has one graph created that shows all the different event types.\n\nThe project analyzes the pattern of different event types. To answer the following questions:\n1. Are all graphs following the same pattern? \n2. Why is this good or bad for the business?\n3. There was a marketing campaign run in the first week of October. Did it impact data generation? \n4. What does this tell us about marketing campaigns in terms of impact on data generation? \n5. Why is it important to know?\n\nHint: Use logarithmic scale\n",
+          "exceeded_description": null,
+          "created_at": "2019-11-21T19:40:46.378Z",
+          "updated_at": "2019-11-21T19:41:41.286Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 2,
+          "criteria": "Project analyzes all event type data to get deeper business insights. \n\nProject adds other observations that might be relevant based on the data?\n",
+          "exceedable": false
+        }
+      ]
+    },
+    {
+      "id": 5875,
+      "name": "Data Warehouse",
+      "created_at": "2019-11-21T19:41:46.364Z",
+      "updated_at": "2019-11-21T19:41:55.782Z",
+      "deleted_at": null,
+      "position": 6,
+      "rubric_id": 2758,
+      "rubric_items": [
+        {
+          "id": 16857,
+          "section_id": 5875,
+          "passed_description": "The project proposes either a Cloud or on-premise solution for their Data Warehouse.\n\nThe project analysis addresses the following aspects when choosing a warehouse: \n\n1. Cost\n2. Scalability\n3. Expertise needed\n4. Latency\n5. Reliability\n\nThe project uses information from the analysis done in previous sections to support the Data Warehouse chosen. \n\nOptional: Project suggests a hybrid strategy and addressing all of the items above\n",
+          "exceeded_description": null,
+          "created_at": "2019-11-21T19:41:55.947Z",
+          "updated_at": "2019-11-21T19:44:45.971Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 0,
+          "criteria": "Project provides a recommendation on Flyber's data warehousing strategy ",
+          "exceedable": false
+        },
+        {
+          "id": 16858,
+          "section_id": 5875,
+          "passed_description": "Project makes suggestion around a specific Data Warehouse  solution along with a strong reasoning to support its choice. \n\nPick from following:\n\nCloud- Amazon Redshift, Google BigQuery, Snowflake or Microsoft Azure \n\nOn-prem- Oracle Exadata, Teradata, Vertica, Apache or Hadoop\n\nProject has data/information used from the analysis done in previous sections. \n\nOptional: Project suggests a hybrid data strategy and addresses the relevant products and provides reasoning on the choices made.\n",
+          "exceeded_description": null,
+          "created_at": "2019-11-21T19:44:46.286Z",
+          "updated_at": "2019-11-21T19:45:56.123Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 1,
+          "criteria": "The project suggests a specific Data Warehouse solution from the chosen category. ",
+          "exceedable": false
+        }
+      ]
+    }
+  ],
+  "project": {
+    "id": 696,
+    "name": "Build a Scalable Data Strategy",
+    "nanodegree_key": "nd030",
+    "is_cert_project": false,
+    "audit_project_id": null,
+    "hashtag": null,
+    "audit_rubric_id": 2899,
+    "entitlement_required": false,
+    "is_career": false,
+    "recruitment_family_id": 5,
+    "created_at": "2019-11-22T19:20:13.418Z",
+    "updated_at": "2021-04-05T17:43:39.894Z",
+    "price": "5.0",
+    "ungradeable_price": "3.0",
+    "audit_price": "0.0"
+  }
+}

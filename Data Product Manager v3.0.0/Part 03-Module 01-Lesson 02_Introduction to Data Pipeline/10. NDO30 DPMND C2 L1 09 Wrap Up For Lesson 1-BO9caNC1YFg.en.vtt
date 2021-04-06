@@ -1,0 +1,52 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:04.500
+Wow. We really have made it to the end of Lesson 1 in no time.
+
+00:00:04.500 --> 00:00:06.885
+You are doing fantastic.
+
+00:00:06.885 --> 00:00:10.320
+To recap, in this lesson we learned that,
+
+00:00:10.320 --> 00:00:13.860
+data pipelines transport data can have multiple inputs
+
+00:00:13.860 --> 00:00:17.805
+and multiple outputs and can transform or replicate data.
+
+00:00:17.805 --> 00:00:21.015
+SaaS and IoT are changing data landscape.
+
+00:00:21.015 --> 00:00:25.440
+Flexible data pipelines bring around data completeness and
+
+00:00:25.440 --> 00:00:30.165
+data validation can help us address some of our classic data problems.
+
+00:00:30.165 --> 00:00:33.840
+When it comes to data pipeline competence, we need to think,
+
+00:00:33.840 --> 00:00:36.030
+from where data is originating,
+
+00:00:36.030 --> 00:00:37.900
+where data is delivered,
+
+00:00:37.900 --> 00:00:41.390
+where data is processed and where data should be stored.
+
+00:00:41.390 --> 00:00:44.090
+Now, that you have learned to create and model
+
+00:00:44.090 --> 00:00:47.540
+some basic data pipelines along with its component,
+
+00:00:47.540 --> 00:00:52.565
+it's time to dig a little deeper into various aspects of data infrastructure.
+
+00:00:52.565 --> 00:00:56.430
+I see you in the next lesson on data consumers.
+

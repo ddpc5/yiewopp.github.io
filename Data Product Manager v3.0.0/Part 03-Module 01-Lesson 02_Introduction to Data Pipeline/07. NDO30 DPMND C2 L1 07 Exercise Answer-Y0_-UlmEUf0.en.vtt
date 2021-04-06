@@ -1,0 +1,79 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.190
+Let us revisit Knapsack.
+
+00:00:02.190 --> 00:00:05.685
+This is this how Knapsack data pipeline looks like.
+
+00:00:05.685 --> 00:00:11.955
+As you can see, I have added storage devices that were not shown in earlier model.
+
+00:00:11.955 --> 00:00:15.960
+This is because no pipeline is ever complete without a data storage.
+
+00:00:15.960 --> 00:00:19.530
+We will discuss in details about data storage in a later lesson.
+
+00:00:19.530 --> 00:00:23.115
+Now, we'll look at the various components of this pipeline.
+
+00:00:23.115 --> 00:00:27.720
+To recap, our data origin points would be website,
+
+00:00:27.720 --> 00:00:33.405
+app, SaaS solutions, and our connected backpacks.
+
+00:00:33.405 --> 00:00:35.940
+We have a processing data pipeline,
+
+00:00:35.940 --> 00:00:39.780
+it could be ETL or ELT.
+
+00:00:39.780 --> 00:00:43.215
+We will discuss this also in details later.
+
+00:00:43.215 --> 00:00:49.465
+Ingestion, transformation, and delivery of data will happen here. Data storage.
+
+00:00:49.465 --> 00:00:51.810
+We have two types of data storage,
+
+00:00:51.810 --> 00:00:55.100
+traditional database that stores structured or process data
+
+00:00:55.100 --> 00:00:56.840
+for our business professionals,
+
+00:00:56.840 --> 00:00:59.870
+data lakes that store structured,
+
+00:00:59.870 --> 00:01:04.015
+semi-structured and unstructured data for our data scientists.
+
+00:01:04.015 --> 00:01:05.645
+Last but not the least,
+
+00:01:05.645 --> 00:01:07.730
+we have our data destination.
+
+00:01:07.730 --> 00:01:12.170
+The application that data scientists team is using for ML modeling and
+
+00:01:12.170 --> 00:01:15.050
+the business intelligence stuff where that business team is using for
+
+00:01:15.050 --> 00:01:18.580
+business insights are our data destinations.
+
+00:01:18.580 --> 00:01:23.960
+The new group that we have introduced in last few concepts is our SaaS solution.
+
+00:01:23.960 --> 00:01:29.705
+We will feed data to these solutions for accounting and for creating marketing campaigns.
+
+00:01:29.705 --> 00:01:33.780
+These are also our data destinations.
+

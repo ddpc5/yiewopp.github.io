@@ -1,0 +1,148 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.900
+Now that you have put your skills to the test and
+
+00:00:03.900 --> 00:00:08.040
+created your first data pipeline outline and visualization,
+
+00:00:08.040 --> 00:00:10.860
+we will explore the need for data pipelines.
+
+00:00:10.860 --> 00:00:13.620
+To help explain why we need data pipelines,
+
+00:00:13.620 --> 00:00:16.530
+we'll start with some evidence that data pipelines
+
+00:00:16.530 --> 00:00:19.590
+have become a hot topic with a Google Trends graph.
+
+00:00:19.590 --> 00:00:23.640
+As you can see there is an increasing buzz around data pipelines.
+
+00:00:23.640 --> 00:00:28.155
+Before 2011, data pipeline was barely a thought.
+
+00:00:28.155 --> 00:00:32.545
+Since that time interest in data pipeline has grown immensely.
+
+00:00:32.545 --> 00:00:34.125
+Let us explore why.
+
+00:00:34.125 --> 00:00:37.580
+There has been an increase in the number of data sources.
+
+00:00:37.580 --> 00:00:43.745
+The concept of software as a service has change the way we think about enterprise data.
+
+00:00:43.745 --> 00:00:46.700
+For team communications we are using Slack,
+
+00:00:46.700 --> 00:00:50.990
+for marketing Salesforce, for payment Stripe,
+
+00:00:50.990 --> 00:00:53.990
+and for accounting QuickBooks.
+
+00:00:53.990 --> 00:00:56.660
+What this means is that we are feeding,
+
+00:00:56.660 --> 00:00:59.705
+storing, and getting data from multiple apps.
+
+00:00:59.705 --> 00:01:02.270
+Data is more distributed and siloed.
+
+00:01:02.270 --> 00:01:07.685
+We need solutions that can work in such complexities and solve our data problems.
+
+00:01:07.685 --> 00:01:11.480
+Data pipelines can help us centralize and normalize
+
+00:01:11.480 --> 00:01:15.290
+this data to discover insights across silos.
+
+00:01:15.290 --> 00:01:17.720
+Changes in the type of data sources.
+
+00:01:17.720 --> 00:01:21.545
+With everything around us getting connected to the Internet,
+
+00:01:21.545 --> 00:01:24.174
+Internet of things or IoT,
+
+00:01:24.174 --> 00:01:26.390
+there is a constant stream of data.
+
+00:01:26.390 --> 00:01:31.220
+How the data is collected and is used in real-time is changing.
+
+00:01:31.220 --> 00:01:37.090
+Highly optimized and automated data pipelines are needed to make use of this data.
+
+00:01:37.090 --> 00:01:43.600
+Another set of complications revolve around classic data problems or data needs.
+
+00:01:43.600 --> 00:01:48.710
+How data is generated and consumed over time changes.
+
+00:01:48.710 --> 00:01:54.275
+We need inbuilt flexibility to meet these changes with minimal support.
+
+00:01:54.275 --> 00:01:58.130
+With time, amount of data collected grows,
+
+00:01:58.130 --> 00:02:01.790
+for that we need scalable data pipelines.
+
+00:02:01.790 --> 00:02:05.270
+Data might get corrupted and we want to focus
+
+00:02:05.270 --> 00:02:08.585
+on solution that guarantee data correctness.
+
+00:02:08.585 --> 00:02:14.435
+Data might get duplicated and we need mechanism do run data validation.
+
+00:02:14.435 --> 00:02:17.195
+Data leaks can distort our datasets.
+
+00:02:17.195 --> 00:02:20.300
+So we need to ensure data completeness.
+
+00:02:20.300 --> 00:02:22.520
+Latency might throw us off,
+
+00:02:22.520 --> 00:02:25.370
+thus removing bottlenecks is important.
+
+00:02:25.370 --> 00:02:29.270
+Monitoring the progress of these processes is needed.
+
+00:02:29.270 --> 00:02:33.320
+Automation and reproducibility are also important.
+
+00:02:33.320 --> 00:02:37.675
+Data pipelines are built so that these problems can be addressed.
+
+00:02:37.675 --> 00:02:42.020
+Our data pipeline might not be optimized across all these factors,
+
+00:02:42.020 --> 00:02:47.090
+but rather it will be optimized for the parameters most important for our use case.
+
+00:02:47.090 --> 00:02:49.745
+Now it's time to put your skills to test.
+
+00:02:49.745 --> 00:02:52.670
+These quizzes and activities will help you ensure
+
+00:02:52.670 --> 00:02:56.420
+that you identify data problems and potential solution.
+
+00:02:56.420 --> 00:02:59.190
+Please complete the quizzes below.
+

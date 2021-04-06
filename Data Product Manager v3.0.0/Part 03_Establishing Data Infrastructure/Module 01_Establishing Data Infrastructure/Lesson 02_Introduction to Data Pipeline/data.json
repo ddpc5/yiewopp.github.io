@@ -1,0 +1,1040 @@
+{
+  "data": {
+    "lesson": {
+      "id": 980959,
+      "key": "e1804b4e-14bb-402c-8fb2-099b0d19f091",
+      "title": "Introduction to Data Pipeline",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": "Introduction to the concept of Data Pipelines, need for a data pipeline, and components of a data pipeline.",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": false,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "https://zips.udacity-data.com/e1804b4e-14bb-402c-8fb2-099b0d19f091/980959/1598495447449/Introduction+to+Data+Pipeline+Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "https://zips.udacity-data.com/e1804b4e-14bb-402c-8fb2-099b0d19f091/980959/1598495443892/Introduction+to+Data+Pipeline+Subtitles.zip"
+          },
+          {
+            "name": "Course Glossary",
+            "uri": "https://video.udacity-data.com/topher/2020/March/5e78d601_course-glossary/course-glossary.pdf"
+          },
+          {
+            "name": "Data Infrastructure Strategy Exercises Template",
+            "uri": "https://video.udacity-data.com/topher/2020/September/5f4ec3d9_data-infrastructure-strategy-exercises-template/data-infrastructure-strategy-exercises-template.docx"
+          },
+          {
+            "name": "Data Infrastructure Strategy Exercises",
+            "uri": "https://video.udacity-data.com/topher/2020/September/5f511b35_data-infrastructure-strategy-exercises/data-infrastructure-strategy-exercises.xlsx"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 980953,
+          "key": "1b0b5c2f-0f3b-4df4-b76a-cb475daf55b4",
+          "title": "Data Pipeline",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1b0b5c2f-0f3b-4df4-b76a-cb475daf55b4",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 980907,
+              "key": "903815f3-026a-4e8e-b374-f4fe9461f60c",
+              "title": "Intro to Data Pipelines Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Introduction to Data Pipelines",
+              "instructor_notes": ""
+            },
+            {
+              "id": 980913,
+              "key": "8f6589d1-3f4e-4fc0-af54-5523ba2e1977",
+              "title": "NDO30 DPMND C2 L1 01 Lesson Overview",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "1J2RMb6P5mg",
+                "china_cdn_id": "1J2RMb6P5mg.mp4"
+              }
+            },
+            {
+              "id": 980914,
+              "key": "6e471e04-6111-412d-8827-0d88fa4da73a",
+              "title": "Lesson Overview Image",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/March/5e5d80b5_screen-shot-2020-03-02-at-1.54.41-pm/screen-shot-2020-03-02-at-1.54.41-pm.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/6e471e04-6111-412d-8827-0d88fa4da73a",
+              "caption": "Lesson Overview",
+              "alt": "Lesson Overview",
+              "width": 1246,
+              "height": 678,
+              "instructor_notes": null
+            },
+            {
+              "id": 980915,
+              "key": "a8f7de18-7927-46cb-beaf-5d6fea9a27a2",
+              "title": "Lesson Outline",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "In this lesson, we will:\n- identify Data Pipelines and why we need them\n- explain how SaaS and IoT have influenced the way we think about data\n- learn how to address classic data problems using Data Pipelines\n- identify Data Pipeline components\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1007180,
+              "key": "deeffee0-cf70-4352-aa05-e5caeece1a9c",
+              "title": "Exercise Instructions",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "```\n**For all exercises requiring data analysis in this course, you will be using a spreadsheet, [Data Infrastructure Strategy Exercises], and document, [Data Infrastructure Strategy Exercises Template], provided in the Resources section of the classroom.\n```\n\n** \n\nEach tab in the spreadsheet is correlated with an exercise in this course where it should be used. The document contains the questions relevant to each activity.\n\nResources are available in the navigation panel on the left side of the screen under search. You may need to click the 3 lines to show the menu if it's hidden.\n\nThis spreadsheet is saved in Excel format but can be opened in any spreadsheet application.\n\nAll video exercises were completed in Google Sheets/Docs. If you want to follow along using Google Sheets/Docs or if you don't have Microsoft Office, please follow the direction below:\n\nUpload the Exercises file into Google Drive\nClick on it and choose Open With\nSelect Google Sheets/Docs depending on the file\nIf the file opens in Google Drive's Compatibility Mode, indicated by an Excel X or Word X icon in the top right of the spreadsheet,\n\nClick on File in the Menu Bar\nClick Save as Google Sheets/Docs\nGoogle will convert the file and allow you to follow along using Google Sheets/Docs.\n\nIf you have other spreadsheet software or use MS Office, the Excel file should open in that software as well, but you will need to consult the documentation for that software to create the visualizations in this course for your spreadsheet software as the steps may be different from Google Sheets/Docs\n\n## Important Keep a Copy of your Exercise Responses in the Template Document\n\nIt is highly recommended that as you complete the open-ended exercises in this course, you should keep them in the provided template document to refer back to throughout the course. It will be extremely useful as you complete the Final Exercise in the course: Knapsack Data Strategy MVP in the Data Strategy section of this course. You can still copy and paste your responses into the text boxes on each page in the course for each exercise if you wish.",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 980950,
+          "key": "2635f48f-0e5b-4913-8919-6c8b04f9d4b0",
+          "title": "What a Data Pipeline Is",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2635f48f-0e5b-4913-8919-6c8b04f9d4b0",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 980917,
+              "key": "be6c46ad-56d7-46a2-93f5-5e33b84d2632",
+              "title": "What is a Data Pipeline",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# What a Data Pipeline Is",
+              "instructor_notes": ""
+            },
+            {
+              "id": 980916,
+              "key": "781f37fd-8100-48e4-966c-c16a6cb1658c",
+              "title": "NDO30 DPMND C2 L1 02 Intro To Data Pipelines",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "Stz0RmjwpRw",
+                "china_cdn_id": "Stz0RmjwpRw.mp4"
+              }
+            },
+            {
+              "id": 980921,
+              "key": "d441c920-c072-4796-b7b6-57daedbffaf2",
+              "title": "Knapsack",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/March/5e5d8134_image9/image9.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/d441c920-c072-4796-b7b6-57daedbffaf2",
+              "caption": "Knapsack : Backpacks you want",
+              "alt": "Knapsack",
+              "width": 614,
+              "height": 286,
+              "instructor_notes": null
+            },
+            {
+              "id": 980919,
+              "key": "3c3615e0-01da-43f0-a7bc-5f0a673be0a6",
+              "title": "Data Pipelines Example",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/March/5e5d814d_image3/image3.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/3c3615e0-01da-43f0-a7bc-5f0a673be0a6",
+              "caption": "Knapsack Data Pipeline",
+              "alt": "Knapsack Data Pipeline",
+              "width": 624,
+              "height": 144,
+              "instructor_notes": null
+            },
+            {
+              "id": 980927,
+              "key": "b5202eb4-d143-4116-8380-26f0dae123c1",
+              "title": "Data Pipeline",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Key Points\nData Pipeline:\n1. Takes data from one place to another\n2. Has one or more data inputs\n3. Has one or more data outputs\n4. Transforms or replicates data\n\nData Pipeline key takeaways:\n1. Data pipelines could be a third-party solution or built in-house.\n2. Data pipelines must be optimized for a specific use case.\n3. Data pipelines could be built-in cloud or on-prem. Data pipelines can be built using open-source or commercial technologies.  \n\n### Knapsack\nThroughout this course, we will be pretending to work as a data product manager for a fictional eCommerce business called Knapsack. Knapsack sells backpacks. Everyone needs a cool bag these days.\n\nOur fictional website is Knapsack.com, and we have an app (iOS & Android) with the name knapsack. We want to collect and use data. Data will be generated from the website and mobile app. We will be using this data for some business insights and maybe some machine learning applications as well.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 980918,
+              "key": "02566d95-da3e-46e3-aaf8-1ce9ff8131ee",
+              "title": "Data Pipeline Definition",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "02566d95-da3e-46e3-aaf8-1ce9ff8131ee",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Choose the correct answer – A Data Pipeline is:",
+                "answers": [
+                  {
+                    "id": "rbk1",
+                    "text": "Something that takes data from one place to another",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk2",
+                    "text": "Has only one data input always",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk3",
+                    "text": "Has multiple data outputs always",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk4",
+                    "text": "Something that can replicate data",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk5",
+                    "text": "Never transforms data",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 980920,
+              "key": "0f56fb7c-da8c-4803-acdb-dca67f0dc21c",
+              "title": "Quiz 2",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "0f56fb7c-da8c-4803-acdb-dca67f0dc21c",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Choose the correct answer – A Data Pipeline can be built for:",
+                "answers": [
+                  {
+                    "id": "rbk1",
+                    "text": "A real-time data use-case",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk2",
+                    "text": "Batch data use-case",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk3",
+                    "text": "Data duplication",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk4",
+                    "text": "Data transformation",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 980922,
+              "key": "835715d1-67b0-4cf4-b97a-bf7f0d5c6c90",
+              "title": "Creating Data Pipeline",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "835715d1-67b0-4cf4-b97a-bf7f0d5c6c90",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": "Creating a Data Pipeline",
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "### Exercise 1: Basic Data Pipeline.\n_You should use the templated you downloaded to complete this exercise_\n\nCreate a basic data pipeline graphic for what Knapsack's data pipeline might look like. It should include more than 3 parts.\n\n *This is more of a pre-quiz to see what you know at the start. It's ok if you are not sure of your answer.*\n\nYou should also create an outline of the pipeline below. You can use any drawing tool you would like, such as Google Drawing, MS Paint, Visio ETC…\nYou will not be able to paste your image here. Instead, compare the image you created with the solution on the next page.\n## Important Keep a Copy of your Exercise Responses in the Template Document\nIt is highly recommended that as you complete the open-ended exercises in this course, you should keep them in the provided template document to refer back to throughout the course. It will be beneficial as you complete the Final Exercise in the course: Knapsack Data Strategy MVP in the Data Strategy section of this course. You can still copy and paste your responses into the text boxes on each page in the course for each exercise if you wish.\n"
+              },
+              "answer": {
+                "text": "Thanks for your response.",
+                "video": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 980949,
+          "key": "c20c3008-1299-4e27-83c5-e647118e1182",
+          "title": "Pipeline Quiz Solution",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "c20c3008-1299-4e27-83c5-e647118e1182",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 980928,
+              "key": "94bc5313-16e9-475b-b4af-f9f5a1417189",
+              "title": "NDO30 DPMND C2 L1 03 Solution Knapsack Pipeline",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "KtJp89R3o78",
+                "china_cdn_id": "KtJp89R3o78.mp4"
+              }
+            },
+            {
+              "id": 980936,
+              "key": "4156582c-4cf7-4c74-b7d3-72810ce58097",
+              "title": "Knapsack sol text",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "For Knapsack, the data pipeline might look like:\n1. Taking data from one place to another\n2. Has 2 data inputs\n3. Has 2 data outputs\n4. Transforming or replicating data\n\nDon't worry if you didn't have the same thing!",
+              "instructor_notes": ""
+            },
+            {
+              "id": 980909,
+              "key": "662054e2-5a8e-4a25-b381-132e92b1adac",
+              "title": "Solution Knapsack Image",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/March/5e5d8186_image6/image6.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/662054e2-5a8e-4a25-b381-132e92b1adac",
+              "caption": "Knapsack Data Pipeline",
+              "alt": "Knapsack Data Pipeline",
+              "width": 618,
+              "height": 423,
+              "instructor_notes": null
+            }
+          ]
+        },
+        {
+          "id": 980955,
+          "key": "152388f8-0b53-4fe3-bc68-8152003c5f8f",
+          "title": "Need for Data Pipelines",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "152388f8-0b53-4fe3-bc68-8152003c5f8f",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 980930,
+              "key": "a5f59435-2130-42e6-8a0a-705c1b2f0782",
+              "title": "Need of Data Pipelines Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Why do we need Data Pipelines?",
+              "instructor_notes": ""
+            },
+            {
+              "id": 980911,
+              "key": "c7782f84-966d-4335-8559-58766e81d5c4",
+              "title": "NDO30 DPMND C2 L1 04 Need For Data Pipelines",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "CtZnoI7_kOg",
+                "china_cdn_id": "CtZnoI7_kOg.mp4"
+              }
+            },
+            {
+              "id": 980923,
+              "key": "855b6cef-4318-4dff-8371-80e3870d73e2",
+              "title": "Google Trends",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/March/5e5d81c8_image14/image14.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/855b6cef-4318-4dff-8371-80e3870d73e2",
+              "caption": "Rising interest in Data Pipelines\nhttps://trends.google.com/trends/explore?date=2011-10-18%202019-11-18&q=Data%20Pipeline",
+              "alt": "Rising interest in Data Pipelines",
+              "width": 1144,
+              "height": 602,
+              "instructor_notes": null
+            },
+            {
+              "id": 1007179,
+              "key": "1603c08e-c162-4455-8995-646d8d5ebbaa",
+              "title": "image source",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "[Google Trends Source](https://trends.google.com/trends/explore?date=2011-10-18%202019-11-18&q=Data%20Pipeline)",
+              "instructor_notes": ""
+            },
+            {
+              "id": 980925,
+              "key": "b76f51df-bca3-4810-b6a6-7b14d161d468",
+              "title": "Need for Data Pipelines Recap",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Changing Data Landscape\nThere is more data than ever before, and data pipelines are needed to use all of that data.\n- **Siloed Data**: We need to centralize and normalize data. \n- **Connected Devices**: We need optimized and automated data pipelines.\n- **Growing Data**: We need scalability.\n\n### Breaking Down Silos\nData is more distributed and siloed. We need solutions that can work in such complexities and solve our problems, and data pipelines can help centralize and normalize data to discover insights across silos.\n\n### Classic Data Problems can be tackled with data pipelines\n- Changing incoming data\n- Changing data use-cases\n- Data corruption\n- Data duplication\n- Data leaks\n- Latency\n\nA Data Pipeline is optimized across some of these factors depending on the data use case.  ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 980924,
+              "key": "ff662bda-abbb-4def-b463-8bf52a568c6a",
+              "title": "Need for Data Pipelines Quiz",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "ff662bda-abbb-4def-b463-8bf52a568c6a",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Choose the correct answer – An enterprise should invest in data pipelines because:",
+                "answers": [
+                  {
+                    "id": "rbk1",
+                    "text": "Saas is becoming more and more popular",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk2",
+                    "text": "IoT is everywhere, and we don’t know what to do",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk3",
+                    "text": "It’s the new thing, and we should do it",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk4",
+                    "text": "AWS offers data pipeline technology",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1007184,
+              "key": "100c770e-f0e7-47d4-b0b5-a70dfd33fcf2",
+              "title": "Data Problems and Pipeline Solutions.",
+              "semantic_type": "MatchingQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "100c770e-f0e7-47d4-b0b5-a70dfd33fcf2",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "complex_prompt": {
+                  "text": "Match the following problem with a potential data pipeline solution:"
+                },
+                "concepts_label": "Classic Data Problems",
+                "answers_label": "Solution that Data Pipeline might provide",
+                "concepts": [
+                  {
+                    "text": "Changing Data Needs ",
+                    "correct_answer": {
+                      "id": "a1584642479138",
+                      "text": "Flexibility"
+                    }
+                  },
+                  {
+                    "text": "Data Corruption",
+                    "correct_answer": {
+                      "id": "a1584642641976",
+                      "text": "Data Correctness"
+                    }
+                  },
+                  {
+                    "text": "Data Duplication",
+                    "correct_answer": {
+                      "id": "a1584642941391",
+                      "text": "Data Validation"
+                    }
+                  },
+                  {
+                    "text": "Data Leaks",
+                    "correct_answer": {
+                      "id": "a1584642942337",
+                      "text": "Data Completeness"
+                    }
+                  },
+                  {
+                    "text": "Growing Data",
+                    "correct_answer": {
+                      "id": "a1584642944997",
+                      "text": "Scalability"
+                    }
+                  }
+                ],
+                "answers": [
+                  {
+                    "id": "a1584643291129",
+                    "text": "Bottleneck removal"
+                  },
+                  {
+                    "id": "a1584642944997",
+                    "text": "Scalability"
+                  },
+                  {
+                    "id": "a1584643254729",
+                    "text": "Monitoring"
+                  },
+                  {
+                    "id": "a1584642941391",
+                    "text": "Data Validation"
+                  },
+                  {
+                    "id": "a1584642942337",
+                    "text": "Data Completeness"
+                  },
+                  {
+                    "id": "a1584642641976",
+                    "text": "Data Correctness"
+                  },
+                  {
+                    "id": "a1584642479138",
+                    "text": "Flexibility"
+                  }
+                ]
+              }
+            },
+            {
+              "id": 980933,
+              "key": "76e15829-071f-4833-a3ec-8fc7ec7231e1",
+              "title": "Need for Data Pipeline",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "76e15829-071f-4833-a3ec-8fc7ec7231e1",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": "Need for Data Pipeline",
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "## Exercise 2\n_Use the template you downloaded to complete this activity._\n\nAt Knapsack, we decided to focus on the core business of selling backpacks. Hence we decided to use cloud-based third-party solutions for some business units. \n\nWe use “SimplyAccounting” for accounting and “JustSale” for managing marketing campaigns. \n\nAlso, we have recently launched a beta version of our “Smart Knapsack,” that is in the market with few beta customers, and we are continuously monitoring its performance. The Smart Knapsack has the following features:\n- Anti-theft device\n- Wifi signal booster\n- Solar panel to charge devices  \n- Retractable light\n- One button 911 dial with location tracking. \n\nTry to recreate the Knapsack data pipeline. Can you identify SaaS and IoT components? What do you think could be some potential data problems for Knapsack?\n\n## Important Keep a Copy of your Exercise Responses in the Template Document\nIt is highly recommended that as you complete the open-ended exercises in this course, you should keep them in the provided template document to refer back to throughout the course. It will be instrumental as you complete the Final Exercise in the course: Knapsack Data Strategy MVP in the Data Strategy section of this course. You can still copy and paste your responses into the text boxes on each page in the course for each exercise if you wish."
+              },
+              "answer": {
+                "text": "Thanks for your response.",
+                "video": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 980948,
+          "key": "e244a7c3-0f69-411a-886b-f4ce32e98db5",
+          "title": "Knapsack DP Solution",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "e244a7c3-0f69-411a-886b-f4ce32e98db5",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 980912,
+              "key": "18602462-b80f-4646-b09f-142af80d281d",
+              "title": "NDO30 DPMND C2 L1 05 Why Knapsack Needs DP",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "LWPrUxkNHOc",
+                "china_cdn_id": "LWPrUxkNHOc.mp4"
+              }
+            },
+            {
+              "id": 980946,
+              "key": "5ebe0f99-f10a-4772-a8bc-4cdfdfe5b8d8",
+              "title": "KS DP components",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/March/5e5d8240_image13/image13.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/5ebe0f99-f10a-4772-a8bc-4cdfdfe5b8d8",
+              "caption": "Knapsack Data Pipeline Components\n",
+              "alt": "Knapsack Data Pipeline Components",
+              "width": 1999,
+              "height": 1058,
+              "instructor_notes": null
+            }
+          ]
+        },
+        {
+          "id": 980952,
+          "key": "b4fc5990-69c1-41dc-ad19-42af9d5166dc",
+          "title": "Data Pipeline Components",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "b4fc5990-69c1-41dc-ad19-42af9d5166dc",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 980931,
+              "key": "03cc9828-6cf0-4275-b844-0d9abd933c87",
+              "title": "Data Pipeline Components Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Data Pipeline Components",
+              "instructor_notes": ""
+            },
+            {
+              "id": 980942,
+              "key": "e7acf035-c646-4cf5-9c65-82db5204ec5a",
+              "title": "NDO30 DPMND C2 L1 06 Data Pipeline Components",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "QdAaPHYEuk0",
+                "china_cdn_id": "QdAaPHYEuk0.mp4"
+              }
+            },
+            {
+              "id": 980908,
+              "key": "df93545c-72d7-4aa6-ac3c-8c7491c4fb6d",
+              "title": "Components Recap",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "#### Data Pipeline Components\n-  **Data Origin**: Where data gets into the pipeline \n-  **Data Processing**: Ingestion, transformation, and delivery of data \n-  **Data Storage**: Data Persistence \n-  **Data Destination**: Where data is delivered \n\n\n#### Other things to consider while designing a Data Pipeline are: \n- Dataflow design: the dataflow defines how data moves through the pipeline, the sequence of processes, and data stores.\n- Workflow design: the workflow manages the sequencing and dependencies of the processes in the pipeline.\n- Monitoring the pipeline to ensure it is healthy, efficient, reliable and performs as required\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 980910,
+              "key": "c35ae8ca-5675-4e26-a8e0-4bde651812b0",
+              "title": "Components",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/March/5e5d8208_image15/image15.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/c35ae8ca-5675-4e26-a8e0-4bde651812b0",
+              "caption": "Data Pipeline Components",
+              "alt": "Data Pipeline Components",
+              "width": 1999,
+              "height": 314,
+              "instructor_notes": null
+            },
+            {
+              "id": 980926,
+              "key": "04a38942-82a0-40a2-b426-297d609f8e7c",
+              "title": "Pipeline Components Quiz",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "04a38942-82a0-40a2-b426-297d609f8e7c",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which of the following are true about pipeline components?",
+                "answers": [
+                  {
+                    "id": "rbk1",
+                    "text": "Data destination dominates  latency constraints of the data pipelines",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk2",
+                    "text": "Sequencing of the processes is  important in data pipelines",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk3",
+                    "text": "Entity based data is always faster",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk4",
+                    "text": "Monitoring is needed to ensure data pipeline is healthy",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk5",
+                    "text": "Data is only stored at the end of a data pipeline",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1007163,
+              "key": "862bd8cd-3081-4936-aef5-0a7ac81c98ca",
+              "title": "Advanced Knapsack Data Pipeline",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "862bd8cd-3081-4936-aef5-0a7ac81c98ca",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": "Advanced Knapsack Data Pipeline",
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "### Exercise 3\n_Use the template you downloaded to complete this activity._\n\nAt Knapsack, we decided to focus on the core business of selling backpacks. Hence, we decided to use cloud-based third-party solutions for some business units. \n\nWe use “SimplyAccounting” for accounting and “JustSale” for managing marketing campaigns. \n\nAlso, we have recently launched a beta version of our “Smart Knapsack.” The Smart Knapsack is already in the market with a few beta customers, and we are continuously monitoring its performance. The Smart Knapsack has the following features:\n- Anti-theft device\n- Wifi signal booster\n- Solar panel to charge devices  \n- Retractable light\n- One button 911 dial with location tracking. \n\nAdd the new components of the Knapsack data pipeline around storage to create a more advanced picture of Knapsack's data pipeline. Can you identify potential data storage needs? What do you think some potential data problems could be for Knapsack?\n"
+              },
+              "answer": {
+                "text": "Thanks for your response.",
+                "video": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 980956,
+          "key": "4622d31d-a60b-4cf7-83c8-22be35cb2448",
+          "title": "Knapsack DP Components",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "4622d31d-a60b-4cf7-83c8-22be35cb2448",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 980937,
+              "key": "d835b57d-eceb-4fd5-b9cd-685d5cb16432",
+              "title": "NDO30 DPMND C2 L1 07 Exercise Answer",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "Y0_-UlmEUf0",
+                "china_cdn_id": "Y0_-UlmEUf0.mp4"
+              }
+            },
+            {
+              "id": 980946,
+              "key": "5ebe0f99-f10a-4772-a8bc-4cdfdfe5b8d8",
+              "title": "KS DP components",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/March/5e5d8240_image13/image13.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/5ebe0f99-f10a-4772-a8bc-4cdfdfe5b8d8",
+              "caption": "Knapsack Data Pipeline Components\n",
+              "alt": "Knapsack Data Pipeline Components",
+              "width": 1999,
+              "height": 1058,
+              "instructor_notes": null
+            },
+            {
+              "id": 980929,
+              "key": "ed5b71c8-2306-4d15-8a02-e252be5e1e14",
+              "title": "Inputs",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Data Origin\nTo recap our Data origin points would be our website, app, SaaS Solutions, and our connected backpacks. \n\n### Data Storage\nWe have two types of data storage, \n- Traditional databases that store structured or processed data for our business professionals. - Data lakes to store structured, semi-structured, and unstructured data for our data scientists. \n\n### Data Destination. \nThe application that the data scientist team is using for ML modeling and the business intelligence software that the business team is using for business insights are our data destinations  \n\nThe new group that we have introduced in the last few concepts is our Saas solutions. We will feed data to these solutions for accounting and for creating marketing campaigns. These are also our destinations.",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 980951,
+          "key": "5c180fc5-e224-4086-a474-61c3ee987f5e",
+          "title": "Bringing it all together",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "5c180fc5-e224-4086-a474-61c3ee987f5e",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1007183,
+              "key": "8d733b6f-0cd6-4fe9-a375-73f65412c206",
+              "title": "Headline",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Alex Exercise",
+              "instructor_notes": ""
+            },
+            {
+              "id": 980934,
+              "key": "f8b322e0-6448-45e5-acdc-e8b9aa0273a1",
+              "title": "NDO30 DPMND C2 L1 08 V2 Alexa Exercise Introduction",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "JrPyXd3sgrk",
+                "china_cdn_id": "JrPyXd3sgrk.mp4"
+              }
+            },
+            {
+              "id": 980932,
+              "key": "69f9c6da-dff5-4cef-8a0a-e51de1f1ba10",
+              "title": "Alex Pipeline",
+              "semantic_type": "TaskListAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "69f9c6da-dff5-4cef-8a0a-e51de1f1ba10",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "tasks": [
+                "Data Origin Components",
+                "Data Destination Components",
+                "Data Processing Components",
+                "Data Storage Components",
+                "SaaS if any?",
+                "Connected devices if any?"
+              ],
+              "positive_feedback": "Now compare your solution to what we came up with. Yours may be different and that is alright!",
+              "video_feedback": null,
+              "description": "*This course's prerequisites assume you have knowledge of data products. If you need a review of what products AWS offers please visit their [Cloud Products Site](https://aws.amazon.com/products/?nc2=h_ql_prod_fs_f)*. Also remember that your solution might look different from the solution provided!\n\n### Apply in a New Context\nIn this exercise, you are going to try to take what you have learned and apply it in a new context.  \n\nYou are the product manager of Alex Headphones. These are new connected headphones that allow the user to connect to any device or use the headphones over a wireless network and can connect and use any voice assistant. They can provide the user with just in time updates to their daily schedule and connect to any music service. Setup and control happen via either a native iOS/Android App or via a web interface. Also, your company has chosen to use AWS and its products for its data pipeline. \n\n**If you are more familiar with other similar products, you can use those in place of AWS. However, the solution is given using AWS.\n\nYou are tasked with creating the outline of a data pipeline with all its components. Along with your imagination, use what you have learned in this lesson and create the model. Also, reflect on why these components are needed. You may also want to create your outline visually, as we have done with the exercises previously. You can use a drawing tool like draw.io or Google drawing or create a simple text outline to complete this activity. \n\nYour outline should include:"
+            }
+          ]
+        },
+        {
+          "id": 980954,
+          "key": "a1b86bb7-8b8c-4ba5-bb42-b874381634f6",
+          "title": "Alex Solution",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "a1b86bb7-8b8c-4ba5-bb42-b874381634f6",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 980935,
+              "key": "67d32bdd-119c-4cc7-9f1a-fe7b065c338a",
+              "title": "NDO30 DPMND C2 L1 08.1 V2 Alexa Exercise Solution",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "BXBDEt1h_40",
+                "china_cdn_id": "BXBDEt1h_40.mp4"
+              }
+            },
+            {
+              "id": 980939,
+              "key": "8d0dc28f-16c8-4df2-96eb-fb8e5b05f745",
+              "title": "alexa image",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/June/5eebf54c_lesson-1-data-pipeline-why-do-we-need-a-data-pipeline-/lesson-1-data-pipeline-why-do-we-need-a-data-pipeline-.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/8d0dc28f-16c8-4df2-96eb-fb8e5b05f745",
+              "caption": "Alex Pipeline",
+              "alt": "Alex Pipeline",
+              "width": 960,
+              "height": 540,
+              "instructor_notes": null
+            },
+            {
+              "id": 980938,
+              "key": "9f013903-7a5b-4b45-84fc-bce60daaf618",
+              "title": "Alex Text",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Alex Pipeline Components\n**Data Processing**: the first component is Amazon S3, Amazon Lambda\n\nLambda will place data into an S3 bucket again, here if you notice our S3 buckets are intermediate storages.\n \nFrom Amazon S3, data is pulled by Amazon EMR, which is a Big Data Platform service. The data is used for distributed storage, and to run compute over big data, it uses frameworks such as Hadoop and Apache Spark.\n\n**Data Storage**:  we already know for intermediate data storage we are using S3, along with that, we can use Amazon Redshift which is a data warehouse. \n\n**Data Destinations**:  Amazon Sagemaker a cloud machine-learning platform and Amazon Quicksight a business intelligence service",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 980957,
+          "key": "12bcd599-360c-4124-b7b7-df2fa1c8723e",
+          "title": "Wrap Up",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "12bcd599-360c-4124-b7b7-df2fa1c8723e",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 980945,
+              "key": "e39fe19b-9395-4ac8-aebd-c4a212813ac9",
+              "title": "NDO30 DPMND C2 L1 09 Wrap Up For Lesson 1",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "BO9caNC1YFg",
+                "china_cdn_id": "BO9caNC1YFg.mp4"
+              }
+            },
+            {
+              "id": 1007181,
+              "key": "595e80dd-bb21-461f-91cc-97b1d8eddc35",
+              "title": "headline",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Wrap up",
+              "instructor_notes": ""
+            },
+            {
+              "id": 980940,
+              "key": "f587e2d6-780d-4e9e-af5e-1b69542ee5c5",
+              "title": "Lesson Outline",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "In this lesson, we:\n- identified Data Pipelines and why we need them\n- explained how SaaS and IoT have influenced the way we think about data\n- learned how to address classic data problems using Data Pipelines\n- identified Data Pipeline components\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 980943,
+              "key": "daa8c6a0-0627-4fe1-890f-e09aa3a88e8a",
+              "title": "Lesson Recap Image",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/March/5e5d82ec_screen-shot-2020-03-02-at-2.03.44-pm/screen-shot-2020-03-02-at-2.03.44-pm.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/daa8c6a0-0627-4fe1-890f-e09aa3a88e8a",
+              "caption": "Lesson Overview",
+              "alt": "Lesson Overview",
+              "width": 1236,
+              "height": 670,
+              "instructor_notes": null
+            }
+          ]
+        },
+        {
+          "id": 980958,
+          "key": "4c8cd66e-93f2-431b-9de0-8cdd87eb8728",
+          "title": "Lesson Terms & Resources",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "4c8cd66e-93f2-431b-9de0-8cdd87eb8728",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 980947,
+              "key": "5768830f-f92b-4a6d-a5ac-0b4adaa63b62",
+              "title": "Glossary of Key Terms for Lesson 1",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Glossary of Key Terms\n- **Data Pipeline**: A set of processes to move data from a source to destination, possibly transforming the data along the way.\n- **Use-case**: A specific situation in which a product or service could potentially be used.\n- **Real-Time Data Use-case**: Real-time data processing involves a continual input, process, and output of data. Data must be processed in a small time period (or near real-time).\n- **Batch Data Use-case**: Batch processing requires separate programs for input, process, and output. Generally done for periodic data needs such as monthly, weekly, etc. An example is payroll and billing systems.\n- **SaaS**: Software as a service (SaaS) is a software distribution model in which a third-party provider hosts applications and makes them available to customers over the Internet.\n- **Slack**: Slack is a cloud-based proprietary instant messaging platform developed by Slack Technologies.\n- **Salesforce**: Salesforce is a customer relationship management solution.\n- **Stripe**: Stripe is online payment processing for internet businesses. It allows individuals and companies to make and receive payments over the Internet.\n- **QuickBooks**: QuickBooks is an accounting software geared mainly toward small and medium-sized businesses and offers on-premises accounting applications as well as cloud-based versions that accept business payments, manage and pay bills, and payroll functions.\n- **IoT**: The Internet of Things (IoT) is a system of interrelated computing devices, mechanical and digital machines, objects, animals, or people that are provided with unique identifiers (UIDs) and the ability to transfer data over a network without requiring human-to-human or human-to-computer interaction.\n- **Schema**: A data schema is a structure for organizing and classifying data in a database. It defines both the data contents and relationships. \n- **Data Normalization**: Database normalization is the process of structuring a relational database following a series of so-called normal forms to reduce data redundancy and improve data integrity. \n- **Entity Data**: Entity data terminology is used for data in a database. It might be organized in tables. It depicts the current state of your application/business - users, products, prices, etc.\n- **Event Data**: Event data is generated by actions that happen in an application. The scale at which event data is generated is much larger compared to entity data. For every one user using the app, there could be thousands of events. Server logs also generate event data. ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 980944,
+              "key": "537d89af-8288-4a8d-a71b-b0128a55b318",
+              "title": "Additional Resources",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Additional Resources:\n\n- [What is a Data Pipeline](https://www.jesse-anderson.com/2018/08/what-is-a-data-pipeline/)\n- [Building a Data Pipeline from Scratch ](https://medium.com/the-data-experience/building-a-data-pipeline-from-scratch-32b712cfb1db)\n- [What is a Data Pipeline?](https://dzone.com/articles/what-is-a-data-pipeline)\n- [The Complexities of a Modern Data Pipeline](https://www.eckerson.com/articles/the-complexities-of-modern-data-pipelines)",
+              "instructor_notes": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    }
+  ]
+}

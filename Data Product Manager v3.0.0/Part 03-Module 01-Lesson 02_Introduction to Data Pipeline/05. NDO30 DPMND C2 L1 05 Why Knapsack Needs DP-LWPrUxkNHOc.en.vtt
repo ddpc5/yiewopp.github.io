@@ -1,0 +1,76 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.925
+This is how our data pipeline look before.
+
+00:00:02.925 --> 00:00:07.454
+With Simply Accounting, Just Sale and Smart Knapsack,
+
+00:00:07.454 --> 00:00:09.900
+we have added few more elements.
+
+00:00:09.900 --> 00:00:14.970
+Simply Accounting and Just Sale are our SaaS solutions.
+
+00:00:14.970 --> 00:00:18.480
+These will also generate data and that will be
+
+00:00:18.480 --> 00:00:22.140
+used as input for analysis, reporting, and recording.
+
+00:00:22.140 --> 00:00:26.440
+Our newly launched Smart Knapsack is a connected backpack.
+
+00:00:26.440 --> 00:00:30.695
+It has sensor that are continuously generating and sending data.
+
+00:00:30.695 --> 00:00:33.590
+We need this data to monitor performance of
+
+00:00:33.590 --> 00:00:37.595
+our Beta product to understand how product is doing.
+
+00:00:37.595 --> 00:00:43.490
+Another important factor here is both our SaaS solutions are not only data producers,
+
+00:00:43.490 --> 00:00:46.120
+but will also be data consumers.
+
+00:00:46.120 --> 00:00:50.120
+This is because we will provide our transactional data to
+
+00:00:50.120 --> 00:00:53.870
+Simply Accounting to make automated accounting entries.
+
+00:00:53.870 --> 00:00:59.990
+We will also provide customer data to Just Sales for targeted marketing campaigns.
+
+00:00:59.990 --> 00:01:03.280
+Why do we need data pipeline for Knapsack?
+
+00:01:03.280 --> 00:01:05.990
+Introducing Simply Accounting and Just Sales
+
+00:01:05.990 --> 00:01:09.230
+has brought in the possibility of data getting siloed.
+
+00:01:09.230 --> 00:01:13.885
+Hence, we need data pipeline to centralize and normalize data.
+
+00:01:13.885 --> 00:01:17.650
+As Smart Knapsack is generating continuous stream of data.
+
+00:01:17.650 --> 00:01:22.120
+So we need highly optimized and automated data pipelines.
+
+00:01:22.120 --> 00:01:24.230
+The more things are getting added,
+
+00:01:24.230 --> 00:01:27.080
+the more we can see our data is growing.
+
+00:01:27.080 --> 00:01:30.810
+So we need scalable data pipelines.
+
