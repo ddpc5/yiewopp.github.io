@@ -1,0 +1,76 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.899
+Now the fun part, choosing our processing elements.
+
+00:00:03.899 --> 00:00:05.895
+Here's our problem statement.
+
+00:00:05.895 --> 00:00:12.810
+Our data destination is OLAP ecosystem that consists of a data warehouse, a server.
+
+00:00:12.810 --> 00:00:15.990
+Our use cases are business reporting,
+
+00:00:15.990 --> 00:00:18.720
+creation of historical sales trends.
+
+00:00:18.720 --> 00:00:22.560
+Our relevant data producers in this case will be,
+
+00:00:22.560 --> 00:00:26.130
+OLTP DB, that holds transaction data,
+
+00:00:26.130 --> 00:00:30.525
+simply accounting, that has transaction financial data,
+
+00:00:30.525 --> 00:00:34.815
+just sale, that holds marketing campaign data.
+
+00:00:34.815 --> 00:00:37.965
+Our source data is batch data.
+
+00:00:37.965 --> 00:00:40.875
+Our use case is also of batch data.
+
+00:00:40.875 --> 00:00:42.695
+So as you might have guessed,
+
+00:00:42.695 --> 00:00:45.655
+we are going to use batch processing.
+
+00:00:45.655 --> 00:00:48.480
+Our source data is structured,
+
+00:00:48.480 --> 00:00:50.550
+and as discussed, badge.
+
+00:00:50.550 --> 00:00:56.570
+In this case, the processing pipeline that will work best for us will be ETL.
+
+00:00:56.570 --> 00:00:58.965
+Just putting the pieces together,
+
+00:00:58.965 --> 00:01:02.055
+here is what our data pipeline will look like.
+
+00:01:02.055 --> 00:01:04.065
+We have data sources,
+
+00:01:04.065 --> 00:01:08.805
+OLTP DB, simply accounting DB, just sale DB.
+
+00:01:08.805 --> 00:01:11.670
+We have our ETL processes running,
+
+00:01:11.670 --> 00:01:15.330
+we have data being loaded in OLAP.
+
+00:01:15.330 --> 00:01:20.520
+Data from OLAP warehouse goes to OLAP server.
+
+00:01:20.520 --> 00:01:26.910
+From there, it is used for business reporting and building historical sales trend
+

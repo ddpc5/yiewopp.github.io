@@ -1,0 +1,55 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.414
+Choose your data storage elements.
+
+00:00:02.414 --> 00:00:06.495
+You already know what all structured data knapsack has.
+
+00:00:06.495 --> 00:00:12.600
+You also know the semi-structured or unstructured data knapsack is collecting.
+
+00:00:12.600 --> 00:00:16.095
+For entity data that is relational in nature,
+
+00:00:16.095 --> 00:00:18.480
+SQL DBs are best.
+
+00:00:18.480 --> 00:00:21.555
+For event data that has no schema,
+
+00:00:21.555 --> 00:00:23.864
+can change often and quickly,
+
+00:00:23.864 --> 00:00:27.030
+and can be stored as JSON documents,
+
+00:00:27.030 --> 00:00:30.420
+we will use document-oriented DB.
+
+00:00:30.420 --> 00:00:35.430
+For server request and responses that are semi-structured,
+
+00:00:35.430 --> 00:00:37.290
+have no fixed schema,
+
+00:00:37.290 --> 00:00:40.415
+and each data point can have different fields,
+
+00:00:40.415 --> 00:00:43.940
+also we can store them in JSON documents,
+
+00:00:43.940 --> 00:00:47.020
+document-oriented is best choice.
+
+00:00:47.020 --> 00:00:53.520
+Customer reviews, and product mentions can be easily stored as key-value pair,
+
+00:00:53.520 --> 00:00:56.375
+and unstructured in nature.
+
+00:00:56.375 --> 00:01:00.870
+For this data, we will use key-value DB.
+

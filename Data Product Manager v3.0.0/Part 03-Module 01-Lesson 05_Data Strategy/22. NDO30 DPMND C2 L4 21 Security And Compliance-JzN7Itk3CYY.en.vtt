@@ -1,0 +1,217 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:06.030
+Data that is stored in storage device and is not actively used is called data at rest.
+
+00:00:06.030 --> 00:00:10.260
+Storage device could range from data-center to flash drive,
+
+00:00:10.260 --> 00:00:14.835
+but just do it on Cloud or on your computer is data at rest.
+
+00:00:14.835 --> 00:00:18.555
+Data that is being used is data in motion.
+
+00:00:18.555 --> 00:00:23.100
+Data traveling on Internet and local networks is also the data in motion.
+
+00:00:23.100 --> 00:00:25.570
+You watch a video on Netflix or You tube,
+
+00:00:25.570 --> 00:00:27.720
+that is data in motion.
+
+00:00:27.720 --> 00:00:32.040
+PII, personal data, also known
+
+00:00:32.040 --> 00:00:36.450
+as personal information or personally identifiable information,
+
+00:00:36.450 --> 00:00:40.860
+is any information relating to an identifiable person.
+
+00:00:40.860 --> 00:00:47.880
+Not taking care of customers' PII data can lead to customers identity theft.
+
+00:00:47.880 --> 00:00:52.280
+In turn, it might have legal and financial ramifications on
+
+00:00:52.280 --> 00:00:58.135
+your organization and can impact consumer trust and brand image.
+
+00:00:58.135 --> 00:01:00.615
+How to handle PII?
+
+00:01:00.615 --> 00:01:04.000
+No local laws and definitions,
+
+00:01:04.000 --> 00:01:07.650
+identify where all PII is,
+
+00:01:07.650 --> 00:01:13.055
+is it in data at rest or is it in data in motion?
+
+00:01:13.055 --> 00:01:16.760
+Establish data retention policies.
+
+00:01:16.760 --> 00:01:21.410
+Have data governance and associated controls in place.
+
+00:01:21.410 --> 00:01:24.145
+PCI DSS.
+
+00:01:24.145 --> 00:01:30.140
+The Payment Card Industry Data Security Standard PCI DSS is
+
+00:01:30.140 --> 00:01:33.800
+an information security standard for organizations that
+
+00:01:33.800 --> 00:01:38.740
+handle branded credit cards from major card schemes.
+
+00:01:38.740 --> 00:01:41.045
+If you have PCI data,
+
+00:01:41.045 --> 00:01:44.510
+you need to follow stringent compliance guidelines.
+
+00:01:44.510 --> 00:01:46.610
+There will be regular audits,
+
+00:01:46.610 --> 00:01:48.605
+and if the guidelines are not followed,
+
+00:01:48.605 --> 00:01:52.345
+there are fines and legal ramifications.
+
+00:01:52.345 --> 00:01:56.175
+Core control objectives of PCI are;
+
+00:01:56.175 --> 00:02:02.870
+built and maintain a secure network and systems, protect cardholder data,
+
+00:02:02.870 --> 00:02:06.680
+maintain our vulnerability management program,
+
+00:02:06.680 --> 00:02:10.669
+implement strong access control measures,
+
+00:02:10.669 --> 00:02:14.195
+regularly monitor and test networks,
+
+00:02:14.195 --> 00:02:18.015
+maintain an information security policy.
+
+00:02:18.015 --> 00:02:24.605
+HIPAA is Health Insurance Portability and Accountability Act.
+
+00:02:24.605 --> 00:02:28.955
+This act protects health information of individuals.
+
+00:02:28.955 --> 00:02:34.175
+Some examples of PHI or Protected Health Information are;
+
+00:02:34.175 --> 00:02:39.770
+medical record numbers, device identifiers, and serial numbers.
+
+00:02:39.770 --> 00:02:45.350
+HIPAA says any company or individual that comes into
+
+00:02:45.350 --> 00:02:50.660
+contact with PHI must enact and enforce appropriate policies,
+
+00:02:50.660 --> 00:02:54.145
+procedures, and safeguards to protect data.
+
+00:02:54.145 --> 00:02:58.140
+HIPAA violations might lead to termination of job,
+
+00:02:58.140 --> 00:03:00.855
+sanctions from professional boards,
+
+00:03:00.855 --> 00:03:05.520
+criminal charges including fines and imprisonment.
+
+00:03:05.520 --> 00:03:11.885
+GDPR, GDPR is General Data Protection Regulation.
+
+00:03:11.885 --> 00:03:15.410
+Its focus is data protection of EU citizens,
+
+00:03:15.410 --> 00:03:21.485
+specifically those of European Union and European Economic Area.
+
+00:03:21.485 --> 00:03:26.750
+This act provides more control to citizens over their data.
+
+00:03:26.750 --> 00:03:29.480
+Non-compliance could result in fines
+
+00:03:29.480 --> 00:03:34.145
+up to 20 million euros or four percent of global turnover.
+
+00:03:34.145 --> 00:03:38.500
+For GDPR what should you know?
+
+00:03:38.500 --> 00:03:42.570
+Know what you have and why you have it.
+
+00:03:42.570 --> 00:03:45.290
+You should know where it is,
+
+00:03:45.290 --> 00:03:48.650
+who uses it, and how it is used.
+
+00:03:48.650 --> 00:03:51.605
+When you have sensitive information,
+
+00:03:51.605 --> 00:03:54.650
+golden word is encryption.
+
+00:03:54.650 --> 00:03:59.130
+Data governance can never be a bad choice.
+
+00:03:59.140 --> 00:04:04.765
+CCPA is California Consumer Privacy Act.
+
+00:04:04.765 --> 00:04:07.730
+This act gives California citizens
+
+00:04:07.730 --> 00:04:12.260
+the right to know what personal information is being collected about them,
+
+00:04:12.260 --> 00:04:17.540
+to know whether their personal information is sold or disclosed and to whom,
+
+00:04:17.540 --> 00:04:21.215
+to say no to the sale of personal information,
+
+00:04:21.215 --> 00:04:24.515
+to access their personal information,
+
+00:04:24.515 --> 00:04:27.575
+to have equal service and price,
+
+00:04:27.575 --> 00:04:31.040
+even if they exercise their privacy rights.
+
+00:04:31.040 --> 00:04:34.945
+Words of wisdom, as Stephane says,
+
+00:04:34.945 --> 00:04:39.025
+''Digital freedom stops where that of users begins.
+
+00:04:39.025 --> 00:04:42.950
+Nowadays, digital evolution must no longer be
+
+00:04:42.950 --> 00:04:47.950
+offered to a customer in trade-off between privacy and security.
+
+00:04:47.950 --> 00:04:49.980
+Privacy is not for sale,
+
+00:04:49.980 --> 00:04:53.320
+it's a valuable asset to protect.''
+

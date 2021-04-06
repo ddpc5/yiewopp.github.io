@@ -1,0 +1,43 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:06.465
+Classic example of ETL is building OLTP and OLAP pipeline.
+
+00:00:06.465 --> 00:00:09.990
+In this case, data requirements are clearly known,
+
+00:00:09.990 --> 00:00:13.335
+and hence ETLs are a good choice.
+
+00:00:13.335 --> 00:00:18.285
+ETLs might not be able to scale where data volume is huge.
+
+00:00:18.285 --> 00:00:25.230
+Example on Instagram, 95 million photos and videos are shared per day.
+
+00:00:25.230 --> 00:00:29.670
+We could not process all this data using ETL.
+
+00:00:29.670 --> 00:00:34.260
+However, if a subset that is a very small set of
+
+00:00:34.260 --> 00:00:39.079
+this data that too relational in nature needs to be analyzed,
+
+00:00:39.079 --> 00:00:41.290
+ETL can be used for that.
+
+00:00:41.290 --> 00:00:44.190
+It's very clear from our discussion,
+
+00:00:44.190 --> 00:00:48.979
+ETLs work best in scenarios where data is structured.
+
+00:00:48.979 --> 00:00:53.000
+Few examples would be online transaction,
+
+00:00:53.000 --> 00:00:56.950
+customer records, inventory records.
+

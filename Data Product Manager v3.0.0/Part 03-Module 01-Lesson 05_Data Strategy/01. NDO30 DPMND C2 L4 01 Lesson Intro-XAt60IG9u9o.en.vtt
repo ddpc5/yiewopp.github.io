@@ -1,0 +1,100 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.170 --> 00:00:02.550
+We are almost there.
+
+00:00:02.550 --> 00:00:04.410
+You have come really far.
+
+00:00:04.410 --> 00:00:06.675
+You have learned about data pipelines,
+
+00:00:06.675 --> 00:00:08.745
+next you explored data requirements,
+
+00:00:08.745 --> 00:00:12.675
+you delved into gathering and understanding data needs of data consumers.
+
+00:00:12.675 --> 00:00:15.285
+Your next destination was data producers.
+
+00:00:15.285 --> 00:00:17.955
+You explored different sources of data,
+
+00:00:17.955 --> 00:00:19.890
+types of data producers,
+
+00:00:19.890 --> 00:00:22.275
+and type of data they were producing.
+
+00:00:22.275 --> 00:00:25.680
+You also learned about entity data and even data,
+
+00:00:25.680 --> 00:00:29.460
+structured, semi-structured, and unstructured data.
+
+00:00:29.460 --> 00:00:34.245
+This lesson we'll touch on certain aspects we have not yet looked into.
+
+00:00:34.245 --> 00:00:39.515
+This lesson will help you put all the pieces of data infrastructure puzzle together.
+
+00:00:39.515 --> 00:00:42.385
+In this lesson, we will talk about,
+
+00:00:42.385 --> 00:00:46.545
+processing pieces, ETL versus ELT.
+
+00:00:46.545 --> 00:00:48.345
+We will also talk about,
+
+00:00:48.345 --> 00:00:51.685
+when do you need to transform data before loading,
+
+00:00:51.685 --> 00:00:55.000
+and when it is better to load data first.
+
+00:00:55.000 --> 00:00:58.740
+Next we will discuss data storage.
+
+00:00:58.740 --> 00:01:03.205
+What database or data warehouse or data lake mean.
+
+00:01:03.205 --> 00:01:05.390
+How do you select a DB,
+
+00:01:05.390 --> 00:01:08.920
+or how do you select a data warehouse or data lake,
+
+00:01:08.920 --> 00:01:12.295
+and when to choose which type of storage.
+
+00:01:12.295 --> 00:01:16.435
+After that, we will discuss strategy piece of it.
+
+00:01:16.435 --> 00:01:18.150
+When do you build Tech?
+
+00:01:18.150 --> 00:01:19.870
+When should you buy it?
+
+00:01:19.870 --> 00:01:22.930
+What should be the use case for open source,
+
+00:01:22.930 --> 00:01:25.390
+and when using commercial is better?
+
+00:01:25.390 --> 00:01:28.780
+How should you choose between Cloud or on-prem?
+
+00:01:28.780 --> 00:01:32.430
+Then to insource and then to outsource?
+
+00:01:32.430 --> 00:01:37.160
+We'll wrap this course and lesson with most important topic,
+
+00:01:37.160 --> 00:01:41.610
+and that will be security and compliance.
+

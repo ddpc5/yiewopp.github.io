@@ -1,0 +1,106 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:06.675
+This definition from AWS website very well explains what data warehouses are.
+
+00:00:06.675 --> 00:00:14.505
+They are central repository of information analyze and used to make informed decisions.
+
+00:00:14.505 --> 00:00:19.530
+Data flows into data warehouses from various traditional data sources,
+
+00:00:19.530 --> 00:00:21.765
+such as transactional systems,
+
+00:00:21.765 --> 00:00:27.360
+relational DB's, or other resources generally on regular cadence.
+
+00:00:27.360 --> 00:00:31.695
+Here we can clearly see how data warehouses are used.
+
+00:00:31.695 --> 00:00:34.230
+They get data from various sources.
+
+00:00:34.230 --> 00:00:39.015
+There is an ETL Pipeline that feeds data to data warehouse,
+
+00:00:39.015 --> 00:00:43.140
+and data warehouse powers applications such as reporting,
+
+00:00:43.140 --> 00:00:47.595
+visualizations and BI or business intelligence.
+
+00:00:47.595 --> 00:00:51.680
+In data warehouses, data is consolidated at
+
+00:00:51.680 --> 00:00:56.045
+one place which speeds up reporting and analysis.
+
+00:00:56.045 --> 00:00:59.745
+Imagine getting data from 10 different DB's,
+
+00:00:59.745 --> 00:01:02.145
+merging it, massaging it.
+
+00:01:02.145 --> 00:01:06.280
+Data warehouse saves us from those hazards.
+
+00:01:06.280 --> 00:01:11.435
+Data is enriched, multiple dimensions are added to data
+
+00:01:11.435 --> 00:01:17.330
+as data from different sources is blended to provide better and deeper analysis.
+
+00:01:17.330 --> 00:01:23.050
+This helps in better business intelligence and better decision making.
+
+00:01:23.050 --> 00:01:30.580
+Imagine C-suite making decisions only after looking at marketing data or operations data.
+
+00:01:30.580 --> 00:01:35.190
+Data warehouses help in minimizing blind-spots.
+
+00:01:35.190 --> 00:01:39.510
+Data warehouse also forces on data discipline in
+
+00:01:39.510 --> 00:01:44.285
+the organization which results in improved data quality.
+
+00:01:44.285 --> 00:01:47.959
+Since it expects data in a specific format,
+
+00:01:47.959 --> 00:01:51.920
+groups and organization within an enterprise need to make
+
+00:01:51.920 --> 00:01:57.725
+sure that their data can be provided to data warehouse with minimal overhead.
+
+00:01:57.725 --> 00:02:02.810
+Hence, they follow data format guidelines of data warehouses.
+
+00:02:02.810 --> 00:02:06.050
+Data warehouses could be costly.
+
+00:02:06.050 --> 00:02:12.235
+All the data sources need to be hooked to ETL Pipelines and this will require,
+
+00:02:12.235 --> 00:02:16.880
+continuous cleaning, transformation and data integration cycles,
+
+00:02:16.880 --> 00:02:20.720
+making data warehouse ecosystems expensive.
+
+00:02:20.720 --> 00:02:23.480
+Processing before data is loaded,
+
+00:02:23.480 --> 00:02:27.850
+makes data warehouses nonviable for real time use cases.
+
+00:02:27.850 --> 00:02:33.755
+A marketing campaign cannot be monitored in real time using data warehouse data,
+
+00:02:33.755 --> 00:02:40.440
+format requirements make it harder to add a new source of data to data warehouses.
+

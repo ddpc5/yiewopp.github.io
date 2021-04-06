@@ -1,0 +1,127 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:05.760
+A data lake is a system or repository of data stored in its natural raw format,
+
+00:00:05.760 --> 00:00:09.510
+usually object blobs or files.
+
+00:00:09.510 --> 00:00:13.815
+A data lake is usually a single store of all enterprise data
+
+00:00:13.815 --> 00:00:19.140
+including raw copies of source systems data and transformed data.
+
+00:00:19.140 --> 00:00:21.390
+That was a long definition.
+
+00:00:21.390 --> 00:00:23.250
+Why can't we make it simpler?
+
+00:00:23.250 --> 00:00:27.665
+Here is the broken down definition of what data lake is.
+
+00:00:27.665 --> 00:00:30.340
+It is repository of data.
+
+00:00:30.340 --> 00:00:33.165
+Stores data in natural form.
+
+00:00:33.165 --> 00:00:37.460
+Is usually a single store for all enterprise data.
+
+00:00:37.460 --> 00:00:39.620
+Is used for reporting,
+
+00:00:39.620 --> 00:00:43.870
+visualization, advanced analytics and machine learning.
+
+00:00:43.870 --> 00:00:48.790
+Has structured, semi-structured, and unstructured data.
+
+00:00:48.790 --> 00:00:52.160
+Here's an illustration of a data lake.
+
+00:00:52.160 --> 00:00:54.920
+It is getting social media data,
+
+00:00:54.920 --> 00:01:00.040
+multimedia data, and structured data such as customer records.
+
+00:01:00.040 --> 00:01:04.965
+Data is extracted and loaded to data lake.
+
+00:01:04.965 --> 00:01:08.460
+From here, it is selected,
+
+00:01:08.460 --> 00:01:11.940
+organized, and transformed as needed.
+
+00:01:11.940 --> 00:01:15.425
+Some of the advantages of data lakes are,
+
+00:01:15.425 --> 00:01:19.670
+vast amount of data can be stored in data lakes.
+
+00:01:19.670 --> 00:01:25.945
+Data can be structured, semi-structured, or unstructured.
+
+00:01:25.945 --> 00:01:32.675
+Another advantage of data lakes is processing before loading is not required.
+
+00:01:32.675 --> 00:01:35.075
+This reduces the turn around time,
+
+00:01:35.075 --> 00:01:39.740
+the time between when data was generated and when it was used.
+
+00:01:39.740 --> 00:01:45.410
+A very important aspect of data lakes is they are highly agile.
+
+00:01:45.410 --> 00:01:51.265
+Like data warehouse, data lakes do not have strict data format requirements.
+
+00:01:51.265 --> 00:01:54.785
+This means any new source of data can be quickly
+
+00:01:54.785 --> 00:01:58.700
+added or changes in data source can be quickly absorbed.
+
+00:01:58.700 --> 00:02:03.550
+The concept of data lakes is still new compared to data warehouse.
+
+00:02:03.550 --> 00:02:07.190
+What this means is expertise is not easily
+
+00:02:07.190 --> 00:02:11.315
+available and infrastructure choices are not very many.
+
+00:02:11.315 --> 00:02:15.094
+Another limiting factor is data governance.
+
+00:02:15.094 --> 00:02:20.310
+Data governance is ensuring data quality standards are adhered to.
+
+00:02:20.310 --> 00:02:22.850
+Due to it's free-flowing image,
+
+00:02:22.850 --> 00:02:28.355
+people might get lags in monitoring quality of data around data lakes.
+
+00:02:28.355 --> 00:02:32.210
+Data lakes are low cost storages that might
+
+00:02:32.210 --> 00:02:36.580
+encourage organizations to accumulate unnecessary data.
+
+00:02:36.580 --> 00:02:40.905
+One more concern with data lakes is around data privacy.
+
+00:02:40.905 --> 00:02:47.060
+When huge amount of data is moved across the organization are stored in one place,
+
+00:02:47.060 --> 00:02:49.260
+it can be risky.
+

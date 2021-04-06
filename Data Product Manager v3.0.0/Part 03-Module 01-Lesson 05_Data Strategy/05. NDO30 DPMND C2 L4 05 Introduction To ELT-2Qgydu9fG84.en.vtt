@@ -1,0 +1,79 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:05.070
+Two major changes that have influenced data processing requirements are,
+
+00:00:05.070 --> 00:00:09.570
+new data storage technologies that no longer expect data to be
+
+00:00:09.570 --> 00:00:14.910
+delivered in a specific format unlike data warehouse.
+
+00:00:14.910 --> 00:00:19.425
+Second, point of processing has improved tremendously.
+
+00:00:19.425 --> 00:00:22.410
+Processing is quicker and faster.
+
+00:00:22.410 --> 00:00:26.700
+That means we do not need to process data in advance,
+
+00:00:26.700 --> 00:00:29.835
+or break down jobs to get them done in time.
+
+00:00:29.835 --> 00:00:34.125
+This is led to businesses creating ELT pipeline,
+
+00:00:34.125 --> 00:00:38.455
+which is our second strategy of creating processing pipelines.
+
+00:00:38.455 --> 00:00:44.865
+ELT, extraction, loading and transformation.
+
+00:00:44.865 --> 00:00:50.720
+In ELT pipelines, data can be extracted from various data sources.
+
+00:00:50.720 --> 00:00:55.685
+This data could be structured, unstructured, or semi-structured.
+
+00:00:55.685 --> 00:00:59.615
+Data is loaded in data storage such as a Data Lake.
+
+00:00:59.615 --> 00:01:03.865
+Any type of raw data can be loaded to Data Lakes.
+
+00:01:03.865 --> 00:01:07.295
+Data Lakes do not care about the format of data.
+
+00:01:07.295 --> 00:01:11.105
+Transformation is still required before data can be used.
+
+00:01:11.105 --> 00:01:15.240
+This happens after data has been loaded in a Data Lake.
+
+00:01:15.240 --> 00:01:20.095
+In ELT pipelines, data can come from various sources.
+
+00:01:20.095 --> 00:01:23.735
+First, data is extracted from these sources,
+
+00:01:23.735 --> 00:01:27.520
+then it is loaded into a data storage such as Data Lake.
+
+00:01:27.520 --> 00:01:30.810
+After loading, transformation can happen.
+
+00:01:30.810 --> 00:01:33.060
+There might be ETL pipelines,
+
+00:01:33.060 --> 00:01:36.480
+built from that Data Lake to data warehouse.
+
+00:01:36.480 --> 00:01:40.640
+They could be application that process data on demand,
+
+00:01:40.640 --> 00:01:43.590
+depending on the consumers need.
+

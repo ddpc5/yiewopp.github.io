@@ -1,0 +1,61 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:01.995
+When to use data lakes.
+
+00:00:01.995 --> 00:00:07.050
+Data lakes can be used for experimental analysis of data,
+
+00:00:07.050 --> 00:00:11.175
+where you are still not sure and want to have
+
+00:00:11.175 --> 00:00:16.455
+a proof of concept before investing in an end-to-end data pipeline.
+
+00:00:16.455 --> 00:00:22.395
+ELTs make it easy to use data lakes for such experimental analysis.
+
+00:00:22.395 --> 00:00:29.460
+Cybersecurity data collection and analysis is a great use case of data lakes.
+
+00:00:29.460 --> 00:00:33.615
+For any enterprise devices such as laptops,
+
+00:00:33.615 --> 00:00:36.500
+servers, cloud computing devices,
+
+00:00:36.500 --> 00:00:39.925
+and virtual systems are all vulnerable.
+
+00:00:39.925 --> 00:00:42.725
+Add connecting devices to this mix,
+
+00:00:42.725 --> 00:00:49.000
+it becomes a big data problem that can be solved using data lakes.
+
+00:00:49.000 --> 00:00:51.890
+Data lakes can be used to build
+
+00:00:51.890 --> 00:00:57.215
+customer data platforms to provide rich customer insights.
+
+00:00:57.215 --> 00:01:03.695
+Data for such platform can come from various sources such as customer profile DBs,
+
+00:01:03.695 --> 00:01:05.690
+web and mobile events,
+
+00:01:05.690 --> 00:01:07.430
+brick and mortar systems,
+
+00:01:07.430 --> 00:01:10.970
+loyalty systems, and service center data.
+
+00:01:10.970 --> 00:01:18.140
+This data can be of any type: structured, semi-structured, or unstructured.
+
+00:01:18.140 --> 00:01:22.230
+Data lakes work best for such use cases.
+

@@ -1,0 +1,97 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.775
+Why were ETLs created?
+
+00:00:02.775 --> 00:00:05.250
+Almost a decade back,
+
+00:00:05.250 --> 00:00:08.010
+data infrastructure world was simpler.
+
+00:00:08.010 --> 00:00:14.255
+There was transaction and operation data in OLTPs and there were OLAPs.
+
+00:00:14.255 --> 00:00:20.480
+Data was needed to be aggregated and brought to OLAPs in an expected format.
+
+00:00:20.480 --> 00:00:22.870
+ETLs were great for that.
+
+00:00:22.870 --> 00:00:25.545
+With ERPs coming to the picture,
+
+00:00:25.545 --> 00:00:27.860
+ETLs became even more relevant.
+
+00:00:27.860 --> 00:00:34.960
+Again, data spread across organization was needed to be fed to ERP data warehouse.
+
+00:00:34.960 --> 00:00:38.810
+Now that we have background in the history of ETLs,
+
+00:00:38.810 --> 00:00:44.470
+we should look at some of the challenges ETL processing pipelines have these days.
+
+00:00:44.470 --> 00:00:51.260
+Some of the challenges with ETLs are: it processes data before loading it.
+
+00:00:51.260 --> 00:00:56.525
+Amount of data generated in an interface is increasing in leaps and bounds.
+
+00:00:56.525 --> 00:01:00.920
+Sometimes transformation could end up being millions of line.
+
+00:01:00.920 --> 00:01:04.480
+This might make it really hard to scale.
+
+00:01:04.480 --> 00:01:06.590
+In some use cases,
+
+00:01:06.590 --> 00:01:11.465
+transforming all the data before loading might be an overkill.
+
+00:01:11.465 --> 00:01:13.790
+Let's consider an example.
+
+00:01:13.790 --> 00:01:19.900
+You might not need to process all the event data generated on the website at once.
+
+00:01:19.900 --> 00:01:23.900
+There is a vast variety of data generated these days.
+
+00:01:23.900 --> 00:01:29.240
+Entity data needs to be treated very differently than event data.
+
+00:01:29.240 --> 00:01:35.400
+Similarly, structured data, semi-structured data or unstructured data,
+
+00:01:35.400 --> 00:01:38.445
+they all need specific treatments.
+
+00:01:38.445 --> 00:01:43.475
+ETLs work best with entity and structured data.
+
+00:01:43.475 --> 00:01:48.925
+Implementing ETL for other data types can be very challenging.
+
+00:01:48.925 --> 00:01:53.385
+Data sources are varied and spread across.
+
+00:01:53.385 --> 00:01:56.770
+We have data on-prem and in cloud,
+
+00:01:56.770 --> 00:01:59.510
+we have constant streams of data,
+
+00:01:59.510 --> 00:02:01.540
+and we have batches of data.
+
+00:02:01.540 --> 00:02:05.300
+With ETL pipeline, it might be difficult and
+
+00:02:05.300 --> 00:02:10.470
+slow to bring all this data together for use it.
+

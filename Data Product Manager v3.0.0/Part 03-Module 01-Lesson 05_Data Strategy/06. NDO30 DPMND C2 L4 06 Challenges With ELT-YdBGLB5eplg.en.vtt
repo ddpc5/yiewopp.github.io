@@ -1,0 +1,49 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.075
+Challenges with ELT pipelines.
+
+00:00:03.075 --> 00:00:05.580
+ELTs can be expensive.
+
+00:00:05.580 --> 00:00:12.195
+ELT pipelines generally deal with huge volume of structured and unstructured data.
+
+00:00:12.195 --> 00:00:16.365
+Scalability is a necessity for ELT pipelines.
+
+00:00:16.365 --> 00:00:20.625
+If data storage and data processing are a concern,
+
+00:00:20.625 --> 00:00:24.030
+ELT might not be the solution.
+
+00:00:24.030 --> 00:00:27.540
+ELT is new kid on the block.
+
+00:00:27.540 --> 00:00:32.805
+ELT is less mature and less reliable than ETL.
+
+00:00:32.805 --> 00:00:35.250
+It is still evolving.
+
+00:00:35.250 --> 00:00:40.315
+It is hard to find resources and expertise in this domain.
+
+00:00:40.315 --> 00:00:47.510
+Some corner cases of ELT could be moving huge volumes of data comes with the risk.
+
+00:00:47.510 --> 00:00:51.380
+ELT designs have to be scrutinized and should
+
+00:00:51.380 --> 00:00:55.625
+follow stringent standard to avoid security risk.
+
+00:00:55.625 --> 00:01:03.035
+Companies are regulated with various security standard such as GDPR, HIPAA or CCPA.
+
+00:01:03.035 --> 00:01:10.410
+Removing, masking, or encrypting data might be harder in an ELT model.
+

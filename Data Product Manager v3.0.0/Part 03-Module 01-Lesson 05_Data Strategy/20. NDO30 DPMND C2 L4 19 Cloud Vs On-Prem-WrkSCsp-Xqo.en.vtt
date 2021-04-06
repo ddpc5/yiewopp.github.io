@@ -1,0 +1,139 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:05.580
+Cloud computing is the on-demand availability of computer system resources,
+
+00:00:05.580 --> 00:00:12.075
+especially data storage and computing power without direct active management by the user.
+
+00:00:12.075 --> 00:00:14.520
+The term is generally used to describe
+
+00:00:14.520 --> 00:00:18.430
+data centers available to many users over the Internet.
+
+00:00:18.430 --> 00:00:22.920
+By on-prem or on-premise is referred to building and owning
+
+00:00:22.920 --> 00:00:27.840
+computing infrastructure within the physical confines of an enterprise.
+
+00:00:27.840 --> 00:00:32.085
+General Electric is a good example in this regard.
+
+00:00:32.085 --> 00:00:35.430
+This started using AWS and now have
+
+00:00:35.430 --> 00:00:39.890
+a Cloud solution of their own which is Predix platform.
+
+00:00:39.890 --> 00:00:41.645
+If you go to this site,
+
+00:00:41.645 --> 00:00:44.885
+you can see how Cloud is helping them strategically.
+
+00:00:44.885 --> 00:00:47.920
+It says, "Reduced cost.
+
+00:00:47.920 --> 00:00:49.665
+Speed to innovation.
+
+00:00:49.665 --> 00:00:51.270
+Global visibility.
+
+00:00:51.270 --> 00:00:55.745
+The potential benefits of Cloud adoption are not only many,
+
+00:00:55.745 --> 00:00:58.030
+but they are tough to ignore."
+
+00:00:58.030 --> 00:01:02.365
+Many small enterprises are still operating on-prem.
+
+00:01:02.365 --> 00:01:06.260
+They want to tightly control their ecosystem.
+
+00:01:06.260 --> 00:01:09.110
+Security is a concern for them.
+
+00:01:09.110 --> 00:01:12.530
+Cost structures are complicated for Cloud.
+
+00:01:12.530 --> 00:01:14.765
+A small business might fear features like
+
+00:01:14.765 --> 00:01:19.505
+auto-scaling not knowing what bill they get at the end.
+
+00:01:19.505 --> 00:01:21.940
+Cloud needs a sound network.
+
+00:01:21.940 --> 00:01:26.825
+Many places and many companies still do not have the best networks.
+
+00:01:26.825 --> 00:01:29.200
+A recent article said,
+
+00:01:29.200 --> 00:01:34.039
+"When asked about adopting an enterprise Cloud computing platform,
+
+00:01:34.039 --> 00:01:40.040
+66 percent of IT professionals say security is the greatest concern."
+
+00:01:40.040 --> 00:01:42.130
+When to use Cloud?
+
+00:01:42.130 --> 00:01:46.820
+If you need scalability and agility for quick deployments.
+
+00:01:46.820 --> 00:01:50.555
+If you need accessibility from anywhere.
+
+00:01:50.555 --> 00:01:55.075
+If you want to have low infrastructure costs in long-term.
+
+00:01:55.075 --> 00:01:59.995
+If security and compliance are not your biggest concerns.
+
+00:01:59.995 --> 00:02:04.790
+If you need an always available support model.
+
+00:02:04.790 --> 00:02:10.340
+Moving to Cloud frees up your resources and you can focus on innovation.
+
+00:02:10.340 --> 00:02:16.775
+You might want to use on-prem if: total cost of ownership is lower,
+
+00:02:16.775 --> 00:02:22.630
+if uptime is a concern and your on-prem solution provides you better uptime,
+
+00:02:22.630 --> 00:02:26.060
+you want control and governance in your hands,
+
+00:02:26.060 --> 00:02:29.525
+when you have latency concerns because your data is just
+
+00:02:29.525 --> 00:02:33.865
+everywhere across zones, on-prem, etc.
+
+00:02:33.865 --> 00:02:37.490
+Ingress is traffic going out of the ecosystem,
+
+00:02:37.490 --> 00:02:39.905
+egress is traffic entering it.
+
+00:02:39.905 --> 00:02:45.845
+If you need huge amount of data to be transferred between Cloud and on-prem constantly,
+
+00:02:45.845 --> 00:02:48.555
+that is, ingress at egress is high,
+
+00:02:48.555 --> 00:02:50.660
+Cloud might be expensive for you.
+
+00:02:50.660 --> 00:02:53.730
+You are better off being on-prem.
+

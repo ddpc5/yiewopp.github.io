@@ -1,0 +1,55 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.150
+That's it. You are at the end of the course.
+
+00:00:03.150 --> 00:00:05.040
+I'm so glad you made it.
+
+00:00:05.040 --> 00:00:10.455
+You're just about ready to be able to implement a data strategy in the real world.
+
+00:00:10.455 --> 00:00:13.910
+First, we'll recap what we have covered so far.
+
+00:00:13.910 --> 00:00:17.294
+Data pipelines, what are data pipelines,
+
+00:00:17.294 --> 00:00:20.065
+and what are the components of data pipelines.
+
+00:00:20.065 --> 00:00:23.520
+Next, we talked about data consumers,
+
+00:00:23.520 --> 00:00:25.094
+type of data consumers,
+
+00:00:25.094 --> 00:00:28.185
+and data use cases of data consumers.
+
+00:00:28.185 --> 00:00:31.050
+After that, we covered data producers,
+
+00:00:31.050 --> 00:00:32.730
+type of data producers,
+
+00:00:32.730 --> 00:00:34.825
+and different types of data.
+
+00:00:34.825 --> 00:00:36.560
+In our last lesson,
+
+00:00:36.560 --> 00:00:38.644
+we applied our data strategy,
+
+00:00:38.644 --> 00:00:41.825
+in which we discussed data processing strategies,
+
+00:00:41.825 --> 00:00:45.310
+data storage choices, data infrastructure strategy,
+
+00:00:45.310 --> 00:00:48.260
+and security, and compliance
+

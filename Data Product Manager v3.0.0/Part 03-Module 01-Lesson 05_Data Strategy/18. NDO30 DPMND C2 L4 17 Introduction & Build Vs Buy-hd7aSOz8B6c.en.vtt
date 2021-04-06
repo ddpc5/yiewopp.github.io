@@ -1,0 +1,145 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:04.770
+Setting a data infrastructure is cost and time intensive.
+
+00:00:04.770 --> 00:00:10.394
+It is important to consider the strategic pieces while making those choices.
+
+00:00:10.394 --> 00:00:16.229
+In this section, we will explore this aspect of making data strategic decisions.
+
+00:00:16.229 --> 00:00:19.455
+There are various aspects of a business.
+
+00:00:19.455 --> 00:00:26.200
+It may not always be wise to build solution for every problem you have in-house.
+
+00:00:26.200 --> 00:00:28.080
+To put it differently,
+
+00:00:28.080 --> 00:00:30.860
+the ending shop that is going online,
+
+00:00:30.860 --> 00:00:34.280
+what should be their core competency and focus?
+
+00:00:34.280 --> 00:00:38.705
+Should they build an accounting software in-house to maintain their books?
+
+00:00:38.705 --> 00:00:43.895
+When you should build and when you should buy is a strategic decision.
+
+00:00:43.895 --> 00:00:50.005
+Amazon is fundamentally e-commerce company but it focuses on being a tech leader.
+
+00:00:50.005 --> 00:00:54.200
+It has invested heavily in hiring the right talent
+
+00:00:54.200 --> 00:00:59.075
+and establishing infrastructure to develop some of the technologies in-house.
+
+00:00:59.075 --> 00:01:03.890
+This has given them a competitive advantage over their competitors.
+
+00:01:03.890 --> 00:01:06.845
+Amazon was able to spin out
+
+00:01:06.845 --> 00:01:13.120
+a completely new and very profitable business because of this AWS.
+
+00:01:13.120 --> 00:01:17.520
+Uber, another tech leader and innovator,
+
+00:01:17.520 --> 00:01:22.185
+has also invested heavily in talent and infrastructure.
+
+00:01:22.185 --> 00:01:24.525
+But at some point they realized,
+
+00:01:24.525 --> 00:01:26.870
+they should not waste their resources in solving
+
+00:01:26.870 --> 00:01:30.110
+problems that others have already solved.
+
+00:01:30.110 --> 00:01:34.225
+They don't need to be an expert on everything.
+
+00:01:34.225 --> 00:01:38.595
+Also not working with partners slowed their growth.
+
+00:01:38.595 --> 00:01:40.695
+When should you build?
+
+00:01:40.695 --> 00:01:46.255
+When time commitments are critical and vendors are not able to honor that.
+
+00:01:46.255 --> 00:01:49.270
+You should build if total cost of building,
+
+00:01:49.270 --> 00:01:51.865
+including development cost, testing,
+
+00:01:51.865 --> 00:01:55.525
+configuration, scaling along with talent,
+
+00:01:55.525 --> 00:01:58.310
+and infrastructure, is much lower.
+
+00:01:58.310 --> 00:02:00.610
+You might be better of building
+
+00:02:00.610 --> 00:02:05.305
+the solution if deep understanding of your business is needed.
+
+00:02:05.305 --> 00:02:10.580
+You should also build when cost of customization are huge.
+
+00:02:10.580 --> 00:02:14.560
+It is always best to build your application if there
+
+00:02:14.560 --> 00:02:18.235
+is strategic importance associated with it.
+
+00:02:18.235 --> 00:02:19.900
+When should you buy?
+
+00:02:19.900 --> 00:02:22.745
+If it'll take you too long to build.
+
+00:02:22.745 --> 00:02:27.955
+When overall cost, which is licensing, implementation, integration,
+
+00:02:27.955 --> 00:02:30.570
+customization along with support,
+
+00:02:30.570 --> 00:02:33.910
+and infrastructure, are much lower.
+
+00:02:33.910 --> 00:02:38.375
+It is always good to buy market available solution for
+
+00:02:38.375 --> 00:02:43.624
+problems that are common across enterprises, example HR solutions.
+
+00:02:43.624 --> 00:02:47.045
+Some of the problems have already been solved
+
+00:02:47.045 --> 00:02:50.635
+and there are market leaders available with solutions.
+
+00:02:50.635 --> 00:02:54.494
+It's wise to buy such tech, for example,
+
+00:02:54.494 --> 00:03:00.680
+buying cloud storage on AWS or on Azure would be better than building it.
+
+00:03:00.680 --> 00:03:03.710
+Buying some of the tech solutions helps you scale
+
+00:03:03.710 --> 00:03:07.800
+quicker and reduces your speed to market.
+

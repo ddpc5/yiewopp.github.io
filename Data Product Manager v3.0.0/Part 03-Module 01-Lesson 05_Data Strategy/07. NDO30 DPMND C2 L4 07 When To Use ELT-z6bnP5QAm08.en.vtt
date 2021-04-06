@@ -1,0 +1,64 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.280
+When to use ELT.
+
+00:00:02.280 --> 00:00:09.090
+One use case of ELT could be when source and target database are of same type,
+
+00:00:09.090 --> 00:00:13.185
+example being Oracle source and Oracle target.
+
+00:00:13.185 --> 00:00:16.740
+You might do unnecessary processing before loading data
+
+00:00:16.740 --> 00:00:20.745
+from Source Oracle db to Destination Oracle db.
+
+00:00:20.745 --> 00:00:23.175
+When data volumes are huge,
+
+00:00:23.175 --> 00:00:27.540
+you do not want to process anything and everything under the sun.
+
+00:00:27.540 --> 00:00:31.005
+The reality is for most enterprises,
+
+00:00:31.005 --> 00:00:32.775
+data volumes are huge,
+
+00:00:32.775 --> 00:00:37.740
+hence ELTs might work better as they wont become bottlenecks.
+
+00:00:37.740 --> 00:00:41.400
+Consider this data, for Wikipedia,
+
+00:00:41.400 --> 00:00:48.940
+it has almost six million articles and gets 22 billion monthly paid views.
+
+00:00:48.940 --> 00:00:54.410
+Amount of even data generated on Wikipedia pages would be huge.
+
+00:00:54.410 --> 00:00:59.140
+ELT by plans will work better in such scenarios.
+
+00:00:59.140 --> 00:01:04.025
+Again, reemphasizing some of the things I have said so far,
+
+00:01:04.025 --> 00:01:09.700
+ELTs are better when you have a mixed type of data.
+
+00:01:09.700 --> 00:01:13.625
+For your use case of customers sentiment analysis,
+
+00:01:13.625 --> 00:01:16.850
+when you have data from user reviews,
+
+00:01:16.850 --> 00:01:19.625
+e-mails, customer care chat scripts,
+
+00:01:19.625 --> 00:01:22.380
+ELT will look better.
+

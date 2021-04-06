@@ -1,0 +1,136 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.730
+Now you know major types of DBs.
+
+00:00:02.730 --> 00:00:04.515
+How many user DB?
+
+00:00:04.515 --> 00:00:06.375
+Here are some tips.
+
+00:00:06.375 --> 00:00:09.615
+Look at the possible structure of your data.
+
+00:00:09.615 --> 00:00:14.205
+Is it clearly relational such as transactional data,
+
+00:00:14.205 --> 00:00:20.040
+or can it be mapped to key-value pairs such as comments or ratings?
+
+00:00:20.040 --> 00:00:23.205
+What is the size of data we are talking about?
+
+00:00:23.205 --> 00:00:26.325
+Is it big data or regular data?
+
+00:00:26.325 --> 00:00:28.860
+What are the latency requirements.
+
+00:00:28.860 --> 00:00:34.770
+Is it used for reporting where data can be made available in minutes or hours,
+
+00:00:34.770 --> 00:00:37.590
+or is it needed for real-time use cases,
+
+00:00:37.590 --> 00:00:39.925
+such as upsell or cross-sell?
+
+00:00:39.925 --> 00:00:43.610
+What are the core requirements of this DB?
+
+00:00:43.610 --> 00:00:47.465
+Are the operations read-heavy or write-heavy,
+
+00:00:47.465 --> 00:00:50.695
+or these DBs will be needed for search operations?
+
+00:00:50.695 --> 00:00:54.140
+Now let's look at some common scenarios in
+
+00:00:54.140 --> 00:00:58.040
+which you will use DBs we discussed in last section.
+
+00:00:58.040 --> 00:01:04.235
+SQL DBs; they're most mature and stable category of DBs.
+
+00:01:04.235 --> 00:01:09.535
+They're best suited to the needs when security is the most important requirement.
+
+00:01:09.535 --> 00:01:13.100
+They were best for structured data.
+
+00:01:13.100 --> 00:01:19.260
+Common use case will be financial applications or defense applications.
+
+00:01:19.260 --> 00:01:22.920
+Document-oriented DBs; these are
+
+00:01:22.920 --> 00:01:28.385
+schema-free and can store semi-structured and unstructured data.
+
+00:01:28.385 --> 00:01:31.340
+Consider a content management system,
+
+00:01:31.340 --> 00:01:35.104
+it might have videos, pictures, and documents.
+
+00:01:35.104 --> 00:01:39.630
+Document-oriented DBs are best suited for such use cases.
+
+00:01:39.630 --> 00:01:44.685
+Columnar DB; they have eventual consistency.
+
+00:01:44.685 --> 00:01:46.905
+In simple words what it means,
+
+00:01:46.905 --> 00:01:49.670
+it might get updated super fast,
+
+00:01:49.670 --> 00:01:52.090
+but it takes some time to return
+
+00:01:52.090 --> 00:01:58.120
+the last updated result or write are not reflected super-fast in reads,
+
+00:01:58.120 --> 00:02:00.300
+but eventually they do.
+
+00:02:00.300 --> 00:02:06.410
+They're best suited when queries are needed to be run on data columns.
+
+00:02:06.410 --> 00:02:09.930
+A very common example will be data science,
+
+00:02:09.930 --> 00:02:16.100
+data modeling wherein you fetch features of data as and when you need them,
+
+00:02:16.100 --> 00:02:21.305
+and don't want all the features of a data point return for your analysis.
+
+00:02:21.305 --> 00:02:26.180
+Key-value DBs; these are best suited for data that can be
+
+00:02:26.180 --> 00:02:31.329
+stored as key value and as unstructured example,
+
+00:02:31.329 --> 00:02:33.980
+when you want to store customer reviews.
+
+00:02:33.980 --> 00:02:35.870
+As the name suggests,
+
+00:02:35.870 --> 00:02:43.800
+if the data is graph-like and you need to run analysis on connections, nearest neighbors.
+
+00:02:43.800 --> 00:02:47.025
+Basically when focus is on relationships,
+
+00:02:47.025 --> 00:02:49.365
+graph DBs are best.
+
+00:02:49.365 --> 00:02:53.830
+Social networks find graph DBs very useful.
+

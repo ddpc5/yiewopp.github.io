@@ -1,0 +1,157 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.555
+A database is an organized collection of data,
+
+00:00:03.555 --> 00:00:08.190
+generally stored and accessed electronically from a computer system.
+
+00:00:08.190 --> 00:00:12.825
+Database and data warehouse are two different storage types.
+
+00:00:12.825 --> 00:00:17.550
+It is important for us to understand differences between the two.
+
+00:00:17.550 --> 00:00:21.515
+DBs are to record data from an application,
+
+00:00:21.515 --> 00:00:27.040
+whereas data warehouses are to analyze the data of an enterprise.
+
+00:00:27.040 --> 00:00:30.185
+DBs might store detailed data,
+
+00:00:30.185 --> 00:00:34.780
+whereas a data warehouse might have summarized data.
+
+00:00:34.780 --> 00:00:38.885
+DBs are used for operations and transactions.
+
+00:00:38.885 --> 00:00:43.345
+Data warehouses are used for business data analysis.
+
+00:00:43.345 --> 00:00:45.930
+DBs get data in real-time,
+
+00:00:45.930 --> 00:00:50.485
+whereas data warehouse needs to be refreshed to get latest data.
+
+00:00:50.485 --> 00:00:54.830
+DBs are associated with a single application.
+
+00:00:54.830 --> 00:00:59.350
+Data warehouse affect from multiple applications.
+
+00:00:59.350 --> 00:01:01.565
+To summarize it all,
+
+00:01:01.565 --> 00:01:04.675
+data warehouse are required to store
+
+00:01:04.675 --> 00:01:09.745
+large quantities of historical data and provide fast,
+
+00:01:09.745 --> 00:01:12.535
+complex queries across all the data,
+
+00:01:12.535 --> 00:01:14.760
+mostly using all apps.
+
+00:01:14.760 --> 00:01:19.390
+DBs focus on storing current transactional data to enable
+
+00:01:19.390 --> 00:01:23.935
+fast access to specific data for business processes.
+
+00:01:23.935 --> 00:01:26.420
+This is how OLTPs work.
+
+00:01:26.420 --> 00:01:33.740
+DBs can be categorized into two major categories: SQL DBs and NoSQL DBs.
+
+00:01:33.740 --> 00:01:37.885
+SQL DBs are classic category of DBs,
+
+00:01:37.885 --> 00:01:39.999
+they store data in tables,
+
+00:01:39.999 --> 00:01:42.395
+data is relational in nature,
+
+00:01:42.395 --> 00:01:44.684
+can be queried using SQL,
+
+00:01:44.684 --> 00:01:46.825
+schemas need to be defined.
+
+00:01:46.825 --> 00:01:53.844
+Schema is nothing but organization of data as blueprint of how the DB is constructed.
+
+00:01:53.844 --> 00:02:00.855
+Common SQL DBs are MS SQL Server, Oracle, and MySQL.
+
+00:02:00.855 --> 00:02:07.060
+There are four major categories of NoSQL DBs: Document-oriented,
+
+00:02:07.060 --> 00:02:12.960
+columnar DB, key-value DB, and graph DB.
+
+00:02:12.960 --> 00:02:18.945
+Document-oriented DBs, they do not have fixed schema,
+
+00:02:18.945 --> 00:02:22.125
+data is stored in JSON documents,
+
+00:02:22.125 --> 00:02:25.550
+each document can have different fields.
+
+00:02:25.550 --> 00:02:29.865
+Common examples of document-oriented DBs are,
+
+00:02:29.865 --> 00:02:33.735
+MongoDB, CouchDB, or Document DB.
+
+00:02:33.735 --> 00:02:37.475
+In columnar DB, data is stored in
+
+00:02:37.475 --> 00:02:42.770
+columns instead of how it is stored in rows in relational DBs.
+
+00:02:42.770 --> 00:02:47.390
+Column-based queries can run fast on these DBs.
+
+00:02:47.390 --> 00:02:51.020
+It is much more easier in columnar DBs to
+
+00:02:51.020 --> 00:02:54.755
+add columns than their counterpart, relational DBs.
+
+00:02:54.755 --> 00:03:00.850
+One common example of most popular columnar DB is Cassandra.
+
+00:03:00.850 --> 00:03:06.710
+In key-value DBs, values are stored with unique keys.
+
+00:03:06.710 --> 00:03:09.985
+These DBs are much simpler,
+
+00:03:09.985 --> 00:03:13.200
+scalable for reads and writes.
+
+00:03:13.200 --> 00:03:19.440
+Example of key-value DBs are Redis and Amazon DynamoDB.
+
+00:03:19.440 --> 00:03:23.835
+In graph DBs data is stored as network.
+
+00:03:23.835 --> 00:03:28.100
+These DBs focus on connections between data points and are
+
+00:03:28.100 --> 00:03:32.525
+used for analysis of relationships between data points.
+
+00:03:32.525 --> 00:03:38.700
+Examples of graph DBs are InfiniteGraph and Neo4j.
+

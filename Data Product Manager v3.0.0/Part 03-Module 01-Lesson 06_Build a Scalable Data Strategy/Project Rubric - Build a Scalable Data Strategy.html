@@ -1,0 +1,509 @@
+<!-- udacity2.0 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Build a Scalable Data Strategy</title>
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/plyr.css">
+  <link rel="stylesheet" href="../assets/css/katex.min.css">
+  <link rel="stylesheet" href="../assets/css/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="shortcut icon" type="image/png" href="../assets/img/udacimak.png" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav id="sidebar">
+  <div class="sidebar-header">
+    <h3>Build a Scalable Data Strategy</h3>
+  </div>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled components">
+    <li class="">
+      <a href="01. Project Introduction.html">01. Project Introduction</a>
+    </li>
+    <li class="">
+      <a href="02. Project Submission.html">02. Project Submission</a>
+    </li>
+    <li class="">
+      <a href="Project Description - Build a Scalable Data Strategy.html">Project Description - Build a Scalable Data Strategy</a>
+    </li>
+    <li class="">
+      <a href="Project Rubric - Build a Scalable Data Strategy.html">Project Rubric - Build a Scalable Data Strategy</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+</nav>
+
+    <div id="content">
+      <header class="container-fluild header">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="align-items-middle">
+                <button type="button" id="sidebarCollapse" class="btn btn-toggle-sidebar">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </button>
+
+                <h1 style="display: inline-block">Build a Scalable Data Strategy</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="container">
+        <div class="row">
+          <div class="col-12">
+            
+      <div>
+        <h2><p>Data Collection</p></h2>
+        <table class="table table-bordered table-hover">
+          <thead>
+            <tr class="thead-dark">
+              <th>Criteria</th>
+              <th>Meet Specification</th>
+            </tr>
+          </thead>
+          
+    <tbody>
+      
+      <tr scope="row">
+        <td>
+          <p>The project addresses relevant stakeholders in regards to the data pipeline.</p>
+        </td>
+        <td>
+          <p>The project recognizes at least 3 stakeholders.</p>
+<p>The project clearly states why these stakeholders  were chosen and identified as primary stakeholders.</p>
+<p>The project identifies stakeholders in at least 3 different departments of the business </p>
+<p>Hint: Flyber is a startup. The app is live so an engineering team is there. They are one of the primary stakeholders. On similar lines who could be primary stakeholders.  What are primary focus areas for a startup?</p>
+        </td>
+      </tr>
+    
+      <tr scope="row">
+        <td>
+          <p>The project focuses on primary use-cases  for stakeholders. </p>
+        </td>
+        <td>
+          <p>The project should have at least 1-2 use-cases for each of the stakeholders identified.</p>
+<p>The project clearly states why these use-cases were chosen and identified as primary use-cases for the stakeholders.</p>
+<p>Example: Engineering would like to monitor the traffic so that they can respond to scaling needs of app quickly. They need data that can help them with it. </p>
+        </td>
+      </tr>
+    
+      <tr scope="row">
+        <td>
+          <p>The project has data requirements captured for MVP</p>
+        </td>
+        <td>
+          <p>The project should identify at least 2 data fields required for each of the above mentioned use-cases. </p>
+<p>The project clearly states why these data fields were chosen for each use-case.</p>
+<p>Optional: Project may identify fields that would be good to include, but not required. </p>
+        </td>
+      </tr>
+    
+    </tbody>
+  
+        </table>
+
+      </div>
+    
+      <div>
+        <h2><p>Data Modeling</p></h2>
+        <table class="table table-bordered table-hover">
+          <thead>
+            <tr class="thead-dark">
+              <th>Criteria</th>
+              <th>Meet Specification</th>
+            </tr>
+          </thead>
+          
+    <tbody>
+      
+      <tr scope="row">
+        <td>
+          <p>The project logically organizes data for collection into tables.</p>
+        </td>
+        <td>
+          <p>Project has at least 3 tables defined for the data requirements gathered.  </p>
+<p>Project clearly states why these tables were chosen and how they connect to Flyber's stakeholders primary use cases.</p>
+<p>Hint: These tables are a way to organize data elements identified for the MVP use-cases in the previous exercise. </p>
+        </td>
+      </tr>
+    
+      <tr scope="row">
+        <td>
+          <p>The project has normalized tables with unique identifiers. </p>
+        </td>
+        <td>
+          <p>Project should have Normalized (no redundancy) tables.</p>
+<p>Project has Primary Keys and Foreign Keys identified for each of these tables. </p>
+<p>Project states why these Primary and Foreiegn key identifiers were chosen over other potential identifiers.</p>
+        </td>
+      </tr>
+    
+    </tbody>
+  
+        </table>
+
+      </div>
+    
+      <div>
+        <h2><p>Extraction and Transformation</p></h2>
+        <table class="table table-bordered table-hover">
+          <thead>
+            <tr class="thead-dark">
+              <th>Criteria</th>
+              <th>Meet Specification</th>
+            </tr>
+          </thead>
+          
+    <tbody>
+      
+      <tr scope="row">
+        <td>
+          <p>The project extracts and transforms raw data.</p>
+        </td>
+        <td>
+          <p>The project includes steps to transform data into a format that can be used for further analysis and visualization. <br />
+The  project clearly states why this format and tool is chosen. <br />
+Hint: This file can be converted using excel to a relevant format. </p>
+        </td>
+      </tr>
+    
+      <tr scope="row">
+        <td>
+          <p>The project transforms data to answer business questions. </p>
+        </td>
+        <td>
+          <p>The project has details on how data was loaded and transformed to answer the following questions: </p>
+<ol>
+<li>How many events are being recorded per day?</li>
+<li>How many events of each event type per day?</li>
+<li>How many events per device type per day?</li>
+<li>How many events per page type per day?</li>
+<li>How many events for each location per day?</li>
+</ol>
+        </td>
+      </tr>
+    
+      <tr scope="row">
+        <td>
+          <p>The project addresses scalability of ETLs</p>
+        </td>
+        <td>
+          <p>Project addresses the following points to summarize data processing needs of Flyber:<br />
+Was the process of manually Extracting, Loading and Transforming data from raw logs efficient? Is it scalable?<br />
+Is there a need for automated ETL pipeline? Why? </p>
+        </td>
+      </tr>
+    
+    </tbody>
+  
+        </table>
+
+      </div>
+    
+      <div>
+        <h2><p>Choosing Relevant Dataset</p></h2>
+        <table class="table table-bordered table-hover">
+          <thead>
+            <tr class="thead-dark">
+              <th>Criteria</th>
+              <th>Meet Specification</th>
+            </tr>
+          </thead>
+          
+    <tbody>
+      
+      <tr scope="row">
+        <td>
+          <p>The project defines criteria to select relevant data for analyzing the scale of data growth in Flyber. </p>
+        </td>
+        <td>
+          <p>The project selects one correct criteria that provides the most relevant information from the following to get data from Engineering:</p>
+<ol>
+<li>How many events are being recorded per day?</li>
+<li>How many events of each event type per day?</li>
+<li>How many events per device type per day?</li>
+<li>How many events per page type per day?</li>
+<li>How many events for each location per day?</li>
+</ol>
+<p>The project analyzes criteria selection considering how it can answer the following questions: </p>
+<ol>
+<li>How much is the customer data increasing?</li>
+<li>How much is the transactional data increasing?</li>
+<li>How much is the event log data increasing?</li>
+</ol>
+<p>Hint: Only one of the criteria will provide the most information around the above dimensions. </p>
+        </td>
+      </tr>
+    
+    </tbody>
+  
+        </table>
+
+      </div>
+    
+      <div>
+        <h2><p>Loading and Visualization</p></h2>
+        <table class="table table-bordered table-hover">
+          <thead>
+            <tr class="thead-dark">
+              <th>Criteria</th>
+              <th>Meet Specification</th>
+            </tr>
+          </thead>
+          
+    <tbody>
+      
+      <tr scope="row">
+        <td>
+          <p>The project visualizes data using Public Tableau. </p>
+        </td>
+        <td>
+          <p>The project contains at least 2 continuous line visualizations for two of the event types. And answer: <br />
+What do these graphs tell?</p>
+<p>The project clearly defines the steps taken to generate continuous line visualizations.<br />
+Optional: Project creates other relevant data visualizations to add to the dashboard such as all event types on a logarithmic scale. </p>
+        </td>
+      </tr>
+    
+    </tbody>
+  
+        </table>
+
+      </div>
+    
+      <div>
+        <h2><p>Data Analysis: Telling Stories with Data</p></h2>
+        <table class="table table-bordered table-hover">
+          <thead>
+            <tr class="thead-dark">
+              <th>Criteria</th>
+              <th>Meet Specification</th>
+            </tr>
+          </thead>
+          
+    <tbody>
+      
+      <tr scope="row">
+        <td>
+          <p>Project analyzes the total event growth in the last month. </p>
+        </td>
+        <td>
+          <p>Project has some estimation calculation to answer - “By how many times have the event logs grown in the last 1 month?”</p>
+<p>Project has a labeled graph to accompany the answer of the above question. </p>
+        </td>
+      </tr>
+    
+      <tr scope="row">
+        <td>
+          <p>Project analyzes data to understand the growth of other data types. </p>
+        </td>
+        <td>
+          <p>Project analyzes data to answer which of the data types is growing at the fastest rate? Analyze around :</p>
+<ul>
+<li>Event logs</li>
+<li>Transactional data</li>
+<li>Customer data</li>
+</ul>
+<p>Project has logical reasoning to explain why the data types are growing fastest.</p>
+        </td>
+      </tr>
+    
+      <tr scope="row">
+        <td>
+          <p>Project analyzes all event type data to get deeper business insights. </p>
+<p>Project adds other observations that might be relevant based on the data?</p>
+        </td>
+        <td>
+          <p>The project has one graph created that shows all the different event types.</p>
+<p>The project analyzes the pattern of different event types. To answer the following questions:</p>
+<ol>
+<li>Are all graphs following the same pattern? </li>
+<li>Why is this good or bad for the business?</li>
+<li>There was a marketing campaign run in the first week of October. Did it impact data generation? </li>
+<li>What does this tell us about marketing campaigns in terms of impact on data generation? </li>
+<li>Why is it important to know?</li>
+</ol>
+<p>Hint: Use logarithmic scale</p>
+        </td>
+      </tr>
+    
+    </tbody>
+  
+        </table>
+
+      </div>
+    
+      <div>
+        <h2><p>Data Warehouse</p></h2>
+        <table class="table table-bordered table-hover">
+          <thead>
+            <tr class="thead-dark">
+              <th>Criteria</th>
+              <th>Meet Specification</th>
+            </tr>
+          </thead>
+          
+    <tbody>
+      
+      <tr scope="row">
+        <td>
+          <p>Project provides a recommendation on Flyber's data warehousing strategy </p>
+        </td>
+        <td>
+          <p>The project proposes either a Cloud or on-premise solution for their Data Warehouse.</p>
+<p>The project analysis addresses the following aspects when choosing a warehouse: </p>
+<ol>
+<li>Cost</li>
+<li>Scalability</li>
+<li>Expertise needed</li>
+<li>Latency</li>
+<li>Reliability</li>
+</ol>
+<p>The project uses information from the analysis done in previous sections to support the Data Warehouse chosen. </p>
+<p>Optional: Project suggests a hybrid strategy and addressing all of the items above</p>
+        </td>
+      </tr>
+    
+      <tr scope="row">
+        <td>
+          <p>The project suggests a specific Data Warehouse solution from the chosen category. </p>
+        </td>
+        <td>
+          <p>Project makes suggestion around a specific Data Warehouse  solution along with a strong reasoning to support its choice. </p>
+<p>Pick from following:</p>
+<p>Cloud- Amazon Redshift, Google BigQuery, Snowflake or Microsoft Azure </p>
+<p>On-prem- Oracle Exadata, Teradata, Vertica, Apache or Hadoop</p>
+<p>Project has data/information used from the analysis done in previous sections. </p>
+<p>Optional: Project suggests a hybrid data strategy and addresses the relevant products and provides reasoning on the choices made.</p>
+        </td>
+      </tr>
+    
+    </tbody>
+  
+        </table>
+
+      </div>
+    
+      <div class="jumbotron">
+        <h3>Tips to make your project standout:</h3>
+        <p><ol>
+<li>Project identifies fields that would be good to include, but not required. </li>
+<li>Project creates other relevant data visualizations to add to the dashboard such as all event types on a logarithmic scale. </li>
+<li>Project includes a working public link to the dashboard.</li>
+<li>Project suggests a hybrid strategy and addressing all of the items above.</li>
+<li>Project suggests a hybrid data strategy and addresses the relevant products and provides reasoning on the choices made.</li>
+</ol></p>
+      </div>
+    
+          </div>
+
+          <div class="col-12">
+            <p class="text-right">
+            </p>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p class="text-center">
+                <a href="https://us-udacity.github.io/" target="_blank">【udacity2.0 】If you need more courses, please add wechat：udacity6</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+  <script src="../assets/js/jquery-3.3.1.min.js"></script>
+  <script src="../assets/js/plyr.polyfilled.min.js"></script>
+  <script src="../assets/js/bootstrap.min.js"></script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="../assets/js/katex.min.js"></script>
+  <script>
+    // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('Build a Scalable Data Strategy')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+</body>
+
+</html>

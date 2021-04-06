@@ -1,0 +1,40 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:05.910
+Stepping back, data warehouses are needed to make informed business decision.
+
+00:00:05.910 --> 00:00:09.630
+So what are some of the major use cases of data warehouses?
+
+00:00:09.630 --> 00:00:13.830
+Multiple databases across the organization,
+
+00:00:13.830 --> 00:00:17.445
+large databases, and lots of historical data.
+
+00:00:17.445 --> 00:00:21.945
+Data warehouses are best for data mining in such scenarios.
+
+00:00:21.945 --> 00:00:26.865
+For use cases such as market research analysis,
+
+00:00:26.865 --> 00:00:31.920
+when large volumes of data is needed to do in-depth analysis,
+
+00:00:31.920 --> 00:00:34.605
+and multiple dimensions of data help,
+
+00:00:34.605 --> 00:00:37.080
+data warehouses fit the bill.
+
+00:00:37.080 --> 00:00:42.065
+User behavior analysis could be another use case for data warehouses.
+
+00:00:42.065 --> 00:00:45.110
+Again, large volume of data is needed,
+
+00:00:45.110 --> 00:00:48.929
+and data is needed from multiple sources.
+
